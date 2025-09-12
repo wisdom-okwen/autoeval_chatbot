@@ -4,9 +4,9 @@ import openai
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv('OPENAI_API_KEY')
+api_key = os.getenv('PERSONAL_OPENAI_KEY')
 if not api_key:
-    raise ValueError('OPENAI_API_KEY not found in .env')
+    raise ValueError('PERSONAL_OPENAI_KEY not found in .env')
 openai.api_key = api_key
 
 # Languages and their weights (English more common)
