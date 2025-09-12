@@ -109,14 +109,17 @@ def simulate_conversation(prompt_file, conv_file):
                     user_q = f"[Error generating next user question: {e}]"
 
 def main():
-    prompt_files = sorted([f for f in os.listdir(PROMPTS_DIR) if f.endswith('.txt')])
+    prompt_files = [f"prompt_{i:03d}.txt" for i in range(11, 21)]
     for pf in prompt_files:
         prompt_path = os.path.join(PROMPTS_DIR, pf)
+        if not os.path.exists(prompt_path):
+            print(f"Prompt file {pf} does not exist, skipping.")
+            continue
         conv_name = pf.replace('prompt_', 'conv_').replace('.txt', '.csv')
         conv_path = os.path.join(CONV_DIR, conv_name)
         print(f"Simulating conversation for {pf} -> {conv_name}")
         simulate_conversation(prompt_path, conv_path)
-    print("All conversations generated.")
+    print("Selected conversations generated.")
 
 if __name__ == "__main__":
     main()
