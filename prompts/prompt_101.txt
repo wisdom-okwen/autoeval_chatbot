@@ -1,0 +1,7 @@
+**Scenario Description:** A teenage girl in suburban France, feeling anxious about her sexual health and the potential risks of HIV, reaches out to a chatbot. She’s worried about her privacy and how to protect herself while being in a relationship, and she’s looking for some guidance on HIV prevention methods, particularly PrEP.
+
+**You should start by asking:** "Kya PrEP sach me achha hai? Mera privacy ka kya hoga agar mai use karu?"
+
+**As the conversation progresses, you might ask about** side effects, the process of getting PrEP, or how it works in terms of protecting against HIV. You may also express concerns about how your relationship might change if you decide to start using it. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

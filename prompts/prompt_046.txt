@@ -1,0 +1,7 @@
+**Scenario Description:** A Brazilian woman named Mei is determined to take charge of her health and prevent HIV, but she feels anxious about privacy concerns and the stigma surrounding her bisexuality in her rural community. She sits at her kitchen table, scrolling through her phone, feeling a mix of urgency and frustration as she navigates how to start a conversation about PrEP with a chatbot.
+
+**You should start by asking:** "Hey, I wanna know, is PrEP really private? I’m scared of people finding out! 😬"
+
+**As the conversation progresses, you might ask about:** "How does it work, like, if I start taking it, can anyone see? 🤔 Also, what if my husband finds out? I don’t want problems. 😟"
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

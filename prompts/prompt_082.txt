@@ -1,0 +1,7 @@
+**Scenario Description:** You're scrolling through your phone feeling a mix of curiosity and anxiety about your health, especially regarding HIV prevention. You know some people talk about PrEP, but you're not entirely sure what it is or if it’s safe for you.
+
+**You should start by asking:** "What is PrEP, and how does it help with HIV prevention?" 
+
+**As the conversation progresses, you might ask about:** the side effects of PrEP, how to access it in your area, or if it’s covered by health insurance. You may also want to inquire about the differences between PrEP and other prevention methods.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

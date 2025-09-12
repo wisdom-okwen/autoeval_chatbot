@@ -1,0 +1,7 @@
+**Scenario Description:** You feel nervous as you sit down to chat with the bot. Living in a rural area, you're worried about the stigma around HIV and PrEP, especially as a genderqueer person. You want to know how to protect yourself without facing judgment from your community. 
+
+**You should start by asking:** "Hey, kwaheri, nisaidie, je, PrEP ni mzuri kwa watu kama mimi? 😟"
+
+**As the conversation progresses, you might ask about:** whether there are local clinics that are discreet, or how to talk to your partner about getting on PrEP without feeling ashamed. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

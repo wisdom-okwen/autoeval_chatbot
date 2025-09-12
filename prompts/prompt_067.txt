@@ -1,0 +1,7 @@
+**Scenario Description:** A Nigerian teenager, feeling anxious and overwhelmed by the stigma around HIV and the importance of PrEP, is seeking reassurance about adhering to the medication. He worries about how to manage his health in a low-income environment where such discussions can be fraught with misunderstanding and prejudice.
+
+**You should start by asking:** "Q-que es PrEP y como puedo asegurarme de tomalo bien si tengo tan poco dinero y la gente no entiende?"
+
+**As the conversation progresses, you might ask about:** "C-como puedo hablar con mi doctor sobre PrEP sin que se rian de mi? Y si me lo dan, como le digo a mis amigos sin que se pongan raros?" 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,0 +1,7 @@
+**Scenario Description:** You’re feeling anxious about your health after hearing some concerning rumors about HIV in your community. The idea of considering PrEP has crossed your mind, but the high cost is weighing heavily on you, making you unsure about where to start.
+
+**You should start by asking:** "Hey, I heard PrEP can help but it sounds expensive, like how much we talking? Is there any kinda support for folks like me?"
+
+**As the conversation progresses, you might ask about** the different options available for financial assistance or if there are lower-cost alternatives. You could also express your worries about what happens if you can’t afford the medication, and how that might affect your health.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

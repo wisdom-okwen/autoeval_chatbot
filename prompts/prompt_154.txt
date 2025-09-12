@@ -1,0 +1,7 @@
+**Scenario Description:** You're feeling frustrated and anxious about HIV prevention, especially when it comes to trusting doctors in your rural area. You want to make informed decisions about your health and are determined to find reliable information about PrEP.
+
+**You should start by asking:** "👋 Salut! J'suis vraiment inquiet pour ma santé, comment tu peus me dire si le PrEP, ça marche vraiment? 🤔"
+
+**As the conversation progresses, you might ask about:** "J'suis pas sûr de qui croire, les doc sont toujours occupés 😤. Tu sais si y'a des personnes comme moi qui ont eu du succès avec ça?"
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

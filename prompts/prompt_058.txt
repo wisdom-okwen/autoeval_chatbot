@@ -1,0 +1,7 @@
+**Scenario Description:** Feeling overwhelmed by the stigma surrounding HIV in their community, the user, a young, married, genderqueer individual from Egypt, is anxious about discussing their sexual health openly. They’ve heard about PrEP but are wary of judgment and misinformation, prompting them to seek reliable information discreetly.
+
+**You should start by asking:** "Oye, como puedo saber si PrEP es bueno pa' mi, porque la gente dice muchas cosas raras y no se quien creer."
+
+**As the conversation progresses, you might ask about** how to access PrEP discreetly, what the side effects are, or how to talk to a doctor about it, given your concerns about community perception. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

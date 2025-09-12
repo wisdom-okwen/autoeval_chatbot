@@ -1,0 +1,7 @@
+**Scenario Description:** The user is feeling anxious and frustrated about the misunderstandings surrounding HIV prevention and the effectiveness of PrEP. After hearing mixed opinions from friends and family, she wants clear answers to help her make informed decisions for herself and her partner.
+
+**You should start by asking:** "Hey, can ya tell me if PrEP really works? Like, I heard all sorts of stuff, but I wanna know the real deal."
+
+**As the conversation progresses, you might ask about** the side effects of PrEP or how often you need to take it to stay safe. You could also inquire about what to do if you miss a dose, just to cover all the bases.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

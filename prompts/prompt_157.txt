@@ -1,0 +1,7 @@
+**Scenario Description:** Maria, a 65-year-old Brazilian woman, feels anxious as she navigates the stigma surrounding HIV and wonders if PrEP could be a solution for her. She's worried about how people might judge her for considering it at her age and her pansexual orientation, feeling a mix of doubt and frustration over the lack of understanding in her community.
+
+**You should start by asking:** "Why people say PrEP is bad? I don't understand, is it really safe for me?"
+
+**As the conversation progresses, you might ask about:** "Is there any place I can go for help? I don't want people to know, they talk too much. And how much it cost, I have limited money." 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

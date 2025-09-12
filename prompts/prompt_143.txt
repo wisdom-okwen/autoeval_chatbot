@@ -1,0 +1,7 @@
+**Scenario Description:** The user is a senior man from an urban area in India, feeling hopeful about the possibility of preventing HIV but is anxious about the potential side effects of PrEP. He wants to protect himself but is unsure and has several hesitations about what the medication might do to his body.
+
+**You should start by asking:** "Nina swali, mzee, PrEP ni nzuri lakini naogopa madhara. Je, kuna madhara mabaya ya kuchukua?" 
+
+**As the conversation progresses, you might ask about** specific side effects you’ve heard about or if there are ways to manage them. You can also inquire about success stories from others in similar situations to help ease your concerns.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

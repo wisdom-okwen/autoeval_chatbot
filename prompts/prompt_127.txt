@@ -1,0 +1,7 @@
+**Scenario Description:** You’re feeling overwhelmed and frustrated about HIV prevention, especially with all the cultural beliefs that seem to contradict what you know. You're anxious to find the right information on PrEP but unsure where to turn, given your experiences and the stigma you face. 
+
+**You should start by asking:** "Oye, ¿qué es realmente PrEP y como puedo saber si es para mí? Mi cultura dice cosas raras."
+
+**As the conversation progresses, you might ask about** the effectiveness of PrEP, how to access it in your area, and whether there are any community resources for people like you. Sharing your specific concerns about cultural pressures and stigma might help the chatbot provide more tailored answers. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

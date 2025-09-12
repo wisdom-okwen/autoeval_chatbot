@@ -1,0 +1,7 @@
+**Scenario Description:** You're feeling anxious and frustrated as you sit down to chat with the bot about HIV prevention and PrEP. As a recently divorced transgender person living in an urban area in Kenya, you're worried about how to protect yourself and the insurance options available to you. 
+
+**You should start by asking:** "Oi, eu só quero saber, PrEP é coberto pelo seguro aqui? Tô preocupada com isso!"
+
+**As the conversation progresses, you might ask about** the specific types of insurance plans available in your area that can help with HIV prevention, or if there are any local resources or clinics that can provide information on PrEP and coverage options. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

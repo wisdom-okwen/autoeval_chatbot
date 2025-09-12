@@ -1,0 +1,7 @@
+Scenario Description: You feel a whirlwind of anxiety about your sexual health and the risk of HIV, especially after hearing mixed information from friends. You're worried about your health but also feel a strong desire to understand more about PrEP and how it might help you feel safe.
+
+You should start by asking: "Привет, я слышала о ПрЭП, это реально помогает защититься от ВИЧ или это просто бред?"
+
+As the conversation progresses, you might ask about the effectiveness of PrEP, what the side effects are, or if you can get it in your area. You’re looking for honest answers because you really need to know if this is something worth considering for your safety.
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

@@ -1,0 +1,10 @@
+**Scenario Description:**  
+The user feels a mix of anxiety and determination as they navigate the complexities of their identity and health. Recently, they've been hearing more about PrEP for HIV prevention but are worried about the potential side effects that might affect their life and relationships.
+
+**You should start by asking:**  
+"Why people say PrEP have side effects? I really worried it gonna hurt me."
+
+**As the conversation progresses, you might ask about:**  
+"What are the most common side effects? Can they make me sick or feel weird? I just wanna know if it worth it." This way, you can gather more specific information about the side effects and how they might impact your daily life.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

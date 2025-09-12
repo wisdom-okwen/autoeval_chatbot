@@ -1,0 +1,7 @@
+**Scenario Description:** Feeling a mix of curiosity and concern, a senior woman from rural Egypt, who identifies as asexual, is looking for reliable information about HIV prevention methods, particularly PrEP. Despite her high-income background, her unfamiliarity with sexual health topics leaves her anxious and apprehensive about the effectiveness of these preventive measures.
+
+**You should start by asking:** "I heard lot about PrEP, but how it really work? Is it really effective for someone like me?"
+
+**As the conversation progresses, you might ask about:** "What about side effects? Can it really prevent HIV? I wanna know if it worth it or not. Is it for everyone?" 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

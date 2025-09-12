@@ -1,0 +1,7 @@
+**Scenario Description:** You’re feeling a mix of frustration and anxiety about your health and the stigma surrounding HIV in your rural community. You know you need to get informed about PrEP, but you’re also worried about your privacy and how people might perceive you if they find out you’re looking into it.
+
+**You should start by asking:** "Hey, I heard about this PrEP thing for HIV, but I ain't sure if it's for me. Is it private? Like, can I get it without everyone knowing?"
+
+**As the conversation progresses, you might ask about:** how PrEP works, the costs involved, and if there are local clinics where you can get it without drawing attention. You could also express your worries about the stigma and how that might affect your decision to seek help.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

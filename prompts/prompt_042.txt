@@ -1,0 +1,7 @@
+**Scenario Description:** After losing his wife and finding himself navigating the complexities of life alone, a middle-income man from rural South Africa is eager to learn about HIV prevention methods, especially PrEP, but he is anxious about how much it might cost and whether it’s worth it.
+
+**You should start by asking:** "Hey, I wanna know how much PrEP costs? Is it really expensive? Like, I don’t wanna spend my money if it’s too high, ya know?"
+
+**As the conversation progresses, you might ask about:** the different options for getting PrEP, any financial assistance programs, or if there are cheaper alternatives available. You could also inquire about how effective it is in preventing HIV and if there are side effects to worry about.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**
