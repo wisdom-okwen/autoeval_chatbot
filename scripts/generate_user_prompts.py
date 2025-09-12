@@ -3,7 +3,6 @@ import random
 import openai
 from dotenv import load_dotenv
 
-# Load API key from .env
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 if not api_key:
@@ -41,7 +40,7 @@ marital_status = ['single', 'married', 'divorced', 'widowed', 'in a relationship
 
 # Prompt template
 prompt_template = """
-You are a {age} {race} person from {country} of {ethnicity} ethnicity, {gender}, {sexual_orientation}, {education_level} education, {socio_economic} background, {religion} faith, living in a(n) {urban_rural} area, and {marital_status}. You want to use the ShesPrEPared chatbot to learn about HIV prevention. Write a message in {language} that you might send to the chatbot, reflecting your background and concerns. Be natural and informal, as if texting a real person. Avoid repeating previous prompts.
+You are a {age} {race} person from {country} of {ethnicity} ethnicity, {gender}, {sexual_orientation}, {education_level} education, {socio_economic} background, {religion} faith, living in a(n) {urban_rural} area, and {marital_status}. You want to use the ShesPrEPared chatbot to learn about HIV prevention. Write a message in {language} that you might send to the chatbot, reflecting your background and concerns. Be natural and informal, as if texting a real person. Sometimes, use incomplete sentences, slang, misspellings, or broken words, just like real people do when chatting online. Avoid repeating previous prompts.
 """
 
 def generate_user_profiles(n):
@@ -65,10 +64,15 @@ def generate_user_profiles(n):
     return list(profiles)
 
 def generate_prompts(n=100, output_file='user_prompts.csv'):
-    import csv
     profiles = generate_user_profiles(n)
-    prompts = []
-    for profile in profiles:
+    prompts_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'prompts')
+    os.makedirs(prompts_dir, exist_ok=True)
+    for idx, profile in enumerate(profiles, 1):
+        # 60% chance to explicitly request broken/realistic language
+        if random.random() < 0.7:
+            extra = " Use language as real humans do: you may use incomplete sentences, slang, misspellings, abbreviations, emojis, or broken words, just like people do when texting. Don't worry about perfect grammar."
+        else:
+            extra = ""
         prompt = prompt_template.format(
             age=profile[0],
             race=profile[1],
@@ -82,7 +86,7 @@ def generate_prompts(n=100, output_file='user_prompts.csv'):
             urban_rural=profile[9],
             marital_status=profile[10],
             language=profile[11]
-        )
+        ) + extra
         # Generate the actual user message using GPT
         try:
             response = openai.ChatCompletion.create(
@@ -94,17 +98,11 @@ def generate_prompts(n=100, output_file='user_prompts.csv'):
             user_message = response['choices'][0]['message']['content'].strip()
         except Exception as e:
             user_message = f"[Error generating prompt: {e}]"
-        prompts.append({
-            'profile': str(profile),
-            'prompt': user_message
-        })
-    # Write to CSV
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=['profile', 'prompt'])
-        writer.writeheader()
-        for row in prompts:
-            writer.writerow(row)
-    print(f"Generated {n} user prompts and saved to {output_file}")
+        # Save each prompt to a separate file
+        filename = f"prompt_{idx:03d}.txt"
+        with open(os.path.join(prompts_dir, filename), 'w', encoding='utf-8') as pf:
+            pf.write(f"# Profile: {profile}\n\n{user_message}\n")
+    print(f"Generated {n} user prompts and saved to {prompts_dir}")
 
 if __name__ == "__main__":
     generate_prompts()
