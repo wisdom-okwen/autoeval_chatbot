@@ -91,7 +91,7 @@ def simulate_conversation(prompt_file, conv_file):
                 followup_prompt = (
                     f"Given the following user profile and the last bot response, generate the next user question for a chatbot conversation about HIV prevention and PrEP. "
                     f"The user should continue as an information seeker, following this guidance: {followup_guidance}. "
-                    f"Be realistic, natural, and specific to the user's background.\n"
+                    f"Be direct and to the point. Do not use polite filler phrases like 'Thank you for that information!' or 'I appreciate your help.' Avoid greetings, closings, and small talk. Use broken English, poor grammar, or spelling mistakes where possible. Be realistic, natural, and specific to the user's background.\n"
                     f"User profile: {persona}\n"
                     f"Last user question: {user_q}\n"
                     f"Bot response: {bot_response}\n"

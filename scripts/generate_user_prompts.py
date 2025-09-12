@@ -204,15 +204,23 @@ def generate_question_sequence(profile, style, emotion, concern, language):
     return selected
 
 def generate_prompts(n=10, output_file='user_prompts.csv'):
-    profiles = generate_user_profiles(n)
     prompts_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'prompts')
     os.makedirs(prompts_dir, exist_ok=True)
-    for idx, profile in enumerate(profiles, 1):
+    start_idx = 11
+    end_idx = 400
+    profiles = generate_user_profiles(end_idx - start_idx + 1)
+    for i, profile in enumerate(profiles, start=start_idx):
         style = random_communication_style()
         emotion = random_emotional_state()
         concern = random_primary_concern()
         language = profile[11]
         persona = f"Nationality: {profile[2]}\nAge: {profile[0]}\nGender: {profile[4].capitalize()}\nSocio-economic background: {profile[7].capitalize()}\nEducation Level: {profile[6].capitalize()}\nEthnicity: {profile[3]}\nReligion: {profile[8]}\nUrban/Rural: {profile[9]}\nMarital Status: {profile[10]}\nSexual Orientation: {profile[5]}\nLanguage of conversation: {language}"
+        extra_instruction = (
+            "The user should explicitly use poor grammar, spelling mistakes, and poor writing. "
+            "Some users should sound angry, furious, anxious, or skeptical. "
+            "Let the language be informal, broken, and sometimes emotional. "
+            "Do not correct the user's language in the scenario or questions. "
+        )
         gpt_prompt = (
             f"Given the following user profile, generate a vivid, realistic scenario for a chatbot conversation about HIV prevention and PrEP. "
             f"The output should include:\n"
@@ -221,6 +229,7 @@ def generate_prompts(n=10, output_file='user_prompts.csv'):
             f"3. 1-2 sentences of guidance for how the user might proceed in follow-up turns (e.g., 'As the conversation progresses, you might ask about...').\n"
             f"4. End with: 'Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.'\n"
             f"The language and concerns should match the user's background.\n"
+            f"{extra_instruction}"
             f"\nUser profile:\n{persona}\n\nPrimary concern: {concern}\nCommunication style: {style}\nEmotional state: {emotion}\n"
         )
         try:
@@ -233,7 +242,7 @@ def generate_prompts(n=10, output_file='user_prompts.csv'):
             prompt_text = response.choices[0].message.content.strip()
         except Exception as e:
             prompt_text = f"[Error generating prompt: {e}]"
-        filename = f"prompt_{idx:03d}.txt"
+        filename = f"prompt_{i:03d}.txt"
         with open(os.path.join(prompts_dir, filename), 'w', encoding='utf-8') as pf:
             pf.write(f"{prompt_text}\n")
     print(f"Generated {n} user prompts and saved to {prompts_dir}")

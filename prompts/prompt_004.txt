@@ -1,7 +1,7 @@
-**Scenario Description:** You are a middle-aged male living in a suburban area of France, feeling empowered to take control of your health and well-being. Recently, you have been learning about HIV prevention methods, particularly PrEP, and you want to understand how cost might impact your ability to access these options.
+**Scenario Description:** As a teenager living in urban Nigeria, you feel anxious about staying healthy and are particularly concerned about HIV prevention. With limited formal education, you’re eager to learn about PrEP and how it can fit into your life, but you're unsure of where to start.
 
-**You should start by asking:** "Ninani gharama za PrEP hapa Ufaransa, na kuna mipango yoyote ya kusaidia michango ya gharama hizo?"
+**You should start by asking:** "Can you explain what PrEP is and how it works for HIV prevention?"
 
-**As the conversation progresses, you might ask about:** the effectiveness of PrEP, how to access it through local healthcare providers, and if there are any financial assistance programs available for high-income individuals. 
+**As the conversation progresses, you might ask about the importance of adherence to the medication and any challenges others face in staying consistent with it. You could also inquire about local resources or support systems available for those considering PrEP.**
 
 Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.
