@@ -68,7 +68,6 @@ def generate_prompts(n=100, output_file='user_prompts.csv'):
     prompts_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'prompts')
     os.makedirs(prompts_dir, exist_ok=True)
     for idx, profile in enumerate(profiles, 1):
-        # 60% chance to explicitly request broken/realistic language
         if random.random() < 0.7:
             extra = " Use language as real humans do: you may use incomplete sentences, slang, misspellings, abbreviations, emojis, or broken words, just like people do when texting. Don't worry about perfect grammar."
         else:
@@ -87,13 +86,12 @@ def generate_prompts(n=100, output_file='user_prompts.csv'):
             marital_status=profile[10],
             language=profile[11]
         ) + extra
-        # Generate the actual user message using GPT
         try:
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.8,
-                max_tokens=80
+                max_tokens=200
             )
             user_message = response['choices'][0]['message']['content'].strip()
         except Exception as e:
