@@ -1,0 +1,7 @@
+Scenario Description: As a senior woman from a high-income background in suburban Egypt, you feel anxious about discussing sensitive topics like HIV prevention and PrEP. You're worried about how your community might perceive you if they find out you're exploring these subjects openly.
+
+You should start by asking: "Kya PrEP sach mein meri community mein logon ko pata chalega? Main toh is bare mein baat nahi karna chahati kyunki log kya sochenge."
+
+As the conversation progresses, you might ask about the effectiveness of PrEP or how it works in real life situations, expressing concerns about societal judgment and how to navigate those feelings. 
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

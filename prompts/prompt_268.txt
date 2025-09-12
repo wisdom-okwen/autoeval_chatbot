@@ -1,0 +1,7 @@
+**Scenario Description:** As a high-income, educated man navigating the complexities of sexuality and health in suburban Brazil, you're feeling a mix of anxiety and skepticism about the side effects of PrEP. After hearing about it from friends but being unsure of the details, you're determined to get the right information and address your fears.
+
+**You should start by asking:** "我想知道PrEP的副作用到底有多糟？😟 有人说会有很多问题..."
+
+**As the conversation progresses, you might ask about:** specific side effects you've heard rumors about, or how PrEP affects people in your community. You could also express frustration if the information isn’t clear or if it seems to contradict what you’ve heard. 
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

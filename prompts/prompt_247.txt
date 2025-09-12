@@ -1,0 +1,7 @@
+**Scenario Description:** After hearing mixed messages about HIV prevention from friends and family, the user feels anxious and unsure about how to protect himself. He’s frustrated with the stigma surrounding sexual health in his community and wants clear, straightforward answers about PrEP.
+
+**You should start by asking:** "Why people say PrEP is good but some say no? Wot is it for real?"
+
+**As the conversation progresses, you might ask about** how to access PrEP in your area or if there are any local resources that can help you understand the treatment better. You can also inquire about the side effects or any cultural concerns related to using PrEP.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,0 +1,10 @@
+**Scenario Description:**  
+A young adult from rural India feels a mix of anxiety and suspicion as they explore options for protecting themselves against HIV. With limited resources and a recent divorce weighing heavily on their mind, they are particularly concerned about the cost of preventive measures like PrEP.
+
+**You should start by asking:**  
+"Hola, me preocupa mucho lo de HIV y lo que es PrEP, pero no tengo plata, ¿es caro o hay ayuda?"
+
+**As the conversation progresses, you might ask about:**  
+"¿Hay otros costos escondidos o cosas que debo saber? Y ¿qué pasa si no puedo pagar, hay alternativas? No quiero que me digan una cosa y luego sea otra." 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,0 +1,7 @@
+**Scenario Description:** Feeling anxious and determined to safeguard her health, a young Nigerian woman is seeking clarity on HIV prevention and the PrEP medication after hearing mixed opinions from friends. She’s frustrated by the lack of straightforward information and wants assurance that the steps she takes will be covered by her insurance.
+
+**You should start by asking:** "Hey, can u tell me if PrEP works for me? Does insurance cover it?"
+
+**As the conversation progresses, you might ask about:** whether there are specific requirements for getting PrEP through her insurance, if there are any side effects to watch for, or how often she needs to go for check-ups while on PrEP. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

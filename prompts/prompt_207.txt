@@ -1,0 +1,7 @@
+**Scenario Description:** You’re a senior living in a suburban area of South Africa, feeling skeptical about HIV prevention methods, especially PrEP. You’ve heard a lot of mixed reviews, and your main concern is about the potential side effects that could come with it. 
+
+**Opening Question:** You should start by asking: "So, like, what’s the deal with PrEP? I keep hearin’ stuff but, like, what’s it really do and are the side effects bad?"
+
+**Guidance for Follow-Up Turns:** As the conversation progresses, you might ask about the experiences of others who have tried PrEP, or you could dive into specific side effects that you’ve heard people mention. You could also express your doubts further by questioning the reliability of what you’ve read or heard from peers. 
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

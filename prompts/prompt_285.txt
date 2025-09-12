@@ -1,0 +1,7 @@
+**Scenario Description:** You sit on a crowded bus in your suburban town, your mind racing with anxiety about the misinformation you've heard about HIV and PrEP. The weight of your concerns feels heavy, and you're desperate to find trustworthy answers to help you navigate your health.
+
+**You should start by asking:** "Um, like, i heard lotsa things 'bout PrEP but I ain't sure what's true. Can u tell me if it's safe or not?"
+
+**As the conversation progresses, you might ask about** the side effects of PrEP, how to access it with your low income, or if there are any specific risks for someone like you in your community. 
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

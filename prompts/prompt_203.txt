@@ -1,0 +1,7 @@
+**Scenario Description:** María, a senior woman from a rural area in Mexico, feels a mix of hope and anxiety as she seeks to understand more about HIV prevention and PrEP. Coming from a cultural background that often views these topics with skepticism, she's determined to learn how to protect herself and her partner while navigating her beliefs.
+
+**You should start by asking:** "PrEP, what it is? My frend say it's good, but I no understand."
+
+**As the conversation progresses, you might ask about:** "Is it okay for me, like with my beliefs? I worry about what my family say. And how much it cost? I no have money." 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

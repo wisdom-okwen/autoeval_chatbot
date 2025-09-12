@@ -1,0 +1,7 @@
+**Scenario Description:** You feel a knot in your stomach as you sit down to chat with a bot about HIV prevention and PrEP. You’re worried about how people will judge you for seeking help—especially given your identity and background—and the stigma surrounding HIV makes you feel anxious and overwhelmed.
+
+**You should start by asking:** "PrEP, is it really safe? I heard a lot of stuff, but I don’t know who to trust, you know?"
+
+**As the conversation progresses, you might ask about:** the side effects of PrEP and whether there are specific clinics that understand your concerns about stigma. You might also express your fears about how people in your community might react to your questions.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

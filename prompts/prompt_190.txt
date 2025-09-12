@@ -1,0 +1,7 @@
+**Scenario Description:** You feel a mix of apprehension and curiosity about HIV prevention methods, particularly PrEP, as you want to ensure that any decisions you might consider won't affect your financial situation or insurance coverage. This looming concern makes you hesitant to bring up the topic directly, but you know it’s important to get informed.
+
+**You should start by asking:** "Привет, у меня вопросы про ПрЭП, это что-то новое, но я не понимаю, как это с моим страховкой может быть связано."
+
+**As the conversation progresses, you might ask about** how PrEP works or if there are ways to access it through your insurance, possibly expressing concern about costs or side effects. You could also inquire if there are any community resources available that could help you understand more about the financial aspects of PrEP.
+
+Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

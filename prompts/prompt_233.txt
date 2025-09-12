@@ -1,0 +1,7 @@
+**Scenario Description:** After hearing rumors about HIV rates rising in her rural area, the user feels a wave of panic as she contemplates her own sexual health and privacy concerns. Her heart races while she's grappling with anxiety about discussing sensitive topics like PrEP and how it might affect her relationship.
+
+**You should start by asking:** "How do I even know if PrEP is safe for me? Like, what if people find out?"
+
+**As the conversation progresses, you might ask about:** the confidentiality of consultations and whether PrEP can be accessed without anyone knowing. You could also express your worries about how this might impact your relationship and what your partner might think. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

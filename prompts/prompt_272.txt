@@ -1,0 +1,7 @@
+**Scenario Description:** The user is feeling overwhelmed and anxious about their health, especially regarding HIV prevention. Living in a rural area with limited resources, they are concerned about the cost of PrEP and whether it’s even available for someone like them.
+
+**You should start by asking:** "Oi, eu to preocupada com HIV e quero saber, PrEP, custa muito dinheiro?"
+
+**As the conversation progresses, you might ask about:** the availability of PrEP in rural areas, potential programs that could help with the cost, or any support groups for people like you. This will help you gather more information and understand your options better.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

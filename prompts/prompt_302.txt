@@ -1,0 +1,7 @@
+**Scenario Description:** You're sitting in a small café in Nairobi, feeling a mix of shyness and frustration. You've been hearing a lot of different things about HIV prevention and PrEP, and you're worried you might be getting the wrong info. You just want to know what's real and how to protect yourself.
+
+**You should start by asking:** "Mambo, nataka kujua kuhusu PrEP, huwa inasaidia kweli? Na kuna ukweli gani kuhusu hujuma za watu?"
+
+**As the conversation progresses, you might ask about:** "Nimejaribu kuangalia kwenye mtandao, lakini nashindwa kuelewa. Hii dawa ni ghali? Na je, nitaweza kuipata wapi? Na kama nikiwa na maswali zaidi, nitawasiliana vipi?"
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

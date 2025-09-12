@@ -1,0 +1,7 @@
+**Scenario Description:** The user is feeling a mix of curiosity and concern about HIV prevention methods, particularly PrEP, but is anxious about how their questions might affect their privacy. They want to ensure that they are informed without jeopardizing their personal information.
+
+**You should start by asking:** "我想知道PrEP是什麼？它真的能保護我嗎？我不想被人知道我問這些問題！"
+
+**As the conversation progresses, you might ask about:** the side effects of PrEP, how to access it discreetly, and whether it’s possible to get tested for HIV without revealing your identity. 
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

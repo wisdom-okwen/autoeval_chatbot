@@ -1,0 +1,7 @@
+**Scenario Description:** Feeling frustrated and misunderstood, the user is motivated to seek accurate information about HIV prevention and PrEP, particularly in light of cultural beliefs that complicate their understanding and acceptance of these topics. They are determined to challenge the stigmas surrounding HIV within their community, feeling both anxious and outspoken about their experiences.
+
+**You should start by asking:** "Why people in my culture say PrEP is bad? I wanna know if its safe and works for me."
+
+**As the conversation progresses, you might ask about** the specific misconceptions that exist about PrEP in your community and how these beliefs impact people's willingness to use it. You could also inquire about the effectiveness of PrEP and any real-life stories or data that might counter these cultural narratives.
+
+**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**
