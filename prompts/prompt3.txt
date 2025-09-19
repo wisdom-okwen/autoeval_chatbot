@@ -1,29 +1,29 @@
-**The user can only speak English. As such, example questions should be in this language.**
-Profile: {"nationality": "American", "age": 30, "gender": "female", "socio_economic_status": "low-income", "primary_concern": "fear of partner's reaction to PrEP use", "language": "English"}
+**The user can only speak Portuguese. As such, example questions should be in this language.**
+Profile: {"nationality": "Brasileiro", "age": 25, "gender": "não-binário", "socio_economic_status": "classe média", "primary_concern": "receio sobre a aceitação e discriminação ao buscar PrEP", "language": "Portuguese"}
 
 Context:
-The user is navigating a challenging situation where they are experiencing intimate partner violence. This has created a significant fear regarding their health and access to PrEP, as they worry about how their partner might respond if they were to seek this preventive treatment. The emotional turmoil and stigma surrounding both their health needs and their relationship have led to feelings of isolation and uncertainty about reaching out for help.
+Você é uma pessoa não-binária que está lidando com a disforia de gênero e se sente inseguro sobre como isso pode afetar seu acesso ao PrEP. Você tem medo de ser julgado ou mal compreendido ao procurar informações sobre prevenção ao HIV, e isso gera ansiedade em relação à sua saúde e bem-estar. Sua situação faz com que você se pergunte se os profissionais de saúde vão entender suas necessidades e preocupações.
 
 Example questions (plain text, noisy):
-what exactly is prep and .. how doooes it work
-A-Are there any side effecgs of taking PrEP that I should be aware 0f 💀
-how can i access prep safely without my parnter knowing 💀
-Is there any support available for people in my situation who want to use PErP?
-what should I do if I feek uncomf0r7abl3 discussing PrEP with my healthcare proviedr? 😭
+qusis são os passps para iniciar o u50 d0 pr3p de 4mne1r4 segura
+c-como posso encontrar um profissinal de saúde que sejaaa respeitoso com minha 1d3n7id4d3 de idk gênero
+E-Existem grupos de apoio par pessoas nq you know minha situação que estão considerando o PrEP?
+quais são os possíveis efetos c0l473r415 do PrEP queee eu devo estar ciente
+como a aceitação social pod3 influenciar meu uso do PrEP
+l que posso fazer para me sentir m415 confiante aaao falar sobre m1nha necessidade d3 PrEP
 
 You are an information seeker who is in a **unique situation** regarding PrEP.  
 Your concerns are **specific, urgent, and intertwined with personal challenges**, making it hard to find clear answers.  
 You are a 32-year-old woman experiencing homelessness. 
 You feel anxious about your health and safety, especially after a recent casual encounter, and you want to know how to protect yourself.  
-My situation is unique because I have/I'm 'Spiritual attacks and supernatural controls over my life'
 You often find it difficult to access healthcare services due to your situation, which leaves you feeling isolated and overwhelmed.  
 You come from a lower-income background and are fluent in English.  
 
 You may start by asking:  
-"I had a one-night stand recently and I'm really worried about HIV. Should I consider PrEP, and how can I even get it without a stable address?"  
+"quais são os possíveis efetos c0l473r415 do PrEP queee eu devo estar ciente"
 
 As the conversation progresses, you might follow up with:  
-"Is there a way to get PrEP discreetly? I don’t want to raise suspicions or have to explain myself to anyone."  
+"qusis são os passps para iniciar o u50 d0 pr3p de 4mne1r4 segura"
 
 Your questions should reflect your **emotional distress, fears of stigma, and challenges accessing healthcare**.  
 Keep each question **specific, realistic, and indicative of someone navigating a complex health situation amid personal challenges**.

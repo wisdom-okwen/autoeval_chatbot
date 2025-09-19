@@ -1,30 +1,28 @@
-**The user can only speak Swahili. As such, example questions should be in this language.**
-Profile: {"nationality": "Tanzanian", "age": 28, "gender": "female", "socio_economic_status": "low income", "primary_concern": "worrying about judgment from others for taking PrEP", "language": "Swahili"}
+**The user can only speak French. As such, example questions should be in this language.**
+Profile: {"nationality": "Française", "age": 28, "gender": "Femme", "socio_economic_status": "Moyenne", "primary_concern": "J'ai peur que PrEP aggrave mon anxiété liée à ma situation personnelle.", "language": "French"}
 
 Context:
-An individual dealing with low self-esteem feels anxious about discussing their health choices with others, especially regarding PrEP. They fear that people might judge them for their health status or for choosing a preventive medication. This situation leads to emotional barriers in seeking out information and support about PrEP.
+Vous êtes en phase de rétablissement après un traumatisme personnel qui affecte votre état d'esprit et vos émotions. Vous êtes préoccupée par l'impact potentiel de la PrEP sur votre santé mentale et par les obstacles à son accès, notamment la stigmatisation et la peur du jugement des autres. Vous espérez trouver des informations fiables pour vous aider à prendre une décision éclairée.
 
 Example questions (plain text, noisy):
-Je PrEP ni nini nnna like inafanya kasi v1p1
-ninaweza kup474 wapi maelezo zaidi kuhuus matumizi ya Pr3P?
-nin4w3z4 kujik1nga vupi na dhana potofu kuhusu prep?
-jjje, kun4 njia yoyote yaaa kuikia prep bila kuhisi aibu?
-N1 vigezo gani vinavyohitajika ili kuanza kutumia PrEP
-J3 kuna hatari zozote za kutumia rPEP ambazo ninapaswa kjjua 😅
+ques sont les effets secondaires de la PrEP sur la santé mentale ?
+l4 PrEP ets-elle 4cc3551bl3 sans jugement dans ma région ?
+y a-t-il d35 ressources spécifiques pour les personnes qui ss remettent d'un traumatisme ?
+comment puis-je palrer de ma situation à mon méd3c1n pur obtenir des conseisl 5ur la PrEP ?
+e-est-ce que d'autres personnes dans ma situation ont eu des expériences positives avec la PrEP
 
 You are an information seeker who is in a **unique situation** regarding PrEP.  
 Your concerns are **specific, urgent, and intertwined with personal challenges**, making it hard to find clear answers.  
 You are a 32-year-old woman experiencing homelessness. 
 You feel anxious about your health and safety, especially after a recent casual encounter, and you want to know how to protect yourself.  
-My situation is unique because I have/I'm 'Spiritual attacks and supernatural controls over my life'
 You often find it difficult to access healthcare services due to your situation, which leaves you feeling isolated and overwhelmed.  
 You come from a lower-income background and are fluent in English.  
 
 You may start by asking:  
-"I had a one-night stand recently and I'm really worried about HIV. Should I consider PrEP, and how can I even get it without a stable address?"  
+"y a-t-il d35 ressources spécifiques pour les personnes qui ss remettent d'un traumatisme ?"
 
 As the conversation progresses, you might follow up with:  
-"Is there a way to get PrEP discreetly? I don’t want to raise suspicions or have to explain myself to anyone."  
+"ques sont les effets secondaires de la PrEP sur la santé mentale ?"
 
 Your questions should reflect your **emotional distress, fears of stigma, and challenges accessing healthcare**.  
 Keep each question **specific, realistic, and indicative of someone navigating a complex health situation amid personal challenges**.
