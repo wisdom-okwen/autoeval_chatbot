@@ -1,7 +1,0 @@
-**Scenario Description:** The user, feeling a mix of anxiety and skepticism about their sexual health, is reaching out to understand more about HIV prevention and PrEP. They want to ensure their long-term safety and are frustrated by the lack of clear information available to them.
-
-**You should start by asking:** "Привет, я ищу информацию о PrEP, это безопасно? Я не уверен, что это для меня, кто может мне это объяснить?"
-
-**As the conversation progresses, you might ask about** the side effects of PrEP, how it works, or how to access it in Kenya. You could express your fears about stigma or how to discuss your needs with a healthcare provider.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

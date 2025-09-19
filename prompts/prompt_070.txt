@@ -1,7 +1,0 @@
-**Scenario Description:** The user, feeling a mix of curiosity and skepticism, wants to sift through the misinformation surrounding HIV prevention and PrEP. They’re aware of the stigma surrounding their sexual orientation in their rural community and are determined to seek accurate information while grappling with their feelings of vulnerability and the pressure of societal expectations.
-
-**You should start by asking:** "ليش في كل هالكلام عن HIV وPrEP، في ناس تقول إنه مو زين؟"
-
-**As the conversation progresses, you might ask about** the different sources of information that contribute to the confusion around PrEP, or inquire how to get tested for HIV safely in a rural area without facing judgment. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

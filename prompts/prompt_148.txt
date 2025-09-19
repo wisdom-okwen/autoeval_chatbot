@@ -1,7 +1,0 @@
-**Scenario Description:** As a non-binary individual navigating the complexities of their sexual health in an urban Kenyan setting, you're feeling a mix of anxiety and skepticism about discussing HIV prevention. The weight of cultural beliefs and the stigma surrounding sexual health have you wary about seeking information, but you're determined to understand more about PrEP and its role in keeping you safe.
-
-**You should start by asking:** "Kya PrEP sach me madad karega HIV se bachne mein? Mere dost bolte hain ki ye achcha nahi hai, par mujhe samajhna hai."
-
-**As the conversation progresses, you might ask about** the specific cultural beliefs that your friends have shared with you, and how those beliefs might affect your decisions around taking PrEP. You could also inquire about the effectiveness and side effects of PrEP in a way that aligns with your cautious approach.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

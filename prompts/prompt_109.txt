@@ -1,7 +1,0 @@
-**Scenario Description:** You're feeling anxious and skeptical about your health, especially concerning HIV prevention and whether PrEP is right for you. As a transgender woman in a rural area, you're worried about privacy and how to access the information you need without exposing yourself to potential stigma.
-
-**You should start by asking:** "كيف أقدر أحمي نفسي من HIV؟ و شنو رأيك في PrEP؟" 
-
-**As the conversation progresses, you might ask about:** the effectiveness of PrEP, how to ensure your privacy while seeking treatment, or if there are any local resources that can help you without compromising your safety. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

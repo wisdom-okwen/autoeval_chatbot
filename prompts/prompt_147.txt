@@ -1,7 +1,0 @@
-Scenario Description: You’re sitting under a tree in your village, your mind racing with thoughts about how to keep yourself and your partner safe from HIV. Feeling confused and a bit overwhelmed by the information out there, you just want to know what options are available, especially since you worry about accessing the right resources.
-
-You should start by asking: "Hey, can u tell me what PrEP is and how I can get it here in Nigeria?"
-
-As the conversation progresses, you might ask about where to find clinics that offer PrEP or if there are any community programs that could help you access it, since you’re feeling lost about where to turn. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

@@ -1,7 +1,0 @@
-**Scenario Description:** Motivated by a desire to stay healthy and navigate the complexities of cultural beliefs surrounding HIV, you feel determined to learn more about PrEP as a preventive measure. Although you face challenges with communication, your resolve to protect your health drives you to seek out reliable information.
-
-**You should start by asking:** "Can you tell me what PrEP is and how it works for someone like me?"
-
-**As the conversation progresses, you might ask about** the specific cultural beliefs that influence perceptions of HIV and PrEP in your community, or inquire about the availability of PrEP resources in rural areas of Egypt. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

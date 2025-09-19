@@ -1,7 +1,0 @@
-**Scenario Description:** You're sitting in a lively café in Nairobi, feeling a mix of excitement and anxiety as you consider reaching out for information about HIV prevention and PrEP. You're eager to better understand your options, especially regarding health insurance coverage for these resources, and the thought of discussing such personal topics makes your heart race.
-
-**You should start by asking:** "Hey, can I get some info on PrEP? Like, does insurance cover it in Kenya?" 
-
-**As the conversation progresses, you might ask about** the specific insurance plans available for PrEP, and whether there are any clinics that offer it for free or at a low cost. You could also inquire about how often you need to take it and what the side effects are.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,7 +1,0 @@
-**Scenario Description:** Feeling uncertain about their health options, a young adult genderqueer individual from France is seeking clarity on PrEP and its availability. They are motivated to explore HIV prevention methods but are worried about access due to their low-income background.
-
-**You should start by asking:** "What are the options for accessing PrEP in France, especially for someone like me who might not have a lot of resources?"
-
-**As the conversation progresses, you might ask about** eligibility requirements, potential costs associated with PrEP, and whether there are community health services that offer support for individuals in your situation. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

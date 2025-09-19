@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling anxious about how people in your village will react to you exploring HIV prevention options, especially PrEP. You want to make sure you’re informed, but the fear of judgment from your community looms heavily over you.
-
-**You should start by asking:** "Is PrEP safe for people like me, and what will my neighbors think if they find out?"
-
-**As the conversation progresses, you might ask about** whether there are local clinics that can provide PrEP confidentially, or how to handle the stigma associated with using preventive measures in your community. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

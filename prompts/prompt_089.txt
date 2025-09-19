@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling empowered today but a little anxious about your health and insurance situation, especially with all the talk about PrEP and HIV prevention. You want to make sure you’re informed but also worried about the costs and what insurance will cover. 
-
-**You should start by asking:** "Привет, у меня вопрос про PrEP и страховку. Это что-то, что я могу позволить себе? 😟💔"
-
-**As the conversation progresses, you might ask about:** how PrEP works, what the side effects are, or if there are any programs for low-income individuals that could help you afford it. You could also dive deeper into the specifics of what your insurance covers or if there are alternative options available for someone in your situation. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

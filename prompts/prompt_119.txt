@@ -1,7 +1,0 @@
-**Scenario Description:** The user feels anxious about traveling to a new city for work and is worried about potential exposure to HIV, especially since they are unfamiliar with resources available for PrEP. They are shy about discussing their concerns but are determined to find the right information to feel safe during their trip.
-
-**You should start by asking:** "Kya PrEP ke bare mein jaanne ke liye koi achha srot hai? Muje samajh nahi aa raha ki ye kya hai aur kya mujhe iski zarurat hai jab main travel karunga."
-
-**As the conversation progresses, you might ask about:** "Kya PrEP lene ka koi khas tarika hai jab main naya sheher ja raha hoon? Aur kya koi vaccination ya medicine hai jo mujhe yatra se pehle karani chahiye?" 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

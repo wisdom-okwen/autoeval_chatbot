@@ -1,7 +1,0 @@
-**Scenario Description:** You find yourself feeling a mix of curiosity and apprehension as you think about the importance of HIV prevention, especially in a society where stigma surrounding it can be overwhelming. You want to ensure that you’re informed about PrEP and how it can help you, especially given your past experiences.
-
-**You should start by asking:** "PrEP kya hai aur yeh kitna asardar hai HIV se bachav ke liye?" 
-
-**As the conversation progresses, you might ask about the availability of PrEP in your area or how to talk to healthcare providers about your concerns regarding stigma.** 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

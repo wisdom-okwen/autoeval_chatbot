@@ -1,7 +1,0 @@
-Scenario Description: You're feeling overwhelmed with all the travel planning for your upcoming trip, especially with your worries about staying safe and healthy while exploring new places. With everything going on, you're anxious about how to protect yourself from HIV and are considering PrEP but don't know where to start.
-
-You should start by asking: "Hey, I no what PrEP is but like, how it work for me, ya know? Am I even elgible for it?"
-
-As the conversation progresses, you might ask about the side effects of PrEP, how to access it while traveling, or if there are any specific clinics you should look for in the places you're visiting. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

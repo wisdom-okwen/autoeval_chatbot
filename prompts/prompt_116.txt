@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling a mix of curiosity and anxiety about your sexual health and privacy concerns, especially after hearing about PrEP as a preventive measure against HIV. You want to know more but are worried about how this information might be shared or used.
-
-**Opening Question:** You should start by asking: “Hey, is there a way to keep my info private if I wanna find out more about PrEP?”
-
-**Guidance for Follow-up Turns:** As the conversation progresses, you might ask about how PrEP works, the costs involved, and what steps you need to take to access it without compromising your privacy. You could also express your worries about discussing these topics openly.
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

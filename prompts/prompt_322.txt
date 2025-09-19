@@ -1,7 +1,0 @@
-Scenario description: You're sitting in a small, crowded café in Cairo, feeling a mix of curiosity and frustration about the conflicting information you've heard about HIV prevention and PrEP. You want to make sure you’re well-informed because you care about your health and the health of your partner, but you’re troubled by the fear of misinformation.
-
-You should start by asking: "Mujhe PrEP ke bare me sahi jaankari chahiye, kya ye sach hai ki ye sirf kuch logon ke liye hai?"
-
-As the conversation progresses, you might ask about the side effects of PrEP or how to access it in your area, expressing your concerns about affordability and availability. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

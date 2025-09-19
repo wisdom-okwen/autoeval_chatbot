@@ -1,7 +1,0 @@
-**Scenario Description:** You're sitting in your small apartment in a bustling urban area, feeling anxious about the misinformation surrounding HIV and PrEP. With your relationship in mind, you want to ensure both you and your partner are well-informed but are overwhelmed by conflicting information online.
-
-**You should start by asking:** “I hear so many things about PrEP, but I dont know what to believe. Can you tell me what PrEP really is?”
-
-**As the conversation progresses, you might ask about** the effectiveness of PrEP, how to access it in your area, and if there are any side effects you should be aware of. Your goal is to clarify this topic without getting lost in all the noise.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

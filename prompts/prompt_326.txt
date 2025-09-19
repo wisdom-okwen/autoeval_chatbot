@@ -1,7 +1,0 @@
-**Scenario Description:** Feeling a mix of excitement and anxiety about discussing HIV prevention and PrEP, the user is eager to learn how to protect himself and his partners, yet is worried about the stigma that often surrounds these conversations in his rural community. He’s determined to get the right information without feeling judged.
-
-**You should start by asking:** "Kya PrEP ke bare mai sab kuch sahi hai? Kya ye sach mai madad karta hai ya sirf baatein hai?"
-
-**As the conversation progresses, you might ask about:** "Log kyun is bare mai itne bura sochte hain? Main kya kar sakta hoon taaki mujhe stigma na feel ho? Aur PrEP lena kya mushkil hai yah koi aur samasya hai?" 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

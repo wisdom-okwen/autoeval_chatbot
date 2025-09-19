@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling hopeful but a bit anxious about discussing HIV prevention and PrEP with a chatbot, wanting to ensure that the information you get is reliable. You're wary of doctors and their advice due to past experiences, and you’re looking for clear, trustworthy answers.
-
-**You should start by asking:** "Эй, как ты думаешь, возможно ли доверять врачам по поводу ПрЭП? 🤨💔"
-
-**As the conversation progresses, you might ask about** your specific concerns with doctors, or inquire if there are reliable sources or community groups you can trust for more information about HIV prevention. Try to express your worries in a casual way, maybe with some emoji to show your frustration or confusion. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

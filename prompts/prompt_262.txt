@@ -1,7 +1,0 @@
-Scenario Description: You feel uneasy and skeptical about discussing sensitive topics like HIV and PrEP, especially in your small rural community where privacy is hard to come by. You're motivated to learn more but are anxious about who might overhear your conversation.
-
-You should start by asking: "How people keep their health info private when talking 'bout PrEP, like is it secure?"
-
-As the conversation progresses, you might ask about the actual effectiveness of PrEP and whether it's really safe for someone like you in your situation. You could also bring up concerns about who else might know if you were to get on PrEP.
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

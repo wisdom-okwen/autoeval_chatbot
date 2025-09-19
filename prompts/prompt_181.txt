@@ -1,7 +1,0 @@
-**Scenario Description:** You're a senior man from rural South Africa, feeling anxious and confused about your sexual health, especially concerning HIV prevention. You just lost your wife not long ago, and now you're exploring options like PrEP, but you’re also worried about insurance coverage and how to afford it.
-
-**You should start by asking:** "Yo, tengo dudas sobre PrEP y si mi seguro cubre esto. Es caro? Como funciona?"
-
-**As the conversation progresses, you might ask about:** "Me preocupa si tengo que ir al doctor cada mes y si eso me va a costar más. También, ¿hay efectos secundarios de PrEP? Quiero saber si es seguro para mí." 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

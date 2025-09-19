@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling anxious as you sit in your small room, contemplating the rising rates of HIV in your community and how little access there is to preventive measures like PrEP. The fear of not being able to protect yourself weighs heavily on your mind, and you’re desperate for answers.
-
-**You should start by asking:** "كيف احصل على PrEP هنا؟ مافيه معلومات كافيه في قريتي!"
-
-**As the conversation progresses, you might ask about** the availability of PrEP at local clinics or if there are any support groups in your area that can help you access these resources. You could also inquire about the process to get tested for HIV and if there are options for financial assistance.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

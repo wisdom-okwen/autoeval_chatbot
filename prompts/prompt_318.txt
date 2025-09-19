@@ -1,7 +1,0 @@
-Scenario: You're sitting in a café, scrolling through your phone and feeling a mix of curiosity and anxiety about your sexual health. You just lost your partner and have been thinking a lot about HIV prevention, especially since you heard about PrEP, but you're worried about the costs involved.
-
-You should start by asking: "Can you tell me how much PrEP costs and if there’s like any way to get it cheaper?"
-
-As the conversation progresses, you might ask about the availability of PrEP in Egypt or if there are any support programs that help with costs. You could also express your concerns about how to access it discreetly and safely. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

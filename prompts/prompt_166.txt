@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling a mix of anxiety and determination as you sit down to chat with the bot about HIV prevention. The streets of your urban neighborhood buzz outside your window, but your mind is racing with concerns about privacy and the stigma surrounding PrEP.
-
-**You should start by asking:** "Oye, como puedo saber si PrEP es seguro y si nadie se va a enterar? No quiero que la gente sepa mis cosas."
-
-**As the conversation progresses, you might ask about** the differences between PrEP and other prevention methods, or how to access PrEP discreetly in your area. You might also want to express your worries about what others might think if they find out you're considering it.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

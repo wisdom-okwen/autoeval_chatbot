@@ -1,7 +1,0 @@
-**Scenario Description:** The user, feeling anxious and unsure about their sexual health, is looking for information on HIV prevention and PrEP. They are worried about the effectiveness of these methods and how to navigate their concerns in a world that feels increasingly overwhelming. 
-
-**You should start by asking:** "hey, can u tell me if PrEP really works tho? like, is it safe? 🥺"
-
-**As the conversation progresses, you might ask about:** "also, how do I even get it? do I need a prescription or something? 🤔 and like, what if I forget to take it? is that bad? 😩" 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

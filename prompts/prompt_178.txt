@@ -1,7 +1,0 @@
-**Scenario Description:** You're feeling excited and a bit nervous as you sit down to chat with the bot about PrEP, having heard about it from friends who say it's important for protecting against HIV. You want to make sure you really understand how effective it is, given your concerns about safety in your relationship.
-
-**You should start by asking:** "Hey, I heard of PrEP, but like, is it really work? How sure can I be it keeps me safe?"
-
-**As the conversation progresses, you might ask about**: the side effects of PrEP, if it’s easy to get, and what the process is like to start taking it. You might also want to know how often you need to get tested for HIV while on PrEP. 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

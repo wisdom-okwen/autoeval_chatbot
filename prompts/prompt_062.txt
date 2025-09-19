@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling a mix of anxiety and caution as you navigate the complexities of HIV prevention. Having recently lost your partner, you're now focused on understanding PrEP and its potential side effects, but you're also frustrated by how little information is available in your language.
-
-**You should start by asking:** "ايه العوارض الجانبيه لبراب وانا خايف من اشياء؟" 
-
-**As the conversation progresses, you might ask about:** "هل في حد من نفس المجتمع عنده تجربه مع براب؟" or "كيف أقدر اتأكد اني مش حاواجه مشاكل صحية؟" This will help you gather insights from someone who might understand your concerns better.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,7 +1,0 @@
-**Scenario Description:** You are feeling overwhelmed and anxious about the idea of starting PrEP for HIV prevention, especially with all the talk about side effects. Living in a rural area of Nigeria, you have limited access to reliable information and support, and it's making you feel frustrated and worried.
-
-**You should start by asking:** "我听说PrEP有很多副作用，真的会这么糟糕吗？我该怎么做才能知道这对我合不合适？"
-
-**As the conversation progresses, you might ask about:** how long the side effects last, what they are specifically, and if there are any alternatives to PrEP that might have fewer side effects. You may also want to express your worries about accessing medication in your rural area.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

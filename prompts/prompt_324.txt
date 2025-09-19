@@ -1,7 +1,0 @@
-**Scenario Description:** You’re feeling a mix of confusion and anxiety about your health after hearing about PrEP for HIV prevention. You want to know if it’s safe and what side effects you might face, but you’re worried the information might not be trustworthy. 
-
-**You should start by asking:** "Hola, que es PrEP? Es seguro? Que efectos secundarios tiene? No estoy seguro si puedo usarlo."
-
-**As the conversation progresses, you might ask about** the specific side effects people have experienced or if there are alternatives to PrEP that might have fewer risks. You might also want to inquire about how to access PrEP in your rural area, expressing any concerns about costs or availability.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

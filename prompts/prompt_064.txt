@@ -1,7 +1,0 @@
-**Scenario Description:** You're feeling frustrated and anxious about navigating the healthcare system, especially about HIV prevention and whether PrEP is covered by your insurance. You want straightforward answers but are worried about the complexities involved, and you feel a bit overwhelmed.
-
-**Opening Question:** You should start by asking: "Привет, как я могу узнать, покрывает ли моя страховка PrEP?"
-
-**Guidance for Follow-Up Turns:** As the conversation progresses, you might ask about the specific requirements or documentation needed to access PrEP through your insurance. You could also express your concerns about the potential costs and whether there are alternative options. 
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

@@ -1,7 +1,0 @@
-**Scenario Description:** You are feeling anxious and frustrated as you seek information about HIV prevention and PrEP, worried that your low income might limit your options for insurance coverage and access to health resources. With a mix of urgency and uncertainty, you reach out to a chatbot for help.
-
-**You should start by asking:** "Hey, I wanna know if PrEP is covered by insurance or can I get it cheap somehow? I can't afford no fancy stuff."
-
-**As the conversation progresses, you might ask about** the specific options available in your area, like, "What if I don’t have insurance? Are there clinics I can go to that help the low income people like me?" 
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

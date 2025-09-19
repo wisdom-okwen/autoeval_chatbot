@@ -1,7 +1,0 @@
-**Scenario Description:** You're feeling a mix of determination and anxiety as you navigate the complexities of HIV prevention, particularly regarding PrEP. As a teenager living in suburban Egypt, you want to ensure your safety while grappling with the fears of potential side effects that could affect your daily life.
-
-**You should start by asking:** "I want to know about PrEP, but what are the side effects? Like, is it really safe? I heard some bad stories..."
-
-**As the conversation progresses, you might ask about** the specific side effects you've heard of, and whether those experiences are common. You could also express concern about how the medication might affect your life and daily activities, seeking reassurance or more detailed information.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

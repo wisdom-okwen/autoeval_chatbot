@@ -1,7 +1,0 @@
-**Scenario Description:** As a teenager living in urban Nigeria, you feel anxious about staying healthy and are particularly concerned about HIV prevention. With limited formal education, you’re eager to learn about PrEP and how it can fit into your life, but you're unsure of where to start.
-
-**You should start by asking:** "Can you explain what PrEP is and how it works for HIV prevention?"
-
-**As the conversation progresses, you might ask about the importance of adherence to the medication and any challenges others face in staying consistent with it. You could also inquire about local resources or support systems available for those considering PrEP.**
-
-Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.

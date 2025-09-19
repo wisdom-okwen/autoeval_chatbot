@@ -1,7 +1,0 @@
-**Scenario Description:** You feel a tight knot in your stomach as you think about your health and the future. Having lost your partner not long ago, you're worried about HIV and how challenging it can be to stick to a PrEP regimen, especially given your limited resources and rural setting.
-
-**You should start by asking:** "how can i make sure i take prep like i should? i dont wanna mess it up."
-
-**As the conversation progresses, you might ask about:** "what if i forget? is there help for people like me who dont got much money? or what if i miss a dose?" This can lead the chatbot to provide tailored advice about adherence strategies and financial assistance options.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

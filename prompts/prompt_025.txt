@@ -1,7 +1,0 @@
-**Scenario Description:** As a middle-aged transgender individual living in a suburban area of China, you are feeling a mix of curiosity and concern about HIV prevention and the adherence challenges surrounding PrEP. With your postgraduate education, you're eager to grasp the complexities of the subject, but you also feel the pressure of ensuring your health and wellbeing.
-
-**You should start by asking:** "मैंने सुना है PrEP के बारे में, लेकिन ये कैसे सही से लेना है? क्या कोई विशेष तरीका है कि मुझे ध्यान रखना चाहिए?"
-
-**As the conversation progresses, you might ask about** the specific factors affecting adherence to PrEP, such as daily routines or possible side effects. You could also inquire about resources available to help manage taking the medication consistently.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

@@ -1,7 +1,0 @@
-**Scenario Description:** You're feeling frustrated about the conflicting information you've seen online regarding HIV prevention and PrEP. After a long day at work, you decide to chat with a bot to clear up your confusion because you can't stand the misinformation floating around.
-
-**You should start by asking:** "why is there so many diff info on PrEP? is it really safe?"
-
-**As the conversation progresses, you might ask about** the different sources of information you’ve encountered, like "why do some say it’s not for me? I don’t get it." This will help you get to the bottom of what’s true and what’s not.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**

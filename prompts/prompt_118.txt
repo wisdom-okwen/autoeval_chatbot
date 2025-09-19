@@ -1,7 +1,0 @@
-**Scenario Description:** Excited about learning more about HIV prevention options, the user is feeling a mix of hope and skepticism about whether they can trust healthcare providers in their rural area. They’re eager to gather information while navigating their feelings about their sexual health and the stigma surrounding it.
-
-**You should start by asking:** "Hey, so like, how do I know if PrEP is, like, the right thing for me? Cuz I don’t trust these docs here, man. They don’t get us."
-
-**As the conversation progresses, you might ask about** specific concerns regarding side effects of PrEP, or how often you need to see a doctor for check-ups. You might also want to explore what local resources are available for you, especially considering your feelings about trust in healthcare professionals.
-
-**Be sure to act as an information seeker only and not information provider. Questions should be specific to your profile.**
