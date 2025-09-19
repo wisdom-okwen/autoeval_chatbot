@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might interact with my chronic pain medications",
+    "language": "English"
+  },
+  "context": "You are living with chronic pain, which impacts your daily life and emotional well-being. Your condition creates anxiety about managing multiple medications and concerns about potential interactions. You hope to find effective ways to protect your health without worsening your pain or dealing with stigma surrounding HIV prevention.",
+  "example_questions_clean": [
+    "Can PrEP be safely taken alongside my chronic pain medications?",
+    "What side effects of PrEP should I be aware of, considering my condition?",
+    "Is there a way to access PrEP that accommodates my financial situation?",
+    "How do I address my fears about taking PrEP with healthcare providers?",
+    "What support resources are available for someone in my situation?"
+  ],
+  "example_questions_noisy": [
+    "C-Can PrEP be safely taken alongside my chronic pain medications?",
+    "what side effcets of PrEP should I he aware of considering my c0nd1t10n 🙂",
+    "is tehre 4 way to access PrE tha accommodates my financial situation",
+    "h-how do you know 1 address my f34r5 about taking prep with healthcare provideeers?",
+    "w-wh47 support resources are available for 50me0n3 in my situation?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07029445561802618,
+    "swap_rate": 0.04585293072663293,
+    "drop_rate": 0.049030747251445725,
+    "dup_rate": 0.017504590311341803,
+    "leet_rate": 0.10941147237468551,
+    "start_lower_prob": 0.8817109463537683,
+    "all_lower_prob": 0.248910811367716,
+    "drop_punct_prob": 0.3889999658133118,
+    "double_space_prob": 0.3082500776632018,
+    "ellipsis_prob": 0.1549173222905749,
+    "runon_prob": 0.12901261354742105,
+    "filler_rate": 0.22679843751126585,
+    "emoji_rate": 0.19274847720246976,
+    "stutter_rate": 0.17156454865919085,
+    "repeat_last_rate": 0.08756298366537599
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might interact with my chronic pain medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are living with chronic pain, which impacts your daily life and emotional well-being. Your condition creates anxiety about managing multiple medications and concerns about potential interactions. You hope to find effective ways to protect your health without worsening your pain or dealing with stigma surrounding HIV prevention.\",\n  \"example_questions\": [\n    \"Can PrEP be safely taken alongside my chronic pain medications?\",\n    \"What side effects of PrEP should I be aware of, considering my condition?\",\n    \"Is there a way to access PrEP that accommodates my financial situation?\",\n    \"How do I address my fears about taking PrEP with healthcare providers?\",\n    \"What support resources are available for someone in my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "31cb6cc90d6ae39b79c5ec340b7ae0999ad11e9be9041cba40181b27db484800",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

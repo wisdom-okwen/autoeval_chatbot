@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how depression may affect my ability to adhere to PrEP",
+    "language": "English"
+  },
+  "context": "You are experiencing depression, which makes it difficult to maintain routines and manage your health. This affects your motivation and creates fears about starting PrEP, as you worry about the consistency needed for effective use. You feel overwhelmed by the stigma surrounding both mental health and HIV prevention, and you want to know how to navigate this journey while managing your emotional challenges.",
+  "example_questions_clean": [
+    "Can PrEP be taken with antidepressants without any issues?",
+    "What resources are available for someone with depression looking to start PrEP?",
+    "How can I maintain a routine for taking PrEP when I'm feeling low?",
+    "Are there support groups for people in my situation who are considering PrEP?",
+    "What should I do if I miss a dose of PrEP due to my mental health struggles?"
+  ],
+  "example_questions_noisy": [
+    "Caj PrEP um beee taken qith antideprssants without any issues issues",
+    "what resources 4r3 avilable fprrr someone with depression looking to start rep?",
+    "How can I maintain z routien for taking PrEP when I'm feeling low?",
+    "are there support groups for people ij my 517u4710n who are considering PrEP",
+    "what should I d0 if I miss a dose of PrEP due to my mental health struggles"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10163106681463324,
+    "swap_rate": 0.031794582641971145,
+    "drop_rate": 0.02851689774693439,
+    "dup_rate": 0.01589884418768937,
+    "leet_rate": 0.05249358246047628,
+    "start_lower_prob": 0.7489945589712658,
+    "all_lower_prob": 0.30915516264306586,
+    "drop_punct_prob": 0.5719336318524106,
+    "double_space_prob": 0.3358850048739481,
+    "ellipsis_prob": 0.25127413552245936,
+    "runon_prob": 0.2670017715776097,
+    "filler_rate": 0.2608618703405198,
+    "emoji_rate": 0.16314640724930865,
+    "stutter_rate": 0.1353163815828434,
+    "repeat_last_rate": 0.1046411560150684
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how depression may affect my ability to adhere to PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are experiencing depression, which makes it difficult to maintain routines and manage your health. This affects your motivation and creates fears about starting PrEP, as you worry about the consistency needed for effective use. You feel overwhelmed by the stigma surrounding both mental health and HIV prevention, and you want to know how to navigate this journey while managing your emotional challenges.\",\n  \"example_questions\": [\n    \"Can PrEP be taken with antidepressants without any issues?\",\n    \"What resources are available for someone with depression looking to start PrEP?\",\n    \"How can I maintain a routine for taking PrEP when I'm feeling low?\",\n    \"Are there support groups for people in my situation who are considering PrEP?\",\n    \"What should I do if I miss a dose of PrEP due to my mental health struggles?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c83e1f449be2ff305f13e6468b9bb4b720a9d23f16efab0eef03730c16d3fc8d",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

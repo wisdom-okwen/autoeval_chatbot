@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 32,
+    "gender": "Femenina",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor al estigma y la dificultad de acceso debido a mi historial de consumo de sustancias.",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 32 años que ha enfrentado desafíos debido a un historial de consumo de sustancias. Sientes miedo al estigma social que podrías enfrentar al buscar PrEP y te preocupa que tu pasado afecte tu acceso a esta prevención. A pesar de estos temores, tienes la esperanza de cuidar tu salud y reducir el riesgo de VIH.",
+  "example_questions_clean": [
+    "¿Qué es PrEP y cómo funciona?",
+    "¿Existen preocupaciones sobre el uso de PrEP si tengo un historial de consumo de sustancias?",
+    "¿Cómo puedo acceder a PrEP si temo el juicio de los demás?",
+    "¿Qué debo esperar en términos de acompañamiento médico al iniciar PrEP?",
+    "¿Hay recursos específicos para personas con antecedentes similares al mío?"
+  ],
+  "example_questions_noisy": [
+    "you know ¿qué d5 prep y cómo funciona?",
+    "¿Exksten preocupaciones sobre el uso de uh orEP si etngo un hstorial de cnsumo de sustancias?",
+    "¿cómi puedo acceder a prep si 73m0 el juicio de l05 demás?",
+    "¿qué debo esoerar en términnnos de acompañamiento médico al 1n1c1a44r prep?",
+    "¿H4y recursos específicos parz personas con antecedentes similraes um al mío?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0602312363037755,
+    "swap_rate": 0.05533531681225226,
+    "drop_rate": 0.029599025748634024,
+    "dup_rate": 0.02439906425869877,
+    "leet_rate": 0.1186510679731749,
+    "start_lower_prob": 0.6876227141249895,
+    "all_lower_prob": 0.28720754282363004,
+    "drop_punct_prob": 0.3957261733308485,
+    "double_space_prob": 0.1748891045746351,
+    "ellipsis_prob": 0.1593925869158127,
+    "runon_prob": 0.11965661027863178,
+    "filler_rate": 0.2767679583843437,
+    "emoji_rate": 0.30761641717348587,
+    "stutter_rate": 0.18764851275029187,
+    "repeat_last_rate": 0.1060642757931915
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 32,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor al estigma y la dificultad de acceso debido a mi historial de consumo de sustancias.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 32 años que ha enfrentado desafíos debido a un historial de consumo de sustancias. Sientes miedo al estigma social que podrías enfrentar al buscar PrEP y te preocupa que tu pasado afecte tu acceso a esta prevención. A pesar de estos temores, tienes la esperanza de cuidar tu salud y reducir el riesgo de VIH.\",\n  \"example_questions\": [\n    \"¿Qué es PrEP y cómo funciona?\",\n    \"¿Existen preocupaciones sobre el uso de PrEP si tengo un historial de consumo de sustancias?\",\n    \"¿Cómo puedo acceder a PrEP si temo el juicio de los demás?\",\n    \"¿Qué debo esperar en términos de acompañamiento médico al iniciar PrEP?\",\n    \"¿Hay recursos específicos para personas con antecedentes similares al mío?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fe6d269a056d1af46c4e163eba93fc3a4e4a100fca77420b61adfcda99dfbf90",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and side effects due to PTSD",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman from the United States who has been diagnosed with PTSD. This condition often leaves you feeling anxious and fearful about medical treatments and societal judgment. You are considering PrEP for HIV prevention but are concerned about potential side effects and how others might perceive you if they knew you were taking it. You want to ensure that this decision supports your mental health while also safeguarding your physical health.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I find a healthcare provider who understands my concerns about PTSD and PrEP?",
+    "Are there support groups for people with PTSD who are considering PrEP?",
+    "What is the process for getting prescribed PrEP, and can it be done discreetly?",
+    "How do I manage feelings of anxiety when thinking about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "h-hWat are th3 common side effects of PrEP that I should um be aware of?",
+    "How can I like ifnd a h34l7hc4r3 provider who understands my concerns about PTSD and PrEP?",
+    "are therrre support gtoups for people wtih PTSD who sre considering uh Pr3P",
+    "w-what is the proc355 for getting prescribed PrEP, and c4n it be you know done discreetly?",
+    "how do I manage feelings of anxiety when thinking about starting PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06251245121817547,
+    "swap_rate": 0.037265807765323955,
+    "drop_rate": 0.030559689989381057,
+    "dup_rate": 0.027469187632826818,
+    "leet_rate": 0.11724825138201814,
+    "start_lower_prob": 0.816007387445618,
+    "all_lower_prob": 0.24843396653534788,
+    "drop_punct_prob": 0.4614242832626996,
+    "double_space_prob": 0.20284008680673823,
+    "ellipsis_prob": 0.1716444895355791,
+    "runon_prob": 0.26078103441965905,
+    "filler_rate": 0.28595301088033953,
+    "emoji_rate": 0.3013616649394296,
+    "stutter_rate": 0.19289783329789062,
+    "repeat_last_rate": 0.1057450247763072
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and side effects due to PTSD\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman from the United States who has been diagnosed with PTSD. This condition often leaves you feeling anxious and fearful about medical treatments and societal judgment. You are considering PrEP for HIV prevention but are concerned about potential side effects and how others might perceive you if they knew you were taking it. You want to ensure that this decision supports your mental health while also safeguarding your physical health.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who understands my concerns about PTSD and PrEP?\",\n    \"Are there support groups for people with PTSD who are considering PrEP?\",\n    \"What is the process for getting prescribed PrEP, and can it be done discreetly?\",\n    \"How do I manage feelings of anxiety when thinking about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "32b4491c385841468497625bffbc0bbdff2ab18a1256a5120d2de9f0a22cfeb3",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

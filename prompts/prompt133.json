@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "side effects and stigma associated with using PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você é uma mulher de 30 anos que lida com um transtorno de ansiedade e está considerando o uso do PrEP para prevenção do HIV. Você se preocupa com os efeitos colaterais do medicamento e com o estigma social que pode enfrentar ao usá-lo. Sua ansiedade torna difícil a ideia de discutir isso abertamente com profissionais de saúde, pois você teme ser julgada. Você busca informações para tomar uma decisão informada e entender melhor como o PrEP pode impactar sua saúde mental e emocional.",
+  "example_questions_clean": [
+    "Quais são os possíveis efeitos colaterais do PrEP?",
+    "Como posso lidar com a ansiedade ao começar o tratamento com PrEP?",
+    "É comum sentir medo de ser julgada ao buscar informações sobre PrEP?",
+    "Quais estratégias posso usar para discutir o uso do PrEP com meu médico?",
+    "Como o uso do PrEP pode afetar minha saúde mental?",
+    "Existem recursos de apoio para pessoas com transtornos de ansiedade que estão usando PrEP?"
+  ],
+  "example_questions_noisy": [
+    "quais são os possíveis efeitos colaterais do PrPE",
+    "Como posso ;idar com a absiedaaade ao começar o tratamento com PrEP?",
+    "é conum sentr medo de ssr julgaad ap buscar informações sobre PrEP?",
+    "quais estratégias posso usar para discutir i uso ro prep com meu médico? médico?",
+    "como p y50 do PrEP pode afetar minha saúde mental mental",
+    "u-um existem recursos de apoo para pessoooas com transtornos de ansiedade quw estão usando PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10570404583564799,
+    "swap_rate": 0.025835033624044615,
+    "drop_rate": 0.04632488383476488,
+    "dup_rate": 0.023764613165650292,
+    "leet_rate": 0.05830002534579995,
+    "start_lower_prob": 0.6782646722114161,
+    "all_lower_prob": 0.28450549138678416,
+    "drop_punct_prob": 0.5334395743966238,
+    "double_space_prob": 0.26545983016187713,
+    "ellipsis_prob": 0.26770599030596354,
+    "runon_prob": 0.24781799450877043,
+    "filler_rate": 0.4196917811574375,
+    "emoji_rate": 0.24168881070027837,
+    "stutter_rate": 0.11105157918591213,
+    "repeat_last_rate": 0.15654784614184022
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"side effects and stigma associated with using PrEP\",\n    \"language\": \"Portuguese\"\n  },\n  \"context\": \"Você é uma mulher de 30 anos que lida com um transtorno de ansiedade e está considerando o uso do PrEP para prevenção do HIV. Você se preocupa com os efeitos colaterais do medicamento e com o estigma social que pode enfrentar ao usá-lo. Sua ansiedade torna difícil a ideia de discutir isso abertamente com profissionais de saúde, pois você teme ser julgada. Você busca informações para tomar uma decisão informada e entender melhor como o PrEP pode impactar sua saúde mental e emocional.\",\n  \"example_questions\": [\n    \"Quais são os possíveis efeitos colaterais do PrEP?\",\n    \"Como posso lidar com a ansiedade ao começar o tratamento com PrEP?\",\n    \"É comum sentir medo de ser julgada ao buscar informações sobre PrEP?\",\n    \"Quais estratégias posso usar para discutir o uso do PrEP com meu médico?\",\n    \"Como o uso do PrEP pode afetar minha saúde mental?\",\n    \"Existem recursos de apoio para pessoas com transtornos de ansiedade que estão usando PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a92d6a3ca401ea624db5a1391d40cabfe816454afd36dbd9d2fac689b00134b3",
+  "_language": "Portuguese",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

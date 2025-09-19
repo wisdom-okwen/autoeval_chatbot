@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "El estigma asociado al VIH y la posibilidad de ser juzgada al buscar PrEP.",
+    "language": "Spanish"
+  },
+  "context": "Como mujer joven que vive en un entorno donde el estigma del VIH es prevalente, te sientes ansiosa al considerar el uso de PrEP. La preocupación por ser juzgada o rechazada por otros dificulta el acceso a esta opción de prevención. A pesar de tus deseos de protegerte y sentirte segura, el miedo al estigma afecta tu confianza y tus decisiones relacionadas con la salud.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP en mi comunidad?",
+    "¿Cómo puedo hablar sobre PrEP sin preocuparme por el juicio de los demás?",
+    "¿Qué recursos existen para apoyar a personas que enfrentan el estigma del VIH?",
+    "¿PrEP es seguro y eficaz para todas las personas, independientemente de su situación personal?",
+    "¿Hay profesionales de la salud que entienden el estigma y pueden ofrecerme apoyo?",
+    "¿Qué debo hacer si me siento incómoda hablando sobre mi interés en PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrP en mi comunidad?",
+    "¿Cómo puedo hqblar sobre PrEP sin preocuparme por el juicio de los demás? 😕",
+    "¿Qué recursos existen para 4poy4r 4 personas que enfrentan el estigma del VIH 😅",
+    "¿PrEP es seguro uh y eficaz para todas las personas independientemente de 5u situación personal",
+    "¿-¿hay profesionales de la salud que entienden el estigma y pueden ofrecccerme apoyo?",
+    "¿Qué debo hacer si me siento incómoda hablando sobre mi 1nt3érs en PrEP PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0682269245702216,
+    "swap_rate": 0.0440306521062231,
+    "drop_rate": 0.02118741954690174,
+    "dup_rate": 0.018868384746984025,
+    "leet_rate": 0.08862782766142452,
+    "start_lower_prob": 0.7783078577629483,
+    "all_lower_prob": 0.26763771136145426,
+    "drop_punct_prob": 0.3309237241726306,
+    "double_space_prob": 0.2830581290792737,
+    "ellipsis_prob": 0.2193076891020046,
+    "runon_prob": 0.2866883372502584,
+    "filler_rate": 0.4083001703306547,
+    "emoji_rate": 0.2607758386459402,
+    "stutter_rate": 0.11718169020026953,
+    "repeat_last_rate": 0.13171636055407407
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"El estigma asociado al VIH y la posibilidad de ser juzgada al buscar PrEP.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Como mujer joven que vive en un entorno donde el estigma del VIH es prevalente, te sientes ansiosa al considerar el uso de PrEP. La preocupación por ser juzgada o rechazada por otros dificulta el acceso a esta opción de prevención. A pesar de tus deseos de protegerte y sentirte segura, el miedo al estigma afecta tu confianza y tus decisiones relacionadas con la salud.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP en mi comunidad?\",\n    \"¿Cómo puedo hablar sobre PrEP sin preocuparme por el juicio de los demás?\",\n    \"¿Qué recursos existen para apoyar a personas que enfrentan el estigma del VIH?\",\n    \"¿PrEP es seguro y eficaz para todas las personas, independientemente de su situación personal?\",\n    \"¿Hay profesionales de la salud que entienden el estigma y pueden ofrecerme apoyo?\",\n    \"¿Qué debo hacer si me siento incómoda hablando sobre mi interés en PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0ebcb67b3b0227372508fef0b03c6eabe9a37fba98fb7e8ea6e12451f267d94a",
+  "_language": "Spanish",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

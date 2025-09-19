@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "Inquiétude sur le jugement des autres et la stigmatisation liée à l'utilisation de PrEP",
+    "language": "French"
+  },
+  "context": "Vous êtes un jeune homme français de 28 ans, luttant contre une anxiété sociale qui rend les interactions difficiles. Vous avez entendu parler de la PrEP comme moyen de prévention du VIH, mais vous ressentez une peur intense d'en parler à votre médecin ou à vos amis. Cette anxiété vous pousse à hésiter, car vous craignez le jugement et la stigmatisation potentielle. Vous espérez trouver des informations claires et rassurantes sur le PrEP qui prennent en compte votre situation personnelle.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir une prescription de PrEP en France ?",
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé ?",
+    "Y a-t-il des ressources pour les personnes comme moi qui ont de l'anxiété sociale et qui veulent en savoir plus sur la PrEP ?",
+    "Quels sont les effets secondaires potentiels de la PrEP et comment peuvent-ils affecter ma santé mentale ?",
+    "Est-ce que d'autres personnes ressentent la même peur que moi en ce qui concerne l'accès à la PrEP ?",
+    "Comment puis-je me sentir plus confiant dans ma décision d'utiliser la PrEP malgré mon anxiété ?"
+  ],
+  "example_questions_noisy": [
+    "q-qu3ll35 sont les étapes pour obtenir une prescription de you know prep en france ?",
+    "comment puis-je aborder le i mean sujet de l4 PrEP avec mon médecin sans me 5en71r jugé ?",
+    "y a-t-il des ressources pour les personnes comem moi qui ont de l'axniété sociale et qui vuelent en savoir plus sir la prep",
+    "Quels sont l35 effets secondaires ptentiels de la rEP et c0mmen7 peuvent-ils affecter ma santé mentaep ? 💀",
+    "est-ce que d'autres personnes ressentent la même peur que moi idk en ce qui concerne l'accès à ;a PrEP ?",
+    "comment pu1s-j3 me sentir plus confiant you know d4n5 ma déciison ddd'utiliser la rrrEP malgré m0n anxiété"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08028635510860335,
+    "swap_rate": 0.036530235707132694,
+    "drop_rate": 0.022321926412355867,
+    "dup_rate": 0.018127117587267427,
+    "leet_rate": 0.06222273488838382,
+    "start_lower_prob": 0.8171608543021045,
+    "all_lower_prob": 0.32048367866001176,
+    "drop_punct_prob": 0.34745315005600674,
+    "double_space_prob": 0.15992973933668161,
+    "ellipsis_prob": 0.18780126739606612,
+    "runon_prob": 0.17074084216851587,
+    "filler_rate": 0.4227875169423819,
+    "emoji_rate": 0.3339081454706736,
+    "stutter_rate": 0.16542819994452296,
+    "repeat_last_rate": 0.13939147879723635
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"Inquiétude sur le jugement des autres et la stigmatisation liée à l'utilisation de PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes un jeune homme français de 28 ans, luttant contre une anxiété sociale qui rend les interactions difficiles. Vous avez entendu parler de la PrEP comme moyen de prévention du VIH, mais vous ressentez une peur intense d'en parler à votre médecin ou à vos amis. Cette anxiété vous pousse à hésiter, car vous craignez le jugement et la stigmatisation potentielle. Vous espérez trouver des informations claires et rassurantes sur le PrEP qui prennent en compte votre situation personnelle.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir une prescription de PrEP en France ?\",\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé ?\",\n    \"Y a-t-il des ressources pour les personnes comme moi qui ont de l'anxiété sociale et qui veulent en savoir plus sur la PrEP ?\",\n    \"Quels sont les effets secondaires potentiels de la PrEP et comment peuvent-ils affecter ma santé mentale ?\",\n    \"Est-ce que d'autres personnes ressentent la même peur que moi en ce qui concerne l'accès à la PrEP ?\",\n    \"Comment puis-je me sentir plus confiant dans ma décision d'utiliser la PrEP malgré mon anxiété ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "49040f91e3301f2b30fd9f05f03a7efc21d0925d1e954ab4c5f7adc6e49ae39d",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP works and its accessibility due to my learning disability",
+    "language": "English"
+  },
+  "context": "As someone with a learning disability, I often find it challenging to process medical information. I worry that my condition might make it harder for me to understand how PrEP can protect me and what steps I need to take to access it. This creates feelings of fear and confusion, especially when I think about potential stigma from others if they discover my situation.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "What steps do I need to take to get PrEP if I'm unsure about the process?",
+    "Are there support resources available for people with learning disabilities who want to access PrEP?",
+    "How can I talk to my healthcare provider about my concerns with understanding PrEP?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there a way to get PrEP without feeling embarrassed or judged?"
+  ],
+  "example_questions_noisy": [
+    "c-can y0u explain what PrEP is in smple terms?",
+    "w-what steps d0 I need idk to 7ake to get PrEP if I'm unsure about the process? process?",
+    "Are here support resources av4il4bl3 for people with learning d154b1l17135 who want to access PrEP?",
+    "h0w can i like 74lk to my healthcare provider about my concerns with understanding prep?",
+    "what are the side effects of PrEP tat I should b3 aware of?",
+    "15 there a way to get PrEP without feeling 3mb4rra5s3d or judged"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06253931776261203,
+    "swap_rate": 0.04571207068825779,
+    "drop_rate": 0.02252502052904137,
+    "dup_rate": 0.026944476546774954,
+    "leet_rate": 0.10620444050938255,
+    "start_lower_prob": 0.6789012004289272,
+    "all_lower_prob": 0.15049906917200748,
+    "drop_punct_prob": 0.5238299977413293,
+    "double_space_prob": 0.2721265769041702,
+    "ellipsis_prob": 0.3216179064277802,
+    "runon_prob": 0.28867934799730177,
+    "filler_rate": 0.3384225754079113,
+    "emoji_rate": 0.26951820285585915,
+    "stutter_rate": 0.1858111466471888,
+    "repeat_last_rate": 0.1305460669245184
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP works and its accessibility due to my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone with a learning disability, I often find it challenging to process medical information. I worry that my condition might make it harder for me to understand how PrEP can protect me and what steps I need to take to access it. This creates feelings of fear and confusion, especially when I think about potential stigma from others if they discover my situation.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"What steps do I need to take to get PrEP if I'm unsure about the process?\",\n    \"Are there support resources available for people with learning disabilities who want to access PrEP?\",\n    \"How can I talk to my healthcare provider about my concerns with understanding PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there a way to get PrEP without feeling embarrassed or judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b6c500313a1d7584a4b09f3673bf5b21406c278e729eee2fe07677918566341c",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

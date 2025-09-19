@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "kuhusu jinsi PrEP itakavyopokelewa na jamii yangu",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu ana changamoto ya kujithamini, ambayo inamfanya kuhisi woga wa kukabiliwa na mitazamo hasi kuhusu afya yake na uhusiano wake na watu wengine. Anahisi hofu ya kuonekana tofauti na anajiuliza kama kutafuta PrEP kutamfanya kuhisi kuwa na matatizo zaidi ya kijamii.",
+  "example_questions_clean": [
+    "Ninaweza vipi kujua kama PrEP ni chaguo sahihi kwangu?",
+    "Je, kuna njia yoyote ya kupata PrEP bila kujulikana katika jamii yangu?",
+    "Ninapaswa kusema nini kwa daktari wangu wakati wa kutafuta PrEP?",
+    "Ni ipi tofauti kati ya PrEP na njia zingine za kinga dhidi ya maambukizi?",
+    "Ninaweza kupata msaada wa kiakili kuhusu hisia zangu kabla ya kuanza kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "ninaweza vipi kujua kama PrEP ni chgauo saihhi kwangu",
+    "je kuna njia yoyote ya kupata PrEP bila i mean kujuliknaa katika jamii yangu?",
+    "nijapaswa kusema nini kwa daktari wangu wakati wa kutafuta PrEP?",
+    "ni ipi 7of4u71 ati ya PrEP na njia zingine za kinga dh1d1 ya maambukizi",
+    "ninaweza kupata msada wa kiaikli kuhusu hisia zangu kabla ya like kuanza kutumia PrEP? 🙄"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08788001960001496,
+    "swap_rate": 0.033427695448251166,
+    "drop_rate": 0.029599598785252132,
+    "dup_rate": 0.01781029085771793,
+    "leet_rate": 0.07633471861251276,
+    "start_lower_prob": 0.7438885877766059,
+    "all_lower_prob": 0.2912068188449248,
+    "drop_punct_prob": 0.44341296899500093,
+    "double_space_prob": 0.27161253719619244,
+    "ellipsis_prob": 0.2006853677051,
+    "runon_prob": 0.1532655150292603,
+    "filler_rate": 0.27171315738524243,
+    "emoji_rate": 0.2552715429645199,
+    "stutter_rate": 0.19753341819424886,
+    "repeat_last_rate": 0.14539326795102248
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"kuhusu jinsi PrEP itakavyopokelewa na jamii yangu\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu ana changamoto ya kujithamini, ambayo inamfanya kuhisi woga wa kukabiliwa na mitazamo hasi kuhusu afya yake na uhusiano wake na watu wengine. Anahisi hofu ya kuonekana tofauti na anajiuliza kama kutafuta PrEP kutamfanya kuhisi kuwa na matatizo zaidi ya kijamii.\",\n  \"example_questions\": [\n    \"Ninaweza vipi kujua kama PrEP ni chaguo sahihi kwangu?\",\n    \"Je, kuna njia yoyote ya kupata PrEP bila kujulikana katika jamii yangu?\",\n    \"Ninapaswa kusema nini kwa daktari wangu wakati wa kutafuta PrEP?\",\n    \"Ni ipi tofauti kati ya PrEP na njia zingine za kinga dhidi ya maambukizi?\",\n    \"Ninaweza kupata msaada wa kiakili kuhusu hisia zangu kabla ya kuanza kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0bbb4c612fc5f58fd0c14e2545ca55f80e2ab192bcf4a84b3672919dfdb4baa4",
+  "_language": "Swahili",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

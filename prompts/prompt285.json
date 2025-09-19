@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of judgment and stigma from peers about taking PrEP",
+    "language": "English"
+  },
+  "context": "You are feeling hesitant about accessing PrEP due to concerns about how others might perceive you. Your struggles with self-esteem make it challenging to advocate for your health needs, and you worry that discussing PrEP might expose you to stigma or judgment from friends or family. You desire to protect your health but feel emotionally vulnerable when considering taking this step.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I discuss my decision to take PrEP with my friends without feeling judged?",
+    "Are there confidential resources available to help me access PrEP?",
+    "What support systems are in place for someone like me considering PrEP?",
+    "Can you help me understand how to address my concerns about stigma related to PrEP use?"
+  ],
+  "example_questions_noisy": [
+    "wht are the potential side eeeffects of PrEP htat you know I shold be aware of",
+    "h-how can i discuss my decision to take prep w17h my friends without feeling judggged?",
+    "are there confidential r350urc35 4v1al4bl3 to help me access prep?",
+    "What support systems are in place f0r someone like me considering PrEP?",
+    "can you help me understand how to 4ddr355 my concerns about stigma related i mean to prep useee?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05993699711352468,
+    "swap_rate": 0.027846022380325852,
+    "drop_rate": 0.03795540908350492,
+    "dup_rate": 0.019632940656642194,
+    "leet_rate": 0.08693134409818283,
+    "start_lower_prob": 0.6086915492286172,
+    "all_lower_prob": 0.30509222778026945,
+    "drop_punct_prob": 0.3378943515599824,
+    "double_space_prob": 0.25399461708649457,
+    "ellipsis_prob": 0.3164174736633074,
+    "runon_prob": 0.12009846533393571,
+    "filler_rate": 0.4166518521040129,
+    "emoji_rate": 0.3377596525209091,
+    "stutter_rate": 0.17766228607352627,
+    "repeat_last_rate": 0.08684467422561487
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of judgment and stigma from peers about taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling hesitant about accessing PrEP due to concerns about how others might perceive you. Your struggles with self-esteem make it challenging to advocate for your health needs, and you worry that discussing PrEP might expose you to stigma or judgment from friends or family. You desire to protect your health but feel emotionally vulnerable when considering taking this step.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I discuss my decision to take PrEP with my friends without feeling judged?\",\n    \"Are there confidential resources available to help me access PrEP?\",\n    \"What support systems are in place for someone like me considering PrEP?\",\n    \"Can you help me understand how to address my concerns about stigma related to PrEP use?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eb0d75f4afcee15658b67c9b6f9d221e37d85b324a33a5e774ab81e2331c531a",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

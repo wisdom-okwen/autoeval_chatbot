@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of being judged for seeking PrEP due to past experiences with self-esteem issues",
+    "language": "English"
+  },
+  "context": "You have been considering PrEP as a preventive measure for HIV but struggle with low self-esteem and fear of stigma. Past experiences have made you apprehensive about seeking medical advice, and you worry that people might judge you for wanting to protect your health. You want to overcome these feelings to make informed choices about your health and well-being.",
+  "example_questions_clean": [
+    "What are the benefits of taking PrEP for someone in my situation?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "What are common side effects of PrEP that I should be aware of?",
+    "Can you tell me more about how PrEP works in preventing HIV?",
+    "Are there any financial assistance programs available for PrEP?",
+    "How do I approach my friends or family about my decision to seek PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the benefits of taking PrEP for someone in my situation?",
+    "how can i find a supportive healthcare provider wh0 understands my concerns",
+    "what are common side effecs of prep that i should be aware of?",
+    "can you tell me i mean more about how prep works in preventing hiv? ‼️",
+    "are there any financial assistance pr0gr4m5 available fot PrEP 🫠",
+    "how do 1 approach my friends or faimly 4b0u7 my decision 70 seek PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07319459588498443,
+    "swap_rate": 0.03945287536910766,
+    "drop_rate": 0.03806999710880388,
+    "dup_rate": 0.014071258419124898,
+    "leet_rate": 0.0503549295653611,
+    "start_lower_prob": 0.763153929952689,
+    "all_lower_prob": 0.33697641978060755,
+    "drop_punct_prob": 0.34808049878026737,
+    "double_space_prob": 0.3185741476082886,
+    "ellipsis_prob": 0.2627754760073189,
+    "runon_prob": 0.2183235280154747,
+    "filler_rate": 0.3717346788385816,
+    "emoji_rate": 0.22995462717432744,
+    "stutter_rate": 0.1316179494971177,
+    "repeat_last_rate": 0.17204718918496717
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of being judged for seeking PrEP due to past experiences with self-esteem issues\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been considering PrEP as a preventive measure for HIV but struggle with low self-esteem and fear of stigma. Past experiences have made you apprehensive about seeking medical advice, and you worry that people might judge you for wanting to protect your health. You want to overcome these feelings to make informed choices about your health and well-being.\",\n  \"example_questions\": [\n    \"What are the benefits of taking PrEP for someone in my situation?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"What are common side effects of PrEP that I should be aware of?\",\n    \"Can you tell me more about how PrEP works in preventing HIV?\",\n    \"Are there any financial assistance programs available for PrEP?\",\n    \"How do I approach my friends or family about my decision to seek PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b7e2a118c15d77f28f0db87048a2c6ce85cabc0c082bea8fd8c2c0505e518c10",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

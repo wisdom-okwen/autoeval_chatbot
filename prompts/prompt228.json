@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worry about potential side effects and managing chronic pain",
+    "language": "English"
+  },
+  "context": "The user has been living with chronic pain for several years, which has affected their ability to manage their health consistently. They are worried that starting PrEP might exacerbate their pain or introduce new side effects, leading to an increased emotional burden. The stigma around both their chronic condition and HIV prevention may also cause fear about judgment from healthcare providers or peers, complicating their decision-making process.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP and how can they affect someone with chronic pain?",
+    "How can I manage my pain while taking PrEP?",
+    "Are there any special considerations for someone in my situation when starting PrEP?",
+    "Can you explain how PrEP works in simple terms?",
+    "What support resources are available for people like me who are considering PrEP?",
+    "Is it common for people with chronic conditions to use PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the common side effects of rPEP and bow can they affect someone wiht chronic pain",
+    "how can I manage my pa1n while taking rPEP?",
+    "Are tehre 4ny special considerations for someone in my situation when starting you know PrEP?",
+    "can you explain how PrPE works in simple terms",
+    "what support resources are available for people ilke me who are considering prep",
+    "is it common for people with chrnoic condtions to use prep? 🤔"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08708930755203104,
+    "swap_rate": 0.05466313315327506,
+    "drop_rate": 0.04308119655665034,
+    "dup_rate": 0.017650384190702216,
+    "leet_rate": 0.08723909945871318,
+    "start_lower_prob": 0.6104182594207808,
+    "all_lower_prob": 0.3017058748501449,
+    "drop_punct_prob": 0.5650130164421087,
+    "double_space_prob": 0.30418901604440374,
+    "ellipsis_prob": 0.154078321346203,
+    "runon_prob": 0.24721857389553484,
+    "filler_rate": 0.43124940943542606,
+    "emoji_rate": 0.16613371958819373,
+    "stutter_rate": 0.1419151710739387,
+    "repeat_last_rate": 0.11558730161600016
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worry about potential side effects and managing chronic pain\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been living with chronic pain for several years, which has affected their ability to manage their health consistently. They are worried that starting PrEP might exacerbate their pain or introduce new side effects, leading to an increased emotional burden. The stigma around both their chronic condition and HIV prevention may also cause fear about judgment from healthcare providers or peers, complicating their decision-making process.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP and how can they affect someone with chronic pain?\",\n    \"How can I manage my pain while taking PrEP?\",\n    \"Are there any special considerations for someone in my situation when starting PrEP?\",\n    \"Can you explain how PrEP works in simple terms?\",\n    \"What support resources are available for people like me who are considering PrEP?\",\n    \"Is it common for people with chronic conditions to use PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c7a18911fe086d3656e4d9d6b62c2efdb399106d171f507e50127464adcc7272",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

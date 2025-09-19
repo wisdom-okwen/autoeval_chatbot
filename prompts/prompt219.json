@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Brasileira",
+    "age": 35,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "preocupação com os efeitos colaterais do PrEP e sua compatibilidade com a recuperação do tratamento de câncer",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de um tratamento de câncer e está lidando com a ansiedade sobre sua saúde e a possibilidade de iniciar o uso do PrEP. A ideia de um novo medicamento é assustadora, especialmente após passar por um tratamento difícil. Você tem dúvidas sobre como o PrEP pode afetar sua recuperação e se é seguro para você, além de temer o estigma que pode vir junto ao uso do PrEP.",
+  "example_questions_clean": [
+    "Quais são os possíveis efeitos colaterais do PrEP que posso precisar considerar após meu tratamento?",
+    "Como posso conversar com meu médico sobre o PrEP sem sentir vergonha?",
+    "O uso do PrEP pode interferir na minha recuperação do câncer de alguma forma?",
+    "Existem grupos de apoio para pessoas que estão considerando o PrEP em situações semelhantes à minha?",
+    "O que devo fazer se sentir medo de estigmas sociais ao considerar o uso do PrEP?"
+  ],
+  "example_questions_noisy": [
+    "q-quais são os possíveis efeitos colaterais do PrEP que posso precisar considerar após m3u tratamento?",
+    "como poso conversar com meu médico sobre o PrEP sem sentir vergonha? vergonha?",
+    "O uso do PrEP pode interferir n4 imnha recuperação do câncer de alguma forma 💀",
+    "existem grupoa de apoio para pessoas que estão considerando o prep em situações semelhanes à minha",
+    "o que devo fazer ssse sentir uh medo de estigmas sociais ao considerar o uso do PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05597941031794001,
+    "swap_rate": 0.051064411188484926,
+    "drop_rate": 0.02485281024483239,
+    "dup_rate": 0.01631637179496622,
+    "leet_rate": 0.05434744474857826,
+    "start_lower_prob": 0.8433178722255011,
+    "all_lower_prob": 0.3059970154649645,
+    "drop_punct_prob": 0.40344619195533193,
+    "double_space_prob": 0.2171960210218733,
+    "ellipsis_prob": 0.167673847216289,
+    "runon_prob": 0.22129684789188292,
+    "filler_rate": 0.24435130445201148,
+    "emoji_rate": 0.1855778474451343,
+    "stutter_rate": 0.1323313810375292,
+    "repeat_last_rate": 0.09336466818355615
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileira\",\n    \"age\": 35,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"preocupação com os efeitos colaterais do PrEP e sua compatibilidade com a recuperação do tratamento de câncer\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está se recuperando de um tratamento de câncer e está lidando com a ansiedade sobre sua saúde e a possibilidade de iniciar o uso do PrEP. A ideia de um novo medicamento é assustadora, especialmente após passar por um tratamento difícil. Você tem dúvidas sobre como o PrEP pode afetar sua recuperação e se é seguro para você, além de temer o estigma que pode vir junto ao uso do PrEP.\",\n  \"example_questions\": [\n    \"Quais são os possíveis efeitos colaterais do PrEP que posso precisar considerar após meu tratamento?\",\n    \"Como posso conversar com meu médico sobre o PrEP sem sentir vergonha?\",\n    \"O uso do PrEP pode interferir na minha recuperação do câncer de alguma forma?\",\n    \"Existem grupos de apoio para pessoas que estão considerando o PrEP em situações semelhantes à minha?\",\n    \"O que devo fazer se sentir medo de estigmas sociais ao considerar o uso do PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "383a609b24ed6cccd75ac20d10697bdb80694f5ec4f584ac6a919462a3cfca16",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

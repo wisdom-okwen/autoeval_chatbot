@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "el miedo al estigma y al rechazo social",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que ha pasado por una experiencia traumática reciente. Esto ha afectado tu confianza y te hace sentir vulnerable al considerar opciones como PrEP. Tienes preocupaciones sobre cómo podría ser recibido por otros y el temor a ser juzgada si decides buscar acceso a este medicamento. Tu situación económica también es un obstáculo, ya que temes no poder costearlo o enfrentarte a la falta de apoyo en tu comunidad.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP en México?",
+    "¿Existen opciones de apoyo económico para personas con bajos recursos que quieran comenzar a tomar PrEP?",
+    "¿Cómo puedo encontrar un proveedor de salud que sea comprensivo y no me juzgue?",
+    "¿Qué debo saber sobre los efectos secundarios de PrEP antes de empezar el tratamiento?",
+    "¿Hay grupos de apoyo para personas que toman PrEP en mi área?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para 4cc3d3r a PrEP 3n México",
+    "¿Existen 0pc10n35 d3 apoyo económico para personqs con baj05 recurrrsos que quieran comenzar a tomar PrEP?",
+    "¿Cómo puedo encontrar you know un proveedor de sald que sea comprensivo h no meee juzgue",
+    "¿qué debo saber 50r3 los efectos uh secundarios d3 rep antes de empezar 3l tratamiento?",
+    "¿Hay grupos de qpoyo praa pppersonas que toman PrEP en mi árae?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11756552897178167,
+    "swap_rate": 0.05932044097437024,
+    "drop_rate": 0.04492415737626261,
+    "dup_rate": 0.02533400398671286,
+    "leet_rate": 0.07115590638250739,
+    "start_lower_prob": 0.7900500338867082,
+    "all_lower_prob": 0.26811201968527476,
+    "drop_punct_prob": 0.3964960508725176,
+    "double_space_prob": 0.21623936842445604,
+    "ellipsis_prob": 0.16453344361097258,
+    "runon_prob": 0.1727696199763122,
+    "filler_rate": 0.3051642613209807,
+    "emoji_rate": 0.34230650139362356,
+    "stutter_rate": 0.13239254692029587,
+    "repeat_last_rate": 0.14953308090856737
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"el miedo al estigma y al rechazo social\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que ha pasado por una experiencia traumática reciente. Esto ha afectado tu confianza y te hace sentir vulnerable al considerar opciones como PrEP. Tienes preocupaciones sobre cómo podría ser recibido por otros y el temor a ser juzgada si decides buscar acceso a este medicamento. Tu situación económica también es un obstáculo, ya que temes no poder costearlo o enfrentarte a la falta de apoyo en tu comunidad.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP en México?\",\n    \"¿Existen opciones de apoyo económico para personas con bajos recursos que quieran comenzar a tomar PrEP?\",\n    \"¿Cómo puedo encontrar un proveedor de salud que sea comprensivo y no me juzgue?\",\n    \"¿Qué debo saber sobre los efectos secundarios de PrEP antes de empezar el tratamiento?\",\n    \"¿Hay grupos de apoyo para personas que toman PrEP en mi área?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c1739a09977ddde86393cc47b408dab555b5159c6e0ec36962ecaeb13776385e",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

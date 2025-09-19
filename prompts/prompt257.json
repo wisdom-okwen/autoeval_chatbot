@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user experiences social anxiety, which makes them hesitant to seek medical care. They worry that discussing their sexual health and potential need for PrEP will lead to negative judgments or stigma from healthcare professionals. This fear creates a barrier to accessing information and support related to PrEP, even though they understand its importance in preventing HIV.",
+  "example_questions_clean": [
+    "What should I expect when I talk to a healthcare provider about PrEP?",
+    "How can I find a supportive clinic that respects my privacy and comfort level?",
+    "What are the side effects of PrEP that I should be aware of before starting?",
+    "Can you help me understand how PrEP works in preventing HIV transmission?",
+    "Is there any financial assistance available for accessing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what should I expect when idk k talk to a healthcare provider about Pr3P",
+    "how can I find a supportive dlinic that respects my privacy and comfort level?",
+    "what are ghe isde 3ff3c7s of PErP that I should bbbe aware of before 574r71ng",
+    "c-can you help me understand how prep works i mean in preventing hiv transmission?",
+    "is there any financial assistance available for um accessing PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08619049941710659,
+    "swap_rate": 0.05779981757218915,
+    "drop_rate": 0.04651455015514528,
+    "dup_rate": 0.01681523614184936,
+    "leet_rate": 0.05616894921849243,
+    "start_lower_prob": 0.8788331022077114,
+    "all_lower_prob": 0.30528529893380313,
+    "drop_punct_prob": 0.4911762677777789,
+    "double_space_prob": 0.2982251933851402,
+    "ellipsis_prob": 0.19074966594176895,
+    "runon_prob": 0.10848716807729408,
+    "filler_rate": 0.4815894107986853,
+    "emoji_rate": 0.26753800654511894,
+    "stutter_rate": 0.13632794089677505,
+    "repeat_last_rate": 0.12392798791443554
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user experiences social anxiety, which makes them hesitant to seek medical care. They worry that discussing their sexual health and potential need for PrEP will lead to negative judgments or stigma from healthcare professionals. This fear creates a barrier to accessing information and support related to PrEP, even though they understand its importance in preventing HIV.\",\n  \"example_questions\": [\n    \"What should I expect when I talk to a healthcare provider about PrEP?\",\n    \"How can I find a supportive clinic that respects my privacy and comfort level?\",\n    \"What are the side effects of PrEP that I should be aware of before starting?\",\n    \"Can you help me understand how PrEP works in preventing HIV transmission?\",\n    \"Is there any financial assistance available for accessing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "00a35ce0a4c6fb7991b9a8d0d912eac1365799ec30d3ee35410d9ea6cef54e2d",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

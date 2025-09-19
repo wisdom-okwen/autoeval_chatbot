@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 25,
+    "gender": "Non-binary",
+    "socio_economic_status": "Lower middle class",
+    "primary_concern": "Navigating the healthcare system while dealing with gender dysphoria",
+    "language": "English"
+  },
+  "context": "The user is a 25-year-old non-binary individual from a lower middle-class background. They experience gender dysphoria, which complicates their mental health and creates anxiety about accessing healthcare services. They fear judgment from healthcare providers and worry about the potential stigma associated with taking PrEP. Their hope is to find ways to access this preventative medication without compromising their sense of self and safety.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider for PrEP?",
+    "Are there resources available for individuals like me who feel anxious about discussing PrEP?",
+    "Can you explain how PrEP might affect my body considering my gender identity?",
+    "What should I know about confidentiality when seeking PrEP prescriptions?",
+    "How can I address my concerns about stigma while accessing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "whta steps can I take to find a supportive healthcare provider for PrEP?",
+    "are there resources available for i mean individuals like me aho teel anxious about discussing PrEP",
+    "c4n you explain how PrEP might affect my body c0n5id3r1ng my gend3r identity identity",
+    "What should I know about confidentiality when seeking um Pr3P prescriptions",
+    "how c4n I address my conceens about stigma like while acceasing PrEP? 😭 😭"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11338688977367828,
+    "swap_rate": 0.035465542031365316,
+    "drop_rate": 0.021137437466229515,
+    "dup_rate": 0.010307336492981605,
+    "leet_rate": 0.09136590343984036,
+    "start_lower_prob": 0.6543532645308339,
+    "all_lower_prob": 0.2272815788730774,
+    "drop_punct_prob": 0.5982247805367609,
+    "double_space_prob": 0.3187859091312134,
+    "ellipsis_prob": 0.25100839448968243,
+    "runon_prob": 0.27296435956859755,
+    "filler_rate": 0.37279592455606786,
+    "emoji_rate": 0.20003362443169223,
+    "stutter_rate": 0.15700030876008858,
+    "repeat_last_rate": 0.13898486011537126
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 25,\n    \"gender\": \"Non-binary\",\n    \"socio_economic_status\": \"Lower middle class\",\n    \"primary_concern\": \"Navigating the healthcare system while dealing with gender dysphoria\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 25-year-old non-binary individual from a lower middle-class background. They experience gender dysphoria, which complicates their mental health and creates anxiety about accessing healthcare services. They fear judgment from healthcare providers and worry about the potential stigma associated with taking PrEP. Their hope is to find ways to access this preventative medication without compromising their sense of self and safety.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider for PrEP?\",\n    \"Are there resources available for individuals like me who feel anxious about discussing PrEP?\",\n    \"Can you explain how PrEP might affect my body considering my gender identity?\",\n    \"What should I know about confidentiality when seeking PrEP prescriptions?\",\n    \"How can I address my concerns about stigma while accessing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fe99780d2bc36823ba63d9481b4311dad6d076b8b19e875aaef133655551635b",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 29,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "El miedo a la reacción de mi pareja y el acceso a servicios de salud seguros.",
+    "language": "Spanish"
+  },
+  "context": "Estás enfrentando una situación de violencia de pareja que te hace sentir vulnerable y temerosa. Esto afecta tu capacidad para buscar información sobre PrEP, ya que temes que tu pareja se entere y reaccione negativamente. Buscas opciones seguras para protegerte a ti misma y tu salud sexual en medio de este difícil contexto emocional.",
+  "example_questions_clean": [
+    "¿Cómo puedo acceder a la PrEP sin que mi pareja lo sepa?",
+    "¿Qué opciones hay para obtener apoyo si tengo miedo de hablar con un profesional de salud?",
+    "¿La PrEP puede ser eficaz si estoy en una relación difícil?",
+    "¿Existen clínicas donde pueda recibir PrEP de manera confidencial?",
+    "¿Cuáles son los efectos secundarios de la PrEP y cómo podría manejarlos en mi situación?",
+    "¿Hay recursos disponibles para mujeres que enfrentan violencia de pareja y buscan opciones de salud?"
+  ],
+  "example_questions_noisy": [
+    "¿Cóo puedo acceder a la PrEP sin que mi pareja lo sepa?",
+    "¿Qé opciones h4y para obtener apoto si tengo miedo de hablar con un profesional uh xe salud ❓",
+    "¿La PrEP puede ser eficaz si estoy en una relación difícil?",
+    "¿-¿existen lcínicas donde pueda recibir prep de manera c0nf1d3nci4l 🙄",
+    "¿-¿Cuál3s son los efectos secundarios de la PrEP y cómo podría manejarlos en mi situackón ‼️",
+    "¿Hya recursos disponibles para mjueres que nefrentan violencia de pareja y buscan pciones idk de aslud?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0642865795655012,
+    "swap_rate": 0.021274120766156663,
+    "drop_rate": 0.033016771371274324,
+    "dup_rate": 0.01356891369828173,
+    "leet_rate": 0.05403896489788149,
+    "start_lower_prob": 0.6098417061025092,
+    "all_lower_prob": 0.2920243354693882,
+    "drop_punct_prob": 0.43751123447593443,
+    "double_space_prob": 0.18832508511108517,
+    "ellipsis_prob": 0.2605335337214001,
+    "runon_prob": 0.26359053550175193,
+    "filler_rate": 0.21499712135859847,
+    "emoji_rate": 0.3406520839307805,
+    "stutter_rate": 0.17463404244597625,
+    "repeat_last_rate": 0.08570505864233999
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 29,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"El miedo a la reacción de mi pareja y el acceso a servicios de salud seguros.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Estás enfrentando una situación de violencia de pareja que te hace sentir vulnerable y temerosa. Esto afecta tu capacidad para buscar información sobre PrEP, ya que temes que tu pareja se entere y reaccione negativamente. Buscas opciones seguras para protegerte a ti misma y tu salud sexual en medio de este difícil contexto emocional.\",\n  \"example_questions\": [\n    \"¿Cómo puedo acceder a la PrEP sin que mi pareja lo sepa?\",\n    \"¿Qué opciones hay para obtener apoyo si tengo miedo de hablar con un profesional de salud?\",\n    \"¿La PrEP puede ser eficaz si estoy en una relación difícil?\",\n    \"¿Existen clínicas donde pueda recibir PrEP de manera confidencial?\",\n    \"¿Cuáles son los efectos secundarios de la PrEP y cómo podría manejarlos en mi situación?\",\n    \"¿Hay recursos disponibles para mujeres que enfrentan violencia de pareja y buscan opciones de salud?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2e998c3f554954c7d7a786cd05c8028ab3688ba73b27beb37f9b4380faa7d2c7",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

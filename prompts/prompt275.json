@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "miedo al estigma y la ansiedad sobre el acceso a PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que está lidiando con la depresión. Esto ha afectado tu motivación y confianza para buscar información sobre PrEP. Sientes miedo al estigma que podría acompañar el uso de PrEP y te preocupa cómo tu salud mental puede influir en tu capacidad para acceder al medicamento. Te gustaría obtener información clara y comprensiva sobre cómo PrEP podría beneficiarte, pero la ansiedad y la preocupación por ser juzgada te hacen dudar.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP en mi situación actual?",
+    "¿Qué debo considerar si estoy lidiando con la depresión y quiero empezar a tomar PrEP?",
+    "¿Hay recursos disponibles para personas que se sienten ansiosas sobre el uso de PrEP?",
+    "¿Cómo puedo manejar el miedo al estigma mientras busco información sobre PrEP?",
+    "¿Puede la depresión afectar la eficacia de PrEP en mi caso?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos pada acceder a PrEP en mi situación i mean 4c7ual? 4c7ual?",
+    "¿Qué debo considerat uh si 3570y lidiando con la depresión y quiero empezar a tomar PrEP?",
+    "¿hay recursos disponibles para p3rs0na5 que se sienten ansiosas sobre el uso de prep",
+    "¿Cómo puedo manejar el m13do al estigma mientras busco incormación 50bre PrEP?",
+    "¿-¿Puede la depr351ón afectar la dficacia de PrEP en mi caso?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11931707883165889,
+    "swap_rate": 0.026434295639229752,
+    "drop_rate": 0.020829264058594983,
+    "dup_rate": 0.012754718770198886,
+    "leet_rate": 0.070760381429408,
+    "start_lower_prob": 0.6285750911470166,
+    "all_lower_prob": 0.16236912980748938,
+    "drop_punct_prob": 0.4512564385344293,
+    "double_space_prob": 0.2732715753172079,
+    "ellipsis_prob": 0.2457467203116243,
+    "runon_prob": 0.2670017262278912,
+    "filler_rate": 0.3667775448185099,
+    "emoji_rate": 0.24815830265775599,
+    "stutter_rate": 0.14350559122799383,
+    "repeat_last_rate": 0.11751089148265825
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"miedo al estigma y la ansiedad sobre el acceso a PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 28 años que está lidiando con la depresión. Esto ha afectado tu motivación y confianza para buscar información sobre PrEP. Sientes miedo al estigma que podría acompañar el uso de PrEP y te preocupa cómo tu salud mental puede influir en tu capacidad para acceder al medicamento. Te gustaría obtener información clara y comprensiva sobre cómo PrEP podría beneficiarte, pero la ansiedad y la preocupación por ser juzgada te hacen dudar.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP en mi situación actual?\",\n    \"¿Qué debo considerar si estoy lidiando con la depresión y quiero empezar a tomar PrEP?\",\n    \"¿Hay recursos disponibles para personas que se sienten ansiosas sobre el uso de PrEP?\",\n    \"¿Cómo puedo manejar el miedo al estigma mientras busco información sobre PrEP?\",\n    \"¿Puede la depresión afectar la eficacia de PrEP en mi caso?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "413455df160cb63e4d58fad1375a73bd01f30d9c6c6db7f06c13c963399b72f5",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

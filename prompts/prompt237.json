@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to PrEP due to lack of stable housing and fear of stigma",
+    "language": "Swahili"
+  },
+  "context": "As a young woman experiencing homelessness in an urban area, I feel anxious about accessing healthcare services. The fear of being judged for my living situation makes it hard for me to reach out for help. I worry that without a permanent address, I won't be able to get the support I need to access PrEP, which is crucial for my health.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi ya kupata PrEP bila makazi ya kudumu.",
+    "Je, kuna vituo vya afya ambavyo havihitaji anwani maalum ili nipate PrEP?",
+    "Ninaweza vipi kupata msaada wa kupunguza aibu yangu kuhusu hali yangu?",
+    "Ni hatua gani ambazo naweza kuchukua ili kuhakikisha ninapata huduma za afya?",
+    "Je, kuna mashirika ambayo yanaweza kunisaidia kupata PrEP katika hali yangu?",
+    "Ninahitaji kujua kama kuna gharama yoyote inayohusiana na kupata PrEP."
+  ],
+  "example_questions_noisy": [
+    "nin4 wasiwasi kuhusu jinsi ya kup474 PrE bila makazi ya kudmuu",
+    "je, kuna vituo vya afya ambavyo havihitaji anwani maalum ili niptae Pr3P? 😕 😕",
+    "ninaweza vipi kupata msaada wa kupunguza aibu yangu kuhusu hali yangu",
+    "ni hatja gani ambazo naweza kuchukua 1l1 kuhakikisha ninapata huduma sa afya 😬",
+    "je kuna mashirika ambayo yanaweza kunisaidia kupata PrEP katika uh hali yangu",
+    "ninahitaji kujua kama kuna gharama yoyote inayohusiana na kupata prep. prep."
+  ],
+  "style_profile": {
+    "typo_rate": 0.08296626463875456,
+    "swap_rate": 0.04141181611973089,
+    "drop_rate": 0.04064498658340622,
+    "dup_rate": 0.024456005759399418,
+    "leet_rate": 0.06115859235765649,
+    "start_lower_prob": 0.69440286435073,
+    "all_lower_prob": 0.31868948137964337,
+    "drop_punct_prob": 0.49858591312135025,
+    "double_space_prob": 0.26139580489846054,
+    "ellipsis_prob": 0.1602686049498834,
+    "runon_prob": 0.1379363956169827,
+    "filler_rate": 0.32051549771115023,
+    "emoji_rate": 0.30921378358154544,
+    "stutter_rate": 0.1017885524930689,
+    "repeat_last_rate": 0.0847443551718406
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to PrEP due to lack of stable housing and fear of stigma\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a young woman experiencing homelessness in an urban area, I feel anxious about accessing healthcare services. The fear of being judged for my living situation makes it hard for me to reach out for help. I worry that without a permanent address, I won't be able to get the support I need to access PrEP, which is crucial for my health.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi ya kupata PrEP bila makazi ya kudumu.\",\n    \"Je, kuna vituo vya afya ambavyo havihitaji anwani maalum ili nipate PrEP?\",\n    \"Ninaweza vipi kupata msaada wa kupunguza aibu yangu kuhusu hali yangu?\",\n    \"Ni hatua gani ambazo naweza kuchukua ili kuhakikisha ninapata huduma za afya?\",\n    \"Je, kuna mashirika ambayo yanaweza kunisaidia kupata PrEP katika hali yangu?\",\n    \"Ninahitaji kujua kama kuna gharama yoyote inayohusiana na kupata PrEP.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a0c1ec033e1700f870b7aa85f75872848449c64dd7ac27a369981c7449a2b806",
+  "_language": "Swahili",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

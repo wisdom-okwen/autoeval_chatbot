@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "kuhusu usalama wa PrEP katika hali yangu ya maumivu ya muda mrefu",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anashughulika na maumivu sugu ambayo yameathiri uwezo wake wa kufanya maamuzi kuhusu afya yake. Anajiuliza kama PrEP inaweza kuleta athari zaidi kwa mwili wake na anahisi hofu kuhusu kuchanganya dawa tofauti. Pia, anahisi kukosa msaada wa kutosha katika jamii yake kuhusu masuala ya HIV na PrEP.",
+  "example_questions_clean": [
+    "Je, PrEP ni salama kutumia ikiwa nina maumivu sugu?",
+    "Ninaweza kupata wapi msaada wa kujifunza zaidi kuhusu PrEP?",
+    "Je, kuna madhara yoyote ya kutumia PrEP pamoja na dawa zangu za maumivu?",
+    "Ni hatua gani ninahitaji kuchukua ili kuanza kutumia PrEP?",
+    "Je, ni muhimu kuzungumza na daktari wangu kuhusu hali yangu kabla ya kuanza PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Je, Pr3P ni salama kutumia ikiw nina maumivu sugu?",
+    "Ninaweza i mean kupata awpi msaaa wa kujifunza zaidi kuhusu P3rP? 🙄",
+    "je, kuna madhara y0yo73 ya kutumia PrEP pamoja na dawa zangu xa maumivu?",
+    "ni ahtua gani ninahitaji kuchukua ili kuanza kutumia PrEPPP",
+    "je, ni muhimu kuzungumz4 na daktari wangu kuhusu hali ayngu kabla ya kuanza PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10128950200505762,
+    "swap_rate": 0.05345827337380149,
+    "drop_rate": 0.02459107776068435,
+    "dup_rate": 0.02021511834158215,
+    "leet_rate": 0.11056561620633781,
+    "start_lower_prob": 0.8174145395668708,
+    "all_lower_prob": 0.16300537116106104,
+    "drop_punct_prob": 0.4739144275982506,
+    "double_space_prob": 0.328840701835119,
+    "ellipsis_prob": 0.22633703654593568,
+    "runon_prob": 0.1894440107810728,
+    "filler_rate": 0.27771936341000175,
+    "emoji_rate": 0.1629310168699175,
+    "stutter_rate": 0.1653159129875696,
+    "repeat_last_rate": 0.1612427479308413
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"kuhusu usalama wa PrEP katika hali yangu ya maumivu ya muda mrefu\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anashughulika na maumivu sugu ambayo yameathiri uwezo wake wa kufanya maamuzi kuhusu afya yake. Anajiuliza kama PrEP inaweza kuleta athari zaidi kwa mwili wake na anahisi hofu kuhusu kuchanganya dawa tofauti. Pia, anahisi kukosa msaada wa kutosha katika jamii yake kuhusu masuala ya HIV na PrEP.\",\n  \"example_questions\": [\n    \"Je, PrEP ni salama kutumia ikiwa nina maumivu sugu?\",\n    \"Ninaweza kupata wapi msaada wa kujifunza zaidi kuhusu PrEP?\",\n    \"Je, kuna madhara yoyote ya kutumia PrEP pamoja na dawa zangu za maumivu?\",\n    \"Ni hatua gani ninahitaji kuchukua ili kuanza kutumia PrEP?\",\n    \"Je, ni muhimu kuzungumza na daktari wangu kuhusu hali yangu kabla ya kuanza PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "93180026152f2811d3acd1e64af5df445a679fa31fcc2e8c9a46a98e622562f3",
+  "_language": "Swahili",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

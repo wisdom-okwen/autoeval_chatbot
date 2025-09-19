@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP while living in a shelter",
+    "language": "English"
+  },
+  "context": "Living in a shelter can make it difficult to access healthcare services, leading to feelings of anxiety and fear about getting the support needed for sexual health. The uncertainty of daily life and concerns about stigma add to the emotional burden, making it challenging to seek out information about options like PrEP.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get prescribed PrEP while living in a shelter?",
+    "Are there any clinics near shelters that provide PrEP for free or at a low cost?",
+    "How can I discuss my need for PrEP with a healthcare provider without feeling embarrassed?",
+    "What should I know about the side effects of PrEP, especially if I have limited access to regular medical care?",
+    "Is there support available for people living in shelters who want to start taking PrEP?",
+    "How do I maintain my privacy when trying to get information about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-wh47 4r3 the steps I need to take to get prescribed PrEP while ilving innn a shelter? 🫠",
+    "are there any clinics near sh3l73r5 that provide prep for free or at a low cost?",
+    "how can i discuss my need for prep wiht a healthcare provider without feeling embarraaassed embarraaassed",
+    "w-what should I know about the side effets of Pr3P especially if o hage limited access to egular medical care 😭",
+    "15 7here support available for peopel lviing in shelters who want to start taking prep prep",
+    "how do I maintain my pirvacy when trying to ge7 ijformation about PrEP ✨"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0532329673414496,
+    "swap_rate": 0.03758502239009158,
+    "drop_rate": 0.02090901573287246,
+    "dup_rate": 0.017034003683499954,
+    "leet_rate": 0.09417060656802978,
+    "start_lower_prob": 0.8475149703544758,
+    "all_lower_prob": 0.26934165707329405,
+    "drop_punct_prob": 0.4743858663390278,
+    "double_space_prob": 0.3382585946320536,
+    "ellipsis_prob": 0.34005290045019904,
+    "runon_prob": 0.16530558288420588,
+    "filler_rate": 0.29888514718633663,
+    "emoji_rate": 0.3089668725978769,
+    "stutter_rate": 0.19745391559475056,
+    "repeat_last_rate": 0.08163022074917019
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can make it difficult to access healthcare services, leading to feelings of anxiety and fear about getting the support needed for sexual health. The uncertainty of daily life and concerns about stigma add to the emotional burden, making it challenging to seek out information about options like PrEP.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get prescribed PrEP while living in a shelter?\",\n    \"Are there any clinics near shelters that provide PrEP for free or at a low cost?\",\n    \"How can I discuss my need for PrEP with a healthcare provider without feeling embarrassed?\",\n    \"What should I know about the side effects of PrEP, especially if I have limited access to regular medical care?\",\n    \"Is there support available for people living in shelters who want to start taking PrEP?\",\n    \"How do I maintain my privacy when trying to get information about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ba51c29fe25b74020078124396cfe838cadb4712648d64a3894379132a24783b",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

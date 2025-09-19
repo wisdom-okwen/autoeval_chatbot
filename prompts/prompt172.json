@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "La posibilidad de que PrEP agrave mis síntomas de PTSD.",
+    "language": "Spanish"
+  },
+  "context": "Una mujer joven en México está lidiando con el PTSD después de una experiencia traumática. Se siente ansiosa y tiene dudas sobre el uso de PrEP, temiendo que pueda afectar su salud mental y generar más estrés. Además, se preocupa por el estigma asociado al uso de medicamentos preventivos y cómo esto podría impactar su vida social y emocional.",
+  "example_questions_clean": [
+    "¿Puede PrEP afectar mi salud mental si tengo PTSD?",
+    "¿Existen recursos para personas con desafíos emocionales que quieran acceder a PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Es común que las personas con antecedentes de trauma tengan miedo de tomar PrEP?",
+    "¿Qué apoyo hay disponible para ayudarme a manejar el uso de PrEP y el PTSD?"
+  ],
+  "example_questions_noisy": [
+    "¿Puede PrEP afectar mi salud mental si tengo PTSD? 🙂",
+    "¿existen recursos para per50n4445 con fesafíos emocionales que quierzn acceder a prep?",
+    "¿Cóom puedo ablaaar con mi médico sobre mmmis preocupaciones sin setnirme juzgada 🙄",
+    "¿35 común que laa prsonas con antecedentes de trauma tengna miedo de tomar PrEP?",
+    "¿Qué apoyo hay disponible para 4yud4rm3 a maejar el uso de PrEP y el PTSD?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0807067312022074,
+    "swap_rate": 0.05876040949938284,
+    "drop_rate": 0.044380918254950774,
+    "dup_rate": 0.018293859527798835,
+    "leet_rate": 0.07111600842509772,
+    "start_lower_prob": 0.6198320572156242,
+    "all_lower_prob": 0.1946839548144978,
+    "drop_punct_prob": 0.35992718038542515,
+    "double_space_prob": 0.2592685691046036,
+    "ellipsis_prob": 0.28333563340236567,
+    "runon_prob": 0.2754901279598232,
+    "filler_rate": 0.2926775630868232,
+    "emoji_rate": 0.26027264568022895,
+    "stutter_rate": 0.17476143255347534,
+    "repeat_last_rate": 0.12212631756544134
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"La posibilidad de que PrEP agrave mis síntomas de PTSD.\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una mujer joven en México está lidiando con el PTSD después de una experiencia traumática. Se siente ansiosa y tiene dudas sobre el uso de PrEP, temiendo que pueda afectar su salud mental y generar más estrés. Además, se preocupa por el estigma asociado al uso de medicamentos preventivos y cómo esto podría impactar su vida social y emocional.\",\n  \"example_questions\": [\n    \"¿Puede PrEP afectar mi salud mental si tengo PTSD?\",\n    \"¿Existen recursos para personas con desafíos emocionales que quieran acceder a PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Es común que las personas con antecedentes de trauma tengan miedo de tomar PrEP?\",\n    \"¿Qué apoyo hay disponible para ayudarme a manejar el uso de PrEP y el PTSD?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4f3b75e53f5b57a9c091f92bcbb2dddfdac6869e2e29ecb18fad0e9e8e065db0",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

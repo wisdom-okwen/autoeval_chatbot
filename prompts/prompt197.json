@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "Masculino",
+    "socio_economic_status": "Classe média",
+    "primary_concern": "Dificuldade em lidar com o estigma social ligado ao uso de PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você é um jovem brasileiro que está lutando com a autoestima. A insegurança e o medo do que os outros pensam tornam difícil para você considerar o uso de PrEP. Você se preocupa com como isso pode ser visto pela sociedade, o que afeta sua disposição de buscar informações e apoio.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona?",
+    "Quais são os efeitos colaterais mais comuns do PrEP?",
+    "Como posso me sentir mais seguro ao falar sobre PrEP com meu médico?",
+    "Existem opções de assistência financeira para obter PrEP?",
+    "Como posso lidar com o estigma social ao usar PrEP?",
+    "Qual é a eficácia do PrEP na prevenção do HIV?"
+  ],
+  "example_questions_noisy": [
+    "o que é prep e como ele funciona?",
+    "q-quais são os efeiros colaterais nais comuns do PrEP",
+    "Como posso me sentir mais seguro aaao falar sobre PrEP com meu mdéico 😕",
+    "existem opções de assistência d1n4nc31r4 para 0bt3r prep",
+    "como posso ldar com o estigma like social ao usar prep prep",
+    "qual é a eficácia do you know PrEP na prveenção do HVI"
+  ],
+  "style_profile": {
+    "typo_rate": 0.1164031010440781,
+    "swap_rate": 0.05520857064104627,
+    "drop_rate": 0.04785520483817271,
+    "dup_rate": 0.02001273886250251,
+    "leet_rate": 0.06294456317045577,
+    "start_lower_prob": 0.8771689782730738,
+    "all_lower_prob": 0.17041705068160196,
+    "drop_punct_prob": 0.4661346425109718,
+    "double_space_prob": 0.17058837304788435,
+    "ellipsis_prob": 0.2996466870744793,
+    "runon_prob": 0.28271262247222323,
+    "filler_rate": 0.2995880578902142,
+    "emoji_rate": 0.2836159679793395,
+    "stutter_rate": 0.17118994430377224,
+    "repeat_last_rate": 0.117442171201611
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Classe média\",\n    \"primary_concern\": \"Dificuldade em lidar com o estigma social ligado ao uso de PrEP\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você é um jovem brasileiro que está lutando com a autoestima. A insegurança e o medo do que os outros pensam tornam difícil para você considerar o uso de PrEP. Você se preocupa com como isso pode ser visto pela sociedade, o que afeta sua disposição de buscar informações e apoio.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona?\",\n    \"Quais são os efeitos colaterais mais comuns do PrEP?\",\n    \"Como posso me sentir mais seguro ao falar sobre PrEP com meu médico?\",\n    \"Existem opções de assistência financeira para obter PrEP?\",\n    \"Como posso lidar com o estigma social ao usar PrEP?\",\n    \"Qual é a eficácia do PrEP na prevenção do HIV?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3b1ef5fecf1f37b4e55f7ba917cef404c86ac0312e76187b53eaa10689db2f3c",
+  "_language": "Portuguese",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

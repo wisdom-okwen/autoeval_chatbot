@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might interact with my recovery from cancer treatment",
+    "language": "English"
+  },
+  "context": "The user is a 35-year-old woman recovering from cancer treatment. She has concerns about her immune system and how taking PrEP might affect her health during this vulnerable time. The emotional toll of her recent health struggles has made her cautious and fearful about new medications, yet she hopes to protect herself from HIV.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works for someone in recovery from cancer?",
+    "Are there any specific side effects of PrEP that I should be aware of given my situation?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "What resources are available to help me access PrEP as a cancer survivor?",
+    "Is there any stigma associated with taking PrEP that I should know about?",
+    "How do I know if PrEP is safe for me right now?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works for someone in recovery from cancer? 😅",
+    "a-are there any speeecific side effects offf prep that i should be aware of given my situation? situation?",
+    "how can i discuss idk my c0nc3rn5 aboyt prep wirh my halthcare provider",
+    "what resources are available to hrlp me 4cc355 PrEP as a cancer survovor",
+    "iz there any stigma a550c1473d wiiith taking prep thay i should know about?",
+    "i mean how do I know if PrEP is safe for me right now"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11787939499611037,
+    "swap_rate": 0.04340079868304242,
+    "drop_rate": 0.02906749725463669,
+    "dup_rate": 0.02934444861246538,
+    "leet_rate": 0.0585665912372029,
+    "start_lower_prob": 0.6404442760090295,
+    "all_lower_prob": 0.1928396140504309,
+    "drop_punct_prob": 0.48732167816025407,
+    "double_space_prob": 0.23792868395020955,
+    "ellipsis_prob": 0.2691721255661014,
+    "runon_prob": 0.22995480596809698,
+    "filler_rate": 0.49312363695707034,
+    "emoji_rate": 0.30071625999104745,
+    "stutter_rate": 0.12865440180430054,
+    "repeat_last_rate": 0.17001946879836596
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might interact with my recovery from cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 35-year-old woman recovering from cancer treatment. She has concerns about her immune system and how taking PrEP might affect her health during this vulnerable time. The emotional toll of her recent health struggles has made her cautious and fearful about new medications, yet she hopes to protect herself from HIV.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works for someone in recovery from cancer?\",\n    \"Are there any specific side effects of PrEP that I should be aware of given my situation?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"What resources are available to help me access PrEP as a cancer survivor?\",\n    \"Is there any stigma associated with taking PrEP that I should know about?\",\n    \"How do I know if PrEP is safe for me right now?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8caaa77eaa14cd30fd49aeb334342f3183b69cad95cbe436e16586d2caf43776",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

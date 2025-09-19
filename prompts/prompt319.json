@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Brasileira",
+    "age": 32,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "medo de estigmas associados ao uso de PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você é uma mulher brasileira de 32 anos que enfrenta desafios emocionais devido ao PTSD. Sua experiência com trauma torna difícil a conversa sobre saúde sexual, especialmente quando se trata de algo como PrEP. Você se preocupa com o estigma que pode enfrentar ao buscar informações sobre este medicamento, sentindo-se vulnerável e insegura. Sua situação a faz hesitar em acessar recursos de saúde, mesmo que saiba que a PrEP pode ser uma opção importante para sua proteção.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona?",
+    "A PrEP pode ter efeitos colaterais que afetam a saúde mental?",
+    "Como posso abordar o tema da PrEP com meu médico?",
+    "Existem grupos de apoio para pessoas que usam PrEP?",
+    "Quais são os requisitos para obter PrEP no Brasil?"
+  ],
+  "example_questions_noisy": [
+    "o que é prep uh e como ele funciona?",
+    "a-a PrEP pode ter efeitos colaterais que afetam a saúde m3n74l? 💀",
+    "c-como po550 abodrar o tema d4 PrEP com meu médico",
+    "existem grupos de 4p010 para pewsoas que usam prep 😕",
+    "quais sãk os requisitos para 0b73r rep no brasil"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08254024437522418,
+    "swap_rate": 0.042076007529292886,
+    "drop_rate": 0.045890105977911766,
+    "dup_rate": 0.02285732196139905,
+    "leet_rate": 0.08911876095189616,
+    "start_lower_prob": 0.6133330462608529,
+    "all_lower_prob": 0.27780005907727534,
+    "drop_punct_prob": 0.4918753188392953,
+    "double_space_prob": 0.32121435554207617,
+    "ellipsis_prob": 0.20608952851470558,
+    "runon_prob": 0.2593485077703024,
+    "filler_rate": 0.3105749552733106,
+    "emoji_rate": 0.29390433331432797,
+    "stutter_rate": 0.19823155010025686,
+    "repeat_last_rate": 0.15707824482401503
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileira\",\n    \"age\": 32,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"medo de estigmas associados ao uso de PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é uma mulher brasileira de 32 anos que enfrenta desafios emocionais devido ao PTSD. Sua experiência com trauma torna difícil a conversa sobre saúde sexual, especialmente quando se trata de algo como PrEP. Você se preocupa com o estigma que pode enfrentar ao buscar informações sobre este medicamento, sentindo-se vulnerável e insegura. Sua situação a faz hesitar em acessar recursos de saúde, mesmo que saiba que a PrEP pode ser uma opção importante para sua proteção.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona?\",\n    \"A PrEP pode ter efeitos colaterais que afetam a saúde mental?\",\n    \"Como posso abordar o tema da PrEP com meu médico?\",\n    \"Existem grupos de apoio para pessoas que usam PrEP?\",\n    \"Quais são os requisitos para obter PrEP no Brasil?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b8fc3444bf5aa7db90e0556d2d36a4e3ef291c966f4c0e4056ae3ad94d6a727f",
+  "_language": "Portuguese",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

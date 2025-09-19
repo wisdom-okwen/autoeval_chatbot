@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 25,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP works and its side effects due to difficulty in processing medical information",
+    "language": "Swahili"
+  },
+  "context": "The user faces challenges in processing complex medical information due to a learning disability, which creates anxiety about understanding PrEP and its implications for their health. There is a fear of stigma and misunderstanding from healthcare providers, leading to hesitation in seeking necessary information.",
+  "example_questions_clean": [
+    "PrEP ni nini na inafanya kazi vipi?",
+    "Je, kuna madhara yoyote yanayohusiana na PrEP na ni vipi yanaweza kuathiri mimi?",
+    "Ninaweza kupata PrEP wapi na ni hatua zipi zinazohitajika?",
+    "Ni nani anaweza kunisaidia kuelewa maelezo haya vizuri zaidi?",
+    "Je, watu wengine wanavyopata PrEP wanapata matatizo gani?",
+    "Ni muhimu kuchukua PrEP kwa muda gani ili iweze kufanya kazi?"
+  ],
+  "example_questions_noisy": [
+    "uh prP ni ninnni na inafanya kazi vipi",
+    "Je, kuna madhara yoyote y4n4y0hu5i4n4 na PrEP na ni vipi yanaweza kuathiri mimi?",
+    "Ninaweza kuapta PrEP wapi na ni hatua z1p1 zinazohitajika?",
+    "n-ni nani anaweza kun1541d14 kuuuelewa maelezo haya fizuri zaidi?",
+    "je, watu wengine wanavyopata PrEP wanapata matatizo gani? gani?",
+    "ni muh1mu kuchukua ptep kwa mud4 gani ili iweze kufanya kazi?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10670321040450284,
+    "swap_rate": 0.047978862302739955,
+    "drop_rate": 0.046149963732770624,
+    "dup_rate": 0.023260330532025288,
+    "leet_rate": 0.11330040838592643,
+    "start_lower_prob": 0.7144079811575157,
+    "all_lower_prob": 0.27180230971889763,
+    "drop_punct_prob": 0.41611524201630556,
+    "double_space_prob": 0.17963391407425644,
+    "ellipsis_prob": 0.23568726968886525,
+    "runon_prob": 0.1787076853800483,
+    "filler_rate": 0.34069033258778525,
+    "emoji_rate": 0.1822488093577447,
+    "stutter_rate": 0.14645012783208883,
+    "repeat_last_rate": 0.11156449456896107
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 25,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP works and its side effects due to difficulty in processing medical information\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user faces challenges in processing complex medical information due to a learning disability, which creates anxiety about understanding PrEP and its implications for their health. There is a fear of stigma and misunderstanding from healthcare providers, leading to hesitation in seeking necessary information.\",\n  \"example_questions\": [\n    \"PrEP ni nini na inafanya kazi vipi?\",\n    \"Je, kuna madhara yoyote yanayohusiana na PrEP na ni vipi yanaweza kuathiri mimi?\",\n    \"Ninaweza kupata PrEP wapi na ni hatua zipi zinazohitajika?\",\n    \"Ni nani anaweza kunisaidia kuelewa maelezo haya vizuri zaidi?\",\n    \"Je, watu wengine wanavyopata PrEP wanapata matatizo gani?\",\n    \"Ni muhimu kuchukua PrEP kwa muda gani ili iweze kufanya kazi?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e67ca9013ccd347e4e722106b7a7cc5c70d5cd1d35aa24ce3080763634b8f3c9",
+  "_language": "Swahili",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

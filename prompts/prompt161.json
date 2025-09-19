@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 24,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation sociale et les effets sur ma dysphorie de genre",
+    "language": "French"
+  },
+  "context": "Vous êtes une personne non-binaire qui fait face à la dysphorie de genre, ce qui rend l'accès à la santé reproductive plus complexe. Vous craignez que le processus pour obtenir PrEP puisse aggraver vos sentiments d'anxiété et de stigmatisation, surtout en raison de la perception des autres. Vous souhaitez vous protéger, mais le contexte social pèse lourd sur votre esprit.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP dans ma situation?",
+    "Comment puis-je parler de PrEP avec mon médecin sans me sentir jugé?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître?",
+    "Y a-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent PrEP?",
+    "Comment la prise de PrEP pourrait-elle affecter ma dysphorie de genre?",
+    "Existe-t-il des témoignages de personnes non-binaires ayant pris PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Qu3ll35 sont les étapes pour obtenir PrEP dans maaa situatin? ❓",
+    "comment puis-je parler de PrEP um avec mon médecin sans me sentir jugé 🙂",
+    "Quels 5kn7 les effets secndaries possibles de PrEP que je devrais connaître",
+    "y a-t-il des ressources ou des groupes de 5ou713n p0ur le5 persnones c0mm3 moi qui envisagent PrEP",
+    "commeny la prise de PdEP pourrait-elle affecter ma dysphorie de genre?",
+    "3x1573-7-1l des témoignages de personnes non-binaires ayant like pris PrEP? ‼️"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10230015727673,
+    "swap_rate": 0.03488059174245593,
+    "drop_rate": 0.042846195997507504,
+    "dup_rate": 0.0164419800046516,
+    "leet_rate": 0.060383046259603126,
+    "start_lower_prob": 0.611416448991146,
+    "all_lower_prob": 0.1821890248372573,
+    "drop_punct_prob": 0.45746557137925864,
+    "double_space_prob": 0.3036183865579106,
+    "ellipsis_prob": 0.22011028521832696,
+    "runon_prob": 0.2779154571039769,
+    "filler_rate": 0.40442723730363506,
+    "emoji_rate": 0.2746532995671141,
+    "stutter_rate": 0.10324681835263229,
+    "repeat_last_rate": 0.09699712954568775
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 24,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation sociale et les effets sur ma dysphorie de genre\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une personne non-binaire qui fait face à la dysphorie de genre, ce qui rend l'accès à la santé reproductive plus complexe. Vous craignez que le processus pour obtenir PrEP puisse aggraver vos sentiments d'anxiété et de stigmatisation, surtout en raison de la perception des autres. Vous souhaitez vous protéger, mais le contexte social pèse lourd sur votre esprit.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP dans ma situation?\",\n    \"Comment puis-je parler de PrEP avec mon médecin sans me sentir jugé?\",\n    \"Quels sont les effets secondaires possibles de PrEP que je devrais connaître?\",\n    \"Y a-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent PrEP?\",\n    \"Comment la prise de PrEP pourrait-elle affecter ma dysphorie de genre?\",\n    \"Existe-t-il des témoignages de personnes non-binaires ayant pris PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c01d42b6dec690e84bb2209d96c737e714d3548649616f21f398b43df24c6bd5",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

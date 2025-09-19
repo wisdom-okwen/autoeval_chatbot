@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have been feeling socially isolated, which makes it difficult to engage with healthcare services. Your fear of being judged for seeking PrEP adds to your reluctance. You want to protect your health but feel uncertain about how to navigate the healthcare system without facing stigma. This creates a conflict between your desire for safety and your anxiety about judgment.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get PrEP without feeling judged?",
+    "Are there clinics that are known for being more accepting and understanding?",
+    "How can I manage my fear of stigma while trying to access PrEP?",
+    "What should I expect during my first appointment for PrEP?",
+    "Is there support available for people feeling isolated while seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to get PrEP without feeling judged 🫠",
+    "are there clinics that are known i mean for being more accepting 4nd understanding? 😅",
+    "how can I m4n4g3 my fear ooof stigma while trying to access PrEP",
+    "whwt shoulddd i expect during you know jy first appointment for prep?",
+    "ia there support idk available for people feeling isolated wgile seeking PrEP? ❓"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11606871912512587,
+    "swap_rate": 0.05477635915031942,
+    "drop_rate": 0.02105034178549576,
+    "dup_rate": 0.017601273850834508,
+    "leet_rate": 0.07259125291603861,
+    "start_lower_prob": 0.6859409263304558,
+    "all_lower_prob": 0.19774736509382673,
+    "drop_punct_prob": 0.448620557532204,
+    "double_space_prob": 0.2420767132909954,
+    "ellipsis_prob": 0.29498564635237357,
+    "runon_prob": 0.1490351599288992,
+    "filler_rate": 0.3941207149364151,
+    "emoji_rate": 0.21912062613918235,
+    "stutter_rate": 0.12607180302552046,
+    "repeat_last_rate": 0.08852162810429537
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been feeling socially isolated, which makes it difficult to engage with healthcare services. Your fear of being judged for seeking PrEP adds to your reluctance. You want to protect your health but feel uncertain about how to navigate the healthcare system without facing stigma. This creates a conflict between your desire for safety and your anxiety about judgment.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get PrEP without feeling judged?\",\n    \"Are there clinics that are known for being more accepting and understanding?\",\n    \"How can I manage my fear of stigma while trying to access PrEP?\",\n    \"What should I expect during my first appointment for PrEP?\",\n    \"Is there support available for people feeling isolated while seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b40a4e7f7ea4b8ac5485f1f9f299437f7a538d63b93116ccd357c42f19b6214f",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "angst voor stigma en acceptatie van de maatschappij",
+    "language": "Dutch"
+  },
+  "context": "Je voelt je overweldigd door de angst voor stigma dat gepaard gaat met het gebruik van PrEP. Je wilt jezelf beschermen tegen HIV, maar je maakt je zorgen over wat anderen zullen denken als ze ontdekken dat je PrEP gebruikt. Deze angst beïnvloedt je gevoelens van eigenwaarde en maakt het moeilijker om hulp en informatie te zoeken.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+    "Hoe kan ik discreet informatie over PrEP krijgen zonder sociale druk?",
+    "Welke stappen moet ik nemen om PrEP te kunnen krijgen?",
+    "Zijn er ondersteuning of gemeenschappen die kunnen helpen met stigma rond PrEP?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de voordelen van h37 gebbbruik v4n PrEP voorrr iemand zoals ik?",
+    "hoe kan ik discreet inform4713 over PrEP krijgen zonder sociale dru?",
+    "welke stappen m037 1k n3men om prep te kunnen krijgen?",
+    "Zijn er ondersteuning of gemeenschappen die kunenn helpen meeet 57igm4 rond PrEP",
+    "Wat zijn de mogelijek bijwerkingen van PrEP waar 1k mr bewust van m037 zijn? zijn?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.060367196666057915,
+    "swap_rate": 0.02586536947461105,
+    "drop_rate": 0.03564614470019527,
+    "dup_rate": 0.024622854120646562,
+    "leet_rate": 0.11681314056725028,
+    "start_lower_prob": 0.792880146843268,
+    "all_lower_prob": 0.25288705394536726,
+    "drop_punct_prob": 0.3216024485495115,
+    "double_space_prob": 0.19255449442876268,
+    "ellipsis_prob": 0.1519783676368802,
+    "runon_prob": 0.12545043113473595,
+    "filler_rate": 0.42127367444776154,
+    "emoji_rate": 0.17436212447645208,
+    "stutter_rate": 0.1150751344933727,
+    "repeat_last_rate": 0.13051912724983583
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"angst voor stigma en acceptatie van de maatschappij\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Je voelt je overweldigd door de angst voor stigma dat gepaard gaat met het gebruik van PrEP. Je wilt jezelf beschermen tegen HIV, maar je maakt je zorgen over wat anderen zullen denken als ze ontdekken dat je PrEP gebruikt. Deze angst beïnvloedt je gevoelens van eigenwaarde en maakt het moeilijker om hulp en informatie te zoeken.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?\",\n    \"Hoe kan ik discreet informatie over PrEP krijgen zonder sociale druk?\",\n    \"Welke stappen moet ik nemen om PrEP te kunnen krijgen?\",\n    \"Zijn er ondersteuning of gemeenschappen die kunnen helpen met stigma rond PrEP?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2cd50b64b67f2cd7e1b424be27f7df2c3e1fdc31a16a3d73a204859453d738f5",
+  "_language": "Dutch",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

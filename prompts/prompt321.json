@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 26,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur du jugement et de la stigmatisation",
+    "language": "French"
+  },
+  "context": "Cette personne fait face à des défis liés à la dysphorie de genre, ce qui complique son accès à des soins de santé comme le PrEP. Elle ressent une inquiétude intense par rapport à l'acceptation sociale et la crainte d'être jugée par les professionnels de santé, ce qui affecte son bien-être émotionnel et son désir de prendre soin de sa santé sexuelle.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir le PrEP en tant que personne non-binaire ?",
+    "Est-ce que les médecins sont habitués à traiter des personnes comme moi dans le cadre du PrEP ?",
+    "Comment puis-je surmonter ma peur du jugement lorsque je parle du PrEP ?",
+    "Y a-t-il des ressources spécifiques pour les personnes trans et non-binaires concernant le PrEP ?",
+    "Le PrEP a-t-il des effets secondaires qui pourraient affecter mon corps ?",
+    "Comment se déroule un rendez-vous médical pour discuter du PrEP dans un environnement accueillant ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles sont les étapes pour obtenir le PrEP en tant que personne non-binaire",
+    "est-ce que l35 médecins 50nt habitusé à traiter des p3r5onnes idk comme moi dans le cadre du PrEP 😕",
+    "comment puis-je surmonter ma peur du jugement lorsque je parle du prep ❓",
+    "Y-Y 4-t-1l desss ressources spécifiques 0pur les personnes tr4n5 et non-binaires concernant l3 PrEP ? ❓ ❓",
+    "L-Le PrEP a-t-il des effets s3c0nd41r3s qui pourraient afecter mon corps i mean ? 😬",
+    "comment sssr déroule un rendez-vous médical pour discuter du prep dans un envirnonement accueillant ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11708968663370745,
+    "swap_rate": 0.03789881267988826,
+    "drop_rate": 0.025627659942216236,
+    "dup_rate": 0.02101177262890224,
+    "leet_rate": 0.0903476531071223,
+    "start_lower_prob": 0.6683453057370844,
+    "all_lower_prob": 0.2145491478100691,
+    "drop_punct_prob": 0.3859622145046308,
+    "double_space_prob": 0.15778423869453306,
+    "ellipsis_prob": 0.3307810817766379,
+    "runon_prob": 0.15499052463894977,
+    "filler_rate": 0.4020066637710382,
+    "emoji_rate": 0.3248069794089201,
+    "stutter_rate": 0.18610278745421535,
+    "repeat_last_rate": 0.15426486679761287
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 26,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur du jugement et de la stigmatisation\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne fait face à des défis liés à la dysphorie de genre, ce qui complique son accès à des soins de santé comme le PrEP. Elle ressent une inquiétude intense par rapport à l'acceptation sociale et la crainte d'être jugée par les professionnels de santé, ce qui affecte son bien-être émotionnel et son désir de prendre soin de sa santé sexuelle.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir le PrEP en tant que personne non-binaire ?\",\n    \"Est-ce que les médecins sont habitués à traiter des personnes comme moi dans le cadre du PrEP ?\",\n    \"Comment puis-je surmonter ma peur du jugement lorsque je parle du PrEP ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes trans et non-binaires concernant le PrEP ?\",\n    \"Le PrEP a-t-il des effets secondaires qui pourraient affecter mon corps ?\",\n    \"Comment se déroule un rendez-vous médical pour discuter du PrEP dans un environnement accueillant ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "36c0d93e5d3a14d6bae7be2d87e8bfc3d184aa04a0333eaf2a579dd6790830a1",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

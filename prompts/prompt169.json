@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "feeling overwhelmed by the stigma surrounding PrEP and how to discuss it with healthcare providers",
+    "language": "English"
+  },
+  "context": "You are feeling socially isolated due to your concerns about your sexual health and the stigma associated with PrEP. This isolation makes it difficult for you to seek information or support, leaving you anxious about discussing PrEP with others, including healthcare professionals. You are hopeful for a way to protect yourself but feel apprehensive about the potential judgment from others.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "Are there any side effects I should be aware of before starting PrEP?",
+    "How can I approach my doctor about getting a prescription for PrEP?",
+    "What resources are available for someone feeling isolated while considering PrEP?",
+    "How do I find a supportive community that understands my concerns about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-what exactly is PrEP and .. h0w does it work ❓",
+    "are there any side effects I should be aware of before starting Pr3P",
+    "how can I appoach my doctor about grt7ing 4 prescription fffor PrEP",
+    "what resources are vailable for 50me0n3 fffeeling isolated while considering Pr3P",
+    "How do I find a supportive cmomuniy that understands my clncerns about PErP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.054952150217596085,
+    "swap_rate": 0.037656440235660366,
+    "drop_rate": 0.049514318625298176,
+    "dup_rate": 0.02935551036529495,
+    "leet_rate": 0.10815338927111218,
+    "start_lower_prob": 0.8028961086234092,
+    "all_lower_prob": 0.31305345962809117,
+    "drop_punct_prob": 0.5166857377419483,
+    "double_space_prob": 0.24301875218639282,
+    "ellipsis_prob": 0.2885102231420113,
+    "runon_prob": 0.2448105579167515,
+    "filler_rate": 0.23832724027716876,
+    "emoji_rate": 0.23203313254654098,
+    "stutter_rate": 0.19240328934433953,
+    "repeat_last_rate": 0.15713739501258284
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"feeling overwhelmed by the stigma surrounding PrEP and how to discuss it with healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling socially isolated due to your concerns about your sexual health and the stigma associated with PrEP. This isolation makes it difficult for you to seek information or support, leaving you anxious about discussing PrEP with others, including healthcare professionals. You are hopeful for a way to protect yourself but feel apprehensive about the potential judgment from others.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"Are there any side effects I should be aware of before starting PrEP?\",\n    \"How can I approach my doctor about getting a prescription for PrEP?\",\n    \"What resources are available for someone feeling isolated while considering PrEP?\",\n    \"How do I find a supportive community that understands my concerns about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cb952b6741e24952c6072c37551107b63245fd9cbbc5f09d37ede9f5ac54ffc2",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

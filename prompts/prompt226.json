@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP may interact with my medications for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "Living with multiple sclerosis, I often feel overwhelmed by my health challenges. Managing my condition makes me anxious about starting new medications like PrEP. I fear potential interactions and how they might affect my existing treatments. Additionally, I worry about stigma associated with both my condition and the idea of using PrEP, which makes it hard to talk openly about it. I'm looking for guidance on what to consider before starting PrEP given my unique situation.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works for someone with multiple sclerosis?",
+    "What are the possible interactions between PrEP and the medications I take for my condition?",
+    "Are there additional health considerations I should be aware of when taking PrEP?",
+    "How can I find a healthcare provider who understands both PrEP and multiple sclerosis?",
+    "What support resources are available for people in my situation considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain how prep w0rk5 for somepne with multiple sclerosis",
+    "What are 7h3 possiblw interactions between PrEP annnd the medications I take fooor my cnodition? cnodition?",
+    "Are th3r3 add1710n4l health i mean considerations I should be aware of wh3n taking PrEP?",
+    "How can I find a healthcare provider who unddderstands both PrEP and multiple sclerosis? 😅",
+    "what support resourcesss are available i mean for p30ple iiin my 517u47i0n considering PPPrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05504015757060454,
+    "swap_rate": 0.034013660157947656,
+    "drop_rate": 0.02480747087581345,
+    "dup_rate": 0.026845632398499797,
+    "leet_rate": 0.11669429080703869,
+    "start_lower_prob": 0.7462348108461032,
+    "all_lower_prob": 0.2847737370126734,
+    "drop_punct_prob": 0.4343792732210551,
+    "double_space_prob": 0.3047699556548458,
+    "ellipsis_prob": 0.15238714571237907,
+    "runon_prob": 0.26998708359784196,
+    "filler_rate": 0.23479193344263363,
+    "emoji_rate": 0.15778584333831416,
+    "stutter_rate": 0.12615268281796385,
+    "repeat_last_rate": 0.14914774644910989
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP may interact with my medications for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with multiple sclerosis, I often feel overwhelmed by my health challenges. Managing my condition makes me anxious about starting new medications like PrEP. I fear potential interactions and how they might affect my existing treatments. Additionally, I worry about stigma associated with both my condition and the idea of using PrEP, which makes it hard to talk openly about it. I'm looking for guidance on what to consider before starting PrEP given my unique situation.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works for someone with multiple sclerosis?\",\n    \"What are the possible interactions between PrEP and the medications I take for my condition?\",\n    \"Are there additional health considerations I should be aware of when taking PrEP?\",\n    \"How can I find a healthcare provider who understands both PrEP and multiple sclerosis?\",\n    \"What support resources are available for people in my situation considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "087fb8a63414ef2e47eb26e04b055c5f848fd93bac399949860eed4b6d741fbc",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

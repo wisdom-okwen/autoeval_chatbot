@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 29,
+    "gender": "masculino",
+    "socio_economic_status": "médio",
+    "primary_concern": "medo do estigma social relacionado ao uso do PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de um trauma emocional recente e isso afetou sua confiança e disposição para buscar informações sobre saúde sexual. Você está interessado em PrEP, mas sente-se apreensivo devido ao medo de ser julgado e à falta de apoio emocional durante este processo.",
+  "example_questions_clean": [
+    "O que é o PrEP e como ele pode me ajudar?",
+    "Quais são os efeitos colaterais do PrEP que eu devo considerar?",
+    "Como posso encontrar um médico que me atenda de forma respeitosa?",
+    "O uso do PrEP pode impactar minha saúde mental de alguma forma?",
+    "Como posso lidar com a pressão social ao considerar o uso do PrEP?",
+    "Existem grupos de apoio para pessoas que usam PrEP?"
+  ],
+  "example_questions_noisy": [
+    "o qu3 é o PrEP s c0m0 ele pode me ajuda? 💀",
+    "uais 5ã0 05 efeitos colaterais do PrEP que eu devo c0ns1d3rzr? 🙄 🙄",
+    "como posso enconrtar um médico que me atenda d3 forma respeitosa",
+    "o uso do prep pode impactar m1nha saúde i mean mental de alguma forma forma",
+    "como posso lidar com a pressão social ao cinsiderar o uso do prep",
+    "existem grup05 fe apoio para pessoas que u54m PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11908481095043004,
+    "swap_rate": 0.05010893396771643,
+    "drop_rate": 0.02429567545537782,
+    "dup_rate": 0.013395971457759472,
+    "leet_rate": 0.11925062626989141,
+    "start_lower_prob": 0.7382728128537515,
+    "all_lower_prob": 0.2734321954293742,
+    "drop_punct_prob": 0.5201992076466435,
+    "double_space_prob": 0.21383921489769372,
+    "ellipsis_prob": 0.31455268388592367,
+    "runon_prob": 0.19061226418812333,
+    "filler_rate": 0.2441359398166091,
+    "emoji_rate": 0.3482196362029648,
+    "stutter_rate": 0.11767445559079417,
+    "repeat_last_rate": 0.10667043740027655
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 29,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"medo do estigma social relacionado ao uso do PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está se recuperando de um trauma emocional recente e isso afetou sua confiança e disposição para buscar informações sobre saúde sexual. Você está interessado em PrEP, mas sente-se apreensivo devido ao medo de ser julgado e à falta de apoio emocional durante este processo.\",\n  \"example_questions\": [\n    \"O que é o PrEP e como ele pode me ajudar?\",\n    \"Quais são os efeitos colaterais do PrEP que eu devo considerar?\",\n    \"Como posso encontrar um médico que me atenda de forma respeitosa?\",\n    \"O uso do PrEP pode impactar minha saúde mental de alguma forma?\",\n    \"Como posso lidar com a pressão social ao considerar o uso do PrEP?\",\n    \"Existem grupos de apoio para pessoas que usam PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5b212fb1878c8a3424e3549fa73126c8aae649e102c02e422f8f51c76beb3d33",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

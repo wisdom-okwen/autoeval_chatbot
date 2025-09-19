@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "overcoming social anxiety in discussing PrEP with healthcare providers",
+    "language": "English"
+  },
+  "context": "The user struggles with social anxiety, making it challenging to initiate conversations about PrEP. This condition amplifies feelings of fear and stigma surrounding their sexual health. They feel apprehensive about accessing healthcare services and worry about being judged or misunderstood by medical professionals.",
+  "example_questions_clean": [
+    "What are the steps I should take to start a conversation about PrEP with my doctor?",
+    "How can I prepare myself mentally for discussing PrEP at a healthcare appointment?",
+    "What resources are available for individuals who feel anxious about seeking PrEP?",
+    "Are there supportive environments where I can learn more about PrEP without feeling judged?",
+    "How can I address the stigma I feel around taking PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "what are the 57ep5 I should take to start a conversation 4bu7 PrEP w17h my doctor?",
+    "How can I prepare myselfff mmmentally for discussing PrEP at a healthcare appointment",
+    "what resources i mean are available f0r indivjduals wh0 feel anxious about seeking PrEP?",
+    "are there supportive envirpnments where i can learn ore about prep without feeling judged 😕",
+    "h-hpw c4n I address th3 stigma u feel around taking PrEP with ky healthcare provider?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07924538763019184,
+    "swap_rate": 0.020182200793311993,
+    "drop_rate": 0.04756811780302745,
+    "dup_rate": 0.012234803583223323,
+    "leet_rate": 0.0922857372128788,
+    "start_lower_prob": 0.7768078226153223,
+    "all_lower_prob": 0.2765411604446051,
+    "drop_punct_prob": 0.3601688630824376,
+    "double_space_prob": 0.15017871703306376,
+    "ellipsis_prob": 0.15897664768195965,
+    "runon_prob": 0.20659494131115205,
+    "filler_rate": 0.3007696094093432,
+    "emoji_rate": 0.33207526367223605,
+    "stutter_rate": 0.17853086238864652,
+    "repeat_last_rate": 0.11640271908131555
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"overcoming social anxiety in discussing PrEP with healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with social anxiety, making it challenging to initiate conversations about PrEP. This condition amplifies feelings of fear and stigma surrounding their sexual health. They feel apprehensive about accessing healthcare services and worry about being judged or misunderstood by medical professionals.\",\n  \"example_questions\": [\n    \"What are the steps I should take to start a conversation about PrEP with my doctor?\",\n    \"How can I prepare myself mentally for discussing PrEP at a healthcare appointment?\",\n    \"What resources are available for individuals who feel anxious about seeking PrEP?\",\n    \"Are there supportive environments where I can learn more about PrEP without feeling judged?\",\n    \"How can I address the stigma I feel around taking PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3d8a067018602fe577dcb3bafee0a9fc6368d1f4b121cc344ed88749850f1d05",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

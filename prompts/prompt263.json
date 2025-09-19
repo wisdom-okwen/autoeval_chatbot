@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worried about how PrEP may interact with my ongoing recovery and overall health",
+    "language": "Dutch"
+  },
+  "context": "Na een langdurige behandeling voor kanker voel ik me kwetsbaar en onzeker over mijn gezondheid. De behandeling heeft me mentaal en emotioneel uitgeput, en ik ben bang dat PrEP negatieve effecten kan hebben op mijn lichaam en herstel. Tegelijkertijd wil ik mezelf beschermen tegen HIV, maar ik ben bezorgd over de mogelijke bijwerkingen en het stigma dat met PrEP gepaard gaat.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?",
+    "Hoe kan ik mijn zorgverlener om advies vragen over het gebruik van PrEP in mijn situatie?",
+    "Is er specifieke ondersteuning beschikbaar voor mensen in mijn situatie die PrEP overwegen?",
+    "Hoe kan ik meer leren over de interacties tussen PrEP en andere medicijnen die ik gebruik?",
+    "Wat zijn de ervaringen van anderen in vergelijkbare situaties met het gebruik van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de mogelijke bijwerkingen van pep voor iemand die herstelt van um kanker?",
+    "hoe ksn ik mijn zorgverlener 0m advies vrzg3n over het gebruik van Pr3P in mjn situatie",
+    "is er specifieke ondersteuning b35ch1kb44r voor mensen in m1jn situatie idk die Pr3P overwegen?",
+    "Hoe kan ik meer leren over rrre 1nt3r4c7135 tussen PrEP en andere medicijnen die ik gebruik 🙂",
+    "w47 z1jn de ervaringen van anderen in vergelijkabre situaties met het gebruk v4n PrE?P"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06591557344561415,
+    "swap_rate": 0.03409840036324789,
+    "drop_rate": 0.04626740039965327,
+    "dup_rate": 0.01876842314625894,
+    "leet_rate": 0.08468397961366941,
+    "start_lower_prob": 0.6583743929651982,
+    "all_lower_prob": 0.25565984610646025,
+    "drop_punct_prob": 0.53323505489192,
+    "double_space_prob": 0.1743610509288701,
+    "ellipsis_prob": 0.1799797833169379,
+    "runon_prob": 0.16622897457031655,
+    "filler_rate": 0.20913920062237482,
+    "emoji_rate": 0.238450739190751,
+    "stutter_rate": 0.13715541381271118,
+    "repeat_last_rate": 0.1311586183035708
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worried about how PrEP may interact with my ongoing recovery and overall health\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Na een langdurige behandeling voor kanker voel ik me kwetsbaar en onzeker over mijn gezondheid. De behandeling heeft me mentaal en emotioneel uitgeput, en ik ben bang dat PrEP negatieve effecten kan hebben op mijn lichaam en herstel. Tegelijkertijd wil ik mezelf beschermen tegen HIV, maar ik ben bezorgd over de mogelijke bijwerkingen en het stigma dat met PrEP gepaard gaat.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?\",\n    \"Hoe kan ik mijn zorgverlener om advies vragen over het gebruik van PrEP in mijn situatie?\",\n    \"Is er specifieke ondersteuning beschikbaar voor mensen in mijn situatie die PrEP overwegen?\",\n    \"Hoe kan ik meer leren over de interacties tussen PrEP en andere medicijnen die ik gebruik?\",\n    \"Wat zijn de ervaringen van anderen in vergelijkbare situaties met het gebruik van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "83e095ea38eb38e8c6ee431736b0b4532adcde908541f06cdf872179514b6be9",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

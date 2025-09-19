@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact de mon trouble d'anxiété sur le traitement",
+    "language": "French"
+  },
+  "context": "Vous êtes une femme de 28 ans vivant en France et vous souffrez d'un trouble d'anxiété. Cela rend difficile pour vous de prendre des décisions concernant votre santé, y compris la possibilité de commencer un traitement préventif comme le PrEP. Vous ressentez une peur des effets secondaires et du jugement des autres, ce qui complique l'accès à ce traitement potentiellement bénéfique.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires du PrEP qui pourraient aggraver mon anxiété ?",
+    "Est-ce que prendre le PrEP pourrait avoir un impact sur mon état mental ?",
+    "Comment puis-je parler de PrEP avec mon médecin sans me sentir jugée ?",
+    "Y a-t-il des ressources pour les personnes anxieuses qui envisagent le PrEP ?",
+    "Est-ce que d'autres personnes avec des troubles anxieux prennent le PrEP et comment ont-elles géré cela ?"
+  ],
+  "example_questions_noisy": [
+    "quels snot les effets secondaires du PrEP qui pourraient 4ggr4v3r m0n anxiété ?",
+    "est-ce que prendre le prep pourrait avoir un impact sur mon état mental ? 😭",
+    "c0mm3n7 pu1s-j3 parler de pr3p avrc m0n méd3cin sans me sentir jugée ?",
+    "y a-t-il des ressources pur les prsonnes anxieuses qui envisagent le prep",
+    "E-Est-ce qu3 d'autres personnes avec des troubles ahxieux prennent le Pr3P et comment ont-elles géré cela ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08851573751956227,
+    "swap_rate": 0.04258848086571661,
+    "drop_rate": 0.026327487840711622,
+    "dup_rate": 0.011451179293625387,
+    "leet_rate": 0.08835888525311025,
+    "start_lower_prob": 0.6884760905145074,
+    "all_lower_prob": 0.29570208725116365,
+    "drop_punct_prob": 0.5912188698024414,
+    "double_space_prob": 0.20205882038790543,
+    "ellipsis_prob": 0.16695598591088365,
+    "runon_prob": 0.1020423348848367,
+    "filler_rate": 0.20445916301764128,
+    "emoji_rate": 0.2573793425665096,
+    "stutter_rate": 0.1241771861719975,
+    "repeat_last_rate": 0.09863582829046225
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact de mon trouble d'anxiété sur le traitement\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une femme de 28 ans vivant en France et vous souffrez d'un trouble d'anxiété. Cela rend difficile pour vous de prendre des décisions concernant votre santé, y compris la possibilité de commencer un traitement préventif comme le PrEP. Vous ressentez une peur des effets secondaires et du jugement des autres, ce qui complique l'accès à ce traitement potentiellement bénéfique.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires du PrEP qui pourraient aggraver mon anxiété ?\",\n    \"Est-ce que prendre le PrEP pourrait avoir un impact sur mon état mental ?\",\n    \"Comment puis-je parler de PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Y a-t-il des ressources pour les personnes anxieuses qui envisagent le PrEP ?\",\n    \"Est-ce que d'autres personnes avec des troubles anxieux prennent le PrEP et comment ont-elles géré cela ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ba634236b0cf88f209ced200721222bcf1d234462acf98e7aebc859e713121e1",
+  "_language": "French",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "potential interactions with ongoing medications post-cancer treatment",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old woman from the United States, navigating life after cancer treatment. The journey has been challenging both physically and emotionally. You are hopeful about the future but also concerned about how your medical history might complicate your access to PrEP. You worry about potential interactions with your current medications and the stigma surrounding your health journey, which may affect your willingness to discuss PrEP with healthcare providers.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work?",
+    "Can I take PrEP if I am currently on medication for my recovery?",
+    "Are there any known interactions between PrEP and cancer treatment medications?",
+    "How can I find a healthcare provider who understands my unique situation?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there support available for someone in my situation when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what 15 pep and h0w does it work",
+    "can i take rpep if i am currently on medicatuon for my r3c0v3ry? r3c0v3ry?",
+    "um Are there any known interactions between PrEP and cancer treatment medications medications",
+    "how can I find a haelthcare provider sho understands my uniqe situation?",
+    "i mean What are the side effets of PPPrP3 htat I should be aware of? 🙂",
+    "is like there support avaiiilable for someone in my sithation when 0cns1der1ng PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09069016054942969,
+    "swap_rate": 0.05272690707648836,
+    "drop_rate": 0.03916294018204565,
+    "dup_rate": 0.026530875167755555,
+    "leet_rate": 0.1070457890486246,
+    "start_lower_prob": 0.6727416642973325,
+    "all_lower_prob": 0.24053385734520238,
+    "drop_punct_prob": 0.49262342107950874,
+    "double_space_prob": 0.16188178709298487,
+    "ellipsis_prob": 0.3047810511610748,
+    "runon_prob": 0.11938150229242471,
+    "filler_rate": 0.3574646900423023,
+    "emoji_rate": 0.29593710311365873,
+    "stutter_rate": 0.17820457121662564,
+    "repeat_last_rate": 0.12448472646642042
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"potential interactions with ongoing medications post-cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old woman from the United States, navigating life after cancer treatment. The journey has been challenging both physically and emotionally. You are hopeful about the future but also concerned about how your medical history might complicate your access to PrEP. You worry about potential interactions with your current medications and the stigma surrounding your health journey, which may affect your willingness to discuss PrEP with healthcare providers.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work?\",\n    \"Can I take PrEP if I am currently on medication for my recovery?\",\n    \"Are there any known interactions between PrEP and cancer treatment medications?\",\n    \"How can I find a healthcare provider who understands my unique situation?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there support available for someone in my situation when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "48c98d8c993698d3a83b1b7f8af7445f3793b704ae36b18f37aa1e749bf6c861",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "man",
+    "socio_economic_status": "middenklasse",
+    "primary_concern": "bang om te worden gestigmatiseerd door anderen",
+    "language": "Dutch"
+  },
+  "context": "Je voelt je sociaal geïsoleerd en hebt moeite om met andere mensen in contact te komen. Dit maakt je angstig om PrEP te bespreken of zelfs aan te vragen, omdat je bang bent voor hoe anderen zullen reageren. Je hoopt op informatie die je kan helpen om deze drempels te overwinnen en een betere toekomst voor jezelf op te bouwen.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van PrEP als ik me sociaal geïsoleerd voel?",
+    "Hoe kan ik PrEP aanvragen zonder me ongemakkelijk te voelen?",
+    "Zijn er ondersteuningsgroepen voor mensen die PrEP gebruiken?",
+    "Wat moet ik doen als ik me zorgen maak over de reacties van anderen op mijn gebruik van PrEP?",
+    "Kun je me vertellen over de ervaringen van anderen die in vergelijkbare situaties zitten?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de voordelen van PrEP als ik ms sociaal geï50l33rd voel",
+    "hoe kan ik PrEP aanvragen zonder ke ongemakkelijk te voelen",
+    "Zijn er ondersteuningsgrlepen voor mensen die PrEP gebruiken 😕",
+    "Wat moet ik doen als ik me zorgen maak over de reacties van anderen op mijn gebruik van Pr3P?",
+    "k-kun je me vertellen over de ervaringem van anderen die in v3rg3l1jkb4r3 situaties z1773n 🤔 🤔"
+  ],
+  "style_profile": {
+    "typo_rate": 0.1004219833404906,
+    "swap_rate": 0.02486487289052769,
+    "drop_rate": 0.03798051784786213,
+    "dup_rate": 0.013784811742521698,
+    "leet_rate": 0.07991600845567529,
+    "start_lower_prob": 0.6698005962423742,
+    "all_lower_prob": 0.3266739415535481,
+    "drop_punct_prob": 0.4961525664536651,
+    "double_space_prob": 0.3481718053742826,
+    "ellipsis_prob": 0.2634052002420231,
+    "runon_prob": 0.2524058437047849,
+    "filler_rate": 0.22908641487195927,
+    "emoji_rate": 0.28298576231811395,
+    "stutter_rate": 0.17770832840340853,
+    "repeat_last_rate": 0.11360306330970066
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"middenklasse\",\n    \"primary_concern\": \"bang om te worden gestigmatiseerd door anderen\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je voelt je sociaal geïsoleerd en hebt moeite om met andere mensen in contact te komen. Dit maakt je angstig om PrEP te bespreken of zelfs aan te vragen, omdat je bang bent voor hoe anderen zullen reageren. Je hoopt op informatie die je kan helpen om deze drempels te overwinnen en een betere toekomst voor jezelf op te bouwen.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van PrEP als ik me sociaal geïsoleerd voel?\",\n    \"Hoe kan ik PrEP aanvragen zonder me ongemakkelijk te voelen?\",\n    \"Zijn er ondersteuningsgroepen voor mensen die PrEP gebruiken?\",\n    \"Wat moet ik doen als ik me zorgen maak over de reacties van anderen op mijn gebruik van PrEP?\",\n    \"Kun je me vertellen over de ervaringen van anderen die in vergelijkbare situaties zitten?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e548493fd364cb53958f163ccd5b4f27cf4ffa5e9540a0090ac24c4e17007c02",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

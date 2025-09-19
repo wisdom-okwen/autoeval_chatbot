@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 24,
+    "gender": "não-binário",
+    "socio_economic_status": "classe média",
+    "primary_concern": "dificuldade em entender informações médicas devido a um transtorno do desenvolvimento neurológico",
+    "language": "Portuguese"
+  },
+  "context": "Você está tentando entender mais sobre o PrEP, mas enfrenta desafios adicionais devido a um transtorno do desenvolvimento neurológico. Isso pode afetar sua capacidade de processar informações complexas e aumentar a ansiedade em relação à saúde sexual. Você busca apoio e clareza sobre como o PrEP pode se encaixar na sua vida, especialmente com a pressão social e o estigma que sente ao abordar questões de saúde.",
+  "example_questions_clean": [
+    "O que é exatamente o PrEP e como ele funciona?",
+    "Quais são os possíveis efeitos colaterais do PrEP?",
+    "Como posso obter PrEP se eu tiver dificuldade em entender as informações médicas?",
+    "É normal sentir medo ou ansiedade ao considerar o uso de PrEP?",
+    "Existem recursos ou grupos de apoio para pessoas com condições semelhantes que estão considerando o PrEP?",
+    "Como posso conversar com meu médico sobre o PrEP de forma eficaz?"
+  ],
+  "example_questions_noisy": [
+    "p que é exatamente o PrEP e como i mean ele funciona?",
+    "quais são os p0s5ív315 efeitos colaterais do prep",
+    "c-como posso obter PrEP se eu tiver dificuldade em entender 45 informações médiczs",
+    "é normal sentir medo ou ansoedade so considerar o u50 de PrEP? 🙄",
+    "existem r3cur505 ou grupos de apoio para pessoas cooom condições semelhantes qu3 estão considerando o PrEP",
+    "C-Como posso conversar com m3u médico sobre o PrP de forma eifcaz?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11333125659538028,
+    "swap_rate": 0.05577711314364826,
+    "drop_rate": 0.04161937594323763,
+    "dup_rate": 0.02965968638287303,
+    "leet_rate": 0.09021777695498695,
+    "start_lower_prob": 0.7403122257247813,
+    "all_lower_prob": 0.2560089679938203,
+    "drop_punct_prob": 0.5435507436413645,
+    "double_space_prob": 0.23524887730523908,
+    "ellipsis_prob": 0.22675023073765013,
+    "runon_prob": 0.12454974232345471,
+    "filler_rate": 0.34278623524214,
+    "emoji_rate": 0.23789781253497877,
+    "stutter_rate": 0.12583438006286315,
+    "repeat_last_rate": 0.14845485095652358
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 24,\n    \"gender\": \"não-binário\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"dificuldade em entender informações médicas devido a um transtorno do desenvolvimento neurológico\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está tentando entender mais sobre o PrEP, mas enfrenta desafios adicionais devido a um transtorno do desenvolvimento neurológico. Isso pode afetar sua capacidade de processar informações complexas e aumentar a ansiedade em relação à saúde sexual. Você busca apoio e clareza sobre como o PrEP pode se encaixar na sua vida, especialmente com a pressão social e o estigma que sente ao abordar questões de saúde.\",\n  \"example_questions\": [\n    \"O que é exatamente o PrEP e como ele funciona?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP?\",\n    \"Como posso obter PrEP se eu tiver dificuldade em entender as informações médicas?\",\n    \"É normal sentir medo ou ansiedade ao considerar o uso de PrEP?\",\n    \"Existem recursos ou grupos de apoio para pessoas com condições semelhantes que estão considerando o PrEP?\",\n    \"Como posso conversar com meu médico sobre o PrEP de forma eficaz?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4eab8884f9c7a2134bfc1558ac699d5502ca5d212314645de5342c4075d455fc",
+  "_language": "Portuguese",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "français",
+    "age": 30,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur des effets secondaires et de la stigmatisation",
+    "language": "French"
+  },
+  "context": "L'utilisateur a vécu un traumatisme lié à une expérience antérieure de maladie et ressent de l'anxiété face à la prise de médicaments. Elle craint que l'utilisation du PrEP ne lui expose à un jugement ou à des réactions négatives de la part des autres, ce qui la rend hésitante à en parler et à y accéder.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles du PrEP ?",
+    "Comment puis-je discuter du PrEP avec mon médecin sans me sentir jugée ?",
+    "Y a-t-il des ressources disponibles pour m'aider à surmonter ma peur d'utiliser le PrEP ?",
+    "Le PrEP est-il accessible aux personnes ayant des antécédents de santé mentale ?",
+    "Comment puis-je trouver un soutien émotionnel pendant que je considère le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "qu3l5 sont l35 3ff375 secondaires possibles dj PrEP ?",
+    "comment puis-je discuter xu prep avec mon médecin sans me sentir jugée ?",
+    "y a-t-il des r3s50urc35 disponibles p0ur m'iader à surmonter ma peur d'ufiliser ld pr3p",
+    "um le prep est-il accessible aux personnes ayant des antécédents de anté mentale",
+    "comment puis-je trouver un soutien émotionnel pendant que je considère le PrEP ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11051261314463304,
+    "swap_rate": 0.041017846744974676,
+    "drop_rate": 0.021083562145812362,
+    "dup_rate": 0.024481616524672973,
+    "leet_rate": 0.11192419071092558,
+    "start_lower_prob": 0.8826036922114664,
+    "all_lower_prob": 0.31101368792806583,
+    "drop_punct_prob": 0.34784383859836887,
+    "double_space_prob": 0.20812142095756875,
+    "ellipsis_prob": 0.2625579341644632,
+    "runon_prob": 0.1475835869275634,
+    "filler_rate": 0.4627162431622693,
+    "emoji_rate": 0.33780321257225576,
+    "stutter_rate": 0.13263117633048038,
+    "repeat_last_rate": 0.10230995251178106
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"français\",\n    \"age\": 30,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur des effets secondaires et de la stigmatisation\",\n    \"language\": \"français\"\n  },\n  \"context\": \"L'utilisateur a vécu un traumatisme lié à une expérience antérieure de maladie et ressent de l'anxiété face à la prise de médicaments. Elle craint que l'utilisation du PrEP ne lui expose à un jugement ou à des réactions négatives de la part des autres, ce qui la rend hésitante à en parler et à y accéder.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles du PrEP ?\",\n    \"Comment puis-je discuter du PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Y a-t-il des ressources disponibles pour m'aider à surmonter ma peur d'utiliser le PrEP ?\",\n    \"Le PrEP est-il accessible aux personnes ayant des antécédents de santé mentale ?\",\n    \"Comment puis-je trouver un soutien émotionnel pendant que je considère le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "170339c1e3886a2d1b48f9869b2635d0bf9f6a80b950cb98e30bb3040d4e9389",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

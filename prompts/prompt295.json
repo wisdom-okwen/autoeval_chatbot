@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 34,
+    "gender": "femenino",
+    "socio_economic_status": "medio",
+    "primary_concern": "preocupación por los efectos secundarios en la salud tras la recuperación del tratamiento contra el cáncer",
+    "language": "Spanish"
+  },
+  "context": "Después de pasar por un tratamiento de cáncer, una mujer de 34 años está preocupada por su salud y cómo podría afectar el uso de PrEP en su recuperación. A pesar de su deseo de protegerse y mantener relaciones saludables, siente miedo sobre los posibles efectos secundarios y el estigma que puede enfrentar por buscar esta opción. Su situación le hace cuestionarse si es una buena candidata para PrEP y cómo debería abordarlo con su médico.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios del PrEP que debo considerar después de un tratamiento de cáncer?",
+    "¿Es seguro usar PrEP si he estado en tratamiento reciente?",
+    "¿Cómo puedo hablar con mi médico sobre la opción de PrEP?",
+    "¿Existen recursos o grupos de apoyo para personas en mi situación que estén considerando PrEP?",
+    "¿El uso de PrEP podría interferir con mi recuperación actual?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios del PrEP que ebo considerar de5pué5 ce un tratamiento de cáncer?",
+    "¿-¿es seguro usar prep si he estado en tratamiento feciente? ‼️",
+    "¿Cómo pu3do hablar con mj médico sobre la opción de PrEP?",
+    "¿Existen recursos o grupos de apoyo para personas en mi stuación que estén considerando PrEP?",
+    "¿el uso d3 pep podddría inetrferir con mi r3cup3r4c1n actual?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07877178460433122,
+    "swap_rate": 0.05337078048165081,
+    "drop_rate": 0.041872868113733475,
+    "dup_rate": 0.024220781526996117,
+    "leet_rate": 0.09147878169941454,
+    "start_lower_prob": 0.7219417102344259,
+    "all_lower_prob": 0.32813340977804617,
+    "drop_punct_prob": 0.3429863450384248,
+    "double_space_prob": 0.34820436150285994,
+    "ellipsis_prob": 0.17159795856738466,
+    "runon_prob": 0.12484343739502568,
+    "filler_rate": 0.3501348386843426,
+    "emoji_rate": 0.3076595619960886,
+    "stutter_rate": 0.19519288860223638,
+    "repeat_last_rate": 0.1457850565278311
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 34,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"preocupación por los efectos secundarios en la salud tras la recuperación del tratamiento contra el cáncer\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Después de pasar por un tratamiento de cáncer, una mujer de 34 años está preocupada por su salud y cómo podría afectar el uso de PrEP en su recuperación. A pesar de su deseo de protegerse y mantener relaciones saludables, siente miedo sobre los posibles efectos secundarios y el estigma que puede enfrentar por buscar esta opción. Su situación le hace cuestionarse si es una buena candidata para PrEP y cómo debería abordarlo con su médico.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios del PrEP que debo considerar después de un tratamiento de cáncer?\",\n    \"¿Es seguro usar PrEP si he estado en tratamiento reciente?\",\n    \"¿Cómo puedo hablar con mi médico sobre la opción de PrEP?\",\n    \"¿Existen recursos o grupos de apoyo para personas en mi situación que estén considerando PrEP?\",\n    \"¿El uso de PrEP podría interferir con mi recuperación actual?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d84c234af18d2d05366b38112213c1a6ab2d5da3f531d0a4fbb4616f12c1ca96",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Middle-class",
+    "primary_concern": "Fear of stigma and anxiety about side effects",
+    "language": "English"
+  },
+  "context": "The user is coping with an anxiety disorder that affects her ability to seek information about health matters. She worries that discussing PrEP may lead to judgment from others and feels overwhelmed by potential side effects. Her anxiety creates barriers to accessing healthcare, making her uncertain about taking proactive steps for her health.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP and how can I manage them?",
+    "How do people typically respond when discussing PrEP in social situations?",
+    "Can you tell me about the privacy and confidentiality aspects of PrEP?",
+    "What support resources are available for someone who feels anxious about starting PrEP?",
+    "Are there any strategies to cope with anxiety while considering PrEP?",
+    "How does one start the conversation with a healthcare provider about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what areee the common 51d3 eff3cts of prep 4nd how can i manage them?",
+    "how do people typically r35p0nd when diacussing PrEP in social situations?",
+    "Can you tell ne about the pr1vacy and confidentiality apsects of PrEP?",
+    "w-what support like resoutces are available for s03m0h3 who feels anxious abkut starting PrEP",
+    "are there i mean any strategies to cope with anxity while considering Pr3P?",
+    "H0w odes um one start the conversation with a healthcare prov1de about PrEP 💀"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09335091828413214,
+    "swap_rate": 0.05134999812225026,
+    "drop_rate": 0.02261961783297542,
+    "dup_rate": 0.014098627338527046,
+    "leet_rate": 0.10352313366978808,
+    "start_lower_prob": 0.6117730612117874,
+    "all_lower_prob": 0.24212398088815246,
+    "drop_punct_prob": 0.38491745664883037,
+    "double_space_prob": 0.3161163435301434,
+    "ellipsis_prob": 0.26549949903610826,
+    "runon_prob": 0.15690020510545546,
+    "filler_rate": 0.2967009473535672,
+    "emoji_rate": 0.19372356306335115,
+    "stutter_rate": 0.19065146016030332,
+    "repeat_last_rate": 0.14615007459145613
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Middle-class\",\n    \"primary_concern\": \"Fear of stigma and anxiety about side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is coping with an anxiety disorder that affects her ability to seek information about health matters. She worries that discussing PrEP may lead to judgment from others and feels overwhelmed by potential side effects. Her anxiety creates barriers to accessing healthcare, making her uncertain about taking proactive steps for her health.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP and how can I manage them?\",\n    \"How do people typically respond when discussing PrEP in social situations?\",\n    \"Can you tell me about the privacy and confidentiality aspects of PrEP?\",\n    \"What support resources are available for someone who feels anxious about starting PrEP?\",\n    \"Are there any strategies to cope with anxiety while considering PrEP?\",\n    \"How does one start the conversation with a healthcare provider about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e761b50e47fa8d16cf0f4198b3ee20891788e9495773223e8fce50bea47b1038",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Précaire",
+    "primary_concern": "Accès à PrEP sans stigmatisation et confidentialité",
+    "language": "French"
+  },
+  "context": "En raison de son expérience d'itinérance, cette femme se sent vulnérable et craint que sa situation personnelle soit jugée si elle cherche à obtenir des informations sur la PrEP. Elle est motivée par le désir de protéger sa santé tout en naviguant dans des systèmes de santé qui peuvent sembler peu accueillants.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à la PrEP lorsque l'on est sans-abri?",
+    "Comment puis-je obtenir la PrEP sans craindre le jugement des autres?",
+    "Y a-t-il des ressources spécifiques pour les personnes en situation de précarité?",
+    "La PrEP est-elle accessible gratuitement dans ma situation?",
+    "Est-ce que je peux parler de mes préoccupations en toute confidentialité avec un professionnel de la santé?",
+    "Quels effets secondaires devrais-je surveiller lorsque je commence la PrEP?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles sont les étapes pour accéder à la prep lorsque l'on est sans-abri?",
+    "c-commenf puis-je 0b73n1r la prep 54n5 craindre le jugemenr des autres?",
+    "y-you know y a-t-il des ressources spécifiques pour les personnes en 517u47i0 de précarité?",
+    "La idk PrEP est-elle accessible gratuitement dns ma situation? 😕 😕",
+    "e-est-ce que je pex parler de mex péroccupations en toue confidentialité svec un professionnel de la santé?",
+    "q-quels effets secondaires devrais-je surveiller lorsque j3 conmence la perp"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0747443115934826,
+    "swap_rate": 0.05830127723395974,
+    "drop_rate": 0.03184611664951177,
+    "dup_rate": 0.0156513754568733,
+    "leet_rate": 0.05012992678515138,
+    "start_lower_prob": 0.6786572250383894,
+    "all_lower_prob": 0.21580044547427896,
+    "drop_punct_prob": 0.41790939540728617,
+    "double_space_prob": 0.3050703837054639,
+    "ellipsis_prob": 0.3049801383981312,
+    "runon_prob": 0.15011345834144774,
+    "filler_rate": 0.3554296593450391,
+    "emoji_rate": 0.15773493309080835,
+    "stutter_rate": 0.17209401376047967,
+    "repeat_last_rate": 0.14123923273656266
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Précaire\",\n    \"primary_concern\": \"Accès à PrEP sans stigmatisation et confidentialité\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En raison de son expérience d'itinérance, cette femme se sent vulnérable et craint que sa situation personnelle soit jugée si elle cherche à obtenir des informations sur la PrEP. Elle est motivée par le désir de protéger sa santé tout en naviguant dans des systèmes de santé qui peuvent sembler peu accueillants.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à la PrEP lorsque l'on est sans-abri?\",\n    \"Comment puis-je obtenir la PrEP sans craindre le jugement des autres?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes en situation de précarité?\",\n    \"La PrEP est-elle accessible gratuitement dans ma situation?\",\n    \"Est-ce que je peux parler de mes préoccupations en toute confidentialité avec un professionnel de la santé?\",\n    \"Quels effets secondaires devrais-je surveiller lorsque je commence la PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "59327308dd2b5c38186108bd509eef483223f2fc2270f4c53000029bbe75d5eb",
+  "_language": "French",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 24,
+    "gender": "femenina",
+    "socio_economic_status": "bajo",
+    "primary_concern": "la efectividad de PrEP y sus efectos secundarios",
+    "language": "Spanish"
+  },
+  "context": "Una joven de 24 años con un trastorno del desarrollo neurológico enfrenta dificultades para comprender la información médica. Tiene miedo de que PrEP pueda tener efectos secundarios que no pueda manejar y le preocupa cómo esto podría afectar su salud mental. A menudo se siente abrumada por la información contradictoria que escucha y teme el estigma asociado al uso de medicamentos preventivos para el VIH.",
+  "example_questions_clean": [
+    "¿PrEP realmente es efectivo para prevenir el VIH?",
+    "¿Cuáles son los efectos secundarios de PrEP y cómo podrían afectarme?",
+    "¿Existen recursos o apoyos para personas como yo que quieran acceder a PrEP?",
+    "¿Es posible que la gente me juzgue por tomar PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?",
+    "¿Hay otras personas con condiciones similares que hayan tomado PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿PrEP realmente es efectivo you know para prevenir el VIH",
+    "¿Cuá035 son los efectos secundarios de PrEP y cóm0 podrían afectarme",
+    "¿Existen recursos o apoyos praa personas i mean como y0 que quieran acceder a PrEP",
+    "¿Esss posible qu3 la um gennnte me juzgue por tomar PrEP",
+    "¿cómo pppuedo hablra con mi médico sobre mis preocupaciones r3sp3c70 a pr3p???",
+    "¿Hay otras personsa con condiciones similares que h4y4nnn tomado Pr3P? Pr3P?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05343351941255103,
+    "swap_rate": 0.03818828515916438,
+    "drop_rate": 0.020640852487985487,
+    "dup_rate": 0.016068052234867423,
+    "leet_rate": 0.11164212545385915,
+    "start_lower_prob": 0.628584999953751,
+    "all_lower_prob": 0.2859220816316672,
+    "drop_punct_prob": 0.3932089824169031,
+    "double_space_prob": 0.342153843199124,
+    "ellipsis_prob": 0.30939958279069746,
+    "runon_prob": 0.2679107921649148,
+    "filler_rate": 0.47374999973351206,
+    "emoji_rate": 0.17394744208696167,
+    "stutter_rate": 0.11985755919674208,
+    "repeat_last_rate": 0.111411147485808
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 24,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"la efectividad de PrEP y sus efectos secundarios\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Una joven de 24 años con un trastorno del desarrollo neurológico enfrenta dificultades para comprender la información médica. Tiene miedo de que PrEP pueda tener efectos secundarios que no pueda manejar y le preocupa cómo esto podría afectar su salud mental. A menudo se siente abrumada por la información contradictoria que escucha y teme el estigma asociado al uso de medicamentos preventivos para el VIH.\",\n  \"example_questions\": [\n    \"¿PrEP realmente es efectivo para prevenir el VIH?\",\n    \"¿Cuáles son los efectos secundarios de PrEP y cómo podrían afectarme?\",\n    \"¿Existen recursos o apoyos para personas como yo que quieran acceder a PrEP?\",\n    \"¿Es posible que la gente me juzgue por tomar PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?\",\n    \"¿Hay otras personas con condiciones similares que hayan tomado PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a96994a6f5a9a4842284f6d0e302d5180d7e02467a3feaa269919a05a0f9cf0",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

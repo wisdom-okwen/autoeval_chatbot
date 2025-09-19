@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and disclosure of past substance use",
+    "language": "English"
+  },
+  "context": "The user is navigating their health after a history of substance use and feels anxious about seeking PrEP due to potential judgment from healthcare providers. They are hopeful but concerned about how their past may affect their ability to access preventive care, fearing that they will be treated differently.",
+  "example_questions_clean": [
+    "What are the requirements to start taking PrEP?",
+    "How can I discuss my past substance use with my doctor without feeling judged?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What resources are available for low-income individuals seeking PrEP?",
+    "Can PrEP help me feel more secure in my sexual health decisions?"
+  ],
+  "example_questions_noisy": [
+    "what are the requirements to start taking PrEP?",
+    "h-how can I discsus my past substance ussse w17h my doctor without feeling judged?",
+    "afe thhhere 5up00rt groups for p30pl3 like m3 who are considering PrEP?",
+    "what resources are available for low-income indjviduals seeking um PrEP",
+    "Can PrEP help me f33l more sssecure in my sexual health decisions?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07026371923676564,
+    "swap_rate": 0.025310243691871116,
+    "drop_rate": 0.027191340582882,
+    "dup_rate": 0.023299188506246023,
+    "leet_rate": 0.05221332786787101,
+    "start_lower_prob": 0.7810983269252162,
+    "all_lower_prob": 0.18522838764074775,
+    "drop_punct_prob": 0.46689079113331133,
+    "double_space_prob": 0.32039276441317144,
+    "ellipsis_prob": 0.273679567337804,
+    "runon_prob": 0.16125944330723432,
+    "filler_rate": 0.4096219164801419,
+    "emoji_rate": 0.2402319393647189,
+    "stutter_rate": 0.11999909655920132,
+    "repeat_last_rate": 0.09295181285471082
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and disclosure of past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating their health after a history of substance use and feels anxious about seeking PrEP due to potential judgment from healthcare providers. They are hopeful but concerned about how their past may affect their ability to access preventive care, fearing that they will be treated differently.\",\n  \"example_questions\": [\n    \"What are the requirements to start taking PrEP?\",\n    \"How can I discuss my past substance use with my doctor without feeling judged?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"What resources are available for low-income individuals seeking PrEP?\",\n    \"Can PrEP help me feel more secure in my sexual health decisions?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9a8f7bc4adcc025df19fbe6e6f40fdba906189cd40ea72a21720332819a57e92",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

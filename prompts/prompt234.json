@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 35,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la sécurité du PrEP après un traitement contre le cancer",
+    "language": "French"
+  },
+  "context": "Cette personne, en rémission d'un cancer, ressent de l'anxiété quant à sa santé et s'interroge sur l'utilisation du PrEP pour prévenir le VIH. Les effets de son traitement passé l'ont rendue plus vulnérable sur le plan émotionnel et elle craint que le PrEP puisse interagir avec ses médicaments ou affecter son corps affaibli. Elle cherche des informations rassurantes pour surmonter sa peur et évaluer si PrEP est une option sûre pour elle.",
+  "example_questions_clean": [
+    "Le PrEP est-il sûr pour quelqu'un qui a récemment terminé un traitement contre le cancer?",
+    "Y a-t-il des effets secondaires du PrEP que je devrais connaître après ma maladie?",
+    "Comment puis-je discuter de mes préoccupations concernant le PrEP avec mon médecin?",
+    "Le PrEP peut-il interférer avec mes autres médicaments?",
+    "Quelles sont les expériences d'autres personnes dans ma situation avec le PrEP?",
+    "Quels tests devrais-je passer avant de commencer le PrEP?"
+  ],
+  "example_questions_noisy": [
+    "uh ls rpep dst-il sûr lou quelqu'un qu1 a réc3mm3n7 terminé un traitement contre le cancerrr cancerrr",
+    "y a-t-li d3s effets secondaires du PrPE que je devrais connaître like après ma m4l4d13",
+    "commennnt puis-je discuter d3 mes préoccupations concernant le PrEP um avec mon édecin?",
+    "Le PrEP peut-il interférer avec mes autres médicaments",
+    "a-auelles sont les expériences d'4u7r35 p3r50nn35 um dans ma istuation avec le PrEP? PrEP?",
+    "Quels tests devrais-je passer avant de c0mm3nc3r le PfEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09495954781440005,
+    "swap_rate": 0.041667263252494646,
+    "drop_rate": 0.04469044283751512,
+    "dup_rate": 0.019728195613102316,
+    "leet_rate": 0.08904339332632408,
+    "start_lower_prob": 0.8107550608214767,
+    "all_lower_prob": 0.20977835250003038,
+    "drop_punct_prob": 0.4383930276489316,
+    "double_space_prob": 0.23011293225734683,
+    "ellipsis_prob": 0.15404154219837948,
+    "runon_prob": 0.18255339935031695,
+    "filler_rate": 0.4821745805964573,
+    "emoji_rate": 0.15422486175891628,
+    "stutter_rate": 0.12048726513256541,
+    "repeat_last_rate": 0.11520469348553655
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 35,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la sécurité du PrEP après un traitement contre le cancer\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne, en rémission d'un cancer, ressent de l'anxiété quant à sa santé et s'interroge sur l'utilisation du PrEP pour prévenir le VIH. Les effets de son traitement passé l'ont rendue plus vulnérable sur le plan émotionnel et elle craint que le PrEP puisse interagir avec ses médicaments ou affecter son corps affaibli. Elle cherche des informations rassurantes pour surmonter sa peur et évaluer si PrEP est une option sûre pour elle.\",\n  \"example_questions\": [\n    \"Le PrEP est-il sûr pour quelqu'un qui a récemment terminé un traitement contre le cancer?\",\n    \"Y a-t-il des effets secondaires du PrEP que je devrais connaître après ma maladie?\",\n    \"Comment puis-je discuter de mes préoccupations concernant le PrEP avec mon médecin?\",\n    \"Le PrEP peut-il interférer avec mes autres médicaments?\",\n    \"Quelles sont les expériences d'autres personnes dans ma situation avec le PrEP?\",\n    \"Quels tests devrais-je passer avant de commencer le PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5202a065cec1b23588f3e79d8541e59281ad45685d69603ce013ecb7b8449649",
+  "_language": "French",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

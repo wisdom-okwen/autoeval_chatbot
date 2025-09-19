@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "interactions between PrEP and my current medications",
+    "language": "English"
+  },
+  "context": "As a cancer survivor, I am navigating the emotional aftermath of treatment, which includes concerns about my health, medication interactions, and fears about stigma. I'm hopeful about protecting my health with PrEP but feel overwhelmed by potential complications and societal perceptions.",
+  "example_questions_clean": [
+    "Can you help me understand how PrEP might interact with the medications I'm currently taking?",
+    "What should I know about the side effects of PrEP for someone in my situation?",
+    "Are there specific resources available to help people with a history of cancer access PrEP?",
+    "How can I discuss my interest in PrEP with my healthcare provider given my unique health background?",
+    "What are the common misconceptions about PrEP that I should be aware of?",
+    "Is there support available for people like me who may feel stigma when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you help me understand how prep might interact with the m3d1f4710n5 i'm currently taking",
+    "w-what should I kn0w about the side effffects of Pr3P for someone in my situation",
+    "4r3 there specific resources available to help people with a history 0f cancer access prep?",
+    "h-how can i discuss my un73r35t in pr3p with my healthcare provider given my unique health background?",
+    "w-what are 7h3 common misconceptions about PrEP that I hsould be um aware of? 😕",
+    "i-is there support available for people like me who mmmay feel stigma when c0n51d3r1ng prep?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09910246916868796,
+    "swap_rate": 0.0511810152377177,
+    "drop_rate": 0.048837716893096336,
+    "dup_rate": 0.018049856858832106,
+    "leet_rate": 0.11032537320030965,
+    "start_lower_prob": 0.7073964215658456,
+    "all_lower_prob": 0.3120486003384409,
+    "drop_punct_prob": 0.30995239437441563,
+    "double_space_prob": 0.2118105815034708,
+    "ellipsis_prob": 0.3027814183110903,
+    "runon_prob": 0.1877102764071627,
+    "filler_rate": 0.20668598328751264,
+    "emoji_rate": 0.15160685125405188,
+    "stutter_rate": 0.18335304390549653,
+    "repeat_last_rate": 0.13195372146540535
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"interactions between PrEP and my current medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a cancer survivor, I am navigating the emotional aftermath of treatment, which includes concerns about my health, medication interactions, and fears about stigma. I'm hopeful about protecting my health with PrEP but feel overwhelmed by potential complications and societal perceptions.\",\n  \"example_questions\": [\n    \"Can you help me understand how PrEP might interact with the medications I'm currently taking?\",\n    \"What should I know about the side effects of PrEP for someone in my situation?\",\n    \"Are there specific resources available to help people with a history of cancer access PrEP?\",\n    \"How can I discuss my interest in PrEP with my healthcare provider given my unique health background?\",\n    \"What are the common misconceptions about PrEP that I should be aware of?\",\n    \"Is there support available for people like me who may feel stigma when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0539f5f34bd6903b27106cbcc2fb7dd812bb2e0f4e3f880e6062fe79b491b729",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

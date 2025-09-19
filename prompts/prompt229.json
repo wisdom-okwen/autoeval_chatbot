@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur du jugement social et des effets secondaires",
+    "language": "French"
+  },
+  "context": "En raison de son anxiété sociale, elle se sent souvent jugée et craint de parler à des professionnels de la santé au sujet de PrEP. Elle veut se protéger, mais la peur du rejet et des stigmates l'empêche d'accéder aux informations dont elle a besoin.",
+  "example_questions_clean": [
+    "Qu'est-ce que la PrEP et comment fonctionne-t-elle ?",
+    "Y a-t-il des effets secondaires que je devrais connaître ?",
+    "Comment puis-je en parler à mon médecin sans me sentir jugée ?",
+    "Quels sont les moyens d'accéder à la PrEP si j'ai du mal à prendre rendez-vous ?",
+    "La PrEP est-elle sûre pour toutes les personnes, même celles qui souffrent d'anxiété sociale ?"
+  ],
+  "example_questions_noisy": [
+    "qu'est-ce qud l4 prep et comm3n7 fonctionne-t-elle ?",
+    "Y a-t-il des effets secondaires que jjje devrais connaître",
+    "comnent puis-je en parler à mon médecin 55n5 me sntir jugée ?",
+    "q-quels sont les moyens d'accéder à la prep si j'ai du mal à prensre rendez-vous ?",
+    "you know La PrEP est-elle sûre pour toutes l3s personnes, même celles qui soufrfent d'annnxiété sociale ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07684236558272108,
+    "swap_rate": 0.053445912925561695,
+    "drop_rate": 0.021357240875137084,
+    "dup_rate": 0.02973968261244283,
+    "leet_rate": 0.09089624023118859,
+    "start_lower_prob": 0.715936176257915,
+    "all_lower_prob": 0.29912240579666416,
+    "drop_punct_prob": 0.4734810061474092,
+    "double_space_prob": 0.32302182650254,
+    "ellipsis_prob": 0.3179902443782789,
+    "runon_prob": 0.25031486007448855,
+    "filler_rate": 0.3933891804295503,
+    "emoji_rate": 0.28754438194147847,
+    "stutter_rate": 0.139768968002012,
+    "repeat_last_rate": 0.12749660853247655
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur du jugement social et des effets secondaires\",\n    \"language\": \"français\"\n  },\n  \"context\": \"En raison de son anxiété sociale, elle se sent souvent jugée et craint de parler à des professionnels de la santé au sujet de PrEP. Elle veut se protéger, mais la peur du rejet et des stigmates l'empêche d'accéder aux informations dont elle a besoin.\",\n  \"example_questions\": [\n    \"Qu'est-ce que la PrEP et comment fonctionne-t-elle ?\",\n    \"Y a-t-il des effets secondaires que je devrais connaître ?\",\n    \"Comment puis-je en parler à mon médecin sans me sentir jugée ?\",\n    \"Quels sont les moyens d'accéder à la PrEP si j'ai du mal à prendre rendez-vous ?\",\n    \"La PrEP est-elle sûre pour toutes les personnes, même celles qui souffrent d'anxiété sociale ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c83e691ff2634eac960fbb0175cde0c0d23863619b15699a189aadc012239493",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

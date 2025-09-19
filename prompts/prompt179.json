@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "man",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "angst voor stigma en mogelijke bijwerkingen van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Deze gebruiker heeft een verleden van middelengebruik en voelt zich angstig over het starten van PrEP vanwege de mogelijkheid van stigma en zorgen over bijwerkingen. Hij wil zijn gezondheid verbeteren, maar is bezorgd dat zijn geschiedenis van middelengebruik een rol kan spelen in hoe anderen hem zien en hoe hij toegang kan krijgen tot PrEP. Deze emoties beïnvloeden zijn mindset en maken het moeilijk om hulp te zoeken.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP krijgen als ik me zorgen maak over wat anderen denken?",
+    "Zijn er specifieke bijwerkingen van PrEP waar ik rekening mee moet houden?",
+    "Wat zijn de eerste stappen die ik moet nemen om meer te leren over PrEP?",
+    "Hoe gaat het zorgsysteem om met patiënten met een verleden van middelengebruik?",
+    "Zijn er ondersteuningsgroepen voor mensen zoals ik die geïnteresseerd zijn in PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Hoe kah ik PrEP krijgen als 1k me zorgen maak over wat anderen d3nken? ‼️",
+    "x-x1jn i mean er specfiieke bijwerkingen van prep waar ik r3ken1ng mee moet houden? houden?",
+    "wat zijn de eerste 574pp3n die ik moet nemen om uh m33r te leren over PrEP? PrEP?",
+    "Hoe gaat het zorgsysteem om met patiënten met een verleden van middelengebruik",
+    "zijn ed 0nd3rs73un1ng5gr03p3n voor mense z04l5 ik d13 geïjteresseerd zujn in PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09748772274656711,
+    "swap_rate": 0.05619888837612058,
+    "drop_rate": 0.04206315173288433,
+    "dup_rate": 0.02342639718504364,
+    "leet_rate": 0.09259367630215001,
+    "start_lower_prob": 0.6501230274186426,
+    "all_lower_prob": 0.17126563124517147,
+    "drop_punct_prob": 0.4878838412290354,
+    "double_space_prob": 0.34868054901934065,
+    "ellipsis_prob": 0.24527224976871248,
+    "runon_prob": 0.24753375956052343,
+    "filler_rate": 0.2636870144805249,
+    "emoji_rate": 0.1957237344945106,
+    "stutter_rate": 0.12720187495283064,
+    "repeat_last_rate": 0.15091191930132486
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"angst voor stigma en mogelijke bijwerkingen van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Deze gebruiker heeft een verleden van middelengebruik en voelt zich angstig over het starten van PrEP vanwege de mogelijkheid van stigma en zorgen over bijwerkingen. Hij wil zijn gezondheid verbeteren, maar is bezorgd dat zijn geschiedenis van middelengebruik een rol kan spelen in hoe anderen hem zien en hoe hij toegang kan krijgen tot PrEP. Deze emoties beïnvloeden zijn mindset en maken het moeilijk om hulp te zoeken.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP krijgen als ik me zorgen maak over wat anderen denken?\",\n    \"Zijn er specifieke bijwerkingen van PrEP waar ik rekening mee moet houden?\",\n    \"Wat zijn de eerste stappen die ik moet nemen om meer te leren over PrEP?\",\n    \"Hoe gaat het zorgsysteem om met patiënten met een verleden van middelengebruik?\",\n    \"Zijn er ondersteuningsgroepen voor mensen zoals ik die geïnteresseerd zijn in PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7dd860471d4bca15754cde68e4adf13adf4805318dfbd5229e00e95be4eca730",
+  "_language": "Dutch",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

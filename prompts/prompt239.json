@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Lower-middle class",
+    "primary_concern": "Fear of stigma from taking PrEP and how it may impact relationships",
+    "language": "English"
+  },
+  "context": "This user struggles with low self-esteem, which makes her feel anxious about discussing PrEP with healthcare providers and friends. She fears that taking PrEP may label her in a way that affects her personal relationships. Despite wanting to protect her health, she feels overwhelmed by the potential judgment from others.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work?",
+    "Can you tell me about the possible side effects of PrEP?",
+    "How can I talk to my doctor about getting PrEP without feeling judged?",
+    "What resources are available for people who are worried about stigma related to PrEP?",
+    "Is there any support for individuals struggling with self-esteem while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What is PrEP and how roes it work 😕",
+    "can you tell me about the opssible side effects of PrEP",
+    "how idk can I yalk 7o my doctor about getting PrPE siiithout feeling judged",
+    "what resources are available for p30pl3 wh0 are worried 4b0u7 stigma rleated to PrEP?",
+    "is there ant support for individuals idk struggling with self-esteem while considering prep"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11347103535492394,
+    "swap_rate": 0.03342898038690651,
+    "drop_rate": 0.023175048565951616,
+    "dup_rate": 0.01613079296234855,
+    "leet_rate": 0.0933522978712421,
+    "start_lower_prob": 0.684245566887233,
+    "all_lower_prob": 0.27980636838298506,
+    "drop_punct_prob": 0.5738840978103654,
+    "double_space_prob": 0.18250561826153966,
+    "ellipsis_prob": 0.2946370804933577,
+    "runon_prob": 0.2733934429974285,
+    "filler_rate": 0.2121312469879976,
+    "emoji_rate": 0.2117197674957939,
+    "stutter_rate": 0.16678095715828495,
+    "repeat_last_rate": 0.12412756649715412
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Lower-middle class\",\n    \"primary_concern\": \"Fear of stigma from taking PrEP and how it may impact relationships\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user struggles with low self-esteem, which makes her feel anxious about discussing PrEP with healthcare providers and friends. She fears that taking PrEP may label her in a way that affects her personal relationships. Despite wanting to protect her health, she feels overwhelmed by the potential judgment from others.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work?\",\n    \"Can you tell me about the possible side effects of PrEP?\",\n    \"How can I talk to my doctor about getting PrEP without feeling judged?\",\n    \"What resources are available for people who are worried about stigma related to PrEP?\",\n    \"Is there any support for individuals struggling with self-esteem while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "950c8224a913a489f1f082a83d929d970ffff8ff7a573edeb77476ff9e5939b8",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

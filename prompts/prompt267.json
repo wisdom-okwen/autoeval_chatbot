@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of judgment from others about taking PrEP",
+    "language": "English"
+  },
+  "context": "The user has been diagnosed with HIV and faces significant stigma in their community. They feel isolated and are anxious about how others might perceive them if they start taking PrEP. This fear creates a barrier to accessing necessary healthcare.",
+  "example_questions_clean": [
+    "What are the benefits of PrEP for someone living with HIV?",
+    "How can I address the stigma surrounding PrEP in my community?",
+    "Are there support groups for individuals taking PrEP that I can join?",
+    "What should I expect when starting PrEP for the first time?",
+    "Can my healthcare provider help me navigate the concerns I have about stigma?"
+  ],
+  "example_questions_noisy": [
+    "what are the benefits of peeep for someoneee like living with hiv?",
+    "h-how can i address the stiga surrounding prep in jy community ✨ ✨",
+    "Are there support groups for individua.s taking PrEP 7h47 I can join? join?",
+    "What should I expect when starting PrEP you know for the first time 🙄",
+    "can my healtcare provider help me navigate tb3 concerns I have about stigma 🫠"
+  ],
+  "style_profile": {
+    "typo_rate": 0.1126891529800993,
+    "swap_rate": 0.05061791815830663,
+    "drop_rate": 0.03757626303894647,
+    "dup_rate": 0.017825421289285402,
+    "leet_rate": 0.11161282098688413,
+    "start_lower_prob": 0.8249766234421152,
+    "all_lower_prob": 0.31896203403200507,
+    "drop_punct_prob": 0.49310679472006,
+    "double_space_prob": 0.24422320624688365,
+    "ellipsis_prob": 0.3375364756815782,
+    "runon_prob": 0.2477597060749182,
+    "filler_rate": 0.22125554831940095,
+    "emoji_rate": 0.25870899251532126,
+    "stutter_rate": 0.17244545341283937,
+    "repeat_last_rate": 0.16174875615040096
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of judgment from others about taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been diagnosed with HIV and faces significant stigma in their community. They feel isolated and are anxious about how others might perceive them if they start taking PrEP. This fear creates a barrier to accessing necessary healthcare.\",\n  \"example_questions\": [\n    \"What are the benefits of PrEP for someone living with HIV?\",\n    \"How can I address the stigma surrounding PrEP in my community?\",\n    \"Are there support groups for individuals taking PrEP that I can join?\",\n    \"What should I expect when starting PrEP for the first time?\",\n    \"Can my healthcare provider help me navigate the concerns I have about stigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0efdd7768923d677a222488a5fa629c5aff358355f795a76d6b1e6f5834c1e3e",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

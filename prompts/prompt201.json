@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how PrEP can fit into my life given my learning disability",
+    "language": "Swahili"
+  },
+  "context": "Kama mwanamke mwenye ulemavu wa kujifunza, unajisikia wasiwasi kuhusu uwezo wako wa kuelewa maelezo kuhusu PrEP na jinsi ya kuitumia. Kuna hofu juu ya kukabiliwa na unyanyasaji wa kijamii au kukosa msaada wa kutosha katika jamii yako. Unataka kupata taarifa sahihi ili uweze kufanya uamuzi unaofaa kuhusu afya yako.",
+  "example_questions_clean": [
+    "PrEP ni nini na inafanya kazi vipi?",
+    "Ninawezaje kupata PrEP bila kujiweka kwenye hatari ya unyanyasaji?",
+    "Ninaweza kuzungumza na nani kuhusu maswali yangu juu ya PrEP?",
+    "Je, kuna rasilimali za kusaidia watu wenye ulemavu wa kujifunza kuhusu PrEP?",
+    "Ni hatua gani za kuchukua ili kuanza kutumia PrEP kwa usalama?"
+  ],
+  "example_questions_noisy": [
+    "pr3P ni ninu na inafanay uh kazi vipi",
+    "ninawezaje kup474 PrEP bila kujiweka kwenye hatri you know y4 unyanyasajj?",
+    "nin4w3z4 kuzungumza na nnai kuhusu ma5w4li idk yangu juu ya PrEP?",
+    "je, kuna rasilimali za kusaidia watu wenye ulemavu wa kujifunza kuhusu PrEP?",
+    "ni hatua gani zaaa kuchukua ili ku4nz4 kutumia PrEP kwa usalama?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06949556803618978,
+    "swap_rate": 0.044405335794210465,
+    "drop_rate": 0.023104987306477715,
+    "dup_rate": 0.016783716252266493,
+    "leet_rate": 0.060080328836320196,
+    "start_lower_prob": 0.8833033099120526,
+    "all_lower_prob": 0.24605168594618132,
+    "drop_punct_prob": 0.5245690202005007,
+    "double_space_prob": 0.26269100290237724,
+    "ellipsis_prob": 0.24045705177587356,
+    "runon_prob": 0.26316844887673463,
+    "filler_rate": 0.4984762162600938,
+    "emoji_rate": 0.16164539492814692,
+    "stutter_rate": 0.15914428871987724,
+    "repeat_last_rate": 0.151176634507609
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my life given my learning disability\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Kama mwanamke mwenye ulemavu wa kujifunza, unajisikia wasiwasi kuhusu uwezo wako wa kuelewa maelezo kuhusu PrEP na jinsi ya kuitumia. Kuna hofu juu ya kukabiliwa na unyanyasaji wa kijamii au kukosa msaada wa kutosha katika jamii yako. Unataka kupata taarifa sahihi ili uweze kufanya uamuzi unaofaa kuhusu afya yako.\",\n  \"example_questions\": [\n    \"PrEP ni nini na inafanya kazi vipi?\",\n    \"Ninawezaje kupata PrEP bila kujiweka kwenye hatari ya unyanyasaji?\",\n    \"Ninaweza kuzungumza na nani kuhusu maswali yangu juu ya PrEP?\",\n    \"Je, kuna rasilimali za kusaidia watu wenye ulemavu wa kujifunza kuhusu PrEP?\",\n    \"Ni hatua gani za kuchukua ili kuanza kutumia PrEP kwa usalama?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1b661d4e56215a4cc0e3d6a5ace00ded5a4c7c81c0532b2111bfd1a1ec7a0e12",
+  "_language": "Swahili",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 25,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP will affect my health given my neurodevelopmental disorder",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu ana ugonjwa wa neurodevelopmental ambao unamfanya kuwa na wasiwasi kuhusu matumizi ya PrEP. Anajiona kama anaweza kukumbana na changamoto zaidi za kuelewa maelezo ya matibabu na athari zinazoweza kutokea. Hali hii inamfanya awe na wasiwasi mkubwa kuhusu mwelekeo wa afya yake na uzoefu wa dhihaka kutoka kwa jamii.",
+  "example_questions_clean": [
+    "PrEP ni nini na inafanya kazi vipi?",
+    "Kuna hatari gani za kutumia PrEP kwa mtu mwenye ugonjwa wa neurodevelopmental?",
+    "Je, kuna usaidizi wowote wa kifedha kwa watu kama mimi wanaotaka kuanza kutumia PrEP?",
+    "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?",
+    "Ninaweza kupata taarifa zaidi kuhusu PrEP wapi kwenye nchi yangu?",
+    "Je, kuna vikundi vya msaada kwa watu wanaotumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "PrrrEP ni nini na inafanya kazi vipi???",
+    "Kuna hatari gai za kutumia PrEP kwa mtu mwenye ugonjwa aa um n3ur0d3v3l0pm3n74l?",
+    "je, kuna usaidizi wowote uh wa kifwdha kwa w47u mama mimi awnaotaka kuanza kutumia prep?",
+    "ninawezaje kuzungumz4 n4 daktari wangu kuhu5u you know PrEP bila kuhisi aibu?",
+    "ninaweza kupattta taarifa zzzaidi kuhusu PrEP wapi kwenye nchi yangu?",
+    "Je, kuna bikundi vya m544d4 kwa watu wanaotumia PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11966517055344605,
+    "swap_rate": 0.036813424429568406,
+    "drop_rate": 0.04210733678084328,
+    "dup_rate": 0.014489985410511701,
+    "leet_rate": 0.06323649001200908,
+    "start_lower_prob": 0.6150803063277267,
+    "all_lower_prob": 0.194143022162236,
+    "drop_punct_prob": 0.5390964602759055,
+    "double_space_prob": 0.21796160046110408,
+    "ellipsis_prob": 0.34791050568799864,
+    "runon_prob": 0.2097569185208995,
+    "filler_rate": 0.35087452618008563,
+    "emoji_rate": 0.19457733981449074,
+    "stutter_rate": 0.13967046590920484,
+    "repeat_last_rate": 0.11688464310064572
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 25,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP will affect my health given my neurodevelopmental disorder\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu ana ugonjwa wa neurodevelopmental ambao unamfanya kuwa na wasiwasi kuhusu matumizi ya PrEP. Anajiona kama anaweza kukumbana na changamoto zaidi za kuelewa maelezo ya matibabu na athari zinazoweza kutokea. Hali hii inamfanya awe na wasiwasi mkubwa kuhusu mwelekeo wa afya yake na uzoefu wa dhihaka kutoka kwa jamii.\",\n  \"example_questions\": [\n    \"PrEP ni nini na inafanya kazi vipi?\",\n    \"Kuna hatari gani za kutumia PrEP kwa mtu mwenye ugonjwa wa neurodevelopmental?\",\n    \"Je, kuna usaidizi wowote wa kifedha kwa watu kama mimi wanaotaka kuanza kutumia PrEP?\",\n    \"Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?\",\n    \"Ninaweza kupata taarifa zaidi kuhusu PrEP wapi kwenye nchi yangu?\",\n    \"Je, kuna vikundi vya msaada kwa watu wanaotumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2dd41b85537b2fae8a2949e8124f4a2c9640c22772f20588391290b7f76730cb",
+  "_language": "Swahili",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

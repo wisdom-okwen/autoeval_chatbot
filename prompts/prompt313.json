@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La stigmatisation liée à mon statut de séropositive et l'accès à PrEP.",
+    "language": "French"
+  },
+  "context": "Cette personne vit avec le VIH et fait face à une stigmatisation qui la rend hésitante à demander des informations sur le PrEP. Elle craint que son statut ne soit découvert et cela l'affecte émotionnellement, la rendant plus anxieuse quant à sa santé et ses relations sociales.",
+  "example_questions_clean": [
+    "Quelles sont les options pour accéder au PrEP sans être jugée?",
+    "Y a-t-il des ressources pour les personnes vivant avec le VIH qui souhaitent prendre le PrEP?",
+    "Comment puis-je parler de mon intérêt pour le PrEP sans révéler mon statut?",
+    "Quels sont les effets secondaires possibles du PrEP que je devrais connaître?",
+    "Est-ce que le PrEP est efficace pour les personnes comme moi qui vivent avec le VIH?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les options pour accéder 4u prep 54n5 être juge",
+    "y a-t-il des ressources pour les per50nn3s vivant avec le vih qui souhaitent prendre le pr3p",
+    "c-comment puis-je parler de mon intérê pour le PrEP 5an5 révéler mon statut",
+    "quels sont les effets secondaires possibles du PrEP que je devra1s c0nn4î7r3",
+    "Est---ce que le PrEP est efficace p0ur les personnes comme moi qui vivent avec le VIH?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08467849331968252,
+    "swap_rate": 0.025820608047765765,
+    "drop_rate": 0.028417753418371217,
+    "dup_rate": 0.023475147851675905,
+    "leet_rate": 0.08381765993817307,
+    "start_lower_prob": 0.8179940729414117,
+    "all_lower_prob": 0.15895827012174715,
+    "drop_punct_prob": 0.5294378539891413,
+    "double_space_prob": 0.3446665741596584,
+    "ellipsis_prob": 0.26059619807194323,
+    "runon_prob": 0.2829426604760666,
+    "filler_rate": 0.34494452747510473,
+    "emoji_rate": 0.15190362604496405,
+    "stutter_rate": 0.11086625278308884,
+    "repeat_last_rate": 0.13443554346680278
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La stigmatisation liée à mon statut de séropositive et l'accès à PrEP.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne vit avec le VIH et fait face à une stigmatisation qui la rend hésitante à demander des informations sur le PrEP. Elle craint que son statut ne soit découvert et cela l'affecte émotionnellement, la rendant plus anxieuse quant à sa santé et ses relations sociales.\",\n  \"example_questions\": [\n    \"Quelles sont les options pour accéder au PrEP sans être jugée?\",\n    \"Y a-t-il des ressources pour les personnes vivant avec le VIH qui souhaitent prendre le PrEP?\",\n    \"Comment puis-je parler de mon intérêt pour le PrEP sans révéler mon statut?\",\n    \"Quels sont les effets secondaires possibles du PrEP que je devrais connaître?\",\n    \"Est-ce que le PrEP est efficace pour les personnes comme moi qui vivent avec le VIH?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3cc923043f3c6d1c81de8da4a7c32499315d3b94396e6354bed939643aeb73ee",
+  "_language": "French",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

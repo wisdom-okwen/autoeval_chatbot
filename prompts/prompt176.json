@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might affect my recovery and overall health",
+    "language": "English"
+  },
+  "context": "The user is a 35-year-old American woman who is recovering from cancer treatment. She feels anxious about starting PrEP due to concerns about interactions with her medications and the impact on her immune system. She hopes to protect herself from HIV but is also grappling with fear of stigma and the emotional toll of her recent health challenges.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works for someone like me who is recovering from cancer?",
+    "Are there any known interactions between PrEP and cancer treatment medications?",
+    "How can I discuss my PrEP needs with my healthcare provider without feeling judged?",
+    "What should I consider regarding my overall health while taking PrEP?",
+    "Is it common for people in recovery to use PrEP safely?",
+    "What support resources are available for someone in my situation looking to start PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain how prep works for someone liiike me wwwho ix recovering from cancer?",
+    "are there any known like interactions between prep and ... cancer treatment medications?",
+    "how can I discuss my PrEP needs with my idk healthcare provider w17h0u7 f33l1ng judged",
+    "what should i consider r3g4rd1ng ny overall helth while takong prep",
+    "is it common for people in recovery to use PrEP safely?",
+    "what support resources are available for someone iiin my situation looking to start prep? 😕"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07414460673508501,
+    "swap_rate": 0.03903742632856827,
+    "drop_rate": 0.04536095003684634,
+    "dup_rate": 0.02144719259373741,
+    "leet_rate": 0.09942313895618035,
+    "start_lower_prob": 0.79983414500405,
+    "all_lower_prob": 0.3300888003291312,
+    "drop_punct_prob": 0.31843715936490796,
+    "double_space_prob": 0.316583305201787,
+    "ellipsis_prob": 0.3067946379587588,
+    "runon_prob": 0.2782331816174054,
+    "filler_rate": 0.24483220519911722,
+    "emoji_rate": 0.20890119030918455,
+    "stutter_rate": 0.11956010206336459,
+    "repeat_last_rate": 0.12133847278251852
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might affect my recovery and overall health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 35-year-old American woman who is recovering from cancer treatment. She feels anxious about starting PrEP due to concerns about interactions with her medications and the impact on her immune system. She hopes to protect herself from HIV but is also grappling with fear of stigma and the emotional toll of her recent health challenges.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works for someone like me who is recovering from cancer?\",\n    \"Are there any known interactions between PrEP and cancer treatment medications?\",\n    \"How can I discuss my PrEP needs with my healthcare provider without feeling judged?\",\n    \"What should I consider regarding my overall health while taking PrEP?\",\n    \"Is it common for people in recovery to use PrEP safely?\",\n    \"What support resources are available for someone in my situation looking to start PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "02cb19a662ac914bcf07669b030c10d1b7b68bc49b94594df6f66da80b1bb146",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

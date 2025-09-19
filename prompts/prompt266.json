@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur de l'impact sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "En raison d'un PTSD lié à des expériences passées, vous ressentez une certaine appréhension à aborder le sujet de la prophylaxie pré-exposition (PrEP). Les souvenirs traumatisants peuvent rendre difficile la prise de décisions concernant votre santé, et vous avez des inquiétudes quant à la manière dont PrEP pourrait affecter votre état émotionnel et mental. Vous êtes motivée par le désir de vous protéger, mais la peur du jugement et des conséquences émotionnelles freine votre accès à ces informations.",
+  "example_questions_clean": [
+    "Quelles sont les études sur l'impact de la PrEP sur la santé mentale ?",
+    "Comment puis-je parler de mes préoccupations avec un médecin sans me sentir jugée ?",
+    "Est-ce que la PrEP peut aggraver les symptômes du PTSD ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant un passé traumatique qui souhaitent commencer la PrEP ?",
+    "Comment la PrEP pourrait-elle affecter mes relations avec les autres en tenant compte de mon état émotionnel ?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les études sur l'impact de ka prep sur la santé mentale",
+    "C-Comment puis-je parler de mes préoccupations avec un médecin asns me sentir jugée 😅 😅",
+    "est-ce qu3 lw orep peut aggraver les symptômes du ptsd",
+    "y at--il des ressources spécifiques p0ur lss personnes ayant un passé traumatique wui 50hu4i73n7 commencer la Pr3P",
+    "comment la prep pourrait-elle affecter mes relations avec les autres en 7en4n7 c0mp73 de mon étattt émotionnel 💀"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11533591885969555,
+    "swap_rate": 0.038071294550390766,
+    "drop_rate": 0.028781133766965082,
+    "dup_rate": 0.013037336117560189,
+    "leet_rate": 0.10181565660372335,
+    "start_lower_prob": 0.66258646469182,
+    "all_lower_prob": 0.30613156060880226,
+    "drop_punct_prob": 0.37541940097481546,
+    "double_space_prob": 0.21863559448505782,
+    "ellipsis_prob": 0.21610611167741675,
+    "runon_prob": 0.22722491547891602,
+    "filler_rate": 0.4336537714920865,
+    "emoji_rate": 0.24347267408835832,
+    "stutter_rate": 0.16810990646731405,
+    "repeat_last_rate": 0.09123010455134593
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur de l'impact sur ma santé mentale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En raison d'un PTSD lié à des expériences passées, vous ressentez une certaine appréhension à aborder le sujet de la prophylaxie pré-exposition (PrEP). Les souvenirs traumatisants peuvent rendre difficile la prise de décisions concernant votre santé, et vous avez des inquiétudes quant à la manière dont PrEP pourrait affecter votre état émotionnel et mental. Vous êtes motivée par le désir de vous protéger, mais la peur du jugement et des conséquences émotionnelles freine votre accès à ces informations.\",\n  \"example_questions\": [\n    \"Quelles sont les études sur l'impact de la PrEP sur la santé mentale ?\",\n    \"Comment puis-je parler de mes préoccupations avec un médecin sans me sentir jugée ?\",\n    \"Est-ce que la PrEP peut aggraver les symptômes du PTSD ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant un passé traumatique qui souhaitent commencer la PrEP ?\",\n    \"Comment la PrEP pourrait-elle affecter mes relations avec les autres en tenant compte de mon état émotionnel ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ed959de70e84bd0e834d5ab94a14fa5fea8e15ac616c444d11bcbfd9195413fc",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

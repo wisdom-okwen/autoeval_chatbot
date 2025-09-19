@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare while living in a shelter",
+    "language": "English"
+  },
+  "context": "The user is currently living in a shelter and is worried about how their living situation might affect their ability to access PrEP. They feel a mix of hope and fear regarding their health and worry about the stigma associated with seeking help. Their primary concern is how to maintain privacy while obtaining medication and managing their health amidst the challenges they face.",
+  "example_questions_clean": [
+    "What are the steps to access PrEP while living in a shelter?",
+    "Are there programs that can help with costs for people in my situation?",
+    "How can I find a healthcare provider who understands my circumstances?",
+    "What should I do if I feel embarrassed about asking for PrEP?",
+    "Can I get PrEP without disclosing my living situation?",
+    "How can I ensure my personal information is kept private when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the 57ep5 to accses PrEP while living in a shelter 🙂",
+    "are there rpograms that can help with costs for people in my siiituation? 😅",
+    "How can I find a healthcare pr0v1d3r wh0 understands my circumstances?",
+    "wh47 should I do i mean if I feel embarrassed abou7 45k1ng for PrEP",
+    "can I geeet PrEP without disclosing my living s17ua7i0n? 🙂",
+    "How can I nwure my pppersonal information is you know ,ept private when 533k1ng PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.053435209331906305,
+    "swap_rate": 0.05037949042527533,
+    "drop_rate": 0.03967697124648371,
+    "dup_rate": 0.022096593474771754,
+    "leet_rate": 0.08325114141601264,
+    "start_lower_prob": 0.797595615034988,
+    "all_lower_prob": 0.21722764950972884,
+    "drop_punct_prob": 0.4188850582871315,
+    "double_space_prob": 0.25144465750601486,
+    "ellipsis_prob": 0.17220198910203577,
+    "runon_prob": 0.1630493935860307,
+    "filler_rate": 0.4343097637289085,
+    "emoji_rate": 0.24159185171541478,
+    "stutter_rate": 0.16831465458882616,
+    "repeat_last_rate": 0.09890163375790251
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is currently living in a shelter and is worried about how their living situation might affect their ability to access PrEP. They feel a mix of hope and fear regarding their health and worry about the stigma associated with seeking help. Their primary concern is how to maintain privacy while obtaining medication and managing their health amidst the challenges they face.\",\n  \"example_questions\": [\n    \"What are the steps to access PrEP while living in a shelter?\",\n    \"Are there programs that can help with costs for people in my situation?\",\n    \"How can I find a healthcare provider who understands my circumstances?\",\n    \"What should I do if I feel embarrassed about asking for PrEP?\",\n    \"Can I get PrEP without disclosing my living situation?\",\n    \"How can I ensure my personal information is kept private when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d25ab9295df75e044f4a55e7a14ff8b8a8a349e1ba5cb5f9f22a552c2b8b2097",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor a los efectos secundarios y el estigma social asociado con el uso de PrEP.",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que está lidiando con la depresión, lo que afecta tu motivación y capacidad para buscar atención médica. Tienes miedo de cómo podría reaccionar la gente si descubren que estás usando PrEP, lo que añade una carga emocional adicional a tu situación. Te sientes atrapada entre el deseo de protegerte y el temor a ser juzgada.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios comunes de PrEP?",
+    "¿Cómo puedo acceder a PrEP si no tengo dinero para pagarlo?",
+    "¿Es seguro usar PrEP si estoy experimentando depresión?",
+    "¿Qué debo hacer si me siento ansiosa por el estigma asociado con PrEP?",
+    "¿Dónde puedo encontrar apoyo emocional mientras considero iniciar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son los efectos secundarios comunes de pr3p?",
+    "¿Cómo puedo acceder a [rEP si no tengo dinero para pagarlo?",
+    "¿35 segurl usar PrEP si estoy experimentando d3pr3s1ón?",
+    "¿Qué debo hacer si m3 513n70 ansiosa p0r el estigma asociado c0n PrEP",
+    "¿-¿Dónde puedo encontrar apoyo emocional mientrad con5id3r0 1n1c14r PrEP 😅"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0734199539867998,
+    "swap_rate": 0.022143917674278212,
+    "drop_rate": 0.02195700546764079,
+    "dup_rate": 0.010844445465298613,
+    "leet_rate": 0.09976245167599283,
+    "start_lower_prob": 0.7587763953180773,
+    "all_lower_prob": 0.34439960612303355,
+    "drop_punct_prob": 0.36824825981736664,
+    "double_space_prob": 0.2759328680370591,
+    "ellipsis_prob": 0.30717108768789403,
+    "runon_prob": 0.1887732814492001,
+    "filler_rate": 0.4521309384166451,
+    "emoji_rate": 0.18956495641210036,
+    "stutter_rate": 0.10051134250692473,
+    "repeat_last_rate": 0.10516561239098954
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor a los efectos secundarios y el estigma social asociado con el uso de PrEP.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer joven que está lidiando con la depresión, lo que afecta tu motivación y capacidad para buscar atención médica. Tienes miedo de cómo podría reaccionar la gente si descubren que estás usando PrEP, lo que añade una carga emocional adicional a tu situación. Te sientes atrapada entre el deseo de protegerte y el temor a ser juzgada.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios comunes de PrEP?\",\n    \"¿Cómo puedo acceder a PrEP si no tengo dinero para pagarlo?\",\n    \"¿Es seguro usar PrEP si estoy experimentando depresión?\",\n    \"¿Qué debo hacer si me siento ansiosa por el estigma asociado con PrEP?\",\n    \"¿Dónde puedo encontrar apoyo emocional mientras considero iniciar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "73f107e12f779d762cb4e2c6ddbad05f21659f5863178a6c11ce067ebaa9c0e1",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

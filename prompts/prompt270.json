@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "how PrEP might interact with my mental health condition",
+    "language": "English"
+  },
+  "context": "As a young woman living with bipolar disorder, I often struggle with anxiety regarding new treatments and their effects on my emotional stability. I have concerns about the potential side effects of PrEP and whether it might exacerbate my condition or how to navigate the healthcare system effectively given my financial constraints.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP for someone with bipolar disorder?",
+    "Can PrEP have any impact on my mood or mental health?",
+    "Are there specific resources for individuals like me who want to access PrEP?",
+    "How can I discuss my mental health concerns with my healthcare provider when considering PrEP?",
+    "What financial assistance options are available for obtaining PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are idk the potential side effects of prep for omeone with bipolar disorder",
+    "c4n PrPE hav any impact on my mood or mental health",
+    "are there specific resources fooor individuals like me who wannnt to access PrEP?",
+    "bow can u like discussss my mental health concerns with my healthcare provider when considering PeEP",
+    "wh4t financia assistance options um are available for obtaining PrEP? 🤔"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07126969693980378,
+    "swap_rate": 0.05278611578158121,
+    "drop_rate": 0.037703361259778786,
+    "dup_rate": 0.023178278602245694,
+    "leet_rate": 0.06299419491261915,
+    "start_lower_prob": 0.7752340519073538,
+    "all_lower_prob": 0.23055838145638907,
+    "drop_punct_prob": 0.3562876882586793,
+    "double_space_prob": 0.28753462365977794,
+    "ellipsis_prob": 0.3063604881078601,
+    "runon_prob": 0.23426426358746524,
+    "filler_rate": 0.49759072331023235,
+    "emoji_rate": 0.2532000860435571,
+    "stutter_rate": 0.11997110550646824,
+    "repeat_last_rate": 0.0885105127385792
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"how PrEP might interact with my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman living with bipolar disorder, I often struggle with anxiety regarding new treatments and their effects on my emotional stability. I have concerns about the potential side effects of PrEP and whether it might exacerbate my condition or how to navigate the healthcare system effectively given my financial constraints.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP for someone with bipolar disorder?\",\n    \"Can PrEP have any impact on my mood or mental health?\",\n    \"Are there specific resources for individuals like me who want to access PrEP?\",\n    \"How can I discuss my mental health concerns with my healthcare provider when considering PrEP?\",\n    \"What financial assistance options are available for obtaining PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "79df47f29896f57b452177424cb4a115ff804a7c48d04734c783010596b1c67c",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

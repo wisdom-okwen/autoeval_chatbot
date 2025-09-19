@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 30,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur de la stigmatisation et des effets secondaires",
+    "language": "French"
+  },
+  "context": "Vous êtes une femme de 30 ans, récemment sortie d'une période de traumatisme émotionnel. Bien que vous soyez motivée à prendre soin de votre santé, la peur de la stigmatisation liée à la prise de PrEP vous freine. Vous vous sentez vulnérable et avez des doutes sur l'efficacité et les effets secondaires potentiels du médicament. Votre passé a affecté votre confiance en vous et vous hésitez à parler de vos préoccupations avec un professionnel de la santé.",
+  "example_questions_clean": [
+    "Quelles sont les principales préoccupations que je devrais avoir avant de commencer le PrEP ?",
+    "Comment puis-je discuter de mes préoccupations concernant la stigmatisation avec mon médecin ?",
+    "Y a-t-il des effets secondaires courants liés à l'utilisation du PrEP que je devrais connaître ?",
+    "Le PrEP est-il accessible pour quelqu'un avec mon histoire personnelle ?",
+    "Comment le soutien psychologique peut-il m'aider dans ce processus ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les principales préoccupations wue je d3vr415 avoir agant de cmmencer lw PrEP ?",
+    "c-comment uh puis-je discuter de mes préoccupations concernant la stigmatisation avce mon médecin ? ?",
+    "y a-t-il des effets secondaires courants liés à um l'utilisation du PrEP que je devrais conaître ? ✨",
+    "le PrwP ets-il accessible pouuur quelqu'un aveeec mon histoire personnelle ? ?",
+    "Comment le soutiiien psychologique peut-il m'aider dans ce processus ? ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10601104533056223,
+    "swap_rate": 0.054535961210621695,
+    "drop_rate": 0.025303375344157848,
+    "dup_rate": 0.02411640835832315,
+    "leet_rate": 0.05678092338117521,
+    "start_lower_prob": 0.6135291984872124,
+    "all_lower_prob": 0.23181104621310078,
+    "drop_punct_prob": 0.4573813881254506,
+    "double_space_prob": 0.2073784864740269,
+    "ellipsis_prob": 0.1579283409396736,
+    "runon_prob": 0.2020604321319207,
+    "filler_rate": 0.48091698845535163,
+    "emoji_rate": 0.3318998713098552,
+    "stutter_rate": 0.14488083412810104,
+    "repeat_last_rate": 0.1774492345160918
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 30,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur de la stigmatisation et des effets secondaires\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes une femme de 30 ans, récemment sortie d'une période de traumatisme émotionnel. Bien que vous soyez motivée à prendre soin de votre santé, la peur de la stigmatisation liée à la prise de PrEP vous freine. Vous vous sentez vulnérable et avez des doutes sur l'efficacité et les effets secondaires potentiels du médicament. Votre passé a affecté votre confiance en vous et vous hésitez à parler de vos préoccupations avec un professionnel de la santé.\",\n  \"example_questions\": [\n    \"Quelles sont les principales préoccupations que je devrais avoir avant de commencer le PrEP ?\",\n    \"Comment puis-je discuter de mes préoccupations concernant la stigmatisation avec mon médecin ?\",\n    \"Y a-t-il des effets secondaires courants liés à l'utilisation du PrEP que je devrais connaître ?\",\n    \"Le PrEP est-il accessible pour quelqu'un avec mon histoire personnelle ?\",\n    \"Comment le soutien psychologique peut-il m'aider dans ce processus ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ec8ff40b1e0a236af92b516d5328f27c78a3db52a696570f90ae16bae4670cf5",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

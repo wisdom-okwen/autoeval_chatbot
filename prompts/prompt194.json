@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "médio",
+    "primary_concern": "medo do estigma relacionado ao uso de PrEP e o impacto na saúde mental após um trauma",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de um trauma pessoal que afetou sua confiança e visão sobre a saúde sexual. A ideia de procurar PrEP é desafiadora devido ao medo do estigma e à preocupação com como isso pode impactar sua saúde mental. Você está buscando informações para entender melhor essa opção e como ela pode se encaixar em seu processo de recuperação.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona na prevenção do HIV?",
+    "Existem efeitos colaterais do PrEP que eu deveria conhecer?",
+    "Como posso conversar com um profissional de saúde sobre PrEP sem me sentir julgada?",
+    "Quais são os passos para começar a usar PrEP de forma segura?",
+    "A PrEP pode afetar minha saúde mental, considerando meu histórico de trauma?",
+    "Como posso encontrar apoio emocional enquanto exploro o uso da PrEP?"
+  ],
+  "example_questions_noisy": [
+    "O-O uh que é PrEP e como ele funciona na prevenção dooo HIV? 😅",
+    "Existem efeitos colaterais so PrEP like que eu deveria conhecer? 🫠 🫠",
+    "como posso conversar com um profissional de saúde sobre PrEP sem me sentir juuulgada 💀",
+    "quais são os passos para começar a usar PrEP de forma segura? ✨ ✨",
+    "q prep pode afetar minha saúde mental considerando meu h15tór1c0 d3 rauma 😕",
+    "como posso encontrar apoio emocional enquanto exploro o uh uso da PrEP? PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0713214265627346,
+    "swap_rate": 0.023204391025025407,
+    "drop_rate": 0.03469379142730471,
+    "dup_rate": 0.029630715115755532,
+    "leet_rate": 0.08099552628965953,
+    "start_lower_prob": 0.7831732240751571,
+    "all_lower_prob": 0.19762540460474853,
+    "drop_punct_prob": 0.30363846848907544,
+    "double_space_prob": 0.17071836536686863,
+    "ellipsis_prob": 0.21415710976444258,
+    "runon_prob": 0.2592317000420152,
+    "filler_rate": 0.3959920355878866,
+    "emoji_rate": 0.31069776557459416,
+    "stutter_rate": 0.11140119577634457,
+    "repeat_last_rate": 0.15065696418691915
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"medo do estigma relacionado ao uso de PrEP e o impacto na saúde mental após um trauma\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está se recuperando de um trauma pessoal que afetou sua confiança e visão sobre a saúde sexual. A ideia de procurar PrEP é desafiadora devido ao medo do estigma e à preocupação com como isso pode impactar sua saúde mental. Você está buscando informações para entender melhor essa opção e como ela pode se encaixar em seu processo de recuperação.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona na prevenção do HIV?\",\n    \"Existem efeitos colaterais do PrEP que eu deveria conhecer?\",\n    \"Como posso conversar com um profissional de saúde sobre PrEP sem me sentir julgada?\",\n    \"Quais são os passos para começar a usar PrEP de forma segura?\",\n    \"A PrEP pode afetar minha saúde mental, considerando meu histórico de trauma?\",\n    \"Como posso encontrar apoio emocional enquanto exploro o uso da PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d939905d4023a4b5c808ffee74f56d903628ba4782ed1a45f45f5ff30d808766",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

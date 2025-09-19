@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "managing depression while considering PrEP",
+    "language": "English"
+  },
+  "context": "You are navigating a personal journey with depression, which often clouds your judgment and increases feelings of anxiety regarding health decisions. You worry that starting PrEP might exacerbate your mental health struggles or that accessing it could be challenging given your current emotional state. You're also concerned about the stigma surrounding PrEP and how others might perceive your decision to take it.",
+  "example_questions_clean": [
+    "How can I manage my depression while starting PrEP?",
+    "What resources are available to help people with mental health challenges access PrEP?",
+    "Are there any side effects of PrEP that could affect my mental well-being?",
+    "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+    "What should I consider when balancing my mental health and sexual health needs?"
+  ],
+  "example_questions_noisy": [
+    "ho3 can I manage mt depression you know while starting Pr3P?",
+    "W-What resources are available to h3lp you know people with mental health challenges access PrEP",
+    "are tehre any sdie effetcs of PrE th47 could affect my mental well-being?",
+    "how do I talk to my healthcrae provider about my concerns regarding PrEP ✨",
+    "what should I consider when balancing my mental health and sdxual heatlh needs?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.056902820552294966,
+    "swap_rate": 0.057984997599637905,
+    "drop_rate": 0.04305576242733726,
+    "dup_rate": 0.017729396667882452,
+    "leet_rate": 0.063675256254453,
+    "start_lower_prob": 0.8138161807361657,
+    "all_lower_prob": 0.25497776087239593,
+    "drop_punct_prob": 0.404016256485812,
+    "double_space_prob": 0.16785433343810574,
+    "ellipsis_prob": 0.27886290254635504,
+    "runon_prob": 0.20208561349029014,
+    "filler_rate": 0.458505275736777,
+    "emoji_rate": 0.33693087575165453,
+    "stutter_rate": 0.15151651341534622,
+    "repeat_last_rate": 0.14340720261736245
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"managing depression while considering PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating a personal journey with depression, which often clouds your judgment and increases feelings of anxiety regarding health decisions. You worry that starting PrEP might exacerbate your mental health struggles or that accessing it could be challenging given your current emotional state. You're also concerned about the stigma surrounding PrEP and how others might perceive your decision to take it.\",\n  \"example_questions\": [\n    \"How can I manage my depression while starting PrEP?\",\n    \"What resources are available to help people with mental health challenges access PrEP?\",\n    \"Are there any side effects of PrEP that could affect my mental well-being?\",\n    \"How do I talk to my healthcare provider about my concerns regarding PrEP?\",\n    \"What should I consider when balancing my mental health and sexual health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4e0a796be4735e08fa80246c6220965270f6548c0525ba5e31e384ff85e7cb0e",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

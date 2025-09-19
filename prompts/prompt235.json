@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 32,
+    "gender": "Femenino",
+    "socio_economic_status": "Clase media",
+    "primary_concern": "Preocupación por los efectos secundarios en relación con la esclerosis múltiple",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 32 años que vive con esclerosis múltiple, lo que ha influido en tu percepción sobre tratamientos y medicamentos. Sientes una mezcla de esperanza y miedo respecto a PrEP, ya que te preocupa cómo podría afectar tu condición y si es seguro para ti. La falta de información clara te hace sentir insegura y vulnerable en tu decisión.",
+  "example_questions_clean": [
+    "¿Es seguro tomar PrEP si tengo esclerosis múltiple?",
+    "¿Cuáles son los efectos secundarios de PrEP que debería considerar?",
+    "¿Puedo acceder a PrEP a través de servicios de salud pública en mi área?",
+    "¿Hay personas en situaciones similares que han compartido sus experiencias con PrEP?",
+    "¿Qué pasos debo seguir para comenzar a tomar PrEP de manera segura?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones con PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Es seguro 70mar PrEP si 73ng0 esclerosis múltiple",
+    "¿Cuáles son los efectos secundaruos de PrEP qqque debería considerar?",
+    "¿Puedo acceder a PrEP a travésss de servicios de salud públ1ca en mi áre?",
+    "¿hay personas en situaciones similares que han compartido sus experiencias con prep?",
+    "¿Qué pasos ebo seguir para comenzar a tomar PrEP de manera esgura 💀",
+    "¿-¿dómo puedo hablar con mi médcio sobre mis preocupaciones con PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07576438500693122,
+    "swap_rate": 0.043045210346867264,
+    "drop_rate": 0.040076540173349474,
+    "dup_rate": 0.015628965097815882,
+    "leet_rate": 0.09456184526560457,
+    "start_lower_prob": 0.7226226504993272,
+    "all_lower_prob": 0.28257131545188585,
+    "drop_punct_prob": 0.5910329598383499,
+    "double_space_prob": 0.23873289074703852,
+    "ellipsis_prob": 0.1613972790509067,
+    "runon_prob": 0.20057856467393997,
+    "filler_rate": 0.302220367783178,
+    "emoji_rate": 0.334811569452477,
+    "stutter_rate": 0.13594695876670876,
+    "repeat_last_rate": 0.12028455100097696
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 32,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Clase media\",\n    \"primary_concern\": \"Preocupación por los efectos secundarios en relación con la esclerosis múltiple\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 32 años que vive con esclerosis múltiple, lo que ha influido en tu percepción sobre tratamientos y medicamentos. Sientes una mezcla de esperanza y miedo respecto a PrEP, ya que te preocupa cómo podría afectar tu condición y si es seguro para ti. La falta de información clara te hace sentir insegura y vulnerable en tu decisión.\",\n  \"example_questions\": [\n    \"¿Es seguro tomar PrEP si tengo esclerosis múltiple?\",\n    \"¿Cuáles son los efectos secundarios de PrEP que debería considerar?\",\n    \"¿Puedo acceder a PrEP a través de servicios de salud pública en mi área?\",\n    \"¿Hay personas en situaciones similares que han compartido sus experiencias con PrEP?\",\n    \"¿Qué pasos debo seguir para comenzar a tomar PrEP de manera segura?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones con PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d721048e366c52d131f3154bf1c42baccc66b0693ca15771a49a4e4f03d7cb67",
+  "_language": "Spanish",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

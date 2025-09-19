@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 32,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La possibilité de rechute et l'accès au traitement",
+    "language": "French"
+  },
+  "context": "Vous avez un passé de consommation de substances qui vous préoccupe par rapport à l'accès au PrEP. Vous ressentez une peur de ne pas être accepté par les professionnels de santé et une inquiétude quant à votre capacité à rester sur le traitement. Cette situation vous amène à vous interroger sur la sécurité et l'efficacité du PrEP dans le contexte de votre histoire personnelle.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder au PrEP malgré un historique de consommation de substances ?",
+    "Y a-t-il des ressources pour m'aider à gérer ma santé mentale pendant que je prends du PrEP ?",
+    "Comment les médecins abordent-ils le sujet du PrEP avec des patients ayant des antécédents de dépendance ?",
+    "Est-ce que le PrEP est sécuritaire pour quelqu'un qui a un passé de consommation de drogues ?",
+    "Quels sont les effets secondaires du PrEP et comment puis-je les gérer ?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les étapes i mean pour accéder au PrEP malgré un h1570r1qu3 de consommation de substances ?",
+    "y a-t-il des ressources p0ur m'aider à gérer ma santé mentale pendant quuue je pr3nd5 du PrEP ❓",
+    "comment les médecins abordent-ils le sjuet du PrEP vaec des patients ayant des antécédents de dépendance ?",
+    "est-ce que le PrEP est sécuritaire pour quelqu'un qui a un pasés d333 consommation d3 drogues ?",
+    "q-quels sont les effets secondaires du like prep et comment puis-je les gér3r"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07177486731467594,
+    "swap_rate": 0.024395015619487603,
+    "drop_rate": 0.025036693942085648,
+    "dup_rate": 0.026832583765378434,
+    "leet_rate": 0.0610163514929788,
+    "start_lower_prob": 0.850451840724368,
+    "all_lower_prob": 0.2833957108033851,
+    "drop_punct_prob": 0.5968770451878502,
+    "double_space_prob": 0.33617799599063064,
+    "ellipsis_prob": 0.25150396723196333,
+    "runon_prob": 0.10791587805949635,
+    "filler_rate": 0.32751884009192844,
+    "emoji_rate": 0.25746729929400164,
+    "stutter_rate": 0.16564082338104183,
+    "repeat_last_rate": 0.08578609130427968
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 32,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La possibilité de rechute et l'accès au traitement\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez un passé de consommation de substances qui vous préoccupe par rapport à l'accès au PrEP. Vous ressentez une peur de ne pas être accepté par les professionnels de santé et une inquiétude quant à votre capacité à rester sur le traitement. Cette situation vous amène à vous interroger sur la sécurité et l'efficacité du PrEP dans le contexte de votre histoire personnelle.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder au PrEP malgré un historique de consommation de substances ?\",\n    \"Y a-t-il des ressources pour m'aider à gérer ma santé mentale pendant que je prends du PrEP ?\",\n    \"Comment les médecins abordent-ils le sujet du PrEP avec des patients ayant des antécédents de dépendance ?\",\n    \"Est-ce que le PrEP est sécuritaire pour quelqu'un qui a un passé de consommation de drogues ?\",\n    \"Quels sont les effets secondaires du PrEP et comment puis-je les gérer ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "438cf9176847474186da4edef3301c343cd109b5a830d97312d2197318453ca9",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

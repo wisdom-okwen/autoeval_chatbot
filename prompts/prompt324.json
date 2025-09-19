@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of potential side effects and stigma from peers",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old American woman who has been experiencing PTSD due to past trauma. This condition often heightens her anxiety and fear about medical treatments, making her hesitant to start PrEP. She worries about the stigma associated with HIV prevention and how it might affect her relationships, adding to her feelings of isolation and concern about societal judgment.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I address my fears about stigma when discussing PrEP with my healthcare provider?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What steps can I take to feel more comfortable with the idea of starting PrEP?",
+    "How often do I need to visit the doctor while on PrEP?",
+    "Can you provide information on how to access PrEP discreetly?"
+  ],
+  "example_questions_noisy": [
+    "w-what are idk the common side 3ff3c75 of PrEP that I should be aware of ❓",
+    "how can I address my fears about syigma when discussing PrEP w17h my healthcare provider provider",
+    "are there support gr0up5 cor people like me who are considering prep?",
+    "what steps can I take to feel more comfortable wtih the jdea of starting PrEP",
+    "how often do i je3d to visti like the doctor while on prep 🙄 🙄",
+    "can y0u provide information on how to accees PrEP disreerly disreerly"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07992998621599136,
+    "swap_rate": 0.042686850584476695,
+    "drop_rate": 0.0465291213900154,
+    "dup_rate": 0.021749268008181243,
+    "leet_rate": 0.052521181685872775,
+    "start_lower_prob": 0.8986494480000544,
+    "all_lower_prob": 0.3466449046841953,
+    "drop_punct_prob": 0.5554435551081285,
+    "double_space_prob": 0.2820376779282525,
+    "ellipsis_prob": 0.15803208075119954,
+    "runon_prob": 0.13625087941242067,
+    "filler_rate": 0.3842580089847355,
+    "emoji_rate": 0.290094373141489,
+    "stutter_rate": 0.11848006388588189,
+    "repeat_last_rate": 0.1564539773494974
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of potential side effects and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old American woman who has been experiencing PTSD due to past trauma. This condition often heightens her anxiety and fear about medical treatments, making her hesitant to start PrEP. She worries about the stigma associated with HIV prevention and how it might affect her relationships, adding to her feelings of isolation and concern about societal judgment.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I address my fears about stigma when discussing PrEP with my healthcare provider?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"What steps can I take to feel more comfortable with the idea of starting PrEP?\",\n    \"How often do I need to visit the doctor while on PrEP?\",\n    \"Can you provide information on how to access PrEP discreetly?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "032ed8e321d69dad0d53f1c7c021ea6c138748b6bccb2fdc81912fd5be6ad7f8",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

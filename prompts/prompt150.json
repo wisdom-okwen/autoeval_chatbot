@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Lower middle class",
+    "primary_concern": "Managing anxiety about starting PrEP due to fear of side effects and stigma.",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old woman from a lower middle-class background in the United States. She has been coping with an anxiety disorder that makes her particularly worried about potential side effects of medications. Her anxiety also leads her to fear the stigma associated with taking PrEP, causing her to hesitate in seeking access despite wanting to protect her health. She feels overwhelmed by conflicting information and is looking for clarity in a supportive manner.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP, and how can I manage them?",
+    "How do I talk to my doctor about my anxiety when discussing PrEP?",
+    "Are there any resources available for someone like me who is anxious about starting PrEP?",
+    "What should I know about the stigma surrounding PrEP before I start taking it?",
+    "How can I find a supportive community or group for people on PrEP?",
+    "Is it possible to start PrEP while managing an anxiety disorder?"
+  ],
+  "example_questions_noisy": [
+    "what are the ocmmon side effcts of PrEP, and how can I m4nagw them?",
+    "how do i alk to um my doctor about my anxiety when discussing prep?",
+    "are there any resources available for someone likd me who is anxious about 574rt1ng r[EP?",
+    "what sh0uld I know 4b0u7 the stigma surrounding PrEP before o start you know taking it? it?",
+    "h0w can i fiiind a supportive community or group for people on prep?",
+    "is it possible to start prep while managong an anxiety disorder? disorder?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.056253162477367134,
+    "swap_rate": 0.032735704983825525,
+    "drop_rate": 0.028176424975626762,
+    "dup_rate": 0.024358403454760022,
+    "leet_rate": 0.0781862009304791,
+    "start_lower_prob": 0.6976708928140183,
+    "all_lower_prob": 0.27790930627055765,
+    "drop_punct_prob": 0.35467609355966484,
+    "double_space_prob": 0.1544050755275662,
+    "ellipsis_prob": 0.21054874423433015,
+    "runon_prob": 0.13524157428270564,
+    "filler_rate": 0.2914948115372707,
+    "emoji_rate": 0.1608759475398385,
+    "stutter_rate": 0.18932160359223524,
+    "repeat_last_rate": 0.1446362971823419
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Lower middle class\",\n    \"primary_concern\": \"Managing anxiety about starting PrEP due to fear of side effects and stigma.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old woman from a lower middle-class background in the United States. She has been coping with an anxiety disorder that makes her particularly worried about potential side effects of medications. Her anxiety also leads her to fear the stigma associated with taking PrEP, causing her to hesitate in seeking access despite wanting to protect her health. She feels overwhelmed by conflicting information and is looking for clarity in a supportive manner.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP, and how can I manage them?\",\n    \"How do I talk to my doctor about my anxiety when discussing PrEP?\",\n    \"Are there any resources available for someone like me who is anxious about starting PrEP?\",\n    \"What should I know about the stigma surrounding PrEP before I start taking it?\",\n    \"How can I find a supportive community or group for people on PrEP?\",\n    \"Is it possible to start PrEP while managing an anxiety disorder?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9d918edd0316ca8fcaa4f19da7b878f03a62f002ef668da046512d7beea43dba",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

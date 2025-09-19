@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and negative emotional impact on mental health",
+    "language": "English"
+  },
+  "context": "You are a 30-year-old woman from the United States who is experiencing PTSD due to past trauma. This condition affects your mindset and makes you feel anxious about seeking medical help, particularly when it comes to starting PrEP. You worry about how others might perceive you if they learn about your mental health struggles, and you're concerned about the emotional toll that discussions around PrEP might take on your well-being. Your primary focus is to understand how PrEP can fit into your life without exacerbating your feelings of anxiety or being judged.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and if it's suitable for someone with PTSD?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "Are there support resources available for individuals with PTSD who are considering PrEP?",
+    "What steps can I take to ensure my mental health is supported while using PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain how PrEP works and ... if 17'5 suitable for someone with PTSD?",
+    "w-what are the potential 51d3 3ff3v75 of PrEP 7h444t I should be aware of?",
+    "how can I approach idk my healthcare prov1d3r about starting PrEP w1th0u7 feeling judged?",
+    "are there supprt resources available f0r individuals wit PTSx who are considering PrEP",
+    "what steps can I t4k3 tooo ensure my mental health is supported while using PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06399762107728386,
+    "swap_rate": 0.029765518618718026,
+    "drop_rate": 0.025109958892985024,
+    "dup_rate": 0.026261609590967766,
+    "leet_rate": 0.09253449122938665,
+    "start_lower_prob": 0.7472986345976081,
+    "all_lower_prob": 0.28271325843945055,
+    "drop_punct_prob": 0.43848675533957526,
+    "double_space_prob": 0.2802171353628481,
+    "ellipsis_prob": 0.21091216386784217,
+    "runon_prob": 0.23776435149348044,
+    "filler_rate": 0.21549471854672703,
+    "emoji_rate": 0.15137391078251028,
+    "stutter_rate": 0.1462618009802777,
+    "repeat_last_rate": 0.08157859651100809
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and negative emotional impact on mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 30-year-old woman from the United States who is experiencing PTSD due to past trauma. This condition affects your mindset and makes you feel anxious about seeking medical help, particularly when it comes to starting PrEP. You worry about how others might perceive you if they learn about your mental health struggles, and you're concerned about the emotional toll that discussions around PrEP might take on your well-being. Your primary focus is to understand how PrEP can fit into your life without exacerbating your feelings of anxiety or being judged.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and if it's suitable for someone with PTSD?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I approach my healthcare provider about starting PrEP without feeling judged?\",\n    \"Are there support resources available for individuals with PTSD who are considering PrEP?\",\n    \"What steps can I take to ensure my mental health is supported while using PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "84c405959219d0907161f31f8ecac77be7395c4ad3b78e867e743ecb1fd6d7c5",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

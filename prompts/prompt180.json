@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 32,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur de la stigmatisation en raison de mon passé avec la consommation de substances.",
+    "language": "French"
+  },
+  "context": "Vous avez un historique de consommation de substances qui vous rend anxieuse à l'idée d'aborder le sujet du PrEP. Vous vous inquiétez de la façon dont cela pourrait être perçu par les professionnels de santé et par les autres. Vous espérez avoir accès à des informations fiables sans jugement, car votre santé et votre bien-être sont importants pour vous.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir le PrEP en tant que personne avec un passé de dépendance?",
+    "Est-ce que les médecins posent des questions sur la consommation de substances avant de prescrire le PrEP?",
+    "Y a-t-il des ressources disponibles pour les personnes comme moi qui craignent la stigmatisation?",
+    "Comment puis-je discuter de mes préoccupations concernant le PrEP avec un professionnel de santé?",
+    "Le PrEP est-il compatible avec des traitements pour la dépendance?"
+  ],
+  "example_questions_noisy": [
+    "Q-Quelles uh sont les étapes pour obtenir le PrEP en taaant que personne 4vce un passé de dépendance? 🫠",
+    "Est-ce que l35 édecins posent des questions sur la consommation de substances avant de prescrire le Pr3P?",
+    "y-y a-t-il des ressources disponibles pour les p3rs0nnes comme m0i qui craignent la stigamtisation 🫠",
+    "comment puis-je discuter xe mes préoccupations c0ncernan7 le PrEo avec un profesisonnel de sant?",
+    "le PrEP est-il compatible avec des like traitements pour la dépendance?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05400654905537742,
+    "swap_rate": 0.05934106448579801,
+    "drop_rate": 0.030153593003398604,
+    "dup_rate": 0.013487338320727005,
+    "leet_rate": 0.055787325467649654,
+    "start_lower_prob": 0.6292090468293536,
+    "all_lower_prob": 0.15745724960124238,
+    "drop_punct_prob": 0.4142815920320167,
+    "double_space_prob": 0.28967800245730096,
+    "ellipsis_prob": 0.321771362535252,
+    "runon_prob": 0.2809250853564844,
+    "filler_rate": 0.4531312273199085,
+    "emoji_rate": 0.24626121064686984,
+    "stutter_rate": 0.1549229707251052,
+    "repeat_last_rate": 0.15866400772788258
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 32,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur de la stigmatisation en raison de mon passé avec la consommation de substances.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez un historique de consommation de substances qui vous rend anxieuse à l'idée d'aborder le sujet du PrEP. Vous vous inquiétez de la façon dont cela pourrait être perçu par les professionnels de santé et par les autres. Vous espérez avoir accès à des informations fiables sans jugement, car votre santé et votre bien-être sont importants pour vous.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir le PrEP en tant que personne avec un passé de dépendance?\",\n    \"Est-ce que les médecins posent des questions sur la consommation de substances avant de prescrire le PrEP?\",\n    \"Y a-t-il des ressources disponibles pour les personnes comme moi qui craignent la stigmatisation?\",\n    \"Comment puis-je discuter de mes préoccupations concernant le PrEP avec un professionnel de santé?\",\n    \"Le PrEP est-il compatible avec des traitements pour la dépendance?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f279093f9945d829230e475122b9ff8b2aaebbf4872765e89a65b49b03720418",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

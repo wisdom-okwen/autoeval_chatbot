@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "concerns about the stigma associated with my past substance use affecting my access to PrEP",
+    "language": "English"
+  },
+  "context": "As someone who has a history of substance use, I often feel anxious about discussing health matters related to HIV prevention. I worry that my past may lead to judgment or discrimination when seeking access to PrEP. My experiences have left me feeling vulnerable, but I also have hope that taking proactive steps can help improve my health and relationships.",
+  "example_questions_clean": [
+    "What should I know about PrEP if I have a history of substance use?",
+    "Are there resources available to help me access PrEP without facing stigma?",
+    "How can I discuss my concerns about past substance use with my healthcare provider?",
+    "What steps can I take to ensure that my privacy is respected when seeking PrEP?",
+    "Can PrEP help me feel more secure in my health choices despite my past?",
+    "What are the potential side effects of PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "what i mean 5h0uld 1 know about PrEP if I have a h15t0ry of substance use",
+    "are there rezources available to help me access rpep without facing stigma?",
+    "h-hkw can I discuss my cn0c3rns abiut past substance uss wi7h my healthcare provider?",
+    "what steps can I take 70 ensure that my pr1vacy is respected whn seeking PrEP?",
+    "can prep help me feel more 53cur3 in mmmy health choicds depsite my past 🙄",
+    "hWat are the otential sude effects 0f PrEP that I should bw aware of"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11651426086255719,
+    "swap_rate": 0.05496804280105616,
+    "drop_rate": 0.027817862676536527,
+    "dup_rate": 0.018046074610474444,
+    "leet_rate": 0.11105984542202442,
+    "start_lower_prob": 0.7355775482030548,
+    "all_lower_prob": 0.16706990803130894,
+    "drop_punct_prob": 0.4596025665080022,
+    "double_space_prob": 0.21743575865738438,
+    "ellipsis_prob": 0.1563562066942832,
+    "runon_prob": 0.18866220734322042,
+    "filler_rate": 0.3064535711138968,
+    "emoji_rate": 0.31495204472094873,
+    "stutter_rate": 0.1217107766258126,
+    "repeat_last_rate": 0.16449360494768808
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"concerns about the stigma associated with my past substance use affecting my access to PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone who has a history of substance use, I often feel anxious about discussing health matters related to HIV prevention. I worry that my past may lead to judgment or discrimination when seeking access to PrEP. My experiences have left me feeling vulnerable, but I also have hope that taking proactive steps can help improve my health and relationships.\",\n  \"example_questions\": [\n    \"What should I know about PrEP if I have a history of substance use?\",\n    \"Are there resources available to help me access PrEP without facing stigma?\",\n    \"How can I discuss my concerns about past substance use with my healthcare provider?\",\n    \"What steps can I take to ensure that my privacy is respected when seeking PrEP?\",\n    \"Can PrEP help me feel more secure in my health choices despite my past?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "41323effeb246641e1b9689d039d0b79dd95cf028bfd242355840dfcb3ea7f8c",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

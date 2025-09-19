@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 30,
+    "gender": "masculino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "preocupações sobre o estigma e a acessibilidade ao PrEP devido ao histórico de uso de substâncias",
+    "language": "Portuguese"
+  },
+  "context": "Você tem um histórico de uso de substâncias, o que gera um medo de ser julgado ao considerar o uso do PrEP. Está preocupado em como isso pode afetar seu acesso e se sente inseguro sobre como será recebido por profissionais de saúde.",
+  "example_questions_clean": [
+    "Como o meu histórico de uso de substâncias pode impactar minha elegibilidade para o PrEP?",
+    "Existem recursos disponíveis para pessoas com experiências semelhantes às minhas que desejam acessar o PrEP?",
+    "Que tipo de apoio emocional posso encontrar ao considerar o uso do PrEP?",
+    "Como posso abordar a questão do PrEP com meu médico sem sentir vergonha?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu deveria considerar, dado meu histórico?",
+    "É comum que pessoas com um passado de uso de substâncias tenham sucesso com o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "como o um meu histórico de uso de substâncias podeee impactar minha elegibilidade paa 0 PrEP?",
+    "3x1s7em recursos disponíveis par pessoas com experiências semelhantes às minhas qu3 desejam um acessar o PrEP?",
+    "que uh tipo de apoio emocional posso encontrar ao considerar o uuuso do PrEP?",
+    "Como posso abordar 4 quesão do PrEP com meu méd1c0 sem sentir vergonha 😬",
+    "q-quaks 5ã0 os p055ív315 3f3170s colaterais do prep que eu um dev3ri4 considerar dado meu h57ór1c0",
+    "é comum que pessoas idk com um passado de usooo de substâncias tenham sucesso com o prep"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0678732843569702,
+    "swap_rate": 0.0234800767186105,
+    "drop_rate": 0.04762180654383655,
+    "dup_rate": 0.01423464679808386,
+    "leet_rate": 0.08243251980523908,
+    "start_lower_prob": 0.6651814008515524,
+    "all_lower_prob": 0.31495116080799623,
+    "drop_punct_prob": 0.4655987956686811,
+    "double_space_prob": 0.16018296945391888,
+    "ellipsis_prob": 0.20601240977898663,
+    "runon_prob": 0.201112039101272,
+    "filler_rate": 0.450189837971319,
+    "emoji_rate": 0.2853649932228763,
+    "stutter_rate": 0.1874962251395644,
+    "repeat_last_rate": 0.13337241391196578
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 30,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"preocupações sobre o estigma e a acessibilidade ao PrEP devido ao histórico de uso de substâncias\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você tem um histórico de uso de substâncias, o que gera um medo de ser julgado ao considerar o uso do PrEP. Está preocupado em como isso pode afetar seu acesso e se sente inseguro sobre como será recebido por profissionais de saúde.\",\n  \"example_questions\": [\n    \"Como o meu histórico de uso de substâncias pode impactar minha elegibilidade para o PrEP?\",\n    \"Existem recursos disponíveis para pessoas com experiências semelhantes às minhas que desejam acessar o PrEP?\",\n    \"Que tipo de apoio emocional posso encontrar ao considerar o uso do PrEP?\",\n    \"Como posso abordar a questão do PrEP com meu médico sem sentir vergonha?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP que eu deveria considerar, dado meu histórico?\",\n    \"É comum que pessoas com um passado de uso de substâncias tenham sucesso com o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "823ee15bbd7e5610f83b0d25ff2b4e69ef5760b8826a9bb2bb9e61deae32ce97",
+  "_language": "Portuguese",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "miedo a ser estigmatizada por su condición",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que ha luchado con la autoestima debido a experiencias pasadas de rechazo y estigmatización. A pesar de estar interesada en PrEP como una opción para protegerse, sientes que el miedo a la percepción de los demás y a ser juzgada por tomar esta decisión te impide acceder a la información necesaria y hablar con profesionales de la salud.",
+  "example_questions_clean": [
+    "¿Qué información sobre PrEP me puede ayudar a sentirme más segura al respecto?",
+    "¿Existen recursos que me apoyen emocionalmente mientras considero tomar PrEP?",
+    "¿Cómo puedo abordar mis miedos sobre el estigma al hablar sobre PrEP con mi médico?",
+    "¿Qué pasos debo seguir para comenzar a usar PrEP si decido que es adecuado para mí?",
+    "¿Qué tipo de apoyo existe para personas que se sienten intimidadas al buscar información sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿wué información uh sobre PrEP me puede ayudar a sentirme más segura al especto especto",
+    "¿-¿Existen recursos um que me apoyen emocionalmente mientras considero tomar PrEP?",
+    "¿-¿Cómo upedo abordar mis miedos obre el estigam al haaabalr sober PrEP con mi médico?",
+    "¿Qué apsos debo seguir para comenza a usar PrEP si decdo que es adecuado para mí?",
+    "¿Qué tipo de apoyo existe para you know persona que se sienen intimidadas al buscar información sobre PrEP? PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07769941885272627,
+    "swap_rate": 0.046315126154414285,
+    "drop_rate": 0.04478611923087405,
+    "dup_rate": 0.021487804459524303,
+    "leet_rate": 0.05191572060111582,
+    "start_lower_prob": 0.6977897777383786,
+    "all_lower_prob": 0.19133992071406553,
+    "drop_punct_prob": 0.534647046481161,
+    "double_space_prob": 0.1555322882369775,
+    "ellipsis_prob": 0.2500831414824783,
+    "runon_prob": 0.14558475257961317,
+    "filler_rate": 0.4801491661019267,
+    "emoji_rate": 0.18776732979766622,
+    "stutter_rate": 0.1818265411717029,
+    "repeat_last_rate": 0.11943852524548713
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"miedo a ser estigmatizada por su condición\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que ha luchado con la autoestima debido a experiencias pasadas de rechazo y estigmatización. A pesar de estar interesada en PrEP como una opción para protegerse, sientes que el miedo a la percepción de los demás y a ser juzgada por tomar esta decisión te impide acceder a la información necesaria y hablar con profesionales de la salud.\",\n  \"example_questions\": [\n    \"¿Qué información sobre PrEP me puede ayudar a sentirme más segura al respecto?\",\n    \"¿Existen recursos que me apoyen emocionalmente mientras considero tomar PrEP?\",\n    \"¿Cómo puedo abordar mis miedos sobre el estigma al hablar sobre PrEP con mi médico?\",\n    \"¿Qué pasos debo seguir para comenzar a usar PrEP si decido que es adecuado para mí?\",\n    \"¿Qué tipo de apoyo existe para personas que se sienten intimidadas al buscar información sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ea7bf5b699e0a42da54aad17759b374c8401b9f4f4cca14ea5f1379f33bd6c7e",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

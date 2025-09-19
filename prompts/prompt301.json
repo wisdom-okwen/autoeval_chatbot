@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "el impacto de mi tratamiento en la efectividad de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer mexicana de 35 años que está recuperándose de un tratamiento de cáncer. Este proceso ha afectado tu salud física y emocional, y ahora te sientes vulnerable ante la posibilidad de contraer VIH. Aunque deseas protegerte, te preocupa cómo tu condición actual podría influir en la efectividad del PrEP y si hay barreras para acceder a este medicamento en tu situación.",
+  "example_questions_clean": [
+    "¿Puede el tratamiento del cáncer afectar la efectividad de PrEP?",
+    "¿Existen médicos que puedan ayudarme a entender mejor mis opciones?",
+    "¿Qué efectos secundarios debo considerar al tomar PrEP después de mi tratamiento?",
+    "¿Es posible recibir PrEP sin un seguro médico?",
+    "¿Dónde puedo encontrar apoyo emocional mientras evalúo estas opciones?"
+  ],
+  "example_questions_noisy": [
+    "¿Puede el tratamiento d3l cáncer afectar la 3f3c71v1d4d de PrEP?",
+    "e¿xiste méd1c05 queee puedan ayduarme a entender mejor mis 0pc10n35",
+    "¿Qué efectos secundarios debo con51der4r alll tomar PrEP despuuués d3 mi tratamiento",
+    "¿es posible recibir prep sin uj seguro médico?",
+    "¿-¿Dónde puedo encontrar apoyo emocional mientras evalúo estas opcnies? 🙄"
+  ],
+  "style_profile": {
+    "typo_rate": 0.051678424936960295,
+    "swap_rate": 0.023813974878808427,
+    "drop_rate": 0.046184936896008055,
+    "dup_rate": 0.029160252608035064,
+    "leet_rate": 0.09987725888045935,
+    "start_lower_prob": 0.7498359010657261,
+    "all_lower_prob": 0.21211239620148642,
+    "drop_punct_prob": 0.4007118763166086,
+    "double_space_prob": 0.23803874087036372,
+    "ellipsis_prob": 0.19516376868802665,
+    "runon_prob": 0.21987584857417958,
+    "filler_rate": 0.26235759847136586,
+    "emoji_rate": 0.23467926039546644,
+    "stutter_rate": 0.14690522595082967,
+    "repeat_last_rate": 0.09769732597187224
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"el impacto de mi tratamiento en la efectividad de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer mexicana de 35 años que está recuperándose de un tratamiento de cáncer. Este proceso ha afectado tu salud física y emocional, y ahora te sientes vulnerable ante la posibilidad de contraer VIH. Aunque deseas protegerte, te preocupa cómo tu condición actual podría influir en la efectividad del PrEP y si hay barreras para acceder a este medicamento en tu situación.\",\n  \"example_questions\": [\n    \"¿Puede el tratamiento del cáncer afectar la efectividad de PrEP?\",\n    \"¿Existen médicos que puedan ayudarme a entender mejor mis opciones?\",\n    \"¿Qué efectos secundarios debo considerar al tomar PrEP después de mi tratamiento?\",\n    \"¿Es posible recibir PrEP sin un seguro médico?\",\n    \"¿Dónde puedo encontrar apoyo emocional mientras evalúo estas opciones?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "dca8ee6ada6c15496237bcd0306d900ee3cd278c17c06ee64d3d846a5a05f5f1",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

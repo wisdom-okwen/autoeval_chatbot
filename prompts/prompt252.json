@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 32,
+    "gender": "femenino",
+    "socio_economic_status": "medio",
+    "primary_concern": "temor a que el PrEP afecte mi salud debido a mi dolor crónico",
+    "language": "Spanish"
+  },
+  "context": "Vivo con dolor crónico, lo que afecta mi bienestar emocional y me hace dudar sobre cómo el PrEP podría interactuar con mi condición. A menudo me siento ansiosa sobre los tratamientos nuevos, ya que tengo miedo de experimentar efectos secundarios adicionales. Quiero protegerme, pero la idea de añadir otro medicamento a mi rutina me preocupa.",
+  "example_questions_clean": [
+    "¿El PrEP podría empeorar mi dolor crónico?",
+    "¿Existen estudios sobre el uso de PrEP en personas con condiciones de dolor crónico?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones acerca del PrEP?",
+    "¿El PrEP tiene efectos secundarios que puedan afectar mi calidad de vida?",
+    "¿Es seguro tomar PrEP si ya estoy tomando medicamentos para el dolor?",
+    "¿Qué apoyo hay disponible para personas como yo que están considerando el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿El PrEP podría empeorar mi dolor crónico",
+    "¿exiaten 357ud1o5 sobre el uso you know de preppp en personas con condiciones de dolo crónico crónico",
+    "¿Cómo puedo habla con mi médico sobre mis preocupacione acerca del Pr3P? 💀",
+    "¿el pr3p tiene efectos secundarios que pu3dan afectar mi caliead de vida 😕",
+    "¿Es seguro tomar PrP si y4 estoy tomando medicamenots p4r4 idk el dolor?",
+    "¿-¿Qué apoyo hay disponible para personas como yo um que están considerando el PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07655791666101025,
+    "swap_rate": 0.028936625173944998,
+    "drop_rate": 0.03533345818409388,
+    "dup_rate": 0.01646869753004457,
+    "leet_rate": 0.11895962931683242,
+    "start_lower_prob": 0.7601567459771694,
+    "all_lower_prob": 0.20406275606777455,
+    "drop_punct_prob": 0.5026739221249756,
+    "double_space_prob": 0.19126985316491463,
+    "ellipsis_prob": 0.2759210454382953,
+    "runon_prob": 0.2270315731269092,
+    "filler_rate": 0.48845918720301684,
+    "emoji_rate": 0.325564188886104,
+    "stutter_rate": 0.1653423968163685,
+    "repeat_last_rate": 0.10295460917101985
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 32,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"temor a que el PrEP afecte mi salud debido a mi dolor crónico\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Vivo con dolor crónico, lo que afecta mi bienestar emocional y me hace dudar sobre cómo el PrEP podría interactuar con mi condición. A menudo me siento ansiosa sobre los tratamientos nuevos, ya que tengo miedo de experimentar efectos secundarios adicionales. Quiero protegerme, pero la idea de añadir otro medicamento a mi rutina me preocupa.\",\n  \"example_questions\": [\n    \"¿El PrEP podría empeorar mi dolor crónico?\",\n    \"¿Existen estudios sobre el uso de PrEP en personas con condiciones de dolor crónico?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones acerca del PrEP?\",\n    \"¿El PrEP tiene efectos secundarios que puedan afectar mi calidad de vida?\",\n    \"¿Es seguro tomar PrEP si ya estoy tomando medicamentos para el dolor?\",\n    \"¿Qué apoyo hay disponible para personas como yo que están considerando el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "192a80728a5b9eab2f9907468af9db537df2b518daa0b916df40521477b96ecb",
+  "_language": "Spanish",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

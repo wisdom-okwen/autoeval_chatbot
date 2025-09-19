@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "navigating stigma and lack of support for PrEP",
+    "language": "Swahili"
+  },
+  "context": "The user has been struggling with self-esteem issues, which make them feel anxious about seeking medical advice or discussing sexual health. They are particularly worried about how others might perceive them if they ask about PrEP, fearing judgment or rejection. This leads to feelings of isolation and uncertainty about accessing preventive healthcare.",
+  "example_questions_clean": [
+    "Ninaweza kupata taarifa gani kuhusu PrEP na jinsi inavyofanya kazi?",
+    "Ni wapi ninaweza kupata PrEP bila kuhisi aibu au kupimwa?",
+    "Je, kuna njia yoyote ya kuzungumza kuhusu PrEP bila kuhisi hofu?",
+    "PrEP ina madhara gani na je, ni salama kwangu?",
+    "Naweza kupata msaada wa kisaikolojia kuhusu masuala ya kujithamini na PrEP?"
+  ],
+  "example_questions_noisy": [
+    "n1naw3z4 kupata taarifa gan1 kuhusu prep na jinsi inavyofanya kazi? 🙂",
+    "ni wapi ninaweza kupata PrdP bila kuhisi aib au kupimwa?",
+    "je kuna njia yoyote ya kuzungumza kuhusu rPEP b1l4 kuhisi hofu?",
+    "p-prep ina madhara gani na j3, ni salamw kwangu?",
+    "nawez kupata msaada wa kisaikolojia kuhu5u masuala ys i mean kujithamini na rEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05836285454567454,
+    "swap_rate": 0.05382926199984524,
+    "drop_rate": 0.029546799175095846,
+    "dup_rate": 0.01468307164634861,
+    "leet_rate": 0.06024548757877755,
+    "start_lower_prob": 0.8676996902099372,
+    "all_lower_prob": 0.2938068611268889,
+    "drop_punct_prob": 0.33469916046286874,
+    "double_space_prob": 0.2693026015655572,
+    "ellipsis_prob": 0.15592719215638587,
+    "runon_prob": 0.18637083721941025,
+    "filler_rate": 0.4527447788498253,
+    "emoji_rate": 0.2077271298767256,
+    "stutter_rate": 0.11861106622321586,
+    "repeat_last_rate": 0.1499168721337249
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"navigating stigma and lack of support for PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has been struggling with self-esteem issues, which make them feel anxious about seeking medical advice or discussing sexual health. They are particularly worried about how others might perceive them if they ask about PrEP, fearing judgment or rejection. This leads to feelings of isolation and uncertainty about accessing preventive healthcare.\",\n  \"example_questions\": [\n    \"Ninaweza kupata taarifa gani kuhusu PrEP na jinsi inavyofanya kazi?\",\n    \"Ni wapi ninaweza kupata PrEP bila kuhisi aibu au kupimwa?\",\n    \"Je, kuna njia yoyote ya kuzungumza kuhusu PrEP bila kuhisi hofu?\",\n    \"PrEP ina madhara gani na je, ni salama kwangu?\",\n    \"Naweza kupata msaada wa kisaikolojia kuhusu masuala ya kujithamini na PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f29b24ff45528f1bad86d5213437cc43c474ec0a728b6142d8769fda53887d43",
+  "_language": "Swahili",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

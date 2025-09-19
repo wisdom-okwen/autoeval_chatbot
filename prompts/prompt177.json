@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worrying about how to access PrEP safely while dealing with an abusive partner",
+    "language": "English"
+  },
+  "context": "You are navigating the challenges of intimate partner violence, which adds complexity to your health decisions. You fear that your partner may find out about your desire to use PrEP and react negatively. This situation makes it hard to seek information openly, and you struggle with feelings of vulnerability and the need for safety.",
+  "example_questions_clean": [
+    "What are the steps I can take to access PrEP discreetly?",
+    "How can I talk to a healthcare provider about PrEP without my partner knowing?",
+    "Are there resources available for someone in my situation who wants to start PrEP?",
+    "What should I do if I feel unsafe discussing my sexual health with a doctor?",
+    "Is there support available for individuals facing intimate partner violence who want to use PrEP?"
+  ],
+  "example_questions_noisy": [
+    "W-What 4r3 the steps I can take to access PrEP discreetly",
+    "h-how can I talk to a healthcare provider abotu PrEP i mean without my parnter knowing?",
+    "a-are there resources available for someone in my situation who wants to uh stdt PrEP? 🫠",
+    "hat should uh i do if i feel unsafe discussing my sexual health with a doctor",
+    "i-is th3r3 support available for individuals facing intimate partner violence who want to use prep?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05400306682553526,
+    "swap_rate": 0.02769338348260474,
+    "drop_rate": 0.039427647486496215,
+    "dup_rate": 0.026214107797270333,
+    "leet_rate": 0.08456478941749962,
+    "start_lower_prob": 0.6739245676740909,
+    "all_lower_prob": 0.1972534596544555,
+    "drop_punct_prob": 0.5310317744385638,
+    "double_space_prob": 0.3023348765556562,
+    "ellipsis_prob": 0.273013111403735,
+    "runon_prob": 0.2940093518913196,
+    "filler_rate": 0.4150994383755491,
+    "emoji_rate": 0.1685619439879161,
+    "stutter_rate": 0.17513051433236904,
+    "repeat_last_rate": 0.1288116224312888
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worrying about how to access PrEP safely while dealing with an abusive partner\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the challenges of intimate partner violence, which adds complexity to your health decisions. You fear that your partner may find out about your desire to use PrEP and react negatively. This situation makes it hard to seek information openly, and you struggle with feelings of vulnerability and the need for safety.\",\n  \"example_questions\": [\n    \"What are the steps I can take to access PrEP discreetly?\",\n    \"How can I talk to a healthcare provider about PrEP without my partner knowing?\",\n    \"Are there resources available for someone in my situation who wants to start PrEP?\",\n    \"What should I do if I feel unsafe discussing my sexual health with a doctor?\",\n    \"Is there support available for individuals facing intimate partner violence who want to use PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f89470ba37420d4b3aafc1852d2f309e75b743de16acfc659a1c8f312e6281ff",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 35,
+    "gender": "Femme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "L'impact de la sclérose en plaques sur ma capacité à accéder au PrEP",
+    "language": "French"
+  },
+  "context": "Vous vivez avec la sclérose en plaques et cela a un impact sur votre santé mentale et votre confiance en matière de prévention du VIH. Vous ressentez une certaine peur à propos du PrEP, mais vous espérez trouver des solutions pour vous protéger et vivre sereinement.",
+  "example_questions_clean": [
+    "Quelles sont les options pour accéder au PrEP en vivant avec une maladie chronique comme la sclérose en plaques ?",
+    "Le PrEP pourrait-il interagir avec mes traitements pour la sclérose en plaques ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions de santé chroniques qui souhaitent commencer le PrEP ?",
+    "Comment puis-je parler à mon médecin de l'utilisation du PrEP dans le contexte de ma maladie ?",
+    "Est-ce que le PrEP est sûr à utiliser si je suis sous d'autres médicaments pour la sclérose en plaques ?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les options pour accéder au PrEP en vivant aaavec une maladie chronique c0mm3 la sclérose en pl4q35 ? ❓",
+    "le PrEP pourrait-il 1n73r4g1r avec mes traitements pou la scléroae en palques",
+    "y a-t-il d35 ressources spécifiques pour les personnes vivant 4v3c des conditions de santé chroniques qui like souhaitent commencer le pr3p ?",
+    "comment idk puis-je parler à mon médecin de l'utilisation du prep das le contexte de ma maladie ?",
+    "est-ce que le ptep est sûr à utiliser si je u515 sous d'au7re5 médicaments pour la sclérose en plaques ? ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09065143462247409,
+    "swap_rate": 0.03175516563643325,
+    "drop_rate": 0.04926358702517748,
+    "dup_rate": 0.01593856497617128,
+    "leet_rate": 0.11952634926722493,
+    "start_lower_prob": 0.8406999514731816,
+    "all_lower_prob": 0.3467556905433412,
+    "drop_punct_prob": 0.45753575380057165,
+    "double_space_prob": 0.28511954004108037,
+    "ellipsis_prob": 0.2294911260663841,
+    "runon_prob": 0.1256545450591179,
+    "filler_rate": 0.3146312269921063,
+    "emoji_rate": 0.25909767780049847,
+    "stutter_rate": 0.19903311526492085,
+    "repeat_last_rate": 0.15121444932974698
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 35,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"L'impact de la sclérose en plaques sur ma capacité à accéder au PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez avec la sclérose en plaques et cela a un impact sur votre santé mentale et votre confiance en matière de prévention du VIH. Vous ressentez une certaine peur à propos du PrEP, mais vous espérez trouver des solutions pour vous protéger et vivre sereinement.\",\n  \"example_questions\": [\n    \"Quelles sont les options pour accéder au PrEP en vivant avec une maladie chronique comme la sclérose en plaques ?\",\n    \"Le PrEP pourrait-il interagir avec mes traitements pour la sclérose en plaques ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions de santé chroniques qui souhaitent commencer le PrEP ?\",\n    \"Comment puis-je parler à mon médecin de l'utilisation du PrEP dans le contexte de ma maladie ?\",\n    \"Est-ce que le PrEP est sûr à utiliser si je suis sous d'autres médicaments pour la sclérose en plaques ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8e1f9951e9045977c476ed5e5b372ec4c8916bc7895480170c573c2c747596ea",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

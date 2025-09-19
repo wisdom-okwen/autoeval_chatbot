@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and discrimination when seeking PrEP",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated and struggles with the fear of being judged for seeking PrEP. This personal challenge affects his mindset, making him hesitant to reach out for the information he needs. He worries that others may view him differently if they learn about his status or intentions, which increases his anxiety about accessing health resources.",
+  "example_questions_clean": [
+    "What are the benefits of taking PrEP for someone like me?",
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "Are there support groups available for people considering PrEP?",
+    "What should I expect during my first appointment if I decide to seek PrEP?",
+    "How can I discuss my needs regarding PrEP with a doctor without feeling judged?"
+  ],
+  "example_questions_noisy": [
+    "whta are the benefits of taking PrEP for someone ilke me",
+    "how can i find a healthcare provider who understands my concerns about stigma",
+    "4-4rs there support groups available for pekple ocnsidering PrEP?",
+    "w-what should I expect during my first appointment if 1 decide to seek PrEP",
+    "H-How can 1 discuss my needs regarding PrEP with a doctor without feeling judged?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06809771294982775,
+    "swap_rate": 0.047333862849002796,
+    "drop_rate": 0.02565559915817947,
+    "dup_rate": 0.018106760110481727,
+    "leet_rate": 0.07676018797335384,
+    "start_lower_prob": 0.8856624385396399,
+    "all_lower_prob": 0.17791363243967198,
+    "drop_punct_prob": 0.503798175421257,
+    "double_space_prob": 0.28311164477177675,
+    "ellipsis_prob": 0.23011789955529469,
+    "runon_prob": 0.20991297558408745,
+    "filler_rate": 0.2648075452821019,
+    "emoji_rate": 0.15007999889299972,
+    "stutter_rate": 0.15036806025233865,
+    "repeat_last_rate": 0.1224450544589753
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and discrimination when seeking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated and struggles with the fear of being judged for seeking PrEP. This personal challenge affects his mindset, making him hesitant to reach out for the information he needs. He worries that others may view him differently if they learn about his status or intentions, which increases his anxiety about accessing health resources.\",\n  \"example_questions\": [\n    \"What are the benefits of taking PrEP for someone like me?\",\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"Are there support groups available for people considering PrEP?\",\n    \"What should I expect during my first appointment if I decide to seek PrEP?\",\n    \"How can I discuss my needs regarding PrEP with a doctor without feeling judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aa173d6683f4758891bf4d313db08112a364a29e6490e22db945ed3c64dd07a7",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

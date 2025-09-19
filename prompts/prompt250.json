@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about the stigma associated with taking PrEP due to past trauma",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anajitahidi kupata taarifa kuhusu PrEP lakini anashiriki na PTSD kutokana na tukio la zamani. Anahisi hofu ya kukabiliwa na hukumu kutoka kwa watu wa karibu yake na ana wasiwasi kuhusu jinsi ya kuzungumza kuhusu PrEP bila kufichua hali yake ya kihisia. Hali hii inamfanya ajisikie dhaifu, na anahitaji mwongozo wa kukabiliana na vizuizi hivi.",
+  "example_questions_clean": [
+    "PrEP ni nini na inafanya kazi vipi?",
+    "Je, kuna njia zozote za kujikinga na unyanyasaji wa kijamii wakati wa kutumia PrEP?",
+    "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+    "Je, ni muhimu kuzungumza na daktari wangu kuhusu historia yangu ya PTSD kabla ya kuanza PrEP?",
+    "Ni faida zipi za kutumia PrEP kwa watu kama mimi?",
+    "Ninaweza kupata msaada wa kihisia jinsi gani wakati nikiingia kwenye matibabu haya?"
+  ],
+  "example_questions_noisy": [
+    "PPPrEP ni nini na um inafanya kazi vipi",
+    "Je kuna njia zozote za kujikinga na unyanyasaij wa kijamii wakati i mean wa kutumia PrEP",
+    "ninaweza kupata prep wapi bila kugisi aibu",
+    "Je ni muhimu kuzungumza na daktari wangu kuhusu historia yangggu ya P75D kabla ya kuanza PrEP",
+    "ni faida idk zipi z4 kutumia PrEP kwa wati k4m4 mimi",
+    "niiinaweza lupata msaada wa kiisia jinsi gani wakati nikiingia kwenye matibabu haya?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06397484987938039,
+    "swap_rate": 0.03305253466482418,
+    "drop_rate": 0.035773361081832496,
+    "dup_rate": 0.013799088855409411,
+    "leet_rate": 0.05988909867581968,
+    "start_lower_prob": 0.7371246027903331,
+    "all_lower_prob": 0.330679910146923,
+    "drop_punct_prob": 0.5152109806118723,
+    "double_space_prob": 0.2575409276719659,
+    "ellipsis_prob": 0.2651109020591487,
+    "runon_prob": 0.25022760995871773,
+    "filler_rate": 0.4903715631996836,
+    "emoji_rate": 0.15459409703671792,
+    "stutter_rate": 0.10993749042273963,
+    "repeat_last_rate": 0.10957859858434886
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about the stigma associated with taking PrEP due to past trauma\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anajitahidi kupata taarifa kuhusu PrEP lakini anashiriki na PTSD kutokana na tukio la zamani. Anahisi hofu ya kukabiliwa na hukumu kutoka kwa watu wa karibu yake na ana wasiwasi kuhusu jinsi ya kuzungumza kuhusu PrEP bila kufichua hali yake ya kihisia. Hali hii inamfanya ajisikie dhaifu, na anahitaji mwongozo wa kukabiliana na vizuizi hivi.\",\n  \"example_questions\": [\n    \"PrEP ni nini na inafanya kazi vipi?\",\n    \"Je, kuna njia zozote za kujikinga na unyanyasaji wa kijamii wakati wa kutumia PrEP?\",\n    \"Ninaweza kupata PrEP wapi bila kuhisi aibu?\",\n    \"Je, ni muhimu kuzungumza na daktari wangu kuhusu historia yangu ya PTSD kabla ya kuanza PrEP?\",\n    \"Ni faida zipi za kutumia PrEP kwa watu kama mimi?\",\n    \"Ninaweza kupata msaada wa kihisia jinsi gani wakati nikiingia kwenye matibabu haya?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b899d7a0aec51898b8b2eb36021ad02fa6b2c0bb578196e8c1bddb15b50b617f",
+  "_language": "Swahili",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

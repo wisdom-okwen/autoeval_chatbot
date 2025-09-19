@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "classe média baixa",
+    "primary_concern": "dificuldade em entender informações médicas devido a uma dificuldade de aprendizado",
+    "language": "Portuguese"
+  },
+  "context": "Você está se sentindo ansioso sobre como o PrEP pode ajudá-lo a se proteger, mas se sente inseguro devido à sua condição de aprendizado que torna a compreensão de informações médicas mais difícil. O medo de estigmas sociais e a preocupação com o que os outros podem pensar também estão pesando em sua mente.",
+  "example_questions_clean": [
+    "Como posso encontrar informações claras sobre o PrEP que sejam fáceis de entender?",
+    "Quais são os efeitos colaterais do PrEP e como posso gerenciá-los?",
+    "É seguro tomar PrEP se eu tiver dificuldades de aprendizado?",
+    "Onde posso ir para receber orientação adequada sobre PrEP?",
+    "O que devo dizer ao meu médico sobre minha condição ao discutir o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Como posso encontrar informações claras sobre o PrEP que sejam fác315 de entener? ‼️ ‼️",
+    "quais são os efeitos colaterais idk do prep e c0m0 poss erneciá-los?",
+    "é-é seguro tomar PrEP se 3u tiver dificuldades de aprendizado?",
+    "onde p0s50 ir para receber orientação adequada s0br3 rEP",
+    "0 que devo dizer ao meu médcio sobre minh4 c0ndiçã0 ao dicsutir o PrEP? 💀"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0999555789737287,
+    "swap_rate": 0.024047858906612575,
+    "drop_rate": 0.027088097177067318,
+    "dup_rate": 0.01814247742091476,
+    "leet_rate": 0.09428072561551638,
+    "start_lower_prob": 0.6731258263053815,
+    "all_lower_prob": 0.2272714686623883,
+    "drop_punct_prob": 0.4189363225403508,
+    "double_space_prob": 0.30448577853147163,
+    "ellipsis_prob": 0.30913399329006197,
+    "runon_prob": 0.100022830974202,
+    "filler_rate": 0.3761649434373314,
+    "emoji_rate": 0.20417722308970931,
+    "stutter_rate": 0.13601360610807267,
+    "repeat_last_rate": 0.13246689810425602
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"classe média baixa\",\n    \"primary_concern\": \"dificuldade em entender informações médicas devido a uma dificuldade de aprendizado\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está se sentindo ansioso sobre como o PrEP pode ajudá-lo a se proteger, mas se sente inseguro devido à sua condição de aprendizado que torna a compreensão de informações médicas mais difícil. O medo de estigmas sociais e a preocupação com o que os outros podem pensar também estão pesando em sua mente.\",\n  \"example_questions\": [\n    \"Como posso encontrar informações claras sobre o PrEP que sejam fáceis de entender?\",\n    \"Quais são os efeitos colaterais do PrEP e como posso gerenciá-los?\",\n    \"É seguro tomar PrEP se eu tiver dificuldades de aprendizado?\",\n    \"Onde posso ir para receber orientação adequada sobre PrEP?\",\n    \"O que devo dizer ao meu médico sobre minha condição ao discutir o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b52aa600d4d7334f1288171b5e1dd54787c490b8e5ab19e9d5bc0c2631c9f2cc",
+  "_language": "Portuguese",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

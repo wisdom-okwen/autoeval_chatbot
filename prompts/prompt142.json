@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "You are feeling anxious about exploring PrEP options due to a history of struggling with self-esteem. This affects your mindset, making you worry about how others will perceive you if you seek out information. You hope to protect your health but fear judgment or rejection from peers, which creates barriers to accessing healthcare.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "Are there any side effects I should be aware of?",
+    "How can I find a doctor who understands my concerns about stigma?",
+    "Is there a way to get PrEP discreetly without feeling embarrassed?",
+    "What should I expect during the process of getting prescribed PrEP?",
+    "Can PrEP help me feel more secure in my sexual relationships?"
+  ],
+  "example_questions_noisy": [
+    "what exacfly is PrEP and how d035 it work? work?",
+    "are there any side effects I like should be aware of?",
+    "h-how can I find a docotr who understands my concerns about stigma?",
+    "is there a way to get PrEP discreetly without feeling embarrassed?",
+    "what should I expect ddduring the proc35s of getting prescribed PrEP?",
+    "c-can PPPrEP help me fele more secure in jy idk seeexual relationships?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09568775481983749,
+    "swap_rate": 0.023755051849876127,
+    "drop_rate": 0.042721747878093935,
+    "dup_rate": 0.021424075219039516,
+    "leet_rate": 0.05290485563490108,
+    "start_lower_prob": 0.7956531830332314,
+    "all_lower_prob": 0.2179917547137746,
+    "drop_punct_prob": 0.329331623509994,
+    "double_space_prob": 0.200652013188179,
+    "ellipsis_prob": 0.1592381654094297,
+    "runon_prob": 0.2452498874076134,
+    "filler_rate": 0.2761560730326836,
+    "emoji_rate": 0.2718421744971036,
+    "stutter_rate": 0.1137199708784094,
+    "repeat_last_rate": 0.107181122784452
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling anxious about exploring PrEP options due to a history of struggling with self-esteem. This affects your mindset, making you worry about how others will perceive you if you seek out information. You hope to protect your health but fear judgment or rejection from peers, which creates barriers to accessing healthcare.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"Are there any side effects I should be aware of?\",\n    \"How can I find a doctor who understands my concerns about stigma?\",\n    \"Is there a way to get PrEP discreetly without feeling embarrassed?\",\n    \"What should I expect during the process of getting prescribed PrEP?\",\n    \"Can PrEP help me feel more secure in my sexual relationships?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "25a0fb10d891b36fb4529e0fe6a798f93191247467df8a170d09600d37bc351a",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

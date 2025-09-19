@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and social interactions related to obtaining PrEP",
+    "language": "English"
+  },
+  "context": "The user struggles with social anxiety, making it challenging to seek information about PrEP and visit healthcare providers. They often worry about being judged or misunderstood due to their anxiety and concerns about sexual health. This fear creates barriers that prevent them from accessing the resources they need.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work?",
+    "Are there specific clinics that cater to people who might feel anxious about discussing PrEP?",
+    "How can I discuss my concerns about PrEP with a healthcare provider without feeling overwhelmed?",
+    "What are the potential side effects of taking PrEP that I should be aware of?",
+    "Can you help me understand the process of getting a prescription for PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what is you know prep and ... how does it work?",
+    "are there specific clinics that cater tooo people who might feel anxious about discussing PrEP?",
+    "H-H0w can I discuss my concerns you know about PrEP with 4 healthcare provider without fedling overwhelmed",
+    "w-what are yhe potential side effcts 0f taking prep like that i should bw aware of?",
+    "Can you help mr understand the process og getting a prescription for PrEP? ❓ ❓"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10221338261759672,
+    "swap_rate": 0.05978907002912481,
+    "drop_rate": 0.04667823136929969,
+    "dup_rate": 0.010526187601577561,
+    "leet_rate": 0.09294339017775852,
+    "start_lower_prob": 0.6268173023900269,
+    "all_lower_prob": 0.2726339439294952,
+    "drop_punct_prob": 0.5148311362810851,
+    "double_space_prob": 0.1734133899360993,
+    "ellipsis_prob": 0.24579174032201417,
+    "runon_prob": 0.28665360151831365,
+    "filler_rate": 0.42657753589553804,
+    "emoji_rate": 0.30643569059726894,
+    "stutter_rate": 0.1344042065082904,
+    "repeat_last_rate": 0.15790728401281004
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and social interactions related to obtaining PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with social anxiety, making it challenging to seek information about PrEP and visit healthcare providers. They often worry about being judged or misunderstood due to their anxiety and concerns about sexual health. This fear creates barriers that prevent them from accessing the resources they need.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work?\",\n    \"Are there specific clinics that cater to people who might feel anxious about discussing PrEP?\",\n    \"How can I discuss my concerns about PrEP with a healthcare provider without feeling overwhelmed?\",\n    \"What are the potential side effects of taking PrEP that I should be aware of?\",\n    \"Can you help me understand the process of getting a prescription for PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "009a1d5fc3c1322ba308051bf7dc465780be7b5f0667134e2a1a73d8a0668b2f",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "la accesibilidad y el estigma relacionado con mi historial de consumo de sustancias",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 30 años que ha tenido un historial de uso de sustancias. Esto ha afectado tu autoestima y te preocupa cómo los demás puedan juzgarte si decides buscar información sobre PrEP. Sientes esperanza por la protección que puede ofrecer, pero también miedo de no ser aceptada en los espacios de salud.",
+  "example_questions_clean": [
+    "¿Cómo puedo acceder a PrEP si tengo un historial de consumo de sustancias?",
+    "¿Qué recursos están disponibles para ayudarme a entender mejor los beneficios de PrEP?",
+    "¿Existen clínicas que ofrezcan servicios sin juzgar mi pasado?",
+    "¿Cómo puedo hablar con un médico sobre mi interés en PrEP sin sentirme avergonzada?",
+    "¿Qué debo hacer si me siento incómoda al preguntar sobre PrEP en una farmacia?",
+    "¿Hay grupos de apoyo para personas en situaciones como la mía que estén considerando PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿-¿ómo puedo i mean acceder a prep si tengo un hhhistorial de consumo deee sustttancias?",
+    "¿Qué r3cur5o5 están disponibles para ayudarme a entendee mjeor los beneficios de PrEP PrEP",
+    "¿existen clínicas qu3 um ofrezcan servicios s1n juzgar ki pasado",
+    "¿cómo puedo hablar con un médico sofe mi interés 3m perppp sin sentirme vergonzada?",
+    "q-qué debo hacer si me siento incómoda alll preguntar sobre prep en una farmacia? ‼️ ‼️",
+    "h-hay grupos de apoyo para personas en situaciones c0m0 l4 mía qu3 estén considerando PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06023363855531017,
+    "swap_rate": 0.02906905992941982,
+    "drop_rate": 0.02335270921132224,
+    "dup_rate": 0.026789226423588795,
+    "leet_rate": 0.07571916508506217,
+    "start_lower_prob": 0.8599216495733276,
+    "all_lower_prob": 0.27774856705156237,
+    "drop_punct_prob": 0.4416156579083903,
+    "double_space_prob": 0.25543522872210206,
+    "ellipsis_prob": 0.18088403495575575,
+    "runon_prob": 0.24398417077868007,
+    "filler_rate": 0.47146713379857497,
+    "emoji_rate": 0.28029704532417576,
+    "stutter_rate": 0.19318453750288644,
+    "repeat_last_rate": 0.15449201395805978
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"la accesibilidad y el estigma relacionado con mi historial de consumo de sustancias\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 30 años que ha tenido un historial de uso de sustancias. Esto ha afectado tu autoestima y te preocupa cómo los demás puedan juzgarte si decides buscar información sobre PrEP. Sientes esperanza por la protección que puede ofrecer, pero también miedo de no ser aceptada en los espacios de salud.\",\n  \"example_questions\": [\n    \"¿Cómo puedo acceder a PrEP si tengo un historial de consumo de sustancias?\",\n    \"¿Qué recursos están disponibles para ayudarme a entender mejor los beneficios de PrEP?\",\n    \"¿Existen clínicas que ofrezcan servicios sin juzgar mi pasado?\",\n    \"¿Cómo puedo hablar con un médico sobre mi interés en PrEP sin sentirme avergonzada?\",\n    \"¿Qué debo hacer si me siento incómoda al preguntar sobre PrEP en una farmacia?\",\n    \"¿Hay grupos de apoyo para personas en situaciones como la mía que estén considerando PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3e24fddbfcc94c3917a22dccbbab731201d3a2b67ee4b1947db95cf11a35ce0d",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

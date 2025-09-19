@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "nervousness about side effects and stigma in the community",
+    "language": "Swahili"
+  },
+  "context": "As a young woman living with an anxiety disorder, you often feel overwhelmed by the thought of starting PrEP. Your anxiety makes it difficult to navigate conversations about sexual health, especially with potential stigma from family and friends. You hope to protect your health but are apprehensive about how your community might perceive your decision to use PrEP.",
+  "example_questions_clean": [
+    "Je, PrEP ni nini na inafanyaje kazi?",
+    "Ni madhara gani yanaweza kutokea wakati wa kutumia PrEP?",
+    "Je, kuna watu wengine wanaotumia PrEP ambao wanakabiliana na wasiwasi kama wangu?",
+    "Ninaweza kupata wapi msaada wa kiakili wakati natumia PrEP?",
+    "Je, kuna njia za kujilinda dhidi ya unyanyasaji katika jamii yangu wakati ninatumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "jd PrEP hhh1 nini na 1n4f4ny4je kzai",
+    "ni um madhara gani yanaweza kutokea wakati wa kutumia PrEP",
+    "Je knua watu wengine wanaotumia PrEP ambao wanakabiliana na wasiwasi kama wangu 🙂",
+    "ninaweza kupata wapj msaada wz kiakili w4kat1 natuma prep",
+    "je, kuna njia zw kujilinda dhidi ya unyanyasai kat1k4 j4mii yangu wakati ninatumia prep?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11466839951251905,
+    "swap_rate": 0.03516139187437455,
+    "drop_rate": 0.022315934417488793,
+    "dup_rate": 0.026657827272226965,
+    "leet_rate": 0.08780978791497385,
+    "start_lower_prob": 0.7197224708083693,
+    "all_lower_prob": 0.3078208825974813,
+    "drop_punct_prob": 0.5825400846680809,
+    "double_space_prob": 0.18153780388136093,
+    "ellipsis_prob": 0.18992188114462213,
+    "runon_prob": 0.14615295360737587,
+    "filler_rate": 0.28197953008103027,
+    "emoji_rate": 0.16604262730388206,
+    "stutter_rate": 0.11892847764674515,
+    "repeat_last_rate": 0.09644543463659994
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"nervousness about side effects and stigma in the community\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a young woman living with an anxiety disorder, you often feel overwhelmed by the thought of starting PrEP. Your anxiety makes it difficult to navigate conversations about sexual health, especially with potential stigma from family and friends. You hope to protect your health but are apprehensive about how your community might perceive your decision to use PrEP.\",\n  \"example_questions\": [\n    \"Je, PrEP ni nini na inafanyaje kazi?\",\n    \"Ni madhara gani yanaweza kutokea wakati wa kutumia PrEP?\",\n    \"Je, kuna watu wengine wanaotumia PrEP ambao wanakabiliana na wasiwasi kama wangu?\",\n    \"Ninaweza kupata wapi msaada wa kiakili wakati natumia PrEP?\",\n    \"Je, kuna njia za kujilinda dhidi ya unyanyasaji katika jamii yangu wakati ninatumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fcba00894d9978e0f4dec72c7107e9664e8561734da7e6b6628a3cc441cde8f7",
+  "_language": "Swahili",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

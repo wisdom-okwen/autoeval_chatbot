@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "Female",
+    "socio_economic_status": "Middle-class",
+    "primary_concern": "Concerns about how PrEP interacts with my MS medication and potential side effects.",
+    "language": "English"
+  },
+  "context": "As a 34-year-old woman living with multiple sclerosis, I often feel overwhelmed by the prospect of managing my health. The idea of starting PrEP brings up fear about possible interactions with my MS medications and worries about how it may affect my overall well-being. I want to be proactive about my sexual health but feel anxious about the implications for my condition. Stigma surrounding both PrEP and MS makes it hard to talk openly about my concerns, and I am looking for clear, trustworthy information.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and medications for multiple sclerosis?",
+    "How can I manage any side effects from PrEP alongside my MS treatment?",
+    "Are there specific resources available for individuals with chronic conditions like MS considering PrEP?",
+    "What are the experiences of others with MS who have taken PrEP?",
+    "How can I talk to my healthcare provider about starting PrEP in the context of my MS?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the potential interactiiions between prep like and medications for multiple sclerosis? 😭",
+    "how can I manage any side effects frommm PrEP alongside my MS treatment?",
+    "a-are there specific resources available for individuals with chroinc codnitions like ms considering prep?",
+    "wha7 are the um experiences of others w17h M5 who have taken PrEP PrEP",
+    "how can i talk to my halthcare provider abbbput starting prep in the context 0f my ms"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08803788570961898,
+    "swap_rate": 0.03407959857507584,
+    "drop_rate": 0.04629403002353691,
+    "dup_rate": 0.021075419549020424,
+    "leet_rate": 0.07271333706674153,
+    "start_lower_prob": 0.6974011247409321,
+    "all_lower_prob": 0.2942657855486034,
+    "drop_punct_prob": 0.5187410386595284,
+    "double_space_prob": 0.242366794851252,
+    "ellipsis_prob": 0.1544999534953278,
+    "runon_prob": 0.2919598955952951,
+    "filler_rate": 0.37676083176569175,
+    "emoji_rate": 0.2929778589577461,
+    "stutter_rate": 0.19343323500574922,
+    "repeat_last_rate": 0.10988294074961007
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Middle-class\",\n    \"primary_concern\": \"Concerns about how PrEP interacts with my MS medication and potential side effects.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 34-year-old woman living with multiple sclerosis, I often feel overwhelmed by the prospect of managing my health. The idea of starting PrEP brings up fear about possible interactions with my MS medications and worries about how it may affect my overall well-being. I want to be proactive about my sexual health but feel anxious about the implications for my condition. Stigma surrounding both PrEP and MS makes it hard to talk openly about my concerns, and I am looking for clear, trustworthy information.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and medications for multiple sclerosis?\",\n    \"How can I manage any side effects from PrEP alongside my MS treatment?\",\n    \"Are there specific resources available for individuals with chronic conditions like MS considering PrEP?\",\n    \"What are the experiences of others with MS who have taken PrEP?\",\n    \"How can I talk to my healthcare provider about starting PrEP in the context of my MS?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "42f6db8fb03c849900d6e58a05219b682806d53cc14552ca8148091e4ac4e8d1",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

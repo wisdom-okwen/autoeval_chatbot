@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP may interact with my mental health treatment",
+    "language": "English"
+  },
+  "context": "The user is navigating the complexities of living with bipolar disorder and is concerned about how starting PrEP might affect her mental health stability. She worries that managing her medication regimen for both her mood disorder and PrEP could lead to increased stress or side effects, impacting her daily life and relationships. She also faces societal stigma regarding both her mental health and her sexual health choices, which adds to her apprehension about discussing PrEP with healthcare providers.",
+  "example_questions_clean": [
+    "Can PrEP have any side effects that might impact my mental health?",
+    "How can I talk to my doctor about starting PrEP without feeling judged?",
+    "Are there specific considerations I should be aware of while on PrEP and bipolar medication?",
+    "What resources are available for someone in my situation who wants to learn about PrEP?",
+    "Is it common for people with mental health conditions to use PrEP successfully?"
+  ],
+  "example_questions_noisy": [
+    "Can PrEP have any side effects that might impact my mental health?",
+    "how can i talk to my doctor about starting prep without feelig judged?",
+    "are there specific considerations I sould be aware of while on PrEP and bipolar medication?",
+    "idk wha7 resources are available for someone in my situation who wants to learn about prep",
+    "is it i mean cmomon for people with mental health conditions to use prep successfully?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.058763648758433054,
+    "swap_rate": 0.037967631372909524,
+    "drop_rate": 0.03683599168308871,
+    "dup_rate": 0.017995315349471873,
+    "leet_rate": 0.058507383831561136,
+    "start_lower_prob": 0.7933791459856024,
+    "all_lower_prob": 0.30916286878306454,
+    "drop_punct_prob": 0.3822065056663829,
+    "double_space_prob": 0.19097347774948004,
+    "ellipsis_prob": 0.25942628416939284,
+    "runon_prob": 0.12846778085981458,
+    "filler_rate": 0.25512249121275243,
+    "emoji_rate": 0.2210969808584583,
+    "stutter_rate": 0.11264212698085663,
+    "repeat_last_rate": 0.1116357673028359
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP may interact with my mental health treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating the complexities of living with bipolar disorder and is concerned about how starting PrEP might affect her mental health stability. She worries that managing her medication regimen for both her mood disorder and PrEP could lead to increased stress or side effects, impacting her daily life and relationships. She also faces societal stigma regarding both her mental health and her sexual health choices, which adds to her apprehension about discussing PrEP with healthcare providers.\",\n  \"example_questions\": [\n    \"Can PrEP have any side effects that might impact my mental health?\",\n    \"How can I talk to my doctor about starting PrEP without feeling judged?\",\n    \"Are there specific considerations I should be aware of while on PrEP and bipolar medication?\",\n    \"What resources are available for someone in my situation who wants to learn about PrEP?\",\n    \"Is it common for people with mental health conditions to use PrEP successfully?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "af9542460017ae4289dbc6ed60686d438a2de5e82a1918ace270c25cf3baf966",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

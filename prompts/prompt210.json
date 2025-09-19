@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP might interact with my chronic pain medications",
+    "language": "English"
+  },
+  "context": "As someone living with chronic pain, I often worry about how new medications could affect my current treatment plan. I'm fearful that adding PrEP might complicate my situation or intensify my pain management challenges. I also feel a sense of stigma around discussing my sexual health due to the pain I deal with daily, which makes it harder for me to seek information or support.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and chronic pain medications?",
+    "How can I talk to my healthcare provider about starting PrEP given my condition?",
+    "Are there specific studies or resources that address PrEP for individuals with chronic pain?",
+    "What side effects should I be aware of that might impact my chronic pain management?",
+    "Can you suggest ways to overcome the stigma I feel when discussing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wat ars the potential i mean interactions between PrEP and chronc pain medications? 🫠",
+    "h-how caj I talk t0 my healthcare provider i mean about starting PrEP gien my condition",
+    "are there specific studies or resources that adress like prep for individuals withhh chronic pain",
+    "w-what side effects should I be aware of that night imact my chronic painnn m4n4gem3nt m4n4gem3nt",
+    "can you suggest idk ways to overcome the stigma I feel when discussing PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08701085274221013,
+    "swap_rate": 0.03657162315475511,
+    "drop_rate": 0.047415863691696876,
+    "dup_rate": 0.015401560049424806,
+    "leet_rate": 0.054119406253959085,
+    "start_lower_prob": 0.6134952840826537,
+    "all_lower_prob": 0.2999184998497233,
+    "drop_punct_prob": 0.5215067161374664,
+    "double_space_prob": 0.3109842400579267,
+    "ellipsis_prob": 0.27063582381529705,
+    "runon_prob": 0.2829835378076286,
+    "filler_rate": 0.32939140321145194,
+    "emoji_rate": 0.22514845613522674,
+    "stutter_rate": 0.15430107835717966,
+    "repeat_last_rate": 0.14422995096662633
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP might interact with my chronic pain medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone living with chronic pain, I often worry about how new medications could affect my current treatment plan. I'm fearful that adding PrEP might complicate my situation or intensify my pain management challenges. I also feel a sense of stigma around discussing my sexual health due to the pain I deal with daily, which makes it harder for me to seek information or support.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and chronic pain medications?\",\n    \"How can I talk to my healthcare provider about starting PrEP given my condition?\",\n    \"Are there specific studies or resources that address PrEP for individuals with chronic pain?\",\n    \"What side effects should I be aware of that might impact my chronic pain management?\",\n    \"Can you suggest ways to overcome the stigma I feel when discussing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "544c11285ebe9c3e8516da746fb340dc12713f5b764b7a54d4fce4b003a685f7",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

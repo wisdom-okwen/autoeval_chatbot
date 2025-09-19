@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "transgender female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and accessibility",
+    "language": "English"
+  },
+  "context": "Navigating the complexities of gender dysphoria has led to feelings of anxiety and isolation. As a transgender woman, the user worries about being judged when seeking PrEP and faces challenges related to financial constraints and healthcare access. This situation creates a mix of hope for protection against HIV and fear of being misunderstood or stigmatized by healthcare providers.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP as a transgender woman?",
+    "How can I find a supportive healthcare provider who understands my needs?",
+    "Are there any financial assistance programs available for accessing PrEP?",
+    "What are the potential side effects of PrEP, especially for someone in my situation?",
+    "How do I address my concerns about stigma when discussing PrEP with doctors?"
+  ],
+  "example_questions_noisy": [
+    "h-hat are thd steps I need to t4k3 to start PrEP as a transgender w0man? 💀 💀",
+    "how can I find a 5upp0r71v3 healthcare provider who understands my needs? needs?",
+    "are theee 4ny f1n4nc14l 45s157anc3 programs available for accessinggg prep",
+    "what are the potential sode effects of PrEP especially for aomeone in my situation",
+    "h-how do I address uh my concerns about s71gm4 when discussing PrEP with doc70r5"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08779001316925905,
+    "swap_rate": 0.03519411820700836,
+    "drop_rate": 0.04381088228147952,
+    "dup_rate": 0.013921163044097908,
+    "leet_rate": 0.08846560161073683,
+    "start_lower_prob": 0.8242112843165792,
+    "all_lower_prob": 0.24868444931606593,
+    "drop_punct_prob": 0.43924773010168083,
+    "double_space_prob": 0.2688869809208603,
+    "ellipsis_prob": 0.19253860322926186,
+    "runon_prob": 0.29937892508379904,
+    "filler_rate": 0.4527934172299029,
+    "emoji_rate": 0.2623015032688133,
+    "stutter_rate": 0.17612680253191318,
+    "repeat_last_rate": 0.14543633767920566
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"transgender female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and accessibility\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Navigating the complexities of gender dysphoria has led to feelings of anxiety and isolation. As a transgender woman, the user worries about being judged when seeking PrEP and faces challenges related to financial constraints and healthcare access. This situation creates a mix of hope for protection against HIV and fear of being misunderstood or stigmatized by healthcare providers.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP as a transgender woman?\",\n    \"How can I find a supportive healthcare provider who understands my needs?\",\n    \"Are there any financial assistance programs available for accessing PrEP?\",\n    \"What are the potential side effects of PrEP, especially for someone in my situation?\",\n    \"How do I address my concerns about stigma when discussing PrEP with doctors?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "422e174ef4ed8ec68ba7a123abf0d72bab13c3e7902cdf530b0f3ee5eedde386",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

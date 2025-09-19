@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation et l'accès à l'information",
+    "language": "French"
+  },
+  "context": "Vous vous sentez isolée socialement en raison de votre situation personnelle et cela vous rend nerveuse à l'idée d'aborder le sujet de la PrEP. Vous vous inquiétez des jugements possibles et de la manière dont les autres pourraient réagir à votre demande d'information, ce qui complique encore votre accès aux ressources et au soutien dont vous avez besoin.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir la PrEP en France ?",
+    "Y a-t-il des groupes de soutien pour les personnes prenant la PrEP ?",
+    "Comment puis-je parler de la PrEP avec mon médecin sans me sentir jugée ?",
+    "Quels sont les effets secondaires de la PrEP que je devrais connaître ?",
+    "Comment la PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations ?"
+  ],
+  "example_questions_noisy": [
+    "quellesss sont les étapes pour obtenir la prep 3n fr4nc3 ? ?",
+    "y a-t-il des grohpes de soutien pour les personnes prenant la prep ?",
+    "comment puis-je you know parler re la PrEP avec mon médecin sans me senitr jugée ? 🙄 🙄",
+    "quls sont lea effets eecondaires de a perp que je devrasi c0nn4î7r3 ? 😕",
+    "coment la prep peut-elle m'aider à me sentir plus en sécurité dans mes relations ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11415606334159838,
+    "swap_rate": 0.026632279838841547,
+    "drop_rate": 0.03559347605667871,
+    "dup_rate": 0.01601630391550577,
+    "leet_rate": 0.06818034737959326,
+    "start_lower_prob": 0.7781113431981784,
+    "all_lower_prob": 0.3472750473307794,
+    "drop_punct_prob": 0.379053590378461,
+    "double_space_prob": 0.3025230464878985,
+    "ellipsis_prob": 0.3020446669564496,
+    "runon_prob": 0.26187831449533416,
+    "filler_rate": 0.4255828798264957,
+    "emoji_rate": 0.24637933537382767,
+    "stutter_rate": 0.16906600577226805,
+    "repeat_last_rate": 0.16938210175616367
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation et l'accès à l'information\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vous sentez isolée socialement en raison de votre situation personnelle et cela vous rend nerveuse à l'idée d'aborder le sujet de la PrEP. Vous vous inquiétez des jugements possibles et de la manière dont les autres pourraient réagir à votre demande d'information, ce qui complique encore votre accès aux ressources et au soutien dont vous avez besoin.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir la PrEP en France ?\",\n    \"Y a-t-il des groupes de soutien pour les personnes prenant la PrEP ?\",\n    \"Comment puis-je parler de la PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Quels sont les effets secondaires de la PrEP que je devrais connaître ?\",\n    \"Comment la PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ae5f3a96ab93613a9996d80fe83f070c5a9c8d41e689a349ba66add126b1073f",
+  "_language": "French",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

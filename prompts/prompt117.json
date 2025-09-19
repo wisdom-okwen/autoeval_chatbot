@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worries about potential interactions between PrEP and lingering effects of cancer treatment",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anahisi hofu kuhusu kutumia PrEP kwa sababu ya matokeo ya matibabu ya saratani. Anajiuliza kama dawa hiyo itakuwa na madhara yoyote kwa afya yake, na inamfanya ajihisi dhaifu katika kujaribu kujilinda. Anaweza pia kuhisi aibu na kutengwa, na anahitaji msaada wa kuelewa jinsi PrEP inaweza kumsaidia.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuingiliana na dawa za saratani nilizotumia?",
+    "Ninaweza kupata wapi maelezo zaidi kuhusu usalama wa PrEP baada ya matibabu ya saratani?",
+    "Je, kuna watu wengi wanaokumbana na changamoto kama yangu katika matumizi ya PrEP?",
+    "Ninaweza kufanya nini kupunguza hofu yangu kuhusu kutumia PrEP?",
+    "Ni vigezo gani vinavyohitajika ili kupata PrEP katika eneo langu?",
+    "Je, ni salama kutumia PrEP ikiwa bado nina athari za matibabu ya saratani?"
+  ],
+  "example_questions_noisy": [
+    "je, Pr3P 1naw3zzz4 kuingiliana na dawa zs 54r4tani nilizotumia?",
+    "ninaweza kupata wapi maelezo zaidi kuhusu usalama wa PrEP baada ya matibabu ga saratani",
+    "j-je kuna awtu wengi wanaokumbana n4 changamoto kama yangu um katika matumzii ya PrEP",
+    "Ninaweza kufanya nini kupunguza hofu yangu kuhuu kutumia PrEP?",
+    "n1 like vigzeo gaji vinavyohitajika ili kupata prep katika eneo langu?",
+    "je ni swlama kutumia PrEP ikiwa bado nina 47h4r1 za matibabu ya saratani"
+  ],
+  "style_profile": {
+    "typo_rate": 0.053462883100666186,
+    "swap_rate": 0.047183762462144854,
+    "drop_rate": 0.025892548375823343,
+    "dup_rate": 0.0101011094117752,
+    "leet_rate": 0.08848492477927258,
+    "start_lower_prob": 0.660879197731184,
+    "all_lower_prob": 0.17238237554792826,
+    "drop_punct_prob": 0.3514915602436802,
+    "double_space_prob": 0.15162548376755916,
+    "ellipsis_prob": 0.2853494974599191,
+    "runon_prob": 0.28961661255045146,
+    "filler_rate": 0.4693064401440747,
+    "emoji_rate": 0.31557517566792553,
+    "stutter_rate": 0.12311327735505842,
+    "repeat_last_rate": 0.12356669201158985
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worries about potential interactions between PrEP and lingering effects of cancer treatment\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anahisi hofu kuhusu kutumia PrEP kwa sababu ya matokeo ya matibabu ya saratani. Anajiuliza kama dawa hiyo itakuwa na madhara yoyote kwa afya yake, na inamfanya ajihisi dhaifu katika kujaribu kujilinda. Anaweza pia kuhisi aibu na kutengwa, na anahitaji msaada wa kuelewa jinsi PrEP inaweza kumsaidia.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuingiliana na dawa za saratani nilizotumia?\",\n    \"Ninaweza kupata wapi maelezo zaidi kuhusu usalama wa PrEP baada ya matibabu ya saratani?\",\n    \"Je, kuna watu wengi wanaokumbana na changamoto kama yangu katika matumizi ya PrEP?\",\n    \"Ninaweza kufanya nini kupunguza hofu yangu kuhusu kutumia PrEP?\",\n    \"Ni vigezo gani vinavyohitajika ili kupata PrEP katika eneo langu?\",\n    \"Je, ni salama kutumia PrEP ikiwa bado nina athari za matibabu ya saratani?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b8e48418683f541f8aaa060d8b7ca42a73003d967f14b958510cfa4734458ce4",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}
