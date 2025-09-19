@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 32,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "angst over de bijwerkingen van PrEP in combinatie met mijn medicatie voor schizofrenie",
+    "language": "Dutch"
+  },
+  "context": "De persoon leeft met schizofrenie, wat hun vermogen om belangrijke gezondheidsbeslissingen te nemen beïnvloedt. Ze voelen zich angstig over de mogelijke interacties tussen PrEP en hun medicatie. Er is een constante zorg over stigma en de perceptie van anderen, wat hen weerhoudt om hulp te zoeken.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP als ik al medicatie voor schizofrenie gebruik?",
+    "Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen over mijn mentale gezondheid?",
+    "Zijn er speciale programma's die ondersteuning bieden aan mensen met schizofrenie die PrEP willen gebruiken?",
+    "Kunnen mijn zorgverleners rekening houden met mijn psychische toestand bij het bespreken van PrEP?",
+    "Is er informatie beschikbaar in eenvoudige taal over PrEP voor mensen zoals ik?",
+    "Hoe kan ik ervoor zorgen dat ik goed geïnformeerd ben over mijn opties zonder angst te hebben?"
+  ],
+  "example_questions_noisy": [
+    "w-w47 zijn d3 mogelijke bijwerkingen van PrEP als like ik al medicztie voor schizofrenie gebruik?",
+    "h-hoe kan ik toegang krjigen tot prep zonder me ongemakkelijk tr voelen over mijb mentale gezondheid? 🙂 🙂",
+    "zijn er speciale programma's die ondersteuning bieden aan mensen met schizofrenie die rep willen g3bru1k3n? 🫠",
+    "kunnen m1nn zorgverleners rekeninv houden met mijn psychische toestand bij het besperken van PrEP",
+    "is eeed informatie becshikbaar like in eenvoudige tqal ove PrEP v00r mensen zoals ik ik",
+    "H-Hoe kan ik ervoor zorgen d4f ik goed geïnfprmeerd ben oger mijn opties zonder angst te h3bb3n?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11713399164588968,
+    "swap_rate": 0.04317971055446172,
+    "drop_rate": 0.042531338231257265,
+    "dup_rate": 0.024588771859556206,
+    "leet_rate": 0.07343376550119089,
+    "start_lower_prob": 0.6594143798436606,
+    "all_lower_prob": 0.168654007863917,
+    "drop_punct_prob": 0.4427831289809122,
+    "double_space_prob": 0.32700761267344003,
+    "ellipsis_prob": 0.319486721734681,
+    "runon_prob": 0.24027860228878004,
+    "filler_rate": 0.35111424497431154,
+    "emoji_rate": 0.3391430015300788,
+    "stutter_rate": 0.13160567906898796,
+    "repeat_last_rate": 0.15733149527603513
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 32,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"angst over de bijwerkingen van PrEP in combinatie met mijn medicatie voor schizofrenie\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"De persoon leeft met schizofrenie, wat hun vermogen om belangrijke gezondheidsbeslissingen te nemen beïnvloedt. Ze voelen zich angstig over de mogelijke interacties tussen PrEP en hun medicatie. Er is een constante zorg over stigma en de perceptie van anderen, wat hen weerhoudt om hulp te zoeken.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP als ik al medicatie voor schizofrenie gebruik?\",\n    \"Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen over mijn mentale gezondheid?\",\n    \"Zijn er speciale programma's die ondersteuning bieden aan mensen met schizofrenie die PrEP willen gebruiken?\",\n    \"Kunnen mijn zorgverleners rekening houden met mijn psychische toestand bij het bespreken van PrEP?\",\n    \"Is er informatie beschikbaar in eenvoudige taal over PrEP voor mensen zoals ik?\",\n    \"Hoe kan ik ervoor zorgen dat ik goed geïnformeerd ben over mijn opties zonder angst te hebben?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "635c2bbb97a199291f4741277619a7d3f2de5a07ed3e5ee8dde18e80b6bea493",
+  "_language": "Dutch",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

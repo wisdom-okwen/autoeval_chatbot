@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are recovering from a traumatic experience that has left you feeling vulnerable and anxious about seeking medical help. You worry about being judged or misunderstood by healthcare professionals when discussing PrEP. This fear makes it challenging to approach the topic, even though you understand its importance for your health.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider for PrEP?",
+    "How do I address my fears of stigma when discussing PrEP with my doctor?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Can I access PrEP confidentially without feeling judged?",
+    "What are the common misconceptions about PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "what steps can uh I take to find a supportive healthcare provider for PrEP? PrEP?",
+    "how do 1 address my fears of tigma wh3n discuuussing PrEP with my doctor doctor",
+    "what resources are availaboe for somekne in my situation to learn more ahout prep?",
+    "Can I access PrEP confidentially without i mean feeling judged?",
+    "what are the commln misconceptions about PrEP that I should be awate of"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11695619242242257,
+    "swap_rate": 0.028829271462486362,
+    "drop_rate": 0.04616176744319198,
+    "dup_rate": 0.01778203257162129,
+    "leet_rate": 0.08543976194128461,
+    "start_lower_prob": 0.6005488740582196,
+    "all_lower_prob": 0.303712902694497,
+    "drop_punct_prob": 0.5794785319939459,
+    "double_space_prob": 0.32918963377653077,
+    "ellipsis_prob": 0.25922571911943376,
+    "runon_prob": 0.25321237443586786,
+    "filler_rate": 0.4018669176746896,
+    "emoji_rate": 0.17027016259272176,
+    "stutter_rate": 0.13750606297193,
+    "repeat_last_rate": 0.11512795921542773
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are recovering from a traumatic experience that has left you feeling vulnerable and anxious about seeking medical help. You worry about being judged or misunderstood by healthcare professionals when discussing PrEP. This fear makes it challenging to approach the topic, even though you understand its importance for your health.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider for PrEP?\",\n    \"How do I address my fears of stigma when discussing PrEP with my doctor?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"Can I access PrEP confidentially without feeling judged?\",\n    \"What are the common misconceptions about PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e5c115d4c74ce4fa5da8958d3a50cd7a62393248868aed18217c1e0a2ae88ca2",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

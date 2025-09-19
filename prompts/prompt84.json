@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might interact with my recovery from cancer treatment",
+    "language": "English"
+  },
+  "context": "The user is a 34-year-old female who is recovering from cancer treatment. She feels anxious about starting PrEP due to concerns about potential interactions with her ongoing medications and the emotional toll of her health history. Her experience has made her more cautious and fearful of new medications, yet she hopes to protect herself against HIV as she resumes her social life. Stigma around both cancer and HIV adds to her worries about seeking help.",
+  "example_questions_clean": [
+    "What should I know about taking PrEP after cancer treatment?",
+    "Are there specific health considerations for someone in my situation regarding PrEP?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "Is there any research on the safety of PrEP for cancer survivors?",
+    "What support resources are available for someone like me considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wnat should I know 4b0ut taking PrEP after cancer treatmnt? 😅",
+    "are there 5p3c1f1c health considerations dor someone in my situation regarding PrEP",
+    "How can I discuss my ccconcerns abktu PrEP with my healthcare provider? provider?",
+    "is there any research on the safety offf PrEP for cancer survivors",
+    "what support resources are available for someone like me considering prep prep"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07985650999749226,
+    "swap_rate": 0.047240489082293946,
+    "drop_rate": 0.022775050509971275,
+    "dup_rate": 0.02759167215848609,
+    "leet_rate": 0.07727883340646859,
+    "start_lower_prob": 0.7995289777374667,
+    "all_lower_prob": 0.22331664602642448,
+    "drop_punct_prob": 0.3250295737012742,
+    "double_space_prob": 0.2131392664574405,
+    "ellipsis_prob": 0.2619648138893102,
+    "runon_prob": 0.12422062912189531,
+    "filler_rate": 0.3050840573057877,
+    "emoji_rate": 0.2339641179724566,
+    "stutter_rate": 0.1069151246681092,
+    "repeat_last_rate": 0.1370223373931661
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might interact with my recovery from cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 34-year-old female who is recovering from cancer treatment. She feels anxious about starting PrEP due to concerns about potential interactions with her ongoing medications and the emotional toll of her health history. Her experience has made her more cautious and fearful of new medications, yet she hopes to protect herself against HIV as she resumes her social life. Stigma around both cancer and HIV adds to her worries about seeking help.\",\n  \"example_questions\": [\n    \"What should I know about taking PrEP after cancer treatment?\",\n    \"Are there specific health considerations for someone in my situation regarding PrEP?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"Is there any research on the safety of PrEP for cancer survivors?\",\n    \"What support resources are available for someone like me considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "18b935697767e8862762e9b7f5e597a58af448f30bba84554478419afeb9c04c",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how to manage taking PrEP with my medication for schizophrenia",
+    "language": "English"
+  },
+  "context": "You are navigating the challenges of living with schizophrenia while considering starting PrEP to prevent HIV. The combination of mental health management and concerns about medication interactions makes you apprehensive. You fear that stigma around your condition might affect how healthcare professionals view your need for PrEP.",
+  "example_questions_clean": [
+    "What should I discuss with my doctor regarding my schizophrenia and PrEP?",
+    "Are there any known interactions between PrEP and medications for schizophrenia?",
+    "How can I find support for accessing PrEP while managing my mental health?",
+    "What should I do if I experience side effects from PrEP in relation to my condition?",
+    "Is it common for people with mental health challenges to take PrEP successfully?"
+  ],
+  "example_questions_noisy": [
+    "WWWhat should I discuss with my doctor r3g4d1ng my schizophrenia and ... PrEP?",
+    "Are there any known interactions between PrEP and medications flr schizophrenia",
+    "h-how can I find support for accessing PrEP while managing my mental health?",
+    "what 5h0uld I do ic I experience side effects frm PrEP in relation to mh condition? ❓ ❓",
+    "ia it common for peple you know with mental health fhallenges to take Pr3P successfully?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05667179627918483,
+    "swap_rate": 0.021539492369616182,
+    "drop_rate": 0.022324048965012038,
+    "dup_rate": 0.023613778983269003,
+    "leet_rate": 0.061599369015421575,
+    "start_lower_prob": 0.639735733721198,
+    "all_lower_prob": 0.18332792675217857,
+    "drop_punct_prob": 0.4583881213408055,
+    "double_space_prob": 0.20999281192683028,
+    "ellipsis_prob": 0.34160630394502994,
+    "runon_prob": 0.2720301105848425,
+    "filler_rate": 0.3276028483860639,
+    "emoji_rate": 0.28999792473899916,
+    "stutter_rate": 0.19867326152094164,
+    "repeat_last_rate": 0.1637586541693442
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how to manage taking PrEP with my medication for schizophrenia\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the challenges of living with schizophrenia while considering starting PrEP to prevent HIV. The combination of mental health management and concerns about medication interactions makes you apprehensive. You fear that stigma around your condition might affect how healthcare professionals view your need for PrEP.\",\n  \"example_questions\": [\n    \"What should I discuss with my doctor regarding my schizophrenia and PrEP?\",\n    \"Are there any known interactions between PrEP and medications for schizophrenia?\",\n    \"How can I find support for accessing PrEP while managing my mental health?\",\n    \"What should I do if I experience side effects from PrEP in relation to my condition?\",\n    \"Is it common for people with mental health challenges to take PrEP successfully?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "987be172ac74a76be9e5955a6b2ea235baa04101f7d7216e5793111a1c90654a",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

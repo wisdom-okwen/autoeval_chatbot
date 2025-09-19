@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 35,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'impact potentiel de la PrEP sur ma condition de santé",
+    "language": "French"
+  },
+  "context": "Cette femme de 35 ans vit avec la sclérose en plaques et s'inquiète des effets que la PrEP pourrait avoir sur sa condition. Elle ressent une peur d'aggraver ses symptômes et se demande si la prise quotidienne de ce médicament est compatible avec son traitement actuel. De plus, elle fait face à des obstacles liés à la stigmatisation et à une méfiance quant aux informations qu'elle reçoit.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires de la PrEP pour quelqu'un qui a la sclérose en plaques ?",
+    "Est-ce que la PrEP peut interférer avec mes médicaments actuels ?",
+    "Y a-t-il des ressources disponibles pour m'aider à accéder à la PrEP ?",
+    "Comment puis-je parler de la PrEP à mon médecin sans me sentir jugée ?",
+    "La prise de PrEP pourrait-elle aggraver mes symptômes de sclérose en plaques ?"
+  ],
+  "example_questions_noisy": [
+    "Q-Quels sont les effets sceondaires de la PrdP pour quelqu'un aui a la sclérose en plaques ? 💀",
+    "est-ce que you know la PrEP p3u7 interférer avec mes médicaments actuels 😅",
+    "Y a-t-il dws ressources dipsonibles pour m'aiddder à 4ccéd3r à la PrEP 🫠",
+    "commeeent pu15-j3 parler de la Pr3P à mon médecin sans me sentir jugée ?",
+    "La prise de PrPE pourrait-elle aggraver mes sympgômes de sclérose 3n plaques ? 🙂"
+  ],
+  "style_profile": {
+    "typo_rate": 0.060721192280446035,
+    "swap_rate": 0.05765814780081534,
+    "drop_rate": 0.02389407160590265,
+    "dup_rate": 0.02113507510471506,
+    "leet_rate": 0.11124486388655691,
+    "start_lower_prob": 0.7334061912529446,
+    "all_lower_prob": 0.16221323768115076,
+    "drop_punct_prob": 0.5554743915380198,
+    "double_space_prob": 0.27473835243634526,
+    "ellipsis_prob": 0.21500051752245075,
+    "runon_prob": 0.20670973518406222,
+    "filler_rate": 0.2548256495873929,
+    "emoji_rate": 0.2852174527671917,
+    "stutter_rate": 0.10119810935625317,
+    "repeat_last_rate": 0.0974681100340463
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 35,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'impact potentiel de la PrEP sur ma condition de santé\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette femme de 35 ans vit avec la sclérose en plaques et s'inquiète des effets que la PrEP pourrait avoir sur sa condition. Elle ressent une peur d'aggraver ses symptômes et se demande si la prise quotidienne de ce médicament est compatible avec son traitement actuel. De plus, elle fait face à des obstacles liés à la stigmatisation et à une méfiance quant aux informations qu'elle reçoit.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires de la PrEP pour quelqu'un qui a la sclérose en plaques ?\",\n    \"Est-ce que la PrEP peut interférer avec mes médicaments actuels ?\",\n    \"Y a-t-il des ressources disponibles pour m'aider à accéder à la PrEP ?\",\n    \"Comment puis-je parler de la PrEP à mon médecin sans me sentir jugée ?\",\n    \"La prise de PrEP pourrait-elle aggraver mes symptômes de sclérose en plaques ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9b5460cfb24e40b37bdd4c4069f7f3938d30274f92de65835ca01b5e96f5de07",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

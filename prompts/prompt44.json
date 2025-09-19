@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is struggling with social anxiety, which makes it difficult for her to seek medical advice about PrEP. She often worries about being judged or not being taken seriously by healthcare professionals, creating significant barriers to accessing necessary information and support.",
+  "example_questions_clean": [
+    "What should I expect during a consultation about PrEP?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "Are there resources available to help me navigate the process of getting PrEP?",
+    "What are the common side effects of PrEP that I should be aware of?",
+    "Is PrEP suitable for someone with anxiety about healthcare settings?"
+  ],
+  "example_questions_noisy": [
+    "i mean what should i expect during a consultation about prep",
+    "how can I find a supportive h3l47hc4r3 providre wyo understands my concenrs",
+    "are 7her3 resources available to hel me navigate the process 0f getting PrEP?",
+    "what are the common kde effects of PrEP that I should b3 aware of",
+    "i-is prep suitable for someone with 4nxi3ty about healthacre settings?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11130654973165818,
+    "swap_rate": 0.04717480585875221,
+    "drop_rate": 0.04680152813387935,
+    "dup_rate": 0.01653696543943157,
+    "leet_rate": 0.08610650411475736,
+    "start_lower_prob": 0.8740563053251934,
+    "all_lower_prob": 0.21326925733044605,
+    "drop_punct_prob": 0.3198111635411839,
+    "double_space_prob": 0.22761022625118474,
+    "ellipsis_prob": 0.1933616906410062,
+    "runon_prob": 0.1967637939714349,
+    "filler_rate": 0.34707117109391195,
+    "emoji_rate": 0.15321054156138672,
+    "stutter_rate": 0.18750631419510677,
+    "repeat_last_rate": 0.11131261708706996
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is struggling with social anxiety, which makes it difficult for her to seek medical advice about PrEP. She often worries about being judged or not being taken seriously by healthcare professionals, creating significant barriers to accessing necessary information and support.\",\n  \"example_questions\": [\n    \"What should I expect during a consultation about PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"Are there resources available to help me navigate the process of getting PrEP?\",\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"Is PrEP suitable for someone with anxiety about healthcare settings?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bb125db4c0542e0b36ff1516d10c9646e12a0a12f3b196c2829115c2fc7b6d60",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Je m'inquiète des effets secondaires du PrEP sur ma santé mentale.",
+    "language": "French"
+  },
+  "context": "Cette personne vit avec la schizophrénie et se sent souvent dépassée par les informations médicales. Elle craint que le PrEP aggrave son état mental, ce qui la rend hésitante à en discuter avec son médecin. Le stigma autour de sa condition et l'angoisse qu'elle ressent face à la prise de médicaments sont des obstacles majeurs à l'accès au PrEP. Malgré cela, elle espère pouvoir prendre soin de sa santé et protéger son partenaire.",
+  "example_questions_clean": [
+    "Quelles sont les interactions possibles entre le PrEP et les médicaments pour la santé mentale ?",
+    "Le PrEP peut-il avoir des effets négatifs sur mon état mental ou mes émotions ?",
+    "Comment puis-je parler de mes préoccupations concernant le PrEP avec mon médecin ?",
+    "Existe-t-il des ressources pour les personnes comme moi qui prennent le PrEP ?",
+    "Y a-t-il des témoignages de personnes vivant avec des troubles mentaux qui ont pris le PrEP ?",
+    "Comment le soutien psychologique est-il intégré dans le processus de prescription du PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "quelles 50n7 lds interactions possibles entre le PrEP et les médicaments opur la santé mentale",
+    "le PrEP peut-il avoir des effets négatifs sur mon état mental ou mes émotions",
+    "comment uisje parler de m35 préoccupations concernant le prep avec mon uh nédecin",
+    "E-Existe-t-il des ressources pour les personnes comme moi qui pr3nn3n7 le uh PrEP ❓",
+    "y a-t-il des témoignages de personnnnes vivant avec des troubles mentaux qui ont pris le PrEP ? ?",
+    "c-comment le 5ou713n psych0logiqu3 est-il intégré dasn le processus de prescription du PrEP ?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05684840699110745,
+    "swap_rate": 0.027068652603244606,
+    "drop_rate": 0.03124425428198834,
+    "dup_rate": 0.026576529801022368,
+    "leet_rate": 0.10200634245850576,
+    "start_lower_prob": 0.8040098347784703,
+    "all_lower_prob": 0.18675339167579608,
+    "drop_punct_prob": 0.460462968837427,
+    "double_space_prob": 0.3179292522643742,
+    "ellipsis_prob": 0.31537487107676626,
+    "runon_prob": 0.17476236282107985,
+    "filler_rate": 0.23815268090956665,
+    "emoji_rate": 0.3007486464016329,
+    "stutter_rate": 0.13623234808490498,
+    "repeat_last_rate": 0.1769058662660722
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Je m'inquiète des effets secondaires du PrEP sur ma santé mentale.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne vit avec la schizophrénie et se sent souvent dépassée par les informations médicales. Elle craint que le PrEP aggrave son état mental, ce qui la rend hésitante à en discuter avec son médecin. Le stigma autour de sa condition et l'angoisse qu'elle ressent face à la prise de médicaments sont des obstacles majeurs à l'accès au PrEP. Malgré cela, elle espère pouvoir prendre soin de sa santé et protéger son partenaire.\",\n  \"example_questions\": [\n    \"Quelles sont les interactions possibles entre le PrEP et les médicaments pour la santé mentale ?\",\n    \"Le PrEP peut-il avoir des effets négatifs sur mon état mental ou mes émotions ?\",\n    \"Comment puis-je parler de mes préoccupations concernant le PrEP avec mon médecin ?\",\n    \"Existe-t-il des ressources pour les personnes comme moi qui prennent le PrEP ?\",\n    \"Y a-t-il des témoignages de personnes vivant avec des troubles mentaux qui ont pris le PrEP ?\",\n    \"Comment le soutien psychologique est-il intégré dans le processus de prescription du PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c5dbf33fd1bf10d130ba4312a3fa368ce5adf2c8f140dbe96939eb757ff4bfda",
+  "_language": "French",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

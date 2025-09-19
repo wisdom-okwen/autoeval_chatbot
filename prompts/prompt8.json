@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "Ik maak me zorgen over de stigma rond PrEP en hoe dit mijn sociale leven beïnvloedt.",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker voelt zich sociaal geïsoleerd en is bang dat het starten van PrEP negatieve reacties of oordelen van anderen kan veroorzaken. Dit zorgt voor angst en twijfels over de toegang tot de medicatie, ondanks de hoop op een gezonder leven.",
+  "example_questions_clean": [
+    "Wat zijn de bijwerkingen van PrEP?",
+    "Hoe kan ik PrEP discreet verkrijgen zonder dat anderen het weten?",
+    "Is er ondersteuning voor mensen die zich sociaal geïsoleerd voelen terwijl ze PrEP gebruiken?",
+    "Kunnen mensen in mijn omgeving zien dat ik PrEP gebruik?",
+    "Hoe kan ik mijn angsten over stigma rond PrEP aanpakken?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de bijwerkingen v4n PrEP ❓",
+    "hoe k4n ik PrEP discreet v3rkr1jg3n zonder day idk anderen het weten?",
+    "Is er ondersteuning voor mn3en die z1ch sociaal geïsoleerd voelen terwijl ze uh PrEP gebruiken 💀",
+    "k-kunnen mensen in mijn omgeving zien dat ik PrPE gebrujk gebrujk",
+    "hoe kan ik mijn angsten over stigma rod um PrEP aanpakken"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06740609776472394,
+    "swap_rate": 0.03644098900758215,
+    "drop_rate": 0.04122700285643935,
+    "dup_rate": 0.015042542111177257,
+    "leet_rate": 0.09025062918971982,
+    "start_lower_prob": 0.6336329974180737,
+    "all_lower_prob": 0.2194997433950736,
+    "drop_punct_prob": 0.5393897094613487,
+    "double_space_prob": 0.15450284992989258,
+    "ellipsis_prob": 0.2539072087996683,
+    "runon_prob": 0.13748425720630617,
+    "filler_rate": 0.40804375297425627,
+    "emoji_rate": 0.3245374040371362,
+    "stutter_rate": 0.1841193779783002,
+    "repeat_last_rate": 0.08964528731394442
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"Ik maak me zorgen over de stigma rond PrEP en hoe dit mijn sociale leven beïnvloedt.\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"De gebruiker voelt zich sociaal geïsoleerd en is bang dat het starten van PrEP negatieve reacties of oordelen van anderen kan veroorzaken. Dit zorgt voor angst en twijfels over de toegang tot de medicatie, ondanks de hoop op een gezonder leven.\",\n  \"example_questions\": [\n    \"Wat zijn de bijwerkingen van PrEP?\",\n    \"Hoe kan ik PrEP discreet verkrijgen zonder dat anderen het weten?\",\n    \"Is er ondersteuning voor mensen die zich sociaal geïsoleerd voelen terwijl ze PrEP gebruiken?\",\n    \"Kunnen mensen in mijn omgeving zien dat ik PrEP gebruik?\",\n    \"Hoe kan ik mijn angsten over stigma rond PrEP aanpakken?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "209f2cdf2f1faac05e955a1f5366d48a3177e82d7c0eec76e195e863b7266ea8",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

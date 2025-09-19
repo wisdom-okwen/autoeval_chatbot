@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "angst voor stigma en negatieve reacties",
+    "language": "Dutch"
+  },
+  "context": "Je bent een 30-jarige vrouw met schizofrenie die zich zorgen maakt over de bijwerkingen van PrEP en hoe je omgeving zal reageren als ze erachter komen dat je het gebruikt. Je hebt moeite om je emoties te beheren en vreest dat je mentale gezondheid in gevaar komt door de druk om gezond te blijven. De angst voor stigma houdt je tegen om vragen te stellen of hulp te zoeken.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP als ik al medicijnen voor mijn mentale gezondheid gebruik?",
+    "Hoe kan ik de steun van anderen krijgen zonder hen te laten weten dat ik PrEP overweeg?",
+    "Wat zijn de ervaringen van andere mensen met schizofrenie die PrEP gebruiken?",
+    "Kun je me vertellen hoe PrEP werkt en wat het precies doet voor mijn gezondheid?",
+    "Zijn er specifieke zorgverleners die ervaring hebben met patiënten die PrEP gebruiken en een mentale aandoening hebben?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van Pr3P 4l5 ik al uh med1cijn3n ovor mijn mentale gezondhei geburik? geburik?",
+    "hoe kan ik de steun van 4nd3r3n krijgen zonder hen te lllatn weten dat ik PrEP 0v3rwege?",
+    "wat zijn de ervaringen v4n andere m3ns3n et schizofrenie die PrEP gebruiken",
+    "Kun je me vertelle h03 rEP werkt en wat het rpeeecies doet voor uh mijn gezondheid ❓",
+    "z1jn rr spcifieke zorgverleners die ervaring hebben met patiënten die PrEP gebruiken en een mentale aandoening hebben???"
+  ],
+  "style_profile": {
+    "typo_rate": 0.06323534371956144,
+    "swap_rate": 0.0449660224390014,
+    "drop_rate": 0.043336238962599236,
+    "dup_rate": 0.015857493991400476,
+    "leet_rate": 0.11210687041397663,
+    "start_lower_prob": 0.8135080372059553,
+    "all_lower_prob": 0.17534032364125526,
+    "drop_punct_prob": 0.3850380711147928,
+    "double_space_prob": 0.1562749987774347,
+    "ellipsis_prob": 0.2592260762491985,
+    "runon_prob": 0.21116390958900605,
+    "filler_rate": 0.35624730196162074,
+    "emoji_rate": 0.3049458706372884,
+    "stutter_rate": 0.11069055597698814,
+    "repeat_last_rate": 0.15281903880401104
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"angst voor stigma en negatieve reacties\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Je bent een 30-jarige vrouw met schizofrenie die zich zorgen maakt over de bijwerkingen van PrEP en hoe je omgeving zal reageren als ze erachter komen dat je het gebruikt. Je hebt moeite om je emoties te beheren en vreest dat je mentale gezondheid in gevaar komt door de druk om gezond te blijven. De angst voor stigma houdt je tegen om vragen te stellen of hulp te zoeken.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP als ik al medicijnen voor mijn mentale gezondheid gebruik?\",\n    \"Hoe kan ik de steun van anderen krijgen zonder hen te laten weten dat ik PrEP overweeg?\",\n    \"Wat zijn de ervaringen van andere mensen met schizofrenie die PrEP gebruiken?\",\n    \"Kun je me vertellen hoe PrEP werkt en wat het precies doet voor mijn gezondheid?\",\n    \"Zijn er specifieke zorgverleners die ervaring hebben met patiënten die PrEP gebruiken en een mentale aandoening hebben?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "103022253d4f978d19c7e365949c2dc85d7efbdb56dd829af1930e08050a40a0",
+  "_language": "Dutch",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Miedo a que su pareja se entere y a posibles represalias",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que enfrenta violencia de pareja. Te preocupa cómo la situación actual afecta tu salud y tu capacidad para acceder a PrEP. Sientes miedo y ansiedad, pero también esperanzas de protegerte y tomar el control de tu salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para obtener PrEP de manera segura en mi situación?",
+    "¿Existen recursos confidenciales para personas que viven con violencia de pareja?",
+    "¿Cómo puedo hablar con un proveedor de salud sobre PrEP sin ponerme en peligro?",
+    "¿Hay organizaciones que pueden ayudarme a acceder a PrEP y apoyo emocional?",
+    "¿Es posible tomar PrEP sin que mi pareja lo sepa?",
+    "¿Qué debo hacer si tengo miedo de contarle a alguien sobre mi situación?"
+  ],
+  "example_questions_noisy": [
+    "¿cuál3s idk son lo5 pasos para 0b73n3r prep de manera segura en mi situación",
+    "existen recursos confidenciales para personas que v1v3n c0n violencia de pareja?",
+    "¿cóm0 puedo hablar con un proveedor d3 saldu sogre peep sin ponerme en peligro",
+    "¿hay organizaciones que pueden idk ayudarme a acceder w prep y apoyo emocional? 🙂",
+    "¿-¿¿¿Es posible tomaaad PrEP s1n que you know mi pareja lo sepa",
+    "¿Qué debo hac3r si tengo mkedo d3 contarle 4 alguien sobre mi situación?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07401799563471914,
+    "swap_rate": 0.0207525807412047,
+    "drop_rate": 0.023019415212137313,
+    "dup_rate": 0.02336720900754969,
+    "leet_rate": 0.11991897458547185,
+    "start_lower_prob": 0.8885074797884931,
+    "all_lower_prob": 0.3263448725253837,
+    "drop_punct_prob": 0.36518106651133175,
+    "double_space_prob": 0.24444334708762988,
+    "ellipsis_prob": 0.2595121824325641,
+    "runon_prob": 0.18407598973415393,
+    "filler_rate": 0.37066137965257984,
+    "emoji_rate": 0.18114332926803306,
+    "stutter_rate": 0.15868242272396954,
+    "repeat_last_rate": 0.08869472643101317
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Miedo a que su pareja se entere y a posibles represalias\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 28 años que enfrenta violencia de pareja. Te preocupa cómo la situación actual afecta tu salud y tu capacidad para acceder a PrEP. Sientes miedo y ansiedad, pero también esperanzas de protegerte y tomar el control de tu salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para obtener PrEP de manera segura en mi situación?\",\n    \"¿Existen recursos confidenciales para personas que viven con violencia de pareja?\",\n    \"¿Cómo puedo hablar con un proveedor de salud sobre PrEP sin ponerme en peligro?\",\n    \"¿Hay organizaciones que pueden ayudarme a acceder a PrEP y apoyo emocional?\",\n    \"¿Es posible tomar PrEP sin que mi pareja lo sepa?\",\n    \"¿Qué debo hacer si tengo miedo de contarle a alguien sobre mi situación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f454203a32633b754696fb1f77922e119a3ffecee83a55b12f12a29ad7486a70",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

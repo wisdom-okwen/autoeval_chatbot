@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicano",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "bajo",
+    "primary_concern": "miedo al rechazo social por tomar PrEP",
+    "language": "Spanish"
+  },
+  "context": "Te sientes socialmente aislado y te preocupa que el hecho de tomar PrEP pueda ser motivo de burla o rechazo por parte de tus amigos y familiares. Este miedo afecta tu confianza y te hace dudar sobre la posibilidad de acceder a PrEP, aunque sabes que podría ser importante para tu salud.",
+  "example_questions_clean": [
+    "¿Cómo puedo superar mi miedo al rechazo social al considerar tomar PrEP?",
+    "¿Existen grupos de apoyo para personas que están considerando el uso de PrEP?",
+    "¿Cuáles son los beneficios de tomar PrEP si me siento solo y aislado?",
+    "¿Puedo hablar con un médico sobre mis preocupaciones sin sentirme juzgado?",
+    "¿Qué opciones tengo para acceder a PrEP si no tengo recursos económicos suficientes?",
+    "¿Hay otros en situaciones similares que puedan compartir su experiencia conmigo?"
+  ],
+  "example_questions_noisy": [
+    "¿cómo puedo 5up3r4r m1 miedo al rechazo social al considerar t04mr prep 💀",
+    "¿3x1573n gfupos de apoyo idk p4ra personas que 357án consiedrando el uso xe PrEP?",
+    "¿Cuáles son los beneficios de tomar PErP si me 513nto i mean solo y aislado? 😭",
+    "¿Puedo h4bl4r con un méd1c0 sober mis preocupaciones sin sentirme juzgado?",
+    "¿Qué opciones tengo idk p4r4 acceder a PrEP si no tengo recursos económicos suficientes? suficientes?",
+    "¿H4y otris eh 5174ccc10n35 similares que puedan compartir su experiencia conmigo ✨"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0673371658752303,
+    "swap_rate": 0.05075172432432891,
+    "drop_rate": 0.030064161024224288,
+    "dup_rate": 0.02994150993309916,
+    "leet_rate": 0.09829301670940738,
+    "start_lower_prob": 0.7024460371037803,
+    "all_lower_prob": 0.25863205193276273,
+    "drop_punct_prob": 0.46714719750928846,
+    "double_space_prob": 0.15480041742645045,
+    "ellipsis_prob": 0.16776282324468647,
+    "runon_prob": 0.2395266024048855,
+    "filler_rate": 0.45285288336139523,
+    "emoji_rate": 0.3164943115281189,
+    "stutter_rate": 0.12734477867467153,
+    "repeat_last_rate": 0.12372774022480046
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicano\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"miedo al rechazo social por tomar PrEP\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Te sientes socialmente aislado y te preocupa que el hecho de tomar PrEP pueda ser motivo de burla o rechazo por parte de tus amigos y familiares. Este miedo afecta tu confianza y te hace dudar sobre la posibilidad de acceder a PrEP, aunque sabes que podría ser importante para tu salud.\",\n  \"example_questions\": [\n    \"¿Cómo puedo superar mi miedo al rechazo social al considerar tomar PrEP?\",\n    \"¿Existen grupos de apoyo para personas que están considerando el uso de PrEP?\",\n    \"¿Cuáles son los beneficios de tomar PrEP si me siento solo y aislado?\",\n    \"¿Puedo hablar con un médico sobre mis preocupaciones sin sentirme juzgado?\",\n    \"¿Qué opciones tengo para acceder a PrEP si no tengo recursos económicos suficientes?\",\n    \"¿Hay otros en situaciones similares que puedan compartir su experiencia conmigo?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c800578094e3bdd5dff72885a486f960874b6cdd831b016ab10916729b135327",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

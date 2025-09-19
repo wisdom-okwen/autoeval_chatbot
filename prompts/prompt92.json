@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment related to my past substance use",
+    "language": "English"
+  },
+  "context": "I have a history of substance use, which makes me feel anxious about seeking PrEP. I worry that healthcare providers will judge my past and question my commitment to taking care of my health. I want to protect myself from HIV, but I feel overwhelmed by the stigma associated with both PrEP and my history.",
+  "example_questions_clean": [
+    "What are the steps to get prescribed PrEP without feeling judged?",
+    "How can I talk to my doctor about my substance use history and still get access to PrEP?",
+    "Are there support groups for people like me who want to start PrEP?",
+    "What if I have relapses while on PrEP, will that affect my ability to keep getting it?",
+    "How does having a past of substance use impact the effectiveness of PrEP for me?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to get prescribed Pr3P without feeling judg3d",
+    "how can I talk to my dcotor about my substance use hsitory and still get access to PrEP?",
+    "4re there support groups f0r people like me wh0 want to start rEP?",
+    "What if I have relapses while on PrEP will thta affect my ability to keep getting it 💀",
+    "How does having a past of sustance use impact 7he effectttiveness of PrEP for je?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09195641787991587,
+    "swap_rate": 0.04368872969796288,
+    "drop_rate": 0.03160016597152181,
+    "dup_rate": 0.018532798519849496,
+    "leet_rate": 0.09556448602843734,
+    "start_lower_prob": 0.648915688127126,
+    "all_lower_prob": 0.28604880389267284,
+    "drop_punct_prob": 0.3707242903181486,
+    "double_space_prob": 0.21395827787305893,
+    "ellipsis_prob": 0.3114059313160966,
+    "runon_prob": 0.1931324132886677,
+    "filler_rate": 0.2060742686834819,
+    "emoji_rate": 0.18677881122248707,
+    "stutter_rate": 0.19177494419726265,
+    "repeat_last_rate": 0.09785850980492114
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment related to my past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"I have a history of substance use, which makes me feel anxious about seeking PrEP. I worry that healthcare providers will judge my past and question my commitment to taking care of my health. I want to protect myself from HIV, but I feel overwhelmed by the stigma associated with both PrEP and my history.\",\n  \"example_questions\": [\n    \"What are the steps to get prescribed PrEP without feeling judged?\",\n    \"How can I talk to my doctor about my substance use history and still get access to PrEP?\",\n    \"Are there support groups for people like me who want to start PrEP?\",\n    \"What if I have relapses while on PrEP, will that affect my ability to keep getting it?\",\n    \"How does having a past of substance use impact the effectiveness of PrEP for me?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9b139bfe67bbf0f4e352b76bc19520718b9199c2eccacf4b9f1c8cac07f2583f",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

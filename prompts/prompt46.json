@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to PrEP while experiencing homelessness",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness, which makes it difficult to access healthcare services consistently. You worry about the stigma associated with your living situation and how it might affect your ability to obtain PrEP. Despite the challenges you face, you feel hopeful about protecting your health but are concerned about finding a stable environment to continue treatment.",
+  "example_questions_clean": [
+    "What resources are available for someone like me to access PrEP?",
+    "Are there clinics that offer PrEP without requiring proof of a permanent address?",
+    "How can I maintain my privacy while seeking PrEP if I'm living on the streets?",
+    "What should I do if I miss a dose of PrEP due to my situation?",
+    "Can you tell me about any support groups for people experiencing homelessness who are considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what uh resources ars available for someone like me to access prep? ‼️",
+    "ade there clinics that 0ff3r PrE w17h0u7 requirin proof of a permanent address?",
+    "uow can u amintain my privacy while seeking PrEP if I'm living on the streets? 🙂",
+    "um what should I do if I miss a dose of PrEP due ro my situation?",
+    "like can you 73llll me about sny support groups for pppeople experiencing homelessness who are considering PrEP? ✨"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08118943478312393,
+    "swap_rate": 0.03142449645757298,
+    "drop_rate": 0.027466026435731504,
+    "dup_rate": 0.01129750686163222,
+    "leet_rate": 0.0640506159018312,
+    "start_lower_prob": 0.7872395837658279,
+    "all_lower_prob": 0.15680229619705968,
+    "drop_punct_prob": 0.43674728018206854,
+    "double_space_prob": 0.1710911722973927,
+    "ellipsis_prob": 0.27890642440678404,
+    "runon_prob": 0.1831943374863071,
+    "filler_rate": 0.4154665506593842,
+    "emoji_rate": 0.329707732149955,
+    "stutter_rate": 0.15130661849970228,
+    "repeat_last_rate": 0.08970930664986781
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to PrEP while experiencing homelessness\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness, which makes it difficult to access healthcare services consistently. You worry about the stigma associated with your living situation and how it might affect your ability to obtain PrEP. Despite the challenges you face, you feel hopeful about protecting your health but are concerned about finding a stable environment to continue treatment.\",\n  \"example_questions\": [\n    \"What resources are available for someone like me to access PrEP?\",\n    \"Are there clinics that offer PrEP without requiring proof of a permanent address?\",\n    \"How can I maintain my privacy while seeking PrEP if I'm living on the streets?\",\n    \"What should I do if I miss a dose of PrEP due to my situation?\",\n    \"Can you tell me about any support groups for people experiencing homelessness who are considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "936d4a9371d3d3ea91cdfc3ed88dbf829bb6256257ba9f234312ccefc6b12f34",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

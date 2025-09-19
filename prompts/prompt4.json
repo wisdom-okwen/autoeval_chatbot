@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and access barriers due to gender dysphoria",
+    "language": "English"
+  },
+  "context": "The user is navigating their identity while facing challenges related to gender dysphoria. They feel anxious about accessing PrEP due to concerns about being judged by healthcare providers and the potential lack of understanding regarding their unique situation. This anxiety impacts their willingness to seek out the necessary information and support.",
+  "example_questions_clean": [
+    "What are the eligibility criteria for starting PrEP?",
+    "How can I find a supportive healthcare provider who understands gender dysphoria?",
+    "Are there specific resources available for people like me who want to access PrEP?",
+    "What should I expect during my first appointment when discussing PrEP?",
+    "Is there a way to access PrEP discreetly without facing stigma?"
+  ],
+  "example_questions_noisy": [
+    "waht ar3 th3 eligibility crieria f0r starting PrEP 🙂",
+    "how can I find a sup[ortive healthcare provider who understands gender dysphoria",
+    "a-are there specific resources available f0rrr people like meee who w4nt to access PrEP",
+    "w-what suould i expect during mmmy first apointment when dissscussing pep?",
+    "is there a way to access PrEP discreetly without fcing stigma"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0610514689302301,
+    "swap_rate": 0.029010417656867078,
+    "drop_rate": 0.0349349622379211,
+    "dup_rate": 0.026977844250036263,
+    "leet_rate": 0.08036021029060034,
+    "start_lower_prob": 0.6995086892384996,
+    "all_lower_prob": 0.20623644548943806,
+    "drop_punct_prob": 0.3876208700774464,
+    "double_space_prob": 0.2511589624000831,
+    "ellipsis_prob": 0.2596685175093572,
+    "runon_prob": 0.1551702448211897,
+    "filler_rate": 0.39730551283024673,
+    "emoji_rate": 0.26653705575321834,
+    "stutter_rate": 0.13620424875896148,
+    "repeat_last_rate": 0.1237237777411953
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and access barriers due to gender dysphoria\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating their identity while facing challenges related to gender dysphoria. They feel anxious about accessing PrEP due to concerns about being judged by healthcare providers and the potential lack of understanding regarding their unique situation. This anxiety impacts their willingness to seek out the necessary information and support.\",\n  \"example_questions\": [\n    \"What are the eligibility criteria for starting PrEP?\",\n    \"How can I find a supportive healthcare provider who understands gender dysphoria?\",\n    \"Are there specific resources available for people like me who want to access PrEP?\",\n    \"What should I expect during my first appointment when discussing PrEP?\",\n    \"Is there a way to access PrEP discreetly without facing stigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9a6ee69a101c61de5928b06824996a199acfa7d32e8ab9a6fcbcd5eca94be28f",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

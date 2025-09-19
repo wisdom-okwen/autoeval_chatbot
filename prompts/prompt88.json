@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "muhimu wa kupata taarifa sahihi kuhusu PrEP na ushirikiano wa jamii",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anahisi kutengwa kijamii kutokana na hali yake ya kiafya. Hii inamfanya kuwa na hofu kuhusu jinsi watu wengine watakavyomwona akijaribu kupata PrEP. Anajitahidi kuelewa jinsi ya kushughulikia hisia hizi na kujiweka salama, lakini anahisi aibu na wasiwasi wa kuzungumza na watoa huduma.",
+  "example_questions_clean": [
+    "Je, ni nini PrEP na inafanya kazi vipi?",
+    "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+    "Ni mambo gani ya kujua kabla ya kuanza kutumia PrEP?",
+    "Je, PrEP ina madhara yoyote ambayo ninapaswa kujua?",
+    "Ninaweza kupata msaada wa kijamii wakati wa kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "jjje, ni nini perp na inafanya kazi vipi? 💀",
+    "ninaweza kupata PrEP um wapi b1l4 kuhisi aibu? aibu?",
+    "ni m4mbo gani ha kujua kabla ya kuanza kutumia PrEP?",
+    "je PrEP 1na madhara yoyote ambayo ninapaswa kuj14",
+    "Ninaweza kupata msaada wa kijamii wakati wa kutumia PrEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0778298078275212,
+    "swap_rate": 0.03650554841793507,
+    "drop_rate": 0.02204325273824216,
+    "dup_rate": 0.027610374323477863,
+    "leet_rate": 0.11561354556163517,
+    "start_lower_prob": 0.7431879740228634,
+    "all_lower_prob": 0.19009740966374533,
+    "drop_punct_prob": 0.5504630504696582,
+    "double_space_prob": 0.2560097990884656,
+    "ellipsis_prob": 0.3450838472377624,
+    "runon_prob": 0.15948318076281692,
+    "filler_rate": 0.40332026831202794,
+    "emoji_rate": 0.1651324925000059,
+    "stutter_rate": 0.14999481410348767,
+    "repeat_last_rate": 0.11434909774235108
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"muhimu wa kupata taarifa sahihi kuhusu PrEP na ushirikiano wa jamii\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anahisi kutengwa kijamii kutokana na hali yake ya kiafya. Hii inamfanya kuwa na hofu kuhusu jinsi watu wengine watakavyomwona akijaribu kupata PrEP. Anajitahidi kuelewa jinsi ya kushughulikia hisia hizi na kujiweka salama, lakini anahisi aibu na wasiwasi wa kuzungumza na watoa huduma.\",\n  \"example_questions\": [\n    \"Je, ni nini PrEP na inafanya kazi vipi?\",\n    \"Ninaweza kupata PrEP wapi bila kuhisi aibu?\",\n    \"Ni mambo gani ya kujua kabla ya kuanza kutumia PrEP?\",\n    \"Je, PrEP ina madhara yoyote ambayo ninapaswa kujua?\",\n    \"Ninaweza kupata msaada wa kijamii wakati wa kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9f504ea82a2d13d86656163da3451e452849bf2fbcfc6a12c9141377adb2f49e",
+  "_language": "Swahili",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

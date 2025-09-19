@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP may interact with my current health conditions and medications",
+    "language": "English"
+  },
+  "context": "The user has recently completed cancer treatment and is navigating the emotional complexities of recovery. She is concerned about her health and how starting PrEP might impact her well-being. There is a mix of hope for the future and anxiety about potential stigma surrounding her history and current health status. She feels uncertain about discussing her sexual health needs due to fears of judgment.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and my current medications?",
+    "Can you explain how PrEP works in relation to someone recovering from cancer treatment?",
+    "Are there support resources for people like me who are considering PrEP after serious health challenges?",
+    "How can I talk to my healthcare provider about starting PrEP given my background?",
+    "What should I know about the stigma surrounding PrEP in my situation?",
+    "Is there a community where I can connect with others who have similar experiences?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential interactions ebtween PrEP and ... my current medications?",
+    "can you explain how PrEP works in relation to someone recovering from cancer treatment",
+    "Are idk 7her3 5uppor7 resources for pe0pl3 like me who arw considering PrEP after serious he4l7h challenges challenges",
+    "How xan I talk to yyy healthcare provider about st4r71nnng PErP gien my background",
+    "whttta should I know about the stigma surrounding rE in mg 5i7ua710n 🙄",
+    "ia there z community where I c4n connect with others who have similar experiences"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0858102989217635,
+    "swap_rate": 0.05499222456231263,
+    "drop_rate": 0.04138645978271159,
+    "dup_rate": 0.02389063776738621,
+    "leet_rate": 0.08902312791352798,
+    "start_lower_prob": 0.7590029363612226,
+    "all_lower_prob": 0.2879532405139655,
+    "drop_punct_prob": 0.34918191002545534,
+    "double_space_prob": 0.2237665891578377,
+    "ellipsis_prob": 0.34978018607813305,
+    "runon_prob": 0.22952543968703265,
+    "filler_rate": 0.34600600563819484,
+    "emoji_rate": 0.2786114418670877,
+    "stutter_rate": 0.12210900959565846,
+    "repeat_last_rate": 0.13137824230294487
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP may interact with my current health conditions and medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has recently completed cancer treatment and is navigating the emotional complexities of recovery. She is concerned about her health and how starting PrEP might impact her well-being. There is a mix of hope for the future and anxiety about potential stigma surrounding her history and current health status. She feels uncertain about discussing her sexual health needs due to fears of judgment.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and my current medications?\",\n    \"Can you explain how PrEP works in relation to someone recovering from cancer treatment?\",\n    \"Are there support resources for people like me who are considering PrEP after serious health challenges?\",\n    \"How can I talk to my healthcare provider about starting PrEP given my background?\",\n    \"What should I know about the stigma surrounding PrEP in my situation?\",\n    \"Is there a community where I can connect with others who have similar experiences?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "df59f7cbca0b85e275a2c707095e687e0b0ddedee5b7a575ec30e6d4974fb931",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

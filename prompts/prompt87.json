@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 25,
+    "gender": "non-binaire",
+    "socio_economic_status": "étudiant à temps plein avec un emploi à temps partiel",
+    "primary_concern": "la stigmatisation et le manque de soutien pendant la transition",
+    "language": "French"
+  },
+  "context": "Vous êtes une personne non-binaire de 25 ans, étudiant à temps plein. Vous ressentez une dysphorie de genre qui complique vos interactions avec le système de santé. Votre préoccupation principale est de savoir si PrEP peut être accessible pour vous et comment naviguer dans la stigmatisation associée à votre identité pendant cette période délicate.",
+  "example_questions_clean": [
+    "Comment puis-je commencer à prendre PrEP tout en gérant ma dysphorie de genre ?",
+    "Y a-t-il des ressources spécifiques pour les personnes non-binaires qui veulent accéder à PrEP ?",
+    "Quelles sont les préoccupations que je devrais avoir concernant l'effet du PrEP sur mon corps pendant ma transition ?",
+    "Est-ce que les médecins sont formés pour soutenir les patients trans et non-binaires concernant PrEP ?",
+    "Comment parler de mes besoins spécifiques à mon médecin quand je demande des informations sur PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "comment puis-je comemncer à prendre PrEP tout en gérant ma dysphorie de genre ?",
+    "Y a-t-il des rezsources spécifiques pour les personnes non-binaires qui veulent accéder à PrEP",
+    "Quelles sont you know les préoccupations que je devrais 4v0ir concernant l'effet du PrEP sur mon corps pendant ma transition",
+    "est-ce que les médecins sont formés p0ur 50u73n1r les patients trans et n0n-b1n41r35 c0ncrrnannnt PrEP ?",
+    "Comment parler dr mes besoins spécifiques à m0n médecin qiadn je d34nd3 des informations aur PrP ? 🫠"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09963547507664214,
+    "swap_rate": 0.039327099440920485,
+    "drop_rate": 0.026781103228806856,
+    "dup_rate": 0.02241444834329838,
+    "leet_rate": 0.1074233954134718,
+    "start_lower_prob": 0.8530760730017228,
+    "all_lower_prob": 0.2742081712699047,
+    "drop_punct_prob": 0.5302415456839402,
+    "double_space_prob": 0.17843644018795146,
+    "ellipsis_prob": 0.29541765282901483,
+    "runon_prob": 0.2871003299010295,
+    "filler_rate": 0.232948651081647,
+    "emoji_rate": 0.21048645234147412,
+    "stutter_rate": 0.10497672838036497,
+    "repeat_last_rate": 0.14021081142493225
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 25,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"étudiant à temps plein avec un emploi à temps partiel\",\n    \"primary_concern\": \"la stigmatisation et le manque de soutien pendant la transition\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une personne non-binaire de 25 ans, étudiant à temps plein. Vous ressentez une dysphorie de genre qui complique vos interactions avec le système de santé. Votre préoccupation principale est de savoir si PrEP peut être accessible pour vous et comment naviguer dans la stigmatisation associée à votre identité pendant cette période délicate.\",\n  \"example_questions\": [\n    \"Comment puis-je commencer à prendre PrEP tout en gérant ma dysphorie de genre ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes non-binaires qui veulent accéder à PrEP ?\",\n    \"Quelles sont les préoccupations que je devrais avoir concernant l'effet du PrEP sur mon corps pendant ma transition ?\",\n    \"Est-ce que les médecins sont formés pour soutenir les patients trans et non-binaires concernant PrEP ?\",\n    \"Comment parler de mes besoins spécifiques à mon médecin quand je demande des informations sur PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "14dbd6b18a665ac2ddc11f7285e7df0256e2f9fff477e5cb3a0fc72232505485",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

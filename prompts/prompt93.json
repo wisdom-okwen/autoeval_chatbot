@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "dealing with chronic pain and its impact on my ability to access PrEP",
+    "language": "Dutch"
+  },
+  "context": "Als iemand die lijdt aan chronische pijn, voel ik me vaak overweldigd door de dagelijkse uitdagingen. Mijn pijn maakt het moeilijk om naar de dokter te gaan of om tijd te vinden voor gezondheidsondersteuning. Ik maak me zorgen over hoe PrEP mijn algehele welzijn zal beïnvloeden en of ik de juiste zorg kan krijgen zonder extra stress. De stigma rondom HIV en de zorgen over bijwerkingen laten me soms twijfelen of het het risico waard is.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van PrEP voor iemand met chronische pijn?",
+    "Hoe kan ik de toegang tot PrEP vergemakkelijken gezien mijn situatie?",
+    "Zijn er speciale voorzieningen voor mensen met chronische aandoeningen die PrEP willen gebruiken?",
+    "Wat moet ik weten over de mogelijke bijwerkingen van PrEP in combinatie met pijnmedicatie?",
+    "Hoe kan ik praten met mijn arts over PrEP zonder me te schamen?",
+    "Zijn er ervaringen van anderen met vergelijkbare uitdagingen die ik kan lezen?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de ovordelen van PrEP voor iemamd met chronische pijn",
+    "hhhoe kannn um ik de toegang tot prep vergemakkelijken gezien mijn si7u4t13?",
+    "Z-Zijn er pseciale voorzieningen voor mensen met you know chronische 44hd03n1ng3n die PrEP willen gebruiken?",
+    "wat moet ik weten over d3 mogelije b1jw3rking3n van prep jn combinatie met pijnmedicatie",
+    "hoe kan ik praten met mijn arts over prep zonder me te schamen ‼️",
+    "Zijn er ervaringen van anderen met vergelijkbare uitdagingen die ik kan lezen?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.055978789332042665,
+    "swap_rate": 0.03320565364902418,
+    "drop_rate": 0.026904428575262297,
+    "dup_rate": 0.02819760859378667,
+    "leet_rate": 0.11434260388877675,
+    "start_lower_prob": 0.6397850314792155,
+    "all_lower_prob": 0.2993577899980798,
+    "drop_punct_prob": 0.5620546768633196,
+    "double_space_prob": 0.34435051242264353,
+    "ellipsis_prob": 0.32540860053806747,
+    "runon_prob": 0.20619102374917547,
+    "filler_rate": 0.3158985249748927,
+    "emoji_rate": 0.17299141230416304,
+    "stutter_rate": 0.1585341522365698,
+    "repeat_last_rate": 0.11270961277655424
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"dealing with chronic pain and its impact on my ability to access PrEP\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Als iemand die lijdt aan chronische pijn, voel ik me vaak overweldigd door de dagelijkse uitdagingen. Mijn pijn maakt het moeilijk om naar de dokter te gaan of om tijd te vinden voor gezondheidsondersteuning. Ik maak me zorgen over hoe PrEP mijn algehele welzijn zal beïnvloeden en of ik de juiste zorg kan krijgen zonder extra stress. De stigma rondom HIV en de zorgen over bijwerkingen laten me soms twijfelen of het het risico waard is.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van PrEP voor iemand met chronische pijn?\",\n    \"Hoe kan ik de toegang tot PrEP vergemakkelijken gezien mijn situatie?\",\n    \"Zijn er speciale voorzieningen voor mensen met chronische aandoeningen die PrEP willen gebruiken?\",\n    \"Wat moet ik weten over de mogelijke bijwerkingen van PrEP in combinatie met pijnmedicatie?\",\n    \"Hoe kan ik praten met mijn arts over PrEP zonder me te schamen?\",\n    \"Zijn er ervaringen van anderen met vergelijkbare uitdagingen die ik kan lezen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "77d4287b93b46d82c2151e447c4dd24ddcb93910c20a05c8138e56ae04e85d1e",
+  "_language": "Dutch",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

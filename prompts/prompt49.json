@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "interactions between PrEP and ongoing health issues from cancer treatment",
+    "language": "English"
+  },
+  "context": "You are a 35-year-old American woman who is recovering from cancer treatment. While you are hopeful about your health, you have concerns about how PrEP might interact with your current medications and whether it is safe for someone with your health history. You feel anxious about accessing information due to the stigma around both cancer and HIV prevention, and you worry about being judged for seeking PrEP despite your circumstances.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and my current medications?",
+    "Can someone with a history of cancer safely take PrEP?",
+    "How can I address my concerns about stigma when discussing PrEP with my healthcare provider?",
+    "What support resources are available for individuals like me considering PrEP?",
+    "Are there specific studies or evidence on PrEP use in people recovering from serious illnesses?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential interactions between PrEP and my curr3n7 medications?",
+    "can i mean someone with a history of csncer safely take PrEP?",
+    "How can I address my conc3rn5 about syigma whennn discussing [rEP wtih my healthcare provider?",
+    "what support resources are available for individuals like me considering prep?",
+    "Are hdre specifix studies or evidence on um PrEP use im people recoverig from serious illnesses"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11406010753719127,
+    "swap_rate": 0.05101901047231034,
+    "drop_rate": 0.020337670068597487,
+    "dup_rate": 0.021725494494951644,
+    "leet_rate": 0.05698148460267458,
+    "start_lower_prob": 0.6741272265487506,
+    "all_lower_prob": 0.31898501083619696,
+    "drop_punct_prob": 0.3368413970831948,
+    "double_space_prob": 0.29654828038276027,
+    "ellipsis_prob": 0.2568288571465195,
+    "runon_prob": 0.23246693425828935,
+    "filler_rate": 0.4939843080546585,
+    "emoji_rate": 0.28466190420567034,
+    "stutter_rate": 0.12381778640118402,
+    "repeat_last_rate": 0.1518125346652166
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"interactions between PrEP and ongoing health issues from cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 35-year-old American woman who is recovering from cancer treatment. While you are hopeful about your health, you have concerns about how PrEP might interact with your current medications and whether it is safe for someone with your health history. You feel anxious about accessing information due to the stigma around both cancer and HIV prevention, and you worry about being judged for seeking PrEP despite your circumstances.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and my current medications?\",\n    \"Can someone with a history of cancer safely take PrEP?\",\n    \"How can I address my concerns about stigma when discussing PrEP with my healthcare provider?\",\n    \"What support resources are available for individuals like me considering PrEP?\",\n    \"Are there specific studies or evidence on PrEP use in people recovering from serious illnesses?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b5761a806e51bc2e033560426d924dcd3890bb0a8046fdfdaf4d4eefdc3a9f27",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "kuhusu usalama wa PrEP baada ya matibabu ya saratani",
+    "language": "Swahili"
+  },
+  "context": "Mtumiaji huyu anarejea kutoka kwa matibabu ya saratani na anajitahidi kuelewa jinsi PrEP inaweza kumsaidia kujilinda na maambukizi ya VVU. Anahisi hofu kuhusu athari za kiafya na usalama wa kuchukua dawa hii, huku akijitahidi kushughulikia hisia za unyanyapaa zinazohusishwa na matumizi ya PrEP.",
+  "example_questions_clean": [
+    "Je, ni salama kutumia PrEP baada ya kumaliza matibabu ya saratani?",
+    "Ninaweza kupata wapi msaada wa kisaikolojia kuhusu kuchukua PrEP?",
+    "Ni vikwazo gani vinaweza kunizuia kupata PrEP katika hali yangu?",
+    "Je, kuna majaribio yoyote yanayohusiana na PrEP na wagonjwa wa saratani?",
+    "Ninapaswa kuzungumza na daktari wangu kuhusu PrEP vipi?",
+    "Je, kuna watu wengine katika hali yangu ambao wanatumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "j-je ni salaam kutumia PPPrEP baada ya i mean kumaliza matibabu ga saratani? saratani?",
+    "Ninaweza kupa74 wapi msaada wa kisaikolojia kuhusu kuchukua PrEP?",
+    "ni vikwazo gani vinaweza kunizua kupata PErP katika hali yangu",
+    "je, kuna majaribio yoyote yanayohusiaan na prep na wagonjwa wa saratani?",
+    "ninapaswa kuzungumza na uh daktari wangu kuyusu prep vipi? 😭",
+    "je, kuannn watu wengine katika hlai yangu ambao wanatumia uh PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08296537442977243,
+    "swap_rate": 0.05225987544764865,
+    "drop_rate": 0.04429707970168367,
+    "dup_rate": 0.02588780270180712,
+    "leet_rate": 0.06497245237918725,
+    "start_lower_prob": 0.7894255922727901,
+    "all_lower_prob": 0.3446420428508459,
+    "drop_punct_prob": 0.35943880987632787,
+    "double_space_prob": 0.24156100678560866,
+    "ellipsis_prob": 0.24614345161788165,
+    "runon_prob": 0.16559893618022514,
+    "filler_rate": 0.25356787976763656,
+    "emoji_rate": 0.25942114450316256,
+    "stutter_rate": 0.15116158775458297,
+    "repeat_last_rate": 0.1014030077886816
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"kuhusu usalama wa PrEP baada ya matibabu ya saratani\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mtumiaji huyu anarejea kutoka kwa matibabu ya saratani na anajitahidi kuelewa jinsi PrEP inaweza kumsaidia kujilinda na maambukizi ya VVU. Anahisi hofu kuhusu athari za kiafya na usalama wa kuchukua dawa hii, huku akijitahidi kushughulikia hisia za unyanyapaa zinazohusishwa na matumizi ya PrEP.\",\n  \"example_questions\": [\n    \"Je, ni salama kutumia PrEP baada ya kumaliza matibabu ya saratani?\",\n    \"Ninaweza kupata wapi msaada wa kisaikolojia kuhusu kuchukua PrEP?\",\n    \"Ni vikwazo gani vinaweza kunizuia kupata PrEP katika hali yangu?\",\n    \"Je, kuna majaribio yoyote yanayohusiana na PrEP na wagonjwa wa saratani?\",\n    \"Ninapaswa kuzungumza na daktari wangu kuhusu PrEP vipi?\",\n    \"Je, kuna watu wengine katika hali yangu ambao wanatumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8a83dd5de97df8b7c7cdb3bcd9b259cc8cc4009dbf9997b3f5ae47a647ba70ad",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

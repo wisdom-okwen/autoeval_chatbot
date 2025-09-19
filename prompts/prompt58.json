@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 24,
+    "gender": "no binario",
+    "socio_economic_status": "medio",
+    "primary_concern": "el miedo al rechazo y la incomprensión sobre su identidad de género al buscar PrEP",
+    "language": "Spanish"
+  },
+  "context": "La persona está lidiando con la disforia de género y siente ansiedad acerca de cómo será percibida al solicitar PrEP. Tiene miedo de ser juzgada o rechazada por profesionales de la salud, lo que complica su acceso al medicamento. Busca información clara y comprensiva que le ayude a tomar decisiones sobre su salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para obtener PrEP siendo una persona no binaria?",
+    "¿Existen médicos que sean comprensivos con mi situación al solicitar PrEP?",
+    "¿Qué debo hacer si me siento incómodo hablando de mi identidad de género en la clínica?",
+    "¿Qué opciones tengo si no me siento seguro en un entorno médico tradicional?",
+    "¿PrEP puede ayudarme a sentirme más seguro en mis relaciones sexuales?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para obtener PrEP siendo una persona no binaria?",
+    "¿¿¿Existen médicos que sean comprensivos con mi situación al solicitar PrEP 💀",
+    "¿Qué debo hacer si me siento incómodo hablando de mi identidad de género en lw clínica 😕 😕",
+    "¿Qué opciones tengo si n0 me sietno s3gur0 en un entorno médico tradicional?",
+    "¿prep puede ayudarme a sentirme más seguro en mis relaciones sexuales?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0642390655592221,
+    "swap_rate": 0.032411605903466714,
+    "drop_rate": 0.03614577889234423,
+    "dup_rate": 0.013786982195469845,
+    "leet_rate": 0.09099343076468264,
+    "start_lower_prob": 0.7606579823209478,
+    "all_lower_prob": 0.2424346961879188,
+    "drop_punct_prob": 0.32870751376684804,
+    "double_space_prob": 0.3318877876757424,
+    "ellipsis_prob": 0.22356555621233243,
+    "runon_prob": 0.2192654600632395,
+    "filler_rate": 0.484457824018929,
+    "emoji_rate": 0.26635409123449894,
+    "stutter_rate": 0.11311064554921806,
+    "repeat_last_rate": 0.15831294112453734
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 24,\n    \"gender\": \"no binario\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"el miedo al rechazo y la incomprensión sobre su identidad de género al buscar PrEP\",\n    \"language\": \"español\"\n  },\n  \"context\": \"La persona está lidiando con la disforia de género y siente ansiedad acerca de cómo será percibida al solicitar PrEP. Tiene miedo de ser juzgada o rechazada por profesionales de la salud, lo que complica su acceso al medicamento. Busca información clara y comprensiva que le ayude a tomar decisiones sobre su salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para obtener PrEP siendo una persona no binaria?\",\n    \"¿Existen médicos que sean comprensivos con mi situación al solicitar PrEP?\",\n    \"¿Qué debo hacer si me siento incómodo hablando de mi identidad de género en la clínica?\",\n    \"¿Qué opciones tengo si no me siento seguro en un entorno médico tradicional?\",\n    \"¿PrEP puede ayudarme a sentirme más seguro en mis relaciones sexuales?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9711e320d2729c09dbe75de9c8a24efa13f51c496ca562e202fac16732050939",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

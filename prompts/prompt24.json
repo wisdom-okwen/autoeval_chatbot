@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "Masculino",
+    "socio_economic_status": "Baixa renda",
+    "primary_concern": "A dificuldade de compreender informações sobre PrEP devido ao meu transtorno neurodesenvolvimental.",
+    "language": "Portuguese"
+  },
+  "context": "Você enfrenta desafios para compreender informações de saúde devido ao seu transtorno neurodesenvolvimental, o que gera ansiedade em relação ao uso do PrEP. A preocupação com o estigma e a falta de clareza sobre como acessar o medicamento pode dificultar sua decisão.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona?",
+    "Quais são os efeitos colaterais do PrEP?",
+    "Como posso acessar o PrEP na minha cidade?",
+    "A PrEP é adequada para pessoas com dificuldades de compreensão?",
+    "Como lidar com a ansiedade ao falar sobre PrEP com médicos?",
+    "Há suporte disponível para pessoas como eu que querem usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "o que é Pf3P e c0mo ele func10n4",
+    "quais são os efeitos colaterais d1 i mean prep?",
+    "c-como posso acessar o prep na minha cidae?",
+    "a-a PrEP é 4d3quad4 para pessoas cccom dificuldades de you know compreensão?",
+    "c0m0 lidar com a anskedade ao falar sobre Pr3P com médicos",
+    "há 5uport3 i mean disponível para pessoas como eu qu3 uq3r3m usar PrEP? ✨"
+  ],
+  "style_profile": {
+    "typo_rate": 0.051341868925586905,
+    "swap_rate": 0.05219970167663068,
+    "drop_rate": 0.021564679112660294,
+    "dup_rate": 0.01210499985745164,
+    "leet_rate": 0.11417034900791949,
+    "start_lower_prob": 0.8053031281409998,
+    "all_lower_prob": 0.3486481142074184,
+    "drop_punct_prob": 0.49969748343334525,
+    "double_space_prob": 0.300220757941853,
+    "ellipsis_prob": 0.26387239102462295,
+    "runon_prob": 0.2347978942757794,
+    "filler_rate": 0.3452182784440709,
+    "emoji_rate": 0.27811240341055365,
+    "stutter_rate": 0.12946073538861905,
+    "repeat_last_rate": 0.10113345230787137
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Baixa renda\",\n    \"primary_concern\": \"A dificuldade de compreender informações sobre PrEP devido ao meu transtorno neurodesenvolvimental.\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você enfrenta desafios para compreender informações de saúde devido ao seu transtorno neurodesenvolvimental, o que gera ansiedade em relação ao uso do PrEP. A preocupação com o estigma e a falta de clareza sobre como acessar o medicamento pode dificultar sua decisão.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona?\",\n    \"Quais são os efeitos colaterais do PrEP?\",\n    \"Como posso acessar o PrEP na minha cidade?\",\n    \"A PrEP é adequada para pessoas com dificuldades de compreensão?\",\n    \"Como lidar com a ansiedade ao falar sobre PrEP com médicos?\",\n    \"Há suporte disponível para pessoas como eu que querem usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5600a8b88652a241b38efc2b0d0e47a1e1d06a9209aba5990d4bc591aedb0eec",
+  "_language": "Portuguese",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

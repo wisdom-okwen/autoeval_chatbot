@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and past trauma affecting mental health",
+    "language": "English"
+  },
+  "context": "The user is a 30-year-old American woman recovering from past trauma related to a health crisis. This experience has made her anxious about seeking medical help, particularly regarding PrEP. She fears being judged or stigmatized due to her history and feels overwhelmed by the process of accessing healthcare. Her past trauma influences her mindset, making her hesitant to discuss sexual health openly.",
+  "example_questions_clean": [
+    "What are the steps to access PrEP safely without facing judgment?",
+    "How can I discuss my concerns about stigma with my healthcare provider?",
+    "Are there support groups for individuals like me who are considering PrEP?",
+    "What should I expect during my first appointment regarding PrEP?",
+    "Can you help me understand the benefits of PrEP in my situation?",
+    "What resources are available for people who have experienced trauma and need PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the steps to access prep safely without facing judgment",
+    "how can I discuss my concerns about stigma with my healthcare provider?",
+    "Are there support groups for 1nd1v1du4l5 like i mean me wyo are considering PrEP PrEP",
+    "what should i expecg duriiing my f1r57 appointment regarding prep?",
+    "c4n yoy help me undesrtand the bnefits of idk PrEP in my situation? situation?",
+    "what resources are available for people who have experienced trauma and ... need PrEP 🫠"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05846387836122504,
+    "swap_rate": 0.028467894984348718,
+    "drop_rate": 0.04463337225686581,
+    "dup_rate": 0.021588898348415063,
+    "leet_rate": 0.0735799046900738,
+    "start_lower_prob": 0.7667055652068961,
+    "all_lower_prob": 0.2520502854274049,
+    "drop_punct_prob": 0.36540706319256555,
+    "double_space_prob": 0.29645507996924225,
+    "ellipsis_prob": 0.3144665342406959,
+    "runon_prob": 0.2226144165586309,
+    "filler_rate": 0.24561390894272422,
+    "emoji_rate": 0.22163853155829305,
+    "stutter_rate": 0.12693555392901698,
+    "repeat_last_rate": 0.1406773450138896
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and past trauma affecting mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 30-year-old American woman recovering from past trauma related to a health crisis. This experience has made her anxious about seeking medical help, particularly regarding PrEP. She fears being judged or stigmatized due to her history and feels overwhelmed by the process of accessing healthcare. Her past trauma influences her mindset, making her hesitant to discuss sexual health openly.\",\n  \"example_questions\": [\n    \"What are the steps to access PrEP safely without facing judgment?\",\n    \"How can I discuss my concerns about stigma with my healthcare provider?\",\n    \"Are there support groups for individuals like me who are considering PrEP?\",\n    \"What should I expect during my first appointment regarding PrEP?\",\n    \"Can you help me understand the benefits of PrEP in my situation?\",\n    \"What resources are available for people who have experienced trauma and need PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f487635b3c3ac77ecefd2efcb1b6727615d65235d748339f255f8819a32a3bbc",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

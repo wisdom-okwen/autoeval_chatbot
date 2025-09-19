@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "nervousness about potential side effects and stigma from peers",
+    "language": "Swahili"
+  },
+  "context": "The user has been managing an anxiety disorder, which makes her feel overwhelmed when considering starting PrEP. She fears not only the medical aspects of the medication but also the reactions from friends and community members who may not understand her choice.",
+  "example_questions_clean": [
+    "Je, PrEP ina madhara gani ambayo yanapaswa kujulikana?",
+    "Ninaweza kupata wapi msaada wa kiakili wakati wa kuanza kutumia PrEP?",
+    "Nifanye nini ikiwa nitaona dalili za upande wa dawa ya PrEP?",
+    "Ni vigezo gani vinavyotajwa katika kutafuta mahali pa kupata PrEP?",
+    "Je, kuna watu wengine wanaopata changamoto kama zangu katika kuanza PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je, prep ina madhara gani i mean ambayo yanapaswa kujulikana?",
+    "ninaweza kupata wapi m544d4 wa kiakili wakati wa kuanza kutumia PrEP?",
+    "nifanye nini like ikiwa nitaona dalili za upande wa dawa ya PrEP PrEP",
+    "ni vigezo gn4i vinavyotajwa katika kutafuta mahali pa kupat PrEP?",
+    "je, kun4 wa71 wengine wanaopata changamoto uh kama zangu katika kuanza PrEP? 😭"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11709677676232737,
+    "swap_rate": 0.04088258699832993,
+    "drop_rate": 0.021520292908106038,
+    "dup_rate": 0.013888022001346916,
+    "leet_rate": 0.06504638342051235,
+    "start_lower_prob": 0.8951130244916841,
+    "all_lower_prob": 0.23658133325969566,
+    "drop_punct_prob": 0.5625726528935406,
+    "double_space_prob": 0.33127044084931273,
+    "ellipsis_prob": 0.1879098784507155,
+    "runon_prob": 0.17922462681001292,
+    "filler_rate": 0.23808808535597864,
+    "emoji_rate": 0.19095143247276802,
+    "stutter_rate": 0.1573848328775988,
+    "repeat_last_rate": 0.08090614014370949
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"nervousness about potential side effects and stigma from peers\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has been managing an anxiety disorder, which makes her feel overwhelmed when considering starting PrEP. She fears not only the medical aspects of the medication but also the reactions from friends and community members who may not understand her choice.\",\n  \"example_questions\": [\n    \"Je, PrEP ina madhara gani ambayo yanapaswa kujulikana?\",\n    \"Ninaweza kupata wapi msaada wa kiakili wakati wa kuanza kutumia PrEP?\",\n    \"Nifanye nini ikiwa nitaona dalili za upande wa dawa ya PrEP?\",\n    \"Ni vigezo gani vinavyotajwa katika kutafuta mahali pa kupata PrEP?\",\n    \"Je, kuna watu wengine wanaopata changamoto kama zangu katika kuanza PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "55268fba947080e6baf1972a61f0036c499dbb4dab76f4745a19578ca060ee76",
+  "_language": "Swahili",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

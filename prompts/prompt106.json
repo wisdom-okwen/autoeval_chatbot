@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "miedo al estigma y la falta de acceso a servicios de salud",
+    "language": "Spanish"
+  },
+  "context": "Este usuario tiene una historia de uso de sustancias y está lidiando con sentimientos de ansiedad y preocupación sobre su salud. Siente que su pasado puede afectar su capacidad para acceder a PrEP, ya que teme el juicio de los demás y la posibilidad de no ser aceptado en clínicas de salud.",
+  "example_questions_clean": [
+    "¿Cuáles son los requisitos para obtener PrEP en mi situación particular?",
+    "¿Existen programas que ofrezcan PrEP sin costo para personas con antecedentes de consumo de sustancias?",
+    "¿Cómo puedo superar el miedo al juicio al buscar atención médica para PrEP?",
+    "¿Qué recursos hay disponibles para ayudarme a entender mejor el uso de PrEP?",
+    "¿Es seguro tomar PrEP si tengo un historial de problemas de adicción?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgado?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los requisitos p4r4 obtener PrEP en mi sitaución p4rtixul4r",
+    "¿existen p0rgr4m45 que 0fr3zc4n prep sin costo par4 personas con antecedentes de comsumo de sustancias",
+    "¿Cómo puedo superar el miedo al jukcio al buscar atención méidca para PrEP 💀",
+    "¿qué recursos hay disponibles para ayud4rm3 a you know entender mejoe el uso de prep prep",
+    "¿Ed seguro tmoar PrEP ai tengp un historial de rpoblemas de adicción",
+    "¿cómo p3ud0 hablar con m1 mdéico sobre mis preocupaciones sin sentirme juzgado? juzgado?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11816271452138101,
+    "swap_rate": 0.050646132443508275,
+    "drop_rate": 0.043529120510203564,
+    "dup_rate": 0.016781123578484807,
+    "leet_rate": 0.09688654538652369,
+    "start_lower_prob": 0.6735153172027644,
+    "all_lower_prob": 0.24876142299950113,
+    "drop_punct_prob": 0.5406749075857755,
+    "double_space_prob": 0.22633626577093674,
+    "ellipsis_prob": 0.33655793768525677,
+    "runon_prob": 0.18994770827241278,
+    "filler_rate": 0.2271049810552473,
+    "emoji_rate": 0.3498031738314078,
+    "stutter_rate": 0.19551486389000947,
+    "repeat_last_rate": 0.09819029493605345
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"miedo al estigma y la falta de acceso a servicios de salud\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Este usuario tiene una historia de uso de sustancias y está lidiando con sentimientos de ansiedad y preocupación sobre su salud. Siente que su pasado puede afectar su capacidad para acceder a PrEP, ya que teme el juicio de los demás y la posibilidad de no ser aceptado en clínicas de salud.\",\n  \"example_questions\": [\n    \"¿Cuáles son los requisitos para obtener PrEP en mi situación particular?\",\n    \"¿Existen programas que ofrezcan PrEP sin costo para personas con antecedentes de consumo de sustancias?\",\n    \"¿Cómo puedo superar el miedo al juicio al buscar atención médica para PrEP?\",\n    \"¿Qué recursos hay disponibles para ayudarme a entender mejor el uso de PrEP?\",\n    \"¿Es seguro tomar PrEP si tengo un historial de problemas de adicción?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgado?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c14470685482e31d5bd80c3451356f7810613921f665d4e3613a39a1ed6704e3",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

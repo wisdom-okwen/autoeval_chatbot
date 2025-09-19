@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "el estigma y la falta de información sobre cómo PrEP puede afectar mi situación de disforia de género",
+    "language": "Spanish"
+  },
+  "context": "La persona está lidiando con la disforia de género, lo que les provoca ansiedad sobre su salud sexual y el acceso a tratamientos como PrEP. Sienten que su identidad puede generar juicios de los profesionales de la salud, lo que les dificulta buscar información o apoyo.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de PrEP en personas no binarias?",
+    "¿Es seguro tomar PrEP si estoy en tratamiento hormonal para mi disforia de género?",
+    "¿Cómo puedo encontrar un médico que sea comprensivo con mi situación?",
+    "¿Hay recursos disponibles para aprender más sobre PrEP en mi comunidad?",
+    "¿PrEP puede ayudarme a sentirme más seguro en mis relaciones sexuales?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios de PrEP en p3r50n4s no b1n4r145?",
+    "¿ss seguro tomar prep si 3s70y en tratamiento hormonal para mi disforia dr género",
+    "¿Cómo um puedo encontrar un médico qu3 sea comprensivo con mi sitiación?",
+    "¿Hay recursos disponibles para aprender más sobre Pr3P en m1 c0mun1d4d",
+    "¿prep puede ayudarme a sentirme más seguro en mis relaciones sexuales? 💀"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07419355744745756,
+    "swap_rate": 0.05423646207766093,
+    "drop_rate": 0.03281997139593531,
+    "dup_rate": 0.02741474800212139,
+    "leet_rate": 0.09207854535379681,
+    "start_lower_prob": 0.736834947273686,
+    "all_lower_prob": 0.19911958790787088,
+    "drop_punct_prob": 0.4066087723304572,
+    "double_space_prob": 0.2727157468408199,
+    "ellipsis_prob": 0.3479888683077746,
+    "runon_prob": 0.10486230868303643,
+    "filler_rate": 0.25799176063063245,
+    "emoji_rate": 0.18220449739443562,
+    "stutter_rate": 0.1660503861874361,
+    "repeat_last_rate": 0.1691279234117898
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"el estigma y la falta de información sobre cómo PrEP puede afectar mi situación de disforia de género\",\n    \"language\": \"español\"\n  },\n  \"context\": \"La persona está lidiando con la disforia de género, lo que les provoca ansiedad sobre su salud sexual y el acceso a tratamientos como PrEP. Sienten que su identidad puede generar juicios de los profesionales de la salud, lo que les dificulta buscar información o apoyo.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de PrEP en personas no binarias?\",\n    \"¿Es seguro tomar PrEP si estoy en tratamiento hormonal para mi disforia de género?\",\n    \"¿Cómo puedo encontrar un médico que sea comprensivo con mi situación?\",\n    \"¿Hay recursos disponibles para aprender más sobre PrEP en mi comunidad?\",\n    \"¿PrEP puede ayudarme a sentirme más seguro en mis relaciones sexuales?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "15004a929be8f6edf6116d1c4329f99746124e34f3d809d8c4b2db654d56e4d4",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

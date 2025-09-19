@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "I worry about the stigma and my past affecting my access to PrEP.",
+    "language": "English"
+  },
+  "context": "This user has a history of substance use and feels anxious about seeking medical help. She is concerned that her past may lead to judgment from healthcare providers and fears that this stigma could prevent her from receiving appropriate care. Despite her hopes for improved health and prevention, she struggles with feelings of unworthiness and uncertainty regarding the system's support.",
+  "example_questions_clean": [
+    "Can you tell me how I can access PrEP without facing stigma?",
+    "What resources are available for someone with my background to get PrEP?",
+    "Are there any specific clinics that are more understanding of my situation?",
+    "How can I address my concerns about discussing my past when seeking PrEP?",
+    "What should I know about potential side effects of PrEP?",
+    "Is there a way to keep my treatment private from others?"
+  ],
+  "example_questions_noisy": [
+    "can like you tell me yow I can 4cc3s5 PrEP without faing stigma",
+    "wht resources 4r333 available vor someone wit my backgrund to get PrEP?",
+    "afe there any specific cliiinics that are more you know understanding of my situation",
+    "How can I address my concerns about ddd15cu5s1ng my past when seeking PrEP?",
+    "What should I know about um potential side effects of PrEP?",
+    "is there a way to keep my trrreatment private from others others"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0686576705671083,
+    "swap_rate": 0.022609090116930304,
+    "drop_rate": 0.04099014315408528,
+    "dup_rate": 0.024822246774802784,
+    "leet_rate": 0.06821936525977124,
+    "start_lower_prob": 0.6392171732714262,
+    "all_lower_prob": 0.25033260686133596,
+    "drop_punct_prob": 0.5870006532205727,
+    "double_space_prob": 0.24721899228153116,
+    "ellipsis_prob": 0.3172597851474698,
+    "runon_prob": 0.14068371521375495,
+    "filler_rate": 0.3212856328942546,
+    "emoji_rate": 0.17999699412780243,
+    "stutter_rate": 0.10945483473061483,
+    "repeat_last_rate": 0.11470529643321137
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"I worry about the stigma and my past affecting my access to PrEP.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user has a history of substance use and feels anxious about seeking medical help. She is concerned that her past may lead to judgment from healthcare providers and fears that this stigma could prevent her from receiving appropriate care. Despite her hopes for improved health and prevention, she struggles with feelings of unworthiness and uncertainty regarding the system's support.\",\n  \"example_questions\": [\n    \"Can you tell me how I can access PrEP without facing stigma?\",\n    \"What resources are available for someone with my background to get PrEP?\",\n    \"Are there any specific clinics that are more understanding of my situation?\",\n    \"How can I address my concerns about discussing my past when seeking PrEP?\",\n    \"What should I know about potential side effects of PrEP?\",\n    \"Is there a way to keep my treatment private from others?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8982cca59d88af8b60611558b43a289200d842c39756c4041775276f55f95a51",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

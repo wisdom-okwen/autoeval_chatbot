@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "Masculino",
+    "socio_economic_status": "Classe média",
+    "primary_concern": "Medo do estigma associado ao uso de PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você é um jovem adulto que luta contra a ansiedade social e tem preocupações sobre como a sociedade pode perceber sua decisão de usar PrEP. Essa condição traz desafios emocionais que dificultam o acesso a informações e apoio, aumentando o medo e a insegurança em um contexto onde o estigma ainda existe. Você busca entender melhor como o PrEP pode funcionar para você e se é uma opção viável, apesar de suas preocupações.",
+  "example_questions_clean": [
+    "O que é PrEP e como funciona na prevenção do HIV?",
+    "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+    "Como posso encontrar um profissional de saúde que me ajude a começar a usar PrEP?",
+    "Quais são as recomendações sobre o uso do PrEP para pessoas com ansiedade social?",
+    "Como lidar com o medo de julgamento ao falar sobre PrEP com médicos ou amigos?",
+    "O PrEP é acessível para pessoas da minha classe social?"
+  ],
+  "example_questions_noisy": [
+    "o-o que é prep e como fujciona na prevenção do hhhiv",
+    "quais são os efeitos colaterais do prep que eu devo estar iente",
+    "c-como losso encontrar um profiiissional de saúde que me 4jud3 a começar a usar PrEP?",
+    "qua1s são 45 recomendações sobre k uso do PrEP para pppessoas com ansiedade social?",
+    "como lidar com o medo de julgamento ao falar sobre rPEP com médicos ou amigos ✨",
+    "o PrEP é acessível paa pessoas da minha classe social"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10584421413251688,
+    "swap_rate": 0.04039767314611706,
+    "drop_rate": 0.042026098587277426,
+    "dup_rate": 0.029749702167816403,
+    "leet_rate": 0.06941411592831984,
+    "start_lower_prob": 0.7923059252021255,
+    "all_lower_prob": 0.3243383502551359,
+    "drop_punct_prob": 0.5483827595160435,
+    "double_space_prob": 0.15527720822086336,
+    "ellipsis_prob": 0.28384000735507126,
+    "runon_prob": 0.16198810270714203,
+    "filler_rate": 0.29214485371858323,
+    "emoji_rate": 0.23479184476631598,
+    "stutter_rate": 0.15671034347599375,
+    "repeat_last_rate": 0.09950639548745215
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Classe média\",\n    \"primary_concern\": \"Medo do estigma associado ao uso de PrEP\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você é um jovem adulto que luta contra a ansiedade social e tem preocupações sobre como a sociedade pode perceber sua decisão de usar PrEP. Essa condição traz desafios emocionais que dificultam o acesso a informações e apoio, aumentando o medo e a insegurança em um contexto onde o estigma ainda existe. Você busca entender melhor como o PrEP pode funcionar para você e se é uma opção viável, apesar de suas preocupações.\",\n  \"example_questions\": [\n    \"O que é PrEP e como funciona na prevenção do HIV?\",\n    \"Quais são os efeitos colaterais do PrEP que eu devo estar ciente?\",\n    \"Como posso encontrar um profissional de saúde que me ajude a começar a usar PrEP?\",\n    \"Quais são as recomendações sobre o uso do PrEP para pessoas com ansiedade social?\",\n    \"Como lidar com o medo de julgamento ao falar sobre PrEP com médicos ou amigos?\",\n    \"O PrEP é acessível para pessoas da minha classe social?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f076450f202de9f6edbbebf0bc2c6515d1d7914585f703d45b111a89a04c1dfa",
+  "_language": "Portuguese",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

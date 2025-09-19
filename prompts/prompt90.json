@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "managing anxiety about the medication's side effects and stigma around its use",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old American woman from a middle-class background who has been coping with an anxiety disorder. She is interested in PrEP for HIV prevention but feels overwhelmed by her anxiety regarding potential side effects and the societal stigma attached to taking a medication for HIV prevention. This fear sometimes prevents her from seeking out necessary health information and support, making it challenging for her to take the next steps.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I address my anxiety about taking medication like PrEP?",
+    "Are there support groups for people using PrEP that can help me feel less alone?",
+    "Can you explain how PrEP works in simple terms for someone who is anxious?",
+    "What resources are available to help me learn more about PrEP without feeling judged?"
+  ],
+  "example_questions_noisy": [
+    "What are the common 51d3 effects of PrEP that I should be aware of? 😅 😅",
+    "How can I address my anxiety about taking medication like PrEP PrEP",
+    "4-4r3 th3r3 suoport groups for p30pl3 using PrEP that cwn hel[ i mean me feel less alone alone",
+    "C-Can you explain how PrEP works in simple terms for someone who is anxious? 🙄",
+    "what rdsources are abailable to help me learn more about PrEP wiyhout feeling judged judged"
+  ],
+  "style_profile": {
+    "typo_rate": 0.1041403513923252,
+    "swap_rate": 0.03149045840730903,
+    "drop_rate": 0.035347627527486866,
+    "dup_rate": 0.01943225848471726,
+    "leet_rate": 0.10578543285023734,
+    "start_lower_prob": 0.6671265800016795,
+    "all_lower_prob": 0.24269574253839138,
+    "drop_punct_prob": 0.38449986595308383,
+    "double_space_prob": 0.2635227791325209,
+    "ellipsis_prob": 0.2726673447636968,
+    "runon_prob": 0.14827425225573237,
+    "filler_rate": 0.3685889087326415,
+    "emoji_rate": 0.25189444832366537,
+    "stutter_rate": 0.17618581639631342,
+    "repeat_last_rate": 0.15733096919136097
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"managing anxiety about the medication's side effects and stigma around its use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old American woman from a middle-class background who has been coping with an anxiety disorder. She is interested in PrEP for HIV prevention but feels overwhelmed by her anxiety regarding potential side effects and the societal stigma attached to taking a medication for HIV prevention. This fear sometimes prevents her from seeking out necessary health information and support, making it challenging for her to take the next steps.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I address my anxiety about taking medication like PrEP?\",\n    \"Are there support groups for people using PrEP that can help me feel less alone?\",\n    \"Can you explain how PrEP works in simple terms for someone who is anxious?\",\n    \"What resources are available to help me learn more about PrEP without feeling judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "95aa80bd5ff885eff4ec2ab27f902bcc6d085c1958335b8afa9c85d342193013",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

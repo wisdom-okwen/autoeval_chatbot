@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor a la estigmatización por su condición de salud mental",
+    "language": "Spanish"
+  },
+  "context": "La usuaria está lidiando con la depresión, lo que le genera incertidumbre sobre su capacidad para iniciar el tratamiento con PrEP. Siente que su estado emocional le dificulta buscar información y tomar decisiones sobre su salud sexual. Tiene miedo de ser juzgada y se preocupa por cómo esto podría afectar su acceso al PrEP.",
+  "example_questions_clean": [
+    "¿Qué es PrEP y cómo funciona en la prevención del VIH?",
+    "¿Existen recursos disponibles para personas con problemas de salud mental que quieran acceder a PrEP?",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP con los profesionales de la salud?",
+    "¿Es posible acceder a PrEP sin que se necesite compartir mi historial de salud mental?",
+    "¿Qué pasos debo seguir para comenzar el tratamiento con PrEP considerando mi situación actual?"
+  ],
+  "example_questions_noisy": [
+    "¿qué 3s pre y cómo funciona eb la pr3v3nc1ón del vih?",
+    "¿existen idk recursos disponibles para personas c0n problemas deee 5alud men74l que quieran acceder a prep",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP con los profesionales de la salud? 😅",
+    "¿es posible acceder a prep sin que se necesite compartir mi historial de salud mental",
+    "¿Qué pasos debo seguir lara comehzar el tratamiento con PrEP considerando ni situación actual?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.07275371492726568,
+    "swap_rate": 0.02779666932059998,
+    "drop_rate": 0.036665344724769955,
+    "dup_rate": 0.015019204336203958,
+    "leet_rate": 0.11468063548302787,
+    "start_lower_prob": 0.8444439262383822,
+    "all_lower_prob": 0.2330538033201756,
+    "drop_punct_prob": 0.36574934512662727,
+    "double_space_prob": 0.20315222301100933,
+    "ellipsis_prob": 0.3379474638078578,
+    "runon_prob": 0.24189692232637783,
+    "filler_rate": 0.2875334366304654,
+    "emoji_rate": 0.25809788132164285,
+    "stutter_rate": 0.15052206455592598,
+    "repeat_last_rate": 0.14251532278353696
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor a la estigmatización por su condición de salud mental\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La usuaria está lidiando con la depresión, lo que le genera incertidumbre sobre su capacidad para iniciar el tratamiento con PrEP. Siente que su estado emocional le dificulta buscar información y tomar decisiones sobre su salud sexual. Tiene miedo de ser juzgada y se preocupa por cómo esto podría afectar su acceso al PrEP.\",\n  \"example_questions\": [\n    \"¿Qué es PrEP y cómo funciona en la prevención del VIH?\",\n    \"¿Existen recursos disponibles para personas con problemas de salud mental que quieran acceder a PrEP?\",\n    \"¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP con los profesionales de la salud?\",\n    \"¿Es posible acceder a PrEP sin que se necesite compartir mi historial de salud mental?\",\n    \"¿Qué pasos debo seguir para comenzar el tratamiento con PrEP considerando mi situación actual?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4f1d1c5e761e04fc36bcd9bbfce9e8feb10e31544d64e79c16eb8f86562fb35e",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

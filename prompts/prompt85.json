@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "navigating PrEP while managing my MS and potential interactions with my medications",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old woman living with multiple sclerosis, which adds complexity to your healthcare decisions. The fear of medication interactions and the stigma around taking preventive measures for HIV weigh heavily on your mind. You seek reliable information about PrEP, hoping to balance your health needs while addressing your concerns about safety and societal judgment.",
+  "example_questions_clean": [
+    "Can PrEP be safely taken alongside my current medications for multiple sclerosis?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I talk to my healthcare provider about starting PrEP without feeling judged?",
+    "Are there any specific resources for people with chronic conditions like MS considering PrEP?",
+    "What support groups or communities exist for individuals like me exploring PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can PrEP be safely taken alongside my current medications for multiple sclerosis",
+    "what are the potential side effffects of PrEP that I should be aware of?",
+    "i mean hoq can i talk to my healthcate provider about starting pr3p w17h0u7 feeling judged?",
+    "are there i mean aaany specific resources for people with chronic conditions like MS considering PrEP?",
+    "what support groooups or communities exist for 1nd1v1du4l5 like me exploring Pro?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09068497316697771,
+    "swap_rate": 0.021643312272400923,
+    "drop_rate": 0.021731218725716758,
+    "dup_rate": 0.017184981725094542,
+    "leet_rate": 0.07130991679117363,
+    "start_lower_prob": 0.6199342559584331,
+    "all_lower_prob": 0.24467399280494553,
+    "drop_punct_prob": 0.30331799557994127,
+    "double_space_prob": 0.3473959335471446,
+    "ellipsis_prob": 0.3313358588893086,
+    "runon_prob": 0.20453306774447264,
+    "filler_rate": 0.3083019135001656,
+    "emoji_rate": 0.17374880396064887,
+    "stutter_rate": 0.14789708737437096,
+    "repeat_last_rate": 0.14770304904831008
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"navigating PrEP while managing my MS and potential interactions with my medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old woman living with multiple sclerosis, which adds complexity to your healthcare decisions. The fear of medication interactions and the stigma around taking preventive measures for HIV weigh heavily on your mind. You seek reliable information about PrEP, hoping to balance your health needs while addressing your concerns about safety and societal judgment.\",\n  \"example_questions\": [\n    \"Can PrEP be safely taken alongside my current medications for multiple sclerosis?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I talk to my healthcare provider about starting PrEP without feeling judged?\",\n    \"Are there any specific resources for people with chronic conditions like MS considering PrEP?\",\n    \"What support groups or communities exist for individuals like me exploring PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "99a8c27c8aecfd4ac71f501bd15bb1dc892a7f899378e80bcdb4eb68a164b01e",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

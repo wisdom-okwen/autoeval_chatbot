@@ -17,7 +17,7 @@ HISTORY_FILE = "/playpen-ssd/wokwen/projects/autoeval_chatbot/prompt_history.txt
 os.makedirs(PROMPT_DIR, exist_ok=True)
 
 NUM_PROMPTS = 1
-START_INDEX = 530
+START_INDEX = 0
 
 languages = ["English", "French", "English", "Spanish", "English", "Portuguese", "English", "Swahili", "Dutch", "English"]
 

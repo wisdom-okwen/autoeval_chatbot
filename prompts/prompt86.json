@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Non-binary",
+    "socio_economic_status": "Low-income",
+    "primary_concern": "Navigating PrEP access due to challenges with communication and understanding medical information",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that makes it difficult for them to process complex information. They feel overwhelmed by medical terminology and worry that their condition might lead to misunderstandings when discussing PrEP with healthcare providers. Despite their concerns, they are hopeful about protecting themselves from HIV but fear stigma and judgment from others.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work for HIV prevention?",
+    "Are there specific challenges I might face when trying to get PrEP prescriptions?",
+    "How can I communicate my needs effectively to my doctor about PrEP?",
+    "What resources are available for people like me who may struggle with understanding medical information?",
+    "Is it common for people with neurodevelopmental disorders to be on PrEP?",
+    "How can I find support groups that understand my unique situation regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-what you know isss PrEP and how does it work for HIV prevention?",
+    "A-Are thee specific challenges I might face when trying to get Pr3P pr35crip710ns pr35crip710ns",
+    "how can I d0mmun1c473 ky needs effwctively to my dotcor about PrEP?",
+    "Wha resources are available for people like me whooo may struggle with understanding medical information?",
+    "is ir common for people with n3ur0d3vel0pmen74l um disorders tk be on PrE?P",
+    "how can I find support groups that understand my unique situation regarding PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0663034353948352,
+    "swap_rate": 0.051780119871540006,
+    "drop_rate": 0.04253786533022456,
+    "dup_rate": 0.015274521231467157,
+    "leet_rate": 0.0714675616457961,
+    "start_lower_prob": 0.7721853315127901,
+    "all_lower_prob": 0.2621365754791126,
+    "drop_punct_prob": 0.5589478280643632,
+    "double_space_prob": 0.3291649289956893,
+    "ellipsis_prob": 0.3074418553115128,
+    "runon_prob": 0.24221207049036933,
+    "filler_rate": 0.3848259168960741,
+    "emoji_rate": 0.23893689957908282,
+    "stutter_rate": 0.13367001546359758,
+    "repeat_last_rate": 0.09137035851508485
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Non-binary\",\n    \"socio_economic_status\": \"Low-income\",\n    \"primary_concern\": \"Navigating PrEP access due to challenges with communication and understanding medical information\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that makes it difficult for them to process complex information. They feel overwhelmed by medical terminology and worry that their condition might lead to misunderstandings when discussing PrEP with healthcare providers. Despite their concerns, they are hopeful about protecting themselves from HIV but fear stigma and judgment from others.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work for HIV prevention?\",\n    \"Are there specific challenges I might face when trying to get PrEP prescriptions?\",\n    \"How can I communicate my needs effectively to my doctor about PrEP?\",\n    \"What resources are available for people like me who may struggle with understanding medical information?\",\n    \"Is it common for people with neurodevelopmental disorders to be on PrEP?\",\n    \"How can I find support groups that understand my unique situation regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1a45417e7284e83139c5571608239393f4d0422bbf3db4656e801e96c0da317c",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

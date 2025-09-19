@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 30,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "receio de discriminação devido ao histórico de uso de substâncias",
+    "language": "Portuguese"
+  },
+  "context": "Você está buscando informações sobre o PrEP, mas se sente insegura devido ao seu histórico de uso de substâncias. Essa experiência traz um sentimento de vulnerabilidade, fazendo com que você tenha medo da discriminação ao buscar ajuda. Além disso, você se preocupa com como isso pode afetar sua saúde e acesso ao tratamento.",
+  "example_questions_clean": [
+    "O que é PrEP e como funciona?",
+    "Existem riscos associados ao uso de PrEP para alguém com meu histórico?",
+    "Como posso me sentir mais confortável ao discutir meu histórico com profissionais de saúde?",
+    "Quais são os passos para obter PrEP, considerando meu contexto?",
+    "Onde posso encontrar apoio para lidar com o estigma relacionado ao uso de PrEP?",
+    "O que fazer se eu tiver dificuldades em acessar o PrEP devido à minha situação?"
+  ],
+  "example_questions_noisy": [
+    "o que é prep e comp funciona?",
+    "3xi573m riscos associados ao i mean uso de PrEP para a.guém com meu h15tór1c0? 😭",
+    "como posso me sentir mais c0nfor7áv3l ao discutir meu histórico com profissionai ce saúde 🫠 🫠",
+    "quais são os passos para obter PrEP, considerando m3u contexto?",
+    "o-ond posssso encontrar aaapoio para lidar com o estigma relacionado ao uso de PrEP ✨",
+    "o-o que fazer se eu tiver dif1culd4d35 em acessar 0 PrEP devido à minha ituação?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05339805703551357,
+    "swap_rate": 0.056974437567825026,
+    "drop_rate": 0.0474325144160954,
+    "dup_rate": 0.02754062891585078,
+    "leet_rate": 0.11065888259516954,
+    "start_lower_prob": 0.7445194283845069,
+    "all_lower_prob": 0.2339990772523483,
+    "drop_punct_prob": 0.48371240501828217,
+    "double_space_prob": 0.31895343201486054,
+    "ellipsis_prob": 0.2352947201164573,
+    "runon_prob": 0.29481665060284135,
+    "filler_rate": 0.32234748403100505,
+    "emoji_rate": 0.2306350599989279,
+    "stutter_rate": 0.19214478556322379,
+    "repeat_last_rate": 0.13818116817803033
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 30,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"receio de discriminação devido ao histórico de uso de substâncias\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está buscando informações sobre o PrEP, mas se sente insegura devido ao seu histórico de uso de substâncias. Essa experiência traz um sentimento de vulnerabilidade, fazendo com que você tenha medo da discriminação ao buscar ajuda. Além disso, você se preocupa com como isso pode afetar sua saúde e acesso ao tratamento.\",\n  \"example_questions\": [\n    \"O que é PrEP e como funciona?\",\n    \"Existem riscos associados ao uso de PrEP para alguém com meu histórico?\",\n    \"Como posso me sentir mais confortável ao discutir meu histórico com profissionais de saúde?\",\n    \"Quais são os passos para obter PrEP, considerando meu contexto?\",\n    \"Onde posso encontrar apoio para lidar com o estigma relacionado ao uso de PrEP?\",\n    \"O que fazer se eu tiver dificuldades em acessar o PrEP devido à minha situação?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4d5fd73b5171dd73766027c1afd30c8d6c9974f1f0d35f11349a41097ebd54fb",
+  "_language": "Portuguese",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

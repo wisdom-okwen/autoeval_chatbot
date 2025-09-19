@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 27,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and lack of support from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are navigating gender dysphoria and are interested in PrEP for HIV prevention. You are concerned about how your gender identity may impact your experience with healthcare systems and the potential stigma from providers. You want to ensure your health and safety without facing discrimination or misunderstanding.",
+  "example_questions_clean": [
+    "What are the steps to start taking PrEP in a way that feels safe for me?",
+    "How can I find healthcare providers who are knowledgeable about gender identity and PrEP?",
+    "What should I do if I experience stigma or discrimination when seeking PrEP?",
+    "Are there community resources available to support people like me in accessing PrEP?",
+    "How does taking PrEP affect my body and mental health, especially in relation to my gender identity?"
+  ],
+  "example_questions_noisy": [
+    "what are the um steps to start taking prep 1n a way thaf feels safe for me",
+    "how can i find healthcare pdoviders who are knowledgeable abouuut gender identity and idk prep? 🤔",
+    "um what should i do if i experience stigma or discrimination when seeking prep",
+    "are there community resources vaailable i mean to suppotr people like me in accessing PrEP?",
+    "how does taking prep affevt my body and mental health, especially in relaion to mu gender you know identity?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10216180390705212,
+    "swap_rate": 0.03780069183028299,
+    "drop_rate": 0.038523844092903964,
+    "dup_rate": 0.02605200309820932,
+    "leet_rate": 0.056545153918794354,
+    "start_lower_prob": 0.7768113775023339,
+    "all_lower_prob": 0.1750965039340482,
+    "drop_punct_prob": 0.47515791064968654,
+    "double_space_prob": 0.3040538625507554,
+    "ellipsis_prob": 0.23977587624937569,
+    "runon_prob": 0.18930693206523574,
+    "filler_rate": 0.4520540236418321,
+    "emoji_rate": 0.32152319694653714,
+    "stutter_rate": 0.10051602432823831,
+    "repeat_last_rate": 0.16882960656164336
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 27,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and lack of support from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating gender dysphoria and are interested in PrEP for HIV prevention. You are concerned about how your gender identity may impact your experience with healthcare systems and the potential stigma from providers. You want to ensure your health and safety without facing discrimination or misunderstanding.\",\n  \"example_questions\": [\n    \"What are the steps to start taking PrEP in a way that feels safe for me?\",\n    \"How can I find healthcare providers who are knowledgeable about gender identity and PrEP?\",\n    \"What should I do if I experience stigma or discrimination when seeking PrEP?\",\n    \"Are there community resources available to support people like me in accessing PrEP?\",\n    \"How does taking PrEP affect my body and mental health, especially in relation to my gender identity?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3b8961bc930d3927e08e728952932e47b33c1a94b9d2910d371879324c732e01",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

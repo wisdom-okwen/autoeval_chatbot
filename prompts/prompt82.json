@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 30,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Dificultades para acceder a tratamientos debido a mi condición de dolor crónico",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 30 años que vive en México y que padece un dolor crónico que afecta tu vida diaria. Esto ha generado ansiedad y miedo al considerar el uso de PrEP, ya que temes que los efectos secundarios puedan agravar tu condición. Además, la falta de recursos económicos te hace sentir que el acceso a la salud es un lujo inalcanzable, lo que te llena de frustración e incertidumbre sobre cómo protegerte adecuadamente.",
+  "example_questions_clean": [
+    "¿Cómo puedo saber si PrEP es seguro para mí considerando mi dolor crónico?",
+    "¿Existen recursos o programas en México que me ayuden a acceder a PrEP?",
+    "Me preocupa el costo de PrEP, ¿hay opciones asequibles disponibles?",
+    "¿Qué debo discutir con mi médico sobre mi situación antes de empezar con PrEP?",
+    "¿PrEP tiene efectos secundarios que puedan afectar mi condición de salud actual?",
+    "¿Cómo puedo superar la ansiedad sobre la posibilidad de iniciar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cómo puedo saber si pre es seguro ara mí considerando mi color crónico",
+    "¿Existen recursos o programas eh Méx1c0 que m3 ayuden a idk accederrr a PrEP?",
+    "m3 preocupa el costo de pr3p, ¿hay opciones asequibles disponibles?",
+    "¿-¿qué debo disuctir con m1 médido sobre mi 517uac1ón antes de empezar con prep 🤔",
+    "¿-¿PrEP tiene efectos secundarios que puedan afrctar mi condición de salud actual?",
+    "¿Cóm0 puedo superar l4 ansiedad sobre la posib1lidad de iniciar orEP"
+  ],
+  "style_profile": {
+    "typo_rate": 0.09272144583292147,
+    "swap_rate": 0.03409133195598006,
+    "drop_rate": 0.0427106108596748,
+    "dup_rate": 0.0226872455503095,
+    "leet_rate": 0.09883943675994533,
+    "start_lower_prob": 0.8287435950481843,
+    "all_lower_prob": 0.34522160922025197,
+    "drop_punct_prob": 0.40240182886626014,
+    "double_space_prob": 0.2061458140544696,
+    "ellipsis_prob": 0.3120200002931,
+    "runon_prob": 0.28458142513454965,
+    "filler_rate": 0.42359043728289836,
+    "emoji_rate": 0.2714965069820599,
+    "stutter_rate": 0.11318256486847733,
+    "repeat_last_rate": 0.12355538375832142
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 30,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Dificultades para acceder a tratamientos debido a mi condición de dolor crónico\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 30 años que vive en México y que padece un dolor crónico que afecta tu vida diaria. Esto ha generado ansiedad y miedo al considerar el uso de PrEP, ya que temes que los efectos secundarios puedan agravar tu condición. Además, la falta de recursos económicos te hace sentir que el acceso a la salud es un lujo inalcanzable, lo que te llena de frustración e incertidumbre sobre cómo protegerte adecuadamente.\",\n  \"example_questions\": [\n    \"¿Cómo puedo saber si PrEP es seguro para mí considerando mi dolor crónico?\",\n    \"¿Existen recursos o programas en México que me ayuden a acceder a PrEP?\",\n    \"Me preocupa el costo de PrEP, ¿hay opciones asequibles disponibles?\",\n    \"¿Qué debo discutir con mi médico sobre mi situación antes de empezar con PrEP?\",\n    \"¿PrEP tiene efectos secundarios que puedan afectar mi condición de salud actual?\",\n    \"¿Cómo puedo superar la ansiedad sobre la posibilidad de iniciar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7b8c5c42f61dbed72abd73241ea38d342d2c4190898ba311e70077fd9e864361",
+  "_language": "Spanish",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

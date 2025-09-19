@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 28,
+    "gender": "femenina",
+    "socio_economic_status": "medio",
+    "primary_concern": "preocupación por los efectos secundarios y el estigma social",
+    "language": "Spanish"
+  },
+  "context": "Estás lidiando con un trastorno de ansiedad que afecta tu capacidad para tomar decisiones relacionadas con tu salud. Tienes miedo de los efectos secundarios del PrEP y de cómo podría ser percibido por tus amigos y familia. Esta situación te hace dudar si deberías considerar el PrEP como una opción preventiva.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP?",
+    "¿Cómo puedo hablar sobre el PrEP con mis amigos sin sentirme juzgada?",
+    "¿Hay recursos disponibles para ayudarme a manejar mi ansiedad al considerar el PrEP?",
+    "¿El PrEP es seguro para alguien que ya tiene problemas de ansiedad?",
+    "¿Qué pasos debo seguir para obtener el PrEP en mi área?",
+    "¿Existen grupos de apoyo para personas que están considerando el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP? PrEP?",
+    "¿-¿Cómo puedo you know hablar sobre el PrEP con mis amigos sun sentirme juzgada",
+    "y-you know ¿hay recursosss disponibles par4 ayudarme 4 amnejar mi ansiedad al considerar eeel prep",
+    "¿El PrP es seguro para alguien que ya teine problemas d3 ansiedad",
+    "qué pasos debo seguir para obteenr 3l P3rP en mi like ár34? 🙂",
+    "¿3x15ttt3n grupos de apoyo para um personas que están considerando el PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0741106306380494,
+    "swap_rate": 0.046413823789532085,
+    "drop_rate": 0.03437803921455856,
+    "dup_rate": 0.026837698593078108,
+    "leet_rate": 0.10746763511564983,
+    "start_lower_prob": 0.77269537706016,
+    "all_lower_prob": 0.18206242456057525,
+    "drop_punct_prob": 0.5977111439213103,
+    "double_space_prob": 0.2660162267678985,
+    "ellipsis_prob": 0.1654430982404874,
+    "runon_prob": 0.18220844571620706,
+    "filler_rate": 0.44926861399648954,
+    "emoji_rate": 0.19927746486062767,
+    "stutter_rate": 0.11122520156734098,
+    "repeat_last_rate": 0.0902841318457166
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"preocupación por los efectos secundarios y el estigma social\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Estás lidiando con un trastorno de ansiedad que afecta tu capacidad para tomar decisiones relacionadas con tu salud. Tienes miedo de los efectos secundarios del PrEP y de cómo podría ser percibido por tus amigos y familia. Esta situación te hace dudar si deberías considerar el PrEP como una opción preventiva.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes del PrEP?\",\n    \"¿Cómo puedo hablar sobre el PrEP con mis amigos sin sentirme juzgada?\",\n    \"¿Hay recursos disponibles para ayudarme a manejar mi ansiedad al considerar el PrEP?\",\n    \"¿El PrEP es seguro para alguien que ya tiene problemas de ansiedad?\",\n    \"¿Qué pasos debo seguir para obtener el PrEP en mi área?\",\n    \"¿Existen grupos de apoyo para personas que están considerando el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5dfc88f39160f8263d7fc29761993dcfcfb3342142a270084fce1b1f76d964aa",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

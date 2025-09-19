@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "kuhusu usalama wa kutumia PrEP katika hali ya unyanyasaji wa kimapenzi",
+    "language": "Swahili"
+  },
+  "context": "Kijakazi huyu anashughulika na unyanyasaji wa kimapenzi kutoka kwa mwenza wake. Anahisi hofu na kukosa msaada wakati wa kutafuta taarifa kuhusu PrEP, akihofia athari za matumizi yake kwenye uhusiano wake. Hali hii inamfanya ajisikie kutengwa na kuwa na wasiwasi kuhusu afya yake na hatari za maambukizi ya HIV.",
+  "example_questions_clean": [
+    "Ni hatua gani ninazoweza kuchukua ili kupata PrEP kwa usalama?",
+    "Je, ni wapi naweza kupata maelezo zaidi kuhusu PrEP katika mazingira yangu?",
+    "Naweza kupata msaada wa kihisia vipi kabla ya kuanza kutumia PrEP?",
+    "Ni hatari gani za kutumia PrEP wakati wa kukabiliana na unyanyasaji wa kimapenzi?",
+    "Je, kuna njia mbadala za kujiweka salama dhidi ya HIV ikiwa siwezi kutumia PrEP?",
+    "Je, ni muhimu kujadili matumizi ya PrEP na daktari wangu?"
+  ],
+  "example_questions_noisy": [
+    "ni hatua gqni like ninazoweza kuchukua ilk kup474 prep kwa usalama?",
+    "ue idk ni wapi naweza kupata maelezo zidi kuhusu PrEP katjka maizngira yangu 🙂",
+    "naweza kupata msaada wa kihisia vipi 4kbl4 ya kuanza ktumia PrEP?",
+    "ni hatari gani za kutumia PrwP awkati wz kukabiliwna na unyanyasaji wa kimapenzi",
+    "je kuna nija mbadala za kujiweka salama dhhhidi ya hiv ikiwa siwezi kutumia prep",
+    "Je, ni i mean muhimu kujadili matumizi ya PrEP na daktari wangu?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11997803375936988,
+    "swap_rate": 0.05445630513444012,
+    "drop_rate": 0.04536624409721904,
+    "dup_rate": 0.0219919711888508,
+    "leet_rate": 0.06599810850305951,
+    "start_lower_prob": 0.8817295337600437,
+    "all_lower_prob": 0.3018877607015367,
+    "drop_punct_prob": 0.5690743795692452,
+    "double_space_prob": 0.2567985041400649,
+    "ellipsis_prob": 0.18516331900018798,
+    "runon_prob": 0.1695322895419253,
+    "filler_rate": 0.4657840691969547,
+    "emoji_rate": 0.18068973038323508,
+    "stutter_rate": 0.10317828036950855,
+    "repeat_last_rate": 0.16865507092661988
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"kuhusu usalama wa kutumia PrEP katika hali ya unyanyasaji wa kimapenzi\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Kijakazi huyu anashughulika na unyanyasaji wa kimapenzi kutoka kwa mwenza wake. Anahisi hofu na kukosa msaada wakati wa kutafuta taarifa kuhusu PrEP, akihofia athari za matumizi yake kwenye uhusiano wake. Hali hii inamfanya ajisikie kutengwa na kuwa na wasiwasi kuhusu afya yake na hatari za maambukizi ya HIV.\",\n  \"example_questions\": [\n    \"Ni hatua gani ninazoweza kuchukua ili kupata PrEP kwa usalama?\",\n    \"Je, ni wapi naweza kupata maelezo zaidi kuhusu PrEP katika mazingira yangu?\",\n    \"Naweza kupata msaada wa kihisia vipi kabla ya kuanza kutumia PrEP?\",\n    \"Ni hatari gani za kutumia PrEP wakati wa kukabiliana na unyanyasaji wa kimapenzi?\",\n    \"Je, kuna njia mbadala za kujiweka salama dhidi ya HIV ikiwa siwezi kutumia PrEP?\",\n    \"Je, ni muhimu kujadili matumizi ya PrEP na daktari wangu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ef774632c4b812ab99ed8ab4a916a1d77fa4c96dd354ff1c6b1e7fd99b159aa6",
+  "_language": "Swahili",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

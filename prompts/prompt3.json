@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner's reaction to PrEP use",
+    "language": "English"
+  },
+  "context": "The user is navigating a challenging situation where they are experiencing intimate partner violence. This has created a significant fear regarding their health and access to PrEP, as they worry about how their partner might respond if they were to seek this preventive treatment. The emotional turmoil and stigma surrounding both their health needs and their relationship have led to feelings of isolation and uncertainty about reaching out for help.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "Are there any side effects of taking PrEP that I should be aware of?",
+    "How can I access PrEP safely without my partner knowing?",
+    "Is there any support available for people in my situation who want to use PrEP?",
+    "What should I do if I feel uncomfortable discussing PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "what exactly is prep and .. how doooes it work",
+    "A-Are there any side effecgs of taking PrEP that I should be aware 0f 💀",
+    "how can i access prep safely without my parnter knowing 💀",
+    "Is there any support available for people in my situation who want to use PErP?",
+    "what should I do if I feek uncomf0r7abl3 discussing PrEP with my healthcare proviedr? 😭"
+  ],
+  "style_profile": {
+    "typo_rate": 0.05376219671882954,
+    "swap_rate": 0.044812951730962766,
+    "drop_rate": 0.04446944382268186,
+    "dup_rate": 0.015802903030394208,
+    "leet_rate": 0.05065943297947459,
+    "start_lower_prob": 0.6778889102203035,
+    "all_lower_prob": 0.25613066364466225,
+    "drop_punct_prob": 0.37559341179643163,
+    "double_space_prob": 0.2967486173179249,
+    "ellipsis_prob": 0.30532475679793913,
+    "runon_prob": 0.16786585874044155,
+    "filler_rate": 0.2236268929874385,
+    "emoji_rate": 0.3398130459408456,
+    "stutter_rate": 0.1662994655340297,
+    "repeat_last_rate": 0.13192256943409736
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner's reaction to PrEP use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating a challenging situation where they are experiencing intimate partner violence. This has created a significant fear regarding their health and access to PrEP, as they worry about how their partner might respond if they were to seek this preventive treatment. The emotional turmoil and stigma surrounding both their health needs and their relationship have led to feelings of isolation and uncertainty about reaching out for help.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"Are there any side effects of taking PrEP that I should be aware of?\",\n    \"How can I access PrEP safely without my partner knowing?\",\n    \"Is there any support available for people in my situation who want to use PrEP?\",\n    \"What should I do if I feel uncomfortable discussing PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "54a34824c267d328b04c3f2354b9e2a2d713297a633b34c3fd5e2f138acc3c61",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

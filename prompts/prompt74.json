@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how to manage PrEP with my learning disability",
+    "language": "English"
+  },
+  "context": "The user has a learning disability that makes processing medical information challenging. She feels anxious about understanding the details of PrEP and worries about whether she can adhere to the regimen. Despite her fears, she hopes to protect herself from HIV and seeks clear, accessible information.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work?",
+    "Are there any specific resources for people with learning disabilities regarding PrEP?",
+    "How can I make sure I remember to take PrEP daily?",
+    "What should I do if I miss a dose of PrEP?",
+    "Can I talk to a healthcare provider who understands my situation?",
+    "What are the possible side effects of PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "what is PrPE and how does it work 😕",
+    "are there any specific resources for people with learning disabilities regarding ;r3P? ;r3P?",
+    "how can 1 m4k3 sure I remember 70 take PfEP daily",
+    "What 5hhh0uld I do if I miss a dose of lrEP 🤔",
+    "can i talk to a healthcare provider who understands my situation? ✨",
+    "wh4t are the possible 51d3 effects of PrEP 7h47 I should be aware you know of?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.0771973891096622,
+    "swap_rate": 0.043221822685110864,
+    "drop_rate": 0.02215035115461373,
+    "dup_rate": 0.029551961461420286,
+    "leet_rate": 0.08879993441300305,
+    "start_lower_prob": 0.863761433393386,
+    "all_lower_prob": 0.23960445552874857,
+    "drop_punct_prob": 0.5960123525666796,
+    "double_space_prob": 0.22761643449180394,
+    "ellipsis_prob": 0.22953299318363854,
+    "runon_prob": 0.1517931100840484,
+    "filler_rate": 0.48197723482740923,
+    "emoji_rate": 0.3383045947547531,
+    "stutter_rate": 0.14795116232460626,
+    "repeat_last_rate": 0.1583056768497253
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how to manage PrEP with my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a learning disability that makes processing medical information challenging. She feels anxious about understanding the details of PrEP and worries about whether she can adhere to the regimen. Despite her fears, she hopes to protect herself from HIV and seeks clear, accessible information.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work?\",\n    \"Are there any specific resources for people with learning disabilities regarding PrEP?\",\n    \"How can I make sure I remember to take PrEP daily?\",\n    \"What should I do if I miss a dose of PrEP?\",\n    \"Can I talk to a healthcare provider who understands my situation?\",\n    \"What are the possible side effects of PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a1c6a5e60d5de6ddf5de2cd02b357055aa4c5dd7edbbfc95b658327b7c8cd607",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

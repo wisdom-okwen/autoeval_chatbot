@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP due to my mental health condition",
+    "language": "English"
+  },
+  "context": "As a 28-year-old woman living with schizophrenia, I often face challenges when it comes to managing my health. My condition sometimes clouds my ability to focus and process information, which makes me anxious about starting new treatments like PrEP. I'm also concerned about the stigma associated with both my mental health and HIV prevention, making it difficult for me to seek help openly.",
+  "example_questions_clean": [
+    "What are the steps to getting prescribed PrEP if I have a mental health condition?",
+    "Are there specific resources available for someone like me who is low-income?",
+    "How can I manage my anxiety when discussing PrEP with healthcare providers?",
+    "What should I know about potential side effects of PrEP in relation to my mental health?",
+    "Is there support for people living with schizophrenia who want to use PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps to gettong pr35cr1b3d PrEP if I have a mental hhhealth condition",
+    "are there specific resources available for someone ike me who is low-income?",
+    "how can i manage my anxiety when discussing prep with um healthcare providers",
+    "Waht should I nkoq abou7 potential side effects of PrEP in relation to like my m3n74l health? health?",
+    "is there support f0o0r people living with like schizophrenia who want to use PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.062466098494758523,
+    "swap_rate": 0.04747118240120057,
+    "drop_rate": 0.025383639886828978,
+    "dup_rate": 0.02470273473181539,
+    "leet_rate": 0.07756916462627896,
+    "start_lower_prob": 0.6934870492040316,
+    "all_lower_prob": 0.2687705099329153,
+    "drop_punct_prob": 0.3088696682419509,
+    "double_space_prob": 0.2100212937037406,
+    "ellipsis_prob": 0.2629128962641977,
+    "runon_prob": 0.1885311245773036,
+    "filler_rate": 0.456985627499159,
+    "emoji_rate": 0.23590612946524186,
+    "stutter_rate": 0.11007136073613051,
+    "repeat_last_rate": 0.10131489595487601
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP due to my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 28-year-old woman living with schizophrenia, I often face challenges when it comes to managing my health. My condition sometimes clouds my ability to focus and process information, which makes me anxious about starting new treatments like PrEP. I'm also concerned about the stigma associated with both my mental health and HIV prevention, making it difficult for me to seek help openly.\",\n  \"example_questions\": [\n    \"What are the steps to getting prescribed PrEP if I have a mental health condition?\",\n    \"Are there specific resources available for someone like me who is low-income?\",\n    \"How can I manage my anxiety when discussing PrEP with healthcare providers?\",\n    \"What should I know about potential side effects of PrEP in relation to my mental health?\",\n    \"Is there support for people living with schizophrenia who want to use PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cb6775fa80cfa55fd9681f48fc279c098e3e8f3fea9d22a3f977edd7a8ebf1ce",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and potential triggers related to PTSD",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old American woman from a lower-middle-class background who has been diagnosed with PTSD. She struggles with anxiety about seeking healthcare due to past trauma and fears being judged or misunderstood by providers. This makes her hesitant to explore PrEP as an option for HIV prevention, despite understanding its importance. The thought of discussing her sexual health can be overwhelming and triggering for her.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "Are there mental health resources available for someone considering PrEP?",
+    "How do I approach a healthcare provider about getting prescribed PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Can I take PrEP if I have PTSD, and will it impact my mental health?"
+  ],
+  "example_questions_noisy": [
+    "what exactly um is PrEP and how does it w0rk?",
+    "sre theer mental health resources available f0r um soemone considering prep",
+    "h-how do 1 approaccch a healthcare provider about geting prescribed PfEP?",
+    "what hsould i expecf during the initial consultatio for prep?",
+    "can i take like prep if i have ptsd and .. w1ll jt impact my mental h3al7h"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10808197048316415,
+    "swap_rate": 0.05574584832102723,
+    "drop_rate": 0.03565462064679393,
+    "dup_rate": 0.01297893709080402,
+    "leet_rate": 0.11326447344542345,
+    "start_lower_prob": 0.8550889956221013,
+    "all_lower_prob": 0.3445103918836774,
+    "drop_punct_prob": 0.5885389923103647,
+    "double_space_prob": 0.20215019577192028,
+    "ellipsis_prob": 0.23594236268666086,
+    "runon_prob": 0.22306047363625853,
+    "filler_rate": 0.4597483814883963,
+    "emoji_rate": 0.18125182741873547,
+    "stutter_rate": 0.16669079474010495,
+    "repeat_last_rate": 0.08567799073005113
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and potential triggers related to PTSD\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old American woman from a lower-middle-class background who has been diagnosed with PTSD. She struggles with anxiety about seeking healthcare due to past trauma and fears being judged or misunderstood by providers. This makes her hesitant to explore PrEP as an option for HIV prevention, despite understanding its importance. The thought of discussing her sexual health can be overwhelming and triggering for her.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"Are there mental health resources available for someone considering PrEP?\",\n    \"How do I approach a healthcare provider about getting prescribed PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"Can I take PrEP if I have PTSD, and will it impact my mental health?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "59c90dd5c20e17fd9d40427d21cfd96792d257d8a62717cbbad147e0cb6a0307",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

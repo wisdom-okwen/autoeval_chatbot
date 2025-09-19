@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 35,
+    "gender": "féminin",
+    "socio_economic_status": "moyen",
+    "primary_concern": "les effets potentiels du PrEP sur ma santé déjà fragile",
+    "language": "French"
+  },
+  "context": "Vous vivez avec une douleur chronique qui affecte votre quotidien et votre état d'esprit. Cela vous rend anxieuse à l'idée de commencer un traitement préventif comme le PrEP, car vous craignez que cela aggrave vos symptômes ou interférer avec d'autres médicaments. Vous vous sentez parfois isolée par rapport à votre situation et les opinions des autres sur les traitements préventifs ajoutent une couche de pression.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles du PrEP pour quelqu'un qui a des douleurs chroniques?",
+    "Est-ce que le PrEP peut interagir avec les médicaments que je prends déjà?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions médicales comme la mienne?",
+    "Comment puis-je discuter de mes préoccupations concernant le PrEP avec mon médecin?",
+    "Existe-t-il des témoignages de personnes dans des situations similaires ayant utilisé le PrEP?",
+    "Quelles sont les étapes pour accéder au PrEP en France?"
+  ],
+  "example_questions_noisy": [
+    "quels sont um les effets secondaires possibles du PrEP p0i quelqu'un qui a des doullleurs chr0n1qu3s?",
+    "es-tce que le prep peut interagir avec les médicaments que je prends déjà? 😬",
+    "y 4-7-1l des ressources spécifiques pour les personnes vivant avec des conditionnns médicales comme la mienne 😅",
+    "c-comment puis-je discute d3 m35 préoccupatiosn concernant le PrEP avec non médecin?",
+    "e-existe-t-il des témoignages de personns dans des situations similaires ayant utilisé le PrPE?",
+    "Quellse sont les étpaes pour accéder au PrEP en France?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.11533332332326512,
+    "swap_rate": 0.05318313488138003,
+    "drop_rate": 0.04118405025322436,
+    "dup_rate": 0.012993332832363117,
+    "leet_rate": 0.07496405903586303,
+    "start_lower_prob": 0.656547113015365,
+    "all_lower_prob": 0.3317501528196043,
+    "drop_punct_prob": 0.3157763954576086,
+    "double_space_prob": 0.3017920910007165,
+    "ellipsis_prob": 0.256039607027575,
+    "runon_prob": 0.21319385745502067,
+    "filler_rate": 0.40654878263038796,
+    "emoji_rate": 0.2176387934181003,
+    "stutter_rate": 0.11303351955394568,
+    "repeat_last_rate": 0.1497199934565397
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 35,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyen\",\n    \"primary_concern\": \"les effets potentiels du PrEP sur ma santé déjà fragile\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez avec une douleur chronique qui affecte votre quotidien et votre état d'esprit. Cela vous rend anxieuse à l'idée de commencer un traitement préventif comme le PrEP, car vous craignez que cela aggrave vos symptômes ou interférer avec d'autres médicaments. Vous vous sentez parfois isolée par rapport à votre situation et les opinions des autres sur les traitements préventifs ajoutent une couche de pression.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles du PrEP pour quelqu'un qui a des douleurs chroniques?\",\n    \"Est-ce que le PrEP peut interagir avec les médicaments que je prends déjà?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions médicales comme la mienne?\",\n    \"Comment puis-je discuter de mes préoccupations concernant le PrEP avec mon médecin?\",\n    \"Existe-t-il des témoignages de personnes dans des situations similaires ayant utilisé le PrEP?\",\n    \"Quelles sont les étapes pour accéder au PrEP en France?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8819b897bb8934c4f5f1a41fc5e5874867c065bc47b0f5b9a04ee182341e49f4",
+  "_language": "French",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

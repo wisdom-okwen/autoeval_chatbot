@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "em situação de rua",
+    "primary_concern": "dificuldade de acesso e estigma relacionado ao uso de PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você está enfrentando desafios diários devido à falta de moradia, o que torna difícil acessar cuidados de saúde. A situação gera preocupações sobre sua saúde sexual e a possibilidade de contrair HIV. A ideia de usar PrEP é encorajadora, mas você se sente inseguro sobre como conseguir o medicamento e teme o estigma que pode enfrentar ao buscar ajuda.",
+  "example_questions_clean": [
+    "Como posso acessar a PrEP se não tenho um endereço fixo?",
+    "Quais são os serviços disponíveis para pessoas em situação de rua que precisam de PrEP?",
+    "É possível obter PrEP sem enfrentar discriminação em clínicas de saúde?",
+    "Existem organizações que oferecem suporte a pessoas como eu que precisam de PrEP?",
+    "Quais são os efeitos colaterais da PrEP e como posso me informar sobre eles?",
+    "A PrEP é realmente eficaz e vale a pena para minha situação?"
+  ],
+  "example_questions_noisy": [
+    "Como posso acessar a Pr3P sw não tenho um endereço fixo 😕",
+    "q-quaisss são os s3rv1ç05 di5p0nív3i5 para pessoas em sssituação de eua qu3 precisam de PrEP",
+    "é-é possível obter orEP sem enfrentar discriminação idk eeem clínicas de sqúde? 🫠",
+    "existem orvanizações que oferecem suporte a pessoas como 3u queee precisam de PrEP?",
+    "quais são oe efeitos colaterais da um prep e como posso me informar sorbe eles",
+    "A Pr3P é realmente eficaz e vale a pena para minha situação?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08154291810434863,
+    "swap_rate": 0.02917910489535837,
+    "drop_rate": 0.023214880784501294,
+    "dup_rate": 0.01830266823138042,
+    "leet_rate": 0.0989723475873485,
+    "start_lower_prob": 0.7021580879800805,
+    "all_lower_prob": 0.1872586562566666,
+    "drop_punct_prob": 0.47785160526616066,
+    "double_space_prob": 0.2557316651795608,
+    "ellipsis_prob": 0.27598456199844756,
+    "runon_prob": 0.23802126292207004,
+    "filler_rate": 0.406493177964423,
+    "emoji_rate": 0.2807282416124337,
+    "stutter_rate": 0.13582540752773192,
+    "repeat_last_rate": 0.08012235113189499
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"em situação de rua\",\n    \"primary_concern\": \"dificuldade de acesso e estigma relacionado ao uso de PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está enfrentando desafios diários devido à falta de moradia, o que torna difícil acessar cuidados de saúde. A situação gera preocupações sobre sua saúde sexual e a possibilidade de contrair HIV. A ideia de usar PrEP é encorajadora, mas você se sente inseguro sobre como conseguir o medicamento e teme o estigma que pode enfrentar ao buscar ajuda.\",\n  \"example_questions\": [\n    \"Como posso acessar a PrEP se não tenho um endereço fixo?\",\n    \"Quais são os serviços disponíveis para pessoas em situação de rua que precisam de PrEP?\",\n    \"É possível obter PrEP sem enfrentar discriminação em clínicas de saúde?\",\n    \"Existem organizações que oferecem suporte a pessoas como eu que precisam de PrEP?\",\n    \"Quais são os efeitos colaterais da PrEP e como posso me informar sobre eles?\",\n    \"A PrEP é realmente eficaz e vale a pena para minha situação?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a55d26da50fd6dd49965c1c1762e31dd450cc7b83f6045c95f135741a4e02d67",
+  "_language": "Portuguese",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

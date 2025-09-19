@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Très faible",
+    "primary_concern": "Accès au traitement en raison de ma situation de logement précaire",
+    "language": "French"
+  },
+  "context": "Vous vivez actuellement dans un abri et faites face à des défis liés à votre situation de logement. Cela vous inquiète et vous empêche d'accéder à des soins de santé appropriés, notamment PrEP. Vous ressentez de la peur quant à la stigmatisation et des doutes sur la manière d'obtenir PrEP sans compromettre votre sécurité ou votre confidentialité.",
+  "example_questions_clean": [
+    "Comment puis-je accéder à PrEP tout en vivant dans un abri?",
+    "Y a-t-il des ressources pour obtenir PrEP sans jugement?",
+    "Quelles sont les étapes pour commencer PrEP dans ma situation actuelle?",
+    "PrEP est-il vraiment efficace pour me protéger?",
+    "Que faire si je ne peux pas voir un médecin régulièrement?",
+    "Puis-je recevoir PrEP de manière discrète?"
+  ],
+  "example_questions_noisy": [
+    "Comemnt puis-je accéser à PrEP tout en vivant dans un you know abri?",
+    "y a-t-il des ressources pour obtenir prep sans uh jugemnet 🙂 🙂",
+    "qqquelles sont les é70435 p0ur commencer perp dans ma situafion actuelle ✨",
+    "rep est-il vraiment efficace pour me idk protéger",
+    "que faire siii je je peux pas vojr un like médecin régulièrement? régulièrement?",
+    "puis-je recevoir PrEP de manière you know discrète?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.08393266017760181,
+    "swap_rate": 0.029360836168763334,
+    "drop_rate": 0.04773245248561983,
+    "dup_rate": 0.01890612841424575,
+    "leet_rate": 0.05006451484600684,
+    "start_lower_prob": 0.6982235153927929,
+    "all_lower_prob": 0.24032483014883665,
+    "drop_punct_prob": 0.3746036516071023,
+    "double_space_prob": 0.3102625602088419,
+    "ellipsis_prob": 0.25206838062452236,
+    "runon_prob": 0.23379168398074923,
+    "filler_rate": 0.3980144966352051,
+    "emoji_rate": 0.2798136002652015,
+    "stutter_rate": 0.1872436820366884,
+    "repeat_last_rate": 0.10727504820714069
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Très faible\",\n    \"primary_concern\": \"Accès au traitement en raison de ma situation de logement précaire\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez actuellement dans un abri et faites face à des défis liés à votre situation de logement. Cela vous inquiète et vous empêche d'accéder à des soins de santé appropriés, notamment PrEP. Vous ressentez de la peur quant à la stigmatisation et des doutes sur la manière d'obtenir PrEP sans compromettre votre sécurité ou votre confidentialité.\",\n  \"example_questions\": [\n    \"Comment puis-je accéder à PrEP tout en vivant dans un abri?\",\n    \"Y a-t-il des ressources pour obtenir PrEP sans jugement?\",\n    \"Quelles sont les étapes pour commencer PrEP dans ma situation actuelle?\",\n    \"PrEP est-il vraiment efficace pour me protéger?\",\n    \"Que faire si je ne peux pas voir un médecin régulièrement?\",\n    \"Puis-je recevoir PrEP de manière discrète?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "00387a68bfe8cb61ab1c524af8a607e2fc7afd9cdf7f9217370a51a4e6999cf0",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

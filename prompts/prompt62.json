@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "el estigma social asociado al uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Una mujer de 28 años se siente aislada socialmente debido a su situación económica y a la falta de apoyo emocional en su vida. Tiene miedo de ser juzgada por su interés en PrEP, temiendo que otros la vean de manera negativa. Esto crea un obstáculo adicional en su búsqueda de información y acceso a servicios relacionados con la salud sexual.",
+  "example_questions_clean": [
+    "¿Cómo puedo superar el miedo al estigma social al considerar PrEP?",
+    "¿Existen recursos disponibles para personas como yo que se sienten solas en este proceso?",
+    "¿Qué debo saber sobre los posibles efectos secundarios de PrEP antes de comenzar?",
+    "¿Cómo puedo encontrar un médico que entienda mis preocupaciones sobre PrEP?",
+    "¿Hay grupos de apoyo para personas que están considerando PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cómo puedo supersr 3l miedo al estigma social al considerar prep?",
+    "¿existen recursos disponibles para personsa como yo que se sienten solas en este proceso?",
+    "¿qué debo saber sobre los posiiibles efectos secundarios de prep antes de comenzar",
+    "¿cómo puedo encontrar un médico idk que entienda mis preocupaciones sbore prep?",
+    "¿Hay grup05 de apoyo para presonas que están considerando PrEP?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.054028437066221645,
+    "swap_rate": 0.04902935606642318,
+    "drop_rate": 0.023967124051642242,
+    "dup_rate": 0.023849454566134687,
+    "leet_rate": 0.0805359122786053,
+    "start_lower_prob": 0.6647882947939927,
+    "all_lower_prob": 0.3027121687935195,
+    "drop_punct_prob": 0.47048871642934464,
+    "double_space_prob": 0.23879605966177153,
+    "ellipsis_prob": 0.20634845394875712,
+    "runon_prob": 0.20179599274270862,
+    "filler_rate": 0.4930193147366394,
+    "emoji_rate": 0.1915126719394312,
+    "stutter_rate": 0.10650864576907601,
+    "repeat_last_rate": 0.1662020750688762
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"el estigma social asociado al uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una mujer de 28 años se siente aislada socialmente debido a su situación económica y a la falta de apoyo emocional en su vida. Tiene miedo de ser juzgada por su interés en PrEP, temiendo que otros la vean de manera negativa. Esto crea un obstáculo adicional en su búsqueda de información y acceso a servicios relacionados con la salud sexual.\",\n  \"example_questions\": [\n    \"¿Cómo puedo superar el miedo al estigma social al considerar PrEP?\",\n    \"¿Existen recursos disponibles para personas como yo que se sienten solas en este proceso?\",\n    \"¿Qué debo saber sobre los posibles efectos secundarios de PrEP antes de comenzar?\",\n    \"¿Cómo puedo encontrar un médico que entienda mis preocupaciones sobre PrEP?\",\n    \"¿Hay grupos de apoyo para personas que están considerando PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "df434176a189a8bb17fbe18111e9e701e5f67b0778d847b5bd1d35ddaacbaa5b",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

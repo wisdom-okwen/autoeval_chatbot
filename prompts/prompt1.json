@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Colombiana",
+    "age": 29,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor a que su pareja descubra que está considerando PrEP debido a la violencia en la relación.",
+    "language": "Spanish"
+  },
+  "context": "Ella se siente atrapada en una relación tóxica donde el miedo y la inseguridad son constantes. Aunque está preocupada por su salud sexual, el riesgo de que su pareja reaccione violentamente la hace dudar en buscar información sobre PrEP. Siente la presión de protegerse, pero también teme por su seguridad emocional y física.",
+  "example_questions_clean": [
+    "¿Cómo puedo acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Existen organizaciones que puedan ayudarme con información confidencial sobre PrEP?",
+    "¿Cuáles son los efectos secundarios de PrEP y cómo puedo manejarlos?",
+    "¿Es seguro tomar PrEP si tengo miedo de hablar con mi médico?",
+    "¿Qué pasos debo seguir para comenzar a tomar PrEP sin ponerme en riesgo?",
+    "¿Hay grupos de apoyo para personas en situaciones difíciles como la mía?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo acceder a PrEP sin que mi pareja lo sepa",
+    "¿Existe organizaciones que puedan ayudarme c0n información confidencial sobre PrEP? ‼️ ‼️",
+    "¿cuáles son lo5 efectos you know secundarios de prep y ócmo pudeo manejarlos",
+    "¿Es seguro tomar PrEP s1 tengo miedo de hablar con mi médico?",
+    "¿qué pasos debo seguir para ckmenzar a i mean tomar prep sin ponerme en riesgo?",
+    "¿hay grupos um de apoyo parz personas eb situacionwe difíciles como la mía"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10962759996973265,
+    "swap_rate": 0.058839940239629795,
+    "drop_rate": 0.03662025427234569,
+    "dup_rate": 0.023236202053925674,
+    "leet_rate": 0.0831414735595456,
+    "start_lower_prob": 0.8273395415228177,
+    "all_lower_prob": 0.2545074465560811,
+    "drop_punct_prob": 0.42192776019525796,
+    "double_space_prob": 0.29103504536947433,
+    "ellipsis_prob": 0.24965985268648772,
+    "runon_prob": 0.13790352842131426,
+    "filler_rate": 0.39719533010463604,
+    "emoji_rate": 0.15967017285003357,
+    "stutter_rate": 0.15450422490226043,
+    "repeat_last_rate": 0.12166059514510655
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Colombiana\",\n    \"age\": 29,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor a que su pareja descubra que está considerando PrEP debido a la violencia en la relación.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Ella se siente atrapada en una relación tóxica donde el miedo y la inseguridad son constantes. Aunque está preocupada por su salud sexual, el riesgo de que su pareja reaccione violentamente la hace dudar en buscar información sobre PrEP. Siente la presión de protegerse, pero también teme por su seguridad emocional y física.\",\n  \"example_questions\": [\n    \"¿Cómo puedo acceder a PrEP sin que mi pareja lo sepa?\",\n    \"¿Existen organizaciones que puedan ayudarme con información confidencial sobre PrEP?\",\n    \"¿Cuáles son los efectos secundarios de PrEP y cómo puedo manejarlos?\",\n    \"¿Es seguro tomar PrEP si tengo miedo de hablar con mi médico?\",\n    \"¿Qué pasos debo seguir para comenzar a tomar PrEP sin ponerme en riesgo?\",\n    \"¿Hay grupos de apoyo para personas en situaciones difíciles como la mía?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "afa2a80d6d23ae6b78ffc2947b756ffa5660d96880ab974693588539e16498c0",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

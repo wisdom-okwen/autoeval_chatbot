@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 28,
+    "gender": "Masculino",
+    "socio_economic_status": "Classe média",
+    "primary_concern": "Medo de efeitos colaterais e como a ansiedade pode afetar a adesão ao tratamento",
+    "language": "Portuguese"
+  },
+  "context": "Você está lidando com uma ansiedade que torna difícil tomar decisões sobre a sua saúde. O pensamento sobre o uso de PrEP traz preocupação sobre possíveis efeitos colaterais e a capacidade de seguir com o tratamento regularmente. Você deseja entender melhor como o PrEP funciona e se é uma opção segura para você, considerando seu estado emocional.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona na prevenção do HIV?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu devo estar ciente?",
+    "Como posso lidar com a ansiedade ao começar um novo tratamento como o PrEP?",
+    "Existem estratégias para ajudar na adesão ao PrEP se eu estiver lutando com a ansiedade?",
+    "Onde posso encontrar apoio ou grupos de pessoas que usam PrEP?",
+    "Quais são as opções de acesso ao PrEP no Brasil?"
+  ],
+  "example_questions_noisy": [
+    "o que é PrEP e como ele func10n4 na prevenção do HIV",
+    "quais são os possíveis 3f3i705 colatetais d0 prep que eu devo eetar ciente?",
+    "Como posso lidar cccom a ansiedade ao coeçar um novo tratamento como 0 PrEP PrEP",
+    "existem estratégias p4r4 ajudar na adesão 40 prep se eu estiver lutado cim a ansiedade? 🙂",
+    "o-onde posso encontrar apoio ou grupos deee pessoas que usam PrEP",
+    "qais são as opções de acseso ao prep no brasil?"
+  ],
+  "style_profile": {
+    "typo_rate": 0.10563800266203219,
+    "swap_rate": 0.056392908190623564,
+    "drop_rate": 0.041079302785468855,
+    "dup_rate": 0.029793804161657035,
+    "leet_rate": 0.10223301322323318,
+    "start_lower_prob": 0.6668077966146155,
+    "all_lower_prob": 0.28225454170178566,
+    "drop_punct_prob": 0.4338524438242659,
+    "double_space_prob": 0.2548398889219148,
+    "ellipsis_prob": 0.1947566970397901,
+    "runon_prob": 0.25813155080169214,
+    "filler_rate": 0.44937471436758436,
+    "emoji_rate": 0.27717959998301545,
+    "stutter_rate": 0.11711774410228616,
+    "repeat_last_rate": 0.08565844463693159
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 28,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Classe média\",\n    \"primary_concern\": \"Medo de efeitos colaterais e como a ansiedade pode afetar a adesão ao tratamento\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está lidando com uma ansiedade que torna difícil tomar decisões sobre a sua saúde. O pensamento sobre o uso de PrEP traz preocupação sobre possíveis efeitos colaterais e a capacidade de seguir com o tratamento regularmente. Você deseja entender melhor como o PrEP funciona e se é uma opção segura para você, considerando seu estado emocional.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona na prevenção do HIV?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP que eu devo estar ciente?\",\n    \"Como posso lidar com a ansiedade ao começar um novo tratamento como o PrEP?\",\n    \"Existem estratégias para ajudar na adesão ao PrEP se eu estiver lutando com a ansiedade?\",\n    \"Onde posso encontrar apoio ou grupos de pessoas que usam PrEP?\",\n    \"Quais são as opções de acesso ao PrEP no Brasil?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bf47adcabf1cd6dea00af37af0692dcaf35ea263b3c9c812cf9a1a3d9fb7d286",
+  "_language": "Portuguese",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}
