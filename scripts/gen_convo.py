@@ -18,6 +18,7 @@ from openai import OpenAI
 PROMPTS_DIR = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/prompts/")
 CONV_DIR    = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/conversations/")
 SIM_TURNS = 30
+NOISY_PROPORTION = 0.55  # fraction of user turns to mark as error/noisy
 
 SIM_MODEL = "gpt-4o-mini"
 SIM_BOT_MAX_TOKENS = 350
@@ -281,34 +282,31 @@ def simulate_one(prompt_path: Path, client: OpenAI, style_profile: Dict[str,floa
 
     with conv_path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["turn","timestamp_utc","clean_user","noisy_user","bot","usage.prompt","usage.completion","usage.total"])
+        w.writerow(["turn","user","bot","language","has_error"])
 
         clean_user = first_q
-        noisy_user = apply_style_profile(clean_user, style_profile)
+        noisy_user = clean_user  # may corrupt per-turn
+        persona_language = profile.get("language") or profile.get("Language") or "English"
+        # Preselect which turns (1..SIM_TURNS) will be noisy
+        noisy_turns = set(random.sample(range(1, SIM_TURNS+1), k=int(round(SIM_TURNS * NOISY_PROPORTION))))
 
         last_pairs: List[Tuple[str,str]] = []
         for t in range(1, SIM_TURNS + 1):
-            bot, usage = get_bot_response(client, system_prompt, noisy_user)
-            w.writerow([
-                t,
-                datetime.utcnow().isoformat(),
-                clean_user,
-                noisy_user,
-                bot,
-                (usage or {}).get("prompt_tokens"),
-                (usage or {}).get("completion_tokens"),
-                (usage or {}).get("total_tokens"),
-            ])
+            has_error = t in noisy_turns
+            if has_error:
+                noisy_user = apply_style_profile(clean_user, style_profile)
+            else:
+                noisy_user = clean_user
+
+            bot, _usage = get_bot_response(client, system_prompt, noisy_user)
+            # Write noisy_user as the displayed user text per requirement (only user column)
+            w.writerow([t, noisy_user, bot, persona_language, 1 if has_error else 0])
 
             last_pairs.append((clean_user, bot))
-            last_pairs = last_pairs[-3:]  # keep short context on user side
-
+            last_pairs = last_pairs[-3:]
             if t == SIM_TURNS:
                 break
-
-            # next user (CLEAN → then noise)
             clean_user = next_user_question_clean(client, last_pairs[-1][0], last_pairs[-1][1], profile, context)
-            noisy_user = apply_style_profile(clean_user, style_profile)
 
     print(f"[SIMULATED] {conv_path.name}")
     return conv_path

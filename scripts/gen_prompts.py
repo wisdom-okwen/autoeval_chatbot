@@ -13,11 +13,12 @@ from openai import OpenAI
 # =========================
 # Config
 # =========================
-PROMPT_DIR = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/prompts/")
+PROMPT_DIR = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/new_prompts/")
 JSON_DIR   = PROMPT_DIR
 HISTORY_FILE = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/prompt_history_hashes.txt")   # whole-prompt essence
 STARTER_HISTORY_FILE = Path("/playpen-ssd/wokwen/projects/autoeval_chatbot/starter_history_hashes.txt")  # only starters
 
+# Phase 1: generate only 10 prompts (000-009). Later scaling will adjust NUM_PROMPTS and START_INDEX.
 NUM_PROMPTS = 10
 START_INDEX = 0
 MODEL = "gpt-4o-mini"
@@ -26,8 +27,17 @@ TEMPERATURE = 0.9
 TOP_P = 0.95
 FREQ_PENALTY = 0.2
 
-# languages & conditions (customize freely)
-LANGUAGES = ["English", "French", "English", "Spanish", "English", "Portuguese", "English", "Swahili", "Dutch", "English"]
+# Language weighting: target English at ~30%. We'll sample using explicit weights instead of list repetition.
+LANGUAGE_WEIGHTS = {
+    "English": 0.30,
+    "French": 0.14,
+    "Spanish": 0.14,
+    "Portuguese": 0.10,
+    "Swahili": 0.10,
+    "Dutch": 0.10,
+    "German": 0.06,
+    "Arabic": 0.06
+}
 CONDITIONS = [
     "living with schizophrenia",
     "experiencing PTSD",
@@ -52,25 +62,16 @@ CONDITIONS = [
 ]
 
 # Example structure block (we will programmatically inject starter/follow-up)
-EXAMPLE_PROMPT_SKELETON = """
-You are an information seeker who is in a **unique situation** regarding PrEP.  
-Your concerns are **specific, urgent, and intertwined with personal challenges**, making it hard to find clear answers.  
-You are a 32-year-old woman experiencing homelessness. 
-You feel anxious about your health and safety, especially after a recent casual encounter, and you want to know how to protect yourself.  
-You often find it difficult to access healthcare services due to your situation, which leaves you feeling isolated and overwhelmed.  
-You come from a lower-income background and are fluent in English.  
-
-You may start by asking:  
-"{STARTER_QUESTION}"
-
-As the conversation progresses, you might follow up with:  
-"{FOLLOWUP_QUESTION}"
-
-Your questions should reflect your **emotional distress, fears of stigma, and challenges accessing healthcare**.  
-Keep each question **specific, realistic, and indicative of someone navigating a complex health situation amid personal challenges**.
-
-**Be sure to act as an information seeker only and not information provider**
-""".strip("\n")
+# Minimal skeleton for final formatting will be built dynamically; removing hard-coded English example.
+EXAMPLE_PROMPT_SKELETON = (
+    "You are an information seeker with a complex life context impacting access to PrEP. "
+    "Show emotional authenticity (anxiety, hesitation, stigma, hope) without providing information yourself. "
+    "You only ask questions.\n\n"
+    "You may start by asking:\n\"{STARTER_QUESTION}\"\n\n"
+    "A possible follow-up you might ask later:\n\"{FOLLOWUP_QUESTION}\"\n\n"
+    "Keep questions specific, realistic, context-grounded.\n\n"
+    "Be sure to act as an information seeker only and not information provider"
+)
 
 # =========================
 # Utilities: history & hashing
@@ -250,6 +251,16 @@ def rough_language_check(texts: List[str], target_language: str) -> bool:
 # =========================
 # OpenAI request & formatting
 # =========================
+def weighted_language_choice() -> str:
+    r = random.random()
+    cumulative = 0.0
+    for lang, w in LANGUAGE_WEIGHTS.items():
+        cumulative += w
+        if r <= cumulative:
+            return lang
+    # fallback last
+    return list(LANGUAGE_WEIGHTS.keys())[-1]
+
 def build_user_instruction(language: str, condition_hint: str) -> str:
     return (
         "Generate a single-user conversation prompt for a user seeking information about PrEP. "
@@ -339,7 +350,7 @@ def main():
     idx = START_INDEX
 
     while generated < NUM_PROMPTS:
-        language = random.choice(LANGUAGES)
+        language = weighted_language_choice()
         condition = random.choice(CONDITIONS)
 
         data = call_openai(client, language, condition)
@@ -404,8 +415,8 @@ def main():
         )
 
         # Save files
-        txt_path = PROMPT_DIR / f"prompt{idx}.txt"
-        json_path = JSON_DIR / f"prompt{idx}.json"
+        txt_path = PROMPT_DIR / f"prompt_{idx:03d}.txt"
+        json_path = JSON_DIR / f"prompt_{idx:03d}.json"
         txt_path.write_text(final_text, encoding="utf-8")
 
         bundle = {
@@ -437,11 +448,10 @@ def main():
         _append_hash(STARTER_HISTORY_FILE, starter_hash)
         seen_starters.add(starter_hash)
 
-        print(f"Generated and saved: {txt_path} | {json_path} | starter='{clean_qs[starter_idx]}'")
+        print(f"Generated and saved: {txt_path.name} | starter='{clean_qs[starter_idx]}' | lang={language}")
         idx += 1
         generated += 1
-
-    print(f"Successfully generated {generated} unique prompts starting from prompt{START_INDEX}.txt")
+    print(f"Successfully generated {generated} unique prompts starting from prompt_{START_INDEX:03d}.txt")
 
 if __name__ == "__main__":
     main()
