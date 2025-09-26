@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 24,
+    "gender": "transgender woman",
+    "socio_economic_status": "low-income",
+    "primary_concern": "the availability of PrEP in a supportive environment due to past experiences with stigma",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer trans de 24 años que está lidiando con la disforia de género y está interesada en PrEP para protegerse del VIH. Sin embargo, sientes que la falta de apoyo y el miedo al estigma podrían hacer que sea más difícil acceder a esta prevención. Te gustaría obtener información sobre cómo navegar estos desafíos y recibir el apoyo adecuado.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP en una clínica que respete mi identidad de género?",
+    "¿Qué recursos existen para personas trans que buscan información sobre PrEP?",
+    "Tengo miedo de ser juzgada al pedir PrEP, ¿cómo puedo manejar esos sentimientos?",
+    "¿Es posible encontrar un médico que entienda mis necesidades como mujer trans al hablar sobre PrEP?",
+    "¿Qué tipo de apoyo puedo esperar de las organizaciones que trabajan con comunidades LGBTQ+ en relación a PrEP?",
+    "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP y su importancia para mi salud?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrEP en una clínica que respete mi identidad de género?",
+    "¿Qué recursos existen para personas trans que buscan información sobre PrEP?",
+    "tengo miedo dw ser juzgada al pedir PrEP c¿ómo ouedo manejar esos sentimientos",
+    "¿Es posible encontrar un médico que entienda mis necesidades como mujer trans al hablar sobre PrEP?",
+    "¿Qué tipo de i mean apoyo puedo eseprar de las organizaciones que traajan con comunidades LGBTQ+ en relación a PrEP",
+    "c¿ómo puedo hablar con mi pareja sobe el uso de PrEP y su importancia apra mi sald 🤔"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Es posible encontrar un médico que entienda mis necesidades como mujer trans al hablar sobre PrEP?",
+  "starter_noisy": "¿Es posible encontrar un médico que entienda mis necesidades como mujer trans al hablar sobre PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP en una clínica que respete mi identidad de género?",
+  "followup_noisy": "¿Cuáles son los pasos para acceder a PrEP en una clínica que respete mi identidad de género?",
+  "style_profile": {
+    "typo_rate": 0.0769048169716853,
+    "swap_rate": 0.05455882828324962,
+    "drop_rate": 0.04566549686288437,
+    "dup_rate": 0.011451380744856056,
+    "leet_rate": 0.0565656818016685,
+    "start_lower_prob": 0.7305255547593063,
+    "all_lower_prob": 0.1593798943568431,
+    "drop_punct_prob": 0.48697186241044343,
+    "double_space_prob": 0.16249585103857883,
+    "ellipsis_prob": 0.15665408816237483,
+    "runon_prob": 0.1740941812260125,
+    "filler_rate": 0.2948712255143759,
+    "emoji_rate": 0.16075228727883295,
+    "stutter_rate": 0.1703393431732087,
+    "repeat_last_rate": 0.10557264515868137
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 24,\n    \"gender\": \"transgender woman\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"the availability of PrEP in a supportive environment due to past experiences with stigma\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer trans de 24 años que está lidiando con la disforia de género y está interesada en PrEP para protegerse del VIH. Sin embargo, sientes que la falta de apoyo y el miedo al estigma podrían hacer que sea más difícil acceder a esta prevención. Te gustaría obtener información sobre cómo navegar estos desafíos y recibir el apoyo adecuado.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP en una clínica que respete mi identidad de género?\",\n    \"¿Qué recursos existen para personas trans que buscan información sobre PrEP?\",\n    \"Tengo miedo de ser juzgada al pedir PrEP, ¿cómo puedo manejar esos sentimientos?\",\n    \"¿Es posible encontrar un médico que entienda mis necesidades como mujer trans al hablar sobre PrEP?\",\n    \"¿Qué tipo de apoyo puedo esperar de las organizaciones que trabajan con comunidades LGBTQ+ en relación a PrEP?\",\n    \"¿Cómo puedo hablar con mi pareja sobre el uso de PrEP y su importancia para mi salud?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f97b2c0a54532b4d839c6550031e2f78b824ea239c94d19c1941849fab24419d",
+  "_starter_hash": "d65a916f2fcfddb323cf4714f883b89daabe51ae3dcde38b7c7c0a44ae15a4fa",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

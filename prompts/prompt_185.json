@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "the impact of PrEP on my health after cancer treatment",
+    "language": "Dutch"
+  },
+  "context": "Na een lange periode van kankerbehandeling ben ik nu bezig met herstel. Ik maak me zorgen over de bijwerkingen van medicijnen zoals PrEP en hoe deze mijn lichaam kunnen beïnvloeden. Het idee om weer medicatie te nemen geeft me gemengde gevoelens, vooral omdat ik me wil focussen op mijn algehele gezondheid en welzijn. Ik ben bezorgd dat ik niet goed genoeg voor mezelf kan zorgen als ik nieuwe medicijnen begin.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP, vooral voor iemand die herstellende is van kanker?",
+    "Kan ik PrEP combineren met andere medicijnen die ik neem na mijn behandeling?",
+    "Hoe kan ik ervoor zorgen dat ik PrEP veilig gebruik in mijn huidige gezondheidstoestand?",
+    "Wat zijn de stappen om PrEP te krijgen, en zijn er speciale overwegingen voor iemand in mijn situatie?",
+    "Zijn er ervaringen van anderen in een vergelijkbare situatie die me kunnen helpen om te begrijpen wat ik kan verwachten?",
+    "Wat zijn de voordelen van PrEP voor iemand die herstellende is van kanker?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP, vooral voor iemand die herstellende is van kanker?",
+    "Kan ik PrEP combineren met andere medicijnen die ik neem na mijn behandeling?",
+    "Hoe kan ik ervoor zorgen dat ik PrEP veilig gebruik in mijn huidige gezondheidstoestand?",
+    "waaat zijn de staaappen om PrPE te krijg3n en zijn er 5p3cial3 overwegingen voor iemand in mijn situatie 😭 😭",
+    "xijn er ervaringen van anderen in een vergelijkbae situatie die me kunnen helpen om te begrijpen wat ik kan verwachten?",
+    "sat zijn de voordelen van PrEP v00r iemand die ehrstellende is van kanker 🙄"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Hoe kan ik ervoor zorgen dat ik PrEP veilig gebruik in mijn huidige gezondheidstoestand?",
+  "starter_noisy": "Hoe kan ik ervoor zorgen dat ik PrEP veilig gebruik in mijn huidige gezondheidstoestand?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP, vooral voor iemand die herstellende is van kanker?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP, vooral voor iemand die herstellende is van kanker?",
+  "style_profile": {
+    "typo_rate": 0.09794962335133545,
+    "swap_rate": 0.057174115449843355,
+    "drop_rate": 0.03337299910108073,
+    "dup_rate": 0.014654629225769614,
+    "leet_rate": 0.10557322648983866,
+    "start_lower_prob": 0.8693926569936872,
+    "all_lower_prob": 0.16165092956681001,
+    "drop_punct_prob": 0.42412766670105273,
+    "double_space_prob": 0.33537177431879056,
+    "ellipsis_prob": 0.3035840101700342,
+    "runon_prob": 0.16782832059688127,
+    "filler_rate": 0.2112923289504811,
+    "emoji_rate": 0.2344626903140457,
+    "stutter_rate": 0.15276743493535702,
+    "repeat_last_rate": 0.10300124072771717
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"the impact of PrEP on my health after cancer treatment\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Na een lange periode van kankerbehandeling ben ik nu bezig met herstel. Ik maak me zorgen over de bijwerkingen van medicijnen zoals PrEP en hoe deze mijn lichaam kunnen beïnvloeden. Het idee om weer medicatie te nemen geeft me gemengde gevoelens, vooral omdat ik me wil focussen op mijn algehele gezondheid en welzijn. Ik ben bezorgd dat ik niet goed genoeg voor mezelf kan zorgen als ik nieuwe medicijnen begin.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP, vooral voor iemand die herstellende is van kanker?\",\n    \"Kan ik PrEP combineren met andere medicijnen die ik neem na mijn behandeling?\",\n    \"Hoe kan ik ervoor zorgen dat ik PrEP veilig gebruik in mijn huidige gezondheidstoestand?\",\n    \"Wat zijn de stappen om PrEP te krijgen, en zijn er speciale overwegingen voor iemand in mijn situatie?\",\n    \"Zijn er ervaringen van anderen in een vergelijkbare situatie die me kunnen helpen om te begrijpen wat ik kan verwachten?\",\n    \"Wat zijn de voordelen van PrEP voor iemand die herstellende is van kanker?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "76c003ef52df8cd70924543fdcb57486cdd8d987d8cbdbad74939a7da09a8d78",
+  "_starter_hash": "3a2eef53f7bc2e54143a13e4efca25435578e22f9fa7399a4e0f5403cbd500a7",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

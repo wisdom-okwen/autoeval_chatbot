@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 35,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'impact de mon traitement sur la prise de PrEP",
+    "language": "French"
+  },
+  "context": "Vous êtes en rémission après un traitement contre le cancer, et vous êtes préoccupée par la manière dont votre situation médicale actuelle pourrait influencer votre santé sexuelle et l'accès à la PrEP. Vous ressentez à la fois de l'espoir pour l'avenir et des inquiétudes concernant les stigmates liés à votre condition, ce qui complique votre décision de considérer la PrEP comme une option de protection.",
+  "example_questions_clean": [
+    "Comment la PrEP peut-elle interagir avec les médicaments que je prends après mon traitement?",
+    "Y a-t-il des soutiens spécifiques pour les personnes comme moi qui envisagent la PrEP?",
+    "Est-ce que je dois informer mon médecin de mon statut de rémission avant de commencer la PrEP?",
+    "Quels sont les effets secondaires potentiels de la PrEP pour quelqu'un dans ma situation?",
+    "Comment puis-je surmonter la peur du jugement en demandant des informations sur la PrEP?",
+    "Quelles sont les étapes pour accéder à la PrEP sans obstacles financiers?"
+  ],
+  "example_questions_noisy": [
+    "Comment la PrEP peut-elle interagir avec les médicaments que je prends après mon traitement?",
+    "Y 4-7-il des soutiens spécifiques pour les personnes c0mm3 moi qui envisagent la PrEP 🙂",
+    "Est-ce que je dois informer mon médecin de mon statut de rémission avant de commencer la PrEP?",
+    "quels sont les effets secondaires potentiels d3 la PrEP pour quelqu'un dans ma idk situation",
+    "Comment puis-je surmonter la peur du jugement en demandant des informations sur la PrEP?",
+    "Quelles sont les étapes pour accéder à la PrEP sans obstacles financiers?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Y a-t-il des soutiens spécifiques pour les personnes comme moi qui envisagent la PrEP?",
+  "starter_noisy": "Y 4-7-il des soutiens spécifiques pour les personnes c0mm3 moi qui envisagent la PrEP 🙂",
+  "followup_index": 0,
+  "followup_clean": "Comment la PrEP peut-elle interagir avec les médicaments que je prends après mon traitement?",
+  "followup_noisy": "Comment la PrEP peut-elle interagir avec les médicaments que je prends après mon traitement?",
+  "style_profile": {
+    "typo_rate": 0.07165515497636503,
+    "swap_rate": 0.026502620993253845,
+    "drop_rate": 0.02514423148752913,
+    "dup_rate": 0.018853703340041845,
+    "leet_rate": 0.11722848352792647,
+    "start_lower_prob": 0.8818960652202101,
+    "all_lower_prob": 0.2205089522386109,
+    "drop_punct_prob": 0.46194446201863953,
+    "double_space_prob": 0.235561156633406,
+    "ellipsis_prob": 0.23726190695173646,
+    "runon_prob": 0.25658132766514263,
+    "filler_rate": 0.2358334812443521,
+    "emoji_rate": 0.29392137739610413,
+    "stutter_rate": 0.12451445083534085,
+    "repeat_last_rate": 0.14868107293554406
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 35,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'impact de mon traitement sur la prise de PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes en rémission après un traitement contre le cancer, et vous êtes préoccupée par la manière dont votre situation médicale actuelle pourrait influencer votre santé sexuelle et l'accès à la PrEP. Vous ressentez à la fois de l'espoir pour l'avenir et des inquiétudes concernant les stigmates liés à votre condition, ce qui complique votre décision de considérer la PrEP comme une option de protection.\",\n  \"example_questions\": [\n    \"Comment la PrEP peut-elle interagir avec les médicaments que je prends après mon traitement?\",\n    \"Y a-t-il des soutiens spécifiques pour les personnes comme moi qui envisagent la PrEP?\",\n    \"Est-ce que je dois informer mon médecin de mon statut de rémission avant de commencer la PrEP?\",\n    \"Quels sont les effets secondaires potentiels de la PrEP pour quelqu'un dans ma situation?\",\n    \"Comment puis-je surmonter la peur du jugement en demandant des informations sur la PrEP?\",\n    \"Quelles sont les étapes pour accéder à la PrEP sans obstacles financiers?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "94cf7b8bd1d0e1e0c2ed187a698f3f190fa8631600098c95c04ae63ff64ec397",
+  "_starter_hash": "043fd3d9492fa18166006c6c70dab5be07737ea983f3ab47ef2cf4f660271ad8",
+  "_language": "French",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

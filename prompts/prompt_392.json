@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "miedo al estigma y la falta de comprensión sobre mi condición",
+    "language": "Spanish"
+  },
+  "context": "La usuaria enfrenta desafíos debido a un trastorno del desarrollo neurológico que afecta su capacidad para comunicar sus necesidades y entender completamente la información médica. Esto le genera ansiedad y preocupación por el estigma relacionado con el uso de PrEP, especialmente en su entorno social. Desea informarse, pero teme ser juzgada o incomprendida.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP si tengo dificultades para hablar sobre mi condición?",
+    "¿PrEP tiene efectos secundarios que debo conocer, especialmente considerando mi situación personal?",
+    "¿Cómo puedo encontrar un profesional de la salud que me escuche y respete mis inquietudes?",
+    "¿Hay recursos disponibles para personas con discapacidades que necesiten ayuda para acceder a PrEP?",
+    "¿Qué apoyo emocional se ofrece a quienes comienzan a tomar PrEP?",
+    "¿Cómo se puede reducir el estigma asociado al uso de PrEP en comunidades como la mía?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrEP si tengo dificultades para hablar sobre mi condición?",
+    "¿PrEP tiene efects secundarios que debo conocer especialmente considerando mi istuación personal",
+    "¿Cómo puedo encontrar un profesional de la salud que me escuche y respete mis inquietudes?",
+    "¿Hay recursos disponibles para personas con discapacidades que necesiten ayuda para acceder a PrEP?",
+    "¿qué aopyo emocional se ofrece a quienes comieeenzan a tmar prep?",
+    "¿Cóm0 se puede reducir el you know estigma asociado al uso de PrEP en comunidades como la mía? 😕"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los pasos para acceder a PrEP si tengo dificultades para hablar sobre mi condición?",
+  "starter_noisy": "¿Cuáles son los pasos para acceder a PrEP si tengo dificultades para hablar sobre mi condición?",
+  "followup_index": 1,
+  "followup_clean": "¿PrEP tiene efectos secundarios que debo conocer, especialmente considerando mi situación personal?",
+  "followup_noisy": "¿PrEP tiene efects secundarios que debo conocer especialmente considerando mi istuación personal",
+  "style_profile": {
+    "typo_rate": 0.10954816790188605,
+    "swap_rate": 0.05209082431620923,
+    "drop_rate": 0.021477461043809893,
+    "dup_rate": 0.020569250173649536,
+    "leet_rate": 0.05718887257936314,
+    "start_lower_prob": 0.8206972762956948,
+    "all_lower_prob": 0.2513499499959099,
+    "drop_punct_prob": 0.36551183799017034,
+    "double_space_prob": 0.3040048758691748,
+    "ellipsis_prob": 0.2773449204632499,
+    "runon_prob": 0.2858937248697723,
+    "filler_rate": 0.44082949028720925,
+    "emoji_rate": 0.232586004656803,
+    "stutter_rate": 0.11889354027456323,
+    "repeat_last_rate": 0.11251758431245734
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"miedo al estigma y la falta de comprensión sobre mi condición\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria enfrenta desafíos debido a un trastorno del desarrollo neurológico que afecta su capacidad para comunicar sus necesidades y entender completamente la información médica. Esto le genera ansiedad y preocupación por el estigma relacionado con el uso de PrEP, especialmente en su entorno social. Desea informarse, pero teme ser juzgada o incomprendida.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP si tengo dificultades para hablar sobre mi condición?\",\n    \"¿PrEP tiene efectos secundarios que debo conocer, especialmente considerando mi situación personal?\",\n    \"¿Cómo puedo encontrar un profesional de la salud que me escuche y respete mis inquietudes?\",\n    \"¿Hay recursos disponibles para personas con discapacidades que necesiten ayuda para acceder a PrEP?\",\n    \"¿Qué apoyo emocional se ofrece a quienes comienzan a tomar PrEP?\",\n    \"¿Cómo se puede reducir el estigma asociado al uso de PrEP en comunidades como la mía?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "94f8e11b8c4c91baa15a367c4f92acbc17623ee93d709adbe5bea68757beddea",
+  "_starter_hash": "5db5b0655d2f37ee02ba0d717e49430022f44df0d385ae0f36839e1b67183ee4",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

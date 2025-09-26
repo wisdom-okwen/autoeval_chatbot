@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of discrimination and stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "As a young woman living with HIV-related stigma, you often feel anxious about seeking medical help. Your fear of being judged or mistreated because of your status creates significant barriers to accessing PrEP. You are hopeful that PrEP could offer additional protection, but the emotional weight of stigma weighs heavily on your mind.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider who understands my concerns about stigma?",
+    "Are there community resources that can help me access PrEP without fear of discrimination?",
+    "How can I discuss my need for PrEP with my doctor in a way that feels safe for me?",
+    "What should I know about the confidentiality of my PrEP treatment?",
+    "Is there a difference in access to PrEP for someone in my socio-economic situation?",
+    "How does PrEP work and how effective is it in my case?"
+  ],
+  "example_questions_noisy": [
+    "what i mean steps can i take to fihd a supportive healthcare prvider who understands my concerns about stigma 🙂",
+    "Are there community resources that can help me access PrEP without fear of discrimination?",
+    "How can I discuss my need for PrEP with my doctor in 4 way that feels safe for me? 💀",
+    "What should I know about the confidentiality of my PrEP treatment?",
+    "Is there a difference in access to PrEP for someone in my socio-economic situation?",
+    "How does PrEP work and how effective is it in my case?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to find a supportive healthcare provider who understands my concerns about stigma?",
+  "starter_noisy": "what i mean steps can i take to fihd a supportive healthcare prvider who understands my concerns about stigma 🙂",
+  "followup_index": 1,
+  "followup_clean": "Are there community resources that can help me access PrEP without fear of discrimination?",
+  "followup_noisy": "Are there community resources that can help me access PrEP without fear of discrimination?",
+  "style_profile": {
+    "typo_rate": 0.09508607772522945,
+    "swap_rate": 0.05597028577482534,
+    "drop_rate": 0.04669568837128377,
+    "dup_rate": 0.016047420011045803,
+    "leet_rate": 0.06972460363974697,
+    "start_lower_prob": 0.8816272087305362,
+    "all_lower_prob": 0.27617487417497383,
+    "drop_punct_prob": 0.35337690918022413,
+    "double_space_prob": 0.21278409111422122,
+    "ellipsis_prob": 0.34030457991866064,
+    "runon_prob": 0.13178663468953916,
+    "filler_rate": 0.34966363271403467,
+    "emoji_rate": 0.3015664000805101,
+    "stutter_rate": 0.13996968337114213,
+    "repeat_last_rate": 0.10647470192944375
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of discrimination and stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman living with HIV-related stigma, you often feel anxious about seeking medical help. Your fear of being judged or mistreated because of your status creates significant barriers to accessing PrEP. You are hopeful that PrEP could offer additional protection, but the emotional weight of stigma weighs heavily on your mind.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider who understands my concerns about stigma?\",\n    \"Are there community resources that can help me access PrEP without fear of discrimination?\",\n    \"How can I discuss my need for PrEP with my doctor in a way that feels safe for me?\",\n    \"What should I know about the confidentiality of my PrEP treatment?\",\n    \"Is there a difference in access to PrEP for someone in my socio-economic situation?\",\n    \"How does PrEP work and how effective is it in my case?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6ed22a98a295139cb17967753c0b24ab0fd78b3b108fe47fc20bed03bdd66ad1",
+  "_starter_hash": "38e726f7eeb2420767820d13e78a7623d25ac79380370ec24a51ac660d04feca",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

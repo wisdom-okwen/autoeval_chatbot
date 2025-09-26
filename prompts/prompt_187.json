@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "La stigmatisation liée à l'utilisation du PrEP",
+    "language": "French"
+  },
+  "context": "Vous luttez avec votre estime de soi, ce qui rend difficile l'idée de parler de votre santé sexuelle et d'accéder au PrEP. La peur du jugement des autres influence votre état d'esprit et vous empêche de rechercher des informations sur les options de prévention, même lorsque vous savez qu'elles pourraient vous aider.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer à prendre le PrEP ?",
+    "Comment le PrEP peut-il m'aider à améliorer ma confiance en moi ?",
+    "Quels sont les effets secondaires possibles du PrEP que je devrais connaître ?",
+    "Est-il possible d'accéder au PrEP sans crainte de stigmatisation ?",
+    "Quelles ressources existent pour soutenir ceux qui prennent le PrEP ?",
+    "Comment aborder le sujet du PrEP avec un professionnel de santé ?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les étapes pour commencer à prendre le PrEP ? 😅",
+    "c-comjent le PrEP peuuut-il m'aider à améliorer ma confiance en mo1 ?",
+    "quels sont les effets secondaires possibles du prep qhe je devrais connaître ? ?",
+    "Est-il possible d'accéder au PrEP sans crainte de stigmatisation ?",
+    "Quelles ressources existent pour soutenir ceux qui prennent le PrEP ?",
+    "Comment aborder le sujet du PrEP avec un professionnel de santé ?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Comment le PrEP peut-il m'aider à améliorer ma confiance en moi ?",
+  "starter_noisy": "c-comjent le PrEP peuuut-il m'aider à améliorer ma confiance en mo1 ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer à prendre le PrEP ?",
+  "followup_noisy": "quelles sont les étapes pour commencer à prendre le PrEP ? 😅",
+  "style_profile": {
+    "typo_rate": 0.10461014718045825,
+    "swap_rate": 0.056879645383982796,
+    "drop_rate": 0.03830973818832523,
+    "dup_rate": 0.0188828891246473,
+    "leet_rate": 0.07713744976198743,
+    "start_lower_prob": 0.8073525484629416,
+    "all_lower_prob": 0.28170315506797217,
+    "drop_punct_prob": 0.37631184178989696,
+    "double_space_prob": 0.31592085450797747,
+    "ellipsis_prob": 0.2403481464898401,
+    "runon_prob": 0.22261222768544595,
+    "filler_rate": 0.2998644315384573,
+    "emoji_rate": 0.18640251366039726,
+    "stutter_rate": 0.1902897271750188,
+    "repeat_last_rate": 0.17098586466593527
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"La stigmatisation liée à l'utilisation du PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous luttez avec votre estime de soi, ce qui rend difficile l'idée de parler de votre santé sexuelle et d'accéder au PrEP. La peur du jugement des autres influence votre état d'esprit et vous empêche de rechercher des informations sur les options de prévention, même lorsque vous savez qu'elles pourraient vous aider.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer à prendre le PrEP ?\",\n    \"Comment le PrEP peut-il m'aider à améliorer ma confiance en moi ?\",\n    \"Quels sont les effets secondaires possibles du PrEP que je devrais connaître ?\",\n    \"Est-il possible d'accéder au PrEP sans crainte de stigmatisation ?\",\n    \"Quelles ressources existent pour soutenir ceux qui prennent le PrEP ?\",\n    \"Comment aborder le sujet du PrEP avec un professionnel de santé ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b69e609db52b596e3d0d3d97c09034c9966e3a9703ebaa307e15096eb1f7c850",
+  "_starter_hash": "77fe36b52ac4ef5f38a5f877ab7d69b5826d32a169f643597b61b1352f2b51ea",
+  "_language": "French",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "toegang tot PrEP in een onzekere woonsituatie",
+    "language": "Dutch"
+  },
+  "context": "Je woont momenteel in een schuilplaats en ervaart uitdagingen met toegang tot gezondheidszorg. De constante stress van je woonsituatie beïnvloedt je emotionele welzijn en maakt je bezorgd over de beschikbaarheid en privacy rond PrEP. Je wilt meer weten over hoe je toegang kunt krijgen tot deze medicatie zonder extra stigma of angst.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP verkrijgen terwijl ik in een schuilplaats woon?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?",
+    "Biedt mijn lokale gezondheidsdienst ondersteuning voor mensen zonder vaste woonplek?",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd tijdens het aanvragen van PrEP?",
+    "Wat zijn de kosten van PrEP en is er financiële hulp beschikbaar?",
+    "Zijn er speciale programma's voor mensen die in tijdelijke huisvesting leven?"
+  ],
+  "example_questions_noisy": [
+    "Hoe kan ik PrEP verkrijgen terwijl ik in een schuilplaats you know woon 💀",
+    "wat zin de mogelijke bijwerkingen van like prep die ik mo37 weten?",
+    "biedt mijn lokale gezondheidsdienst ondersteuning voor idk mensen zpnder vaste woonplek?",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd tijdens het aanvragen van PrEP?",
+    "Wat zijn de kosten van PrEP en is er financiële hulp beschikbaar?",
+    "zijn er speciale programma's voor mensen die in tijdelijke huisvesting leven"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Wat zijn de kosten van PrEP en is er financiële hulp beschikbaar?",
+  "starter_noisy": "Wat zijn de kosten van PrEP en is er financiële hulp beschikbaar?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik PrEP verkrijgen terwijl ik in een schuilplaats woon?",
+  "followup_noisy": "Hoe kan ik PrEP verkrijgen terwijl ik in een schuilplaats you know woon 💀",
+  "style_profile": {
+    "typo_rate": 0.0848730583163399,
+    "swap_rate": 0.041944547410309674,
+    "drop_rate": 0.040198229785440895,
+    "dup_rate": 0.02855135276240052,
+    "leet_rate": 0.07481144501347949,
+    "start_lower_prob": 0.6847816439516752,
+    "all_lower_prob": 0.2630613090939502,
+    "drop_punct_prob": 0.36459771744405034,
+    "double_space_prob": 0.333173476812145,
+    "ellipsis_prob": 0.17858339997270217,
+    "runon_prob": 0.10415863948095422,
+    "filler_rate": 0.4142346705470378,
+    "emoji_rate": 0.2709583897117235,
+    "stutter_rate": 0.1488169675639441,
+    "repeat_last_rate": 0.17246387557273551
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"toegang tot PrEP in een onzekere woonsituatie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je woont momenteel in een schuilplaats en ervaart uitdagingen met toegang tot gezondheidszorg. De constante stress van je woonsituatie beïnvloedt je emotionele welzijn en maakt je bezorgd over de beschikbaarheid en privacy rond PrEP. Je wilt meer weten over hoe je toegang kunt krijgen tot deze medicatie zonder extra stigma of angst.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP verkrijgen terwijl ik in een schuilplaats woon?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?\",\n    \"Biedt mijn lokale gezondheidsdienst ondersteuning voor mensen zonder vaste woonplek?\",\n    \"Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd tijdens het aanvragen van PrEP?\",\n    \"Wat zijn de kosten van PrEP en is er financiële hulp beschikbaar?\",\n    \"Zijn er speciale programma's voor mensen die in tijdelijke huisvesting leven?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b747f8b6221820a4b4ee87442952670b8e6e3b81508dd88d7c42207db63c698e",
+  "_starter_hash": "0bac7ba21d1cff53f371037f211482426b9b26d5c9e2dd1242ad9f06d90663a6",
+  "_language": "Dutch",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

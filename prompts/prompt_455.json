@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenina",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "El acceso a PrEP y la confidencialidad en un refugio",
+    "language": "Spanish"
+  },
+  "context": "Vives en un refugio y te sientes insegura sobre tu salud sexual. Tienes miedo de que otros se enteren de que estás buscando PrEP, lo que hace que te sientas vulnerable. La falta de recursos y apoyo emocional puede afectar tu decisión de buscar información sobre PrEP.",
+  "example_questions_clean": [
+    "¿Qué opciones tengo para acceder a PrEP si vivo en un refugio?",
+    "¿La confidencialidad está garantizada al solicitar PrEP en clínicas públicas?",
+    "Me preocupa el costo de PrEP; ¿hay programas de asistencia disponibles?",
+    "¿Cómo puedo hablar con un proveedor de salud sobre PrEP sin sentirme juzgada?",
+    "¿Existen grupos de apoyo para personas que toman PrEP que pueda unirme?",
+    "¿Qué debo hacer si no me siento cómoda hablando de mi situación con los médicos?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué opciones tengo para acceder a PrEP si vivo en un refugio?",
+    "¿La confidencialidad 35fá garantizada al solicitar PrEP en clínicas públicas?",
+    "me preocupa 3l costo de prrrep; ¿hay programas i mean de asistencia d15p0n1bl35? 🙂",
+    "¿Cómo puedo hablar con un proveedor de salud sobre PrEP sin sentirme juzgada?",
+    "¿Existen grupos de apoyo para personas que toman PrEP aue pueda unirme? 😕",
+    "¿Qué debo hacer si no me siento cómoda hablando de mi situación con los médicos?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Existen grupos de apoyo para personas que toman PrEP que pueda unirme?",
+  "starter_noisy": "¿Existen grupos de apoyo para personas que toman PrEP aue pueda unirme? 😕",
+  "followup_index": 0,
+  "followup_clean": "¿Qué opciones tengo para acceder a PrEP si vivo en un refugio?",
+  "followup_noisy": "¿Qué opciones tengo para acceder a PrEP si vivo en un refugio?",
+  "style_profile": {
+    "typo_rate": 0.08423243228685767,
+    "swap_rate": 0.029632778363028314,
+    "drop_rate": 0.02870389131165705,
+    "dup_rate": 0.013601402829199385,
+    "leet_rate": 0.08578078700369329,
+    "start_lower_prob": 0.825818928328449,
+    "all_lower_prob": 0.3100899697638464,
+    "drop_punct_prob": 0.45234666454522865,
+    "double_space_prob": 0.242509392377326,
+    "ellipsis_prob": 0.18389490677961534,
+    "runon_prob": 0.10079186369179449,
+    "filler_rate": 0.43860658637979355,
+    "emoji_rate": 0.19302677766360768,
+    "stutter_rate": 0.19802836200241122,
+    "repeat_last_rate": 0.12517539647447465
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"El acceso a PrEP y la confidencialidad en un refugio\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Vives en un refugio y te sientes insegura sobre tu salud sexual. Tienes miedo de que otros se enteren de que estás buscando PrEP, lo que hace que te sientas vulnerable. La falta de recursos y apoyo emocional puede afectar tu decisión de buscar información sobre PrEP.\",\n  \"example_questions\": [\n    \"¿Qué opciones tengo para acceder a PrEP si vivo en un refugio?\",\n    \"¿La confidencialidad está garantizada al solicitar PrEP en clínicas públicas?\",\n    \"Me preocupa el costo de PrEP; ¿hay programas de asistencia disponibles?\",\n    \"¿Cómo puedo hablar con un proveedor de salud sobre PrEP sin sentirme juzgada?\",\n    \"¿Existen grupos de apoyo para personas que toman PrEP que pueda unirme?\",\n    \"¿Qué debo hacer si no me siento cómoda hablando de mi situación con los médicos?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ab114a0c401136a8607c0bc156478b7ba13a4a2a2318de4ecbe27e8d3b37dca0",
+  "_starter_hash": "e03564b2c8e5023f567a38fee45b61e7398c8ed70cd25babce0226142d2bd928",
+  "_language": "Spanish",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

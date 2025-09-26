@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "navigating PrEP alongside my health condition and potential side effects",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anashughulika na hali ya sclerosis nyingi. Hali hii inamfanya kuwa na wasiwasi kuhusu jinsi PrEP itakavyoathiri mwili wake na kama inaweza kuongezea matatizo yake ya afya. Anahisi mchanganyiko wa matumaini na hofu kuhusu kutumia dawa za kuzuia maambukizi.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuathiri hali yangu ya sclerosis nyingi kwa namna yoyote?",
+    "Ninaweza kupata wapi msaada wa kuelewa athari zinazoweza kutokea kutokana na PrEP?",
+    "Ni vigezo gani vinavyotakiwa ili niweze kuanza kutumia PrEP?",
+    "Je, kuna njia za kuhakikisha kwamba sipata matatizo zaidi kutokana na matumizi ya PrEP?",
+    "Nini kinaweza kunihamasisha kujaribu PrEP licha ya hofu zangu?",
+    "Je, PrEP inaweza kusaidia katika kuboresha afya yangu ya jumla?"
+  ],
+  "example_questions_noisy": [
+    "je i mean PrEP inaweza kuathiri hali yangu ya sclerosis nyingi kwa namna yoy073?",
+    "Ninaweza kupata wapi msaada wa kuelewa athari zinazoweza kutokea kutokana na PrEP?",
+    "Ni vigezo gani vinavyotakiwa ili niweze kuanza kutumia PrEP?",
+    "je kuuuna njiaaa za kuhaikishhha kwamba sipaaata jatatizo zaidi kutokannna na matumizi ya prep prep",
+    "nin1 kinaweza kunihamasisha kuj4r1bu prep licn4 y4 hofu zangu 😬",
+    "Je, PrEP inaweza kusaidia katika kuboresha afya yangu ya jumla?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Je, PrEP inaweza kuathiri hali yangu ya sclerosis nyingi kwa namna yoyote?",
+  "starter_noisy": "je i mean PrEP inaweza kuathiri hali yangu ya sclerosis nyingi kwa namna yoy073?",
+  "followup_index": 1,
+  "followup_clean": "Ninaweza kupata wapi msaada wa kuelewa athari zinazoweza kutokea kutokana na PrEP?",
+  "followup_noisy": "Ninaweza kupata wapi msaada wa kuelewa athari zinazoweza kutokea kutokana na PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06454611805481242,
+    "swap_rate": 0.034569826222171765,
+    "drop_rate": 0.028118197629395443,
+    "dup_rate": 0.027908771631411,
+    "leet_rate": 0.07600504049231557,
+    "start_lower_prob": 0.7204734945741703,
+    "all_lower_prob": 0.1931220113951636,
+    "drop_punct_prob": 0.466143635429755,
+    "double_space_prob": 0.27644218731383136,
+    "ellipsis_prob": 0.2432219516029353,
+    "runon_prob": 0.13314633347958432,
+    "filler_rate": 0.4194034614884159,
+    "emoji_rate": 0.19490427899548846,
+    "stutter_rate": 0.1284435547419337,
+    "repeat_last_rate": 0.14130206090425723
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"navigating PrEP alongside my health condition and potential side effects\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anashughulika na hali ya sclerosis nyingi. Hali hii inamfanya kuwa na wasiwasi kuhusu jinsi PrEP itakavyoathiri mwili wake na kama inaweza kuongezea matatizo yake ya afya. Anahisi mchanganyiko wa matumaini na hofu kuhusu kutumia dawa za kuzuia maambukizi.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuathiri hali yangu ya sclerosis nyingi kwa namna yoyote?\",\n    \"Ninaweza kupata wapi msaada wa kuelewa athari zinazoweza kutokea kutokana na PrEP?\",\n    \"Ni vigezo gani vinavyotakiwa ili niweze kuanza kutumia PrEP?\",\n    \"Je, kuna njia za kuhakikisha kwamba sipata matatizo zaidi kutokana na matumizi ya PrEP?\",\n    \"Nini kinaweza kunihamasisha kujaribu PrEP licha ya hofu zangu?\",\n    \"Je, PrEP inaweza kusaidia katika kuboresha afya yangu ya jumla?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1f1a20e2d6521352cf0e5083f0efd07336734dc71f1b553b101320aa6d7a249a",
+  "_starter_hash": "9df3b7a0bc080e64fbea3bdf25262901eedeb1286e209a84818f4edd620a4a5b",
+  "_language": "Swahili",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

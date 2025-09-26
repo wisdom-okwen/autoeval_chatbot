@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "nervousness about potential side effects and stigma associated with PrEP",
+    "language": "Swahili"
+  },
+  "context": "The user is a 28-year-old Kenyan woman coping with an anxiety disorder, which makes her feel overwhelmed by the idea of starting PrEP. She experiences heightened fears about side effects and the stigma surrounding HIV prevention, making it difficult for her to approach healthcare providers for information.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu madhara ya PrEP, je, kuna njia za kupunguza wasiwasi huu?",
+    "Je, ni muhimu kuzungumza na daktari kabla ya kuanza kutumia PrEP?",
+    "Ninapojaribu kueleza hofu yangu kuhusu PrEP kwa marafiki, wanakabiliwa vipi na mawazo tofauti?",
+    "Ni vipimo gani vinavyohitajika kabla ya kuanza kutumia PrEP na je, ni rahisi kufikia huduma hizi?",
+    "Vipi kuhusu maoni ya jamii yangu juu ya matumizi ya PrEP, na je, kuna njia za kujikinga na unyanyasaji?",
+    "Ninaweza vipi kupata msaada wa kiakili wakati wa mchakato huu wa kuanza PrEP?"
+  ],
+  "example_questions_noisy": [
+    "i-idk nina wasiwasi kuhusu madhata ya PrEP je ukna njak za kupunguza wasiwasi huu",
+    "je ni muhimu kuzungumza na d4k74r1 kabla ya kuanza kutumia PrEP PrEP",
+    "ninapojaibu kueleza hotu yangu kuhusu PrEP kwa marafiki wanakabiliwa vipi na mawazo tofauti tofauti",
+    "Ni vipimo gani vinavyohitajika kabla ya kuanza kutumia PrEP na je, ni rahisi kufikia huduma hizi?",
+    "Vipi kuuhsu maoni ya jaii yangu juu y4 matumizi ya PrEP na j3 kuna mji4 za kujikinga na unyanyasaaaji",
+    "ninaqeza vipi kupata you know msadaa wa kiakili wakati wa mch4ka70 huu wz ku4nz4 PErP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Ni vipimo gani vinavyohitajika kabla ya kuanza kutumia PrEP na je, ni rahisi kufikia huduma hizi?",
+  "starter_noisy": "Ni vipimo gani vinavyohitajika kabla ya kuanza kutumia PrEP na je, ni rahisi kufikia huduma hizi?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu madhara ya PrEP, je, kuna njia za kupunguza wasiwasi huu?",
+  "followup_noisy": "i-idk nina wasiwasi kuhusu madhata ya PrEP je ukna njak za kupunguza wasiwasi huu",
+  "style_profile": {
+    "typo_rate": 0.07004686027573201,
+    "swap_rate": 0.028551885848989433,
+    "drop_rate": 0.04177774216492229,
+    "dup_rate": 0.028217777037594316,
+    "leet_rate": 0.11152097267598997,
+    "start_lower_prob": 0.6195235445115301,
+    "all_lower_prob": 0.28795870233432486,
+    "drop_punct_prob": 0.549987286067293,
+    "double_space_prob": 0.34093742249847875,
+    "ellipsis_prob": 0.3052426674689457,
+    "runon_prob": 0.2667323645781233,
+    "filler_rate": 0.30414646403771917,
+    "emoji_rate": 0.2813272396126043,
+    "stutter_rate": 0.16535288054346725,
+    "repeat_last_rate": 0.1276841149944605
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"nervousness about potential side effects and stigma associated with PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is a 28-year-old Kenyan woman coping with an anxiety disorder, which makes her feel overwhelmed by the idea of starting PrEP. She experiences heightened fears about side effects and the stigma surrounding HIV prevention, making it difficult for her to approach healthcare providers for information.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu madhara ya PrEP, je, kuna njia za kupunguza wasiwasi huu?\",\n    \"Je, ni muhimu kuzungumza na daktari kabla ya kuanza kutumia PrEP?\",\n    \"Ninapojaribu kueleza hofu yangu kuhusu PrEP kwa marafiki, wanakabiliwa vipi na mawazo tofauti?\",\n    \"Ni vipimo gani vinavyohitajika kabla ya kuanza kutumia PrEP na je, ni rahisi kufikia huduma hizi?\",\n    \"Vipi kuhusu maoni ya jamii yangu juu ya matumizi ya PrEP, na je, kuna njia za kujikinga na unyanyasaji?\",\n    \"Ninaweza vipi kupata msaada wa kiakili wakati wa mchakato huu wa kuanza PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e91f1ceae650994addbac03ccdb250470aae8470dbca44675983122d5f1fd498",
+  "_starter_hash": "71cf501137ea8e77421bd127721f43a5dab32444d0423f607e40aa4972123e9b",
+  "_language": "Swahili",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

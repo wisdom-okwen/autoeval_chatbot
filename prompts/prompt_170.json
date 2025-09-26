@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "concern about potential side effects and stigma",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anaishi na ugonjwa wa schizophrenia, ambao unamfanya kuwa na wasiwasi kuhusu matibabu mapya kama PrEP. Anahisi hofu kuhusu athari za dawa hizo na jinsi jamii yake itakavyojibu ikiwa atachukua PrEP. Kwa sababu ya hali yake ya kiuchumi, anahisi kuwa kupata PrEP kunaweza kuwa na changamoto zaidi.",
+  "example_questions_clean": [
+    "Ni nini kinachopaswa kujulikana kuhusu PrEP na athari zake kwa watu wenye matatizo ya akili?",
+    "Je, ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuhisi aibu?",
+    "Ninaweza vipi kuhakikisha kwamba ninapata huduma bora za afya huku nikihisi salama?",
+    "Je, kuna usaidizi wa kifedha kwa watu kama mimi wanaotaka kuchukua PrEP?",
+    "Ni hatua zipi ninazoweza kuchukua ili kupunguza hofu yangu kuhusu stigma inayohusiana na PrEP?",
+    "Ninaweza kuzungumza na nani kuhusu maswali yangu juu ya PrEP bila kuhisi hukumu?"
+  ],
+  "example_questions_noisy": [
+    "Ni nini kinachopaswa kujulikana kuhusu PrEP na athari zake kwa watu wenye matatizo ya akili?",
+    "Je, ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuhisi aibu?",
+    "ninaweza vipiii kuhakikisha kwamba ninapata huduma bora z4 afya huku nikihisi salama?",
+    "Je, kuna usaidizi wa kifedha kwa watu kama mimi wanaotaka kuchukua PrEP?",
+    "Ni hatua zipi ninazoweza kuchukua ili kupunguza hofu yangu kuhusu stigma inayohusiana na PrEP?",
+    "n-ninaweaz kuznughmza na nani kuhusu m4sw4l1 yangu juu ya PrEP bila kuhisi hukumu?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Ni hatua zipi ninazoweza kuchukua ili kupunguza hofu yangu kuhusu stigma inayohusiana na PrEP?",
+  "starter_noisy": "Ni hatua zipi ninazoweza kuchukua ili kupunguza hofu yangu kuhusu stigma inayohusiana na PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ni nini kinachopaswa kujulikana kuhusu PrEP na athari zake kwa watu wenye matatizo ya akili?",
+  "followup_noisy": "Ni nini kinachopaswa kujulikana kuhusu PrEP na athari zake kwa watu wenye matatizo ya akili?",
+  "style_profile": {
+    "typo_rate": 0.11730786441361132,
+    "swap_rate": 0.033527551391859235,
+    "drop_rate": 0.024682320393594814,
+    "dup_rate": 0.02920395709705889,
+    "leet_rate": 0.10507664652331862,
+    "start_lower_prob": 0.8014480548192893,
+    "all_lower_prob": 0.2862378196382209,
+    "drop_punct_prob": 0.4116528012650224,
+    "double_space_prob": 0.28927153034467057,
+    "ellipsis_prob": 0.2636813521008028,
+    "runon_prob": 0.15918154861221548,
+    "filler_rate": 0.4650456419710099,
+    "emoji_rate": 0.1851839109206252,
+    "stutter_rate": 0.19385744920326206,
+    "repeat_last_rate": 0.08724255030592225
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"concern about potential side effects and stigma\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anaishi na ugonjwa wa schizophrenia, ambao unamfanya kuwa na wasiwasi kuhusu matibabu mapya kama PrEP. Anahisi hofu kuhusu athari za dawa hizo na jinsi jamii yake itakavyojibu ikiwa atachukua PrEP. Kwa sababu ya hali yake ya kiuchumi, anahisi kuwa kupata PrEP kunaweza kuwa na changamoto zaidi.\",\n  \"example_questions\": [\n    \"Ni nini kinachopaswa kujulikana kuhusu PrEP na athari zake kwa watu wenye matatizo ya akili?\",\n    \"Je, ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuhisi aibu?\",\n    \"Ninaweza vipi kuhakikisha kwamba ninapata huduma bora za afya huku nikihisi salama?\",\n    \"Je, kuna usaidizi wa kifedha kwa watu kama mimi wanaotaka kuchukua PrEP?\",\n    \"Ni hatua zipi ninazoweza kuchukua ili kupunguza hofu yangu kuhusu stigma inayohusiana na PrEP?\",\n    \"Ninaweza kuzungumza na nani kuhusu maswali yangu juu ya PrEP bila kuhisi hukumu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a8b913645a4afcc2c79f340791d42851400240c355858d4e3e77301e91073155",
+  "_starter_hash": "6ccab4da3064bf8b90d4e09bc40f808621fa0a51e91009a5a017f6e2b8f12fce",
+  "_language": "Swahili",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

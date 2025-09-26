@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "el acceso a PrEP debido a mi dolor crónico y los efectos secundarios de otros medicamentos",
+    "language": "Spanish"
+  },
+  "context": "Vivo con dolor crónico, lo que a menudo me hace sentir agotada y ansiosa. Esto me lleva a cuestionar si el uso de PrEP es viable para mí, ya que me preocupa cómo interactuará con mis otros tratamientos y cómo puede afectar mi bienestar diario. A veces siento que no tengo suficiente energía para buscar información o asistir a citas médicas, lo que añade una capa de estrés a mi situación actual. Además, temo el estigma asociado con la salud sexual en mi comunidad y cómo esto podría influir en mi decisión.",
+  "example_questions_clean": [
+    "¿Cómo puede PrEP afectar mi condición de dolor crónico?",
+    "¿Existen opciones de PrEP que sean más fáciles de manejar para alguien como yo?",
+    "Me preocupa la interacción entre PrEP y mis medicamentos actuales, ¿hay información sobre esto?",
+    "¿Cuáles son los recursos disponibles para alguien en mi situación para acceder a PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre PrEP sin sentirme juzgada?",
+    "¿Hay apoyo emocional disponible para personas que consideran usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cóno i mean puede PrEP afectar mi condición de dolor crónico",
+    "¿Existen opciones de PrEP que sean más fáciles de manejar para alguien como yo?",
+    "m3 preocupa la interacción entre PrEP y is medicamentos catuales, ¿hay información sobre esto?",
+    "¿Cuáles son los recursos disponibles para alguien en mi situación para acceder a PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre PrEP sin sentirme juzgada?",
+    "¿Hay apoyo emocional disponible para personas que consideran usar PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Hay apoyo emocional disponible para personas que consideran usar PrEP?",
+  "starter_noisy": "¿Hay apoyo emocional disponible para personas que consideran usar PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puede PrEP afectar mi condición de dolor crónico?",
+  "followup_noisy": "¿Cóno i mean puede PrEP afectar mi condición de dolor crónico",
+  "style_profile": {
+    "typo_rate": 0.11408548650101116,
+    "swap_rate": 0.058189061405835046,
+    "drop_rate": 0.028724575801554957,
+    "dup_rate": 0.013011901219095377,
+    "leet_rate": 0.05608935210264292,
+    "start_lower_prob": 0.8880941358276211,
+    "all_lower_prob": 0.24594387428555958,
+    "drop_punct_prob": 0.3644444949100547,
+    "double_space_prob": 0.1860110884844384,
+    "ellipsis_prob": 0.24847992380708528,
+    "runon_prob": 0.2604985469658954,
+    "filler_rate": 0.20159206189758722,
+    "emoji_rate": 0.16545933027140663,
+    "stutter_rate": 0.1739599670172992,
+    "repeat_last_rate": 0.10120604653227926
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"el acceso a PrEP debido a mi dolor crónico y los efectos secundarios de otros medicamentos\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Vivo con dolor crónico, lo que a menudo me hace sentir agotada y ansiosa. Esto me lleva a cuestionar si el uso de PrEP es viable para mí, ya que me preocupa cómo interactuará con mis otros tratamientos y cómo puede afectar mi bienestar diario. A veces siento que no tengo suficiente energía para buscar información o asistir a citas médicas, lo que añade una capa de estrés a mi situación actual. Además, temo el estigma asociado con la salud sexual en mi comunidad y cómo esto podría influir en mi decisión.\",\n  \"example_questions\": [\n    \"¿Cómo puede PrEP afectar mi condición de dolor crónico?\",\n    \"¿Existen opciones de PrEP que sean más fáciles de manejar para alguien como yo?\",\n    \"Me preocupa la interacción entre PrEP y mis medicamentos actuales, ¿hay información sobre esto?\",\n    \"¿Cuáles son los recursos disponibles para alguien en mi situación para acceder a PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre PrEP sin sentirme juzgada?\",\n    \"¿Hay apoyo emocional disponible para personas que consideran usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "71ab2e69b2526444eb6dc56e8eb9d3c4643bc6d1259a7795b95f16dca5d338b4",
+  "_starter_hash": "ed03e6f8fe6b0841584a9b066f80a5f254e66a48a1c8febee690320ed6b36550",
+  "_language": "Spanish",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

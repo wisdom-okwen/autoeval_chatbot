@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Wie kann ich PrEP sicher nutzen, während ich mit meiner bipolaren Störung umgehe?",
+    "language": "German"
+  },
+  "context": "Die Nutzerin ist 28 Jahre alt und lebt mit bipolarer Störung. Sie hat oft wechselnde Emotionen, die es ihr schwer machen, Entscheidungen über ihre Gesundheit zu treffen. Sie sorgt sich über mögliche Nebenwirkungen von PrEP und wie diese ihr psychisches Wohlbefinden beeinflussen könnten. Außerdem hat sie Angst vor dem stigma, das mit der Nutzung von Präventionsmedikamenten verbunden sein könnte, und fragt sich, ob ihr psychiatrisches Team die Verwendung von PrEP unterstützen würde.",
+  "example_questions_clean": [
+    "Könnte PrEP meine Stimmungsschwankungen negativ beeinflussen?",
+    "Wie kann ich mehr über die langfristigen Auswirkungen von PrEP auf meine Gesundheit erfahren?",
+    "Gibt es Organisationen, die Menschen mit psychischen Erkrankungen bei der PrEP-Nutzung unterstützen?",
+    "Wie schaffe ich es, offen mit meinem Arzt über PrEP zu sprechen?",
+    "Hat jemand Erfahrungen gemacht, wie PrEP bei psychischen Herausforderungen eingesetzt werden kann?",
+    "Kann ich PrEP auch bei wechselnden emotionalen Zuständen einnehmen?"
+  ],
+  "example_questions_noisy": [
+    "Könnte PrEP meine Stimmungsschwankungen negativ beeinflussen?",
+    "Wie kann ich mehr über die langfristigen Auswirkungen von PrEP auf meine Gesundheit erfahren?",
+    "gibt es Organisationen die Menschen mit psychischen Erkrankungen bei der PrEP-Nutzung unterstützen? ❓",
+    "wie schaffe ich es, offen mit meinem Arzt übe PrEP zu spredhen?",
+    "Hat jemand Erfahrungen gemacht, wie PrEP bei psychischen Herausforderungen eingesetzt werden kann?",
+    "Kann ich PrEP auch bei wechselnden emotionalen Zuständen einnehmen?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Kann ich PrEP auch bei wechselnden emotionalen Zuständen einnehmen?",
+  "starter_noisy": "Kann ich PrEP auch bei wechselnden emotionalen Zuständen einnehmen?",
+  "followup_index": 0,
+  "followup_clean": "Könnte PrEP meine Stimmungsschwankungen negativ beeinflussen?",
+  "followup_noisy": "Könnte PrEP meine Stimmungsschwankungen negativ beeinflussen?",
+  "style_profile": {
+    "typo_rate": 0.11617442124038167,
+    "swap_rate": 0.03869695605479233,
+    "drop_rate": 0.03339505913260601,
+    "dup_rate": 0.012189774577725956,
+    "leet_rate": 0.07253222876428059,
+    "start_lower_prob": 0.8003036569512024,
+    "all_lower_prob": 0.28669962247909697,
+    "drop_punct_prob": 0.4519721607828694,
+    "double_space_prob": 0.29583939502383105,
+    "ellipsis_prob": 0.254068399490031,
+    "runon_prob": 0.2492971943725474,
+    "filler_rate": 0.41282962838243464,
+    "emoji_rate": 0.1889857102931258,
+    "stutter_rate": 0.10911770278389754,
+    "repeat_last_rate": 0.08535153502449659
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Wie kann ich PrEP sicher nutzen, während ich mit meiner bipolaren Störung umgehe?\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin ist 28 Jahre alt und lebt mit bipolarer Störung. Sie hat oft wechselnde Emotionen, die es ihr schwer machen, Entscheidungen über ihre Gesundheit zu treffen. Sie sorgt sich über mögliche Nebenwirkungen von PrEP und wie diese ihr psychisches Wohlbefinden beeinflussen könnten. Außerdem hat sie Angst vor dem stigma, das mit der Nutzung von Präventionsmedikamenten verbunden sein könnte, und fragt sich, ob ihr psychiatrisches Team die Verwendung von PrEP unterstützen würde.\",\n  \"example_questions\": [\n    \"Könnte PrEP meine Stimmungsschwankungen negativ beeinflussen?\",\n    \"Wie kann ich mehr über die langfristigen Auswirkungen von PrEP auf meine Gesundheit erfahren?\",\n    \"Gibt es Organisationen, die Menschen mit psychischen Erkrankungen bei der PrEP-Nutzung unterstützen?\",\n    \"Wie schaffe ich es, offen mit meinem Arzt über PrEP zu sprechen?\",\n    \"Hat jemand Erfahrungen gemacht, wie PrEP bei psychischen Herausforderungen eingesetzt werden kann?\",\n    \"Kann ich PrEP auch bei wechselnden emotionalen Zuständen einnehmen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "27c09363a18080a019574fb23a3665ac72d5dc64f4024ae1bf90d0c9d990fea4",
+  "_starter_hash": "0d9bfebfd7aaee18e4ee8ee38b672f758b9d9a9b8bee97c75c72e0f9a9cb78c3",
+  "_language": "German",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

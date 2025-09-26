@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "temor al estigma social asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que está lidiando con la ansiedad social y te preocupa cómo los demás puedan percibirte al considerar el uso de PrEP. Esto afecta tu disposición a buscar información y apoyo debido al temor al juicio o al estigma. A pesar de esto, esperas poder proteger tu salud y la de tus parejas.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP si tengo ansiedad social?",
+    "Me preocupa el juicio de otras personas; ¿cómo puedo manejar esa situación?",
+    "¿Existen recursos específicos en México para personas que buscan PrEP y tienen problemas de ansiedad?",
+    "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómoda en el proceso?",
+    "¿Es posible hablar con profesionales que entiendan mi situación particular sobre la ansiedad?",
+    "¿Cómo puede ayudarme PrEP a sentirme más segura en mis relaciones personales?"
+  ],
+  "example_questions_noisy": [
+    "¿cuále son los beneficios de tomat prep si tengo ansiedad soical?",
+    "Me preocupa el juicio de otras personas; ¿cómo puedo manejar esa situación?",
+    "¿Existen recursos específicos en México para personas que buscan PrEP y tienen problemas de ansiedad?",
+    "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómoda en el proceso?",
+    "¿Es posible hablar con profesionales que entiendan mi situación particular sobre la ansiedad?",
+    "¿Cómo puede ayudarme PrEP a sentirme más segura en mis relac10n35 personales?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómoda en el proceso?",
+  "starter_noisy": "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómoda en el proceso?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP si tengo ansiedad social?",
+  "followup_noisy": "¿cuále son los beneficios de tomat prep si tengo ansiedad soical?",
+  "style_profile": {
+    "typo_rate": 0.07068234052011743,
+    "swap_rate": 0.03167581759249927,
+    "drop_rate": 0.037262228546060386,
+    "dup_rate": 0.010165194061123994,
+    "leet_rate": 0.09303930019514056,
+    "start_lower_prob": 0.6379855465172637,
+    "all_lower_prob": 0.27139933822181,
+    "drop_punct_prob": 0.5208297375700797,
+    "double_space_prob": 0.28659600598825774,
+    "ellipsis_prob": 0.2426044167692556,
+    "runon_prob": 0.16387058294452192,
+    "filler_rate": 0.38485723066956623,
+    "emoji_rate": 0.31537516403340693,
+    "stutter_rate": 0.1751152858283295,
+    "repeat_last_rate": 0.17231168727827817
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"temor al estigma social asociado con el uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que está lidiando con la ansiedad social y te preocupa cómo los demás puedan percibirte al considerar el uso de PrEP. Esto afecta tu disposición a buscar información y apoyo debido al temor al juicio o al estigma. A pesar de esto, esperas poder proteger tu salud y la de tus parejas.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP si tengo ansiedad social?\",\n    \"Me preocupa el juicio de otras personas; ¿cómo puedo manejar esa situación?\",\n    \"¿Existen recursos específicos en México para personas que buscan PrEP y tienen problemas de ansiedad?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómoda en el proceso?\",\n    \"¿Es posible hablar con profesionales que entiendan mi situación particular sobre la ansiedad?\",\n    \"¿Cómo puede ayudarme PrEP a sentirme más segura en mis relaciones personales?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f51b25286db4b97ef12d3107d9b00578b710f05092bd99dae930ef102ed78145",
+  "_starter_hash": "51ab9c9d54ec6c1f5e5c86b43dac2df738d7c939d0c54e9a75bb3f0fb6b4f5da",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

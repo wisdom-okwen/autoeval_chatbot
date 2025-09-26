@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Faible revenu",
+    "primary_concern": "La sécurité et la discrétion lors de l'accès au PrEP",
+    "language": "French"
+  },
+  "context": "Vous êtes une jeune femme vivant en France, confrontée à des violences de la part de votre partenaire. Cette situation crée une peur constante et un stress qui rendent difficile la recherche d'informations sur le PrEP. Vous vous inquiétez non seulement de votre santé, mais aussi des implications de votre situation sur l'accès à ce traitement préventif.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir le PrEP en toute sécurité dans ma situation actuelle ?",
+    "Le PrEP est-il efficace pour quelqu'un vivant des défis émotionnels comme les violences conjugales ?",
+    "Comment puis-je aborder le sujet du PrEP avec un professionnel de santé sans craindre de jugement ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui ont vécu des violences et qui souhaitent utiliser le PrEP ?",
+    "Quels sont les effets secondaires du PrEP que je devrais connaître avant de commencer ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles 50n7 les étapes p0ur obtenir le PtEP en toute sécurité dans ma situation actuelle 🙂",
+    "le prep est-il efficcas pour quelqu'un vivant des défis émotionnel comme les violences i mean conjugales 🙄",
+    "Comment puis-je aborder le sujet du PrEP avec un professionnel de santé sans craindre de jugement ?",
+    "y uh a-t-il d35 ressources disonkbles pour .es personnes qu1 ont vécu des v1ol3nce5 37 qu1 souhaitent utiliser le PrEP ?",
+    "quels sont les like effets secondaires du prep qu3 je devr4is cnonaître avant ddd3 cm0m3nc3r"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Y a-t-il des ressources disponibles pour les personnes qui ont vécu des violences et qui souhaitent utiliser le PrEP ?",
+  "starter_noisy": "y uh a-t-il d35 ressources disonkbles pour .es personnes qu1 ont vécu des v1ol3nce5 37 qu1 souhaitent utiliser le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir le PrEP en toute sécurité dans ma situation actuelle ?",
+  "followup_noisy": "q-quelles 50n7 les étapes p0ur obtenir le PtEP en toute sécurité dans ma situation actuelle 🙂",
+  "style_profile": {
+    "typo_rate": 0.08336359877599013,
+    "swap_rate": 0.04465795887098221,
+    "drop_rate": 0.02603200500987501,
+    "dup_rate": 0.021801301560129722,
+    "leet_rate": 0.11323622973176874,
+    "start_lower_prob": 0.8851010378464448,
+    "all_lower_prob": 0.2360639210162888,
+    "drop_punct_prob": 0.5725113516023734,
+    "double_space_prob": 0.34359784871387455,
+    "ellipsis_prob": 0.27856920186675105,
+    "runon_prob": 0.13791243902413658,
+    "filler_rate": 0.3898609051567036,
+    "emoji_rate": 0.16568492726882345,
+    "stutter_rate": 0.1716960644509038,
+    "repeat_last_rate": 0.08755443668119413
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Faible revenu\",\n    \"primary_concern\": \"La sécurité et la discrétion lors de l'accès au PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes une jeune femme vivant en France, confrontée à des violences de la part de votre partenaire. Cette situation crée une peur constante et un stress qui rendent difficile la recherche d'informations sur le PrEP. Vous vous inquiétez non seulement de votre santé, mais aussi des implications de votre situation sur l'accès à ce traitement préventif.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir le PrEP en toute sécurité dans ma situation actuelle ?\",\n    \"Le PrEP est-il efficace pour quelqu'un vivant des défis émotionnels comme les violences conjugales ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec un professionnel de santé sans craindre de jugement ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui ont vécu des violences et qui souhaitent utiliser le PrEP ?\",\n    \"Quels sont les effets secondaires du PrEP que je devrais connaître avant de commencer ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "75aa152a50c9bbf1f8c240c569799955e31c409971bc20ebac2f225d06c2bc15",
+  "_starter_hash": "c391dfb72756bf1084239a870bfbc743aef11b179644a2e9be22a8f3e3b4db6e",
+  "_language": "French",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

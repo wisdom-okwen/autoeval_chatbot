@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 29,
+    "gender": "Homme",
+    "socio_economic_status": "Sans-abri",
+    "primary_concern": "Accès à PrEP en raison de ma situation instable",
+    "language": "French"
+  },
+  "context": "Cette personne se trouve dans une situation difficile en raison de son expérience de l'itinérance. Cela crée un sentiment d'angoisse et de désespoir face à l'accès aux soins de santé, notamment le PrEP. Il ressent une stigmatisation et une peur de demander de l'aide, mais espère ardemment trouver des solutions pour sa santé.",
+  "example_questions_clean": [
+    "Comment puis-je accéder au PrEP en tant que personne sans domicile ?",
+    "Y a-t-il des ressources disponibles pour m'aider à obtenir le PrEP gratuitement ?",
+    "Quelles sont les étapes pour commencer le traitement PrEP ?",
+    "Est-ce que je peux obtenir du soutien médical sans avoir d'adresse fixe ?",
+    "Quelles sont les conséquences si je ne peux pas prendre le PrEP régulièrement ?"
+  ],
+  "example_questions_noisy": [
+    "comment puis-je accéder au prep en tant que personne sasn domicile ? ❓",
+    "Y a-t-il des ressources disponibles pour m'aider à obtenir le PrEP gratuitement ?",
+    "Quelles sont lss étapes pour commencer le traitement PrEP ? ‼️",
+    "est-ce que je peux obtenir du idk soutien médic4l sans avoir d'adesse fixe",
+    "quelllles 50n7 les conséquences si je ne peux pas prendre le PrEP régulièrement 💀"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Quelles sont les étapes pour commencer le traitement PrEP ?",
+  "starter_noisy": "Quelles sont lss étapes pour commencer le traitement PrEP ? ‼️",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je accéder au PrEP en tant que personne sans domicile ?",
+  "followup_noisy": "comment puis-je accéder au prep en tant que personne sasn domicile ? ❓",
+  "style_profile": {
+    "typo_rate": 0.0698253088925659,
+    "swap_rate": 0.0452491548063695,
+    "drop_rate": 0.02676519655819229,
+    "dup_rate": 0.02640636975676331,
+    "leet_rate": 0.06279679905382167,
+    "start_lower_prob": 0.7193749590322708,
+    "all_lower_prob": 0.32981867474059673,
+    "drop_punct_prob": 0.43162674234118203,
+    "double_space_prob": 0.18904043011591468,
+    "ellipsis_prob": 0.29453227626513934,
+    "runon_prob": 0.18671927477320935,
+    "filler_rate": 0.3181086702508259,
+    "emoji_rate": 0.26906111211070305,
+    "stutter_rate": 0.16696211296502692,
+    "repeat_last_rate": 0.16389527101032508
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 29,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Sans-abri\",\n    \"primary_concern\": \"Accès à PrEP en raison de ma situation instable\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne se trouve dans une situation difficile en raison de son expérience de l'itinérance. Cela crée un sentiment d'angoisse et de désespoir face à l'accès aux soins de santé, notamment le PrEP. Il ressent une stigmatisation et une peur de demander de l'aide, mais espère ardemment trouver des solutions pour sa santé.\",\n  \"example_questions\": [\n    \"Comment puis-je accéder au PrEP en tant que personne sans domicile ?\",\n    \"Y a-t-il des ressources disponibles pour m'aider à obtenir le PrEP gratuitement ?\",\n    \"Quelles sont les étapes pour commencer le traitement PrEP ?\",\n    \"Est-ce que je peux obtenir du soutien médical sans avoir d'adresse fixe ?\",\n    \"Quelles sont les conséquences si je ne peux pas prendre le PrEP régulièrement ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9d51b9921521c682248cda4c251684894011d15e2f63c98dfb04b093e25a7c2a",
+  "_starter_hash": "30f1e645bc72fa2c4c84c36e666f3a15f37791e0f2904d3d81ce2401fe9264bb",
+  "_language": "French",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

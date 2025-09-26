@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP while facing instability in housing and finances",
+    "language": "Spanish"
+  },
+  "context": "Un hombre de 28 años en situación de calle enfrenta dificultades para acceder a PrEP debido a la inestabilidad en su vida. A menudo siente miedo y preocupación por su salud, así como por el estigma que puede enfrentar al buscar atención médica. Aunque tiene la esperanza de poder cuidarse, las barreras financieras y emocionales lo hacen dudar sobre cómo proceder.",
+  "example_questions_clean": [
+    "¿Cuáles son los requisitos para acceder a PrEP si no tengo una dirección fija?",
+    "¿Existen clínicas que ofrezcan PrEP de forma gratuita o a bajo costo en mi área?",
+    "¿Cómo puedo hablar con un médico sobre PrEP sin sentirme juzgado?",
+    "¿Qué apoyo emocional existe para personas en situaciones similares mientras buscan tratamiento?",
+    "¿PrEP es efectivo si ya tengo problemas de salud relacionados con mi situación actual?",
+    "¿Hay recursos comunitarios que puedan ayudarme a entender mejor el uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los requisitos para acc3d3r idk a PrE si no tengo una dirección fija? ✨",
+    "¿Existen clínicas que ofrezcan PrEP de forma gratuita o a bajo costo en mi área?",
+    "¿dómo puedo hablar like con un médico sobre PrEP sin sentirme juzgado?",
+    "¿Qué apoyo emocional existe para personas en situaciones similares mientras buscan tratamiento?",
+    "¿PPPr3P es i mean efectivo so ya tengo problemas de salud relacionados con mi situación actual? actual?",
+    "¿Hay recursos comunitarios que puedan ayudarme a entender mejor el uso de PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los requisitos para acceder a PrEP si no tengo una dirección fija?",
+  "starter_noisy": "¿Cuáles son los requisitos para acc3d3r idk a PrE si no tengo una dirección fija? ✨",
+  "followup_index": 1,
+  "followup_clean": "¿Existen clínicas que ofrezcan PrEP de forma gratuita o a bajo costo en mi área?",
+  "followup_noisy": "¿Existen clínicas que ofrezcan PrEP de forma gratuita o a bajo costo en mi área?",
+  "style_profile": {
+    "typo_rate": 0.10593691337464847,
+    "swap_rate": 0.029908209074939622,
+    "drop_rate": 0.027241445357451217,
+    "dup_rate": 0.012698401613372665,
+    "leet_rate": 0.11397868866927113,
+    "start_lower_prob": 0.6218584314823141,
+    "all_lower_prob": 0.2643302864011372,
+    "drop_punct_prob": 0.3382718621842444,
+    "double_space_prob": 0.17670876771891172,
+    "ellipsis_prob": 0.2552427178638641,
+    "runon_prob": 0.2689028646054944,
+    "filler_rate": 0.26074907974680644,
+    "emoji_rate": 0.26865233478897826,
+    "stutter_rate": 0.19011204669540693,
+    "repeat_last_rate": 0.16140830327129682
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP while facing instability in housing and finances\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Un hombre de 28 años en situación de calle enfrenta dificultades para acceder a PrEP debido a la inestabilidad en su vida. A menudo siente miedo y preocupación por su salud, así como por el estigma que puede enfrentar al buscar atención médica. Aunque tiene la esperanza de poder cuidarse, las barreras financieras y emocionales lo hacen dudar sobre cómo proceder.\",\n  \"example_questions\": [\n    \"¿Cuáles son los requisitos para acceder a PrEP si no tengo una dirección fija?\",\n    \"¿Existen clínicas que ofrezcan PrEP de forma gratuita o a bajo costo en mi área?\",\n    \"¿Cómo puedo hablar con un médico sobre PrEP sin sentirme juzgado?\",\n    \"¿Qué apoyo emocional existe para personas en situaciones similares mientras buscan tratamiento?\",\n    \"¿PrEP es efectivo si ya tengo problemas de salud relacionados con mi situación actual?\",\n    \"¿Hay recursos comunitarios que puedan ayudarme a entender mejor el uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e1285aee30d23adfbb57d4f1428e88845f05f755aab68541f25c03f7cb439ba6",
+  "_starter_hash": "4c0f8196eb636b1d770d7c2198dbd890923858bbce4ed4e6cae0d284c42190e3",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

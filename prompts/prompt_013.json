@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Managing medication with bipolar disorder",
+    "language": "English"
+  },
+  "context": "The user has bipolar disorder and is concerned about how PrEP might interact with her mental health treatment. She feels apprehensive about the stigma around her condition and worries that it may complicate her access to PrEP. Her emotional state often fluctuates, which makes the consistency required for PrEP adherence a challenge.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP won't interfere with my bipolar medication?",
+    "What support systems are available for people with mental health challenges who want to start PrEP?",
+    "Is there any research on the effects of PrEP on mental health conditions like mine?",
+    "Are there resources that address stigma around using PrEP for individuals with mental health issues?",
+    "What should I discuss with my doctor regarding my unique situation and PrEP access?",
+    "Can community organizations help me navigate the process of getting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that taking PrEP won't interfere with my bipolar medication?",
+    "What support systems are available for people with mental health challenges who want to start PrEP?",
+    "is there any research on the effects of PrEP on mental health conditions like mine?",
+    "Are there resources that address stigma around using PrEP for individuals with mental health issues?",
+    "what should I discuss with my doctor regarding my uniqu situation and PrEP access",
+    "Can community organizations help me navigate the process of getting PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Is there any research on the effects of PrEP on mental health conditions like mine?",
+  "starter_noisy": "is there any research on the effects of PrEP on mental health conditions like mine?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that taking PrEP won't interfere with my bipolar medication?",
+  "followup_noisy": "How can I ensure that taking PrEP won't interfere with my bipolar medication?",
+  "style_profile": {
+    "typo_rate": 0.05640142387123346,
+    "swap_rate": 0.022904606997230632,
+    "drop_rate": 0.03125895782687761,
+    "dup_rate": 0.029734212218609266,
+    "leet_rate": 0.0671956080592329,
+    "start_lower_prob": 0.8761858084479441,
+    "all_lower_prob": 0.2998927517055434,
+    "drop_punct_prob": 0.4489081273373997,
+    "double_space_prob": 0.29480642253252903,
+    "ellipsis_prob": 0.163466219404509,
+    "runon_prob": 0.10606901041702949,
+    "filler_rate": 0.2739393171198477,
+    "emoji_rate": 0.3369819382774085,
+    "stutter_rate": 0.12336435728095523,
+    "repeat_last_rate": 0.1601570055653782
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Managing medication with bipolar disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has bipolar disorder and is concerned about how PrEP might interact with her mental health treatment. She feels apprehensive about the stigma around her condition and worries that it may complicate her access to PrEP. Her emotional state often fluctuates, which makes the consistency required for PrEP adherence a challenge.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP won't interfere with my bipolar medication?\",\n    \"What support systems are available for people with mental health challenges who want to start PrEP?\",\n    \"Is there any research on the effects of PrEP on mental health conditions like mine?\",\n    \"Are there resources that address stigma around using PrEP for individuals with mental health issues?\",\n    \"What should I discuss with my doctor regarding my unique situation and PrEP access?\",\n    \"Can community organizations help me navigate the process of getting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "60a4f9cfab5532e40612b9e588ad1e4b069269d0aec2915a4a40b6c3a980f3f6",
+  "_starter_hash": "b753c442fe5d085e0132c42b3c45f1b7e469540ca5e6bedb95c2acaf096eb9aa",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

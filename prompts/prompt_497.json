@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "el estigma social y el miedo a ser juzgada",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que se siente socialmente aislada debido a su condición de salud y eso ha afectado tu confianza en buscar información sobre PrEP. Tienes miedo de ser juzgada por tu situación y te preocupa cómo esto podría afectar tus relaciones personales. Quieres protegerte, pero sientes que el estigma y la falta de apoyo son grandes barreras para acceder a PrEP.",
+  "example_questions_clean": [
+    "¿Qué es exactamente PrEP y cómo funciona para prevenir el VIH?",
+    "¿Existen grupos de apoyo para personas que usan PrEP que me puedan ayudar?",
+    "¿Cuáles son los efectos secundarios más comunes de tomar PrEP?",
+    "¿Es posible obtener PrEP de manera anónima si tengo miedo del juicio social?",
+    "¿Cómo puedo hablar con mi médico sobre la posibilidad de usar PrEP sin sentirme incómoda?",
+    "¿Hay recursos disponibles para ayudarme a entender mejor mi situación y opciones?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué es exactamente PrEP y cómo funciona para prevenir el VIH?",
+    "¿rxisten grupos de apoyo para personas que usan PrEP like que me puedan ayudar? 🫠",
+    "¿Cuáles son los efectos secundarios más comunes de tomar PrEP?",
+    "¿es posible obtener prep um de manera anónima si tengo miedo dsl juicio social",
+    "¿Cómo puedo hablar con mi médico sobre la posibilidad de usar PrEP sin sentirme incómoda?",
+    "¿Hay recursos disponibles para ayudarme a entender mejor mi situación y opciones?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Hay recursos disponibles para ayudarme a entender mejor mi situación y opciones?",
+  "starter_noisy": "¿Hay recursos disponibles para ayudarme a entender mejor mi situación y opciones?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué es exactamente PrEP y cómo funciona para prevenir el VIH?",
+  "followup_noisy": "¿Qué es exactamente PrEP y cómo funciona para prevenir el VIH?",
+  "style_profile": {
+    "typo_rate": 0.06895854851812652,
+    "swap_rate": 0.04200434622649406,
+    "drop_rate": 0.03142980400619753,
+    "dup_rate": 0.016313054689976302,
+    "leet_rate": 0.06510856666991542,
+    "start_lower_prob": 0.8565053069822177,
+    "all_lower_prob": 0.21489378621325456,
+    "drop_punct_prob": 0.3944941242459873,
+    "double_space_prob": 0.17903679373815973,
+    "ellipsis_prob": 0.3112474323479294,
+    "runon_prob": 0.2482851626967593,
+    "filler_rate": 0.4898304540351937,
+    "emoji_rate": 0.2968621570001271,
+    "stutter_rate": 0.11499755271727147,
+    "repeat_last_rate": 0.1429869272120728
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"el estigma social y el miedo a ser juzgada\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 28 años que se siente socialmente aislada debido a su condición de salud y eso ha afectado tu confianza en buscar información sobre PrEP. Tienes miedo de ser juzgada por tu situación y te preocupa cómo esto podría afectar tus relaciones personales. Quieres protegerte, pero sientes que el estigma y la falta de apoyo son grandes barreras para acceder a PrEP.\",\n  \"example_questions\": [\n    \"¿Qué es exactamente PrEP y cómo funciona para prevenir el VIH?\",\n    \"¿Existen grupos de apoyo para personas que usan PrEP que me puedan ayudar?\",\n    \"¿Cuáles son los efectos secundarios más comunes de tomar PrEP?\",\n    \"¿Es posible obtener PrEP de manera anónima si tengo miedo del juicio social?\",\n    \"¿Cómo puedo hablar con mi médico sobre la posibilidad de usar PrEP sin sentirme incómoda?\",\n    \"¿Hay recursos disponibles para ayudarme a entender mejor mi situación y opciones?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "653a2b872d693aa4238670f8464ae2984b017bd86109b27cfd7386bc342153bd",
+  "_starter_hash": "fdcbe1333504bba477e4875ce39336c43adb8e6fc4f556332b91c01d924c5101",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

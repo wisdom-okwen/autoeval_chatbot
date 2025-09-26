@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP may interact with my mental health medication",
+    "language": "English"
+  },
+  "context": "As a young woman living with bipolar disorder, I often struggle with anxiety about new medications. My condition sometimes makes it hard to navigate healthcare conversations, especially regarding PrEP. I worry that discussing my mental health may lead to stigma or misunderstanding from healthcare providers, making it challenging to address my concerns about HIV prevention and medication interactions.",
+  "example_questions_clean": [
+    "Can you help me understand how PrEP works for someone with a mental health condition like mine?",
+    "What are the potential side effects of PrEP that could impact my mental health?",
+    "How can I approach my doctor about starting PrEP given my history of bipolar disorder?",
+    "Are there support resources available for people like me considering PrEP?",
+    "What should I do if I feel overwhelmed by the thought of taking PrEP?",
+    "Is there a stigma associated with discussing both mental health and sexual health in healthcare settings?"
+  ],
+  "example_questions_noisy": [
+    "Can you help me understand how PrEP works for someone with a mental health condition like mine?",
+    "What are the potential side effects of PrEP that could impact my mental health?",
+    "How can I approach my doctor about starting PrEP given my history of bipolar disorder?",
+    "Are there support resources available for people like me considering PrEP?",
+    "What should I do if I feel overwhelmed by the thought of taking PrEP?",
+    "Is there a stigma associated with discussing both mental health and sexual health in healthcare settings?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What should I do if I feel overwhelmed by the thought of taking PrEP?",
+  "starter_noisy": "What should I do if I feel overwhelmed by the thought of taking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you help me understand how PrEP works for someone with a mental health condition like mine?",
+  "followup_noisy": "Can you help me understand how PrEP works for someone with a mental health condition like mine?",
+  "style_profile": {
+    "typo_rate": 0.10286035773783009,
+    "swap_rate": 0.03833391832693447,
+    "drop_rate": 0.024054889134200397,
+    "dup_rate": 0.018163433931260776,
+    "leet_rate": 0.06571250899764297,
+    "start_lower_prob": 0.6359381896445702,
+    "all_lower_prob": 0.3465417616958895,
+    "drop_punct_prob": 0.32903585047732914,
+    "double_space_prob": 0.1993945993501808,
+    "ellipsis_prob": 0.19073443751191924,
+    "runon_prob": 0.16567484391843942,
+    "filler_rate": 0.45548171968120893,
+    "emoji_rate": 0.18988106145141956,
+    "stutter_rate": 0.16657931474746684,
+    "repeat_last_rate": 0.13541959655191066
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP may interact with my mental health medication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman living with bipolar disorder, I often struggle with anxiety about new medications. My condition sometimes makes it hard to navigate healthcare conversations, especially regarding PrEP. I worry that discussing my mental health may lead to stigma or misunderstanding from healthcare providers, making it challenging to address my concerns about HIV prevention and medication interactions.\",\n  \"example_questions\": [\n    \"Can you help me understand how PrEP works for someone with a mental health condition like mine?\",\n    \"What are the potential side effects of PrEP that could impact my mental health?\",\n    \"How can I approach my doctor about starting PrEP given my history of bipolar disorder?\",\n    \"Are there support resources available for people like me considering PrEP?\",\n    \"What should I do if I feel overwhelmed by the thought of taking PrEP?\",\n    \"Is there a stigma associated with discussing both mental health and sexual health in healthcare settings?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3b0b4e81d048a243d967b4cf249215a01ffad7ca49ddb739c1480b1fb7f6d7fb",
+  "_starter_hash": "93e2e221b1bd15f3514b416720e465d25dd18337ea3f70e1ec016315751c4923",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

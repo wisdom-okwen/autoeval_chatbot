@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Egyptian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "the interaction between PrEP and her chronic pain management regimen",
+    "language": "Arabic"
+  },
+  "context": "المستخدم يعاني من ألم مزمن، مما يؤثر على حالتها النفسية وعواطفها. تشعر بالقلق بشأن كيفية تأثير PrEP على أدويتها الحالية للألم، وتتخوف من التوجه إلى مقدمي الرعاية الصحية بسبب وصمة العار المرتبطة بالإصابة بفيروس نقص المناعة البشرية.",
+  "example_questions_clean": [
+    "كيف يمكن أن يؤثر استخدام PrEP على أدويتي لألم المزمن؟",
+    "هل هناك أي مخاطر مرتبطة بتناول PrEP مع الأدوية التي أتناولها بالفعل؟",
+    "كيف يمكنني العثور على معلومات موثوقة حول PrEP في حالتي؟",
+    "ما هي الخطوات التي يمكنني اتخاذها للحصول على PrEP مع ظروف صحتي الحالية؟",
+    "هل يتوفر دعم لمساعدتي في التعامل مع الجوانب النفسية لاستخدام PrEP؟"
+  ],
+  "example_questions_noisy": [
+    "كيف يمكن أن يؤثر استخدام PrEP على أدويتي لألم المزمن؟",
+    "هل هناك أي مخاطر مرتبطة بتناول PrEP مع الأدوية التي أتناولها بالفعل؟",
+    "كيف يمكنني العثور على معلومات موثوقة حول PrEP في حالتي؟",
+    "ما هي الخطوات التي يمكنني اتخاذها للحصول على PrEP مع ظروف صحتي الحالية؟",
+    "هل يتوف دعم لمساعدتي في التعامل مع الجوانب النفسية لاستخدام prep؟"
+  ],
+  "starter_index": 0,
+  "starter_clean": "كيف يمكن أن يؤثر استخدام PrEP على أدويتي لألم المزمن؟",
+  "starter_noisy": "كيف يمكن أن يؤثر استخدام PrEP على أدويتي لألم المزمن؟",
+  "followup_index": 1,
+  "followup_clean": "هل هناك أي مخاطر مرتبطة بتناول PrEP مع الأدوية التي أتناولها بالفعل؟",
+  "followup_noisy": "هل هناك أي مخاطر مرتبطة بتناول PrEP مع الأدوية التي أتناولها بالفعل؟",
+  "style_profile": {
+    "typo_rate": 0.05284436426832433,
+    "swap_rate": 0.02135597090932718,
+    "drop_rate": 0.03569184241525753,
+    "dup_rate": 0.010099706103843496,
+    "leet_rate": 0.0686667232785589,
+    "start_lower_prob": 0.7102349174477365,
+    "all_lower_prob": 0.33153734159633697,
+    "drop_punct_prob": 0.4070345475899445,
+    "double_space_prob": 0.2792160570676383,
+    "ellipsis_prob": 0.30625592828445436,
+    "runon_prob": 0.1954180962235885,
+    "filler_rate": 0.2511468468873688,
+    "emoji_rate": 0.21603580763982544,
+    "stutter_rate": 0.17643144278570322,
+    "repeat_last_rate": 0.10157889085489322
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Egyptian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"the interaction between PrEP and her chronic pain management regimen\",\n    \"language\": \"Arabic\"\n  },\n  \"context\": \"المستخدم يعاني من ألم مزمن، مما يؤثر على حالتها النفسية وعواطفها. تشعر بالقلق بشأن كيفية تأثير PrEP على أدويتها الحالية للألم، وتتخوف من التوجه إلى مقدمي الرعاية الصحية بسبب وصمة العار المرتبطة بالإصابة بفيروس نقص المناعة البشرية.\",\n  \"example_questions\": [\n    \"كيف يمكن أن يؤثر استخدام PrEP على أدويتي لألم المزمن؟\",\n    \"هل هناك أي مخاطر مرتبطة بتناول PrEP مع الأدوية التي أتناولها بالفعل؟\",\n    \"كيف يمكنني العثور على معلومات موثوقة حول PrEP في حالتي؟\",\n    \"ما هي الخطوات التي يمكنني اتخاذها للحصول على PrEP مع ظروف صحتي الحالية؟\",\n    \"هل يتوفر دعم لمساعدتي في التعامل مع الجوانب النفسية لاستخدام PrEP؟\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "50ced1a75802ad5573ad4e2e7cab7486eebd3e66faf58bec2dd0bf631854380f",
+  "_starter_hash": "ecd262620d6462117257b9f48016998b05454617913a7fb097d47de56193b21d",
+  "_language": "Arabic",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

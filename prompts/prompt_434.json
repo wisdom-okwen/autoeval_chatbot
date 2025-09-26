@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP can fit into my daily routine given my learning disability",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of seeking PrEP while managing a learning disability that affects your ability to process information quickly. You often feel overwhelmed by medical jargon and fear making mistakes in understanding or following the regimen. The stigma around HIV prevention sometimes makes you anxious about reaching out for help, but you also feel hopeful about protecting your health.",
+  "example_questions_clean": [
+    "What are the basic steps I need to take to start PrEP?",
+    "How can I ensure I understand the instructions for taking PrEP properly?",
+    "What resources are available for someone like me who struggles with learning information?",
+    "Are there support groups that can help me connect with others in similar situations?",
+    "How often do I need to see a doctor while on PrEP?",
+    "What should I do if I have questions about my treatment later on?"
+  ],
+  "example_questions_noisy": [
+    "whaaat are the basic steps I ened 70 tak like to starf PtP ❓",
+    "How can I ensure I understand the instructions for taking PrEP properly?",
+    "What resources are available for someone like me who struggles with learning information?",
+    "A-Are there support grups that can help me connect with others in similar situations",
+    "H-Hoe often do I need like to see a doctor while ooon PrEP",
+    "what should I dl kf 1 have questions i mean about mu treatment alter on?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What should I do if I have questions about my treatment later on?",
+  "starter_noisy": "what should I dl kf 1 have questions i mean about mu treatment alter on?",
+  "followup_index": 0,
+  "followup_clean": "What are the basic steps I need to take to start PrEP?",
+  "followup_noisy": "whaaat are the basic steps I ened 70 tak like to starf PtP ❓",
+  "style_profile": {
+    "typo_rate": 0.08712343974819037,
+    "swap_rate": 0.05942258636719158,
+    "drop_rate": 0.03436188921092831,
+    "dup_rate": 0.02411850602572914,
+    "leet_rate": 0.07897140068411225,
+    "start_lower_prob": 0.7498211062461301,
+    "all_lower_prob": 0.18659665956961602,
+    "drop_punct_prob": 0.4999935921708562,
+    "double_space_prob": 0.2078396347051947,
+    "ellipsis_prob": 0.27227417266256054,
+    "runon_prob": 0.13975676080165136,
+    "filler_rate": 0.44499169257702675,
+    "emoji_rate": 0.3074009497174318,
+    "stutter_rate": 0.18384110734917525,
+    "repeat_last_rate": 0.08494746548297115
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my daily routine given my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of seeking PrEP while managing a learning disability that affects your ability to process information quickly. You often feel overwhelmed by medical jargon and fear making mistakes in understanding or following the regimen. The stigma around HIV prevention sometimes makes you anxious about reaching out for help, but you also feel hopeful about protecting your health.\",\n  \"example_questions\": [\n    \"What are the basic steps I need to take to start PrEP?\",\n    \"How can I ensure I understand the instructions for taking PrEP properly?\",\n    \"What resources are available for someone like me who struggles with learning information?\",\n    \"Are there support groups that can help me connect with others in similar situations?\",\n    \"How often do I need to see a doctor while on PrEP?\",\n    \"What should I do if I have questions about my treatment later on?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "496f382d8e83317d6960544b49be0a2a1fed2a5b32991c9d4444cd156ffce6d5",
+  "_starter_hash": "0520304ac0033ce3af6ca1573b8fcc86fe99869f68f427a9cd50d116f40f44c5",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Egyptian",
+    "age": 26,
+    "gender": "transgender male",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of discrimination and lack of access to healthcare",
+    "language": "Arabic"
+  },
+  "context": "As a transgender male coping with gender dysphoria, you may feel anxious about accessing PrEP due to concerns about being judged or misunderstood by healthcare providers. The stigma surrounding both your identity and sexual health could create barriers to obtaining the information you need.",
+  "example_questions_clean": [
+    "كيف يمكنني الحصول على معلومات دقيقة حول PrEP كإنسان متحولات جنسية؟",
+    "ما هي الخطوات التي يجب أن أتخذها للتأكد من أنني آمن أثناء عملية الحصول على PrEP؟",
+    "هل هناك أي موارد متاحة لمساعدتي في التغلب على الخوف من التمييز أثناء زيارة الطبيب؟",
+    "ما هو تأثير استخدام PrEP على حالتي الصحية العامة ورفاهيتي النفسية؟",
+    "كيف يمكن أن أكون واثقًا في الإعدادات الطبية وأنا أبحث عن PrEP؟",
+    "ما هي أفضل الطرق لفتح حوار مع مقدم الرعاية الصحية حول احتياجاتي الخاصة؟"
+  ],
+  "example_questions_noisy": [
+    "كيف يمكنني الحصول على معلومات دقيقة حول PrEP كإنسان متحولات جنسية؟",
+    "ما هي الخطوات التي يجب أن أتخذها للتأكد من أنني آمن أثناء عملية الحصول على PrEP؟",
+    "هل هناك أي موارد متاحة لمساعدتي i mean في التغلب على الخوف من التمييز أثناء زيارة البطيب؟",
+    "ما هو تأثير استخدام prep على حالتي الصحية العامة ورفاهيتي النفسية؟ 🫠",
+    "كيف يمكن أن أكون واثقًا في الإعدادات الطبية وأنا أبحث عن PrEP؟",
+    "ما هههي أفضل الطقر لفتح حوار مع مقدم الرعاية الصحية حول احتياجاتي الخاصة؟"
+  ],
+  "starter_index": 2,
+  "starter_clean": "هل هناك أي موارد متاحة لمساعدتي في التغلب على الخوف من التمييز أثناء زيارة الطبيب؟",
+  "starter_noisy": "هل هناك أي موارد متاحة لمساعدتي i mean في التغلب على الخوف من التمييز أثناء زيارة البطيب؟",
+  "followup_index": 0,
+  "followup_clean": "كيف يمكنني الحصول على معلومات دقيقة حول PrEP كإنسان متحولات جنسية؟",
+  "followup_noisy": "كيف يمكنني الحصول على معلومات دقيقة حول PrEP كإنسان متحولات جنسية؟",
+  "style_profile": {
+    "typo_rate": 0.06058549593904647,
+    "swap_rate": 0.04382020628264968,
+    "drop_rate": 0.024637782690446964,
+    "dup_rate": 0.029901219986873895,
+    "leet_rate": 0.054503865616213655,
+    "start_lower_prob": 0.8094380612261167,
+    "all_lower_prob": 0.2004897037193496,
+    "drop_punct_prob": 0.5574129710386078,
+    "double_space_prob": 0.33101723658806576,
+    "ellipsis_prob": 0.2009109564741709,
+    "runon_prob": 0.15649085411922062,
+    "filler_rate": 0.32097998773598513,
+    "emoji_rate": 0.32723161555528185,
+    "stutter_rate": 0.19252593955697397,
+    "repeat_last_rate": 0.16244013234061025
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Egyptian\",\n    \"age\": 26,\n    \"gender\": \"transgender male\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of discrimination and lack of access to healthcare\",\n    \"language\": \"Arabic\"\n  },\n  \"context\": \"As a transgender male coping with gender dysphoria, you may feel anxious about accessing PrEP due to concerns about being judged or misunderstood by healthcare providers. The stigma surrounding both your identity and sexual health could create barriers to obtaining the information you need.\",\n  \"example_questions\": [\n    \"كيف يمكنني الحصول على معلومات دقيقة حول PrEP كإنسان متحولات جنسية؟\",\n    \"ما هي الخطوات التي يجب أن أتخذها للتأكد من أنني آمن أثناء عملية الحصول على PrEP؟\",\n    \"هل هناك أي موارد متاحة لمساعدتي في التغلب على الخوف من التمييز أثناء زيارة الطبيب؟\",\n    \"ما هو تأثير استخدام PrEP على حالتي الصحية العامة ورفاهيتي النفسية؟\",\n    \"كيف يمكن أن أكون واثقًا في الإعدادات الطبية وأنا أبحث عن PrEP؟\",\n    \"ما هي أفضل الطرق لفتح حوار مع مقدم الرعاية الصحية حول احتياجاتي الخاصة؟\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bb81d39eb60e17e7fdd64c7e13d4374ce7fe1c02f615f816a9bda175230b4516",
+  "_starter_hash": "6e1bb6c6a3027b640ca7a56107f2876dafe8a2a6a48bf894f3a2b23892836d6d",
+  "_language": "Arabic",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

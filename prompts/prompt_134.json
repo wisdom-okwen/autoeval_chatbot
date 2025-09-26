@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "el estigma asociado al uso de PrEP y su impacto en mi ansiedad social",
+    "language": "Spanish"
+  },
+  "context": "Una joven de 28 años que vive en una comunidad donde el estigma en torno al VIH y el uso de PrEP es fuerte. Ella lucha con la ansiedad social, lo que hace que le resulte difícil hablar con profesionales de la salud sobre su interés en PrEP. Su preocupación principal es cómo el rechazo o la falta de comprensión de los demás podría afectar su salud mental y su acceso a este tratamiento preventivo.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de usar PrEP en mi situación personal?",
+    "¿Qué debo hacer si tengo miedo de hablar sobre PrEP con un médico?",
+    "¿Hay recursos disponibles para personas que sufren de ansiedad social y desean acceder a PrEP?",
+    "¿Cómo puedo superar el estigma social relacionado con el uso de PrEP en mi comunidad?",
+    "¿Qué efectos secundarios debo tener en cuenta al considerar PrEP?",
+    "¿Existen grupos de apoyo para personas que están empezando a usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de usar PrEP en mi situación personal?",
+    "¿Qué i mean debo hacer si tengo miedo de halar sobre PrEP con un médico",
+    "¿Hay recursos disponibles para personas que sufren de ansiedad social y desean acceder a PrEP?",
+    "like ¿Cómo piedo superar el 3s71gma social relacionado con el uso dw PrEP eh mi comunidad?",
+    "¿Qué efectos secundarios debo tener en cu3n7a like al considrar rPEP 😭",
+    "¿existen grupos de apoyo para personas que están empezando a usar prep?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Qué efectos secundarios debo tener en cuenta al considerar PrEP?",
+  "starter_noisy": "¿Qué efectos secundarios debo tener en cu3n7a like al considrar rPEP 😭",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de usar PrEP en mi situación personal?",
+  "followup_noisy": "¿Cuáles son los beneficios de usar PrEP en mi situación personal?",
+  "style_profile": {
+    "typo_rate": 0.054970746417522,
+    "swap_rate": 0.04065586049881361,
+    "drop_rate": 0.035631400121176125,
+    "dup_rate": 0.019497419719503473,
+    "leet_rate": 0.054250747983036085,
+    "start_lower_prob": 0.634694892709271,
+    "all_lower_prob": 0.25368282410406884,
+    "drop_punct_prob": 0.4121451311910742,
+    "double_space_prob": 0.24707890212638012,
+    "ellipsis_prob": 0.2744977820296731,
+    "runon_prob": 0.25794406374081613,
+    "filler_rate": 0.41371211674194175,
+    "emoji_rate": 0.3336137380936175,
+    "stutter_rate": 0.10051892045736947,
+    "repeat_last_rate": 0.0969684156187533
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"el estigma asociado al uso de PrEP y su impacto en mi ansiedad social\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una joven de 28 años que vive en una comunidad donde el estigma en torno al VIH y el uso de PrEP es fuerte. Ella lucha con la ansiedad social, lo que hace que le resulte difícil hablar con profesionales de la salud sobre su interés en PrEP. Su preocupación principal es cómo el rechazo o la falta de comprensión de los demás podría afectar su salud mental y su acceso a este tratamiento preventivo.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de usar PrEP en mi situación personal?\",\n    \"¿Qué debo hacer si tengo miedo de hablar sobre PrEP con un médico?\",\n    \"¿Hay recursos disponibles para personas que sufren de ansiedad social y desean acceder a PrEP?\",\n    \"¿Cómo puedo superar el estigma social relacionado con el uso de PrEP en mi comunidad?\",\n    \"¿Qué efectos secundarios debo tener en cuenta al considerar PrEP?\",\n    \"¿Existen grupos de apoyo para personas que están empezando a usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c0f962f3317ecb022400bd17ed3a12d357ea3feacd3b86a0098512e33b71ff30",
+  "_starter_hash": "58f9973e3fecefb7db6e9cd78dd30622d7d7b47df07a0573add28cdd57394b2a",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

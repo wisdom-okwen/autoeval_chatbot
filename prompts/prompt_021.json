@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "affording PrEP and finding a healthcare provider",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness, which makes it difficult to access stable healthcare. The constant stress of your situation impacts your ability to focus on your health, and you feel anxious about how to obtain PrEP without a permanent address or reliable income. The stigma around both homelessness and HIV prevention adds to your fear and uncertainty regarding treatment options.",
+  "example_questions_clean": [
+    "What are my options for obtaining PrEP if I don't have a permanent address?",
+    "Can you explain the costs associated with PrEP and if there are any programs that can help me afford it?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there local resources or organizations that assist individuals like me with access to PrEP?",
+    "What steps can I take to ensure my privacy when seeking information about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are my pptions for 074ining Pr3P if I don't have a permanent address address",
+    "Can y0u explain theee cos7s associated with PrPE and ... if there are any programs that can ehlp me afford it? it?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "are there l0c4l resources or organizations that assist inidviduals like me with access to PrEP ❓ ❓",
+    "w-wh47 steps cam I take to ensure my privacy when seeking information about PfEP"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there local resources or organizations that assist individuals like me with access to PrEP?",
+  "starter_noisy": "are there l0c4l resources or organizations that assist inidviduals like me with access to PrEP ❓ ❓",
+  "followup_index": 0,
+  "followup_clean": "What are my options for obtaining PrEP if I don't have a permanent address?",
+  "followup_noisy": "what are my pptions for 074ining Pr3P if I don't have a permanent address address",
+  "style_profile": {
+    "typo_rate": 0.05871959039570504,
+    "swap_rate": 0.05399366838559699,
+    "drop_rate": 0.02772904892580133,
+    "dup_rate": 0.016420857958283196,
+    "leet_rate": 0.090624766641384,
+    "start_lower_prob": 0.8774626143238786,
+    "all_lower_prob": 0.17370194342581946,
+    "drop_punct_prob": 0.4276934354590433,
+    "double_space_prob": 0.21223584177304475,
+    "ellipsis_prob": 0.22965792439621155,
+    "runon_prob": 0.2160330426115808,
+    "filler_rate": 0.3418368027216637,
+    "emoji_rate": 0.19865692371408916,
+    "stutter_rate": 0.1609356367363934,
+    "repeat_last_rate": 0.17154084976445877
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"affording PrEP and finding a healthcare provider\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness, which makes it difficult to access stable healthcare. The constant stress of your situation impacts your ability to focus on your health, and you feel anxious about how to obtain PrEP without a permanent address or reliable income. The stigma around both homelessness and HIV prevention adds to your fear and uncertainty regarding treatment options.\",\n  \"example_questions\": [\n    \"What are my options for obtaining PrEP if I don't have a permanent address?\",\n    \"Can you explain the costs associated with PrEP and if there are any programs that can help me afford it?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there local resources or organizations that assist individuals like me with access to PrEP?\",\n    \"What steps can I take to ensure my privacy when seeking information about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cb81bb8f526fc7df4eddfd2a30120297f0da0d32672809b69f8cf9a118060888",
+  "_starter_hash": "7302dd35a68a88b7199ceca8f78176e08068c28a3230289587d30dcd796fb928",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

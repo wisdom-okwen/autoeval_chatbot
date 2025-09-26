@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 30,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "o estigma relacionado ao HIV e como isso pode afetar a percepção do PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você está enfrentando dificuldades para acessar informações sobre PrEP devido ao estigma associado ao HIV. Isso gera medo e insegurança sobre como as pessoas ao seu redor podem reagir se souberem que você está considerando o uso de PrEP. Sua esperança é encontrar apoio e informações que ajudem a superar esses desafios.",
+  "example_questions_clean": [
+    "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais segura?",
+    "Como posso lidar com o estigma social ao considerar o uso de PrEP?",
+    "Existem recursos ou grupos de apoio que podem me ajudar nesse processo?",
+    "O que devo fazer se enfrentar discriminação ao buscar PrEP?",
+    "Como o uso de PrEP pode impactar minha saúde mental em um ambiente hostil?",
+    "É comum sentir medo de ser julgado ao falar sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais segura?",
+    "Como p0s50 like lidar c0m p estigma 5oc14l 4o considerar o uso d3 PrEP",
+    "existem recursos ou grupos de apoio que podem me ajudar nesse processo?",
+    "o que devo fazer se enfentar discriminação ao buscar PrEP?",
+    "como 0 uso de PrEP pode 1mp4c7ar minha saúde mental em um ambiente hostil?",
+    "é comum sentir medo de ser julgdao 40 falaf sobre PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "O que devo fazer se enfrentar discriminação ao buscar PrEP?",
+  "starter_noisy": "o que devo fazer se enfentar discriminação ao buscar PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais segura?",
+  "followup_noisy": "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais segura?",
+  "style_profile": {
+    "typo_rate": 0.05341129395840884,
+    "swap_rate": 0.03790894636315638,
+    "drop_rate": 0.03498718977159878,
+    "dup_rate": 0.010222211323562394,
+    "leet_rate": 0.08776669148100122,
+    "start_lower_prob": 0.603056976580602,
+    "all_lower_prob": 0.2087796425038943,
+    "drop_punct_prob": 0.4340293725943998,
+    "double_space_prob": 0.23120758907216754,
+    "ellipsis_prob": 0.2257345499484372,
+    "runon_prob": 0.11093869966456656,
+    "filler_rate": 0.3580148096507182,
+    "emoji_rate": 0.2735654561655333,
+    "stutter_rate": 0.13209474078045785,
+    "repeat_last_rate": 0.09943809457419295
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 30,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"o estigma relacionado ao HIV e como isso pode afetar a percepção do PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está enfrentando dificuldades para acessar informações sobre PrEP devido ao estigma associado ao HIV. Isso gera medo e insegurança sobre como as pessoas ao seu redor podem reagir se souberem que você está considerando o uso de PrEP. Sua esperança é encontrar apoio e informações que ajudem a superar esses desafios.\",\n  \"example_questions\": [\n    \"Quais são os benefícios do PrEP que podem me ajudar a me sentir mais segura?\",\n    \"Como posso lidar com o estigma social ao considerar o uso de PrEP?\",\n    \"Existem recursos ou grupos de apoio que podem me ajudar nesse processo?\",\n    \"O que devo fazer se enfrentar discriminação ao buscar PrEP?\",\n    \"Como o uso de PrEP pode impactar minha saúde mental em um ambiente hostil?\",\n    \"É comum sentir medo de ser julgado ao falar sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9d363b53ae5f90ccdf6a2b117940319a9518921214be6cbfe9e0e4ed6b330bab",
+  "_starter_hash": "cfe47a9a49248a7d691fdee121a202088ec552283373af60f65a9cff3d5634d6",
+  "_language": "Portuguese",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

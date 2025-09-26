@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about the stigma associated with taking PrEP",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anashughulika na changamoto za kujitambua na hofu ya jamii inayomzunguka. Anahisi aibu kuhusu hali yake na anataka kujifunza kuhusu PrEP ili kujilinda, lakini anahitaji msaada wa kushinda vizuizi vya kisaikolojia na jamii.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kunisaidia kujilinda kutokana na VVU na kuepuka maambukizi?",
+    "Ninaweza vipi kushinda hofu yangu kuhusu kile watu watasema nikianza kutumia PrEP?",
+    "Ni hatua gani za kuchukua kabla ya kuanza kutumia PrEP?",
+    "Je, kuna mahali maalum ambapo naweza kupata PrEP bila aibu?",
+    "Ninaweza kupata msaada gani ili kujifunza zaidi kuhusu madhara ya PrEP?",
+    "Ni njia zipi bora za kuwasiliana na mpenzi wangu kuhusu uamuzi wa kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Je, PrEP inaweza kunisaidia kujilinda kutokana na VVU na kuepuka maambukizi?",
+    "ninaweza vipi kushinda hofu ayngu kuhusu kile watu wataseeema nikianza kutumia PrEP?",
+    "Ni hatua gani za kuchukua kabla ya kuanza kutumia PrEP?",
+    "Je, kuna mahali maalum ambapo naweza kupata PrEP bila aibu?",
+    "Ninaweza kupata msaada gani ili kujifunza zaidi kuhusu madhara ya PrEP?",
+    "ni nj14 zipi bora za kuwasiliana na uh mpenzi wangu kuhusu uqmuzi wa kutumia PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ni hatua gani za kuchukua kabla ya kuanza kutumia PrEP?",
+  "starter_noisy": "Ni hatua gani za kuchukua kabla ya kuanza kutumia PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kunisaidia kujilinda kutokana na VVU na kuepuka maambukizi?",
+  "followup_noisy": "Je, PrEP inaweza kunisaidia kujilinda kutokana na VVU na kuepuka maambukizi?",
+  "style_profile": {
+    "typo_rate": 0.056445022612414936,
+    "swap_rate": 0.05577408552685659,
+    "drop_rate": 0.024810668521047366,
+    "dup_rate": 0.02902628494121596,
+    "leet_rate": 0.10151174200866889,
+    "start_lower_prob": 0.6622062346721712,
+    "all_lower_prob": 0.26932186384063644,
+    "drop_punct_prob": 0.3080508973824882,
+    "double_space_prob": 0.3366791143983009,
+    "ellipsis_prob": 0.3280506323714857,
+    "runon_prob": 0.1250005336352091,
+    "filler_rate": 0.42631373493172847,
+    "emoji_rate": 0.2707316402331784,
+    "stutter_rate": 0.1932834890177658,
+    "repeat_last_rate": 0.17401214634588438
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about the stigma associated with taking PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anashughulika na changamoto za kujitambua na hofu ya jamii inayomzunguka. Anahisi aibu kuhusu hali yake na anataka kujifunza kuhusu PrEP ili kujilinda, lakini anahitaji msaada wa kushinda vizuizi vya kisaikolojia na jamii.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kunisaidia kujilinda kutokana na VVU na kuepuka maambukizi?\",\n    \"Ninaweza vipi kushinda hofu yangu kuhusu kile watu watasema nikianza kutumia PrEP?\",\n    \"Ni hatua gani za kuchukua kabla ya kuanza kutumia PrEP?\",\n    \"Je, kuna mahali maalum ambapo naweza kupata PrEP bila aibu?\",\n    \"Ninaweza kupata msaada gani ili kujifunza zaidi kuhusu madhara ya PrEP?\",\n    \"Ni njia zipi bora za kuwasiliana na mpenzi wangu kuhusu uamuzi wa kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "49bf091c0a3f67471a053a63b827c45ec90efc94734569b8ef5439d2e25d91d4",
+  "_starter_hash": "fb2182119b8d6afbd73b71a003778e4c520cd69db90bd5816446e60c78cb13ef",
+  "_language": "Swahili",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

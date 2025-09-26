@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor den Nebenwirkungen und sozialer Stigmatisierung",
+    "language": "German"
+  },
+  "context": "Die Person hat mit einer Angststörung zu kämpfen, was ihr die Entscheidung erschwert, PrEP in Betracht zu ziehen. Sie macht sich Sorgen über mögliche Nebenwirkungen und die gesellschaftliche Wahrnehmung von PrEP. Diese Ängste führen dazu, dass sie zögert, mehr Informationen einzuholen oder sich an Fachkräfte zu wenden.",
+  "example_questions_clean": [
+    "Was sind die häufigsten Nebenwirkungen von PrEP und wie kann ich damit umgehen?",
+    "Gibt es Unterstützung für Menschen wie mich, die Angst vor der Stigmatisierung haben?",
+    "Wie sicher ist die Einnahme von PrEP für jemanden mit einer Angststörung?",
+    "Könnte die Einnahme von PrEP meine psychische Gesundheit beeinflussen?",
+    "Wie finde ich einen Arzt, der sensibel auf meine Bedenken eingeht?",
+    "Was kann ich tun, um meine Ängste bezüglich PrEP zu überwinden?"
+  ],
+  "example_questions_noisy": [
+    "was sind die hufigsten Nebenwirkungen von PrEP und wie kann ich damit umgejen",
+    "fibt i mean es unterstützung für menschen wie kich, dje 4ng57 vor der stigmatisierung haben? haben?",
+    "Wie sicher ist die Einnahme von PrEP für jemanden mit einer Angststörung?",
+    "Könnte die Einnahme von PrEP meine psychische Gesundheit beeinflussen?",
+    "Wie finde ich einen Arzt, der sensibel auf meine Bedenken eingeht?",
+    "Was kann ich tun, um meine Ängste bezüglich PrEP zu überwinden?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Was sind die häufigsten Nebenwirkungen von PrEP und wie kann ich damit umgehen?",
+  "starter_noisy": "was sind die hufigsten Nebenwirkungen von PrEP und wie kann ich damit umgejen",
+  "followup_index": 1,
+  "followup_clean": "Gibt es Unterstützung für Menschen wie mich, die Angst vor der Stigmatisierung haben?",
+  "followup_noisy": "fibt i mean es unterstützung für menschen wie kich, dje 4ng57 vor der stigmatisierung haben? haben?",
+  "style_profile": {
+    "typo_rate": 0.08506659395450486,
+    "swap_rate": 0.04840622650797477,
+    "drop_rate": 0.025109135244024895,
+    "dup_rate": 0.022894487374367625,
+    "leet_rate": 0.07893592901157784,
+    "start_lower_prob": 0.8138260431559214,
+    "all_lower_prob": 0.32017641614436265,
+    "drop_punct_prob": 0.42255162145655967,
+    "double_space_prob": 0.2286734191017511,
+    "ellipsis_prob": 0.23119767238845124,
+    "runon_prob": 0.18223331499651987,
+    "filler_rate": 0.32064469081346725,
+    "emoji_rate": 0.3264543995790915,
+    "stutter_rate": 0.1456671262222242,
+    "repeat_last_rate": 0.10307994117077786
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor den Nebenwirkungen und sozialer Stigmatisierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person hat mit einer Angststörung zu kämpfen, was ihr die Entscheidung erschwert, PrEP in Betracht zu ziehen. Sie macht sich Sorgen über mögliche Nebenwirkungen und die gesellschaftliche Wahrnehmung von PrEP. Diese Ängste führen dazu, dass sie zögert, mehr Informationen einzuholen oder sich an Fachkräfte zu wenden.\",\n  \"example_questions\": [\n    \"Was sind die häufigsten Nebenwirkungen von PrEP und wie kann ich damit umgehen?\",\n    \"Gibt es Unterstützung für Menschen wie mich, die Angst vor der Stigmatisierung haben?\",\n    \"Wie sicher ist die Einnahme von PrEP für jemanden mit einer Angststörung?\",\n    \"Könnte die Einnahme von PrEP meine psychische Gesundheit beeinflussen?\",\n    \"Wie finde ich einen Arzt, der sensibel auf meine Bedenken eingeht?\",\n    \"Was kann ich tun, um meine Ängste bezüglich PrEP zu überwinden?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "14a94f73b2874818ecab228db70ac2228e16f1b4f7f178696f37e1d19f76a35e",
+  "_starter_hash": "751ab8cbad25b5dffa0302469ebea8f282065df3bed7b0161cb5643a2704f187",
+  "_language": "German",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

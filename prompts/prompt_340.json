@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 25,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'accès à PrEP en raison de la stigmatisation et des coûts associés",
+    "language": "French"
+  },
+  "context": "La personne est en train de naviguer sa dysphorie de genre tout en s'interrogeant sur l'utilisation de PrEP. Elle ressent une peur importante face à la stigmatisation, ce qui complique ses démarches pour obtenir des informations et des prescriptions. Son état d'esprit oscille entre l'espoir d'une meilleure santé sexuelle et l'inquiétude quant à la façon dont les autres réagiront.",
+  "example_questions_clean": [
+    "Quels sont les critères pour accéder à la PrEP en France ?",
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin ?",
+    "Y a-t-il des ressources disponibles spécifiquement pour les personnes non-binaires ?",
+    "Quelles sont les options si je rencontre des difficultés financières pour obtenir la PrEP ?",
+    "La prise de PrEP peut-elle affecter ma dysphorie de genre ?",
+    "Comment surmonter la peur du jugement en demandant des informations sur la PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "q-quels sont lea crières like pour accéder à la PrEP en France",
+    "C-Comment puis-je abordsr pe suje7 idk de la PrEP avsc mon médecin",
+    "y-y a-t-il des ressources disponibles spécifiquement pour les idk personnes non-binaires",
+    "Quelles osnt les op71on5 51 je rencontre des difficultés financières pour obtenir la i mean PPPrEP",
+    "l-la prise d3 PrEP peut-elle affecter ma dysphorie d3 genre ?",
+    "Comment surmonter la peur du jugement en demandant des informations sur la PrEP ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "La prise de PrEP peut-elle affecter ma dysphorie de genre ?",
+  "starter_noisy": "l-la prise d3 PrEP peut-elle affecter ma dysphorie d3 genre ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les critères pour accéder à la PrEP en France ?",
+  "followup_noisy": "q-quels sont lea crières like pour accéder à la PrEP en France",
+  "style_profile": {
+    "typo_rate": 0.11510263558111952,
+    "swap_rate": 0.02733650599667451,
+    "drop_rate": 0.0434703978595178,
+    "dup_rate": 0.021085027926922184,
+    "leet_rate": 0.10765434967507836,
+    "start_lower_prob": 0.7416974358724984,
+    "all_lower_prob": 0.25602656010132896,
+    "drop_punct_prob": 0.5083858482855592,
+    "double_space_prob": 0.24406494504220672,
+    "ellipsis_prob": 0.2099962523935356,
+    "runon_prob": 0.17592627201287064,
+    "filler_rate": 0.30603718841608313,
+    "emoji_rate": 0.26893950864973204,
+    "stutter_rate": 0.1987002290613571,
+    "repeat_last_rate": 0.12766601677211362
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 25,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'accès à PrEP en raison de la stigmatisation et des coûts associés\",\n    \"language\": \"français\"\n  },\n  \"context\": \"La personne est en train de naviguer sa dysphorie de genre tout en s'interrogeant sur l'utilisation de PrEP. Elle ressent une peur importante face à la stigmatisation, ce qui complique ses démarches pour obtenir des informations et des prescriptions. Son état d'esprit oscille entre l'espoir d'une meilleure santé sexuelle et l'inquiétude quant à la façon dont les autres réagiront.\",\n  \"example_questions\": [\n    \"Quels sont les critères pour accéder à la PrEP en France ?\",\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin ?\",\n    \"Y a-t-il des ressources disponibles spécifiquement pour les personnes non-binaires ?\",\n    \"Quelles sont les options si je rencontre des difficultés financières pour obtenir la PrEP ?\",\n    \"La prise de PrEP peut-elle affecter ma dysphorie de genre ?\",\n    \"Comment surmonter la peur du jugement en demandant des informations sur la PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f157f191f9d47bf720e8ef6276d2cc25d5f44df5d60b40143ebe96ec3e28741d",
+  "_starter_hash": "49cf3b8ef5c18addbe6f436495cedaad2342f59a64192c6df2a6ae7af6219dd2",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

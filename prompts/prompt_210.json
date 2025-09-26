@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of side effects and stigma associated with taking PrEP due to past trauma",
+    "language": "English"
+  },
+  "context": "The user has been experiencing PTSD from a past relationship and is worried that starting PrEP might trigger anxiety or fear related to their trauma. They are also concerned about what others might think if they disclose their PrEP use, which adds to their emotional burden.",
+  "example_questions_clean": [
+    "How can I manage my anxiety about taking PrEP given my history with PTSD?",
+    "What are the possible side effects of PrEP that I should be aware of?",
+    "Are there resources available for people who have experienced trauma and are considering PrEP?",
+    "Can you share experiences from others who have faced similar challenges with PrEP?",
+    "What should I do if I feel overwhelmed after starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "hpw can i manage my anxiety bout 74king prep given my history with ptsd?",
+    "What are the possible side effects of PrEP that I should be aware of?",
+    "4r3 theer resources available for people who have experienced trauma and ... are considering PrEP?",
+    "can you share experiences from 07h3rs aho have faced you know similar challenges with PrEP? PrEP?",
+    "what should i do if i feel ovrrwhelmed ater startinnng prep"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I manage my anxiety about taking PrEP given my history with PTSD?",
+  "starter_noisy": "hpw can i manage my anxiety bout 74king prep given my history with ptsd?",
+  "followup_index": 1,
+  "followup_clean": "What are the possible side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the possible side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.09659474362554518,
+    "swap_rate": 0.050165943642095874,
+    "drop_rate": 0.03912000017143866,
+    "dup_rate": 0.019517821912249746,
+    "leet_rate": 0.051059136974862515,
+    "start_lower_prob": 0.7902815149381873,
+    "all_lower_prob": 0.34640165577481696,
+    "drop_punct_prob": 0.3005813725898516,
+    "double_space_prob": 0.15186288866760214,
+    "ellipsis_prob": 0.17288231668735857,
+    "runon_prob": 0.17929171459185886,
+    "filler_rate": 0.45575749428508644,
+    "emoji_rate": 0.1670164535235894,
+    "stutter_rate": 0.1653684065046091,
+    "repeat_last_rate": 0.084971749732653
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of side effects and stigma associated with taking PrEP due to past trauma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been experiencing PTSD from a past relationship and is worried that starting PrEP might trigger anxiety or fear related to their trauma. They are also concerned about what others might think if they disclose their PrEP use, which adds to their emotional burden.\",\n  \"example_questions\": [\n    \"How can I manage my anxiety about taking PrEP given my history with PTSD?\",\n    \"What are the possible side effects of PrEP that I should be aware of?\",\n    \"Are there resources available for people who have experienced trauma and are considering PrEP?\",\n    \"Can you share experiences from others who have faced similar challenges with PrEP?\",\n    \"What should I do if I feel overwhelmed after starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "61dc738d477a9ca9379f4202a46e3b155acea341c8ce2eba3ec69913df1c7ce6",
+  "_starter_hash": "3cf24e804629737ab7b36b1161c80fc27a6b6fc7b5cf93df423bf4890ea5d7ee",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

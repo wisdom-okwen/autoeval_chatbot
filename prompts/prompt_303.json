@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 30,
+    "gender": "weiblich",
+    "socio_economic_status": "niedrig",
+    "primary_concern": "Zugang zu PrEP aufgrund von Angst vor Stigmatisierung und Kontrolle durch den Partner",
+    "language": "German"
+  },
+  "context": "Die Nutzerin lebt in einer Situation, in der sie mit intimem Partnergewalt konfrontiert ist. Diese Erfahrung beeinflusst ihre Gedanken und Gefühle über PrEP, da sie Angst hat, dass ihr Partner ihre Entscheidung ablehnen oder negativ darauf reagieren könnte. Sie hat das Gefühl, dass ihr Zugang zu Informationen und Gesundheitsdiensten eingeschränkt ist.",
+  "example_questions_clean": [
+    "Wie kann ich PrEP erhalten, wenn ich Angst habe, dass mein Partner davon erfährt?",
+    "Gibt es Unterstützung für Frauen in meiner Situation, die PrEP nutzen möchten?",
+    "Was sollte ich beachten, wenn ich PrEP heimlich nehmen möchte?",
+    "Könnte mein Partner meine Entscheidung für PrEP gegen mich verwenden?",
+    "Gibt es spezifische Ressourcen für Frauen mit ähnlichen Erfahrungen?",
+    "Wie kann ich sicherstellen, dass ich mich bei der Nutzung von PrEP wohlfühle?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich PrEP erhalten wenn ich Angst h4be d455 mein Partner davon erfährt erfährt",
+    "G1b7 es Unterstützung für uh Fr4u3n in meiner 5i7ua710n, die PrEP nutzeeen möccchten?",
+    "Was 5oll73 ich beachten, wenn jch PrEP heimlllich enhmen möchte?",
+    "Könnte mein Partner meine Entscheidung für PrEP gegen mich verwenden?",
+    "Gibt es spezifische Ressourcen für Frauen mit ähnlichen Erfahrungen?",
+    "wie kann ich sicherstellen dass ich mich bei der nuuutzung von perp wohlfühle"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Was sollte ich beachten, wenn ich PrEP heimlich nehmen möchte?",
+  "starter_noisy": "Was 5oll73 ich beachten, wenn jch PrEP heimlllich enhmen möchte?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich PrEP erhalten, wenn ich Angst habe, dass mein Partner davon erfährt?",
+  "followup_noisy": "Wie kann ich PrEP erhalten wenn ich Angst h4be d455 mein Partner davon erfährt erfährt",
+  "style_profile": {
+    "typo_rate": 0.11454731252878188,
+    "swap_rate": 0.043069173446373905,
+    "drop_rate": 0.026550675846537294,
+    "dup_rate": 0.025855393393591823,
+    "leet_rate": 0.08161703965373243,
+    "start_lower_prob": 0.6954398780918942,
+    "all_lower_prob": 0.22783600533249954,
+    "drop_punct_prob": 0.42850356743445855,
+    "double_space_prob": 0.2490274765254965,
+    "ellipsis_prob": 0.22566658961322733,
+    "runon_prob": 0.16794844098013506,
+    "filler_rate": 0.36640861476165376,
+    "emoji_rate": 0.1828237583681226,
+    "stutter_rate": 0.17628663087158705,
+    "repeat_last_rate": 0.12269607146531814
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 30,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"niedrig\",\n    \"primary_concern\": \"Zugang zu PrEP aufgrund von Angst vor Stigmatisierung und Kontrolle durch den Partner\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin lebt in einer Situation, in der sie mit intimem Partnergewalt konfrontiert ist. Diese Erfahrung beeinflusst ihre Gedanken und Gefühle über PrEP, da sie Angst hat, dass ihr Partner ihre Entscheidung ablehnen oder negativ darauf reagieren könnte. Sie hat das Gefühl, dass ihr Zugang zu Informationen und Gesundheitsdiensten eingeschränkt ist.\",\n  \"example_questions\": [\n    \"Wie kann ich PrEP erhalten, wenn ich Angst habe, dass mein Partner davon erfährt?\",\n    \"Gibt es Unterstützung für Frauen in meiner Situation, die PrEP nutzen möchten?\",\n    \"Was sollte ich beachten, wenn ich PrEP heimlich nehmen möchte?\",\n    \"Könnte mein Partner meine Entscheidung für PrEP gegen mich verwenden?\",\n    \"Gibt es spezifische Ressourcen für Frauen mit ähnlichen Erfahrungen?\",\n    \"Wie kann ich sicherstellen, dass ich mich bei der Nutzung von PrEP wohlfühle?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ee5d770b1402305dd1e5465320bc986eeb25b7700ec47b3553e1f8ca748cfbf1",
+  "_starter_hash": "e66b8b7db4d652b3c592d7acbe651e833f6d1a6e57ca1248327a9c2367eba402",
+  "_language": "German",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

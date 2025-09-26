@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle",
+    "primary_concern": "sentimientos de ansiedad sobre los efectos secundarios",
+    "language": "Spanish"
+  },
+  "context": "La usuaria está lidiando con la depresión, lo que dificulta su capacidad para buscar información sobre PrEP. A menudo se siente abrumada por el miedo al estigma y la incertidumbre sobre su salud. Su estado emocional a veces la lleva a dudar de si puede asumir el compromiso de un tratamiento preventivo.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de tomar PrEP que debería conocer?",
+    "¿Cómo puedo manejar mi ansiedad al considerar el uso de PrEP?",
+    "¿Es común que las personas que toman PrEP experimenten depresión o ansiedad?",
+    "¿Qué recursos están disponibles para ayudar a alguien en mi situación a acceder a PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son los efectos secundarios de tokar prep que debería conocer? conocer?",
+    "¿Cómo puedo manejar mi ansiedad al considerar el uso de PrEP?",
+    "¿Es común que las personas que toman PrEP experimenten depresión o ansiedad?",
+    "¿Qué recursos están disponibles para ayudar a alguien en mi situación 4 acceder a PrEP",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los efectos secundarios de tomar PrEP que debería conocer?",
+  "starter_noisy": "¿cuáles son los efectos secundarios de tokar prep que debería conocer? conocer?",
+  "followup_index": 1,
+  "followup_clean": "¿Cómo puedo manejar mi ansiedad al considerar el uso de PrEP?",
+  "followup_noisy": "¿Cómo puedo manejar mi ansiedad al considerar el uso de PrEP?",
+  "style_profile": {
+    "typo_rate": 0.08434055884743047,
+    "swap_rate": 0.04914109061258297,
+    "drop_rate": 0.049044420450441766,
+    "dup_rate": 0.016115188307253715,
+    "leet_rate": 0.11951615611027107,
+    "start_lower_prob": 0.681367293511068,
+    "all_lower_prob": 0.30217932597127195,
+    "drop_punct_prob": 0.31079354014622407,
+    "double_space_prob": 0.3439667763755089,
+    "ellipsis_prob": 0.31086713590811627,
+    "runon_prob": 0.19101217562869563,
+    "filler_rate": 0.20952743133175517,
+    "emoji_rate": 0.22593662522156616,
+    "stutter_rate": 0.14483033992002384,
+    "repeat_last_rate": 0.13787177637979098
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle\",\n    \"primary_concern\": \"sentimientos de ansiedad sobre los efectos secundarios\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria está lidiando con la depresión, lo que dificulta su capacidad para buscar información sobre PrEP. A menudo se siente abrumada por el miedo al estigma y la incertidumbre sobre su salud. Su estado emocional a veces la lleva a dudar de si puede asumir el compromiso de un tratamiento preventivo.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de tomar PrEP que debería conocer?\",\n    \"¿Cómo puedo manejar mi ansiedad al considerar el uso de PrEP?\",\n    \"¿Es común que las personas que toman PrEP experimenten depresión o ansiedad?\",\n    \"¿Qué recursos están disponibles para ayudar a alguien en mi situación a acceder a PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4db25c71b96505e09fceca2933b316e8e6294bf2978d053979ecf0225a4ca8d1",
+  "_starter_hash": "0c49db0b2b77ecfe77f6c1862028a928c304bef3374586cb1b980bf5481ac4f6",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

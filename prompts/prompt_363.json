@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessibility and stigma",
+    "language": "English"
+  },
+  "context": "As a young man experiencing homelessness, you face numerous challenges daily. Your situation impacts your mindset, making you feel isolated and anxious about seeking healthcare. You worry about being judged or stigmatized if you inquire about PrEP, despite knowing it could help protect your health. Access to consistent medical care is a significant barrier, and you need reliable information to understand your options.",
+  "example_questions_clean": [
+    "What are the steps I need to take to access PrEP while I am homeless?",
+    "How can I find a healthcare provider who understands my situation?",
+    "Are there specific programs that help with PrEP for people in my circumstances?",
+    "What should I expect during the PrEP consultation process?",
+    "How do I manage the costs associated with PrEP if I'm struggling financially?",
+    "Can you tell me about the side effects of PrEP and how to cope with them?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to access PrEP while I am homeless?",
+    "H-How can o find a healthcare provider who understands my situation",
+    "Are there specific programs that help with PrEP for people in my circumstances?",
+    "What should I expect during the PrEP consultation process?",
+    "how do I manage ths costs associated with PrEP if I'm struggling financiqlly",
+    "c4n you 73ll mr about the side eff3c7 0f PrEP anc how to cope w17h 7h3m"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find a healthcare provider who understands my situation?",
+  "starter_noisy": "H-How can o find a healthcare provider who understands my situation",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to access PrEP while I am homeless?",
+  "followup_noisy": "What are the steps I need to take to access PrEP while I am homeless?",
+  "style_profile": {
+    "typo_rate": 0.08271248292327399,
+    "swap_rate": 0.02714977270603932,
+    "drop_rate": 0.0394397325288872,
+    "dup_rate": 0.0163937324507605,
+    "leet_rate": 0.10524767931495653,
+    "start_lower_prob": 0.8548414573994556,
+    "all_lower_prob": 0.24159624797078288,
+    "drop_punct_prob": 0.42097941422316865,
+    "double_space_prob": 0.28546143425662096,
+    "ellipsis_prob": 0.25504276476111065,
+    "runon_prob": 0.24795178833360326,
+    "filler_rate": 0.43675024176643873,
+    "emoji_rate": 0.265901791998867,
+    "stutter_rate": 0.12378280282630266,
+    "repeat_last_rate": 0.08220554017530052
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessibility and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young man experiencing homelessness, you face numerous challenges daily. Your situation impacts your mindset, making you feel isolated and anxious about seeking healthcare. You worry about being judged or stigmatized if you inquire about PrEP, despite knowing it could help protect your health. Access to consistent medical care is a significant barrier, and you need reliable information to understand your options.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to access PrEP while I am homeless?\",\n    \"How can I find a healthcare provider who understands my situation?\",\n    \"Are there specific programs that help with PrEP for people in my circumstances?\",\n    \"What should I expect during the PrEP consultation process?\",\n    \"How do I manage the costs associated with PrEP if I'm struggling financially?\",\n    \"Can you tell me about the side effects of PrEP and how to cope with them?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "050c451268ef27bdec323587e13fb5285e8785fc228435f551ec0b85b730f958",
+  "_starter_hash": "f3516f31fbe867c1a70ac78d870101f9377af6b82e2b066fc18b5ff396383c18",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

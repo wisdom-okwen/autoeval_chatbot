@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "femme",
+    "socio_economic_status": "faible",
+    "primary_concern": "la stigmatisation liée au VIH",
+    "language": "French"
+  },
+  "context": "En tant que femme de 28 ans vivant en France, vous ressentez une pression sociale intense en raison de la stigmatisation liée au VIH. Cela influence votre volonté de discuter ouvertement de l'accès au PrEP, car vous craignez d'être jugée ou mal comprise. Vous cherchez des informations fiables sur la façon dont le PrEP pourrait s'intégrer dans votre vie tout en gérant vos émotions face à ce stigma.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir le PrEP sans craindre la stigmatisation ?",
+    "Comment puis-je parler de mes besoins en PrEP avec un professionnel de santé ?",
+    "Le PrEP est-il accessible financièrement pour une personne avec un revenu faible ?",
+    "Quels sont les effets secondaires potentiels du PrEP que je devrais connaître ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Y a-t-il des groupes de soutien pour ceux qui envisagent le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour obtenir le PrEP sans craindre la stigmatisation ?",
+    "c0mm3nt puis-je parlwr de mes besoins en PrEP avsc un professionnel de santé ?",
+    "Le PrEP est-il accessible financièrement pour une personne avec un revenu faible ?",
+    "quels snt um les effets secondaires potentiels du PrEP que je devrais connaître 🙄",
+    "Comment le PrEP peut-il m'aider à me sentir plus em sécurié d4ns mes relations",
+    "y a-t-il des groueps de soutien pour ceux you know qu1 3nv15ag3n7 le ;rEP ? ?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les étapes pour obtenir le PrEP sans craindre la stigmatisation ?",
+  "starter_noisy": "Quelles sont les étapes pour obtenir le PrEP sans craindre la stigmatisation ?",
+  "followup_index": 1,
+  "followup_clean": "Comment puis-je parler de mes besoins en PrEP avec un professionnel de santé ?",
+  "followup_noisy": "c0mm3nt puis-je parlwr de mes besoins en PrEP avsc un professionnel de santé ?",
+  "style_profile": {
+    "typo_rate": 0.10795664206303504,
+    "swap_rate": 0.055425141542602294,
+    "drop_rate": 0.04565001197344638,
+    "dup_rate": 0.014691940254653719,
+    "leet_rate": 0.06943913983034303,
+    "start_lower_prob": 0.8559072221161799,
+    "all_lower_prob": 0.1719314478772083,
+    "drop_punct_prob": 0.4906823225655955,
+    "double_space_prob": 0.17467434445531685,
+    "ellipsis_prob": 0.32577050811359826,
+    "runon_prob": 0.18119616371057762,
+    "filler_rate": 0.49086644528656725,
+    "emoji_rate": 0.2617726856171399,
+    "stutter_rate": 0.12091072595601193,
+    "repeat_last_rate": 0.12713209692969307
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"femme\",\n    \"socio_economic_status\": \"faible\",\n    \"primary_concern\": \"la stigmatisation liée au VIH\",\n    \"language\": \"français\"\n  },\n  \"context\": \"En tant que femme de 28 ans vivant en France, vous ressentez une pression sociale intense en raison de la stigmatisation liée au VIH. Cela influence votre volonté de discuter ouvertement de l'accès au PrEP, car vous craignez d'être jugée ou mal comprise. Vous cherchez des informations fiables sur la façon dont le PrEP pourrait s'intégrer dans votre vie tout en gérant vos émotions face à ce stigma.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir le PrEP sans craindre la stigmatisation ?\",\n    \"Comment puis-je parler de mes besoins en PrEP avec un professionnel de santé ?\",\n    \"Le PrEP est-il accessible financièrement pour une personne avec un revenu faible ?\",\n    \"Quels sont les effets secondaires potentiels du PrEP que je devrais connaître ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Y a-t-il des groupes de soutien pour ceux qui envisagent le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0fb35b9f706455d6aacdaa96d0f5a36828f1b5f7903d3f1aa1b713e3dfb5c587",
+  "_starter_hash": "1354e9b91f7112d24929d5e4575fbc47e43343591802cf319646e1de2cce63c4",
+  "_language": "French",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

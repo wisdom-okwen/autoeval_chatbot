@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "mwandiko wa madawa na athari za kiakili",
+    "language": "Swahili"
+  },
+  "context": "Mtumiaji huyu anaishi na ugonjwa wa bipolar na anahisi wasiwasi kuhusu kuanza kutumia PrEP kutokana na hofu ya kuathiriwa na athari za kiakili. Anajitahidi kufikia huduma za afya kwa sababu ya uhusiano dhaifu wa kifedha na imani potofu kuhusu matibabu ya kiakili katika jamii yake.",
+  "example_questions_clean": [
+    "Je, PrEP ina athari yoyote kwa hali yangu ya kiakili?",
+    "Ninaweza kupata huduma za PrEP wapi bila kuwa na hofu ya unyanyasaji?",
+    "Ni vigezo gani vinavyohitajika ili kuanza kutumia PrEP?",
+    "Je, kuna aina yoyote ya msaada wa kiakili unapatikana kwa watu wanaotumia PrEP?",
+    "Nifanye nini ikiwa nitajihisi vibaya baada ya kuanza kutumia PrEP?",
+    "Ni muhimu kuzungumza na daktari wangu kuhusu hisia zangu kabla ya kuanza PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Je, PrEP ina athari yoyote kwa hali yangu ya kiakili?",
+    "ninaweza kupata huduma za PrEP wapi bila kuwa na hofu ya unyanyasaji 🙄",
+    "ni vigezo gan1 vinavyohiajika ili kuanza kutumia prep",
+    "j-je, kuna aina y0y073 ya msaada wa kiakili unapatikana kwa watu wanaotumia PrEP?",
+    "Nifanye nini ikiea nitajihisi vibaya ba4d4 ya kuanza kutumia lrEP",
+    "Ni muhimu kuzungumza na daktari wangu kuhusu hisia zangu kabla ya kuanza PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Ni muhimu kuzungumza na daktari wangu kuhusu hisia zangu kabla ya kuanza PrEP?",
+  "starter_noisy": "Ni muhimu kuzungumza na daktari wangu kuhusu hisia zangu kabla ya kuanza PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP ina athari yoyote kwa hali yangu ya kiakili?",
+  "followup_noisy": "Je, PrEP ina athari yoyote kwa hali yangu ya kiakili?",
+  "style_profile": {
+    "typo_rate": 0.0716468120139194,
+    "swap_rate": 0.025170852293889302,
+    "drop_rate": 0.035129513531272534,
+    "dup_rate": 0.013095479188516472,
+    "leet_rate": 0.08127829484191948,
+    "start_lower_prob": 0.7699580574206119,
+    "all_lower_prob": 0.31856335640074696,
+    "drop_punct_prob": 0.4800365990512123,
+    "double_space_prob": 0.2772821135445994,
+    "ellipsis_prob": 0.22893604407623447,
+    "runon_prob": 0.14856527186778734,
+    "filler_rate": 0.464703549532858,
+    "emoji_rate": 0.15222575434474495,
+    "stutter_rate": 0.1914100009953635,
+    "repeat_last_rate": 0.08113560864921246
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"mwandiko wa madawa na athari za kiakili\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mtumiaji huyu anaishi na ugonjwa wa bipolar na anahisi wasiwasi kuhusu kuanza kutumia PrEP kutokana na hofu ya kuathiriwa na athari za kiakili. Anajitahidi kufikia huduma za afya kwa sababu ya uhusiano dhaifu wa kifedha na imani potofu kuhusu matibabu ya kiakili katika jamii yake.\",\n  \"example_questions\": [\n    \"Je, PrEP ina athari yoyote kwa hali yangu ya kiakili?\",\n    \"Ninaweza kupata huduma za PrEP wapi bila kuwa na hofu ya unyanyasaji?\",\n    \"Ni vigezo gani vinavyohitajika ili kuanza kutumia PrEP?\",\n    \"Je, kuna aina yoyote ya msaada wa kiakili unapatikana kwa watu wanaotumia PrEP?\",\n    \"Nifanye nini ikiwa nitajihisi vibaya baada ya kuanza kutumia PrEP?\",\n    \"Ni muhimu kuzungumza na daktari wangu kuhusu hisia zangu kabla ya kuanza PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d0df50204436fef8c6c906f4a2d9b19f43565aa23de673c1c8ae660c1e26133d",
+  "_starter_hash": "6129e9bc1d4049ddcd3a8ea13052cb511eabb01608733b1aeb6b1718e77b8603",
+  "_language": "Swahili",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

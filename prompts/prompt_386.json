@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur de la stigmatisation et l'impact émotionnel sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "Vous êtes une jeune femme française de 28 ans, en train de vous remettre d'un traumatisme. Cette expérience a influencé votre confiance en vous et votre rapport à la santé. Vous êtes inquiète de la stigmatisation liée à l'utilisation du PrEP et comment cela pourrait affecter votre bien-être émotionnel et mental. L'accès à des informations claires sur le PrEP est crucial pour vous aider à prendre une décision éclairée.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer le PrEP dans ma situation actuelle ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui ont des craintes liées au stigma ?",
+    "Comment le PrEP peut-il affecter ma santé mentale après un traumatisme ?",
+    "Est-ce que les professionnels de santé sont formés pour soutenir des personnes comme moi qui ont des préoccupations émotionnelles ?",
+    "Quelles sont les témoignages de personnes qui ont utilisé le PrEP tout en surmontant un traumatisme ?",
+    "Quels conseils donneriez-vous à quelqu'un qui hésite à commencer le PrEP à cause de ses expériences passées ?"
+  ],
+  "example_questions_noisy": [
+    "quelles uh sont les étapes opur xommencer le PrEP dans ma situation actuelle ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui ont des craintes liées au stigma ?",
+    "Comment le PrEP peut-il affecter ma santé mentale après un traumatisme ?",
+    "Est-ce que les professionnels de santé sont formés pour soutenir des personnes comme moi qui ont des préoccupations émotionnelles ?",
+    "Quelles sont les témoignages de personnes qui ont utilisé le PrEP tout en surmontant un traumatisme ?",
+    "Quels conseils donneriez-vous à quelqu'un qui hésite à commencer le PrEP à cause de ses expériences passées ?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Quels conseils donneriez-vous à quelqu'un qui hésite à commencer le PrEP à cause de ses expériences passées ?",
+  "starter_noisy": "Quels conseils donneriez-vous à quelqu'un qui hésite à commencer le PrEP à cause de ses expériences passées ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer le PrEP dans ma situation actuelle ?",
+  "followup_noisy": "quelles uh sont les étapes opur xommencer le PrEP dans ma situation actuelle ?",
+  "style_profile": {
+    "typo_rate": 0.057399534645590965,
+    "swap_rate": 0.050098210418705484,
+    "drop_rate": 0.048649981962396935,
+    "dup_rate": 0.017476201911456518,
+    "leet_rate": 0.05612434886724019,
+    "start_lower_prob": 0.7930277937641412,
+    "all_lower_prob": 0.33982344482013455,
+    "drop_punct_prob": 0.41023931651304746,
+    "double_space_prob": 0.26870159066119814,
+    "ellipsis_prob": 0.249483101714326,
+    "runon_prob": 0.11035808346552452,
+    "filler_rate": 0.49224286059001615,
+    "emoji_rate": 0.23152780977799545,
+    "stutter_rate": 0.10377273763906077,
+    "repeat_last_rate": 0.1143252564012152
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur de la stigmatisation et l'impact émotionnel sur ma santé mentale\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une jeune femme française de 28 ans, en train de vous remettre d'un traumatisme. Cette expérience a influencé votre confiance en vous et votre rapport à la santé. Vous êtes inquiète de la stigmatisation liée à l'utilisation du PrEP et comment cela pourrait affecter votre bien-être émotionnel et mental. L'accès à des informations claires sur le PrEP est crucial pour vous aider à prendre une décision éclairée.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer le PrEP dans ma situation actuelle ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui ont des craintes liées au stigma ?\",\n    \"Comment le PrEP peut-il affecter ma santé mentale après un traumatisme ?\",\n    \"Est-ce que les professionnels de santé sont formés pour soutenir des personnes comme moi qui ont des préoccupations émotionnelles ?\",\n    \"Quelles sont les témoignages de personnes qui ont utilisé le PrEP tout en surmontant un traumatisme ?\",\n    \"Quels conseils donneriez-vous à quelqu'un qui hésite à commencer le PrEP à cause de ses expériences passées ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "500638082147892584cfdfc594296b9347194b6463284eeb6d22b9e24d555245",
+  "_starter_hash": "c3de274f92478c25297b1478dd14518c446803b0bc08bc057fa4b3815c9c06b3",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

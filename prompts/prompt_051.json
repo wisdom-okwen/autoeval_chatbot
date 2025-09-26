@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 35,
+    "gender": "feminino",
+    "socio_economic_status": "média",
+    "primary_concern": "o impacto do PrEP na recuperação da saúde após o tratamento de câncer",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de um tratamento de câncer e tem preocupações sobre sua saúde sexual e a possibilidade de usar PrEP. A experiência difícil com a doença deixou você apreensiva sobre como a medicação pode afetar sua recuperação e sua vida emocional. Você também sente medo do estigma associado ao uso de PrEP e como isso pode impactar suas relações pessoais.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais do PrEP que eu devo conhecer, especialmente considerando meu histórico médico?",
+    "É seguro tomar PrEP após ter passado por tratamento de câncer?",
+    "Como posso encontrar um médico que compreenda minhas preocupações ao considerar o uso de PrEP?",
+    "Existem programas ou recursos que ajudam pessoas como eu a acessar o PrEP?",
+    "Qual é a melhor maneira de abordar o assunto do PrEP com meu parceiro?",
+    "O que posso fazer para superar o medo do estigma relacionado ao uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os efeitos colaterais do PrEP que eu devo conhecer, especialmente considerando meu histórico médico?",
+    "É seguro tomar PrEP após ter passado por tratamento de câncer?",
+    "como posssso 3nc0n7r4r um médico que compreenda minhas preocupações ao considerar o uso de prep? prep?",
+    "Existem programas ou recursos que ajudam pessoas como eu a acessar o PrEP?",
+    "Qual é a melhor maneira de abordar o assunto do PrEP com meu parceiro?",
+    "o que posso fazer para superar o medo do e5t1gm4 relacionado ao uso de PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Existem programas ou recursos que ajudam pessoas como eu a acessar o PrEP?",
+  "starter_noisy": "Existem programas ou recursos que ajudam pessoas como eu a acessar o PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais do PrEP que eu devo conhecer, especialmente considerando meu histórico médico?",
+  "followup_noisy": "Quais são os efeitos colaterais do PrEP que eu devo conhecer, especialmente considerando meu histórico médico?",
+  "style_profile": {
+    "typo_rate": 0.09953303095040901,
+    "swap_rate": 0.032034956314627806,
+    "drop_rate": 0.030531038803310706,
+    "dup_rate": 0.017683281916282816,
+    "leet_rate": 0.06256584379144486,
+    "start_lower_prob": 0.7819857116051718,
+    "all_lower_prob": 0.28527322235390845,
+    "drop_punct_prob": 0.3370249336290298,
+    "double_space_prob": 0.23009315228978344,
+    "ellipsis_prob": 0.3338814314609375,
+    "runon_prob": 0.17370428624235074,
+    "filler_rate": 0.4734579263221439,
+    "emoji_rate": 0.19021375380076433,
+    "stutter_rate": 0.1428942669090081,
+    "repeat_last_rate": 0.16664781015591507
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 35,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"média\",\n    \"primary_concern\": \"o impacto do PrEP na recuperação da saúde após o tratamento de câncer\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está se recuperando de um tratamento de câncer e tem preocupações sobre sua saúde sexual e a possibilidade de usar PrEP. A experiência difícil com a doença deixou você apreensiva sobre como a medicação pode afetar sua recuperação e sua vida emocional. Você também sente medo do estigma associado ao uso de PrEP e como isso pode impactar suas relações pessoais.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais do PrEP que eu devo conhecer, especialmente considerando meu histórico médico?\",\n    \"É seguro tomar PrEP após ter passado por tratamento de câncer?\",\n    \"Como posso encontrar um médico que compreenda minhas preocupações ao considerar o uso de PrEP?\",\n    \"Existem programas ou recursos que ajudam pessoas como eu a acessar o PrEP?\",\n    \"Qual é a melhor maneira de abordar o assunto do PrEP com meu parceiro?\",\n    \"O que posso fazer para superar o medo do estigma relacionado ao uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "dcbb8bec897ef6f974c5df32309acc4a6c61a560320c7ab3d32a0a4a3b7c1c30",
+  "_starter_hash": "e06edf003fc26c76ef7f24a9133a8f9e6e51a02b73f42a555b676601125a68ec",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

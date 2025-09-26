@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affordability and access to PrEP while living in a shelter",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old woman living in a shelter, facing challenges in accessing healthcare and feeling overwhelmed by her circumstances. She often grapples with feelings of stigma and fear about her health and is hopeful about finding preventive measures like PrEP but worries about how to obtain it given her current situation.",
+  "example_questions_clean": [
+    "What are the steps to get PrEP if I am currently living in a shelter?",
+    "Are there specific programs that help low-income individuals access PrEP?",
+    "How can I discuss my situation with a healthcare provider without feeling judged?",
+    "What if I experience side effects from PrEP while living in my current environment?",
+    "Is it possible to get PrEP confidentially while I'm staying in a shelter?",
+    "What resources are available for someone like me who wants to learn more about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps to get PrEP if I am currently living in a shelter?",
+    "Are there specific programs that help low-income individuals access PrEP?",
+    "How can I discuss my situation with a healthcare provider without feeling judged?",
+    "What if I experience side effects from PrEP while living in my current environment?",
+    "is 1t p0551bl3 to fet PrEP confidentially whie I'm staying innn a shelter?",
+    "What resources are available for someone like me who wants to learn more about PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I discuss my situation with a healthcare provider without feeling judged?",
+  "starter_noisy": "How can I discuss my situation with a healthcare provider without feeling judged?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to get PrEP if I am currently living in a shelter?",
+  "followup_noisy": "what are the steps to get PrEP if I am currently living in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.10281045043990367,
+    "swap_rate": 0.02089074003116891,
+    "drop_rate": 0.040277332431079685,
+    "dup_rate": 0.02859228762069823,
+    "leet_rate": 0.10771672503528257,
+    "start_lower_prob": 0.6621587475882884,
+    "all_lower_prob": 0.26902140924617235,
+    "drop_punct_prob": 0.3489950460196929,
+    "double_space_prob": 0.1622429395834846,
+    "ellipsis_prob": 0.2286149941681961,
+    "runon_prob": 0.22213036941729786,
+    "filler_rate": 0.4302201234889081,
+    "emoji_rate": 0.23984863722865124,
+    "stutter_rate": 0.18777903776907218,
+    "repeat_last_rate": 0.1437988611953459
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affordability and access to PrEP while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old woman living in a shelter, facing challenges in accessing healthcare and feeling overwhelmed by her circumstances. She often grapples with feelings of stigma and fear about her health and is hopeful about finding preventive measures like PrEP but worries about how to obtain it given her current situation.\",\n  \"example_questions\": [\n    \"What are the steps to get PrEP if I am currently living in a shelter?\",\n    \"Are there specific programs that help low-income individuals access PrEP?\",\n    \"How can I discuss my situation with a healthcare provider without feeling judged?\",\n    \"What if I experience side effects from PrEP while living in my current environment?\",\n    \"Is it possible to get PrEP confidentially while I'm staying in a shelter?\",\n    \"What resources are available for someone like me who wants to learn more about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c1747b66032aae9ca7323aae8d04dd283257011a0da68b400f7afe18d5686a55",
+  "_starter_hash": "bbd70ee3621c3423d814787f3cf15f44569b206030e3311c796337b0e5bd563d",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

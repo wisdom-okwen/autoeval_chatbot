@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are feeling overwhelmed by your self-esteem struggles, which make you anxious about seeking out information on PrEP. You're worried about how others might perceive you if they find out that you're considering it, and you're unsure if healthcare providers will be supportive or understanding of your situation.",
+  "example_questions_clean": [
+    "How do I approach my doctor about getting PrEP without feeling judged?",
+    "What are some common misconceptions about PrEP that I should be aware of?",
+    "Can you tell me about the side effects of PrEP and how they might affect my daily life?",
+    "Are there resources available for someone like me who is worried about stigma?",
+    "What steps can I take to build my confidence in discussing PrEP with others?"
+  ],
+  "example_questions_noisy": [
+    "how do i 4ppr0ach my doctor about getting preeep without f33ling judged",
+    "Whaf zr3 some common misconceptions about PrEP th47 u ehould be aare of? of?",
+    "Can you tell me about the side effects of PrEP and how they might affect my daily life?",
+    "are there resources 4v41labl3 for someone like me who is worried about stigma?",
+    "what steps can I take to buold my confidence in discussing PrEP with others? others?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What are some common misconceptions about PrEP that I should be aware of?",
+  "starter_noisy": "Whaf zr3 some common misconceptions about PrEP th47 u ehould be aare of? of?",
+  "followup_index": 0,
+  "followup_clean": "How do I approach my doctor about getting PrEP without feeling judged?",
+  "followup_noisy": "how do i 4ppr0ach my doctor about getting preeep without f33ling judged",
+  "style_profile": {
+    "typo_rate": 0.09480171049566707,
+    "swap_rate": 0.051030306262354226,
+    "drop_rate": 0.02072182192072447,
+    "dup_rate": 0.01045214781725129,
+    "leet_rate": 0.11801794414021737,
+    "start_lower_prob": 0.7472831173693681,
+    "all_lower_prob": 0.2972048182887118,
+    "drop_punct_prob": 0.3536329825182242,
+    "double_space_prob": 0.2529580642307338,
+    "ellipsis_prob": 0.28709666915388554,
+    "runon_prob": 0.17596785709213125,
+    "filler_rate": 0.25762710947611345,
+    "emoji_rate": 0.2263534317804258,
+    "stutter_rate": 0.12067837143454441,
+    "repeat_last_rate": 0.12974328491551498
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling overwhelmed by your self-esteem struggles, which make you anxious about seeking out information on PrEP. You're worried about how others might perceive you if they find out that you're considering it, and you're unsure if healthcare providers will be supportive or understanding of your situation.\",\n  \"example_questions\": [\n    \"How do I approach my doctor about getting PrEP without feeling judged?\",\n    \"What are some common misconceptions about PrEP that I should be aware of?\",\n    \"Can you tell me about the side effects of PrEP and how they might affect my daily life?\",\n    \"Are there resources available for someone like me who is worried about stigma?\",\n    \"What steps can I take to build my confidence in discussing PrEP with others?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c322c06fcf060ada62c2a8f88efa5e6285bd381e2508f4cb00e555d7b1223615",
+  "_starter_hash": "63f15decab2d7e5d6e5a0aca5b60933163a811749c6bde87f83cc10d1171c16d",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

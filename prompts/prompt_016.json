@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyen",
+    "primary_concern": "la peur des effets secondaires et du jugement social",
+    "language": "French"
+  },
+  "context": "Vous êtes une personne vivant avec le PTSD et vous luttez pour gérer votre santé mentale tout en explorant la prévention du VIH. La peur du jugement et des conséquences émotionnelles rendent l'accès à l'information sur le PrEP particulièrement difficile pour vous. Vous ressentez une tension entre le besoin de protection et l'angoisse liée à votre condition personnelle, ce qui complique votre prise de décision.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder au PrEP en France ?",
+    "Comment le PrEP peut-il affecter ma santé mentale, surtout avec mon PTSD ?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi qui veulent parler du PrEP ?",
+    "Comment gérer le stress de prendre PrEP tout en ayant des antécédents de trauma ?",
+    "Les professionnels de santé sont-ils formés pour parler aux personnes ayant des expériences similaires ?"
+  ],
+  "example_questions_noisy": [
+    "qu3ll35 sont les étpaes por 4ccéd3r au PrEP ej Fr4bc3 😅",
+    "comment le PrEP peut-il affceter ma santé m3n57l3 surtttout avec mon PTSD",
+    "y-y a-t-il des ressources spécifiques poru les personnes comme moi quo veulent parler du PrEP",
+    "Comment gérer le stress de prendre PrEP tout en ayant des antécédents de trauma ?",
+    "les professionnels deee santé sont-ils formés pour parler aux personnes ayant des expériences similaires 😅"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les étapes pour accéder au PrEP en France ?",
+  "starter_noisy": "qu3ll35 sont les étpaes por 4ccéd3r au PrEP ej Fr4bc3 😅",
+  "followup_index": 1,
+  "followup_clean": "Comment le PrEP peut-il affecter ma santé mentale, surtout avec mon PTSD ?",
+  "followup_noisy": "comment le PrEP peut-il affceter ma santé m3n57l3 surtttout avec mon PTSD",
+  "style_profile": {
+    "typo_rate": 0.1198697155307534,
+    "swap_rate": 0.057206368700616225,
+    "drop_rate": 0.04520421814084345,
+    "dup_rate": 0.02231961184289814,
+    "leet_rate": 0.05649707340177413,
+    "start_lower_prob": 0.7032107578675125,
+    "all_lower_prob": 0.23576820643317425,
+    "drop_punct_prob": 0.49522034126203773,
+    "double_space_prob": 0.24165094984786117,
+    "ellipsis_prob": 0.33887263676229373,
+    "runon_prob": 0.20375549754166328,
+    "filler_rate": 0.2483315006897002,
+    "emoji_rate": 0.19448717241291946,
+    "stutter_rate": 0.15569543822310422,
+    "repeat_last_rate": 0.1505871374902834
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyen\",\n    \"primary_concern\": \"la peur des effets secondaires et du jugement social\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une personne vivant avec le PTSD et vous luttez pour gérer votre santé mentale tout en explorant la prévention du VIH. La peur du jugement et des conséquences émotionnelles rendent l'accès à l'information sur le PrEP particulièrement difficile pour vous. Vous ressentez une tension entre le besoin de protection et l'angoisse liée à votre condition personnelle, ce qui complique votre prise de décision.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder au PrEP en France ?\",\n    \"Comment le PrEP peut-il affecter ma santé mentale, surtout avec mon PTSD ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes comme moi qui veulent parler du PrEP ?\",\n    \"Comment gérer le stress de prendre PrEP tout en ayant des antécédents de trauma ?\",\n    \"Les professionnels de santé sont-ils formés pour parler aux personnes ayant des expériences similaires ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "875720100c1ab358aacde2ae6e6af6442a5b8c22bf67aa4fd589580be27be061",
+  "_starter_hash": "b8a325d5f38d8566d293fdc88a529bc3137e56054ba0f460c6059beea5be3048",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

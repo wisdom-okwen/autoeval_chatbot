@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and managing anxiety while considering PrEP",
+    "language": "Spanish"
+  },
+  "context": "La usuaria enfrenta un desafío emocional significativo debido a su trastorno de ansiedad, lo que le dificulta abordar temas de salud sexual y el acceso a PrEP. Su miedo al estigma y la presión social agravan su ansiedad, afectando su decisión de buscar información sobre PrEP.",
+  "example_questions_clean": [
+    "¿Qué beneficios puede ofrecerme el PrEP si tengo problemas de ansiedad?",
+    "¿Cuáles son los pasos para acceder a PrEP en mi comunidad?",
+    "¿Hay recursos disponibles para ayudarme a manejar mi ansiedad al considerar el PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Existen grupos de apoyo para personas en situaciones similares que estén considerando PrEP?",
+    "¿Qué opciones tengo si me siento incómoda con el proceso de obtención de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿-¿Qué beneficios puede ofrecerme el PrEP si tengo problemas de ansiedad?",
+    "¿Cuáles son los pasos para acceder a PrEP en mi comunidad?",
+    "¿Hay recursos disponibles para ayudarme a manejar mi ansiedad al considerar el PrEP",
+    "¿cóm0 pusdo h4blar con mi médico sobre m15 preocupaciones 51n sentirme juzgada",
+    "¿Existen grupos de apoyo para personas en situaciones similares que estén considerando PrEP?",
+    "¿-¿Qué opciones 73ng si me 51en70 incómoda con el proceos de obtención de PrEP PrEP"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+  "starter_noisy": "¿cóm0 pusdo h4blar con mi médico sobre m15 preocupaciones 51n sentirme juzgada",
+  "followup_index": 0,
+  "followup_clean": "¿Qué beneficios puede ofrecerme el PrEP si tengo problemas de ansiedad?",
+  "followup_noisy": "¿-¿Qué beneficios puede ofrecerme el PrEP si tengo problemas de ansiedad?",
+  "style_profile": {
+    "typo_rate": 0.05446366175917786,
+    "swap_rate": 0.030307001979346253,
+    "drop_rate": 0.021864501661128,
+    "dup_rate": 0.01473385808398165,
+    "leet_rate": 0.10157049619245612,
+    "start_lower_prob": 0.7133580195968293,
+    "all_lower_prob": 0.34951658038481165,
+    "drop_punct_prob": 0.4731375441213211,
+    "double_space_prob": 0.27971566579187473,
+    "ellipsis_prob": 0.33018542453336963,
+    "runon_prob": 0.13374202084736753,
+    "filler_rate": 0.25528195130006776,
+    "emoji_rate": 0.33420879481042415,
+    "stutter_rate": 0.12019401910764185,
+    "repeat_last_rate": 0.17118958277522706
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and managing anxiety while considering PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria enfrenta un desafío emocional significativo debido a su trastorno de ansiedad, lo que le dificulta abordar temas de salud sexual y el acceso a PrEP. Su miedo al estigma y la presión social agravan su ansiedad, afectando su decisión de buscar información sobre PrEP.\",\n  \"example_questions\": [\n    \"¿Qué beneficios puede ofrecerme el PrEP si tengo problemas de ansiedad?\",\n    \"¿Cuáles son los pasos para acceder a PrEP en mi comunidad?\",\n    \"¿Hay recursos disponibles para ayudarme a manejar mi ansiedad al considerar el PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Existen grupos de apoyo para personas en situaciones similares que estén considerando PrEP?\",\n    \"¿Qué opciones tengo si me siento incómoda con el proceso de obtención de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8f034f59363b94b8354ffdfc87a88b7b9e1421f92c905f8cfa28dc454f497603",
+  "_starter_hash": "0cd9986292d78063bae013449f68af96dc7822835249e559b0de11bbdcc3606f",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have a history of substance use, which has made you cautious about seeking medical help. You worry that being open about your past may lead to being treated differently or facing judgment when you inquire about PrEP. You hope to stay safe and healthy but feel uncertain about how to approach the subject with healthcare providers.",
+  "example_questions_clean": [
+    "What should I expect during my first visit to discuss PrEP?",
+    "How can I find a healthcare provider who is understanding and non-judgmental?",
+    "Are there support groups for people like me who want to access PrEP?",
+    "What are the steps I need to take if I decide to start PrEP?",
+    "Can you explain how PrEP works in preventing HIV?",
+    "Is it safe for someone with a history of substance use to take PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What should I expect during my first visit to discuss PrEP?",
+    "how can I f1nd a healthcare idk pr0v1d3r who 15 understanding and non-judgmental",
+    "4r3 7h3r3 support groups for people like m3 who want to access PrEP?",
+    "What are the steps I need to take if I decide to start PrEP?",
+    "Can you explain how PrEP works in preventing HIV?",
+    "is it safe for someone with a history of eubstance use to take PrEP 😭"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Can you explain how PrEP works in preventing HIV?",
+  "starter_noisy": "Can you explain how PrEP works in preventing HIV?",
+  "followup_index": 0,
+  "followup_clean": "What should I expect during my first visit to discuss PrEP?",
+  "followup_noisy": "What should I expect during my first visit to discuss PrEP?",
+  "style_profile": {
+    "typo_rate": 0.10103171002712832,
+    "swap_rate": 0.020740499875046593,
+    "drop_rate": 0.03268164287643871,
+    "dup_rate": 0.014123557376640353,
+    "leet_rate": 0.1187822253388921,
+    "start_lower_prob": 0.6943579531448103,
+    "all_lower_prob": 0.20187573222303712,
+    "drop_punct_prob": 0.37322481028479987,
+    "double_space_prob": 0.23433294577851554,
+    "ellipsis_prob": 0.21373146228287698,
+    "runon_prob": 0.15118995020136194,
+    "filler_rate": 0.3783532945396385,
+    "emoji_rate": 0.23942599214321647,
+    "stutter_rate": 0.19170932670083204,
+    "repeat_last_rate": 0.15393978031210498
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a history of substance use, which has made you cautious about seeking medical help. You worry that being open about your past may lead to being treated differently or facing judgment when you inquire about PrEP. You hope to stay safe and healthy but feel uncertain about how to approach the subject with healthcare providers.\",\n  \"example_questions\": [\n    \"What should I expect during my first visit to discuss PrEP?\",\n    \"How can I find a healthcare provider who is understanding and non-judgmental?\",\n    \"Are there support groups for people like me who want to access PrEP?\",\n    \"What are the steps I need to take if I decide to start PrEP?\",\n    \"Can you explain how PrEP works in preventing HIV?\",\n    \"Is it safe for someone with a history of substance use to take PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aec36d597848590d1838fa25f157766b5c7345f94473ac8c44eb5cb21bcbb8c4",
+  "_starter_hash": "25363da549ed418cdd81af313f903a03f711742545f309836132eebcbcbe9f0d",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

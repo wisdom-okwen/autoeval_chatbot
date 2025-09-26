@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Non-binary",
+    "socio_economic_status": "Low-income",
+    "primary_concern": "Understanding how to access PrEP given my neurodevelopmental disorder and the fear of stigma.",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of accessing healthcare while managing a neurodevelopmental disorder. This condition can make it challenging to communicate needs effectively, understand medical information, and cope with potential stigma from both healthcare providers and peers. You feel a mix of hope and anxiety about finding resources for PrEP, concerned about how your condition might affect your interactions with medical professionals.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it works?",
+    "What steps can I take to obtain PrEP while ensuring I feel comfortable with my healthcare provider?",
+    "Are there any specific challenges that individuals with neurodevelopmental disorders might face when seeking PrEP?",
+    "How can I find support groups or resources that cater to people like me who are considering PrEP?",
+    "What should I do if I experience stigma or discrimination when discussing PrEP with others?",
+    "Is there financial assistance available for someone in my situation to help with the cost of PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain what uh PrEP is and ... hpw if works?",
+    "What steps cannn I take to like obtwwwin PrEP wh1l3 ensuring 1 f33l comfortable with myyy healthcard provicer",
+    "Are there any specific challenges that individuals with neurodevelopmental disorders might face when seeking PrEP?",
+    "How can I find support groups or resources that cater to people like me who are considering PrEP?",
+    "what should i do if i experience stigma or discrimination whne discussing prep with othres?",
+    "Is tjree financial assistance available for someone in my 51u7471on to help with the cost of PrEP PrEP"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there financial assistance available for someone in my situation to help with the cost of PrEP?",
+  "starter_noisy": "Is tjree financial assistance available for someone in my 51u7471on to help with the cost of PrEP PrEP",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it works?",
+  "followup_noisy": "Can you explain what uh PrEP is and ... hpw if works?",
+  "style_profile": {
+    "typo_rate": 0.061859395461021996,
+    "swap_rate": 0.048174306378207965,
+    "drop_rate": 0.022485598330980718,
+    "dup_rate": 0.0196925731814358,
+    "leet_rate": 0.08833752487844007,
+    "start_lower_prob": 0.6324972156398284,
+    "all_lower_prob": 0.3433234840028187,
+    "drop_punct_prob": 0.4706635376544136,
+    "double_space_prob": 0.20746747488155748,
+    "ellipsis_prob": 0.17576445588026882,
+    "runon_prob": 0.14589040326674457,
+    "filler_rate": 0.45572903919799385,
+    "emoji_rate": 0.23244305998782538,
+    "stutter_rate": 0.12821987992421183,
+    "repeat_last_rate": 0.12948138767611556
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Non-binary\",\n    \"socio_economic_status\": \"Low-income\",\n    \"primary_concern\": \"Understanding how to access PrEP given my neurodevelopmental disorder and the fear of stigma.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of accessing healthcare while managing a neurodevelopmental disorder. This condition can make it challenging to communicate needs effectively, understand medical information, and cope with potential stigma from both healthcare providers and peers. You feel a mix of hope and anxiety about finding resources for PrEP, concerned about how your condition might affect your interactions with medical professionals.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it works?\",\n    \"What steps can I take to obtain PrEP while ensuring I feel comfortable with my healthcare provider?\",\n    \"Are there any specific challenges that individuals with neurodevelopmental disorders might face when seeking PrEP?\",\n    \"How can I find support groups or resources that cater to people like me who are considering PrEP?\",\n    \"What should I do if I experience stigma or discrimination when discussing PrEP with others?\",\n    \"Is there financial assistance available for someone in my situation to help with the cost of PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "799fc64c351951995272c40b8216226af9018cac254d2ba924fec74b0dfbe887",
+  "_starter_hash": "147f644434fd1143ebf610a4b622c8f9d7491260f78187d8c7cb927f318883f2",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

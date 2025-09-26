@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "stigma and acceptance within the community",
+    "language": "Swahili"
+  },
+  "context": "As a non-binary individual coping with gender dysphoria, the user feels a heightened sense of vulnerability regarding their sexual health. They worry that seeking PrEP might lead to judgment or misunderstanding from healthcare providers and peers, complicating their already challenging emotional landscape.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi jamii yangu itakavyotafsiri uamuzi wangu wa kutumia PrEP.",
+    "Je, kuna vitu vya msingi vya kujua kuhusu PrEP ambavyo vinaweza kusaidia watu kama mimi?",
+    "Naweza kupata wapi ushauri wa faragha kuhusu matumizi ya PrEP?",
+    "Ni hatua zipi za kuchukua ili kuhakikisha ninapata PrEP kwa usalama?",
+    "Je, ni njia gani za kuondoa hofu yangu kuhusu kutumia PrEP katika mazingira yangu?",
+    "Ninahitaji msaada wa kiakili ili kuelewa hisia zangu kuhusu matumizi ya PrEP."
+  ],
+  "example_questions_noisy": [
+    "n1n4 wasiwasi kuhus jinsi jamii yangu itakavyotafsiri uamuzi wangu wa kutumia prep 😭",
+    "Je, kuna vitu vya msingi vya kujua kuhusu PrEP ambavyo vinaweza kusaidia watu kama mimi?",
+    "naweza kupata wapi ushauri wa faragha kuuuhusu matumizi ya PrEP?",
+    "Ni hatua zipi za kuchukua ili kuhakikisha ninapata PrEP kwa usalama?",
+    "Je, ni njia gani za kuondoa hofu yangu kuhusu kutumia PrEP katika mazingira yangu?",
+    "n1n4h1t4j1 m544d4 w4 kiakili ili kuelewa hisia zangu kuhusu matumizi ya PrEP 😅"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Naweza kupata wapi ushauri wa faragha kuhusu matumizi ya PrEP?",
+  "starter_noisy": "naweza kupata wapi ushauri wa faragha kuuuhusu matumizi ya PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi jamii yangu itakavyotafsiri uamuzi wangu wa kutumia PrEP.",
+  "followup_noisy": "n1n4 wasiwasi kuhus jinsi jamii yangu itakavyotafsiri uamuzi wangu wa kutumia prep 😭",
+  "style_profile": {
+    "typo_rate": 0.05595407939829444,
+    "swap_rate": 0.058473133515563935,
+    "drop_rate": 0.03403666318350417,
+    "dup_rate": 0.017337972806859933,
+    "leet_rate": 0.11495215090250037,
+    "start_lower_prob": 0.846590360640894,
+    "all_lower_prob": 0.2796030491012178,
+    "drop_punct_prob": 0.35377171868872614,
+    "double_space_prob": 0.1716996237229822,
+    "ellipsis_prob": 0.3034235062812506,
+    "runon_prob": 0.24415357982552732,
+    "filler_rate": 0.39143774600758163,
+    "emoji_rate": 0.25938369829769714,
+    "stutter_rate": 0.18425884809769538,
+    "repeat_last_rate": 0.0873134247340824
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"stigma and acceptance within the community\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a non-binary individual coping with gender dysphoria, the user feels a heightened sense of vulnerability regarding their sexual health. They worry that seeking PrEP might lead to judgment or misunderstanding from healthcare providers and peers, complicating their already challenging emotional landscape.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi jamii yangu itakavyotafsiri uamuzi wangu wa kutumia PrEP.\",\n    \"Je, kuna vitu vya msingi vya kujua kuhusu PrEP ambavyo vinaweza kusaidia watu kama mimi?\",\n    \"Naweza kupata wapi ushauri wa faragha kuhusu matumizi ya PrEP?\",\n    \"Ni hatua zipi za kuchukua ili kuhakikisha ninapata PrEP kwa usalama?\",\n    \"Je, ni njia gani za kuondoa hofu yangu kuhusu kutumia PrEP katika mazingira yangu?\",\n    \"Ninahitaji msaada wa kiakili ili kuelewa hisia zangu kuhusu matumizi ya PrEP.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "af0d94232c9b63cd2be6c763cf4a1e6ba2476eb5ce4b37788ad454fc74cf2aa5",
+  "_starter_hash": "3f22c51f5badac8db123f1e8654ebbe940c90eb98605ccb8b7971afd4d04ad4a",
+  "_language": "Swahili",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

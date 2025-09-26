@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "J'ai des doutes sur l'impact de PrEP sur mon état mental.",
+    "language": "French"
+  },
+  "context": "Vous vous sentez abattu à cause de la dépression et vous craignez que le traitement PrEP aggrave votre état émotionnel. Vous avez envie de protéger votre santé, mais vous ressentez une certaine hésitation en raison des stigmates associés à la prise de médicaments pour la prévention du VIH. Votre esprit est souvent préoccupé par le risque de jugement et les effets potentiels sur votre humeur.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires de la PrEP sur l'humeur des utilisateurs ?",
+    "Est-ce que prendre PrEP pourrait m'aider à me sentir plus en sécurité dans ma vie sexuelle ?",
+    "Comment puis-je accéder à PrEP sans craindre le jugement des autres ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui ressentent des problèmes de santé mentale tout en prenant PrEP ?",
+    "PrEP est-elle adaptée aux personnes qui souffrent de dépression ?",
+    "Quel soutien peut-on obtenir pour accompagner la prise de PrEP dans un contexte de santé mentale ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont l35 effets 53c0nd41r35 de la PrEP sur l'hmu3ur des utilisateurs",
+    "e-est-ce que prendre prep pourrait m'aider à me sentir plus en sécurité adns ma vie sexuelle 😅",
+    "Comment puis-je accéder à PrEP sans craindre le jugement des autres ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui ressentent des problèmes de santé mentale tout en prenant PrEP ?",
+    "PrEP est-elle adaptée aux personnes qui souffrent de dépression ?",
+    "quel soutien peut-on obtenir p0ur accompagner la prise de prep dans un c0n37x73 de snaté mentale"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Y a-t-il des ressources disponibles pour les personnes qui ressentent des problèmes de santé mentale tout en prenant PrEP ?",
+  "starter_noisy": "Y a-t-il des ressources disponibles pour les personnes qui ressentent des problèmes de santé mentale tout en prenant PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires de la PrEP sur l'humeur des utilisateurs ?",
+  "followup_noisy": "Quels sont l35 effets 53c0nd41r35 de la PrEP sur l'hmu3ur des utilisateurs",
+  "style_profile": {
+    "typo_rate": 0.06165594736155553,
+    "swap_rate": 0.02882453754333867,
+    "drop_rate": 0.033675506240136086,
+    "dup_rate": 0.024356482563614248,
+    "leet_rate": 0.09198928755550245,
+    "start_lower_prob": 0.7263859097420264,
+    "all_lower_prob": 0.18606163131575487,
+    "drop_punct_prob": 0.5081837802971251,
+    "double_space_prob": 0.18990265051264832,
+    "ellipsis_prob": 0.3120538138694804,
+    "runon_prob": 0.10219181768744164,
+    "filler_rate": 0.445823292698447,
+    "emoji_rate": 0.21221906622143927,
+    "stutter_rate": 0.1709981514576338,
+    "repeat_last_rate": 0.0920973725076609
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"J'ai des doutes sur l'impact de PrEP sur mon état mental.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vous sentez abattu à cause de la dépression et vous craignez que le traitement PrEP aggrave votre état émotionnel. Vous avez envie de protéger votre santé, mais vous ressentez une certaine hésitation en raison des stigmates associés à la prise de médicaments pour la prévention du VIH. Votre esprit est souvent préoccupé par le risque de jugement et les effets potentiels sur votre humeur.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires de la PrEP sur l'humeur des utilisateurs ?\",\n    \"Est-ce que prendre PrEP pourrait m'aider à me sentir plus en sécurité dans ma vie sexuelle ?\",\n    \"Comment puis-je accéder à PrEP sans craindre le jugement des autres ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui ressentent des problèmes de santé mentale tout en prenant PrEP ?\",\n    \"PrEP est-elle adaptée aux personnes qui souffrent de dépression ?\",\n    \"Quel soutien peut-on obtenir pour accompagner la prise de PrEP dans un contexte de santé mentale ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "619b192e231f5c30b103568caa6ee8e12ddd8bfac891fd9bb15a04a5fcb8b808",
+  "_starter_hash": "5bf4a5dc968d12723895f28951db90b68be38fe534abbc115d5cfe15ea18feae",
+  "_language": "French",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

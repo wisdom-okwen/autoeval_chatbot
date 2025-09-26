@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "understanding how PrEP might interact with my neurodevelopmental disorder",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu ana ugonjwa wa kimaendeleo wa akili ambao unamfanya akose uhakika kuhusu maamuzi ya kiafya. Ana hofu kwamba hali yake inaweza kuathiri uwezo wake wa kuelewa jinsi PrEP inavyofanya kazi au kwamba atakabiliwa na unyanyapaa ikiwa atapata dawa hii. Anataka kujua zaidi ili aweze kujilinda, lakini anahisi hofu kuhusu kupata msaada wa kiafya.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuwa salama kwangu kutokana na hali yangu ya kiakili?",
+    "Ninaweza kupata wapi taarifa sahihi kuhusu matumizi ya PrEP kwa watu wenye matatizo ya kimaendeleo?",
+    "Je, kuna wataalamu wa afya wanaweza kunisaidia kuelewa PrEP vizuri zaidi?",
+    "Ni hatua zipi zinazopaswa kuchukuliwa ili kuanza kutumia PrEP?",
+    "Je, watu wenye hali kama yangu wanaweza kukutana na changamoto gani katika kupata PrEP?",
+    "Ninaweza kuwasiliana vipi na watu wengine walio katika hali kama yangu kuhusu PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Je, PrEP inaweza kuwa salama kwangu kutokana na hali yangu ya kiakili?",
+    "Ninaweza kupata wapi taarifa sahihi kuhusu matumizi ya PrEP kwa watu wenye matatizo ya kimaendeleo?",
+    "j3, kuna um wataalamu wa afya wanaweza kunisaidia kue.ewa PrEP vizuri zaidi?",
+    "Ni hatua zipi zinazopaswa kuchukuliwa ili kuanza kutumia PrEP?",
+    "j-je, waut wenye hali kama yangu wanaqeza kukutana na changamoto um gani katkia kupata PrEP?",
+    "Ninawrza kuwasiilana viip na watu wegnine w4li0 katika hali kama yangu kuhusu PrEP"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Je, watu wenye hali kama yangu wanaweza kukutana na changamoto gani katika kupata PrEP?",
+  "starter_noisy": "j-je, waut wenye hali kama yangu wanaqeza kukutana na changamoto um gani katkia kupata PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kuwa salama kwangu kutokana na hali yangu ya kiakili?",
+  "followup_noisy": "Je, PrEP inaweza kuwa salama kwangu kutokana na hali yangu ya kiakili?",
+  "style_profile": {
+    "typo_rate": 0.11659404169053648,
+    "swap_rate": 0.05590982468291,
+    "drop_rate": 0.03355315311146283,
+    "dup_rate": 0.024241269468520225,
+    "leet_rate": 0.11899188695765685,
+    "start_lower_prob": 0.6585214381494596,
+    "all_lower_prob": 0.177319740710547,
+    "drop_punct_prob": 0.3657700133002325,
+    "double_space_prob": 0.17330353100719487,
+    "ellipsis_prob": 0.16096323874075222,
+    "runon_prob": 0.11596282464701857,
+    "filler_rate": 0.3467816326007437,
+    "emoji_rate": 0.3153795347666518,
+    "stutter_rate": 0.18823907628848824,
+    "repeat_last_rate": 0.09193280997617682
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"understanding how PrEP might interact with my neurodevelopmental disorder\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu ana ugonjwa wa kimaendeleo wa akili ambao unamfanya akose uhakika kuhusu maamuzi ya kiafya. Ana hofu kwamba hali yake inaweza kuathiri uwezo wake wa kuelewa jinsi PrEP inavyofanya kazi au kwamba atakabiliwa na unyanyapaa ikiwa atapata dawa hii. Anataka kujua zaidi ili aweze kujilinda, lakini anahisi hofu kuhusu kupata msaada wa kiafya.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuwa salama kwangu kutokana na hali yangu ya kiakili?\",\n    \"Ninaweza kupata wapi taarifa sahihi kuhusu matumizi ya PrEP kwa watu wenye matatizo ya kimaendeleo?\",\n    \"Je, kuna wataalamu wa afya wanaweza kunisaidia kuelewa PrEP vizuri zaidi?\",\n    \"Ni hatua zipi zinazopaswa kuchukuliwa ili kuanza kutumia PrEP?\",\n    \"Je, watu wenye hali kama yangu wanaweza kukutana na changamoto gani katika kupata PrEP?\",\n    \"Ninaweza kuwasiliana vipi na watu wengine walio katika hali kama yangu kuhusu PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "14289b991e766c8e8d7bbe28878d5995f59a917615f07b207e82e0b98948ac78",
+  "_starter_hash": "02cb4109a44d760a0928b6eb7193c060d48f8b65ad22482ec8f1b7759961f4ce",
+  "_language": "Swahili",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

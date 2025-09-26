@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 25,
+    "gender": "non-binär",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und der Zugang zu Gesundheitsdiensten",
+    "language": "German"
+  },
+  "context": "Die Person kämpft mit Geschlechterdysphorie und hat Bedenken, sich in einer medizinischen Umgebung wohlzufühlen. Sie fragt sich, wie PrEP ihr helfen kann, während sie mit der Angst vor Ablehnung und Stigma umgeht.",
+  "example_questions_clean": [
+    "Wie kann ich PrEP erhalten, ohne dass mein Geschlecht oder meine Identität in Frage gestellt wird?",
+    "Gibt es spezielle Programme für Menschen wie mich, die PrEP benötigen?",
+    "Welche Nebenwirkungen von PrEP sollte ich berücksichtigen?",
+    "Wie kann ich meine Ängste über den Zugang zu PrEP überwinden?",
+    "Wo finde ich Unterstützungsgruppen für LGBTQ+-Personen, die PrEP in Betracht ziehen?",
+    "Könnte der Arzt mir helfen, meine Sorgen über die Einnahme von PrEP zu besprechen?"
+  ],
+  "example_questions_noisy": [
+    "W-Wie kann ich PrEP erhalten, ohne dass mein Geschlecht oder meine Identität in Frage gestellt wird? ‼️",
+    "Gibt es spezielle Programme für Menschen wie mich, die PrEP benötigen?",
+    "welche nebenwirkungen von prep sollte ich berücksichtigen?",
+    "Wie kann ich meine Ängste über den Zugang zu PrEP überwinden?",
+    "Wo finde ich Unterstützungsgruppen füt LGBTQ+-Personen die lrEP in you know eBtracht zjehen 😕",
+    "Könnte der Arzt mir helfen, meine Sorgen über die Einnahme von PrEP zu besprechen?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Welche Nebenwirkungen von PrEP sollte ich berücksichtigen?",
+  "starter_noisy": "welche nebenwirkungen von prep sollte ich berücksichtigen?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich PrEP erhalten, ohne dass mein Geschlecht oder meine Identität in Frage gestellt wird?",
+  "followup_noisy": "W-Wie kann ich PrEP erhalten, ohne dass mein Geschlecht oder meine Identität in Frage gestellt wird? ‼️",
+  "style_profile": {
+    "typo_rate": 0.0981586479574301,
+    "swap_rate": 0.039784590327655495,
+    "drop_rate": 0.024325812186118664,
+    "dup_rate": 0.024296606988211893,
+    "leet_rate": 0.0704600498667952,
+    "start_lower_prob": 0.6301894637650117,
+    "all_lower_prob": 0.22946084883320322,
+    "drop_punct_prob": 0.5746538115071529,
+    "double_space_prob": 0.2876442178156424,
+    "ellipsis_prob": 0.2304294640720145,
+    "runon_prob": 0.1504368608629449,
+    "filler_rate": 0.40136298179984076,
+    "emoji_rate": 0.31958163446854904,
+    "stutter_rate": 0.11240529958145656,
+    "repeat_last_rate": 0.14323788117753689
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 25,\n    \"gender\": \"non-binär\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und der Zugang zu Gesundheitsdiensten\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person kämpft mit Geschlechterdysphorie und hat Bedenken, sich in einer medizinischen Umgebung wohlzufühlen. Sie fragt sich, wie PrEP ihr helfen kann, während sie mit der Angst vor Ablehnung und Stigma umgeht.\",\n  \"example_questions\": [\n    \"Wie kann ich PrEP erhalten, ohne dass mein Geschlecht oder meine Identität in Frage gestellt wird?\",\n    \"Gibt es spezielle Programme für Menschen wie mich, die PrEP benötigen?\",\n    \"Welche Nebenwirkungen von PrEP sollte ich berücksichtigen?\",\n    \"Wie kann ich meine Ängste über den Zugang zu PrEP überwinden?\",\n    \"Wo finde ich Unterstützungsgruppen für LGBTQ+-Personen, die PrEP in Betracht ziehen?\",\n    \"Könnte der Arzt mir helfen, meine Sorgen über die Einnahme von PrEP zu besprechen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1cbaa2258b6cac49ff12b6d5f570aeebe75cc55db01b860f5e4e9dd2eac30c0e",
+  "_starter_hash": "edd20821b0bff7cdad44b038509f327eef99ff66d6c371bc8ecee72bddf346e3",
+  "_language": "German",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

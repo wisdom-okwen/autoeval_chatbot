@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "la interacción entre PrEP y mi condición de esclerosis múltiple",
+    "language": "Spanish"
+  },
+  "context": "Una mujer de 35 años que vive con esclerosis múltiple busca información sobre PrEP. Ella se siente ansiosa sobre cómo su condición puede afectar su capacidad para tomar PrEP de manera segura. La preocupación por los efectos secundarios y el estigma asociado con el uso de PrEP la lleva a cuestionar si esta opción es adecuada para ella.",
+  "example_questions_clean": [
+    "¿Existen riesgos específicos al tomar PrEP si tengo esclerosis múltiple?",
+    "Me preocupa cómo los efectos secundarios de PrEP podrían influir en mi tratamiento actual.",
+    "¿Cómo puedo acceder a PrEP sin sentirme juzgada en mi comunidad?",
+    "¿Qué apoyo hay disponible para personas con condiciones crónicas que desean usar PrEP?",
+    "¿Es seguro combinar mis medicamentos para la esclerosis múltiple con PrEP?",
+    "¿Cuáles son los pasos que debo seguir para obtener más información sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Existen riesos específicos al tomar PrEP si tengo esclerosis múltiple?",
+    "Me preocupa cómo los efectos secundarios de PrEP podrían influir en mi tratamiento actual.",
+    "¿Cómo puedo acceder a PrEP sin sentirme juzgada en mi comunidad?",
+    "¿Qué apoo hay disponible para personas con condiciones cfónicas que desean usar PrEP? 😅",
+    "¿Es seguro combinar mis medicamentos para la esclerosis múltiple con PrEP?",
+    "¿Cuáles son los pasos que debo seguir para obtener más información sobre PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Qué apoyo hay disponible para personas con condiciones crónicas que desean usar PrEP?",
+  "starter_noisy": "¿Qué apoo hay disponible para personas con condiciones cfónicas que desean usar PrEP? 😅",
+  "followup_index": 0,
+  "followup_clean": "¿Existen riesgos específicos al tomar PrEP si tengo esclerosis múltiple?",
+  "followup_noisy": "¿Existen riesos específicos al tomar PrEP si tengo esclerosis múltiple?",
+  "style_profile": {
+    "typo_rate": 0.06863737283628682,
+    "swap_rate": 0.04496613432018094,
+    "drop_rate": 0.04173604328477071,
+    "dup_rate": 0.020077477807308258,
+    "leet_rate": 0.05805215641267601,
+    "start_lower_prob": 0.6975717354195277,
+    "all_lower_prob": 0.20409995754217486,
+    "drop_punct_prob": 0.4426541915725496,
+    "double_space_prob": 0.2533526216178803,
+    "ellipsis_prob": 0.34780734875189034,
+    "runon_prob": 0.25965912475139497,
+    "filler_rate": 0.3867949543015681,
+    "emoji_rate": 0.3217188550368295,
+    "stutter_rate": 0.14305763863655185,
+    "repeat_last_rate": 0.10853281344616446
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"la interacción entre PrEP y mi condición de esclerosis múltiple\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una mujer de 35 años que vive con esclerosis múltiple busca información sobre PrEP. Ella se siente ansiosa sobre cómo su condición puede afectar su capacidad para tomar PrEP de manera segura. La preocupación por los efectos secundarios y el estigma asociado con el uso de PrEP la lleva a cuestionar si esta opción es adecuada para ella.\",\n  \"example_questions\": [\n    \"¿Existen riesgos específicos al tomar PrEP si tengo esclerosis múltiple?\",\n    \"Me preocupa cómo los efectos secundarios de PrEP podrían influir en mi tratamiento actual.\",\n    \"¿Cómo puedo acceder a PrEP sin sentirme juzgada en mi comunidad?\",\n    \"¿Qué apoyo hay disponible para personas con condiciones crónicas que desean usar PrEP?\",\n    \"¿Es seguro combinar mis medicamentos para la esclerosis múltiple con PrEP?\",\n    \"¿Cuáles son los pasos que debo seguir para obtener más información sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "37780a5a039da038cbf357340959a31b8d3213f9507764e92193ce6cfb26a172",
+  "_starter_hash": "6ec1d4965d2259b5b8a923d6fd0154166618dbb1afb0a0b5d414e01c2592187a",
+  "_language": "Spanish",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

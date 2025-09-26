@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 25,
+    "gender": "transgender female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP due to stigma and affordability",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer trans de 25 años que está lidiando con la disforia de género y siente ansiedad sobre cómo esto puede afectar tu acceso a PrEP. Tienes preocupaciones sobre el estigma social y la posibilidad de no poder pagar el medicamento, lo que te hace dudar de tu salud y bienestar emocional.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación?",
+    "¿Existen recursos específicos para personas trans que necesiten PrEP?",
+    "Tengo miedo al juicio al pedir PrEP en una clínica, ¿cómo puedo manejar esto?",
+    "¿Qué opciones tengo si no puedo permitirme el costo de PrEP?",
+    "¿Hay comunidades en línea donde puedo hablar sobre mis preocupaciones sobre PrEP?",
+    "¿Cómo afecta la disforia de género mi elegibilidad para recibir PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son los pasos que you know debo seguir para acceder a prep en mi situación 😅 😅",
+    "¿Existen recursos 35p3cíf1c05 para personas um trans que necesiten PrEP?",
+    "Tengo miedo al juicio al pedir PrEP en una clínica, ¿cómo puedo manejar esto?",
+    "¿Qué opciones tengo si no puedo permitirme el coeto de PrEP",
+    "¿-¿Haaay c0munid4d35 en línea donde puedo hablar sobre mis preocupaciones like sobre PrEP 🤔 🤔",
+    "¿Cómo afecta la disforia de género mi elegibilidad para recibir PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Hay comunidades en línea donde puedo hablar sobre mis preocupaciones sobre PrEP?",
+  "starter_noisy": "¿-¿Haaay c0munid4d35 en línea donde puedo hablar sobre mis preocupaciones like sobre PrEP 🤔 🤔",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación?",
+  "followup_noisy": "¿cuáles son los pasos que you know debo seguir para acceder a prep en mi situación 😅 😅",
+  "style_profile": {
+    "typo_rate": 0.06682812022690608,
+    "swap_rate": 0.021337001836456947,
+    "drop_rate": 0.026895451305754034,
+    "dup_rate": 0.022860964823450798,
+    "leet_rate": 0.055577299796791796,
+    "start_lower_prob": 0.7176911576973326,
+    "all_lower_prob": 0.32548538223234913,
+    "drop_punct_prob": 0.5657009736807452,
+    "double_space_prob": 0.20243268835815809,
+    "ellipsis_prob": 0.20401746721893238,
+    "runon_prob": 0.13288442670821868,
+    "filler_rate": 0.34536119763355166,
+    "emoji_rate": 0.24633135839239528,
+    "stutter_rate": 0.11518176410316884,
+    "repeat_last_rate": 0.09976134064529735
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 25,\n    \"gender\": \"transgender female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP due to stigma and affordability\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer trans de 25 años que está lidiando con la disforia de género y siente ansiedad sobre cómo esto puede afectar tu acceso a PrEP. Tienes preocupaciones sobre el estigma social y la posibilidad de no poder pagar el medicamento, lo que te hace dudar de tu salud y bienestar emocional.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación?\",\n    \"¿Existen recursos específicos para personas trans que necesiten PrEP?\",\n    \"Tengo miedo al juicio al pedir PrEP en una clínica, ¿cómo puedo manejar esto?\",\n    \"¿Qué opciones tengo si no puedo permitirme el costo de PrEP?\",\n    \"¿Hay comunidades en línea donde puedo hablar sobre mis preocupaciones sobre PrEP?\",\n    \"¿Cómo afecta la disforia de género mi elegibilidad para recibir PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7b33002140159d422f266311e014eb5111413a707db3a6f60e6929678bdac5d8",
+  "_starter_hash": "83da12e6fe2b42ea915e79e1b6d75f46ff0c7f470eb90ccf1aae082f69fa3324",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Féminin",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'impact de mon anxiété sur ma capacité à prendre PrEP régulièrement.",
+    "language": "French"
+  },
+  "context": "Je vis avec un trouble anxieux qui rend difficile la prise de décisions concernant ma santé. J'ai peur des réactions des autres et de l'impact que cela pourrait avoir sur ma vie sociale. J'aimerais en savoir plus sur PrEP pour me protéger, mais mon anxiété me freine.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer à prendre PrEP dans mon cas?",
+    "Comment puis-je gérer mon anxiété en parlant de PrEP avec un professionnel de la santé?",
+    "Y a-t-il des ressources disponibles pour les personnes anxieuses qui veulent prendre PrEP?",
+    "Comment faire face à la stigmatisation liée à la prise de PrEP?",
+    "Est-ce que d'autres personnes dans ma situation trouvent du soutien lorsqu'elles prennent PrEP?",
+    "Quels conseils pourriez-vous donner pour maintenir une routine de prise de PrEP malgré l'anxiété?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les étapes pour commencer à prender PrEP dans mon cas? 🫠",
+    "Comment puis-je gérer mon anxiété en parlant de PrEP avec un professionnel de la santé?",
+    "Y a-t-il des ressources disponibles pour les personnes anxieuses qui veulent prendre PrEP?",
+    "Comment faire face à la stigmatisation liée à la prise de PrEP?",
+    "esttt-ce que d'autres idk personnes dans ma stuation trouvent du 50u713n lorsqu'elles prennent prep ❓",
+    "Quels conseils pourriez-vous donner pour maintenir une routine de prise de PrEP malgré l'anxiété?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Y a-t-il des ressources disponibles pour les personnes anxieuses qui veulent prendre PrEP?",
+  "starter_noisy": "Y a-t-il des ressources disponibles pour les personnes anxieuses qui veulent prendre PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer à prendre PrEP dans mon cas?",
+  "followup_noisy": "quelles sont les étapes pour commencer à prender PrEP dans mon cas? 🫠",
+  "style_profile": {
+    "typo_rate": 0.0687432233975067,
+    "swap_rate": 0.05340238997923373,
+    "drop_rate": 0.02142848476697863,
+    "dup_rate": 0.010045138180130442,
+    "leet_rate": 0.05270544238555683,
+    "start_lower_prob": 0.8932858248943546,
+    "all_lower_prob": 0.3406483506671886,
+    "drop_punct_prob": 0.40794910869188805,
+    "double_space_prob": 0.22849047187709634,
+    "ellipsis_prob": 0.18252947563141333,
+    "runon_prob": 0.24765459743077617,
+    "filler_rate": 0.3577878826327643,
+    "emoji_rate": 0.2848167821246401,
+    "stutter_rate": 0.17290868003115895,
+    "repeat_last_rate": 0.1798640805943211
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Féminin\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'impact de mon anxiété sur ma capacité à prendre PrEP régulièrement.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Je vis avec un trouble anxieux qui rend difficile la prise de décisions concernant ma santé. J'ai peur des réactions des autres et de l'impact que cela pourrait avoir sur ma vie sociale. J'aimerais en savoir plus sur PrEP pour me protéger, mais mon anxiété me freine.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer à prendre PrEP dans mon cas?\",\n    \"Comment puis-je gérer mon anxiété en parlant de PrEP avec un professionnel de la santé?\",\n    \"Y a-t-il des ressources disponibles pour les personnes anxieuses qui veulent prendre PrEP?\",\n    \"Comment faire face à la stigmatisation liée à la prise de PrEP?\",\n    \"Est-ce que d'autres personnes dans ma situation trouvent du soutien lorsqu'elles prennent PrEP?\",\n    \"Quels conseils pourriez-vous donner pour maintenir une routine de prise de PrEP malgré l'anxiété?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ef670a610ac47d8a54e34b4f859e8882755a69c89992a7c652d88ea89712e859",
+  "_starter_hash": "8ec6ed55a301d12e86faa7b1dc02dd14ce0d42ed89481021d344f733f9fb2ac2",
+  "_language": "French",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

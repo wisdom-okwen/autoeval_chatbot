@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "worrying about how depression might affect adherence to PrEP and overall health",
+    "language": "English"
+  },
+  "context": "You are struggling with depression, which makes it challenging to focus on your health. You feel overwhelmed by the thought of managing PrEP alongside your mental health condition. There is a fear of stigma associated with both your mental health and your need for PrEP, leaving you uncertain about seeking help.",
+  "example_questions_clean": [
+    "How does depression impact my ability to take PrEP consistently?",
+    "What support resources are available for someone like me who is dealing with depression?",
+    "Are there any special considerations I should be aware of when starting PrEP while managing my mental health?",
+    "How can I talk to my healthcare provider about my mental health in relation to PrEP?",
+    "What are the potential side effects of PrEP that I should discuss with my doctor?",
+    "Is it common for people with mental health challenges to take PrEP successfully?"
+  ],
+  "example_questions_noisy": [
+    "How does depression impact my ability to take PrEP consistently?",
+    "What support resources are available for someone like me who is dealing with depression?",
+    "Are there any special considerations I should be aware of when starting PrEP while managing my mental health?",
+    "h-how can I talk to my healthcare provide 4b0u7 my mental haelth in relation ttto PrEP",
+    "What are the potential side effects of PrEP that I should discuss with my doctor?",
+    "is it common rorrr idk people with mental health challenges to take prep successfully ‼️ ‼️"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How does depression impact my ability to take PrEP consistently?",
+  "starter_noisy": "How does depression impact my ability to take PrEP consistently?",
+  "followup_index": 1,
+  "followup_clean": "What support resources are available for someone like me who is dealing with depression?",
+  "followup_noisy": "What support resources are available for someone like me who is dealing with depression?",
+  "style_profile": {
+    "typo_rate": 0.07792944345442039,
+    "swap_rate": 0.048394213695988064,
+    "drop_rate": 0.03479374101738273,
+    "dup_rate": 0.0241562739280416,
+    "leet_rate": 0.056480833939196694,
+    "start_lower_prob": 0.7578519136109625,
+    "all_lower_prob": 0.17337148573759828,
+    "drop_punct_prob": 0.4694567826084738,
+    "double_space_prob": 0.21490962598559685,
+    "ellipsis_prob": 0.21309415631013687,
+    "runon_prob": 0.1136353705473302,
+    "filler_rate": 0.4772582857867803,
+    "emoji_rate": 0.24697418031270374,
+    "stutter_rate": 0.12711823093699426,
+    "repeat_last_rate": 0.10142063939749434
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"worrying about how depression might affect adherence to PrEP and overall health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are struggling with depression, which makes it challenging to focus on your health. You feel overwhelmed by the thought of managing PrEP alongside your mental health condition. There is a fear of stigma associated with both your mental health and your need for PrEP, leaving you uncertain about seeking help.\",\n  \"example_questions\": [\n    \"How does depression impact my ability to take PrEP consistently?\",\n    \"What support resources are available for someone like me who is dealing with depression?\",\n    \"Are there any special considerations I should be aware of when starting PrEP while managing my mental health?\",\n    \"How can I talk to my healthcare provider about my mental health in relation to PrEP?\",\n    \"What are the potential side effects of PrEP that I should discuss with my doctor?\",\n    \"Is it common for people with mental health challenges to take PrEP successfully?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b7d860ff33d734aa8c011658fa25d4f5b0ec4023691228cfdf43da0d40bc655d",
+  "_starter_hash": "7d427cfe5e1f6a311b1075c804f9b9374d1ed3f51781c8c7874718d5d1f036ee",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

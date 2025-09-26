@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of disclosing PrEP usage to a partner who is abusive",
+    "language": "Swahili"
+  },
+  "context": "You are navigating a complicated situation where you are experiencing intimate partner violence, which makes accessing healthcare, including PrEP, particularly challenging. You feel a mix of fear and hope as you consider ways to protect your health while managing your relationship dynamics. The stigma around both PrEP and domestic violence weighs heavily on your mind, making you apprehensive about seeking support.",
+  "example_questions_clean": [
+    "Je, ninaweza kupata PrEP bila kumwambia mwenza wangu ambaye ananiudhi?",
+    "Ni wapi naweza kupata taarifa zaidi kuhusu PrEP katika maeneo salama?",
+    "Nini madhara ya kutumia PrEP katika hali yangu ya sasa?",
+    "Je, kuna njia za kuficha matumizi ya PrEP kwa watu wanaonijali?",
+    "Nini kinachofanyika kama sipati msaada wa kifedha wa kununua dawa za PrEP?",
+    "Kuna watu ambao wanaweza kunisaidia katika hali yangu bila kunihukumu?"
+  ],
+  "example_questions_noisy": [
+    "Je, ninaweza kupata PrEP bila kumwambia mwenza wangu ambaye ananiudhi?",
+    "n1 you know wapi naweza kupata atarifa zaidi kuhusu PrEP katika maeneo salama?",
+    "Nini madhara ya kutumia PrEP katika hali yangu ya sasa?",
+    "je kuna like njia za kuficha matumizi ya prep kwa watu wanaonijali wanaonijali",
+    "Nini kinachofanyika kama sipati msaada wa kifedha wa kununua dawa za PrEP?",
+    "Kuna watu ambao wanaweza kunisaidia katika hali yangu bila kunihukumu?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Nini madhara ya kutumia PrEP katika hali yangu ya sasa?",
+  "starter_noisy": "Nini madhara ya kutumia PrEP katika hali yangu ya sasa?",
+  "followup_index": 0,
+  "followup_clean": "Je, ninaweza kupata PrEP bila kumwambia mwenza wangu ambaye ananiudhi?",
+  "followup_noisy": "Je, ninaweza kupata PrEP bila kumwambia mwenza wangu ambaye ananiudhi?",
+  "style_profile": {
+    "typo_rate": 0.07902890635440417,
+    "swap_rate": 0.03921800595422094,
+    "drop_rate": 0.020040203444253096,
+    "dup_rate": 0.01666529770469552,
+    "leet_rate": 0.09314373351258909,
+    "start_lower_prob": 0.8569860166064385,
+    "all_lower_prob": 0.3405931289481894,
+    "drop_punct_prob": 0.3635936282197295,
+    "double_space_prob": 0.2621024378683917,
+    "ellipsis_prob": 0.30351526329437506,
+    "runon_prob": 0.24137873635642929,
+    "filler_rate": 0.4042051056651076,
+    "emoji_rate": 0.22603368698115767,
+    "stutter_rate": 0.13964153584586575,
+    "repeat_last_rate": 0.09400440033092991
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of disclosing PrEP usage to a partner who is abusive\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are navigating a complicated situation where you are experiencing intimate partner violence, which makes accessing healthcare, including PrEP, particularly challenging. You feel a mix of fear and hope as you consider ways to protect your health while managing your relationship dynamics. The stigma around both PrEP and domestic violence weighs heavily on your mind, making you apprehensive about seeking support.\",\n  \"example_questions\": [\n    \"Je, ninaweza kupata PrEP bila kumwambia mwenza wangu ambaye ananiudhi?\",\n    \"Ni wapi naweza kupata taarifa zaidi kuhusu PrEP katika maeneo salama?\",\n    \"Nini madhara ya kutumia PrEP katika hali yangu ya sasa?\",\n    \"Je, kuna njia za kuficha matumizi ya PrEP kwa watu wanaonijali?\",\n    \"Nini kinachofanyika kama sipati msaada wa kifedha wa kununua dawa za PrEP?\",\n    \"Kuna watu ambao wanaweza kunisaidia katika hali yangu bila kunihukumu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e1dbd5add4d11cd26be5b9a747758ef6e2daa96f836517e3c3ff37887fd1d37a",
+  "_starter_hash": "6ba8c1339b0119231aef91bfc846b2602171fcedac068e9573115ae31fe9686e",
+  "_language": "Swahili",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

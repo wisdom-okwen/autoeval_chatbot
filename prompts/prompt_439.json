@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "la interacción entre mi tratamiento para el trastorno bipolar y el PrEP",
+    "language": "Spanish"
+  },
+  "context": "Esta mujer vive con trastorno bipolar y está preocupada por cómo iniciar PrEP puede afectar su bienestar emocional y su medicación. Además, enfrenta estigmas sobre su salud mental que le generan ansiedad al considerar el uso de PrEP.",
+  "example_questions_clean": [
+    "¿Cómo afecta mi tratamiento actual el uso del PrEP en mi salud mental?",
+    "¿Qué recursos están disponibles para personas como yo que enfrentan barreras emocionales al considerar el PrEP?",
+    "¿Es seguro usar PrEP si estoy tomando medicamentos para el trastorno bipolar?",
+    "¿Cuáles son los efectos secundarios del PrEP y cómo podrían influir en mi condición?",
+    "¿Puedo hablar con un profesional de la salud que entienda mi situación específica antes de empezar?",
+    "¿Cómo puedo encontrar apoyo emocional mientras exploro mis opciones con el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo afecta mi tratamiento actual el uso del PrEP en mi salud mental?",
+    "¿Qué recursos están disponibles para personas como yo que enfrentan barreras emocionales al considerar el PrEP?",
+    "um ¿35 seguro usar PrEP si estoy tomando medicamentos para el trastrno bipolae",
+    "¿Cuáles son los efectos secundarios del PrEP y cómo podrían influir en mi condición?",
+    "¿Puedo hablar con un profesional de la salud que entienda mi situación específica antes de empezar?",
+    "¿Cómo puedo encontrar apoyo emocional mientras exploro mis opciones con el PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Es seguro usar PrEP si estoy tomando medicamentos para el trastorno bipolar?",
+  "starter_noisy": "um ¿35 seguro usar PrEP si estoy tomando medicamentos para el trastrno bipolae",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo afecta mi tratamiento actual el uso del PrEP en mi salud mental?",
+  "followup_noisy": "¿Cómo afecta mi tratamiento actual el uso del PrEP en mi salud mental?",
+  "style_profile": {
+    "typo_rate": 0.07037378137103857,
+    "swap_rate": 0.02089268271391366,
+    "drop_rate": 0.0485693381660965,
+    "dup_rate": 0.02539755198812487,
+    "leet_rate": 0.05055449829102203,
+    "start_lower_prob": 0.8752979305352171,
+    "all_lower_prob": 0.2795552138706542,
+    "drop_punct_prob": 0.31037948981702196,
+    "double_space_prob": 0.1634023864334055,
+    "ellipsis_prob": 0.3063415320117721,
+    "runon_prob": 0.1049616210016821,
+    "filler_rate": 0.42502546725748613,
+    "emoji_rate": 0.19039522050611768,
+    "stutter_rate": 0.13116043955831622,
+    "repeat_last_rate": 0.1483898731412838
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"la interacción entre mi tratamiento para el trastorno bipolar y el PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta mujer vive con trastorno bipolar y está preocupada por cómo iniciar PrEP puede afectar su bienestar emocional y su medicación. Además, enfrenta estigmas sobre su salud mental que le generan ansiedad al considerar el uso de PrEP.\",\n  \"example_questions\": [\n    \"¿Cómo afecta mi tratamiento actual el uso del PrEP en mi salud mental?\",\n    \"¿Qué recursos están disponibles para personas como yo que enfrentan barreras emocionales al considerar el PrEP?\",\n    \"¿Es seguro usar PrEP si estoy tomando medicamentos para el trastorno bipolar?\",\n    \"¿Cuáles son los efectos secundarios del PrEP y cómo podrían influir en mi condición?\",\n    \"¿Puedo hablar con un profesional de la salud que entienda mi situación específica antes de empezar?\",\n    \"¿Cómo puedo encontrar apoyo emocional mientras exploro mis opciones con el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "14899884812dfbbf35f54e671b015d348f62fccadfccd25fdabaa51de7dc68ac",
+  "_starter_hash": "83ec79cd87e37c9a4836f919914aeecb69fd3c445390a443eaaee725cfacb429",
+  "_language": "Spanish",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

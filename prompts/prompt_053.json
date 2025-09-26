@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "miedo al estigma y la posibilidad de recaída en el uso de sustancias",
+    "language": "Spanish"
+  },
+  "context": "La usuaria ha tenido un historial de consumo de sustancias y siente que esto puede afectar su acceso y compromiso con PrEP. Su miedo al estigma y las recaídas generan ansiedad sobre su salud y su capacidad para seguir el tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo puedo manejarlos?",
+    "Me preocupa cómo la gente a mi alrededor podría juzgarme si empiezo a tomar PrEP.",
+    "¿Existen programas de apoyo para personas con antecedentes de uso de sustancias que están considerando PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones relacionadas con el uso de PrEP?",
+    "¿Es seguro combinar PrEP con tratamientos para el uso de sustancias?",
+    "¿Cuáles son los pasos para obtener PrEP si tengo un presupuesto limitado?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo puedo manejarlos?",
+    "Me preocupa cómo la gente a mi alrededor podría juzgarme si empiezo a tomar PrEP.",
+    "¿Existen programas de apoyo para personas con antecedentes de uso de sustancias que están considerando PrEP?",
+    "¿Cómo pued0 hbalar con mi médico sobre mis preocupaciones relacionadas con el u50 de PrEP?",
+    "¿Es seguro combinar PrEP con tratamientos para el uso de sustancias?",
+    "¿-¿Cuáles son los psaos i mean para obtener PrEP su tengo un presupuesto l1m174d0"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Me preocupa cómo la gente a mi alrededor podría juzgarme si empiezo a tomar PrEP.",
+  "starter_noisy": "Me preocupa cómo la gente a mi alrededor podría juzgarme si empiezo a tomar PrEP.",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo puedo manejarlos?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo puedo manejarlos?",
+  "style_profile": {
+    "typo_rate": 0.06253324033522922,
+    "swap_rate": 0.05055921348524829,
+    "drop_rate": 0.022502609065896424,
+    "dup_rate": 0.017322682533495098,
+    "leet_rate": 0.10273734111226321,
+    "start_lower_prob": 0.8122486722502127,
+    "all_lower_prob": 0.24269749989285555,
+    "drop_punct_prob": 0.5696357667175205,
+    "double_space_prob": 0.2676848179835866,
+    "ellipsis_prob": 0.3173105352404014,
+    "runon_prob": 0.1258077495947067,
+    "filler_rate": 0.45773832895996036,
+    "emoji_rate": 0.19165680537222754,
+    "stutter_rate": 0.13227595961879354,
+    "repeat_last_rate": 0.15707903833843742
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"miedo al estigma y la posibilidad de recaída en el uso de sustancias\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria ha tenido un historial de consumo de sustancias y siente que esto puede afectar su acceso y compromiso con PrEP. Su miedo al estigma y las recaídas generan ansiedad sobre su salud y su capacidad para seguir el tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes de PrEP y cómo puedo manejarlos?\",\n    \"Me preocupa cómo la gente a mi alrededor podría juzgarme si empiezo a tomar PrEP.\",\n    \"¿Existen programas de apoyo para personas con antecedentes de uso de sustancias que están considerando PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones relacionadas con el uso de PrEP?\",\n    \"¿Es seguro combinar PrEP con tratamientos para el uso de sustancias?\",\n    \"¿Cuáles son los pasos para obtener PrEP si tengo un presupuesto limitado?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a0699e6a1c371796461f251b64aec5f5923b2b05fad9a69241b81cb22d87d5c5",
+  "_starter_hash": "11c5c504a31c208858b1e18ffa8410b00b0cb9310d53ae37456883e6f0b0522b",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

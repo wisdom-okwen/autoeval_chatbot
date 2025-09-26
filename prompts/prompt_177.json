@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "Tengo miedo de cómo mi ansiedad afectará mi capacidad para tomar PrEP de manera regular.",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que enfrenta la ansiedad, lo que a veces te hace sentir abrumada por la idea de iniciar un tratamiento como el PrEP. Tienes dudas sobre cómo manejar las citas médicas y las posibles reacciones de otras personas a tu situación, lo que intensifica tus miedos.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios del PrEP y cómo puedo manejarlos si tengo ansiedad?",
+    "¿Es común que las personas con ansiedad se sientan preocupadas por tomar PrEP regularmente?",
+    "¿Qué recursos están disponibles para ayudarme a sobrellevar mis miedos mientras inicio el tratamiento?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Existen grupos de apoyo para personas como yo que enfrentan desafíos similares al considerar el PrEP?",
+    "¿Qué pasos puedo seguir para asegurarme de que el PrEP se integre bien en mi rutina diaria?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efecccto5 53cundar10s del PrEP y cómo puedo manejarlos si tengo ansiedad ansiedad",
+    "¿Es común que las personas con ansiedad se sientan preocupadas por tomar PrEP regularmente?",
+    "¿Qué r3cur505 están disponibles para ayudarme a sobrellvar mis miedos mientras inicio el tratamiento ✨",
+    "¿-¿Cómo puedo hablar con mi médico 5obr3 mis preocupaciones sin sentirme juzg4d4? 😬",
+    "¿Existen grupos de apoyo para personas como yo que enfrentan desafíos similares al considerar el PrEP?",
+    "¿Qué pasos puedo sevuir para asegurarme de que ep PrEP se integre bien en mi rutina diaria?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Existen grupos de apoyo para personas como yo que enfrentan desafíos similares al considerar el PrEP?",
+  "starter_noisy": "¿Existen grupos de apoyo para personas como yo que enfrentan desafíos similares al considerar el PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios del PrEP y cómo puedo manejarlos si tengo ansiedad?",
+  "followup_noisy": "¿Cuáles son los efecccto5 53cundar10s del PrEP y cómo puedo manejarlos si tengo ansiedad ansiedad",
+  "style_profile": {
+    "typo_rate": 0.06405457081829098,
+    "swap_rate": 0.021504335337144114,
+    "drop_rate": 0.026349093213690788,
+    "dup_rate": 0.01565393451446212,
+    "leet_rate": 0.07398618298124945,
+    "start_lower_prob": 0.7819211204423223,
+    "all_lower_prob": 0.31505136007035706,
+    "drop_punct_prob": 0.3887493976921584,
+    "double_space_prob": 0.2274753668360092,
+    "ellipsis_prob": 0.18866838824975288,
+    "runon_prob": 0.11548214401424706,
+    "filler_rate": 0.3834095018673747,
+    "emoji_rate": 0.27801018267888367,
+    "stutter_rate": 0.19240000831206489,
+    "repeat_last_rate": 0.09195400319322829
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"Tengo miedo de cómo mi ansiedad afectará mi capacidad para tomar PrEP de manera regular.\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que enfrenta la ansiedad, lo que a veces te hace sentir abrumada por la idea de iniciar un tratamiento como el PrEP. Tienes dudas sobre cómo manejar las citas médicas y las posibles reacciones de otras personas a tu situación, lo que intensifica tus miedos.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios del PrEP y cómo puedo manejarlos si tengo ansiedad?\",\n    \"¿Es común que las personas con ansiedad se sientan preocupadas por tomar PrEP regularmente?\",\n    \"¿Qué recursos están disponibles para ayudarme a sobrellevar mis miedos mientras inicio el tratamiento?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Existen grupos de apoyo para personas como yo que enfrentan desafíos similares al considerar el PrEP?\",\n    \"¿Qué pasos puedo seguir para asegurarme de que el PrEP se integre bien en mi rutina diaria?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "47009de31d047ab77385d56792c23cd9491515b8eca32c179ed9bc1592369283",
+  "_starter_hash": "8e2827432417d19c2e577b690f829c593f30e5dbb0bf4fd544a63af24f859023",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

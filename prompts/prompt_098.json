@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of judgment when discussing PrEP with healthcare providers",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old woman living in the United States and struggling with social anxiety. This condition makes it difficult for you to have conversations about your health and access the resources you need, such as PrEP. You worry about being judged by doctors and others when discussing your sexual health, which heightens your anxiety and creates barriers to getting the information you need.",
+  "example_questions_clean": [
+    "What should I say to my doctor when I want to ask about PrEP?",
+    "How can I overcome my anxiety about discussing my sexual health with healthcare professionals?",
+    "Are there any support groups for individuals who feel anxious about accessing PrEP?",
+    "What are the steps I can take to ensure my privacy when seeking information about PrEP?",
+    "Can PrEP help me feel more secure in my sexual health decisions despite my anxiety?"
+  ],
+  "example_questions_noisy": [
+    "What should I say to my doctor when I want to ask about PrEP?",
+    "How can I overcome my anxiety about discussing my sexual health with healthcare professionals?",
+    "Are there any support groups for individuals who feel anxious about accessing PrEP?",
+    "what are the steps k can take to ensure my privacy when sewking information about prep? ✨",
+    "Can Pr3P help me feel more secure in my sexual health decisions despite my anxiety? 😅"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What are the steps I can take to ensure my privacy when seeking information about PrEP?",
+  "starter_noisy": "what are the steps k can take to ensure my privacy when sewking information about prep? ✨",
+  "followup_index": 0,
+  "followup_clean": "What should I say to my doctor when I want to ask about PrEP?",
+  "followup_noisy": "What should I say to my doctor when I want to ask about PrEP?",
+  "style_profile": {
+    "typo_rate": 0.05749156495417746,
+    "swap_rate": 0.027225204804652646,
+    "drop_rate": 0.04297887679027451,
+    "dup_rate": 0.025821923552672023,
+    "leet_rate": 0.06879356463566422,
+    "start_lower_prob": 0.6361935533314901,
+    "all_lower_prob": 0.19065656459635533,
+    "drop_punct_prob": 0.3086444046250954,
+    "double_space_prob": 0.2276439282142841,
+    "ellipsis_prob": 0.17958125704280603,
+    "runon_prob": 0.10235028737411263,
+    "filler_rate": 0.3134202559182506,
+    "emoji_rate": 0.26412024043845067,
+    "stutter_rate": 0.12275575179448167,
+    "repeat_last_rate": 0.15020991501637793
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of judgment when discussing PrEP with healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old woman living in the United States and struggling with social anxiety. This condition makes it difficult for you to have conversations about your health and access the resources you need, such as PrEP. You worry about being judged by doctors and others when discussing your sexual health, which heightens your anxiety and creates barriers to getting the information you need.\",\n  \"example_questions\": [\n    \"What should I say to my doctor when I want to ask about PrEP?\",\n    \"How can I overcome my anxiety about discussing my sexual health with healthcare professionals?\",\n    \"Are there any support groups for individuals who feel anxious about accessing PrEP?\",\n    \"What are the steps I can take to ensure my privacy when seeking information about PrEP?\",\n    \"Can PrEP help me feel more secure in my sexual health decisions despite my anxiety?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a12284b62034306d793cb1d93c04ae9ba02288db126ae320ee08796ad191cbc6",
+  "_starter_hash": "1e98e00bbee01fc9e4c2a55ba12e498997c8d44f07a1b4dc8f53a9b38824ac9c",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

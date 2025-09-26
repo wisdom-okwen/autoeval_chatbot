@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 30,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "navigating mental health while considering PrEP",
+    "language": "Swahili"
+  },
+  "context": "Mtu huyu anaishi na ugonjwa wa schizophrenia, ambayo inamfanya kuwa na wasiwasi mkubwa kuhusu kuchukua dawa mpya kama PrEP. Hana uhakika kama akili yake itashiriki katika matumizi ya dawa hizo na anahisi hofu kuhusu jinsi watu wengine wataweza kumtazama ikiwa atachukua PrEP. Hali yake ya kifedha inamfanya kudhani kuwa huenda asipate msaada wa kutosha.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi schizoaffective yangu inaweza kuathiri matumizi ya PrEP.",
+    "Je, kuna mipango ya kusaidia watu wenye matatizo ya akili kufikia PrEP?",
+    "Ninaweza vipi kujua kama PrEP ni salama kwangu kutokana na hali yangu?",
+    "Ni hatua zipi ambazo naweza kuchukua ili kupata msaada wa kisaikolojia wakati wa kutumia PrEP?",
+    "Je, watoa huduma wanatambua changamoto za watu wenye matatizo ya akili katika upatikanaji wa PrEP?",
+    "Ninaweza kutafuta ushauri kutoka wapi kuhusu masuala yangu ya afya ya akili na PrEP?"
+  ],
+  "example_questions_noisy": [
+    "n-nin4 wa51w451 khusu junsi schizoaffective yangu inaweza kuathiri matumizi i mean ta PrEP.",
+    "je uh kuna mipango ya kusaida watu wenye matatizo ya akili kufikia PrEP",
+    "n-n1n4w3z4 vipi kujua kama Pr3; ni salama kwangu kutokana idk na hali yangu? 😅",
+    "Ni hatua zipi ambazo naweza kuchukua ili kupata msaada wa kisaikolojia wakati wa kutumia PrEP?",
+    "Je, watoa huduma wanatambua changamoto za watu wenye matatizo ya akili katika upatikanaji wa PrEP?",
+    "nNNinaweza kutafutz ushauri kutoka w4p1 kuhu5u masuala yangu ya afya ya akili na PrEP? 🫠"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Je, watoa huduma wanatambua changamoto za watu wenye matatizo ya akili katika upatikanaji wa PrEP?",
+  "starter_noisy": "Je, watoa huduma wanatambua changamoto za watu wenye matatizo ya akili katika upatikanaji wa PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi schizoaffective yangu inaweza kuathiri matumizi ya PrEP.",
+  "followup_noisy": "n-nin4 wa51w451 khusu junsi schizoaffective yangu inaweza kuathiri matumizi i mean ta PrEP.",
+  "style_profile": {
+    "typo_rate": 0.09389663400571993,
+    "swap_rate": 0.028834874624173036,
+    "drop_rate": 0.03788892254571268,
+    "dup_rate": 0.015535333883429618,
+    "leet_rate": 0.09425133530354318,
+    "start_lower_prob": 0.6603663333654395,
+    "all_lower_prob": 0.17559686276841888,
+    "drop_punct_prob": 0.5878349182321856,
+    "double_space_prob": 0.20515022001513042,
+    "ellipsis_prob": 0.3396856320384838,
+    "runon_prob": 0.12170947551694754,
+    "filler_rate": 0.48970806997542765,
+    "emoji_rate": 0.32598710227574745,
+    "stutter_rate": 0.17786087845850235,
+    "repeat_last_rate": 0.10282227423035098
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 30,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"navigating mental health while considering PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mtu huyu anaishi na ugonjwa wa schizophrenia, ambayo inamfanya kuwa na wasiwasi mkubwa kuhusu kuchukua dawa mpya kama PrEP. Hana uhakika kama akili yake itashiriki katika matumizi ya dawa hizo na anahisi hofu kuhusu jinsi watu wengine wataweza kumtazama ikiwa atachukua PrEP. Hali yake ya kifedha inamfanya kudhani kuwa huenda asipate msaada wa kutosha.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi schizoaffective yangu inaweza kuathiri matumizi ya PrEP.\",\n    \"Je, kuna mipango ya kusaidia watu wenye matatizo ya akili kufikia PrEP?\",\n    \"Ninaweza vipi kujua kama PrEP ni salama kwangu kutokana na hali yangu?\",\n    \"Ni hatua zipi ambazo naweza kuchukua ili kupata msaada wa kisaikolojia wakati wa kutumia PrEP?\",\n    \"Je, watoa huduma wanatambua changamoto za watu wenye matatizo ya akili katika upatikanaji wa PrEP?\",\n    \"Ninaweza kutafuta ushauri kutoka wapi kuhusu masuala yangu ya afya ya akili na PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eea14071342477d69d1ddf9bb1083c8f83e7a1d0f04d9ad229273a06ba93fdf2",
+  "_starter_hash": "06d1d5f3b48267d07e5a95c12765f2d1fb1162b7dde26ba97e181a7cf7fa8c2f",
+  "_language": "Swahili",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

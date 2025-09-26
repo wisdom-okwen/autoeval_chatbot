@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "the fear of stigma from others if I take PrEP",
+    "language": "Spanish"
+  },
+  "context": "La usuaria se enfrenta a un trastorno de ansiedad que afecta su capacidad para buscar información sobre PrEP. Su preocupación principal es el miedo al estigma social y cómo podría ser vista por su comunidad al considerar la medicación preventiva. Esto le causa estrés y la hace dudar sobre dar el paso hacia la protección de su salud sexual.",
+  "example_questions_clean": [
+    "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+    "Tengo miedo de lo que piensen los demás sobre mí al tomar PrEP. ¿Es común esta preocupación?",
+    "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta?",
+    "¿Dónde puedo acceder a PrEP sin sentirme juzgada o incómoda?",
+    "¿Qué recursos existen para personas con ansiedad que buscan información sobre PrEP?",
+    "¿Cómo puedo superar mi miedo al estigma relacionado con la toma de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+    "7-7ngo kiedo de um l0 que piensen los demás sobre mí al tomar PrEP ¿Es comúj esta preocupacinó",
+    "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta?",
+    "¿Dónde puedo acfeder a PrEP sin sentirme juzgada p idk 1ncóm0da? 1ncóm0da?",
+    "¿Qué recursos existen para personas con ansiedad que buscan información sobre PrEP?",
+    "¿Cómo puedo superar mi miedo al estigma relacionado con la toma de PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Dónde puedo acceder a PrEP sin sentirme juzgada o incómoda?",
+  "starter_noisy": "¿Dónde puedo acfeder a PrEP sin sentirme juzgada p idk 1ncóm0da? 1ncóm0da?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+  "followup_noisy": "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+  "style_profile": {
+    "typo_rate": 0.059154157444061675,
+    "swap_rate": 0.0359858321301841,
+    "drop_rate": 0.027763105923613435,
+    "dup_rate": 0.021846010285018716,
+    "leet_rate": 0.11500182138026273,
+    "start_lower_prob": 0.7528357277026317,
+    "all_lower_prob": 0.19206345708908446,
+    "drop_punct_prob": 0.5106680872424025,
+    "double_space_prob": 0.17459243104407124,
+    "ellipsis_prob": 0.2817047748328897,
+    "runon_prob": 0.23025475390433217,
+    "filler_rate": 0.3639348975804566,
+    "emoji_rate": 0.21217538099309763,
+    "stutter_rate": 0.192802492079308,
+    "repeat_last_rate": 0.10554991020680358
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"the fear of stigma from others if I take PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria se enfrenta a un trastorno de ansiedad que afecta su capacidad para buscar información sobre PrEP. Su preocupación principal es el miedo al estigma social y cómo podría ser vista por su comunidad al considerar la medicación preventiva. Esto le causa estrés y la hace dudar sobre dar el paso hacia la protección de su salud sexual.\",\n  \"example_questions\": [\n    \"¿Qué es exactamente PrEP y cómo funciona en el cuerpo?\",\n    \"Tengo miedo de lo que piensen los demás sobre mí al tomar PrEP. ¿Es común esta preocupación?\",\n    \"¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta?\",\n    \"¿Dónde puedo acceder a PrEP sin sentirme juzgada o incómoda?\",\n    \"¿Qué recursos existen para personas con ansiedad que buscan información sobre PrEP?\",\n    \"¿Cómo puedo superar mi miedo al estigma relacionado con la toma de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "40c9dccb943d8a9203f05249a525342996e95c556e57e34c22eeaf5b7b7e9129",
+  "_starter_hash": "b8843e7fb7f5711c472d81debfdf47934d9fc360b3e36c9540e7292b06720784",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

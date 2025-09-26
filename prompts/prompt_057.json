@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Non binaire",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "La peur des effets secondaires et du jugement des autres",
+    "language": "French"
+  },
+  "context": "Vous avez récemment commencé à explorer l'idée de prendre PrEP pour vous protéger contre le VIH, mais votre expérience de PTSD complique cette décision. Vous ressentez de l'anxiété à propos des consultations médicales et des éventuels jugements. Cette situation rend difficile l'accès à des informations fiables sur PrEP, d'autant plus que vous craignez d'être mal compris par les professionnels de santé.",
+  "example_questions_clean": [
+    "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir jugé ?",
+    "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété lors des visites médicales ?",
+    "Y a-t-il des ressources en ligne pour m'aider à mieux comprendre les effets secondaires de PrEP ?",
+    "Comment PrEP pourrait-il affecter ma santé mentale, en particulier avec mon PTSD ?",
+    "Que puis-je faire si je suis préoccupé par la stigmatisation liée à l'utilisation de PrEP ?",
+    "Est-ce qu'il y a des groupes de soutien pour les personnes qui envisagent de prendre PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "comment ouis-je aborder le sujet de PrEP avec mon médecin sans me entir jugé 😅 😅",
+    "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété lors des visites médicales ?",
+    "y a-t-i des ressources en ligne pour m'aider à mieux comprendre les eff37 secondairew de prsp",
+    "Comment PrEP pourrait-il affecter ma santé mentale, en particulier avec mon PTSD ?",
+    "Que puis-je faire si je suis préoccupé par la stigmatisation liée à l'utilisation de PrEP ?",
+    "e-est-ce qu'il y a des gr0up35 de soutien poud les personnes qui envisagent de prendre PrEP PrEP"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Que puis-je faire si je suis préoccupé par la stigmatisation liée à l'utilisation de PrEP ?",
+  "starter_noisy": "Que puis-je faire si je suis préoccupé par la stigmatisation liée à l'utilisation de PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir jugé ?",
+  "followup_noisy": "comment ouis-je aborder le sujet de PrEP avec mon médecin sans me entir jugé 😅 😅",
+  "style_profile": {
+    "typo_rate": 0.10159189440491732,
+    "swap_rate": 0.022632152697524197,
+    "drop_rate": 0.04643483550096772,
+    "dup_rate": 0.016744220141762127,
+    "leet_rate": 0.08384610587077171,
+    "start_lower_prob": 0.711310288074915,
+    "all_lower_prob": 0.1807624708600007,
+    "drop_punct_prob": 0.3695970939685877,
+    "double_space_prob": 0.3176944941514389,
+    "ellipsis_prob": 0.27847478322540137,
+    "runon_prob": 0.15303632021948876,
+    "filler_rate": 0.4423475605462002,
+    "emoji_rate": 0.3458790837633365,
+    "stutter_rate": 0.19316477444988503,
+    "repeat_last_rate": 0.15595511781123722
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Non binaire\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"La peur des effets secondaires et du jugement des autres\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez récemment commencé à explorer l'idée de prendre PrEP pour vous protéger contre le VIH, mais votre expérience de PTSD complique cette décision. Vous ressentez de l'anxiété à propos des consultations médicales et des éventuels jugements. Cette situation rend difficile l'accès à des informations fiables sur PrEP, d'autant plus que vous craignez d'être mal compris par les professionnels de santé.\",\n  \"example_questions\": [\n    \"Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir jugé ?\",\n    \"Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété lors des visites médicales ?\",\n    \"Y a-t-il des ressources en ligne pour m'aider à mieux comprendre les effets secondaires de PrEP ?\",\n    \"Comment PrEP pourrait-il affecter ma santé mentale, en particulier avec mon PTSD ?\",\n    \"Que puis-je faire si je suis préoccupé par la stigmatisation liée à l'utilisation de PrEP ?\",\n    \"Est-ce qu'il y a des groupes de soutien pour les personnes qui envisagent de prendre PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "825aadb811ca9d5e5a01599f9542985dc878527bba3c987f4ef684af5f785ed2",
+  "_starter_hash": "0649224853ec2d21016691d4bb32d331813b3a6a49e4d77cf39d00bc26ea857e",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

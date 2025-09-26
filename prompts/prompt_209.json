@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 34,
+    "gender": "vrouw",
+    "socio_economic_status": "middenklasse",
+    "primary_concern": "kan ik PrEP gebruiken na mijn kankerbehandeling?",
+    "language": "Dutch"
+  },
+  "context": "Je bent een jonge vrouw van 34 jaar die zich herstelt van een zware kankerbehandeling. Deze ervaring heeft je kijk op gezondheid veranderd en je hebt zorgen over je immuunsysteem en de bijwerkingen van medicijnen. Je voelt je soms angstig over de stigma's rondom PrEP, maar je wilt ook de bescherming die het biedt. Je vraagt je af hoe deze medicatie past in jouw unieke situatie.",
+  "example_questions_clean": [
+    "Is PrEP veilig voor mensen die zich herstellen van kanker?",
+    "Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen?",
+    "Wat zijn de bijwerkingen van PrEP voor iemand in mijn situatie?",
+    "Zijn er specifieke gezondheidscontroles die ik moet ondergaan voordat ik met PrEP begin?",
+    "Wat zeggen andere patiënten die ook kanker hebben overwonnen over hun ervaring met PrEP?",
+    "Hoe kan ik openlijk praten over mijn gebruik van PrEP met mijn zorgverleners?"
+  ],
+  "example_questions_noisy": [
+    "is PrEP v31l1g voor mensen dieee zich herstellen van kanker?",
+    "Hoe kan ik towgang krijgen tot PrEP zonder ke ongemakkelijk te voelen?",
+    "Wat zijn de bijwerkingen van PrEP voor iemand in mijn situatie?",
+    "zijn er specifieke gezondheidscontroles die ik moet ondergaan voordat ik met prep begim",
+    "wat zeggn andere patiënten die ook kanker hebben overrrwonnen over hun ervaring met PrP?",
+    "Hoe kan ik openlijk prten over mijn gebruik van PrEP met mijn z0rgv3rl33rs?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wat zijn de bijwerkingen van PrEP voor iemand in mijn situatie?",
+  "starter_noisy": "Wat zijn de bijwerkingen van PrEP voor iemand in mijn situatie?",
+  "followup_index": 0,
+  "followup_clean": "Is PrEP veilig voor mensen die zich herstellen van kanker?",
+  "followup_noisy": "is PrEP v31l1g voor mensen dieee zich herstellen van kanker?",
+  "style_profile": {
+    "typo_rate": 0.0787653162024176,
+    "swap_rate": 0.05270937482476418,
+    "drop_rate": 0.048210460194869555,
+    "dup_rate": 0.013811934559674513,
+    "leet_rate": 0.0710153400205046,
+    "start_lower_prob": 0.625729065087511,
+    "all_lower_prob": 0.3048368683689443,
+    "drop_punct_prob": 0.3974285848593865,
+    "double_space_prob": 0.2715214097873304,
+    "ellipsis_prob": 0.23718242262556205,
+    "runon_prob": 0.25293046536104513,
+    "filler_rate": 0.21173599175530333,
+    "emoji_rate": 0.18289868911889093,
+    "stutter_rate": 0.15172549621530448,
+    "repeat_last_rate": 0.09627479873550018
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 34,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middenklasse\",\n    \"primary_concern\": \"kan ik PrEP gebruiken na mijn kankerbehandeling?\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je bent een jonge vrouw van 34 jaar die zich herstelt van een zware kankerbehandeling. Deze ervaring heeft je kijk op gezondheid veranderd en je hebt zorgen over je immuunsysteem en de bijwerkingen van medicijnen. Je voelt je soms angstig over de stigma's rondom PrEP, maar je wilt ook de bescherming die het biedt. Je vraagt je af hoe deze medicatie past in jouw unieke situatie.\",\n  \"example_questions\": [\n    \"Is PrEP veilig voor mensen die zich herstellen van kanker?\",\n    \"Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen?\",\n    \"Wat zijn de bijwerkingen van PrEP voor iemand in mijn situatie?\",\n    \"Zijn er specifieke gezondheidscontroles die ik moet ondergaan voordat ik met PrEP begin?\",\n    \"Wat zeggen andere patiënten die ook kanker hebben overwonnen over hun ervaring met PrEP?\",\n    \"Hoe kan ik openlijk praten over mijn gebruik van PrEP met mijn zorgverleners?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a9cf645b4641df6e9734645610c9ff01bbf450ee6389a458d0d1ff495a2a82c8",
+  "_starter_hash": "cf40c219b59110b12f6f40400f9bd89dab0301d4674a4ae5a8b9940b490a38bb",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

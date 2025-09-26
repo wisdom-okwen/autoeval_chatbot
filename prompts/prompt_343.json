@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "español",
+    "age": 28,
+    "gender": "no binario",
+    "socio_economic_status": "bajo",
+    "primary_concern": "la dificultad de entender la información médica",
+    "language": "Spanish"
+  },
+  "context": "Eres una persona de 28 años que vive con un trastorno del desarrollo neurológico. A menudo, te sientes abrumado por la complejidad de la información sobre la salud. La ansiedad y el miedo a ser juzgado dificultan tu acceso a recursos como PrEP. Tienes el deseo de cuidarte, pero sientes que la incomprensión y el estigma pueden ser obstáculos.",
+  "example_questions_clean": [
+    "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades para entender la información médica?",
+    "¿Cómo puedo superar mis miedos sobre el estigma asociado a tomar PrEP?",
+    "¿Hay recursos disponibles específicamente para personas con trastornos del desarrollo neurológico que deseen usar PrEP?",
+    "¿Qué apoyo emocional puedo encontrar mientras navego por el proceso de obtener PrEP?",
+    "¿Existen grupos de apoyo donde pueda hablar con otros sobre sus experiencias con PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades para entender la información médica?",
+    "¿Cómo puedo superar mis miedos sobre el estigma asociado a tomar PrEP?",
+    "¿-¿hay recursos disponibles específicamente para personas con trastornos del desarrollo neurológico que desedn usar prep ‼️",
+    "¿Qué apoyo emocional puedo encontrar mientras navego por el proceso de obtener PrEP?",
+    "¿Existen grupos de apoyo d0nd3 pued4 hablar con 07r05 sobre sus experiencias con PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Existen grupos de apoyo donde pueda hablar con otros sobre sus experiencias con PrEP?",
+  "starter_noisy": "¿Existen grupos de apoyo d0nd3 pued4 hablar con 07r05 sobre sus experiencias con PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades para entender la información médica?",
+  "followup_noisy": "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades para entender la información médica?",
+  "style_profile": {
+    "typo_rate": 0.07512218010008057,
+    "swap_rate": 0.02221836496087266,
+    "drop_rate": 0.02076113651026868,
+    "dup_rate": 0.019596994847672612,
+    "leet_rate": 0.08240038993631003,
+    "start_lower_prob": 0.666024931435242,
+    "all_lower_prob": 0.2843136288708161,
+    "drop_punct_prob": 0.32198375989654415,
+    "double_space_prob": 0.28860747188200575,
+    "ellipsis_prob": 0.27942386039412104,
+    "runon_prob": 0.19664218153620894,
+    "filler_rate": 0.3935865502450226,
+    "emoji_rate": 0.33487907929928185,
+    "stutter_rate": 0.11345280620018197,
+    "repeat_last_rate": 0.15616493385865055
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"español\",\n    \"age\": 28,\n    \"gender\": \"no binario\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"la dificultad de entender la información médica\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una persona de 28 años que vive con un trastorno del desarrollo neurológico. A menudo, te sientes abrumado por la complejidad de la información sobre la salud. La ansiedad y el miedo a ser juzgado dificultan tu acceso a recursos como PrEP. Tienes el deseo de cuidarte, pero sientes que la incomprensión y el estigma pueden ser obstáculos.\",\n  \"example_questions\": [\n    \"¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades para entender la información médica?\",\n    \"¿Cómo puedo superar mis miedos sobre el estigma asociado a tomar PrEP?\",\n    \"¿Hay recursos disponibles específicamente para personas con trastornos del desarrollo neurológico que deseen usar PrEP?\",\n    \"¿Qué apoyo emocional puedo encontrar mientras navego por el proceso de obtener PrEP?\",\n    \"¿Existen grupos de apoyo donde pueda hablar con otros sobre sus experiencias con PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cafbb4e1d7b80d99c2cb9989f2f0dbc5236974a92f22f4af89f78181965802a1",
+  "_starter_hash": "20cc4567f504f7254c205efbb0dc0c54850ff0373e5073a2af488575d697b521",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

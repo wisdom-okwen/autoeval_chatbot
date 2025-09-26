@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and judgment when discussing PrEP",
+    "language": "English"
+  },
+  "context": "As someone struggling with social anxiety, the thought of discussing PrEP feels overwhelming. The fear of judgment from healthcare providers or peers makes it difficult to seek information and support. There's a strong desire to protect personal health, but the anxiety creates barriers to accessing PrEP effectively.",
+  "example_questions_clean": [
+    "How can I find a supportive healthcare provider who understands my anxiety about discussing PrEP?",
+    "What steps can I take to educate myself about PrEP without feeling judged?",
+    "Are there online resources where I can learn more about PrEP in a safe environment?",
+    "How do I manage my fears related to stigma while trying to access PrEP?",
+    "What should I expect during my first conversation with a doctor about PrEP?",
+    "Can you recommend strategies for overcoming anxiety when talking about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I find a supportive healthcare provider who understands my anxiety about discussing PrEP?",
+    "What steps can I take to educate myself about PrEP without feeling judged?",
+    "Are there online resources where I can learn more about PrEP in a safe environment?",
+    "How do I manage my fears related to stigma while trying to access PrEP?",
+    "what should i expect during my first conversation with a doctor about prep prep",
+    "c4n you refommend like strategies for ov3rc0ming nxiety when talking 4b0u7 PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What steps can I take to educate myself about PrEP without feeling judged?",
+  "starter_noisy": "What steps can I take to educate myself about PrEP without feeling judged?",
+  "followup_index": 0,
+  "followup_clean": "How can I find a supportive healthcare provider who understands my anxiety about discussing PrEP?",
+  "followup_noisy": "How can I find a supportive healthcare provider who understands my anxiety about discussing PrEP?",
+  "style_profile": {
+    "typo_rate": 0.052826561105046105,
+    "swap_rate": 0.022137666303377324,
+    "drop_rate": 0.02581486645356075,
+    "dup_rate": 0.015353114123542998,
+    "leet_rate": 0.11027565275029644,
+    "start_lower_prob": 0.7449415398275046,
+    "all_lower_prob": 0.31107372925331067,
+    "drop_punct_prob": 0.3661351168577983,
+    "double_space_prob": 0.3398709565158053,
+    "ellipsis_prob": 0.2343784599054382,
+    "runon_prob": 0.17991595927793053,
+    "filler_rate": 0.46153690478924025,
+    "emoji_rate": 0.2483053620352163,
+    "stutter_rate": 0.10602783218292208,
+    "repeat_last_rate": 0.12412864668964049
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment when discussing PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone struggling with social anxiety, the thought of discussing PrEP feels overwhelming. The fear of judgment from healthcare providers or peers makes it difficult to seek information and support. There's a strong desire to protect personal health, but the anxiety creates barriers to accessing PrEP effectively.\",\n  \"example_questions\": [\n    \"How can I find a supportive healthcare provider who understands my anxiety about discussing PrEP?\",\n    \"What steps can I take to educate myself about PrEP without feeling judged?\",\n    \"Are there online resources where I can learn more about PrEP in a safe environment?\",\n    \"How do I manage my fears related to stigma while trying to access PrEP?\",\n    \"What should I expect during my first conversation with a doctor about PrEP?\",\n    \"Can you recommend strategies for overcoming anxiety when talking about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4eb9ed3c44c3b2457dd3a6e99bf2d9a9ea24794688387a52135cf1e61a50ff3c",
+  "_starter_hash": "860532e5eb014229816035cc8eb3df6a8ae323ca19812648d7e1aeb393119410",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

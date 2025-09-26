@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 34,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'impact de ma sclérose en plaques sur l'efficacité du PrEP et les effets secondaires potentiels.",
+    "language": "French"
+  },
+  "context": "En vivant avec la sclérose en plaques, cette femme ressent une peur croissante liée à sa santé et aux nouveaux traitements. Elle s'inquiète des effets secondaires possibles du PrEP sur sa condition et des barrières d'accès aux soins qui pourraient se poser en raison de son état de santé. Son mental est partagé entre l'espoir d'une protection contre le VIH et la crainte que sa maladie complique sa prise de médicament.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires du PrEP pour quelqu'un qui vit avec la sclérose en plaques ?",
+    "Est-ce que ma condition pourrait influencer l'efficacité du PrEP ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin ?",
+    "Y a-t-il des programmes d'aide pour accéder au PrEP pour des personnes comme moi ?",
+    "Quels sont les témoignages de personnes ayant des problèmes de santé similaires utilisant le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "qules sont les effets secondaires du PrEP pour quelqu'un qui vig avec l4 sclérose en plaques",
+    "est-ce que ma condition pourraiy influencer l'efficacité uh dddy prep ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin ?",
+    "Y a-t-il des programmes d'aide pour accéder au PrEP pour des personnes comme moi ?",
+    "Quels sont les témoignages de personnes ayant des problèmes de santé similaires utilisant le PrEP ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quels sont les témoignages de personnes ayant des problèmes de santé similaires utilisant le PrEP ?",
+  "starter_noisy": "Quels sont les témoignages de personnes ayant des problèmes de santé similaires utilisant le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires du PrEP pour quelqu'un qui vit avec la sclérose en plaques ?",
+  "followup_noisy": "qules sont les effets secondaires du PrEP pour quelqu'un qui vig avec l4 sclérose en plaques",
+  "style_profile": {
+    "typo_rate": 0.051966529160115155,
+    "swap_rate": 0.05017260964045413,
+    "drop_rate": 0.03511508452969771,
+    "dup_rate": 0.015029355740996139,
+    "leet_rate": 0.07689470547046541,
+    "start_lower_prob": 0.6724116508963308,
+    "all_lower_prob": 0.18125421627811256,
+    "drop_punct_prob": 0.3929161394196652,
+    "double_space_prob": 0.18149396357839476,
+    "ellipsis_prob": 0.3120849551082231,
+    "runon_prob": 0.23819031355369782,
+    "filler_rate": 0.25599568323137284,
+    "emoji_rate": 0.30040983105354757,
+    "stutter_rate": 0.19928391014935082,
+    "repeat_last_rate": 0.14747023400774625
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 34,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'impact de ma sclérose en plaques sur l'efficacité du PrEP et les effets secondaires potentiels.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En vivant avec la sclérose en plaques, cette femme ressent une peur croissante liée à sa santé et aux nouveaux traitements. Elle s'inquiète des effets secondaires possibles du PrEP sur sa condition et des barrières d'accès aux soins qui pourraient se poser en raison de son état de santé. Son mental est partagé entre l'espoir d'une protection contre le VIH et la crainte que sa maladie complique sa prise de médicament.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires du PrEP pour quelqu'un qui vit avec la sclérose en plaques ?\",\n    \"Est-ce que ma condition pourrait influencer l'efficacité du PrEP ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec mon médecin ?\",\n    \"Y a-t-il des programmes d'aide pour accéder au PrEP pour des personnes comme moi ?\",\n    \"Quels sont les témoignages de personnes ayant des problèmes de santé similaires utilisant le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c9e800ecfbd826c55a3b2d3d5c4f1f7af06ff0765d12a2d2bdfcdf96cef9f35b",
+  "_starter_hash": "5853fcf5030c5cfbb9fb406402db1249463eb4aa5fb881fb8f63c966fdd3c8d8",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

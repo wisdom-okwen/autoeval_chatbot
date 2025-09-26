@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worries about how PrEP might interact with her ongoing recovery from cancer treatment",
+    "language": "Swahili"
+  },
+  "context": "An individual who is recovering from cancer treatment and is concerned about her health decisions, including the use of PrEP. She experiences fear and uncertainty about managing her health, feels vulnerable due to her medical history, and is apprehensive about stigma associated with using PrEP.",
+  "example_questions_clean": [
+    "Je, ni vigezo gani ninapaswa kuzingatia kabla ya kuanza kutumia PrEP?",
+    "Kuna hatari yoyote ambayo PrEP inaweza kuleta katika mchakato wangu wa kupona?",
+    "Ninaweza kupata taarifa gani kuhusu matumizi salama ya PrEP wakati wa matibabu yangu?",
+    "Je, kuna mashirika yoyote ya kusaidia watu kama mimi katika kupata PrEP?",
+    "Ni hatua gani za kuchukua ili kupunguza unyanyapaa nikiwa na matumizi ya PrEP?",
+    "Ninaweza kupata msaada wa hisia zangu kuhusu kutumia PrEP wapi?"
+  ],
+  "example_questions_noisy": [
+    "Je, ni vigezo gani ninapaswa kuzingatia kabla ya kuanza kutumia PrEP?",
+    "kuna hatari yoyote ambayo you know PrEP inaaaweza kuleta katika mchakato wangu wa kup0n4 🙄",
+    "Ninaweza kupata taarifa gani kuhusu matumizi salama ya PrEP wakati wa matibabu yangu?",
+    "je, kuna mashirika yoyote ya kusaidia watu kama mimi katika kupata PrEP?",
+    "Ni hatua gani za kuchukua ili kupunguza unyanyapaa nikiwa na matumizi ya PrEP?",
+    "Ninaweza kupata msaada wa hisia zangu kuhusu kutumia PrEP wapi?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ninaweza kupata taarifa gani kuhusu matumizi salama ya PrEP wakati wa matibabu yangu?",
+  "starter_noisy": "Ninaweza kupata taarifa gani kuhusu matumizi salama ya PrEP wakati wa matibabu yangu?",
+  "followup_index": 0,
+  "followup_clean": "Je, ni vigezo gani ninapaswa kuzingatia kabla ya kuanza kutumia PrEP?",
+  "followup_noisy": "Je, ni vigezo gani ninapaswa kuzingatia kabla ya kuanza kutumia PrEP?",
+  "style_profile": {
+    "typo_rate": 0.08060137384881044,
+    "swap_rate": 0.0437681831447721,
+    "drop_rate": 0.02105675884742985,
+    "dup_rate": 0.02351748912623919,
+    "leet_rate": 0.06965797937187035,
+    "start_lower_prob": 0.7899351340054903,
+    "all_lower_prob": 0.22746369983587417,
+    "drop_punct_prob": 0.5897739888884027,
+    "double_space_prob": 0.3272742137896869,
+    "ellipsis_prob": 0.1949774107162449,
+    "runon_prob": 0.15109357501876963,
+    "filler_rate": 0.49619595798204796,
+    "emoji_rate": 0.3358439114545674,
+    "stutter_rate": 0.11577092139961892,
+    "repeat_last_rate": 0.12312590489270872
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worries about how PrEP might interact with her ongoing recovery from cancer treatment\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"An individual who is recovering from cancer treatment and is concerned about her health decisions, including the use of PrEP. She experiences fear and uncertainty about managing her health, feels vulnerable due to her medical history, and is apprehensive about stigma associated with using PrEP.\",\n  \"example_questions\": [\n    \"Je, ni vigezo gani ninapaswa kuzingatia kabla ya kuanza kutumia PrEP?\",\n    \"Kuna hatari yoyote ambayo PrEP inaweza kuleta katika mchakato wangu wa kupona?\",\n    \"Ninaweza kupata taarifa gani kuhusu matumizi salama ya PrEP wakati wa matibabu yangu?\",\n    \"Je, kuna mashirika yoyote ya kusaidia watu kama mimi katika kupata PrEP?\",\n    \"Ni hatua gani za kuchukua ili kupunguza unyanyapaa nikiwa na matumizi ya PrEP?\",\n    \"Ninaweza kupata msaada wa hisia zangu kuhusu kutumia PrEP wapi?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "85bc504aa5361f1a0b2321504245ddce0125838f4fc87b80f718a42b082fdff4",
+  "_starter_hash": "018401be1e90c2d0e7025218024de99277957a3bbd3df6334cb07839baf2b689",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

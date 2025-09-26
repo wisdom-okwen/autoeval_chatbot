@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and potential side effects",
+    "language": "English"
+  },
+  "context": "The user is navigating their mental health while experiencing PTSD, which makes them anxious about starting new medications like PrEP. They worry about how others might perceive them if they disclose their health choices, and they have concerns about the side effects of the medication. This fear and anxiety can be barriers to accessing necessary information.",
+  "example_questions_clean": [
+    "What should I consider before starting PrEP given my mental health history?",
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "Are there support resources available for someone like me who is hesitant to start PrEP?",
+    "What are the common side effects of PrEP, and how can I manage them?",
+    "Is it possible to take PrEP while also addressing my PTSD with therapy?",
+    "What steps can I take to feel more comfortable discussing PrEP with my doctor?"
+  ],
+  "example_questions_noisy": [
+    "What should I consider before starting PrEP given my mental health history?",
+    "How c4n 1 find a healthcare pr0v1d3r who understands my concerns like baout stima? stima?",
+    "are there support r3sourc35 4v41l4bl3 for someone like me who is hesitant to start PrEP?",
+    "What are the common side effects of PrEP, and how can I manage them?",
+    "Is it possible to take PrEP while also addressing my PTSD with therapy?",
+    "what 5y3p5 van i take to fwel moe comfortable discussing prep with my doctor"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support resources available for someone like me who is hesitant to start PrEP?",
+  "starter_noisy": "are there support r3sourc35 4v41l4bl3 for someone like me who is hesitant to start PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What should I consider before starting PrEP given my mental health history?",
+  "followup_noisy": "What should I consider before starting PrEP given my mental health history?",
+  "style_profile": {
+    "typo_rate": 0.10158979511349814,
+    "swap_rate": 0.05002808927679869,
+    "drop_rate": 0.037586548383491916,
+    "dup_rate": 0.016963360619817385,
+    "leet_rate": 0.06906409149342031,
+    "start_lower_prob": 0.8494272485499076,
+    "all_lower_prob": 0.16945137234292737,
+    "drop_punct_prob": 0.3832568025360539,
+    "double_space_prob": 0.23914438002246785,
+    "ellipsis_prob": 0.3084499038784104,
+    "runon_prob": 0.29980055790817595,
+    "filler_rate": 0.37911147156617586,
+    "emoji_rate": 0.2789394473078347,
+    "stutter_rate": 0.1626535474404467,
+    "repeat_last_rate": 0.12436038483191153
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and potential side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating their mental health while experiencing PTSD, which makes them anxious about starting new medications like PrEP. They worry about how others might perceive them if they disclose their health choices, and they have concerns about the side effects of the medication. This fear and anxiety can be barriers to accessing necessary information.\",\n  \"example_questions\": [\n    \"What should I consider before starting PrEP given my mental health history?\",\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"Are there support resources available for someone like me who is hesitant to start PrEP?\",\n    \"What are the common side effects of PrEP, and how can I manage them?\",\n    \"Is it possible to take PrEP while also addressing my PTSD with therapy?\",\n    \"What steps can I take to feel more comfortable discussing PrEP with my doctor?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b6400bf141f16f464fe8c285306682d3c94439fadf16fadd9657b8ffab359ca6",
+  "_starter_hash": "9ac74d9b529b03b4df396ae8129fe8b2cf8df4556fbd74d175c983e8439595d0",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

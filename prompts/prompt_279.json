@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "précaire",
+    "primary_concern": "l'accès à PrEP tout en vivant dans un refuge",
+    "language": "French"
+  },
+  "context": "Vous vivez dans un refuge et vous êtes préoccupée par votre santé sexuelle. Vous ressentez une stigmatisation liée à votre situation et vous avez peur de demander des informations sur PrEP, craignant des jugements ou des obstacles supplémentaires. Vous espérez trouver des réponses pour mieux protéger votre santé tout en naviguant dans les défis de votre environnement actuel.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à PrEP dans un refuge?",
+    "Y a-t-il des ressources spécifiques pour les femmes vivant dans des conditions précaires?",
+    "Comment puis-je parler de mes besoins en matière de santé sexuelle sans être jugée?",
+    "Quels effets secondaires devrais-je surveiller avec PrEP?",
+    "Est-ce que je peux obtenir PrEP gratuitement si je suis sans abri?",
+    "Y a-t-il des groupes de soutien pour ceux qui prennent PrEP?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les étapes idk pour accéder à prep dan un refuge",
+    "Y a-t-il des ressources spécifiques pour les femmes vivant dans des conditions précaires?",
+    "Comment puis-je parler de mes besoins en matière de santé sexuelle sans être jugée?",
+    "quels effets secondaires devrais-je surveiller 4v3c uh prep 😕",
+    "est-ce que je uh peux obtenir PrEP gratuitement si je suis sans abri?",
+    "y a-t-il de5 groupes d3 soutien pour ceux qui prennent um PrEP"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Comment puis-je parler de mes besoins en matière de santé sexuelle sans être jugée?",
+  "starter_noisy": "Comment puis-je parler de mes besoins en matière de santé sexuelle sans être jugée?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder à PrEP dans un refuge?",
+  "followup_noisy": "quelles sont les étapes idk pour accéder à prep dan un refuge",
+  "style_profile": {
+    "typo_rate": 0.10093046338794764,
+    "swap_rate": 0.059277968461080355,
+    "drop_rate": 0.033943252640661635,
+    "dup_rate": 0.01088374168781592,
+    "leet_rate": 0.10300426667898309,
+    "start_lower_prob": 0.7194011621532671,
+    "all_lower_prob": 0.2824914753911457,
+    "drop_punct_prob": 0.41487930948751284,
+    "double_space_prob": 0.24710527387015072,
+    "ellipsis_prob": 0.1575395701060765,
+    "runon_prob": 0.2978332652290377,
+    "filler_rate": 0.3902824827987553,
+    "emoji_rate": 0.33085841396422855,
+    "stutter_rate": 0.13960291288358653,
+    "repeat_last_rate": 0.1366053275367248
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"précaire\",\n    \"primary_concern\": \"l'accès à PrEP tout en vivant dans un refuge\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez dans un refuge et vous êtes préoccupée par votre santé sexuelle. Vous ressentez une stigmatisation liée à votre situation et vous avez peur de demander des informations sur PrEP, craignant des jugements ou des obstacles supplémentaires. Vous espérez trouver des réponses pour mieux protéger votre santé tout en naviguant dans les défis de votre environnement actuel.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à PrEP dans un refuge?\",\n    \"Y a-t-il des ressources spécifiques pour les femmes vivant dans des conditions précaires?\",\n    \"Comment puis-je parler de mes besoins en matière de santé sexuelle sans être jugée?\",\n    \"Quels effets secondaires devrais-je surveiller avec PrEP?\",\n    \"Est-ce que je peux obtenir PrEP gratuitement si je suis sans abri?\",\n    \"Y a-t-il des groupes de soutien pour ceux qui prennent PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b3819f6753fae569bbf95adc5f4a31f5ccbb72393a70b3be3eef08efd45aa71e",
+  "_starter_hash": "1fa32e91784b8aec20cbf670ca7b6e45e95cc92040c7d63209d8ee6e93c00966",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

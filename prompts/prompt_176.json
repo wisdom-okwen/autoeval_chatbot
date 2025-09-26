@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "medication stigma and acceptance in social circles",
+    "language": "Portuguese"
+  },
+  "context": "Você está lidando com o estigma relacionado ao HIV e isso tem impactado sua confiança em acessar o PrEP. Você se sente apreensiva sobre como isso pode afetar sua imagem entre amigos e familiares, além de se preocupar com a possibilidade de discriminação ao procurar tratamento.",
+  "example_questions_clean": [
+    "Como posso lidar com o estigma social ao considerar o uso do PrEP?",
+    "Quais são as alternativas disponíveis para alguém que teme ser julgado ao buscar informações sobre PrEP?",
+    "O que eu preciso saber sobre a eficácia do PrEP para me sentir mais segura?",
+    "É possível encontrar apoio emocional durante o processo de acesso ao PrEP?",
+    "Quais recursos existem para pessoas que enfrentam discriminação ao buscar tratamento?"
+  ],
+  "example_questions_noisy": [
+    "como posso um p1d4r com o estigma 50c1al ao considerar o usl do PrEP?",
+    "quias são as 4l73rn471v45 disponíveis para alguémmm que teme ser julgado ao buscar informações aobre preo preo",
+    "O que eu preciso saber sobre a eficácia do PrEP para me sentir mais segura?",
+    "É possível encontrar apoio emocional durante o processo de acesso ao PrEP?",
+    "Quais recursos existem para pessoas que enfrentam discriminação ao buscar tratamento?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "O que eu preciso saber sobre a eficácia do PrEP para me sentir mais segura?",
+  "starter_noisy": "O que eu preciso saber sobre a eficácia do PrEP para me sentir mais segura?",
+  "followup_index": 0,
+  "followup_clean": "Como posso lidar com o estigma social ao considerar o uso do PrEP?",
+  "followup_noisy": "como posso um p1d4r com o estigma 50c1al ao considerar o usl do PrEP?",
+  "style_profile": {
+    "typo_rate": 0.09889057824885097,
+    "swap_rate": 0.038362898455621575,
+    "drop_rate": 0.04195882467176692,
+    "dup_rate": 0.010257690426687853,
+    "leet_rate": 0.068638577774735,
+    "start_lower_prob": 0.6657287762823713,
+    "all_lower_prob": 0.22317231947377822,
+    "drop_punct_prob": 0.5716128008057346,
+    "double_space_prob": 0.2787636507091733,
+    "ellipsis_prob": 0.3429241707482823,
+    "runon_prob": 0.1170369193067631,
+    "filler_rate": 0.48595196841411525,
+    "emoji_rate": 0.3429595982431456,
+    "stutter_rate": 0.10742264728287686,
+    "repeat_last_rate": 0.17640230064077184
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"medication stigma and acceptance in social circles\",\n    \"language\": \"Portuguese\"\n  },\n  \"context\": \"Você está lidando com o estigma relacionado ao HIV e isso tem impactado sua confiança em acessar o PrEP. Você se sente apreensiva sobre como isso pode afetar sua imagem entre amigos e familiares, além de se preocupar com a possibilidade de discriminação ao procurar tratamento.\",\n  \"example_questions\": [\n    \"Como posso lidar com o estigma social ao considerar o uso do PrEP?\",\n    \"Quais são as alternativas disponíveis para alguém que teme ser julgado ao buscar informações sobre PrEP?\",\n    \"O que eu preciso saber sobre a eficácia do PrEP para me sentir mais segura?\",\n    \"É possível encontrar apoio emocional durante o processo de acesso ao PrEP?\",\n    \"Quais recursos existem para pessoas que enfrentam discriminação ao buscar tratamento?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c132437029cfe3d3d930ff58ad7aec4a6a81f7f4d4083c1ffbf5596f39a1a1aa",
+  "_starter_hash": "ee84e972a28eefd183701f396293b38adecdd1d8b627591c7c35b2febc91b7f7",
+  "_language": "Portuguese",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

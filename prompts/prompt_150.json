@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Précarité",
+    "primary_concern": "Accès à des soins de santé fiables en vivant dans un abri",
+    "language": "French"
+  },
+  "context": "Cette personne vit dans un abri, ce qui complique l'accès aux soins de santé et crée des inquiétudes concernant la confidentialité et le soutien émotionnel lié à la prise de PrEP. Elle ressent une pression sociale et de la stigmatisation qui l'empêchent de poser des questions sur les options de prévention du VIH.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP quand on vit dans un abri ?",
+    "Est-ce que les services de santé offrent une aide pour les personnes dans ma situation ?",
+    "Comment puis-je parler de PrEP à un professionnel de santé sans me sentir jugée ?",
+    "Y a-t-il des ressources spécifiques pour les personnes sans domicile qui ont besoin d'informations sur PrEP ?",
+    "Quelles sont les effets secondaires possibles de PrEP et comment les gérer ?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont les étzpes pour obtehir prep qu4nd on vit dans un abri ?",
+    "Est-ce que les services de santé offrent une aide pour les personnes dans ma situation ?",
+    "Cmment puis-je parler de PrEP à un professionnel de sanét sans me sentir jugée ? ?",
+    "Y a-t-il des ressources spécifiques pour les personnes sans domicile qui ont besoin d'informations sur PrEP ?",
+    "quelles sont les effets secondaires possibles dw PrEP et comment uh les gérer ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quelles sont les effets secondaires possibles de PrEP et comment les gérer ?",
+  "starter_noisy": "quelles sont les effets secondaires possibles dw PrEP et comment uh les gérer ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir PrEP quand on vit dans un abri ?",
+  "followup_noisy": "quelles sont les étzpes pour obtehir prep qu4nd on vit dans un abri ?",
+  "style_profile": {
+    "typo_rate": 0.06344219240034843,
+    "swap_rate": 0.04124445646868438,
+    "drop_rate": 0.0438581837795637,
+    "dup_rate": 0.020682345726276898,
+    "leet_rate": 0.08850052306227776,
+    "start_lower_prob": 0.6469236727087717,
+    "all_lower_prob": 0.19583471524336749,
+    "drop_punct_prob": 0.590969655451139,
+    "double_space_prob": 0.30679349633200104,
+    "ellipsis_prob": 0.3436532174304736,
+    "runon_prob": 0.1518857522056854,
+    "filler_rate": 0.4782279609448478,
+    "emoji_rate": 0.25531171072970793,
+    "stutter_rate": 0.10684853556362733,
+    "repeat_last_rate": 0.10061992113851354
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Précarité\",\n    \"primary_concern\": \"Accès à des soins de santé fiables en vivant dans un abri\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne vit dans un abri, ce qui complique l'accès aux soins de santé et crée des inquiétudes concernant la confidentialité et le soutien émotionnel lié à la prise de PrEP. Elle ressent une pression sociale et de la stigmatisation qui l'empêchent de poser des questions sur les options de prévention du VIH.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP quand on vit dans un abri ?\",\n    \"Est-ce que les services de santé offrent une aide pour les personnes dans ma situation ?\",\n    \"Comment puis-je parler de PrEP à un professionnel de santé sans me sentir jugée ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes sans domicile qui ont besoin d'informations sur PrEP ?\",\n    \"Quelles sont les effets secondaires possibles de PrEP et comment les gérer ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ecfa4912cd745cf9ac2da7751939567783bc1996fccd232a7b2a5029ca652f6f",
+  "_starter_hash": "b5558ce7ec9ebd1305beae1d79b55704386a0ec83c8a58bb53246c5f8cb1afeb",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

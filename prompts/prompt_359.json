@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about stigma and acceptance from healthcare providers due to past substance use",
+    "language": "Swahili"
+  },
+  "context": "The user has a history of substance use and is concerned about the potential stigma they might face when seeking PrEP. They feel anxious about discussing their past with healthcare providers and worry it may affect their access to necessary care. Despite these fears, they are hopeful about protecting their health and preventing HIV.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi wataalamu wa afya watakavyonitazama kutokana na historia yangu ya matumizi ya dawa, je, hii inaweza kuathiri ufikiaji wangu wa PrEP?",
+    "Ni hatua gani ninapaswa kuchukua ili kuhakikisha kuwa ninapata PrEP bila hukumu?",
+    "Je, kuna njia za kupata msaada wa kiakili wakati wa kuzingatia PrEP?",
+    "Ninaweza kupata habari zaidi juu ya PrEP katika maeneo gani ya jamii yangu?",
+    "Ni muhimu kujadili historia yangu ya matumizi ya dawa wakati wa kutafuta PrEP?",
+    "Naweza kupata msaada gani kwa ajili ya kujifunza zaidi kuhusu matumizi ya PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kuhusu jinsi wataalamu wa afya watakavyonitazama kutokana na historia yangu ya matumizi ya dawa, je, hii inaweza kuathiri ufikiaji wangu wa PrEP?",
+    "ni hatua gani ninaaswa kuchukua ili kuhakikisha kuwa ninapata Pr3P bila hukumu",
+    "Je, kuna njia za kupata msaada wa kiakili wakati wa kuzingatia PrEP?",
+    "ninaweza kupata habari zaidi juu ya PrEP katika maeneo gani yz jamii angu ❓",
+    "ni muhimu kuj4d1lu historia yangu y4 matumizi ya d4w4 wakati wa utafuta orep",
+    "n4w3z4 kupata um msaada gani kwa ajili ya kujifunza zaikd kuhusu matumizi ya PrEP 😭"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Ni hatua gani ninapaswa kuchukua ili kuhakikisha kuwa ninapata PrEP bila hukumu?",
+  "starter_noisy": "ni hatua gani ninaaswa kuchukua ili kuhakikisha kuwa ninapata Pr3P bila hukumu",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi wataalamu wa afya watakavyonitazama kutokana na historia yangu ya matumizi ya dawa, je, hii inaweza kuathiri ufikiaji wangu wa PrEP?",
+  "followup_noisy": "Nina wasiwasi kuhusu jinsi wataalamu wa afya watakavyonitazama kutokana na historia yangu ya matumizi ya dawa, je, hii inaweza kuathiri ufikiaji wangu wa PrEP?",
+  "style_profile": {
+    "typo_rate": 0.1175279285585419,
+    "swap_rate": 0.03880548904365373,
+    "drop_rate": 0.040317687313460686,
+    "dup_rate": 0.016589253025660333,
+    "leet_rate": 0.08106229157303499,
+    "start_lower_prob": 0.8683564794348018,
+    "all_lower_prob": 0.2538779448561648,
+    "drop_punct_prob": 0.5770512587069281,
+    "double_space_prob": 0.3286673370793262,
+    "ellipsis_prob": 0.311537135633671,
+    "runon_prob": 0.17976036539172952,
+    "filler_rate": 0.4411815163598354,
+    "emoji_rate": 0.325021798615307,
+    "stutter_rate": 0.1366525331531535,
+    "repeat_last_rate": 0.11199088123513633
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about stigma and acceptance from healthcare providers due to past substance use\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has a history of substance use and is concerned about the potential stigma they might face when seeking PrEP. They feel anxious about discussing their past with healthcare providers and worry it may affect their access to necessary care. Despite these fears, they are hopeful about protecting their health and preventing HIV.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi wataalamu wa afya watakavyonitazama kutokana na historia yangu ya matumizi ya dawa, je, hii inaweza kuathiri ufikiaji wangu wa PrEP?\",\n    \"Ni hatua gani ninapaswa kuchukua ili kuhakikisha kuwa ninapata PrEP bila hukumu?\",\n    \"Je, kuna njia za kupata msaada wa kiakili wakati wa kuzingatia PrEP?\",\n    \"Ninaweza kupata habari zaidi juu ya PrEP katika maeneo gani ya jamii yangu?\",\n    \"Ni muhimu kujadili historia yangu ya matumizi ya dawa wakati wa kutafuta PrEP?\",\n    \"Naweza kupata msaada gani kwa ajili ya kujifunza zaidi kuhusu matumizi ya PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fc13396b37d1549445e407971077461e7abac3a09f5c75776b0fa6108bd9db06",
+  "_starter_hash": "f4bc8b6686acc6e3a8c8089f39ebb36bd9a05ab60b10641c0d01b5273090d0ab",
+  "_language": "Swahili",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

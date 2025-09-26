@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are navigating a challenging relationship where intimate partner violence is present. This has made it difficult for you to seek out healthcare, including PrEP, due to fear of your partner's reactions and potential stigma from medical professionals. You're feeling anxious about how to prioritize your health while managing these external pressures.",
+  "example_questions_clean": [
+    "What are the steps I should take to access PrEP safely given my situation?",
+    "How can I find a healthcare provider who understands the complexities of my experience?",
+    "Are there resources available for someone like me who is afraid to speak up?",
+    "What should I know about the effectiveness of PrEP in preventing HIV?",
+    "How can I ensure my confidentiality when seeking PrEP?",
+    "What support options are available for people experiencing intimate partner violence?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the steps k should 7ake to access PErP safely given my situation",
+    "How can I find a healthcare provider who understands the complexities of my experience?",
+    "Are there resources available for someone like me who is afraid to speak up?",
+    "What should I know about the effectiveness of PrEP in preventing HIV?",
+    "how can i ensuer my c0nfid3n714li7y wheb s33king prep? prep?",
+    "What support options are available for people experiencing intimate partner violence?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I should take to access PrEP safely given my situation?",
+  "starter_noisy": "w-what are the steps k should 7ake to access PErP safely given my situation",
+  "followup_index": 1,
+  "followup_clean": "How can I find a healthcare provider who understands the complexities of my experience?",
+  "followup_noisy": "How can I find a healthcare provider who understands the complexities of my experience?",
+  "style_profile": {
+    "typo_rate": 0.0981465001658883,
+    "swap_rate": 0.05235887627204967,
+    "drop_rate": 0.029475569012107416,
+    "dup_rate": 0.02053947155078506,
+    "leet_rate": 0.11930489657532115,
+    "start_lower_prob": 0.7759861787085788,
+    "all_lower_prob": 0.24115425716793637,
+    "drop_punct_prob": 0.5103948761850376,
+    "double_space_prob": 0.19471409323317784,
+    "ellipsis_prob": 0.2649868708324259,
+    "runon_prob": 0.12070177096133004,
+    "filler_rate": 0.25021922263636814,
+    "emoji_rate": 0.32805061717713524,
+    "stutter_rate": 0.1943463382674211,
+    "repeat_last_rate": 0.12820474379749514
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating a challenging relationship where intimate partner violence is present. This has made it difficult for you to seek out healthcare, including PrEP, due to fear of your partner's reactions and potential stigma from medical professionals. You're feeling anxious about how to prioritize your health while managing these external pressures.\",\n  \"example_questions\": [\n    \"What are the steps I should take to access PrEP safely given my situation?\",\n    \"How can I find a healthcare provider who understands the complexities of my experience?\",\n    \"Are there resources available for someone like me who is afraid to speak up?\",\n    \"What should I know about the effectiveness of PrEP in preventing HIV?\",\n    \"How can I ensure my confidentiality when seeking PrEP?\",\n    \"What support options are available for people experiencing intimate partner violence?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aeca5f5b7762c852ff9242608e85470f4436ee3073f4f4615b93ac2dd8ab4451",
+  "_starter_hash": "e65d16dd53141edd8712b5ad5411d46ea14925396bf1585d6beea2f086aa67f5",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

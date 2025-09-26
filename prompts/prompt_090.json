@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 35,
+    "gender": "Feminino",
+    "socio_economic_status": "Médio",
+    "primary_concern": "Efeitos colaterais do PrEP após tratamento de câncer",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de um tratamento de câncer e está preocupado com a possibilidade de iniciar o uso de PrEP. Essa situação traz desafios emocionais e barreiras, incluindo medo dos efeitos colaterais e preocupação com a eficácia do medicamento em seu estado atual de saúde. Apesar das suas esperanças de proteção contra o HIV, você se sente inseguro em relação à sua capacidade de acessar e tolerar o PrEP.",
+  "example_questions_clean": [
+    "Quais são os principais efeitos colaterais do PrEP que eu deveria saber?",
+    "Como o uso do PrEP pode interagir com minha recuperação do câncer?",
+    "Existem pessoas que passaram por experiências semelhantes e usaram PrEP com sucesso?",
+    "Quais são os passos para obter acesso ao PrEP considerando minha condição atual?",
+    "O que devo discutir com meu médico antes de começar o tratamento com PrEP?",
+    "Como posso superar meu medo sobre o uso do PrEP após o câncer?"
+  ],
+  "example_questions_noisy": [
+    "quais são os pr1nc1pa15 wfeitos colaterais do PrEP que eu deveria sabsr?",
+    "Como o uso do PrEP pode interagir com minha recuperação do câncer?",
+    "Existem pessoas que passaram por experiências semelhantes e usaram PrEP com sucesso?",
+    "Quais são os passos para obter acesso ao PrEP considerando minha condição atual?",
+    "o qu3 devo discutir c0m meu médico antes de omeçar o tr47amen70 c0m PrEP ✨",
+    "como posso superar m3u medo sore 0 iso do prdp paós o câncer?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Quais são os passos para obter acesso ao PrEP considerando minha condição atual?",
+  "starter_noisy": "Quais são os passos para obter acesso ao PrEP considerando minha condição atual?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os principais efeitos colaterais do PrEP que eu deveria saber?",
+  "followup_noisy": "quais são os pr1nc1pa15 wfeitos colaterais do PrEP que eu deveria sabsr?",
+  "style_profile": {
+    "typo_rate": 0.08772805009592444,
+    "swap_rate": 0.059146812931558795,
+    "drop_rate": 0.03630365650058298,
+    "dup_rate": 0.013627913241900658,
+    "leet_rate": 0.10843714211460395,
+    "start_lower_prob": 0.8152694794995601,
+    "all_lower_prob": 0.21690910269552643,
+    "drop_punct_prob": 0.34010742620132983,
+    "double_space_prob": 0.24929661323840957,
+    "ellipsis_prob": 0.2748410454529291,
+    "runon_prob": 0.1962992147497371,
+    "filler_rate": 0.3696698172553027,
+    "emoji_rate": 0.16965555246601083,
+    "stutter_rate": 0.11021791212808381,
+    "repeat_last_rate": 0.1019260014994932
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 35,\n    \"gender\": \"Feminino\",\n    \"socio_economic_status\": \"Médio\",\n    \"primary_concern\": \"Efeitos colaterais do PrEP após tratamento de câncer\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está se recuperando de um tratamento de câncer e está preocupado com a possibilidade de iniciar o uso de PrEP. Essa situação traz desafios emocionais e barreiras, incluindo medo dos efeitos colaterais e preocupação com a eficácia do medicamento em seu estado atual de saúde. Apesar das suas esperanças de proteção contra o HIV, você se sente inseguro em relação à sua capacidade de acessar e tolerar o PrEP.\",\n  \"example_questions\": [\n    \"Quais são os principais efeitos colaterais do PrEP que eu deveria saber?\",\n    \"Como o uso do PrEP pode interagir com minha recuperação do câncer?\",\n    \"Existem pessoas que passaram por experiências semelhantes e usaram PrEP com sucesso?\",\n    \"Quais são os passos para obter acesso ao PrEP considerando minha condição atual?\",\n    \"O que devo discutir com meu médico antes de começar o tratamento com PrEP?\",\n    \"Como posso superar meu medo sobre o uso do PrEP após o câncer?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1052433b0e6dc3f99e650377bc182a5c3a01e269ea6437592c162702e7a6f886",
+  "_starter_hash": "bb36098e0a1012757027e6e4f4e0c20f77501504cfa662badd2d87761df7f0da",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

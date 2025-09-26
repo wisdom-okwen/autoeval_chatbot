@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 30,
+    "gender": "vrouw",
+    "socio_economic_status": "modaal",
+    "primary_concern": "angst voor stigma en bijwerkingen",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart depressieve symptomen die je gevoel van eigenwaarde en motivatie beïnvloeden. Hierdoor voel je je soms overweldigd door de gedachten over PrEP, ondanks dat je wilt zorgen voor je gezondheid. De angst om over stigma te praten en zorgen over mogelijke bijwerkingen maken het moeilijk om deze stap te zetten.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik daarmee omgaan?",
+    "Hoe kan ik mijn angst voor stigma overwinnen als ik PrEP wil gebruiken?",
+    "Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?",
+    "Wat zijn de stappen om PrEP te krijgen in Nederland?",
+    "Kan ik PrEP gebruiken als ik me soms depressief voel?",
+    "Hoe vaak moet ik terugkomen voor controles als ik PrEP gebruik?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik daarmee omgaan?",
+    "h-hoe kan ik mijn angst voor stigma overwinnen als ik PrEP wil gebruiken? gebruiken?",
+    "z1jn er ondersteuningsgroepen voor mensen die PrEP overwwgen 💀",
+    "wat zijn de stappen om PrEP te krijgen in Nederland",
+    "kan ik PrEP egbruiken als ik meee som depressief voel?",
+    "hoe vaak moet ik terugkomen voor controles als ik PrEP gebriuk?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik mijn angst voor stigma overwinnen als ik PrEP wil gebruiken?",
+  "starter_noisy": "h-hoe kan ik mijn angst voor stigma overwinnen als ik PrEP wil gebruiken? gebruiken?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik daarmee omgaan?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik daarmee omgaan?",
+  "style_profile": {
+    "typo_rate": 0.08041588615690513,
+    "swap_rate": 0.04356062203070819,
+    "drop_rate": 0.036753914568521416,
+    "dup_rate": 0.02720424814547031,
+    "leet_rate": 0.11788333994294013,
+    "start_lower_prob": 0.8686338648129805,
+    "all_lower_prob": 0.20608138860221972,
+    "drop_punct_prob": 0.3948468959188092,
+    "double_space_prob": 0.2482196027902085,
+    "ellipsis_prob": 0.28925263059306583,
+    "runon_prob": 0.2875384560035036,
+    "filler_rate": 0.2851283880614738,
+    "emoji_rate": 0.15087524155952264,
+    "stutter_rate": 0.16882052813597287,
+    "repeat_last_rate": 0.1682404397495735
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 30,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"modaal\",\n    \"primary_concern\": \"angst voor stigma en bijwerkingen\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart depressieve symptomen die je gevoel van eigenwaarde en motivatie beïnvloeden. Hierdoor voel je je soms overweldigd door de gedachten over PrEP, ondanks dat je wilt zorgen voor je gezondheid. De angst om over stigma te praten en zorgen over mogelijke bijwerkingen maken het moeilijk om deze stap te zetten.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik daarmee omgaan?\",\n    \"Hoe kan ik mijn angst voor stigma overwinnen als ik PrEP wil gebruiken?\",\n    \"Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?\",\n    \"Wat zijn de stappen om PrEP te krijgen in Nederland?\",\n    \"Kan ik PrEP gebruiken als ik me soms depressief voel?\",\n    \"Hoe vaak moet ik terugkomen voor controles als ik PrEP gebruik?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "99d1d11c7c67e3e66d4ddb6c6789489536cdbb05a1906e1ee13229e467040a6d",
+  "_starter_hash": "09db0238b9045cade6aa6a185312519b430529f1a6b9e9e359880fa174fa6e1c",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "femenino",
+    "socio_economic_status": "bajo",
+    "primary_concern": "el estigma y el miedo al rechazo social",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que vive con un trastorno de ansiedad. Te preocupa cómo el iniciar PrEP podría afectar tu salud mental. Te sientes abrumada por el miedo al juicio de los demás y por la posibilidad de no poder manejar la atención que podría conllevar.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi ansiedad?",
+    "¿Cómo puedo manejar el estigma social al considerar el uso de PrEP?",
+    "¿Existen recursos de apoyo para personas con ansiedad que toman PrEP?",
+    "¿Es posible hablar con un médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Qué pasos debo seguir para acceder a PrEP de manera segura y confidencial?",
+    "¿Cuánto tiempo se necesita para ver los beneficios de PrEP en mi salud?"
+  ],
+  "example_questions_noisy": [
+    "¿cuál35 son los efectos secundarios de prep que podrían afectar mi ansiedad?",
+    "¿Cómo puedo manejar el estigma social al considerar el uso de PrEP?",
+    "¿Existen recursos de apoyo para personas con ansiedad que toman PrEP?",
+    "¿Es posible hablar con un médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿qué paso debo seguir para acceder a pr3p d3 manera segura you know y confidencial confidencial",
+    "¿Cuánto tiempo se necesita para ver los beneficios de PrEP en mi salud?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Cómo puedo manejar el estigma social al considerar el uso de PrEP?",
+  "starter_noisy": "¿Cómo puedo manejar el estigma social al considerar el uso de PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi ansiedad?",
+  "followup_noisy": "¿cuál35 son los efectos secundarios de prep que podrían afectar mi ansiedad?",
+  "style_profile": {
+    "typo_rate": 0.0667034136776393,
+    "swap_rate": 0.03310195547914954,
+    "drop_rate": 0.031347983128903946,
+    "dup_rate": 0.02591072106942062,
+    "leet_rate": 0.11474793769553926,
+    "start_lower_prob": 0.667691166042826,
+    "all_lower_prob": 0.3149601373447647,
+    "drop_punct_prob": 0.3406147192736819,
+    "double_space_prob": 0.25417463227328063,
+    "ellipsis_prob": 0.17152306241837917,
+    "runon_prob": 0.2707655955844115,
+    "filler_rate": 0.27550718707501226,
+    "emoji_rate": 0.2359946571308555,
+    "stutter_rate": 0.1920479542303104,
+    "repeat_last_rate": 0.14334949254202545
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"el estigma y el miedo al rechazo social\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer joven que vive con un trastorno de ansiedad. Te preocupa cómo el iniciar PrEP podría afectar tu salud mental. Te sientes abrumada por el miedo al juicio de los demás y por la posibilidad de no poder manejar la atención que podría conllevar.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi ansiedad?\",\n    \"¿Cómo puedo manejar el estigma social al considerar el uso de PrEP?\",\n    \"¿Existen recursos de apoyo para personas con ansiedad que toman PrEP?\",\n    \"¿Es posible hablar con un médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP de manera segura y confidencial?\",\n    \"¿Cuánto tiempo se necesita para ver los beneficios de PrEP en mi salud?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ecd0bb74db10291acc2e2ba5e503f9916cd19e714a0bdb76a841370f27f458ea",
+  "_starter_hash": "927e8575d544f7dcd956545a58f53468adf6d3a7c84456e624865f502ed26c6d",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

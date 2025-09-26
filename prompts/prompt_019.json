@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'accès à PrEP en raison de l'anxiété sociale",
+    "language": "French"
+  },
+  "context": "Cette personne ressent une anxiété sociale intense qui rend difficile l'engagement dans des conversations avec des professionnels de la santé. Elle craint le jugement et s'inquiète de la stigmatisation liée à la prise de PrEP. Son état émotionnel fluctue entre l'espoir d'une protection et la peur d'être mal comprise ou rejetée.",
+  "example_questions_clean": [
+    "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir trop nerveuse ?",
+    "Y a-t-il des ressources en ligne où je peux en apprendre davantage sur PrEP sans avoir à parler à quelqu'un en personne ?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître ?",
+    "Est-ce que tout le monde peut accéder à PrEP, même s'ils ont des problèmes d'anxiété sociale ?",
+    "Comment puis-je me sentir plus en confiance pour demander des informations sur PrEP dans une pharmacie ?"
+  ],
+  "example_questions_noisy": [
+    "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir trop nerveuse ?",
+    "y a-t-il des ressources en ligne où j3 peud en 4pprendr3 davantage sur PrEP sans avoir à p4rl3r à quelqu'un dn personne personne",
+    "quels sont les uh effets 53c0nd41re5 poasibles de PrEP que je devrais connaaaître connaaaître",
+    "Est-ce que tout le monde peut accéder à PrEP, même s'ils ont des problèmes d'anxiété sociale ?",
+    "c0mm37n puis-je me sentir plus en c0nf14nce pour demander des informations sur PrEP dans une pharmacie ?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir trop nerveuse ?",
+  "starter_noisy": "Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir trop nerveuse ?",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des ressources en ligne où je peux en apprendre davantage sur PrEP sans avoir à parler à quelqu'un en personne ?",
+  "followup_noisy": "y a-t-il des ressources en ligne où j3 peud en 4pprendr3 davantage sur PrEP sans avoir à p4rl3r à quelqu'un dn personne personne",
+  "style_profile": {
+    "typo_rate": 0.09921606554825477,
+    "swap_rate": 0.03630786539530079,
+    "drop_rate": 0.034098662617655574,
+    "dup_rate": 0.013648260900588146,
+    "leet_rate": 0.10538654333376049,
+    "start_lower_prob": 0.8582745164485037,
+    "all_lower_prob": 0.17934350751214498,
+    "drop_punct_prob": 0.5171974406670502,
+    "double_space_prob": 0.16932187870710325,
+    "ellipsis_prob": 0.2820869581258566,
+    "runon_prob": 0.2964053128756709,
+    "filler_rate": 0.238838010708685,
+    "emoji_rate": 0.2032050787750466,
+    "stutter_rate": 0.13072312040935213,
+    "repeat_last_rate": 0.16588721621611346
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'accès à PrEP en raison de l'anxiété sociale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne ressent une anxiété sociale intense qui rend difficile l'engagement dans des conversations avec des professionnels de la santé. Elle craint le jugement et s'inquiète de la stigmatisation liée à la prise de PrEP. Son état émotionnel fluctue entre l'espoir d'une protection et la peur d'être mal comprise ou rejetée.\",\n  \"example_questions\": [\n    \"Comment puis-je aborder le sujet de PrEP avec mon médecin sans me sentir trop nerveuse ?\",\n    \"Y a-t-il des ressources en ligne où je peux en apprendre davantage sur PrEP sans avoir à parler à quelqu'un en personne ?\",\n    \"Quels sont les effets secondaires possibles de PrEP que je devrais connaître ?\",\n    \"Est-ce que tout le monde peut accéder à PrEP, même s'ils ont des problèmes d'anxiété sociale ?\",\n    \"Comment puis-je me sentir plus en confiance pour demander des informations sur PrEP dans une pharmacie ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f65bfc09376d2411421781d26709b8bfdb3b0fdb61630fecc01bdac89e10cf07",
+  "_starter_hash": "4eb0f24eab66b5810493ecd07b1c1fd3ea7c4c209231f3e4891d81d2c3fc6f6c",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

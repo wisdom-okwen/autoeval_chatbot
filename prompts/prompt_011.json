@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "German",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "Wie kann ich PrEP sicher mit meiner MS in Einklang bringen?",
+    "language": "German"
+  },
+  "context": "Die Nutzerin lebt mit Multipler Sklerose und sorgt sich, wie sich die Einnahme von PrEP auf ihre Gesundheit und ihre bestehenden Symptome auswirken könnte. Sie hat Angst vor möglichen Wechselwirkungen und fragt sich, ob sie aufgrund ihrer Erkrankung Risiken eingeht. Gleichzeitig hofft sie, dass PrEP ihr helfen könnte, sich vor HIV zu schützen und ein erfüllteres Sexualleben zu führen. Die Stigmatisierung von HIV und chronischen Krankheiten verstärkt ihre Unsicherheit.",
+  "example_questions_clean": [
+    "Was sind die möglichen Nebenwirkungen von PrEP in Verbindung mit MS?",
+    "Könnte die Einnahme von PrEP meine bestehenden Symptome verschlimmern?",
+    "Wie kann ich mit meinem Arzt über PrEP sprechen?",
+    "Gibt es spezielle Empfehlungen für Menschen mit chronischen Erkrankungen?",
+    "Sind die Kosten für PrEP für mich als Person mit MS ein Problem?",
+    "Wie schütze ich mich emotional, während ich über HIV und PrEP nachdenke?"
+  ],
+  "example_questions_noisy": [
+    "Was sind die möglichen Nebenwirkungen von PrEP in Verbindung mit MS?",
+    "Könnte die Einnahme von PrEP meine bestehenden Symptome verschlimmern?",
+    "Wie kann ich mit meinem Arzt über PrEP sprechen?",
+    "gibt es um spezielle empfehlungen für menschen mit chronischen erkrankungen",
+    "siiind die idk K0573n für rPEP für mich als Person mit M5 ein Pr0bl3m? 🤔",
+    "Wie uh schütze ich mich emotinal während ich über HIV und Pr3P nachdenke? ✨"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Was sind die möglichen Nebenwirkungen von PrEP in Verbindung mit MS?",
+  "starter_noisy": "Was sind die möglichen Nebenwirkungen von PrEP in Verbindung mit MS?",
+  "followup_index": 1,
+  "followup_clean": "Könnte die Einnahme von PrEP meine bestehenden Symptome verschlimmern?",
+  "followup_noisy": "Könnte die Einnahme von PrEP meine bestehenden Symptome verschlimmern?",
+  "style_profile": {
+    "typo_rate": 0.07313067469893833,
+    "swap_rate": 0.024623235756954832,
+    "drop_rate": 0.025038124358041217,
+    "dup_rate": 0.02793456657756202,
+    "leet_rate": 0.0813339872682806,
+    "start_lower_prob": 0.6356433158155973,
+    "all_lower_prob": 0.15670048603995348,
+    "drop_punct_prob": 0.35578050597230604,
+    "double_space_prob": 0.2711600585342875,
+    "ellipsis_prob": 0.15685437838667077,
+    "runon_prob": 0.1387212063658071,
+    "filler_rate": 0.3211497283275538,
+    "emoji_rate": 0.34157079600547713,
+    "stutter_rate": 0.18968943786936449,
+    "repeat_last_rate": 0.15508997920760248
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"German\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"Wie kann ich PrEP sicher mit meiner MS in Einklang bringen?\",\n    \"language\": \"German\"\n  },\n  \"context\": \"Die Nutzerin lebt mit Multipler Sklerose und sorgt sich, wie sich die Einnahme von PrEP auf ihre Gesundheit und ihre bestehenden Symptome auswirken könnte. Sie hat Angst vor möglichen Wechselwirkungen und fragt sich, ob sie aufgrund ihrer Erkrankung Risiken eingeht. Gleichzeitig hofft sie, dass PrEP ihr helfen könnte, sich vor HIV zu schützen und ein erfüllteres Sexualleben zu führen. Die Stigmatisierung von HIV und chronischen Krankheiten verstärkt ihre Unsicherheit.\",\n  \"example_questions\": [\n    \"Was sind die möglichen Nebenwirkungen von PrEP in Verbindung mit MS?\",\n    \"Könnte die Einnahme von PrEP meine bestehenden Symptome verschlimmern?\",\n    \"Wie kann ich mit meinem Arzt über PrEP sprechen?\",\n    \"Gibt es spezielle Empfehlungen für Menschen mit chronischen Erkrankungen?\",\n    \"Sind die Kosten für PrEP für mich als Person mit MS ein Problem?\",\n    \"Wie schütze ich mich emotional, während ich über HIV und PrEP nachdenke?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8abf0e6d8b65e12e617e8cbc3d3f24b763917500703a837bb406b7a3b63a5e0d",
+  "_starter_hash": "f55aed6eba8a019414cc332511b964307f387fe1ce94c0a37fd964c98bb7bd75",
+  "_language": "German",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

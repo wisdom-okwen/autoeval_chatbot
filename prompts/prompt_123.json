@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 32,
+    "gender": "männlich",
+    "socio_economic_status": "gering",
+    "primary_concern": "Zugang zu PrEP und mögliche Stigmatisierung",
+    "language": "German"
+  },
+  "context": "Der Benutzer lebt in einer Notunterkunft und hat Schwierigkeiten, Zugang zu medizinischer Versorgung zu erhalten. Er fühlt sich oft stigmatisiert und hat Angst, dass seine Situation ihn daran hindert, die benötigte Unterstützung zu bekommen. Trotz dieser Herausforderungen hofft er, etwas über PrEP zu lernen, um sich besser vor HIV zu schützen.",
+  "example_questions_clean": [
+    "Wie kann ich PrEP bekommen, wenn ich keinen festen Wohnsitz habe?",
+    "Gibt es Programme, die mir helfen können, die Kosten für PrEP zu decken?",
+    "Was sind die häufigsten Nebenwirkungen von PrEP und wie wirken sie sich auf mich aus?",
+    "Wie gehe ich mit dem Gefühl der Scham um, wenn ich nach PrEP frage?",
+    "Kann ich PrEP diskret in einer Apotheke beziehen, um Stigmatisierung zu vermeiden?",
+    "Welche Unterstützungsangebote gibt es für Menschen in meiner Situation, die PrEP wollen?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich PrEP bekommen, wenn ich keinen festen Wohnsitz habe?",
+    "Gibt es Programme, die mir helfen können, die Kosten für PrEP zu decken?",
+    "Was sind die häufigsten Nebenwirkungen von PrEP und wie wirken sie sich auf mich aus?",
+    "Wie gehe ich mit dem Gefühl der Scham um, wenn ich nach PrEP frage?",
+    "kann ich PrEP idk diskret 1n einer Apotheke b3z13h3n, um Stigmatisierung zu vermeiden?",
+    "welche Unterstützungsangebote gibt es you know für M3n5chen in meiner Stiuation, die PrEP wollen?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Was sind die häufigsten Nebenwirkungen von PrEP und wie wirken sie sich auf mich aus?",
+  "starter_noisy": "Was sind die häufigsten Nebenwirkungen von PrEP und wie wirken sie sich auf mich aus?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich PrEP bekommen, wenn ich keinen festen Wohnsitz habe?",
+  "followup_noisy": "Wie kann ich PrEP bekommen, wenn ich keinen festen Wohnsitz habe?",
+  "style_profile": {
+    "typo_rate": 0.06375772084561407,
+    "swap_rate": 0.05778772940259928,
+    "drop_rate": 0.03295936564362448,
+    "dup_rate": 0.02787543172471025,
+    "leet_rate": 0.0983481678681474,
+    "start_lower_prob": 0.8579197638412932,
+    "all_lower_prob": 0.32836252015742967,
+    "drop_punct_prob": 0.38322718957192675,
+    "double_space_prob": 0.1569751743515506,
+    "ellipsis_prob": 0.1847466049810609,
+    "runon_prob": 0.24940241661146842,
+    "filler_rate": 0.4630830108608733,
+    "emoji_rate": 0.1639939594229511,
+    "stutter_rate": 0.196277451098642,
+    "repeat_last_rate": 0.15986290236903367
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 32,\n    \"gender\": \"männlich\",\n    \"socio_economic_status\": \"gering\",\n    \"primary_concern\": \"Zugang zu PrEP und mögliche Stigmatisierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Der Benutzer lebt in einer Notunterkunft und hat Schwierigkeiten, Zugang zu medizinischer Versorgung zu erhalten. Er fühlt sich oft stigmatisiert und hat Angst, dass seine Situation ihn daran hindert, die benötigte Unterstützung zu bekommen. Trotz dieser Herausforderungen hofft er, etwas über PrEP zu lernen, um sich besser vor HIV zu schützen.\",\n  \"example_questions\": [\n    \"Wie kann ich PrEP bekommen, wenn ich keinen festen Wohnsitz habe?\",\n    \"Gibt es Programme, die mir helfen können, die Kosten für PrEP zu decken?\",\n    \"Was sind die häufigsten Nebenwirkungen von PrEP und wie wirken sie sich auf mich aus?\",\n    \"Wie gehe ich mit dem Gefühl der Scham um, wenn ich nach PrEP frage?\",\n    \"Kann ich PrEP diskret in einer Apotheke beziehen, um Stigmatisierung zu vermeiden?\",\n    \"Welche Unterstützungsangebote gibt es für Menschen in meiner Situation, die PrEP wollen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ff2f02e2ef28b939d69138e424a5162756d0741ec5c97f19fd14fe170f0bb1b0",
+  "_starter_hash": "41ec8480bee6c40e72bbc66694b82c016af6cf30ee046dbce59086eab06ac51e",
+  "_language": "German",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from peers",
+    "language": "English"
+  },
+  "context": "The user has been struggling with self-esteem issues, which heighten their anxiety around accessing PrEP. They worry about how others will perceive them if they seek out this medication, feeling that it may confirm their fears of being judged for their sexual health choices. This adds an emotional burden, making the decision to prioritize their health more challenging.",
+  "example_questions_clean": [
+    "How can I find a supportive healthcare provider who understands my concerns about stigma?",
+    "What are some strategies for overcoming my fears when considering PrEP?",
+    "Can you tell me more about how PrEP works and who it is for?",
+    "What resources are available to help low-income individuals access PrEP?",
+    "Are there any support groups or communities I can connect with for encouragement?",
+    "What should I expect during the process of getting a prescription for PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I find a supportive healthcare provider who understands my concerns about stigma?",
+    "What are some strategies for overcoming my fears when considering PrEP?",
+    "um can you tell me m0r3 about h0w PrEP works 4nd who it is fo?r fo?r",
+    "What resources are available to help low-income individuals access PrEP?",
+    "Are there any support groups or communities I can connect with for encouragement?",
+    "what should 1 expect during the process of getting z prescription for PrEP? 😭"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I find a supportive healthcare provider who understands my concerns about stigma?",
+  "starter_noisy": "How can I find a supportive healthcare provider who understands my concerns about stigma?",
+  "followup_index": 1,
+  "followup_clean": "What are some strategies for overcoming my fears when considering PrEP?",
+  "followup_noisy": "What are some strategies for overcoming my fears when considering PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06159876127179351,
+    "swap_rate": 0.028235225442638352,
+    "drop_rate": 0.04284407306588865,
+    "dup_rate": 0.02563080208846616,
+    "leet_rate": 0.10253170969158498,
+    "start_lower_prob": 0.740155624110783,
+    "all_lower_prob": 0.24571996289780595,
+    "drop_punct_prob": 0.487259189094293,
+    "double_space_prob": 0.34934241123938314,
+    "ellipsis_prob": 0.19448090925857953,
+    "runon_prob": 0.17101276630942774,
+    "filler_rate": 0.39818549561731476,
+    "emoji_rate": 0.301296206836704,
+    "stutter_rate": 0.1835960806509026,
+    "repeat_last_rate": 0.1717637810656905
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been struggling with self-esteem issues, which heighten their anxiety around accessing PrEP. They worry about how others will perceive them if they seek out this medication, feeling that it may confirm their fears of being judged for their sexual health choices. This adds an emotional burden, making the decision to prioritize their health more challenging.\",\n  \"example_questions\": [\n    \"How can I find a supportive healthcare provider who understands my concerns about stigma?\",\n    \"What are some strategies for overcoming my fears when considering PrEP?\",\n    \"Can you tell me more about how PrEP works and who it is for?\",\n    \"What resources are available to help low-income individuals access PrEP?\",\n    \"Are there any support groups or communities I can connect with for encouragement?\",\n    \"What should I expect during the process of getting a prescription for PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5216558b16e36f68f50ceae91035845321be3b20d6f1056e7ae689d9896d23eb",
+  "_starter_hash": "125d6024115f827e296f5a370e2e94629cca5d4dd2d83e83f793786d708e4121",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

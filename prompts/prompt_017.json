@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "español",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "medio",
+    "primary_concern": "miedo a no comprender bien la información sobre PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una persona que tiene una discapacidad de aprendizaje y estás buscando información sobre PrEP. A menudo, esto te hace sentir inseguro y preocupado por no entender completamente lo que se dice, lo que puede generar miedo sobre su uso y efectividad. Además, la preocupación por el estigma social relacionado con el VIH puede hacer que te sientas aislado en tu búsqueda de información.",
+  "example_questions_clean": [
+    "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+    "He escuchado que hay personas que sienten miedo al empezar a tomar PrEP. ¿Es común tener estos sentimientos?",
+    "¿Cuáles son los posibles efectos secundarios de PrEP que debo tener en cuenta?",
+    "¿Hay lugares donde pueda obtener ayuda para entender mejor la información sobre PrEP?",
+    "¿Cómo puedo abordar mis preocupaciones sobre el estigma si decido usar PrEP?",
+    "¿Existen recursos específicos para personas con discapacidades de aprendizaje que deseen informarse sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+    "He escuchado que hay personas que sienten miedo al empezar a tomar PrEP. ¿Es común tener estos sentimientos?",
+    "¿Cuáles son los posibles efectos secundarios de PrEP que debo tener en cuenta?",
+    "¿Hay lugares donde pueda obtener ayuda para entender mejor la información sobre PrEP?",
+    "¿cómo pu3d0 abordar mis preocupaciones sobre el estigma si decido usar prep?",
+    "¿Existen recursos específicos para personas con discapacidades de aprendizaje que deseen informarse sobre PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Existen recursos específicos para personas con discapacidades de aprendizaje que deseen informarse sobre PrEP?",
+  "starter_noisy": "¿Existen recursos específicos para personas con discapacidades de aprendizaje que deseen informarse sobre PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+  "followup_noisy": "¿Qué es exactamente PrEP y cómo funciona en el cuerpo?",
+  "style_profile": {
+    "typo_rate": 0.08458122607932486,
+    "swap_rate": 0.03779408331952015,
+    "drop_rate": 0.036973014398500356,
+    "dup_rate": 0.019215797973889802,
+    "leet_rate": 0.07465959022341287,
+    "start_lower_prob": 0.7844236861746978,
+    "all_lower_prob": 0.28364393188818726,
+    "drop_punct_prob": 0.5731803683123502,
+    "double_space_prob": 0.1522926975273926,
+    "ellipsis_prob": 0.23527737657560546,
+    "runon_prob": 0.16504281764567247,
+    "filler_rate": 0.35843191408378305,
+    "emoji_rate": 0.2986491795167201,
+    "stutter_rate": 0.1790592587015854,
+    "repeat_last_rate": 0.14794144478330934
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"español\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"miedo a no comprender bien la información sobre PrEP\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una persona que tiene una discapacidad de aprendizaje y estás buscando información sobre PrEP. A menudo, esto te hace sentir inseguro y preocupado por no entender completamente lo que se dice, lo que puede generar miedo sobre su uso y efectividad. Además, la preocupación por el estigma social relacionado con el VIH puede hacer que te sientas aislado en tu búsqueda de información.\",\n  \"example_questions\": [\n    \"¿Qué es exactamente PrEP y cómo funciona en el cuerpo?\",\n    \"He escuchado que hay personas que sienten miedo al empezar a tomar PrEP. ¿Es común tener estos sentimientos?\",\n    \"¿Cuáles son los posibles efectos secundarios de PrEP que debo tener en cuenta?\",\n    \"¿Hay lugares donde pueda obtener ayuda para entender mejor la información sobre PrEP?\",\n    \"¿Cómo puedo abordar mis preocupaciones sobre el estigma si decido usar PrEP?\",\n    \"¿Existen recursos específicos para personas con discapacidades de aprendizaje que deseen informarse sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "796310fc9c8b384ede1d96f60472e9570b48cd2882169652cba12c73a113d583",
+  "_starter_hash": "3af8c0e1aa1912eec6087191c22cb670df7edb244f7c38322a78ef93cc811c3b",
+  "_language": "Spanish",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

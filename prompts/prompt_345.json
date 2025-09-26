@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "miedo al estigma social asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que ha luchado con problemas de autoestima desde la adolescencia. Esto te hace dudar sobre tu valía y te causa ansiedad al considerar opciones como PrEP. Temes el juicio de los demás y cómo podría afectar tu vida social. A pesar de tu deseo de protegerte, el miedo a ser estigmatizada te impide buscar información y apoyo adecuado.",
+  "example_questions_clean": [
+    "¿Cómo puedo encontrar un médico que hable sobre PrEP sin sentirme juzgada?",
+    "Me preocupa que tomar PrEP me haga ver diferente ante los demás. ¿Es común sentir eso?",
+    "¿Cuál es el proceso para comenzar a usar PrEP en México?",
+    "¿Qué recursos hay disponibles para personas que se sienten solas al considerar PrEP?",
+    "¿Qué debo esperar en mis citas médicas al hablar sobre PrEP?",
+    "¿Existen grupos de apoyo que puedan ayudarme con mis miedos sobre el estigma?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo encontrar un médico que hable sobre PrEP sin sentirme juzgada?",
+    "Me preocupa que tomar PrEP me haga ver diferente ante los demás. ¿Es común sentir eso?",
+    "¿Cuál es el pfoceso para comenzar a usar PrEP en México",
+    "¿Qué recursos hay disponibles para personas que se sienten solas al considerar PrEP?",
+    "¿Qué debo esperar en mis c1745 méd1c45 al hablar sobre PrEP",
+    "¿-¿Existen grupos de 4p0y0 que puedan ayudarme con mis miedos sobre el estigma?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Me preocupa que tomar PrEP me haga ver diferente ante los demás. ¿Es común sentir eso?",
+  "starter_noisy": "Me preocupa que tomar PrEP me haga ver diferente ante los demás. ¿Es común sentir eso?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo encontrar un médico que hable sobre PrEP sin sentirme juzgada?",
+  "followup_noisy": "¿Cómo puedo encontrar un médico que hable sobre PrEP sin sentirme juzgada?",
+  "style_profile": {
+    "typo_rate": 0.05705133365554769,
+    "swap_rate": 0.02002015489039328,
+    "drop_rate": 0.02542347031133032,
+    "dup_rate": 0.015505876806831125,
+    "leet_rate": 0.11388024906731108,
+    "start_lower_prob": 0.8580091383731676,
+    "all_lower_prob": 0.18714395101511955,
+    "drop_punct_prob": 0.31691312105092445,
+    "double_space_prob": 0.26002447021539904,
+    "ellipsis_prob": 0.1612884950889147,
+    "runon_prob": 0.28646297454461,
+    "filler_rate": 0.2627901711083086,
+    "emoji_rate": 0.17718834387815197,
+    "stutter_rate": 0.14160103254386444,
+    "repeat_last_rate": 0.1785658407154515
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"miedo al estigma social asociado con el uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que ha luchado con problemas de autoestima desde la adolescencia. Esto te hace dudar sobre tu valía y te causa ansiedad al considerar opciones como PrEP. Temes el juicio de los demás y cómo podría afectar tu vida social. A pesar de tu deseo de protegerte, el miedo a ser estigmatizada te impide buscar información y apoyo adecuado.\",\n  \"example_questions\": [\n    \"¿Cómo puedo encontrar un médico que hable sobre PrEP sin sentirme juzgada?\",\n    \"Me preocupa que tomar PrEP me haga ver diferente ante los demás. ¿Es común sentir eso?\",\n    \"¿Cuál es el proceso para comenzar a usar PrEP en México?\",\n    \"¿Qué recursos hay disponibles para personas que se sienten solas al considerar PrEP?\",\n    \"¿Qué debo esperar en mis citas médicas al hablar sobre PrEP?\",\n    \"¿Existen grupos de apoyo que puedan ayudarme con mis miedos sobre el estigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fe37551e2c49c44a7b93b45e272ec671574deb592516c397b955ade49b608e01",
+  "_starter_hash": "ecdee2233c8a7c6d8c1569616c37293911e86c5139b3c2dfc4ce0c3fcecb5f3c",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

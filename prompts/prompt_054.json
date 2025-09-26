@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "médio",
+    "primary_concern": "preocupação com o estigma associado ao uso de PrEP e como isso pode afetar minha saúde mental",
+    "language": "Portuguese"
+  },
+  "context": "Você é uma jovem mulher que vive com um transtorno do desenvolvimento neurológico. Isso torna a comunicação e a compreensão de informações sobre saúde mais desafiadoras. Você teme o estigma social e está preocupada com como sua condição pode influenciar a percepção dos outros em relação ao uso do PrEP. O seu desejo é garantir sua saúde, mas você luta contra emoções de ansiedade e medo relacionadas à aceitação social.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona na prevenção do HIV?",
+    "Quais são os possíveis efeitos colaterais do PrEP e como eles podem impactar minha vida diária?",
+    "Como posso encontrar um médico que compreenda minha situação específica e me ajude com a PrEP?",
+    "É verdade que algumas pessoas enfrentam estigmas ao usar PrEP? Como lidar com isso?",
+    "Quais são os passos necessários para acessar o PrEP em clínicas públicas no Brasil?",
+    "Como posso conversar com familiares sobre minha decisão de usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "o que é PrEP e c0m0 ele i mean func10n4 n4 prevenção do HIVVV",
+    "Quais são os possíveis efeitos colaterais do PrEP e como eles podem impactar minha vida diária?",
+    "Como posso encontrar um médico que compreenda minha situação específica e me ajude com a PrEP?",
+    "É verdade que algumas pessoas enfrentam estigmas ao usar PrEP? Como lidar com isso?",
+    "quais são os passosss necessários para acessar o orEP em clínica públicas idk n0 Brasil 😬 😬",
+    "c-como posso conversar com familiares 50br3 minha decisão de i mean suar prep 😅"
+  ],
+  "starter_index": 0,
+  "starter_clean": "O que é PrEP e como ele funciona na prevenção do HIV?",
+  "starter_noisy": "o que é PrEP e c0m0 ele i mean func10n4 n4 prevenção do HIVVV",
+  "followup_index": 1,
+  "followup_clean": "Quais são os possíveis efeitos colaterais do PrEP e como eles podem impactar minha vida diária?",
+  "followup_noisy": "Quais são os possíveis efeitos colaterais do PrEP e como eles podem impactar minha vida diária?",
+  "style_profile": {
+    "typo_rate": 0.11232483925811204,
+    "swap_rate": 0.022161950037135458,
+    "drop_rate": 0.026157190950645254,
+    "dup_rate": 0.02606600015304792,
+    "leet_rate": 0.10973127732405816,
+    "start_lower_prob": 0.788049625431533,
+    "all_lower_prob": 0.3445184663637101,
+    "drop_punct_prob": 0.4868400110044482,
+    "double_space_prob": 0.26140575856837533,
+    "ellipsis_prob": 0.2890950728625975,
+    "runon_prob": 0.29255521192994893,
+    "filler_rate": 0.3199712356638023,
+    "emoji_rate": 0.29961406898818677,
+    "stutter_rate": 0.18179042655640507,
+    "repeat_last_rate": 0.09966327898470553
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"preocupação com o estigma associado ao uso de PrEP e como isso pode afetar minha saúde mental\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é uma jovem mulher que vive com um transtorno do desenvolvimento neurológico. Isso torna a comunicação e a compreensão de informações sobre saúde mais desafiadoras. Você teme o estigma social e está preocupada com como sua condição pode influenciar a percepção dos outros em relação ao uso do PrEP. O seu desejo é garantir sua saúde, mas você luta contra emoções de ansiedade e medo relacionadas à aceitação social.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona na prevenção do HIV?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP e como eles podem impactar minha vida diária?\",\n    \"Como posso encontrar um médico que compreenda minha situação específica e me ajude com a PrEP?\",\n    \"É verdade que algumas pessoas enfrentam estigmas ao usar PrEP? Como lidar com isso?\",\n    \"Quais são os passos necessários para acessar o PrEP em clínicas públicas no Brasil?\",\n    \"Como posso conversar com familiares sobre minha decisão de usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "324cb141a248fd2ed36cc6f482b42feae6ef320d6408a8b895392672faf52866",
+  "_starter_hash": "fe1a345fba8bcb940d5bd4a8a661a3f4bd8b0785d2ac246f578e07f44b217e06",
+  "_language": "Portuguese",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

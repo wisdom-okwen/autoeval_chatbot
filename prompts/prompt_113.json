@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 35,
+    "gender": "Homme",
+    "socio_economic_status": "Revenu faible",
+    "primary_concern": "La peur du jugement et de l'accès aux soins",
+    "language": "French"
+  },
+  "context": "Cet utilisateur a un historique de consommation de substances, ce qui affecte son état d'esprit et crée des barrières à l'accès au PrEP. Il ressent de la honte et craint le jugement des professionnels de santé, mais il espère protéger sa santé et celle de ses partenaires.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder au PrEP en tant que personne ayant un passé de dépendance?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent commencer le PrEP?",
+    "Comment puis-je discuter de mes inquiétudes concernant le PrEP avec mon médecin?",
+    "Le PrEP est-il accessible dans ma région, surtout pour quelqu'un avec un revenu faible?",
+    "Quels sont les effets secondaires possibles du PrEP que je devrais connaître?",
+    "Est-ce que je peux recevoir un soutien psychologique pendant le traitement par le PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour accéder au PrEP en tant que personne ayant un passé de dépendance?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent commencer le PrEP?",
+    "comment puis-je discuter de mes inquiétudes concerant le PrEP avec mon médecin",
+    "Le PrEP est-il accessible dans ma région, surtout pour quelqu'un avec un revenu faible?",
+    "Quels sont les effets secondaires possibles du PrEP que je devrais connaître?",
+    "Est-ce que je peux recevoir un soutien psychologique pendant le traitement par le PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Comment puis-je discuter de mes inquiétudes concernant le PrEP avec mon médecin?",
+  "starter_noisy": "comment puis-je discuter de mes inquiétudes concerant le PrEP avec mon médecin",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder au PrEP en tant que personne ayant un passé de dépendance?",
+  "followup_noisy": "Quelles sont les étapes pour accéder au PrEP en tant que personne ayant un passé de dépendance?",
+  "style_profile": {
+    "typo_rate": 0.11801753829224151,
+    "swap_rate": 0.03380279393702715,
+    "drop_rate": 0.035608777594355705,
+    "dup_rate": 0.018980486054821333,
+    "leet_rate": 0.07492862475740271,
+    "start_lower_prob": 0.8526580109958642,
+    "all_lower_prob": 0.23016947369650123,
+    "drop_punct_prob": 0.5667682571832802,
+    "double_space_prob": 0.25927045980271957,
+    "ellipsis_prob": 0.2563242122221266,
+    "runon_prob": 0.1295345404116844,
+    "filler_rate": 0.4528232610663247,
+    "emoji_rate": 0.30086513813086246,
+    "stutter_rate": 0.15769300722103544,
+    "repeat_last_rate": 0.13666892235744216
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 35,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Revenu faible\",\n    \"primary_concern\": \"La peur du jugement et de l'accès aux soins\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cet utilisateur a un historique de consommation de substances, ce qui affecte son état d'esprit et crée des barrières à l'accès au PrEP. Il ressent de la honte et craint le jugement des professionnels de santé, mais il espère protéger sa santé et celle de ses partenaires.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder au PrEP en tant que personne ayant un passé de dépendance?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent commencer le PrEP?\",\n    \"Comment puis-je discuter de mes inquiétudes concernant le PrEP avec mon médecin?\",\n    \"Le PrEP est-il accessible dans ma région, surtout pour quelqu'un avec un revenu faible?\",\n    \"Quels sont les effets secondaires possibles du PrEP que je devrais connaître?\",\n    \"Est-ce que je peux recevoir un soutien psychologique pendant le traitement par le PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b379d4c4719766f15e895ce65942cb4636346cc6cef8409e5b30e4514e7b3f49",
+  "_starter_hash": "e56eb3f2922364b7e80c5a3e7975e99f81fa22881bf702e0c7d81a7237f5a6fb",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

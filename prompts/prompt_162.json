@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about how my mental health affects my ability to stick to the PrEP regimen",
+    "language": "English"
+  },
+  "context": "A 32-year-old American woman living with schizophrenia is seeking information about PrEP. She is concerned that her mental health condition might impact her adherence to the medication and fears stigma from healthcare providers. Despite her worries, she hopes to manage her health effectively.",
+  "example_questions_clean": [
+    "How does mental health influence the effectiveness of PrEP?",
+    "What are the steps I should take if I want to start PrEP while managing schizophrenia?",
+    "Are there specific resources available for people with mental health challenges who want to access PrEP?",
+    "Can you explain what the potential side effects of PrEP might be for someone in my situation?",
+    "How can I discuss my concerns about PrEP with my healthcare provider without feeling judged?",
+    "What support systems exist to help me stay on track with PrEP despite my condition?"
+  ],
+  "example_questions_noisy": [
+    "How does mental health influence the effectiveness of PrEP?",
+    "What are the steps I should take if I want to start PrEP while managing schizophrenia?",
+    "Are there specific resources available for people with mental health challenges who want to access PrEP?",
+    "Can you explain what idk the potential sids effects of PrEP imght be for someone in my situation 💀",
+    "How can I discuss my concerns about PrEP with my healthcare provider without feeling jsuged?",
+    "What support systems exist to help me stay on track with PrEP despite my condition?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific resources available for people with mental health challenges who want to access PrEP?",
+  "starter_noisy": "Are there specific resources available for people with mental health challenges who want to access PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How does mental health influence the effectiveness of PrEP?",
+  "followup_noisy": "How does mental health influence the effectiveness of PrEP?",
+  "style_profile": {
+    "typo_rate": 0.07182412221825851,
+    "swap_rate": 0.056018560275006,
+    "drop_rate": 0.037043986308243716,
+    "dup_rate": 0.017237973425750116,
+    "leet_rate": 0.09915924623727684,
+    "start_lower_prob": 0.7253010867722274,
+    "all_lower_prob": 0.24519131011672618,
+    "drop_punct_prob": 0.5822221103315073,
+    "double_space_prob": 0.25114973702230514,
+    "ellipsis_prob": 0.15526001498787548,
+    "runon_prob": 0.21382991127657597,
+    "filler_rate": 0.42411306082859734,
+    "emoji_rate": 0.31148870830040704,
+    "stutter_rate": 0.15209037570354514,
+    "repeat_last_rate": 0.13569781763940533
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about how my mental health affects my ability to stick to the PrEP regimen\",\n    \"language\": \"English\"\n  },\n  \"context\": \"A 32-year-old American woman living with schizophrenia is seeking information about PrEP. She is concerned that her mental health condition might impact her adherence to the medication and fears stigma from healthcare providers. Despite her worries, she hopes to manage her health effectively.\",\n  \"example_questions\": [\n    \"How does mental health influence the effectiveness of PrEP?\",\n    \"What are the steps I should take if I want to start PrEP while managing schizophrenia?\",\n    \"Are there specific resources available for people with mental health challenges who want to access PrEP?\",\n    \"Can you explain what the potential side effects of PrEP might be for someone in my situation?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider without feeling judged?\",\n    \"What support systems exist to help me stay on track with PrEP despite my condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "56a7abc4cd9f2812b3e132ab3ab54962e5ff4b7d57064b8fb457c57a356226b5",
+  "_starter_hash": "b94b6a7dde8a1717a97b90b9d9973207f2b44ba0a11f1176c7a4d8a929607f92",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

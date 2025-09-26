@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Egyptian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "accessing PrEP while managing chronic pain and its impact on my daily life",
+    "language": "Arabic"
+  },
+  "context": "أنا أعيش مع ألم مزمن يؤثر على قدرتي على الذهاب إلى المواعيد الطبية والتعامل مع الأمور اليومية. أشعر بالقلق من كيفية تأثير حالتي الصحية على قدرتي على الحصول على PrEP، خاصة مع وجود وصمة العار المرتبطة بالفيروسات المنقولة جنسياً. أشعر أحياناً بالخوف من أن أكون ضعيفة في مواجهة التحديات الجديدة.",
+  "example_questions_clean": [
+    "ما هي خطوات الحصول على PrEP إذا كنت أعاني من ألم مزمن؟",
+    "كيف يمكن أن يؤثر الألم المزمن على فعالية PrEP بالنسبة لي؟",
+    "هل هناك موارد لدعم الأشخاص الذين يعانون من ظروف صحية مزمنة ويرغبون في استخدام PrEP؟",
+    "كيف يمكنني التحدث إلى طبيبي عن استخدام PrEP بسبب حالتي الصحية؟",
+    "هل هناك تأثيرات جانبية لـ PrEP يجب أن أكون على دراية بها؟"
+  ],
+  "example_questions_noisy": [
+    "ما هي خطوات الحححصول على PrEP إذا كنت أاني من ألم مزمن؟",
+    "ك-كيف يمكن أن يؤثر الألم المزمن على فعالية PfEP بالنسبة لي؟",
+    "هل هناك موارد لدعم الأشخاص الذين يعانون من ظروف صحية مزمنة ويرغبون في استخدام PrEP؟",
+    "كيف يمكنني التحدث إلى طبيبي عن استخدام PrEP بسبب حالتي الصحية؟ الصحية؟",
+    "هل هناك تأثيرات جانبية لـ PrEP يجب أن أكون على دراية بها؟"
+  ],
+  "starter_index": 3,
+  "starter_clean": "كيف يمكنني التحدث إلى طبيبي عن استخدام PrEP بسبب حالتي الصحية؟",
+  "starter_noisy": "كيف يمكنني التحدث إلى طبيبي عن استخدام PrEP بسبب حالتي الصحية؟ الصحية؟",
+  "followup_index": 0,
+  "followup_clean": "ما هي خطوات الحصول على PrEP إذا كنت أعاني من ألم مزمن؟",
+  "followup_noisy": "ما هي خطوات الحححصول على PrEP إذا كنت أاني من ألم مزمن؟",
+  "style_profile": {
+    "typo_rate": 0.06593903539858031,
+    "swap_rate": 0.023923770632670847,
+    "drop_rate": 0.04188310421434703,
+    "dup_rate": 0.02447402446353108,
+    "leet_rate": 0.07835648279307633,
+    "start_lower_prob": 0.7025659970166721,
+    "all_lower_prob": 0.19893717739934222,
+    "drop_punct_prob": 0.3700121667401475,
+    "double_space_prob": 0.22801075714546595,
+    "ellipsis_prob": 0.32903118090683336,
+    "runon_prob": 0.29306589424278917,
+    "filler_rate": 0.2575585247718478,
+    "emoji_rate": 0.16490685329946342,
+    "stutter_rate": 0.17828435127015163,
+    "repeat_last_rate": 0.13596764608483877
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Egyptian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"accessing PrEP while managing chronic pain and its impact on my daily life\",\n    \"language\": \"Arabic\"\n  },\n  \"context\": \"أنا أعيش مع ألم مزمن يؤثر على قدرتي على الذهاب إلى المواعيد الطبية والتعامل مع الأمور اليومية. أشعر بالقلق من كيفية تأثير حالتي الصحية على قدرتي على الحصول على PrEP، خاصة مع وجود وصمة العار المرتبطة بالفيروسات المنقولة جنسياً. أشعر أحياناً بالخوف من أن أكون ضعيفة في مواجهة التحديات الجديدة.\",\n  \"example_questions\": [\n    \"ما هي خطوات الحصول على PrEP إذا كنت أعاني من ألم مزمن؟\",\n    \"كيف يمكن أن يؤثر الألم المزمن على فعالية PrEP بالنسبة لي؟\",\n    \"هل هناك موارد لدعم الأشخاص الذين يعانون من ظروف صحية مزمنة ويرغبون في استخدام PrEP؟\",\n    \"كيف يمكنني التحدث إلى طبيبي عن استخدام PrEP بسبب حالتي الصحية؟\",\n    \"هل هناك تأثيرات جانبية لـ PrEP يجب أن أكون على دراية بها؟\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "785c1ce91fb5936353542251da3da51de5cd6d00cc6b790640c18af133d56c30",
+  "_starter_hash": "6c95c0c249ca78f4027cc12645b12626ddfb3863eca7d9442a26efe504e94b96",
+  "_language": "Arabic",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

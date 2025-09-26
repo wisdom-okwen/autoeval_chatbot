@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "baixa renda",
+    "primary_concern": "temor de que o parceiro possa descobrir e reagir de forma violenta",
+    "language": "Portuguese"
+  },
+  "context": "Você está em um relacionamento que se tornou tóxico e, diante de situações de violência, sente-se insegura para discutir questões de saúde sexual. O medo da reação do seu parceiro torna difícil acessar informações sobre PrEP, e você está buscando apoio e conhecimento para proteger sua saúde sem aumentar o risco de violência.",
+  "example_questions_clean": [
+    "Como posso obter informações sobre PrEP sem que meu parceiro saiba?",
+    "Quais são os primeiros passos para iniciar o uso do PrEP em uma situação como a minha?",
+    "A PrEP é eficaz mesmo que eu esteja enfrentando dificuldades emocionais devido à violência doméstica?",
+    "Existem recursos específicos para mulheres que estão em situações de violência íntima e querem saber mais sobre PrEP?",
+    "Como posso lidar com a ansiedade sobre meu relacionamento enquanto procuro acessar o PrEP?",
+    "Que apoio existe para me ajudar a entender meus direitos em relação à saúde e ao uso do PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Como posso obter informações sobre PrEP sem que meu parceiro saiba?",
+    "quais são os primeiros passos para iniciar o uso do PrEP em uma situação como a minha minha",
+    "A PrEP é eficaz mesmo que eu esteja enfrentando dificuldades emocionais devido à violência doméstica?",
+    "existem recursos específicos pada mulheres que estão em situações de v11iolênc14 um íntima e querem saber maiiis sobre prep?",
+    "como p05s0 ildar co, a ansiedaer sobre meu relacionamento enquanro procuro acessar o PrEP?",
+    "q-que apoio eixste para me jaudar a entender mesu direitos em r3l4çã0 à saúde e ao uso do PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Como posso lidar com a ansiedade sobre meu relacionamento enquanto procuro acessar o PrEP?",
+  "starter_noisy": "como p05s0 ildar co, a ansiedaer sobre meu relacionamento enquanro procuro acessar o PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Como posso obter informações sobre PrEP sem que meu parceiro saiba?",
+  "followup_noisy": "Como posso obter informações sobre PrEP sem que meu parceiro saiba?",
+  "style_profile": {
+    "typo_rate": 0.11319036736150712,
+    "swap_rate": 0.05418597893401503,
+    "drop_rate": 0.04607938478837238,
+    "dup_rate": 0.011278788401232101,
+    "leet_rate": 0.10537107589263012,
+    "start_lower_prob": 0.8376153404712906,
+    "all_lower_prob": 0.27999957335466913,
+    "drop_punct_prob": 0.3813248405138562,
+    "double_space_prob": 0.2905324552233417,
+    "ellipsis_prob": 0.3424524857303299,
+    "runon_prob": 0.15930683636481008,
+    "filler_rate": 0.36836823178172096,
+    "emoji_rate": 0.2234932742776545,
+    "stutter_rate": 0.10897283596416814,
+    "repeat_last_rate": 0.09342708723355155
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"baixa renda\",\n    \"primary_concern\": \"temor de que o parceiro possa descobrir e reagir de forma violenta\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está em um relacionamento que se tornou tóxico e, diante de situações de violência, sente-se insegura para discutir questões de saúde sexual. O medo da reação do seu parceiro torna difícil acessar informações sobre PrEP, e você está buscando apoio e conhecimento para proteger sua saúde sem aumentar o risco de violência.\",\n  \"example_questions\": [\n    \"Como posso obter informações sobre PrEP sem que meu parceiro saiba?\",\n    \"Quais são os primeiros passos para iniciar o uso do PrEP em uma situação como a minha?\",\n    \"A PrEP é eficaz mesmo que eu esteja enfrentando dificuldades emocionais devido à violência doméstica?\",\n    \"Existem recursos específicos para mulheres que estão em situações de violência íntima e querem saber mais sobre PrEP?\",\n    \"Como posso lidar com a ansiedade sobre meu relacionamento enquanto procuro acessar o PrEP?\",\n    \"Que apoio existe para me ajudar a entender meus direitos em relação à saúde e ao uso do PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "25bb7666cb4b95a6cd9f7a1295d4646248c60deb10fc1116b1925583919d760f",
+  "_starter_hash": "37465f520a29e5249f252fe1e0df95a3a0d56a225f7ec6d5ff1ccef96b602d59",
+  "_language": "Portuguese",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

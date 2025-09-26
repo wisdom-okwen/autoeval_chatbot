@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of side effects and stigma",
+    "language": "Spanish"
+  },
+  "context": "Esta persona está lidiando con la depresión, lo que afecta su motivación y confianza en sí misma. A veces, se siente abrumada y le preocupa cómo los efectos secundarios de PrEP podrían afectar su estado emocional. Además, teme ser juzgada por su decisión de tomar PrEP debido a su condición de salud mental.",
+  "example_questions_clean": [
+    "¿Cuáles son los posibles efectos secundarios de PrEP y cómo podrían afectar mi salud mental?",
+    "¿Es común que las personas con depresión consideren usar PrEP?",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?",
+    "¿Existen recursos específicos para personas que enfrentan desafíos de salud mental al considerar PrEP?",
+    "¿Qué pasos debo seguir para acceder a PrEP en mi situación actual?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los posibles efectos secundarios de PrEP y cómo podrían afectar mi salud mental?",
+    "¿Es común que las personas con depresión consideren usar PrEP?",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?",
+    "¿Existen recursos específicos para personas que enfrentan desafíos de salud mental al considerar PrEP?",
+    "¿Qué pasos debo seguir pzr4 acceder a PrEP en mi siuación 4c7u4l?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los posibles efectos secundarios de PrEP y cómo podrían afectar mi salud mental?",
+  "starter_noisy": "¿Cuáles son los posibles efectos secundarios de PrEP y cómo podrían afectar mi salud mental?",
+  "followup_index": 1,
+  "followup_clean": "¿Es común que las personas con depresión consideren usar PrEP?",
+  "followup_noisy": "¿Es común que las personas con depresión consideren usar PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0720332605505489,
+    "swap_rate": 0.04917154986924188,
+    "drop_rate": 0.046173814946514735,
+    "dup_rate": 0.029154018372332342,
+    "leet_rate": 0.09096429004777228,
+    "start_lower_prob": 0.8051064213325458,
+    "all_lower_prob": 0.2083160508352309,
+    "drop_punct_prob": 0.5855668366766926,
+    "double_space_prob": 0.17560327657774286,
+    "ellipsis_prob": 0.26896293271335225,
+    "runon_prob": 0.1106759389584575,
+    "filler_rate": 0.4806704274934058,
+    "emoji_rate": 0.22586495145254973,
+    "stutter_rate": 0.13956400114460052,
+    "repeat_last_rate": 0.10436206298861733
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of side effects and stigma\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta persona está lidiando con la depresión, lo que afecta su motivación y confianza en sí misma. A veces, se siente abrumada y le preocupa cómo los efectos secundarios de PrEP podrían afectar su estado emocional. Además, teme ser juzgada por su decisión de tomar PrEP debido a su condición de salud mental.\",\n  \"example_questions\": [\n    \"¿Cuáles son los posibles efectos secundarios de PrEP y cómo podrían afectar mi salud mental?\",\n    \"¿Es común que las personas con depresión consideren usar PrEP?\",\n    \"¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?\",\n    \"¿Existen recursos específicos para personas que enfrentan desafíos de salud mental al considerar PrEP?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP en mi situación actual?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "615839f5fb9584ee292e504c414d80425ed02b3e367b10a288c3fdc08794c341",
+  "_starter_hash": "a4b7d1dc55047bab825c5040b24cd480875f9494acc21b1424bf31bef409eeec",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

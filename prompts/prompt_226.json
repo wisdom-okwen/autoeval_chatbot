@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare resources",
+    "language": "English"
+  },
+  "context": "You are currently living in a shelter and navigating the challenges of limited access to healthcare. This situation makes you feel anxious about seeking medical assistance and how it might affect your health and safety. You are hopeful about PrEP but worried about affordability and stigma in your living environment.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get prescribed PrEP while living in a shelter?",
+    "Can you tell me if there are any local resources that provide PrEP for people with low income?",
+    "How does confidentiality work when getting PrEP in a public health setting?",
+    "I’m concerned about the reactions of others if they find out I am on PrEP; how can I manage this fear?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What should I do if I face barriers in accessing PrEP services?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps I need to take t0 get prescdibed PrEP while lving in a shelter?",
+    "can you tell me if there are any local resources that provide ptep fot people with low 1nv0m3",
+    "how dose confidentiality work wh3n getijg PrEP in a public health setting",
+    "i’m idk concerned about the reactions of others if they find out I am on PrEP how can I manage this fear",
+    "Are there support groups for people like me who are considering PrEP?",
+    "w-wat syould I co if I face barriers 1n idk accessing PrEP services? 🙂"
+  ],
+  "starter_index": 3,
+  "starter_clean": "I’m concerned about the reactions of others if they find out I am on PrEP; how can I manage this fear?",
+  "starter_noisy": "i’m idk concerned about the reactions of others if they find out I am on PrEP how can I manage this fear",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get prescribed PrEP while living in a shelter?",
+  "followup_noisy": "what are the steps I need to take t0 get prescdibed PrEP while lving in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.10425369259778633,
+    "swap_rate": 0.033915174998793624,
+    "drop_rate": 0.03375479841999819,
+    "dup_rate": 0.02123531201112841,
+    "leet_rate": 0.058817003519090555,
+    "start_lower_prob": 0.766480504444089,
+    "all_lower_prob": 0.21982622284677536,
+    "drop_punct_prob": 0.4280766474494204,
+    "double_space_prob": 0.2143980724195291,
+    "ellipsis_prob": 0.2555807385043799,
+    "runon_prob": 0.2856158023566724,
+    "filler_rate": 0.2501335799131219,
+    "emoji_rate": 0.19517354576026202,
+    "stutter_rate": 0.15597733855758666,
+    "repeat_last_rate": 0.09774020743210177
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare resources\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently living in a shelter and navigating the challenges of limited access to healthcare. This situation makes you feel anxious about seeking medical assistance and how it might affect your health and safety. You are hopeful about PrEP but worried about affordability and stigma in your living environment.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get prescribed PrEP while living in a shelter?\",\n    \"Can you tell me if there are any local resources that provide PrEP for people with low income?\",\n    \"How does confidentiality work when getting PrEP in a public health setting?\",\n    \"I’m concerned about the reactions of others if they find out I am on PrEP; how can I manage this fear?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"What should I do if I face barriers in accessing PrEP services?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cd3068a94a3a15b666003e18b76c580f1664421ff1756d8d0e6bfc5a5e447262",
+  "_starter_hash": "34205eb02cb029a8b659566a6ae1dff1b3fcfbdaa261e4e4b74608fe1d16db60",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

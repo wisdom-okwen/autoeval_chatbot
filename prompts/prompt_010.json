@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 35,
+    "gender": "Femme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "L'interaction entre la PrEP et les traitements pour la sclérose multiple.",
+    "language": "French"
+  },
+  "context": "Cette femme de 35 ans vit avec la sclérose multiple, ce qui lui cause des inquiétudes supplémentaires concernant l'accès à la PrEP. Elle se sent souvent stigmatisée par son état de santé et a peur que cela complique davantage sa situation, notamment en ce qui concerne les traitements pour sa maladie et la gestion de sa santé sexuelle. Elle espère trouver des réponses rassurantes sur la compatibilité de la PrEP avec ses besoins spécifiques.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles de la PrEP pour quelqu'un vivant avec la sclérose multiple ?",
+    "Comment puis-je accéder à la PrEP tout en suivant mon traitement actuel ?",
+    "Y a-t-il des médecins spécialisés qui comprennent mieux les interactions entre la PrEP et la sclérose multiple ?",
+    "Puis-je parler de mes préoccupations concernant la PrEP avec un professionnel de santé sans être jugée ?",
+    "La PrEP pourrait-elle avoir un impact sur ma qualité de vie en raison de ma condition ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les effet um sssecondaires possibles deee ka PrEP pour quelqu'un vivant avec la 5clér053 mmmult1pl3 ?",
+    "c0mm3n7 puis-je accéder à la prep tou ennn suivant mon 7r4173m3n7 actuel ?",
+    "y a-t-il fes médecins spécialisés qui comprennent mieux les interactions entre lq prep et la sclérose multiple",
+    "Puis-je parler de mes préoccupations concernant la PrEP avec un professionnel de santé sans être jugée ?",
+    "La PrEP pourrait-elle avoir un impact 5ur ma qualité de vie en raison de ma condition ?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Comment puis-je accéder à la PrEP tout en suivant mon traitement actuel ?",
+  "starter_noisy": "c0mm3n7 puis-je accéder à la prep tou ennn suivant mon 7r4173m3n7 actuel ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires possibles de la PrEP pour quelqu'un vivant avec la sclérose multiple ?",
+  "followup_noisy": "Quels sont les effet um sssecondaires possibles deee ka PrEP pour quelqu'un vivant avec la 5clér053 mmmult1pl3 ?",
+  "style_profile": {
+    "typo_rate": 0.07506912892412514,
+    "swap_rate": 0.040832474491499904,
+    "drop_rate": 0.04742223404250334,
+    "dup_rate": 0.013823440089970903,
+    "leet_rate": 0.07388785129989502,
+    "start_lower_prob": 0.6666760000333211,
+    "all_lower_prob": 0.29172473431591894,
+    "drop_punct_prob": 0.4593221466891982,
+    "double_space_prob": 0.3365478378740254,
+    "ellipsis_prob": 0.1544394707270477,
+    "runon_prob": 0.29725241162350724,
+    "filler_rate": 0.20049892565553093,
+    "emoji_rate": 0.21912861583531906,
+    "stutter_rate": 0.16587405444747852,
+    "repeat_last_rate": 0.1115416606146607
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 35,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"L'interaction entre la PrEP et les traitements pour la sclérose multiple.\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette femme de 35 ans vit avec la sclérose multiple, ce qui lui cause des inquiétudes supplémentaires concernant l'accès à la PrEP. Elle se sent souvent stigmatisée par son état de santé et a peur que cela complique davantage sa situation, notamment en ce qui concerne les traitements pour sa maladie et la gestion de sa santé sexuelle. Elle espère trouver des réponses rassurantes sur la compatibilité de la PrEP avec ses besoins spécifiques.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles de la PrEP pour quelqu'un vivant avec la sclérose multiple ?\",\n    \"Comment puis-je accéder à la PrEP tout en suivant mon traitement actuel ?\",\n    \"Y a-t-il des médecins spécialisés qui comprennent mieux les interactions entre la PrEP et la sclérose multiple ?\",\n    \"Puis-je parler de mes préoccupations concernant la PrEP avec un professionnel de santé sans être jugée ?\",\n    \"La PrEP pourrait-elle avoir un impact sur ma qualité de vie en raison de ma condition ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ac9fdbceb4157eb7e07f46dd2bddedd73ba0aaa4c7309fe61470b3e4ec9d4b43",
+  "_starter_hash": "b4fe1956b5a1a478b0ad15fc08c3b89677f20fb88f2c88a95234f2ebeabd19e6",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

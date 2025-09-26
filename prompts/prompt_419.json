@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "navigating the complexities of starting PrEP after undergoing cancer treatment",
+    "language": "Swahili"
+  },
+  "context": "The user is a 35-year-old Tanzanian woman who has recently completed her cancer treatment. While she feels hopeful about her health, she also grapples with anxiety about resuming her sexual health and the potential stigma associated with PrEP. Her experiences have made her cautious about seeking information, as she worries about judgment and the accessibility of resources for someone in her situation.",
+  "example_questions_clean": [
+    "Je, ni hatua gani za kwanza za kuchukua kabla ya kuanza kutumia PrEP?",
+    "Ninawezaje kujihakikisha kuwa nipo salama na PrEP wakati nikiendelea na ufuatiliaji wa afya yangu baada ya matibabu ya saratani?",
+    "Ni wapi naweza kupata usaidizi wa kiakili kuhusu matumizi ya PrEP?",
+    "Mtu anapohitaji PrEP, kuna vikwazo gani vya kifedha ambavyo naweza kukutana navyo?",
+    "Je, kuna nafasi ya kuhisi unyanyapaa ninapozungumzia PrEP na hali yangu?",
+    "Ninaweza kupata maelezo zaidi kuhusu PrEP kutoka kwa nani katika jamii yangu?"
+  ],
+  "example_questions_noisy": [
+    "Je, ni hatua gani za kwanza za kuchukua kabla ya kuanza kutumia PrEP?",
+    "Ninawezaje kujihakikisha kuwa nipo salama na PrEP wakkkati nikiendelea na uuatiliaji wa afya yangu baada ya matibabu ya saratani",
+    "Ni wapi naweza kupata usaidizi wa kiakili kuhusu matumizi ya like PrEP? 🤔",
+    "mtu napohitaji PrEP kuna viiikwazo gani vya kifedha ambavyo naweza kukutana navyo",
+    "j5 kuna nafasi ya kuhisi unyanyapaa ninapozunvumzia PrEP na hali yangu 😭",
+    "Ninaweza kupata maelezo zaidi kuhusu PrEP kutoka kwa nani katika jamii yangu?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Je, kuna nafasi ya kuhisi unyanyapaa ninapozungumzia PrEP na hali yangu?",
+  "starter_noisy": "j5 kuna nafasi ya kuhisi unyanyapaa ninapozunvumzia PrEP na hali yangu 😭",
+  "followup_index": 0,
+  "followup_clean": "Je, ni hatua gani za kwanza za kuchukua kabla ya kuanza kutumia PrEP?",
+  "followup_noisy": "Je, ni hatua gani za kwanza za kuchukua kabla ya kuanza kutumia PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06943483836068345,
+    "swap_rate": 0.05308508460217695,
+    "drop_rate": 0.04194320782265319,
+    "dup_rate": 0.02233306295545389,
+    "leet_rate": 0.06152229040803933,
+    "start_lower_prob": 0.6734588004587575,
+    "all_lower_prob": 0.21975724046768327,
+    "drop_punct_prob": 0.519162552423963,
+    "double_space_prob": 0.21120951020496603,
+    "ellipsis_prob": 0.25613190609796044,
+    "runon_prob": 0.2064299776265401,
+    "filler_rate": 0.30446147904409204,
+    "emoji_rate": 0.22427453826009677,
+    "stutter_rate": 0.18911774028036968,
+    "repeat_last_rate": 0.16951463020332763
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"navigating the complexities of starting PrEP after undergoing cancer treatment\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is a 35-year-old Tanzanian woman who has recently completed her cancer treatment. While she feels hopeful about her health, she also grapples with anxiety about resuming her sexual health and the potential stigma associated with PrEP. Her experiences have made her cautious about seeking information, as she worries about judgment and the accessibility of resources for someone in her situation.\",\n  \"example_questions\": [\n    \"Je, ni hatua gani za kwanza za kuchukua kabla ya kuanza kutumia PrEP?\",\n    \"Ninawezaje kujihakikisha kuwa nipo salama na PrEP wakati nikiendelea na ufuatiliaji wa afya yangu baada ya matibabu ya saratani?\",\n    \"Ni wapi naweza kupata usaidizi wa kiakili kuhusu matumizi ya PrEP?\",\n    \"Mtu anapohitaji PrEP, kuna vikwazo gani vya kifedha ambavyo naweza kukutana navyo?\",\n    \"Je, kuna nafasi ya kuhisi unyanyapaa ninapozungumzia PrEP na hali yangu?\",\n    \"Ninaweza kupata maelezo zaidi kuhusu PrEP kutoka kwa nani katika jamii yangu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "13a859014efda73aac86dda2ce46447518fe7ec6ce307dc174bdc8381b195028",
+  "_starter_hash": "69e6f929a3ba6f2f0f9a221aeee7a6fbdc7d74664959bc33d312092d66b4c422",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

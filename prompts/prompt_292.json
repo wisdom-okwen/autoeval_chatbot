@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might interact with my chronic pain management medications",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old American woman living with chronic pain, which has created a complex relationship with your healthcare. You often feel anxious about managing your conditions and worry that starting PrEP could complicate your existing medication regimen. The fear of potential side effects and stigma surrounding both your chronic pain and HIV prevention weighs heavily on your mind. You seek information to understand how PrEP could fit into your life without adding more challenges.",
+  "example_questions_clean": [
+    "What should I know about potential interactions between PrEP and my pain medications?",
+    "Are there support resources available specifically for individuals with chronic conditions who want to use PrEP?",
+    "How can I approach my healthcare provider about starting PrEP given my situation?",
+    "What are the common side effects of PrEP that I should be aware of?",
+    "Is it possible to access PrEP through patient assistance programs?",
+    "How can I find a doctor who understands the unique challenges I face?"
+  ],
+  "example_questions_noisy": [
+    "What should I know about potential interactions between PrEP and my pain medications?",
+    "a-are there support re50urc35 available specifically for individuals wth chronic conditions who want to use PrEP ‼️",
+    "How can I approach my healthcare provider about starting PrEP given my situation?",
+    "What are the common side effects of PrEP that I should be aware of?",
+    "Is it possible to access PrEP through patient assistance programs?",
+    "how can I find 4 doctttor who understands the uniqu ch4ll3ng35 I face?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I approach my healthcare provider about starting PrEP given my situation?",
+  "starter_noisy": "How can I approach my healthcare provider about starting PrEP given my situation?",
+  "followup_index": 0,
+  "followup_clean": "What should I know about potential interactions between PrEP and my pain medications?",
+  "followup_noisy": "What should I know about potential interactions between PrEP and my pain medications?",
+  "style_profile": {
+    "typo_rate": 0.05450250691972834,
+    "swap_rate": 0.020069266339518034,
+    "drop_rate": 0.020260523493116994,
+    "dup_rate": 0.014551093661145938,
+    "leet_rate": 0.11347735877306796,
+    "start_lower_prob": 0.7036440210445698,
+    "all_lower_prob": 0.21284818473218603,
+    "drop_punct_prob": 0.47610725538601656,
+    "double_space_prob": 0.20890798047092263,
+    "ellipsis_prob": 0.16977365635087904,
+    "runon_prob": 0.238974037890985,
+    "filler_rate": 0.20470294945200396,
+    "emoji_rate": 0.3180831178926614,
+    "stutter_rate": 0.10598815415857496,
+    "repeat_last_rate": 0.08787311959125474
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might interact with my chronic pain management medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old American woman living with chronic pain, which has created a complex relationship with your healthcare. You often feel anxious about managing your conditions and worry that starting PrEP could complicate your existing medication regimen. The fear of potential side effects and stigma surrounding both your chronic pain and HIV prevention weighs heavily on your mind. You seek information to understand how PrEP could fit into your life without adding more challenges.\",\n  \"example_questions\": [\n    \"What should I know about potential interactions between PrEP and my pain medications?\",\n    \"Are there support resources available specifically for individuals with chronic conditions who want to use PrEP?\",\n    \"How can I approach my healthcare provider about starting PrEP given my situation?\",\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"Is it possible to access PrEP through patient assistance programs?\",\n    \"How can I find a doctor who understands the unique challenges I face?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e84815888fccf343630ceee4dc1467a437c6a821963a1859b77d10f2eb705693",
+  "_starter_hash": "ef318a3fd9fcffc20cdb615bc8b35945a667c42f5f780ab38224c5f9b368a702",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 29,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "la peur de la stigmatisation sociale",
+    "language": "French"
+  },
+  "context": "Vous ressentez une certaine isolation sociale en raison de votre situation personnelle et vous êtes préoccupé par les perceptions des autres concernant l'utilisation du PrEP. Cela vous empêche d'accéder aux informations et aux ressources nécessaires, car vous craignez le jugement et l'incompréhension.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer le PrEP en France ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Est-ce que le PrEP a des effets secondaires dont je devrais m'inquiéter ?",
+    "Y a-t-il des ressources disponibles pour ceux qui se sentent isolés socialement ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin ?",
+    "Quelles sont les perceptions courantes autour du PrEP dans ma communauté ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles osnt lesss étapes pour commencer l3 PrEP en France ? ?",
+    "comment l3 PrEP peut-il m'aider à mw sentir plus 3n sécurité dans mes relations ?",
+    "Est-ce que le PrEP a des effets secondaires dont je devrais m'inquiéter ?",
+    "Y a-t-il des ressources disponibles pour ceux qui se sentent isolés socialement ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin",
+    "Quelles sont les perceptions courantes autour du PrEP dans ma communauté ?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+  "starter_noisy": "comment l3 PrEP peut-il m'aider à mw sentir plus 3n sécurité dans mes relations ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer le PrEP en France ?",
+  "followup_noisy": "q-quelles osnt lesss étapes pour commencer l3 PrEP en France ? ?",
+  "style_profile": {
+    "typo_rate": 0.10324220045505293,
+    "swap_rate": 0.02469130216426203,
+    "drop_rate": 0.045748160575012554,
+    "dup_rate": 0.025568875938771086,
+    "leet_rate": 0.0525337505107701,
+    "start_lower_prob": 0.6177054916730533,
+    "all_lower_prob": 0.26094562222773177,
+    "drop_punct_prob": 0.5330419354310907,
+    "double_space_prob": 0.16669192005094952,
+    "ellipsis_prob": 0.2170182002673106,
+    "runon_prob": 0.18326272001450256,
+    "filler_rate": 0.21390816319688094,
+    "emoji_rate": 0.2011139392195473,
+    "stutter_rate": 0.19048290840954213,
+    "repeat_last_rate": 0.17289499263586242
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 29,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"la peur de la stigmatisation sociale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous ressentez une certaine isolation sociale en raison de votre situation personnelle et vous êtes préoccupé par les perceptions des autres concernant l'utilisation du PrEP. Cela vous empêche d'accéder aux informations et aux ressources nécessaires, car vous craignez le jugement et l'incompréhension.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer le PrEP en France ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Est-ce que le PrEP a des effets secondaires dont je devrais m'inquiéter ?\",\n    \"Y a-t-il des ressources disponibles pour ceux qui se sentent isolés socialement ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec mon médecin ?\",\n    \"Quelles sont les perceptions courantes autour du PrEP dans ma communauté ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3840aca8e43b060d5a0758377f4aaf6f899fe87c43dee79f0aa50b46609425d1",
+  "_starter_hash": "669d19cf67dcfb5594e5ea05b3973d8e00f18477c8438093b57267bc59c6ce4b",
+  "_language": "French",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

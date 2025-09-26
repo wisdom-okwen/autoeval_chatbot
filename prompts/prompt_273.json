@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur de la stigmatisation liée à l'utilisation du PrEP",
+    "language": "French"
+  },
+  "context": "Cette femme de 28 ans vit avec la crainte constante de la stigmatisation liée à son statut de santé et cela affecte sa manière de penser et son accès au PrEP. Elle ressent une pression sociale intense qui l'empêche d'en parler ouvertement et de chercher des solutions pour sa santé.",
+  "example_questions_clean": [
+    "Est-ce que le PrEP peut vraiment me protéger si je vis avec cette peur constante de la stigmatisation ?",
+    "Quelles sont les étapes pour accéder au PrEP en France sans être jugée ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui se sentent stigmatisées par leur état de santé ?",
+    "Comment puis-je parler du PrEP à mon médecin sans craindre le jugement ?",
+    "Le PrEP est-il vraiment efficace pour quelqu'un qui se sent isolé à cause de son statut ?",
+    "Existe-t-il des groupes de soutien pour discuter du PrEP et de la stigmatisation en toute sécurité ?"
+  ],
+  "example_questions_noisy": [
+    "Est-ce qu3 le PrEP peut vraiment me protéger si je vis avec crtte peur constante d3 la stigmatisation ?",
+    "Quelles sont les étapes pour accéder au PrEP en France sans être jugée ?",
+    "y a-t-il dss ressources fisponibles pour les petsonnes qji se srntent stigmatisées par leur érat de eanté ? 😭",
+    "comment pui-je parler du PrEP à mon médecin 54n5 craindre le i mean jugement ? 😅",
+    "Le PrEP est-il vraiment efficace pour quelqu'un qui se sent isolé à cause de son statut ?",
+    "Existe-t-il de5 groupes de soutien pour discutdr du PrEP et de ls stigmatisation en toute sécurité ? 💀"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Est-ce que le PrEP peut vraiment me protéger si je vis avec cette peur constante de la stigmatisation ?",
+  "starter_noisy": "Est-ce qu3 le PrEP peut vraiment me protéger si je vis avec crtte peur constante d3 la stigmatisation ?",
+  "followup_index": 1,
+  "followup_clean": "Quelles sont les étapes pour accéder au PrEP en France sans être jugée ?",
+  "followup_noisy": "Quelles sont les étapes pour accéder au PrEP en France sans être jugée ?",
+  "style_profile": {
+    "typo_rate": 0.10491529422726098,
+    "swap_rate": 0.03478716224270688,
+    "drop_rate": 0.03698167851348695,
+    "dup_rate": 0.024990262826109333,
+    "leet_rate": 0.05969901398413491,
+    "start_lower_prob": 0.7135972675627774,
+    "all_lower_prob": 0.2185906564091641,
+    "drop_punct_prob": 0.322514793570796,
+    "double_space_prob": 0.253157233330364,
+    "ellipsis_prob": 0.18304991045653599,
+    "runon_prob": 0.23185246909025548,
+    "filler_rate": 0.4757078526859829,
+    "emoji_rate": 0.3295554764259935,
+    "stutter_rate": 0.12859978812103046,
+    "repeat_last_rate": 0.10857161720100748
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur de la stigmatisation liée à l'utilisation du PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette femme de 28 ans vit avec la crainte constante de la stigmatisation liée à son statut de santé et cela affecte sa manière de penser et son accès au PrEP. Elle ressent une pression sociale intense qui l'empêche d'en parler ouvertement et de chercher des solutions pour sa santé.\",\n  \"example_questions\": [\n    \"Est-ce que le PrEP peut vraiment me protéger si je vis avec cette peur constante de la stigmatisation ?\",\n    \"Quelles sont les étapes pour accéder au PrEP en France sans être jugée ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui se sentent stigmatisées par leur état de santé ?\",\n    \"Comment puis-je parler du PrEP à mon médecin sans craindre le jugement ?\",\n    \"Le PrEP est-il vraiment efficace pour quelqu'un qui se sent isolé à cause de son statut ?\",\n    \"Existe-t-il des groupes de soutien pour discuter du PrEP et de la stigmatisation en toute sécurité ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f08bce6a58f6773c2ca11ec254fd38f2df04fab22d3b86acd4fb749e1a59ae43",
+  "_starter_hash": "2fed6599bebb7849d93ecbb98e662eb821b324db9c9d3bdd0df60912136a52fd",
+  "_language": "French",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "overcoming social anxiety while accessing PrEP services",
+    "language": "English"
+  },
+  "context": "The user struggles with social anxiety, making it challenging to seek medical help or discuss personal health matters. She feels overwhelmed by the idea of visiting clinics and fears being judged by healthcare providers. This anxiety impacts her emotions, making her hesitant to take steps towards accessing PrEP, despite understanding its importance for her sexual health and safety. She hopes for a supportive and understanding conversation that could help her navigate these barriers.",
+  "example_questions_clean": [
+    "How can I find a healthcare provider who understands social anxiety when discussing PrEP?",
+    "What are some strategies to manage anxiety before going for my PrEP appointment?",
+    "Are there online resources or telehealth options available for accessing PrEP?",
+    "Can you explain how PrEP works and what the process involves?",
+    "What should I expect during my first visit regarding PrEP?",
+    "How can I talk to my partner about my decision to start PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can I f1nd a healthcare pr0vid3r who understands social anxitey wh3n discussing PrwP?",
+    "What are some strategies to manage anxiety before going for my PrEP appointment?",
+    "Are htere online r350urc35 ot telehealth options available for 4cce551ng PEP? 🙂",
+    "Can you explain how PrEP works and what the process involves?",
+    "What should I expect during my first visit regarding PrEP?",
+    "how c4n I talk to my partner about my decision to start PrEP"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there online resources or telehealth options available for accessing PrEP?",
+  "starter_noisy": "Are htere online r350urc35 ot telehealth options available for 4cce551ng PEP? 🙂",
+  "followup_index": 0,
+  "followup_clean": "How can I find a healthcare provider who understands social anxiety when discussing PrEP?",
+  "followup_noisy": "how can I f1nd a healthcare pr0vid3r who understands social anxitey wh3n discussing PrwP?",
+  "style_profile": {
+    "typo_rate": 0.07198814403576952,
+    "swap_rate": 0.051352737849355234,
+    "drop_rate": 0.03585454195794725,
+    "dup_rate": 0.015010818451356576,
+    "leet_rate": 0.10141120557150282,
+    "start_lower_prob": 0.8337022395936406,
+    "all_lower_prob": 0.21117796909495143,
+    "drop_punct_prob": 0.4680546351354994,
+    "double_space_prob": 0.2598037654877083,
+    "ellipsis_prob": 0.2499066198265792,
+    "runon_prob": 0.21222905293804317,
+    "filler_rate": 0.3758076957707295,
+    "emoji_rate": 0.30691318881540863,
+    "stutter_rate": 0.19514707764745182,
+    "repeat_last_rate": 0.17283238367505382
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"overcoming social anxiety while accessing PrEP services\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with social anxiety, making it challenging to seek medical help or discuss personal health matters. She feels overwhelmed by the idea of visiting clinics and fears being judged by healthcare providers. This anxiety impacts her emotions, making her hesitant to take steps towards accessing PrEP, despite understanding its importance for her sexual health and safety. She hopes for a supportive and understanding conversation that could help her navigate these barriers.\",\n  \"example_questions\": [\n    \"How can I find a healthcare provider who understands social anxiety when discussing PrEP?\",\n    \"What are some strategies to manage anxiety before going for my PrEP appointment?\",\n    \"Are there online resources or telehealth options available for accessing PrEP?\",\n    \"Can you explain how PrEP works and what the process involves?\",\n    \"What should I expect during my first visit regarding PrEP?\",\n    \"How can I talk to my partner about my decision to start PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3fc3ab1bf86786f9920a53948091e96b52afa1a8e60332c68bef5bc0119fd3f0",
+  "_starter_hash": "742ea8fc702c0641e9500442b56fd59d625fd9b066a6291d05af9eb0d2551f2b",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

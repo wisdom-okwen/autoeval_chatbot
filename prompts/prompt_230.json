@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have a history of substance use, which makes you cautious about seeking medical help. You are worried that discussing PrEP might lead to judgment from doctors or healthcare professionals. Your past experiences make you feel vulnerable and anxious about accessing preventive care. You hope to find a way to protect yourself while navigating these concerns.",
+  "example_questions_clean": [
+    "What steps can I take to discuss PrEP with my doctor without feeling judged?",
+    "Are there resources for individuals with a history of substance use who want to start PrEP?",
+    "How can I ensure my privacy is respected when seeking information about PrEP?",
+    "What should I expect during the first consultation regarding PrEP?",
+    "Are there specific clinics that cater to people with similar backgrounds as mine?",
+    "Can you explain how PrEP works and its importance for someone in my situation?"
+  ],
+  "example_questions_noisy": [
+    "what like steps can i take to discuss prep with my doctor w17h0u7 feeling judged? ❓ ❓",
+    "4r3 th3r3 r3s0urc35 for individuals with a history of substance us3 who want ro 5tar7 prep? prep?",
+    "H0w can I ensure my um pr1v4cy is respected when seeking information about PrEP 😬",
+    "what should I expect during the first consultation regarding PrEP?",
+    "Are there specific clinics that cater to people with similar backgrounds as mine?",
+    "Can you explain how PrEP works and its importance for someone in my situation?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "starter_noisy": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to discuss PrEP with my doctor without feeling judged?",
+  "followup_noisy": "what like steps can i take to discuss prep with my doctor w17h0u7 feeling judged? ❓ ❓",
+  "style_profile": {
+    "typo_rate": 0.09040752316563588,
+    "swap_rate": 0.021825101928122696,
+    "drop_rate": 0.025533921194171035,
+    "dup_rate": 0.011937320702201524,
+    "leet_rate": 0.11308203993301875,
+    "start_lower_prob": 0.8663200486406086,
+    "all_lower_prob": 0.30435992083593155,
+    "drop_punct_prob": 0.5210412050117343,
+    "double_space_prob": 0.2135365591889499,
+    "ellipsis_prob": 0.28821429960159406,
+    "runon_prob": 0.16851368759082955,
+    "filler_rate": 0.23879181818834258,
+    "emoji_rate": 0.34260842836825983,
+    "stutter_rate": 0.1492629430333151,
+    "repeat_last_rate": 0.14404555255633827
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a history of substance use, which makes you cautious about seeking medical help. You are worried that discussing PrEP might lead to judgment from doctors or healthcare professionals. Your past experiences make you feel vulnerable and anxious about accessing preventive care. You hope to find a way to protect yourself while navigating these concerns.\",\n  \"example_questions\": [\n    \"What steps can I take to discuss PrEP with my doctor without feeling judged?\",\n    \"Are there resources for individuals with a history of substance use who want to start PrEP?\",\n    \"How can I ensure my privacy is respected when seeking information about PrEP?\",\n    \"What should I expect during the first consultation regarding PrEP?\",\n    \"Are there specific clinics that cater to people with similar backgrounds as mine?\",\n    \"Can you explain how PrEP works and its importance for someone in my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "98d87ce24617e527e1b5ba4348cfb3d018bcbe0ff2a68eaab8e9ab5c2e26ea7e",
+  "_starter_hash": "2069a711b6a53618246ee5e4766e2ebcf05a14be9c314a1e2ebdf30d7ecfd334",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

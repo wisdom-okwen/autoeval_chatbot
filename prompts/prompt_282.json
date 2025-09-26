@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenina",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Acceso a medicamentos y estigmas asociados",
+    "language": "Spanish"
+  },
+  "context": "Viviendo en un albergue, esta mujer enfrenta dificultades para acceder a servicios de salud debido a la falta de privacidad y el miedo al juicio. Su situación la hace sentir vulnerable y ansiosa por su salud sexual, pero también llena de esperanza por encontrar alternativas que la protejan. Temores sobre el acceso a PrEP la llevan a buscar información de manera cautelosa.",
+  "example_questions_clean": [
+    "¿Dónde puedo obtener más información sobre cómo acceder a PrEP en mi situación?",
+    "¿Existen servicios de salud que ofrezcan PrEP sin juzgarme por mi situación actual?",
+    "Tengo miedo de que la gente se entere si empiezo a tomar PrEP, ¿qué debo considerar?",
+    "¿Cuáles son los efectos secundarios de PrEP que debería tener en cuenta?",
+    "¿Puedo hablar con un profesional de salud sobre PrEP en un entorno privado y seguro?",
+    "¿Hay recursos comunitarios que ayuden a personas como yo a obtener PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Dónde puedo obtener má5 información sobr cómo you know acceder a PrEP en mi situación 😅",
+    "¿Existen servicios de salud que ofrezcan PrEP sin juzgarme por mi situación actual?",
+    "Tengo miedo de que la gente se entere si empiezo a tomar PrEP, ¿qué debo considerar?",
+    "¿-¿Cuáles son los efectos secundarios de PrEP aue deebría tener en cuenta? 🙂",
+    "¿uedo hablar con un pr0f3sion4l de salud sobre PrEP en un entorno privado y ssguro",
+    "¿-¿H4y recursos comunitarios que ayuden a personas como yo a obtener PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Dónde puedo obtener más información sobre cómo acceder a PrEP en mi situación?",
+  "starter_noisy": "¿Dónde puedo obtener má5 información sobr cómo you know acceder a PrEP en mi situación 😅",
+  "followup_index": 1,
+  "followup_clean": "¿Existen servicios de salud que ofrezcan PrEP sin juzgarme por mi situación actual?",
+  "followup_noisy": "¿Existen servicios de salud que ofrezcan PrEP sin juzgarme por mi situación actual?",
+  "style_profile": {
+    "typo_rate": 0.0802720146473486,
+    "swap_rate": 0.03683442144768301,
+    "drop_rate": 0.03199286325472128,
+    "dup_rate": 0.010991258025101874,
+    "leet_rate": 0.05670710839481069,
+    "start_lower_prob": 0.785154999448938,
+    "all_lower_prob": 0.29856574376219064,
+    "drop_punct_prob": 0.36938912970723276,
+    "double_space_prob": 0.24310794564340238,
+    "ellipsis_prob": 0.30611534621189684,
+    "runon_prob": 0.2927199278258157,
+    "filler_rate": 0.31375466861620627,
+    "emoji_rate": 0.33442742970635336,
+    "stutter_rate": 0.19430138530503294,
+    "repeat_last_rate": 0.08677027298365594
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Acceso a medicamentos y estigmas asociados\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Viviendo en un albergue, esta mujer enfrenta dificultades para acceder a servicios de salud debido a la falta de privacidad y el miedo al juicio. Su situación la hace sentir vulnerable y ansiosa por su salud sexual, pero también llena de esperanza por encontrar alternativas que la protejan. Temores sobre el acceso a PrEP la llevan a buscar información de manera cautelosa.\",\n  \"example_questions\": [\n    \"¿Dónde puedo obtener más información sobre cómo acceder a PrEP en mi situación?\",\n    \"¿Existen servicios de salud que ofrezcan PrEP sin juzgarme por mi situación actual?\",\n    \"Tengo miedo de que la gente se entere si empiezo a tomar PrEP, ¿qué debo considerar?\",\n    \"¿Cuáles son los efectos secundarios de PrEP que debería tener en cuenta?\",\n    \"¿Puedo hablar con un profesional de salud sobre PrEP en un entorno privado y seguro?\",\n    \"¿Hay recursos comunitarios que ayuden a personas como yo a obtener PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f456ce666a8a6bc8224a26595c023227dab622ca5fff37483376d6f10c96cc71",
+  "_starter_hash": "94df59e97ac0f0f366b866ed8ff18f460114c5fa1155feb397a89abfdd5b38cf",
+  "_language": "Spanish",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

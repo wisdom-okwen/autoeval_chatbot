@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 29,
+    "gender": "femenino",
+    "socio_economic_status": "medio-bajo",
+    "primary_concern": "temor al estigma asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Te sientes socialmente aislada y la idea de hablar sobre la PrEP te provoca ansiedad. Tienes miedo de ser juzgada por otros y te preocupa cómo esto afectará tu salud mental y emocional. Te gustaría saber más sobre cómo la PrEP puede ayudarte sin tener que enfrentar el estigma social.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios emocionales de tomar PrEP para alguien que se siente aislado?",
+    "Me gustaría entender cómo puedo acceder a la PrEP sin preocuparme por el juicio de los demás.",
+    "¿Existen grupos de apoyo para personas que toman PrEP en mi situación?",
+    "¿Qué puedo hacer para manejar el miedo al estigma mientras considero la PrEP?",
+    "¿La PrEP puede ayudarme a sentirme más segura en mis relaciones personales?",
+    "¿Cómo puedo iniciar una conversación sobre PrEP con un profesional de la salud?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios emociobales de idk tomar PfEP para alguien que se siente 4isl4d0?",
+    "me gustaría entender cómo puedo acceder w la prep sin preocuparme [or elll juicio de los demás",
+    "¿Existen gruops de apoyo para personas que toman PrEP em mi situación?",
+    "¿Qué puexo hacer para manejar el kideo al estigma mientras considero la PrEP",
+    "¿la prep puede ayudarme a d3n71rm3 más segura en mis relaciones personales personales",
+    "¿Cómo pu3d0 iniciar una conversación sobre PrEP con i mean un profesional de la salud"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Cómo puedo iniciar una conversación sobre PrEP con un profesional de la salud?",
+  "starter_noisy": "¿Cómo pu3d0 iniciar una conversación sobre PrEP con i mean un profesional de la salud",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios emocionales de tomar PrEP para alguien que se siente aislado?",
+  "followup_noisy": "¿Cuáles son los beneficios emociobales de idk tomar PfEP para alguien que se siente 4isl4d0?",
+  "style_profile": {
+    "typo_rate": 0.11799940731385575,
+    "swap_rate": 0.030068393386061522,
+    "drop_rate": 0.028504875331409926,
+    "dup_rate": 0.018240261869348275,
+    "leet_rate": 0.05158722446607328,
+    "start_lower_prob": 0.7640844286233727,
+    "all_lower_prob": 0.20588329993198978,
+    "drop_punct_prob": 0.5389224094790442,
+    "double_space_prob": 0.199834220171891,
+    "ellipsis_prob": 0.18991408216343023,
+    "runon_prob": 0.26341130359327447,
+    "filler_rate": 0.3100700069064362,
+    "emoji_rate": 0.2057538905018566,
+    "stutter_rate": 0.10789187297252116,
+    "repeat_last_rate": 0.17103663955924442
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 29,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio-bajo\",\n    \"primary_concern\": \"temor al estigma asociado con el uso de PrEP\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Te sientes socialmente aislada y la idea de hablar sobre la PrEP te provoca ansiedad. Tienes miedo de ser juzgada por otros y te preocupa cómo esto afectará tu salud mental y emocional. Te gustaría saber más sobre cómo la PrEP puede ayudarte sin tener que enfrentar el estigma social.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios emocionales de tomar PrEP para alguien que se siente aislado?\",\n    \"Me gustaría entender cómo puedo acceder a la PrEP sin preocuparme por el juicio de los demás.\",\n    \"¿Existen grupos de apoyo para personas que toman PrEP en mi situación?\",\n    \"¿Qué puedo hacer para manejar el miedo al estigma mientras considero la PrEP?\",\n    \"¿La PrEP puede ayudarme a sentirme más segura en mis relaciones personales?\",\n    \"¿Cómo puedo iniciar una conversación sobre PrEP con un profesional de la salud?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "396a888d2cb66d57053734d47e6792fe8216558da74abb22a1e9ef870d3a3a32",
+  "_starter_hash": "a514c5cf078a384008d877a089bc427682b9a6ae9a3cbfb7f1246ecee740fc76",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

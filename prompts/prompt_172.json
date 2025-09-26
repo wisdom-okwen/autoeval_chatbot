@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "I worry about how to access PrEP while facing housing instability.",
+    "language": "Spanish"
+  },
+  "context": "Te encuentras en una situación difícil, lidiando con la falta de vivienda y el miedo a no poder acceder a los cuidados de salud necesarios. El estigma que sientes al buscar ayuda y la incertidumbre sobre tu futuro hacen que sea aún más complicado pensar en la prevención del VIH con PrEP. Sin embargo, hay una esperanza de que mejorar tu salud sea posible.",
+  "example_questions_clean": [
+    "¿Qué opciones tengo para obtener PrEP si no tengo un lugar donde vivir?",
+    "¿Existen clínicas que ofrezcan PrEP sin requerir un comprobante de domicilio?",
+    "Tengo miedo de ser juzgado al preguntar sobre PrEP, ¿cómo puedo superarlo?",
+    "¿Qué recursos hay disponibles para personas en mi situación que deseen iniciar PrEP?",
+    "¿Es posible acceder a consultas sobre PrEP de manera anónima?",
+    "¿Cuánto cuesta realmente el tratamiento de PrEP y hay ayuda financiera?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué opciones tengo para obtener PrEP si no tengo un lugar donde vivir?",
+    "¿Existen clínicas que ofrezcan PrEP sin requerir un comprobante de domicilio?",
+    "Tengo miedo de ser juzgado al preguntar sobre PrEP, ¿cómo puedo superarlo?",
+    "¿Qué recursos hay disponibles para personas en mi situación que deseen iniciar PrEP?",
+    "¿Es posible acceder a consultas sobre PrEP de manera anónima?",
+    "¿cuánttto cuesta realmente el tratamiento d3 prep h hay ayuda finannnciera? finannnciera?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Tengo miedo de ser juzgado al preguntar sobre PrEP, ¿cómo puedo superarlo?",
+  "starter_noisy": "Tengo miedo de ser juzgado al preguntar sobre PrEP, ¿cómo puedo superarlo?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué opciones tengo para obtener PrEP si no tengo un lugar donde vivir?",
+  "followup_noisy": "¿Qué opciones tengo para obtener PrEP si no tengo un lugar donde vivir?",
+  "style_profile": {
+    "typo_rate": 0.11387325611440798,
+    "swap_rate": 0.032956857392438955,
+    "drop_rate": 0.04709939001578639,
+    "dup_rate": 0.027377923340168878,
+    "leet_rate": 0.07740323972946675,
+    "start_lower_prob": 0.8939341559600258,
+    "all_lower_prob": 0.3202895312145332,
+    "drop_punct_prob": 0.33528161195043266,
+    "double_space_prob": 0.1679333462386024,
+    "ellipsis_prob": 0.1961748248731023,
+    "runon_prob": 0.10968375356129573,
+    "filler_rate": 0.33281077391447733,
+    "emoji_rate": 0.24675080674702393,
+    "stutter_rate": 0.17340210538080403,
+    "repeat_last_rate": 0.1449983321533435
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"I worry about how to access PrEP while facing housing instability.\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Te encuentras en una situación difícil, lidiando con la falta de vivienda y el miedo a no poder acceder a los cuidados de salud necesarios. El estigma que sientes al buscar ayuda y la incertidumbre sobre tu futuro hacen que sea aún más complicado pensar en la prevención del VIH con PrEP. Sin embargo, hay una esperanza de que mejorar tu salud sea posible.\",\n  \"example_questions\": [\n    \"¿Qué opciones tengo para obtener PrEP si no tengo un lugar donde vivir?\",\n    \"¿Existen clínicas que ofrezcan PrEP sin requerir un comprobante de domicilio?\",\n    \"Tengo miedo de ser juzgado al preguntar sobre PrEP, ¿cómo puedo superarlo?\",\n    \"¿Qué recursos hay disponibles para personas en mi situación que deseen iniciar PrEP?\",\n    \"¿Es posible acceder a consultas sobre PrEP de manera anónima?\",\n    \"¿Cuánto cuesta realmente el tratamiento de PrEP y hay ayuda financiera?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "21e3bd10a2cc7b093551afef3ccc3d0ed438b5e16199bb2b754e3d8e8f4de481",
+  "_starter_hash": "ab02d067c9f9ecd7398fdf9e626b01e0dadde544a001fe86cc36f06fdd55454d",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

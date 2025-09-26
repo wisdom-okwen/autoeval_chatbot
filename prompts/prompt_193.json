@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "homeless",
+    "primary_concern": "to find accessible resources for PrEP while facing instability",
+    "language": "Dutch"
+  },
+  "context": "Als iemand die dakloos is, voelt u zich misschien gestigmatiseerd en bezorgd over uw gezondheid. Toegang tot PrEP kan extra uitdagingen met zich meebrengen, zoals het vinden van een veilige plek om het te bespreken en zorgen over privacy. U hoopt dat er manieren zijn om ondersteuning te krijgen ondanks de moeilijkheden die u tegenkomt.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen die ik moet nemen om PrEP aan te vragen?",
+    "Zijn er specifieke organisaties die kunnen helpen met toegang tot PrEP voor mensen in mijn situatie?",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt beschermd als ik PrEP wil gebruiken?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+    "Is het mogelijk om PrEP te krijgen zonder een vast adres?",
+    "Zijn er financiële ondersteuningsprogramma's beschikbaar voor de kosten van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de eerste stappen die ii moet nemen oj PrEP aan 73 vragen? vragen?",
+    "z1jn er specifieke organisaties diw kunnen helpen met 703g4ng tot PrEP v00r mensen in m1jn 5itu4713",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt beschermd als ik PrEP wil gebruiken?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+    "Is het mogelijk om PrEP te krijgen zonder een vast adres?",
+    "Zijn er financiële ondersteuningsprogramma's beschikbaar voor de kosten van PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is het mogelijk om PrEP te krijgen zonder een vast adres?",
+  "starter_noisy": "Is het mogelijk om PrEP te krijgen zonder een vast adres?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de eerste stappen die ik moet nemen om PrEP aan te vragen?",
+  "followup_noisy": "wat zijn de eerste stappen die ii moet nemen oj PrEP aan 73 vragen? vragen?",
+  "style_profile": {
+    "typo_rate": 0.09410272000926913,
+    "swap_rate": 0.038954268872881864,
+    "drop_rate": 0.021498144537605242,
+    "dup_rate": 0.016395516729205663,
+    "leet_rate": 0.11178250610169144,
+    "start_lower_prob": 0.7703531710286016,
+    "all_lower_prob": 0.16995877736407852,
+    "drop_punct_prob": 0.5560549497323011,
+    "double_space_prob": 0.2287318780271966,
+    "ellipsis_prob": 0.1592965895254325,
+    "runon_prob": 0.2860092934006072,
+    "filler_rate": 0.46975551430188306,
+    "emoji_rate": 0.30815816645493943,
+    "stutter_rate": 0.15881222858963434,
+    "repeat_last_rate": 0.17195144913534285
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"homeless\",\n    \"primary_concern\": \"to find accessible resources for PrEP while facing instability\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Als iemand die dakloos is, voelt u zich misschien gestigmatiseerd en bezorgd over uw gezondheid. Toegang tot PrEP kan extra uitdagingen met zich meebrengen, zoals het vinden van een veilige plek om het te bespreken en zorgen over privacy. U hoopt dat er manieren zijn om ondersteuning te krijgen ondanks de moeilijkheden die u tegenkomt.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen die ik moet nemen om PrEP aan te vragen?\",\n    \"Zijn er specifieke organisaties die kunnen helpen met toegang tot PrEP voor mensen in mijn situatie?\",\n    \"Hoe kan ik ervoor zorgen dat mijn privacy wordt beschermd als ik PrEP wil gebruiken?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?\",\n    \"Is het mogelijk om PrEP te krijgen zonder een vast adres?\",\n    \"Zijn er financiële ondersteuningsprogramma's beschikbaar voor de kosten van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "69229b29c0aa8368c18e6225c622d975cf5633d281699810d1e74b0bc6ca3b07",
+  "_starter_hash": "16548f038aef19f60537bf421569fab47d21caa454b41a46354564777873ae65",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

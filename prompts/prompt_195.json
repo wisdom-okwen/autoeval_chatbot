@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor a la violencia de pareja y su impacto en la toma de decisiones sobre la salud.",
+    "language": "Spanish"
+  },
+  "context": "La usuaria se enfrenta a una situación de violencia de pareja que afecta su bienestar emocional y su capacidad para acceder a recursos de salud, como PrEP. Siente miedo de hablar abiertamente sobre su situación, lo que la hace dudar en buscar información sobre opciones de prevención. Su entorno puede hacerla sentir estigmatizada por sus decisiones y aumentar su ansiedad acerca de su salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP si estoy en una situación difícil con mi pareja?",
+    "¿Qué puedo hacer si tengo miedo de que mi pareja se entere que estoy considerando PrEP?",
+    "¿Existen recursos o apoyo específico para personas que enfrentan violencia en el hogar?",
+    "¿Qué información hay sobre los efectos secundarios de PrEP y cómo pueden afectarme emocionalmente?",
+    "¿Cómo puedo hablar con un profesional de salud sobre PrEP sin ponerme en peligro?",
+    "¿Cuáles son los beneficios a largo plazo de tomar PrEP en mi situación actual?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrEP si estoy en una situación difícil con mi pareja?",
+    "¿Qué puedo hacer si tengo miedo de que mi pareja se entere que estoy considerando PrEP?",
+    "¿Existen recursos o apoyo específico para personas que enfrentan violencia en el hogar?",
+    "¿Qué información hay sobre los efectos secundarios de PrEP y cómo pueden afectarme emocionalmente?",
+    "¿Cómo puedo hablar con un profesional de salud sobre PrEP sin ponerme en peligro?",
+    "¿Cuáles son los beneficios a largo plazo de tomar PrEP en mi situación actual?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen recursos o apoyo específico para personas que enfrentan violencia en el hogar?",
+  "starter_noisy": "¿Existen recursos o apoyo específico para personas que enfrentan violencia en el hogar?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP si estoy en una situación difícil con mi pareja?",
+  "followup_noisy": "¿Cuáles son los pasos para acceder a PrEP si estoy en una situación difícil con mi pareja?",
+  "style_profile": {
+    "typo_rate": 0.05663948189573896,
+    "swap_rate": 0.05565347044610547,
+    "drop_rate": 0.04566155805882517,
+    "dup_rate": 0.016930986485083885,
+    "leet_rate": 0.11379329636370406,
+    "start_lower_prob": 0.662913453895638,
+    "all_lower_prob": 0.16707030778484422,
+    "drop_punct_prob": 0.5641682577353335,
+    "double_space_prob": 0.2536141389866654,
+    "ellipsis_prob": 0.2422468948206016,
+    "runon_prob": 0.2819555432192225,
+    "filler_rate": 0.3352585334103667,
+    "emoji_rate": 0.31820578531844634,
+    "stutter_rate": 0.1812621990482282,
+    "repeat_last_rate": 0.10310843587141245
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor a la violencia de pareja y su impacto en la toma de decisiones sobre la salud.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La usuaria se enfrenta a una situación de violencia de pareja que afecta su bienestar emocional y su capacidad para acceder a recursos de salud, como PrEP. Siente miedo de hablar abiertamente sobre su situación, lo que la hace dudar en buscar información sobre opciones de prevención. Su entorno puede hacerla sentir estigmatizada por sus decisiones y aumentar su ansiedad acerca de su salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP si estoy en una situación difícil con mi pareja?\",\n    \"¿Qué puedo hacer si tengo miedo de que mi pareja se entere que estoy considerando PrEP?\",\n    \"¿Existen recursos o apoyo específico para personas que enfrentan violencia en el hogar?\",\n    \"¿Qué información hay sobre los efectos secundarios de PrEP y cómo pueden afectarme emocionalmente?\",\n    \"¿Cómo puedo hablar con un profesional de salud sobre PrEP sin ponerme en peligro?\",\n    \"¿Cuáles son los beneficios a largo plazo de tomar PrEP en mi situación actual?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d209afd19619d0c5ed7b7cc786eb9fb96b2537dac5ffd34cfc06a517cba04cf8",
+  "_starter_hash": "8f05d060d0014108d160460aaea24499c7322562c6c61e5f3a26b1604454d073",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare due to chronic pain",
+    "language": "Swahili"
+  },
+  "context": "You are a 32-year-old woman from Kenya living with chronic pain, which makes it difficult for you to navigate healthcare systems. You fear that your condition may complicate access to PrEP, and you feel anxious about the stigma surrounding both HIV prevention and chronic pain. You hope to manage your health effectively while dealing with the emotional toll of your situation.",
+  "example_questions_clean": [
+    "Nina wasiwasi kwamba maumivu yangu ya muda mrefu yanatakatiza uwezekano wangu wa kupata PrEP.",
+    "Je, kuna njia za msaada wa kifedha kwa watu wenye hali kama yangu wanaotaka kuanza PrEP?",
+    "Ninahitaji kuelewa jinsi maumivu yangu yanaweza kuathiri ufanisi wa PrEP.",
+    "Ni hatua zipi za kwanza ambazo naweza kuchukua ili kupata PrEP katika hali yangu?",
+    "Je, ni muhimu kufahamu afya yangu ya kiakili kabla ya kuanzisha PrEP?",
+    "Ninaweza kupata wapi taarifa zaidi kuhusu PrEP ambazo zinaeleweka na zinanihusisha?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kwamba maumivu yangu ya muda mrefu yanatakatiza uwezekano wangu wa kupata PrEP.",
+    "Je, kuna njia za msaada wa kifedha kwa watu wenye hali kama yangu wanaotaka kuanza PrEP?",
+    "Ninahitaji kuelewa jinsi maumivu yangu yanaweza kuathiri ufanisi wa PrEP.",
+    "Ni hatua zipi za kwanza ambazo naweza kuchukua ili kupata PrEP katika hali yangu?",
+    "je ni muhimu kufahamu afya yagnu ya kiakili kabla ya kkkuanzish PrEP PrEP",
+    "ninaweza kupta wapi taarifa zaidi kuhusu prep ambazo zinaeleweka na zinanihusisha"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ninahitaji kuelewa jinsi maumivu yangu yanaweza kuathiri ufanisi wa PrEP.",
+  "starter_noisy": "Ninahitaji kuelewa jinsi maumivu yangu yanaweza kuathiri ufanisi wa PrEP.",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kwamba maumivu yangu ya muda mrefu yanatakatiza uwezekano wangu wa kupata PrEP.",
+  "followup_noisy": "Nina wasiwasi kwamba maumivu yangu ya muda mrefu yanatakatiza uwezekano wangu wa kupata PrEP.",
+  "style_profile": {
+    "typo_rate": 0.08347232729253076,
+    "swap_rate": 0.04782371364960064,
+    "drop_rate": 0.025223158505549743,
+    "dup_rate": 0.024477802778773393,
+    "leet_rate": 0.06683549904894323,
+    "start_lower_prob": 0.7373086917856246,
+    "all_lower_prob": 0.16654780043384326,
+    "drop_punct_prob": 0.4756770786640749,
+    "double_space_prob": 0.1893441995786809,
+    "ellipsis_prob": 0.27561741513267946,
+    "runon_prob": 0.2900439772286698,
+    "filler_rate": 0.33148861666499985,
+    "emoji_rate": 0.33816515278584947,
+    "stutter_rate": 0.1927244708983886,
+    "repeat_last_rate": 0.17407707984270637
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare due to chronic pain\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are a 32-year-old woman from Kenya living with chronic pain, which makes it difficult for you to navigate healthcare systems. You fear that your condition may complicate access to PrEP, and you feel anxious about the stigma surrounding both HIV prevention and chronic pain. You hope to manage your health effectively while dealing with the emotional toll of your situation.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kwamba maumivu yangu ya muda mrefu yanatakatiza uwezekano wangu wa kupata PrEP.\",\n    \"Je, kuna njia za msaada wa kifedha kwa watu wenye hali kama yangu wanaotaka kuanza PrEP?\",\n    \"Ninahitaji kuelewa jinsi maumivu yangu yanaweza kuathiri ufanisi wa PrEP.\",\n    \"Ni hatua zipi za kwanza ambazo naweza kuchukua ili kupata PrEP katika hali yangu?\",\n    \"Je, ni muhimu kufahamu afya yangu ya kiakili kabla ya kuanzisha PrEP?\",\n    \"Ninaweza kupata wapi taarifa zaidi kuhusu PrEP ambazo zinaeleweka na zinanihusisha?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "99723667d21e1dbb51347c375a7e9b283de033c631687efd298634b3a97460df",
+  "_starter_hash": "adfca86080c6ca8b5bf3ba7954e6bbaf0eac2273b0442b4f6f3191b550647548",
+  "_language": "Swahili",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

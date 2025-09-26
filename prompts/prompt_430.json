@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "la posibilidad de efectos secundarios que agraven mi dolor crónico",
+    "language": "Spanish"
+  },
+  "context": "Como mujer de 32 años que vive con dolor crónico, me preocupa cómo la medicación podría afectar mi salud. He oído hablar de PrEP como una opción para prevenir el VIH, pero temo que los efectos secundarios interfieran con mi tratamiento y bienestar diario. Además, el estigma alrededor de PrEP me hace sentir ansiosa sobre cómo podría ser percibida por los demás.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta considerando mi dolor crónico?",
+    "¿Existen alternativas a PrEP que podrían ser más adecuadas para mí?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Qué recursos o apoyo puedo encontrar para personas en situaciones similares a la mía?",
+    "¿Es posible que el costo de PrEP sea un obstáculo para mí?",
+    "¿Cómo afecta el uso de PrEP a las personas que tienen condiciones de salud preexistentes?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta considerando mi dolor crónico?",
+    "¿Existen 4l7ernat1v45 4 PrEP que podrín ser más sdecuadas para mí? ✨ ✨",
+    "¿Cómo pudeo hablar con mi médico sobre mus preocupaciones sin sentirme juzgada? juzgada?",
+    "¿qhé recursps o apoyo puedo 3nc0n7r4 para personas en situaciones similares a la mía? 😬",
+    "¿Es posible que el costo uh de Pr3P sea un 0b57ácul0 p4r4 mí 🤔",
+    "¿Cómo afecta el uso de PrEP a las personas que tienen condiciones de salud preexistentes?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Cómo afecta el uso de PrEP a las personas que tienen condiciones de salud preexistentes?",
+  "starter_noisy": "¿Cómo afecta el uso de PrEP a las personas que tienen condiciones de salud preexistentes?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta considerando mi dolor crónico?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta considerando mi dolor crónico?",
+  "style_profile": {
+    "typo_rate": 0.07138475949986733,
+    "swap_rate": 0.044500366479247204,
+    "drop_rate": 0.03188936889420362,
+    "dup_rate": 0.013387820364857462,
+    "leet_rate": 0.10757933838262301,
+    "start_lower_prob": 0.7193703738723771,
+    "all_lower_prob": 0.28603455599586164,
+    "drop_punct_prob": 0.3519867689355693,
+    "double_space_prob": 0.23686721170917008,
+    "ellipsis_prob": 0.20169331934137877,
+    "runon_prob": 0.18199186739918907,
+    "filler_rate": 0.2350893805832549,
+    "emoji_rate": 0.33750196198795623,
+    "stutter_rate": 0.13783911015143058,
+    "repeat_last_rate": 0.14351426603516326
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"la posibilidad de efectos secundarios que agraven mi dolor crónico\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Como mujer de 32 años que vive con dolor crónico, me preocupa cómo la medicación podría afectar mi salud. He oído hablar de PrEP como una opción para prevenir el VIH, pero temo que los efectos secundarios interfieran con mi tratamiento y bienestar diario. Además, el estigma alrededor de PrEP me hace sentir ansiosa sobre cómo podría ser percibida por los demás.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de PrEP que debo tener en cuenta considerando mi dolor crónico?\",\n    \"¿Existen alternativas a PrEP que podrían ser más adecuadas para mí?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Qué recursos o apoyo puedo encontrar para personas en situaciones similares a la mía?\",\n    \"¿Es posible que el costo de PrEP sea un obstáculo para mí?\",\n    \"¿Cómo afecta el uso de PrEP a las personas que tienen condiciones de salud preexistentes?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "63b0fe36455307e0c0bb72ee040940bf5357904a06bb969b7bcf93bc481b3f94",
+  "_starter_hash": "25d4efd765c4891e91e06e1f4d7b9ae6049f0807ee84462de959f9f9c14d8c9c",
+  "_language": "Spanish",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

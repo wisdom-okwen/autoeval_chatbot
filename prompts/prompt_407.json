@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and discrimination when accessing PrEP",
+    "language": "English"
+  },
+  "context": "As a non-binary individual coping with gender dysphoria, you may feel anxious about seeking medical care, including PrEP. Your personal journey with gender identity can lead to heightened sensitivity around issues of acceptance, potentially influencing your perception of healthcare providers and their understanding of your needs. This fear might create barriers to accessing PrEP, as you want to ensure you are treated with respect and sensitivity.",
+  "example_questions_clean": [
+    "How can I find a doctor who understands my experience with gender dysphoria when discussing PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of in my specific situation?",
+    "Can PrEP still be effective if I have concerns about how it may impact my mental health?",
+    "Are there support groups available for people like me who are navigating PrEP access?",
+    "What should I do if I encounter discrimination while trying to obtain PrEP?",
+    "How can I prepare for a conversation with my healthcare provider about my need for PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can I find a doctor who understands my experiene with gender dysphoria hen discussing PrEP?",
+    "what are the potential side effects of um prep that i should be aware of in my specific situation? situation?",
+    "Can PrEP still be effective if I have concerns about how it may impact my mental health?",
+    "Are there support groups available for people like me who are navigating PrEP access?",
+    "what should I do if I encounter discrimination while trying to obtain PrEP",
+    "How can I prepare for q conversation with mmmy healthcare provider aobut my need for PPPrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there support groups available for people like me who are navigating PrEP access?",
+  "starter_noisy": "Are there support groups available for people like me who are navigating PrEP access?",
+  "followup_index": 0,
+  "followup_clean": "How can I find a doctor who understands my experience with gender dysphoria when discussing PrEP?",
+  "followup_noisy": "how can I find a doctor who understands my experiene with gender dysphoria hen discussing PrEP?",
+  "style_profile": {
+    "typo_rate": 0.07003280896464048,
+    "swap_rate": 0.057674612422415644,
+    "drop_rate": 0.04452578575949798,
+    "dup_rate": 0.029203026475962526,
+    "leet_rate": 0.08924710993202503,
+    "start_lower_prob": 0.7819791168294989,
+    "all_lower_prob": 0.15072691312202757,
+    "drop_punct_prob": 0.5752681350564486,
+    "double_space_prob": 0.31922552668899784,
+    "ellipsis_prob": 0.2547963210912445,
+    "runon_prob": 0.131516825848006,
+    "filler_rate": 0.31873929104227905,
+    "emoji_rate": 0.17109626380469511,
+    "stutter_rate": 0.13980668608699637,
+    "repeat_last_rate": 0.1201803976556473
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and discrimination when accessing PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a non-binary individual coping with gender dysphoria, you may feel anxious about seeking medical care, including PrEP. Your personal journey with gender identity can lead to heightened sensitivity around issues of acceptance, potentially influencing your perception of healthcare providers and their understanding of your needs. This fear might create barriers to accessing PrEP, as you want to ensure you are treated with respect and sensitivity.\",\n  \"example_questions\": [\n    \"How can I find a doctor who understands my experience with gender dysphoria when discussing PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of in my specific situation?\",\n    \"Can PrEP still be effective if I have concerns about how it may impact my mental health?\",\n    \"Are there support groups available for people like me who are navigating PrEP access?\",\n    \"What should I do if I encounter discrimination while trying to obtain PrEP?\",\n    \"How can I prepare for a conversation with my healthcare provider about my need for PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "71cfc048794e787a2c5d99545a74d79c8589c00d70a9e03c0c17c6955f9e0442",
+  "_starter_hash": "2e128b52a70c7da3b15eea879970cd8e28bc4062aa24317b64df33b7e43dd1c2",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

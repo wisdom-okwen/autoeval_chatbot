@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "male",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of stigma and potential side effects",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated due to a recent health diagnosis and worries that discussing PrEP might lead to judgment from peers. This fear creates a mental barrier, making it hard to seek help or information about PrEP, even though they are hopeful about its benefits in managing their health.",
+  "example_questions_clean": [
+    "What are the potential side effects of taking PrEP that I should be aware of?",
+    "How can I find support groups for people considering PrEP?",
+    "Is it possible to discuss PrEP with a doctor without feeling judged?",
+    "What steps should I take to start on PrEP if I feel nervous about going to a clinic?",
+    "Are there online resources where I can learn more about PrEP safely and anonymously?",
+    "Can you recommend ways to cope with feelings of isolation while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential side effects of taking PrEP that I should be aware of",
+    "How can I find support groups for people considering PrEP?",
+    "Is it possible to discuss PrEP with a doctor without feeling judged?",
+    "What steps shohld I take to atart on PrEP 1f um I feel nrevous about going to a clinic?",
+    "Are there online resources where I can learn more about PrEP safely and anonymously?",
+    "c-can you recommend ways to cope w17h feelings of isolation while considering PrEP"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the potential side effects of taking PrEP that I should be aware of?",
+  "starter_noisy": "what are the potential side effects of taking PrEP that I should be aware of",
+  "followup_index": 1,
+  "followup_clean": "How can I find support groups for people considering PrEP?",
+  "followup_noisy": "How can I find support groups for people considering PrEP?",
+  "style_profile": {
+    "typo_rate": 0.09359102153789281,
+    "swap_rate": 0.04411413573389105,
+    "drop_rate": 0.02139931684941253,
+    "dup_rate": 0.01085031120947294,
+    "leet_rate": 0.06922469348979257,
+    "start_lower_prob": 0.727268790802537,
+    "all_lower_prob": 0.15841308300614942,
+    "drop_punct_prob": 0.5469391681622533,
+    "double_space_prob": 0.1665024308433757,
+    "ellipsis_prob": 0.2071758964526337,
+    "runon_prob": 0.2687377543853907,
+    "filler_rate": 0.4641910886624004,
+    "emoji_rate": 0.15989254763661004,
+    "stutter_rate": 0.15145422108975176,
+    "repeat_last_rate": 0.14487485573287007
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of stigma and potential side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated due to a recent health diagnosis and worries that discussing PrEP might lead to judgment from peers. This fear creates a mental barrier, making it hard to seek help or information about PrEP, even though they are hopeful about its benefits in managing their health.\",\n  \"example_questions\": [\n    \"What are the potential side effects of taking PrEP that I should be aware of?\",\n    \"How can I find support groups for people considering PrEP?\",\n    \"Is it possible to discuss PrEP with a doctor without feeling judged?\",\n    \"What steps should I take to start on PrEP if I feel nervous about going to a clinic?\",\n    \"Are there online resources where I can learn more about PrEP safely and anonymously?\",\n    \"Can you recommend ways to cope with feelings of isolation while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8a55b7deecfb2d63d1232707acdaa1e9b05a3525e309b2265e6dfdbe8c2bf777",
+  "_starter_hash": "236e7b4053441b63b4bb4ea278b92ead541b4e982e90d4af72e714ace93050db",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

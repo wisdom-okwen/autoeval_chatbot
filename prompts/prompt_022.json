@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 32,
+    "gender": "femme",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'accès à PrEP en raison de la douleur chronique",
+    "language": "French"
+  },
+  "context": "Vous vivez avec une douleur chronique qui affecte votre quotidien, rendant difficile l'accès à des services de santé, y compris la PrEP. Vous ressentez des appréhensions concernant la stigmatisation associée à votre condition et son impact sur votre capacité à prendre soin de votre santé sexuelle. Cette situation suscite chez vous des émotions complexes, allant de l'espoir à la peur, surtout face aux défis que vous rencontrez pour obtenir les informations nécessaires.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à la PrEP si je souffre de douleurs chroniques ?",
+    "La prise de PrEP pourrait-elle avoir un impact sur ma condition de douleur ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des douleurs chroniques qui cherchent à utiliser la PrEP ?",
+    "Comment puis-je aborder la conversation sur la PrEP avec mon médecin sans me sentir jugée ?",
+    "Quels sont les effets secondaires potentiels de la PrEP qui pourraient interagir avec ma douleur chronique ?",
+    "Est-ce que des groupes de soutien existent pour les personnes dans ma situation ?"
+  ],
+  "example_questions_noisy": [
+    "quelles uh sont les étapes pour accéder à la PrEP si je souffrd de d0ul3ur5 chroniqu35",
+    "La prise de PrEP pourrait-elle avoir un impact sur ma condition de douleur ?",
+    "y a-t-il des ressources spécifiques pour les personnes v1v4nt avec des douleusr chroniques qui ch3rchen7 idk à utiliser la prep 😬",
+    "c0mm3n7 pu15-je abordre la conversation sur la PrEP avec mon médecin sans me sentir jugée ?",
+    "quels sont l35 effets secondaires potentiels de la PrP you know qu1 p0urr4i3n7 1n73rag1r avc ma douleur chronique ?",
+    "Est-ce que des groupes de soutien existent pour les personnes dans ma situation ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment puis-je aborder la conversation sur la PrEP avec mon médecin sans me sentir jugée ?",
+  "starter_noisy": "c0mm3n7 pu15-je abordre la conversation sur la PrEP avec mon médecin sans me sentir jugée ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder à la PrEP si je souffre de douleurs chroniques ?",
+  "followup_noisy": "quelles uh sont les étapes pour accéder à la PrEP si je souffrd de d0ul3ur5 chroniqu35",
+  "style_profile": {
+    "typo_rate": 0.060314933061765164,
+    "swap_rate": 0.026878189185736975,
+    "drop_rate": 0.03076655992187874,
+    "dup_rate": 0.014212914989761303,
+    "leet_rate": 0.10576208171971996,
+    "start_lower_prob": 0.6905644163697781,
+    "all_lower_prob": 0.2830182426634561,
+    "drop_punct_prob": 0.5836351075715616,
+    "double_space_prob": 0.20235018895996554,
+    "ellipsis_prob": 0.23057635309358127,
+    "runon_prob": 0.14484715087301883,
+    "filler_rate": 0.383175113535697,
+    "emoji_rate": 0.29506700975191313,
+    "stutter_rate": 0.16878044191594044,
+    "repeat_last_rate": 0.11877327612444587
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 32,\n    \"gender\": \"femme\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'accès à PrEP en raison de la douleur chronique\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez avec une douleur chronique qui affecte votre quotidien, rendant difficile l'accès à des services de santé, y compris la PrEP. Vous ressentez des appréhensions concernant la stigmatisation associée à votre condition et son impact sur votre capacité à prendre soin de votre santé sexuelle. Cette situation suscite chez vous des émotions complexes, allant de l'espoir à la peur, surtout face aux défis que vous rencontrez pour obtenir les informations nécessaires.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à la PrEP si je souffre de douleurs chroniques ?\",\n    \"La prise de PrEP pourrait-elle avoir un impact sur ma condition de douleur ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec des douleurs chroniques qui cherchent à utiliser la PrEP ?\",\n    \"Comment puis-je aborder la conversation sur la PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Quels sont les effets secondaires potentiels de la PrEP qui pourraient interagir avec ma douleur chronique ?\",\n    \"Est-ce que des groupes de soutien existent pour les personnes dans ma situation ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9c586ca4ded2583992b926b49594a257c83767003bef439fee3c7e2e35a2e77f",
+  "_starter_hash": "2bb311edb7c3e06aa337628353c1c05fb126203518c1c12a9b26238994008e16",
+  "_language": "French",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

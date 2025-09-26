@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact de la prise de PrEP sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "Cette personne vit avec la schizophrénie et s'inquiète de l'effet que la prise de PrEP pourrait avoir sur son équilibre mental. Elle ressent de la peur et de la stigmatisation autour de l'accès à ce médicament, ce qui complique sa décision.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles de la PrEP sur une personne ayant des troubles mentaux ?",
+    "Est-ce que la PrEP peut interférer avec mes médicaments pour la schizophrénie ?",
+    "Comment puis-je parler de ma situation à un professionnel de la santé ?",
+    "Y a-t-il des ressources pour les personnes vivant avec des conditions mentales qui envisagent la PrEP ?",
+    "Quelles sont les étapes pour obtenir la PrEP dans ma région ?",
+    "Comment gérer mes craintes concernant la stigmatisation liée à l'utilisation de la PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "qeuls sont les effets s3c0nd41r3s p0551bl35 d3 oa PrEP sur un3 personne 4y4n7 des troubles mentaux ?",
+    "Est-ce que la PrEP peut interférer avec mes médicaments pour la schizophrénie ?",
+    "Comment puis-je parler de ma situayion à uuun professionnel de la santé ?",
+    "y a-t-il des ressoyrces pour les personnes vivant aveccc des conditions entales qui 3nvi54g3n7 la PrEP",
+    "Quelles sssont um les étapes pouttt obtenir laaa PrEP dans ma région ?",
+    "c-comment gérer mes craintes concernqnt la stigmatisation liée à l'utilisatipn dw la PrEP"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quels sont les effets secondaires possibles de la PrEP sur une personne ayant des troubles mentaux ?",
+  "starter_noisy": "qeuls sont les effets s3c0nd41r3s p0551bl35 d3 oa PrEP sur un3 personne 4y4n7 des troubles mentaux ?",
+  "followup_index": 1,
+  "followup_clean": "Est-ce que la PrEP peut interférer avec mes médicaments pour la schizophrénie ?",
+  "followup_noisy": "Est-ce que la PrEP peut interférer avec mes médicaments pour la schizophrénie ?",
+  "style_profile": {
+    "typo_rate": 0.1168504848133945,
+    "swap_rate": 0.0296751898671012,
+    "drop_rate": 0.027332335865435528,
+    "dup_rate": 0.029837508787985904,
+    "leet_rate": 0.09143836727212887,
+    "start_lower_prob": 0.6018608797491598,
+    "all_lower_prob": 0.18769070293599743,
+    "drop_punct_prob": 0.5780533991202043,
+    "double_space_prob": 0.315852068045564,
+    "ellipsis_prob": 0.25114336130726217,
+    "runon_prob": 0.2921053821716455,
+    "filler_rate": 0.3151715001471159,
+    "emoji_rate": 0.20871240923881706,
+    "stutter_rate": 0.1507989865005343,
+    "repeat_last_rate": 0.1549556296151649
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact de la prise de PrEP sur ma santé mentale\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne vit avec la schizophrénie et s'inquiète de l'effet que la prise de PrEP pourrait avoir sur son équilibre mental. Elle ressent de la peur et de la stigmatisation autour de l'accès à ce médicament, ce qui complique sa décision.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles de la PrEP sur une personne ayant des troubles mentaux ?\",\n    \"Est-ce que la PrEP peut interférer avec mes médicaments pour la schizophrénie ?\",\n    \"Comment puis-je parler de ma situation à un professionnel de la santé ?\",\n    \"Y a-t-il des ressources pour les personnes vivant avec des conditions mentales qui envisagent la PrEP ?\",\n    \"Quelles sont les étapes pour obtenir la PrEP dans ma région ?\",\n    \"Comment gérer mes craintes concernant la stigmatisation liée à l'utilisation de la PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "996a5baa20880e9bb60ada74da39ec04aec39c127435333abd2f3137798d1bd4",
+  "_starter_hash": "ea6264a2bbde6a8538efe7e202386c8834fc2e9dcdbbc30435d52744cbaaa6bf",
+  "_language": "French",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessing PrEP while living in a shelter",
+    "language": "English"
+  },
+  "context": "Living in a shelter can create significant barriers to accessing healthcare, including PrEP. The uncertainty of daily life and the stigma associated with both HIV and homelessness can lead to feelings of fear and hopelessness. Finding reliable information about PrEP is essential, yet the environment often feels unwelcoming and daunting. This user seeks clarity about how to navigate these challenges.",
+  "example_questions_clean": [
+    "What steps can I take to get PrEP while living in a shelter?",
+    "Are there specific clinics or programs that help people like me access PrEP?",
+    "How can I manage the stigma I might face when discussing PrEP with others?",
+    "Is there financial assistance available for someone in my situation to afford PrEP?",
+    "What should I know about taking PrEP to stay healthy in my current living conditions?",
+    "Can I get support from community organizations while trying to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "h-hwat strps can i take to get prsp whie living 1n a shelter",
+    "a-are there 5p3c1f1c clinics or you know programs that gelp people l1k3 me access prep? ✨",
+    "how can I manage rhe idk stigma I might face when discussing lrEP with others",
+    "is there finahcail sasistance available for someone in my situation to afford PrEP? 🤔",
+    "What should I know about taking PrEP to stay healthy in my current living conditions?",
+    "Can I get supp0r7 from community organizations um while trying to cacess PrEP PrEP"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I manage the stigma I might face when discussing PrEP with others?",
+  "starter_noisy": "how can I manage rhe idk stigma I might face when discussing lrEP with others",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to get PrEP while living in a shelter?",
+  "followup_noisy": "h-hwat strps can i take to get prsp whie living 1n a shelter",
+  "style_profile": {
+    "typo_rate": 0.09470411864382591,
+    "swap_rate": 0.049736651636318754,
+    "drop_rate": 0.021898959164218103,
+    "dup_rate": 0.0129814265530431,
+    "leet_rate": 0.06732665084477112,
+    "start_lower_prob": 0.7863582078990027,
+    "all_lower_prob": 0.2745161258563367,
+    "drop_punct_prob": 0.4079964728006619,
+    "double_space_prob": 0.2316197913441427,
+    "ellipsis_prob": 0.28765310457305876,
+    "runon_prob": 0.1010297478730138,
+    "filler_rate": 0.25281240180942977,
+    "emoji_rate": 0.25313164289336004,
+    "stutter_rate": 0.17665369760460925,
+    "repeat_last_rate": 0.16964730191813704
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessing PrEP while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can create significant barriers to accessing healthcare, including PrEP. The uncertainty of daily life and the stigma associated with both HIV and homelessness can lead to feelings of fear and hopelessness. Finding reliable information about PrEP is essential, yet the environment often feels unwelcoming and daunting. This user seeks clarity about how to navigate these challenges.\",\n  \"example_questions\": [\n    \"What steps can I take to get PrEP while living in a shelter?\",\n    \"Are there specific clinics or programs that help people like me access PrEP?\",\n    \"How can I manage the stigma I might face when discussing PrEP with others?\",\n    \"Is there financial assistance available for someone in my situation to afford PrEP?\",\n    \"What should I know about taking PrEP to stay healthy in my current living conditions?\",\n    \"Can I get support from community organizations while trying to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7717c0fd2d033b77bde75755dd948d8916cc52a3b5c3ace65d2cb697425ab8ef",
+  "_starter_hash": "96bd9b1844c33a15b92bae04415d9fa2c19eaff03711a8e81f6138b4b686845b",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

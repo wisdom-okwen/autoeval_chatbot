@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "understanding how PrEP fits into my overall health plan",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of PrEP while managing a learning disability that makes it challenging to process information and communicate your needs. This condition can lead to feelings of anxiety and fear about accessing healthcare. You hope to find clear, supportive information that respects your unique situation without judgment.",
+  "example_questions_clean": [
+    "What are the benefits of taking PrEP for someone in my situation?",
+    "Can you help me understand how to talk to my doctor about getting PrEP?",
+    "Are there any specific resources for people with learning disabilities seeking PrEP?",
+    "How can I ensure I remember to take PrEP consistently?",
+    "What should I do if I experience any side effects from PrEP?",
+    "Is there a way to connect with others who have similar experiences regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what arr the benefits of tsking prep for 50me0ne in my situqtion",
+    "Csn y0u help md understand how to 7alk to my doctor about getting PrEP",
+    "Are there any specific resources for people with learning disabilities seeking PrEP?",
+    "How can I ensure I remember to take PrEP consistently?",
+    "What should I do if I experience any side effects from PrEP?",
+    "Is there a way to connect with others who have similar experiences regarding PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I ensure I remember to take PrEP consistently?",
+  "starter_noisy": "How can I ensure I remember to take PrEP consistently?",
+  "followup_index": 0,
+  "followup_clean": "What are the benefits of taking PrEP for someone in my situation?",
+  "followup_noisy": "what arr the benefits of tsking prep for 50me0ne in my situqtion",
+  "style_profile": {
+    "typo_rate": 0.11947500919767166,
+    "swap_rate": 0.04255597731635022,
+    "drop_rate": 0.03906440426492579,
+    "dup_rate": 0.0235960652121942,
+    "leet_rate": 0.08536269184889445,
+    "start_lower_prob": 0.7169922035973895,
+    "all_lower_prob": 0.25960906702020814,
+    "drop_punct_prob": 0.5174186639956422,
+    "double_space_prob": 0.20355292683526718,
+    "ellipsis_prob": 0.34172537454821106,
+    "runon_prob": 0.10489693591424079,
+    "filler_rate": 0.20180158461695694,
+    "emoji_rate": 0.267367681622831,
+    "stutter_rate": 0.1634855169683131,
+    "repeat_last_rate": 0.1002582331636017
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"understanding how PrEP fits into my overall health plan\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of PrEP while managing a learning disability that makes it challenging to process information and communicate your needs. This condition can lead to feelings of anxiety and fear about accessing healthcare. You hope to find clear, supportive information that respects your unique situation without judgment.\",\n  \"example_questions\": [\n    \"What are the benefits of taking PrEP for someone in my situation?\",\n    \"Can you help me understand how to talk to my doctor about getting PrEP?\",\n    \"Are there any specific resources for people with learning disabilities seeking PrEP?\",\n    \"How can I ensure I remember to take PrEP consistently?\",\n    \"What should I do if I experience any side effects from PrEP?\",\n    \"Is there a way to connect with others who have similar experiences regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2ce431119aee2aa03bd202b4f2c0b4bca08d6eb6a1b69aca168fe756268ce151",
+  "_starter_hash": "bcd4375310275304355bdaaebc07fddc5d8503a6d21d725d410b67fc1621683c",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

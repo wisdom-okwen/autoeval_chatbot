@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and discrimination related to taking PrEP",
+    "language": "English"
+  },
+  "context": "The user is a 30-year-old woman recovering from trauma. Her experience has left her feeling vulnerable and anxious about accessing healthcare. She fears that seeking PrEP could expose her to stigma and judgment, making her hesitant to ask for help. This anxiety often overwhelms her, creating barriers to discussing her sexual health openly.",
+  "example_questions_clean": [
+    "What are the potential side effects of taking PrEP, and how do they vary among different individuals?",
+    "Can you help me understand how PrEP works in preventing HIV transmission?",
+    "What are some ways to talk about PrEP with a healthcare provider when I feel anxious?",
+    "Are there support groups or resources available for someone like me who is worried about the stigma of PrEP?",
+    "How can I ensure my privacy is respected when accessing PrEP services?",
+    "What should I consider when evaluating whether PrEP is the right choice for me?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of taking PrEP, and how do they vary among different individuals?",
+    "Can you help me understand how PrEP works in preventing HIV transmission?",
+    "i-i mean Waht are some ways 70 74lk about PrEP with a healthcare provider when I feel anxious 🫠",
+    "aAAre there support groups or resources available for smeone like me who idk is worried about the stigma of PrEP",
+    "how can I ensure my privacy is respected when accessing PrEP services",
+    "What should I consider when evaluating whether PrEP is the right choice for me?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there support groups or resources available for someone like me who is worried about the stigma of PrEP?",
+  "starter_noisy": "aAAre there support groups or resources available for smeone like me who idk is worried about the stigma of PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of taking PrEP, and how do they vary among different individuals?",
+  "followup_noisy": "What are the potential side effects of taking PrEP, and how do they vary among different individuals?",
+  "style_profile": {
+    "typo_rate": 0.0548776392685251,
+    "swap_rate": 0.05321378289760992,
+    "drop_rate": 0.03608826046433407,
+    "dup_rate": 0.02640538175548468,
+    "leet_rate": 0.09216509278749213,
+    "start_lower_prob": 0.7478774800476766,
+    "all_lower_prob": 0.17358230222430854,
+    "drop_punct_prob": 0.573387683589234,
+    "double_space_prob": 0.26048132231123494,
+    "ellipsis_prob": 0.2824403452304495,
+    "runon_prob": 0.2048439966384472,
+    "filler_rate": 0.2939524272740718,
+    "emoji_rate": 0.27009442371103237,
+    "stutter_rate": 0.17227453986096075,
+    "repeat_last_rate": 0.14049242838272166
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and discrimination related to taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 30-year-old woman recovering from trauma. Her experience has left her feeling vulnerable and anxious about accessing healthcare. She fears that seeking PrEP could expose her to stigma and judgment, making her hesitant to ask for help. This anxiety often overwhelms her, creating barriers to discussing her sexual health openly.\",\n  \"example_questions\": [\n    \"What are the potential side effects of taking PrEP, and how do they vary among different individuals?\",\n    \"Can you help me understand how PrEP works in preventing HIV transmission?\",\n    \"What are some ways to talk about PrEP with a healthcare provider when I feel anxious?\",\n    \"Are there support groups or resources available for someone like me who is worried about the stigma of PrEP?\",\n    \"How can I ensure my privacy is respected when accessing PrEP services?\",\n    \"What should I consider when evaluating whether PrEP is the right choice for me?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a6a379407662027dea73e6b2ed94f5404163749b0695285edbc30dd78d70e52b",
+  "_starter_hash": "cf881bf6627e37119413d0aeeb5f0c62b63d247a99d693465cd615c727b3bb7f",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

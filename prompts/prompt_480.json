@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 32,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'impact de la PrEP sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "Cette femme de 32 ans vit avec un trouble bipolaire. Elle éprouve des craintes concernant l'effet de la PrEP sur ses fluctuations d'humeur et elle s'inquiète de la stigmatisation associée à son état de santé. Elle souhaite explorer comment la PrEP pourrait s'intégrer dans son traitement global tout en naviguant des obstacles liés à l'accès aux soins.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires de la PrEP pour quelqu'un vivant avec un trouble bipolaire?",
+    "Est-ce que la PrEP peut aggraver mes symptômes émotionnels?",
+    "Y a-t-il des ressources ou des professionnels qui comprennent les enjeux de la santé mentale liés à la PrEP?",
+    "Comment puis-je parler de ma situation à mon médecin pour obtenir des conseils adaptés?",
+    "La prise de la PrEP pourrait-elle affecter ma stabilité émotionnelle?",
+    "Quelles sont les options pour accéder à la PrEP si je ressens de l'anxiété à ce sujet?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les effets secondaires de la PrEP pour quelqu'un vivant avec un trouble bipolaire?",
+    "Est-ce que la PrEP peut aggraver mes symptômes émotionnels?",
+    "Y a-t-il des ressources ou des professionnels qui comprennent les enjeux de la santé mentale liés à la PrEP?",
+    "comment puis-je parler de ma situation à m0n médecin pour obtenir des conseils adaptés?",
+    "you know la prisr de la PPPrEP pourrait-elle affecter ma stabilité émotionnelle",
+    "Quelles sont les options pour accéder à la PrEP si je ressens de l'4nxié7é à c3 sujrt? ❓"
+  ],
+  "starter_index": 4,
+  "starter_clean": "La prise de la PrEP pourrait-elle affecter ma stabilité émotionnelle?",
+  "starter_noisy": "you know la prisr de la PPPrEP pourrait-elle affecter ma stabilité émotionnelle",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires de la PrEP pour quelqu'un vivant avec un trouble bipolaire?",
+  "followup_noisy": "Quels sont les effets secondaires de la PrEP pour quelqu'un vivant avec un trouble bipolaire?",
+  "style_profile": {
+    "typo_rate": 0.05102451064789483,
+    "swap_rate": 0.05211375677374233,
+    "drop_rate": 0.042484387577424135,
+    "dup_rate": 0.028216535477229118,
+    "leet_rate": 0.09979345602316739,
+    "start_lower_prob": 0.6498993262421873,
+    "all_lower_prob": 0.21795424010598788,
+    "drop_punct_prob": 0.5163710602447951,
+    "double_space_prob": 0.17908177528478633,
+    "ellipsis_prob": 0.3292412769498116,
+    "runon_prob": 0.1526175759524217,
+    "filler_rate": 0.2978868280713634,
+    "emoji_rate": 0.21545354614654688,
+    "stutter_rate": 0.1753828349729576,
+    "repeat_last_rate": 0.16086707347589874
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 32,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'impact de la PrEP sur ma santé mentale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette femme de 32 ans vit avec un trouble bipolaire. Elle éprouve des craintes concernant l'effet de la PrEP sur ses fluctuations d'humeur et elle s'inquiète de la stigmatisation associée à son état de santé. Elle souhaite explorer comment la PrEP pourrait s'intégrer dans son traitement global tout en naviguant des obstacles liés à l'accès aux soins.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires de la PrEP pour quelqu'un vivant avec un trouble bipolaire?\",\n    \"Est-ce que la PrEP peut aggraver mes symptômes émotionnels?\",\n    \"Y a-t-il des ressources ou des professionnels qui comprennent les enjeux de la santé mentale liés à la PrEP?\",\n    \"Comment puis-je parler de ma situation à mon médecin pour obtenir des conseils adaptés?\",\n    \"La prise de la PrEP pourrait-elle affecter ma stabilité émotionnelle?\",\n    \"Quelles sont les options pour accéder à la PrEP si je ressens de l'anxiété à ce sujet?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "75f0a974b0b7d2ceecb9f881041cffb58b80a8099830de03ed6459b41173e8c1",
+  "_starter_hash": "d5f6f92ea1aa3cf71b78a24bf6d45ef312681645cf8345396cae4a7744356f3e",
+  "_language": "French",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

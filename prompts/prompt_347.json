@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de impact van mijn PTSD op het nemen van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je hebt last van PTSD, wat je gevoelens van angst en wanhoop versterkt bij het overwegen van PrEP. Je maakt je zorgen over stigma en de mogelijke reacties van anderen als ze ontdekken dat je PrEP overweegt.",
+  "example_questions_clean": [
+    "Wat zijn de psychologische effecten van het nemen van PrEP voor iemand met PTSD?",
+    "Hoe kan ik mijn angsten over stigma verminderen bij het bespreken van PrEP?",
+    "Zijn er speciale programma's of ondersteuning voor mensen met mentale gezondheidsproblemen die PrEP willen gebruiken?",
+    "Wat moet ik weten over de bijwerkingen van PrEP in combinatie met mijn huidige behandeling voor PTSD?",
+    "Kun je aanbevelingen doen voor zorgverleners die begripvol zijn voor mijn situatie?",
+    "Wat zijn de eerste stappen die ik kan nemen om meer te leren over PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-wat zijn de psychologische effecten van het nemen van prep voor iemand met ptsd",
+    "Hoe kan ik mijn angsten over stigma verminderen bij het bespreken van PrEP?",
+    "zijn er speciale programma's of ondersteuning vlor mnesen met mentale gezondheisdproblemen die PrEP willen gebruiken?",
+    "Wat moet ik weten over de bijwerkingen van PrEP in combinatie met mijn huidige behandeling voor PTSD?",
+    "Kun je aanbevelingen doen voor zorgverleners die begripvol zijn voor mijn situatie?",
+    "Wat zijn de eerste stappen die ik kan nemen om meer te leren over PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Zijn er speciale programma's of ondersteuning voor mensen met mentale gezondheidsproblemen die PrEP willen gebruiken?",
+  "starter_noisy": "zijn er speciale programma's of ondersteuning vlor mnesen met mentale gezondheisdproblemen die PrEP willen gebruiken?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de psychologische effecten van het nemen van PrEP voor iemand met PTSD?",
+  "followup_noisy": "w-wat zijn de psychologische effecten van het nemen van prep voor iemand met ptsd",
+  "style_profile": {
+    "typo_rate": 0.05627741029617525,
+    "swap_rate": 0.036191146331115864,
+    "drop_rate": 0.049659725415347133,
+    "dup_rate": 0.022318898649609183,
+    "leet_rate": 0.05632906862675829,
+    "start_lower_prob": 0.7585869595603729,
+    "all_lower_prob": 0.30060478690441605,
+    "drop_punct_prob": 0.5478840437760073,
+    "double_space_prob": 0.2883879726562812,
+    "ellipsis_prob": 0.2581458048335943,
+    "runon_prob": 0.1333945289456351,
+    "filler_rate": 0.24454269590023356,
+    "emoji_rate": 0.3420721471247637,
+    "stutter_rate": 0.190932418618898,
+    "repeat_last_rate": 0.13111666210904224
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de impact van mijn PTSD op het nemen van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt last van PTSD, wat je gevoelens van angst en wanhoop versterkt bij het overwegen van PrEP. Je maakt je zorgen over stigma en de mogelijke reacties van anderen als ze ontdekken dat je PrEP overweegt.\",\n  \"example_questions\": [\n    \"Wat zijn de psychologische effecten van het nemen van PrEP voor iemand met PTSD?\",\n    \"Hoe kan ik mijn angsten over stigma verminderen bij het bespreken van PrEP?\",\n    \"Zijn er speciale programma's of ondersteuning voor mensen met mentale gezondheidsproblemen die PrEP willen gebruiken?\",\n    \"Wat moet ik weten over de bijwerkingen van PrEP in combinatie met mijn huidige behandeling voor PTSD?\",\n    \"Kun je aanbevelingen doen voor zorgverleners die begripvol zijn voor mijn situatie?\",\n    \"Wat zijn de eerste stappen die ik kan nemen om meer te leren over PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "130ea90302f37670ab1d0603d742972bf82e999715ea79fa6dae6112fbd59090",
+  "_starter_hash": "022d7f9d38867ee19313a1340294863a2ca401c351dff38e27e65be7982dfabd",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

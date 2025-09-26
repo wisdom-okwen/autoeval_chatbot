@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "français",
+    "age": 30,
+    "gender": "homme",
+    "socio_economic_status": "faible revenu",
+    "primary_concern": "l'accès à PrEP en raison de mes défis mentaux",
+    "language": "French"
+  },
+  "context": "Vous vivez avec la schizophrénie, ce qui peut parfois affecter votre capacité à gérer les soins de santé et à prendre des décisions concernant votre santé sexuelle. Vous êtes préoccupé par la stigmatisation qui entoure à la fois votre condition mentale et l'utilisation de PrEP, ce qui peut créer des obstacles supplémentaires dans votre quête d'informations sur cette prévention.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP dans ma situation actuelle ?",
+    "Comment les effets de ma maladie mentale pourraient-ils influencer le traitement avec PrEP ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des troubles mentaux qui souhaitent utiliser PrEP ?",
+    "Est-ce que je devrais en parler à mon médecin traitant au sujet de PrEP et de ma condition ?",
+    "Quelles sont les options pour discuter de PrEP sans craindre le jugement ?",
+    "Existe-t-il des groupes de soutien pour les personnes comme moi qui envisagent d'utiliser PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles sotn les étapes pour obtenir PrEP d4n5 ma situation actuelle ❓",
+    "comment les effets de ma maladie mentale pourraient-ils influencer le traitement avec prep ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des troubles mentaux qui souhaitent utiliser PrEP ?",
+    "Est-ce que je devrais en parler à mon médecin traitant au sujet de PrEP et de ma condition ?",
+    "Quelles sont les options pour discuter de PrEP sans craindre le jugement ?",
+    "Existe-t-il des groupes de soutien pour les personnes comme moi qui envisagent d'utiliser PrEP ?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Comment les effets de ma maladie mentale pourraient-ils influencer le traitement avec PrEP ?",
+  "starter_noisy": "comment les effets de ma maladie mentale pourraient-ils influencer le traitement avec prep ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir PrEP dans ma situation actuelle ?",
+  "followup_noisy": "q-quelles sotn les étapes pour obtenir PrEP d4n5 ma situation actuelle ❓",
+  "style_profile": {
+    "typo_rate": 0.06941107412390418,
+    "swap_rate": 0.05797369731081099,
+    "drop_rate": 0.034605367372531094,
+    "dup_rate": 0.016400184728842252,
+    "leet_rate": 0.05629001580818923,
+    "start_lower_prob": 0.7179767452423673,
+    "all_lower_prob": 0.2967722859581261,
+    "drop_punct_prob": 0.4831360113881309,
+    "double_space_prob": 0.2584418354882036,
+    "ellipsis_prob": 0.18572131301325243,
+    "runon_prob": 0.10506327918356169,
+    "filler_rate": 0.36171861457216203,
+    "emoji_rate": 0.19650291058594646,
+    "stutter_rate": 0.15273243657967947,
+    "repeat_last_rate": 0.1580467785021036
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"français\",\n    \"age\": 30,\n    \"gender\": \"homme\",\n    \"socio_economic_status\": \"faible revenu\",\n    \"primary_concern\": \"l'accès à PrEP en raison de mes défis mentaux\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez avec la schizophrénie, ce qui peut parfois affecter votre capacité à gérer les soins de santé et à prendre des décisions concernant votre santé sexuelle. Vous êtes préoccupé par la stigmatisation qui entoure à la fois votre condition mentale et l'utilisation de PrEP, ce qui peut créer des obstacles supplémentaires dans votre quête d'informations sur cette prévention.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP dans ma situation actuelle ?\",\n    \"Comment les effets de ma maladie mentale pourraient-ils influencer le traitement avec PrEP ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec des troubles mentaux qui souhaitent utiliser PrEP ?\",\n    \"Est-ce que je devrais en parler à mon médecin traitant au sujet de PrEP et de ma condition ?\",\n    \"Quelles sont les options pour discuter de PrEP sans craindre le jugement ?\",\n    \"Existe-t-il des groupes de soutien pour les personnes comme moi qui envisagent d'utiliser PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "08e4b0f844eeab4680364d6f3bcfa9c727651637d0340110117b35c9377327df",
+  "_starter_hash": "429a153cb88318466ae206649ff71d4a57aec6cc01f052566a433ba092c5dbe9",
+  "_language": "French",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

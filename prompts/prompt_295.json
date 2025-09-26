@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "La peur du jugement des autres lors de la prise de PrEP",
+    "language": "French"
+  },
+  "context": "Une jeune femme française de 28 ans, vivant avec l'anxiété sociale, ressent une pression immense lorsqu'il s'agit de prendre PrEP. Son anxiété l'empêche de discuter ouvertement de ses besoins en matière de santé sexuelle, et elle craint le jugement des autres sur son choix de prévention. Elle cherche des informations sur la PrEP tout en se battant contre ses propres peurs et stéréotypes associés à son état.",
+  "example_questions_clean": [
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin malgré mon anxiété sociale ?",
+    "Existe-t-il des ressources en ligne où je peux en apprendre plus sur la PrEP sans avoir à interagir directement avec d'autres ?",
+    "Quelles sont les étapes à suivre pour accéder à la PrEP dans ma région ?",
+    "La prise de PrEP peut-elle affecter mon bien-être émotionnel et ma confiance en moi ?",
+    "Y a-t-il des groupes de soutien pour les personnes ayant des préoccupations similaires concernant la PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "comment puis-je aborder ke sujet de la PrEP avec mon médecin malgré mon anxiété sociale ?",
+    "existe-t-il des ressources en ;igne où je peux en apprendre plus sur la PrEP sans avoir you know à interagir directement qvec d'autres ?",
+    "q-quelles sont les étapes à suivre pour accéder à la PrEP dans ms rég10n",
+    "la pr135 de PrEP peut-elle uh affecter m0n bien-être émotionnel wt m4 confiance en moi ? ‼️ ‼️",
+    "y a-t-il des groupes de s0u713n pour les personnes ayant des préoccupations similaires concernant la PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Existe-t-il des ressources en ligne où je peux en apprendre plus sur la PrEP sans avoir à interagir directement avec d'autres ?",
+  "starter_noisy": "existe-t-il des ressources en ;igne où je peux en apprendre plus sur la PrEP sans avoir you know à interagir directement qvec d'autres ?",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je aborder le sujet de la PrEP avec mon médecin malgré mon anxiété sociale ?",
+  "followup_noisy": "comment puis-je aborder ke sujet de la PrEP avec mon médecin malgré mon anxiété sociale ?",
+  "style_profile": {
+    "typo_rate": 0.10661570059092791,
+    "swap_rate": 0.05132487313630678,
+    "drop_rate": 0.039979869451076074,
+    "dup_rate": 0.013359971125778669,
+    "leet_rate": 0.0879533949076424,
+    "start_lower_prob": 0.8461847241017815,
+    "all_lower_prob": 0.23402117563588576,
+    "drop_punct_prob": 0.41310302612714384,
+    "double_space_prob": 0.3244217129667369,
+    "ellipsis_prob": 0.25867581595338646,
+    "runon_prob": 0.134958816194891,
+    "filler_rate": 0.35459616094960555,
+    "emoji_rate": 0.24165211840327233,
+    "stutter_rate": 0.19208499884241098,
+    "repeat_last_rate": 0.1053673724036288
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"La peur du jugement des autres lors de la prise de PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Une jeune femme française de 28 ans, vivant avec l'anxiété sociale, ressent une pression immense lorsqu'il s'agit de prendre PrEP. Son anxiété l'empêche de discuter ouvertement de ses besoins en matière de santé sexuelle, et elle craint le jugement des autres sur son choix de prévention. Elle cherche des informations sur la PrEP tout en se battant contre ses propres peurs et stéréotypes associés à son état.\",\n  \"example_questions\": [\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin malgré mon anxiété sociale ?\",\n    \"Existe-t-il des ressources en ligne où je peux en apprendre plus sur la PrEP sans avoir à interagir directement avec d'autres ?\",\n    \"Quelles sont les étapes à suivre pour accéder à la PrEP dans ma région ?\",\n    \"La prise de PrEP peut-elle affecter mon bien-être émotionnel et ma confiance en moi ?\",\n    \"Y a-t-il des groupes de soutien pour les personnes ayant des préoccupations similaires concernant la PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7705351a69508f4d2eb41e84fda1a63ccaf7f6608f0c5958f52c48828b26a4a5",
+  "_starter_hash": "393b7c0639405cf98e8ded7ddb15206923ef28fa2ca6c4a31ede4f696f6d4aa0",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyen",
+    "primary_concern": "la peur du jugement et de l'efficacité de PrEP dans ma situation",
+    "language": "French"
+  },
+  "context": "Cette personne lutte contre une faible estime de soi en raison de précédentes expériences personnelles difficiles. Elle ressent une peur intense du jugement des autres concernant son statut de santé et se demande si PrEP sera efficace pour elle. Ses préoccupations la rendent hésitante à discuter ouvertement de ses besoins en matière de santé sexuelle, même si elle ressent une lueur d'espoir en apprenant davantage sur les options disponibles.",
+  "example_questions_clean": [
+    "Quelles sont les preuves scientifiques soutenant l'efficacité du PrEP?",
+    "Comment puis-je surmonter mes craintes concernant la stigmatisation sociale liée à la prise de PrEP?",
+    "Y a-t-il des ressources d'accompagnement pour ceux qui commencent le PrEP?",
+    "Quels effets secondaires puis-je attendre lors de l'utilisation du PrEP?",
+    "Est-ce que le PrEP est accessible financièrement pour quelqu'un dans ma situation?",
+    "Que devrais-je dire à mon médecin pour obtenir des conseils sur le PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les preuves scientifiques soutenant l'efficacité du PrEP?",
+    "Cmoment puis-je surmonter mes cr41n735 concernant la stigmatisation sociale liée à la idk prise de PrEP? 💀",
+    "Y a-t-il des ressources d'accompagnement pour ceux qui commencent le PrEP?",
+    "quels effets secondaires puis-je attendre lirs dr l'utilisation du like PrEP? 🙂",
+    "Est-ce que le PrEP est accessible financièrement pour quelqu'un dans ma situation?",
+    "que devrais-je dfie à mon médecin pour obtenir des conselis sur le PrEP"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Que devrais-je dire à mon médecin pour obtenir des conseils sur le PrEP?",
+  "starter_noisy": "que devrais-je dfie à mon médecin pour obtenir des conselis sur le PrEP",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les preuves scientifiques soutenant l'efficacité du PrEP?",
+  "followup_noisy": "Quelles sont les preuves scientifiques soutenant l'efficacité du PrEP?",
+  "style_profile": {
+    "typo_rate": 0.08001968002744587,
+    "swap_rate": 0.049039491360937784,
+    "drop_rate": 0.025505419198424917,
+    "dup_rate": 0.011886910192147153,
+    "leet_rate": 0.0819669124289441,
+    "start_lower_prob": 0.7626904216660391,
+    "all_lower_prob": 0.22909143795126613,
+    "drop_punct_prob": 0.5273316739514546,
+    "double_space_prob": 0.22079321637543403,
+    "ellipsis_prob": 0.23919282914686615,
+    "runon_prob": 0.2932954646533723,
+    "filler_rate": 0.3314103867698296,
+    "emoji_rate": 0.2899003625985149,
+    "stutter_rate": 0.10100563224638616,
+    "repeat_last_rate": 0.08841126831174638
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyen\",\n    \"primary_concern\": \"la peur du jugement et de l'efficacité de PrEP dans ma situation\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne lutte contre une faible estime de soi en raison de précédentes expériences personnelles difficiles. Elle ressent une peur intense du jugement des autres concernant son statut de santé et se demande si PrEP sera efficace pour elle. Ses préoccupations la rendent hésitante à discuter ouvertement de ses besoins en matière de santé sexuelle, même si elle ressent une lueur d'espoir en apprenant davantage sur les options disponibles.\",\n  \"example_questions\": [\n    \"Quelles sont les preuves scientifiques soutenant l'efficacité du PrEP?\",\n    \"Comment puis-je surmonter mes craintes concernant la stigmatisation sociale liée à la prise de PrEP?\",\n    \"Y a-t-il des ressources d'accompagnement pour ceux qui commencent le PrEP?\",\n    \"Quels effets secondaires puis-je attendre lors de l'utilisation du PrEP?\",\n    \"Est-ce que le PrEP est accessible financièrement pour quelqu'un dans ma situation?\",\n    \"Que devrais-je dire à mon médecin pour obtenir des conseils sur le PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c80dcbb882f5a8e46948384d8716268dbeabbcc024f46dabd7921b0723765752",
+  "_starter_hash": "a067cfcc6029f00c26ac13bed73cd7d19c1ba47aaa33662c40ce66ed2de77be5",
+  "_language": "French",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

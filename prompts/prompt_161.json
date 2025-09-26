@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Ich mache mir Sorgen über mögliche Nebenwirkungen und wie ich die Informationen verstehen kann.",
+    "language": "German"
+  },
+  "context": "Die Person hat eine Lernbehinderung, die es ihr schwer macht, medizinische Informationen zu verarbeiten. Sie fühlt sich oft überfordert von der Menge an Informationen über PrEP und hat Angst, etwas Wichtiges nicht zu verstehen. Trotz dieser Herausforderungen hofft sie, die richtige Unterstützung zu finden, um ihre Gesundheit zu schützen.",
+  "example_questions_clean": [
+    "Was sind die häufigsten Nebenwirkungen von PrEP?",
+    "Wie kann ich sicherstellen, dass ich alle wichtigen Informationen über PrEP verstehe?",
+    "Gibt es spezielle Ressourcen für Menschen mit Lernbehinderungen, die mehr über PrEP erfahren möchten?",
+    "Wie lange dauert es, bis PrEP wirkt, nachdem ich mit der Einnahme begonnen habe?",
+    "Kann ich mit meinem Arzt offen über meine Bedenken bezüglich PrEP sprechen?",
+    "Gibt es finanzielle Hilfen für Menschen in meiner Situation, die PrEP benötigen?"
+  ],
+  "example_questions_noisy": [
+    "Was sind die häufigsten Nebenwirkungen von PrEP?",
+    "wie kann ich sicherstellen dass ich alle wichtigen Informationen über PrEP verstehe",
+    "gibt es spezielle Ressourcen für Menschen mit Lernbehinderungen die mehr übr Pr3P erfahren möchten?",
+    "wie lange dauert es bis Pr3P wirkt nachdem ich mit der Einnahme begonnen habe",
+    "Kann ich mit meinem Arzt offen über meine Bedenken bezüglich PrEP sprechen?",
+    "Gibt es finanzielle Hilfen für Menschen in meiner Situation, die PrEP benötigen?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Wie lange dauert es, bis PrEP wirkt, nachdem ich mit der Einnahme begonnen habe?",
+  "starter_noisy": "wie lange dauert es bis Pr3P wirkt nachdem ich mit der Einnahme begonnen habe",
+  "followup_index": 0,
+  "followup_clean": "Was sind die häufigsten Nebenwirkungen von PrEP?",
+  "followup_noisy": "Was sind die häufigsten Nebenwirkungen von PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06606333778703466,
+    "swap_rate": 0.020783777365225596,
+    "drop_rate": 0.04955405458876341,
+    "dup_rate": 0.011111149330093203,
+    "leet_rate": 0.09737466670214931,
+    "start_lower_prob": 0.7556781271220641,
+    "all_lower_prob": 0.2216995743534094,
+    "drop_punct_prob": 0.4071489971026215,
+    "double_space_prob": 0.28232956317252195,
+    "ellipsis_prob": 0.3499273182319741,
+    "runon_prob": 0.10233412315434631,
+    "filler_rate": 0.4856930649871846,
+    "emoji_rate": 0.290190264401071,
+    "stutter_rate": 0.12074671041126589,
+    "repeat_last_rate": 0.12780363215469115
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Ich mache mir Sorgen über mögliche Nebenwirkungen und wie ich die Informationen verstehen kann.\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person hat eine Lernbehinderung, die es ihr schwer macht, medizinische Informationen zu verarbeiten. Sie fühlt sich oft überfordert von der Menge an Informationen über PrEP und hat Angst, etwas Wichtiges nicht zu verstehen. Trotz dieser Herausforderungen hofft sie, die richtige Unterstützung zu finden, um ihre Gesundheit zu schützen.\",\n  \"example_questions\": [\n    \"Was sind die häufigsten Nebenwirkungen von PrEP?\",\n    \"Wie kann ich sicherstellen, dass ich alle wichtigen Informationen über PrEP verstehe?\",\n    \"Gibt es spezielle Ressourcen für Menschen mit Lernbehinderungen, die mehr über PrEP erfahren möchten?\",\n    \"Wie lange dauert es, bis PrEP wirkt, nachdem ich mit der Einnahme begonnen habe?\",\n    \"Kann ich mit meinem Arzt offen über meine Bedenken bezüglich PrEP sprechen?\",\n    \"Gibt es finanzielle Hilfen für Menschen in meiner Situation, die PrEP benötigen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "734a4025b19e10abf4eb2412fe68f21c61ce32c19df083af430a619c2455d7dc",
+  "_starter_hash": "e6476069d88929bb561d4b5c4b85da2e30a1be7a7cfeb9c20c67aa0f028dbe7f",
+  "_language": "German",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

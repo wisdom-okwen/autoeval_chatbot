@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 34,
+    "gender": "Feminino",
+    "socio_economic_status": "Classe média",
+    "primary_concern": "A eficácia e a segurança do PrEP considerando minha condição de esclerose múltipla.",
+    "language": "Portuguese"
+  },
+  "context": "Você está enfrentando desafios relacionados à esclerose múltipla, o que pode afetar sua perspectiva sobre novas terapias como o PrEP. Você se sente ansiosa sobre como o PrEP pode interagir com sua condição e as medicações que você já toma. Além disso, o estigma em torno do uso do PrEP e suas preocupações sobre a aceitação social podem gerar dúvidas e inseguranças, mas você também possui um desejo de se proteger e de viver plenamente.",
+  "example_questions_clean": [
+    "Como a esclerose múltipla pode afetar a eficácia do PrEP?",
+    "É seguro tomar PrEP com os medicamentos que estou usando para a esclerose múltipla?",
+    "Quais são os efeitos colaterais do PrEP que eu deveria estar atenta?",
+    "Como posso encontrar um médico que compreenda as minhas necessidades específicas?",
+    "O uso de PrEP pode trazer estigmas sociais, como posso lidar com isso?",
+    "Qual é o suporte disponível para pessoas com condições crônicas que desejam usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "como a esclerose múltipla pode afetar a eficácia do PrEP 🙂",
+    "É seguro tomar PrEP com os medicamentos que estou u45ndo para a esclerose múltipla",
+    "Quais são os efeitos colaterais do PrEP que eu deveria estar atenta?",
+    "como posso encontrar um um médio que compreenda as minhas necessidades específicas",
+    "O uso de PrEP pode trazer estigmas sociais, como posso lidar com isso?",
+    "Qual é o suporte disponível para pessoas com condições crônicas que desejam usar PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Como posso encontrar um médico que compreenda as minhas necessidades específicas?",
+  "starter_noisy": "como posso encontrar um um médio que compreenda as minhas necessidades específicas",
+  "followup_index": 0,
+  "followup_clean": "Como a esclerose múltipla pode afetar a eficácia do PrEP?",
+  "followup_noisy": "como a esclerose múltipla pode afetar a eficácia do PrEP 🙂",
+  "style_profile": {
+    "typo_rate": 0.058430709466640265,
+    "swap_rate": 0.031816883237275245,
+    "drop_rate": 0.021163818602604446,
+    "dup_rate": 0.023845164236822924,
+    "leet_rate": 0.07863358903093706,
+    "start_lower_prob": 0.8642309284778122,
+    "all_lower_prob": 0.2698865696027959,
+    "drop_punct_prob": 0.535330356365906,
+    "double_space_prob": 0.3446661004600709,
+    "ellipsis_prob": 0.29963789161118204,
+    "runon_prob": 0.18231843701260098,
+    "filler_rate": 0.4069545490034179,
+    "emoji_rate": 0.21188287829517594,
+    "stutter_rate": 0.1701475498336925,
+    "repeat_last_rate": 0.10862741928491342
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 34,\n    \"gender\": \"Feminino\",\n    \"socio_economic_status\": \"Classe média\",\n    \"primary_concern\": \"A eficácia e a segurança do PrEP considerando minha condição de esclerose múltipla.\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está enfrentando desafios relacionados à esclerose múltipla, o que pode afetar sua perspectiva sobre novas terapias como o PrEP. Você se sente ansiosa sobre como o PrEP pode interagir com sua condição e as medicações que você já toma. Além disso, o estigma em torno do uso do PrEP e suas preocupações sobre a aceitação social podem gerar dúvidas e inseguranças, mas você também possui um desejo de se proteger e de viver plenamente.\",\n  \"example_questions\": [\n    \"Como a esclerose múltipla pode afetar a eficácia do PrEP?\",\n    \"É seguro tomar PrEP com os medicamentos que estou usando para a esclerose múltipla?\",\n    \"Quais são os efeitos colaterais do PrEP que eu deveria estar atenta?\",\n    \"Como posso encontrar um médico que compreenda as minhas necessidades específicas?\",\n    \"O uso de PrEP pode trazer estigmas sociais, como posso lidar com isso?\",\n    \"Qual é o suporte disponível para pessoas com condições crônicas que desejam usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9f4fbe42b943d1dc3f4d35b4d47833a5ae0db4c23e3f1089cfd6664ba66ec672",
+  "_starter_hash": "143c1571a4d8e3017bde39c0c3b29b3a4d1f611ba39c918a5cc2a8c7f012643a",
+  "_language": "Portuguese",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and acceptance in healthcare settings",
+    "language": "English"
+  },
+  "context": "You are navigating the challenges of gender dysphoria while seeking information about PrEP. You feel vulnerable discussing your health needs due to past negative experiences in healthcare. This leads to concerns about being judged or misunderstood when inquiring about PrEP.",
+  "example_questions_clean": [
+    "What should I know about starting PrEP while experiencing gender dysphoria?",
+    "Are there specific healthcare providers who understand the unique challenges faced by non-binary individuals regarding PrEP?",
+    "How can I find a supportive environment to discuss my PrEP options?",
+    "Is it common to face stigma when asking for PrEP in a healthcare setting?",
+    "What resources are available for low-income individuals seeking access to PrEP?",
+    "How can I ensure my mental health is supported while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what should uh I know about statinf PrEP while experiencing gendr dsphoria",
+    "a-are there specific healthcare providers who understand the unique challenges faced by non-binary individuals regarding prep",
+    "How can I find a supportive environment to discuss my PrEP options?",
+    "Is it common to face stigma when asking for PrEP in a healthcare setting?",
+    "w-what resources are available for low-income ind1v1du4l5 seeking 4cc35s to prep",
+    "How can I ensure my mental health is supported while considering PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources are available for low-income individuals seeking access to PrEP?",
+  "starter_noisy": "w-what resources are available for low-income ind1v1du4l5 seeking 4cc35s to prep",
+  "followup_index": 0,
+  "followup_clean": "What should I know about starting PrEP while experiencing gender dysphoria?",
+  "followup_noisy": "what should uh I know about statinf PrEP while experiencing gendr dsphoria",
+  "style_profile": {
+    "typo_rate": 0.05132761307387078,
+    "swap_rate": 0.049501397875412835,
+    "drop_rate": 0.04920198041192621,
+    "dup_rate": 0.02503813562786073,
+    "leet_rate": 0.09706399265137938,
+    "start_lower_prob": 0.8574494577176157,
+    "all_lower_prob": 0.26604749007514117,
+    "drop_punct_prob": 0.46004126616166674,
+    "double_space_prob": 0.19965036060522384,
+    "ellipsis_prob": 0.2890739073849846,
+    "runon_prob": 0.15388529569611725,
+    "filler_rate": 0.34499624811903784,
+    "emoji_rate": 0.17517978031410744,
+    "stutter_rate": 0.19455522699026065,
+    "repeat_last_rate": 0.11059347646744673
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and acceptance in healthcare settings\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the challenges of gender dysphoria while seeking information about PrEP. You feel vulnerable discussing your health needs due to past negative experiences in healthcare. This leads to concerns about being judged or misunderstood when inquiring about PrEP.\",\n  \"example_questions\": [\n    \"What should I know about starting PrEP while experiencing gender dysphoria?\",\n    \"Are there specific healthcare providers who understand the unique challenges faced by non-binary individuals regarding PrEP?\",\n    \"How can I find a supportive environment to discuss my PrEP options?\",\n    \"Is it common to face stigma when asking for PrEP in a healthcare setting?\",\n    \"What resources are available for low-income individuals seeking access to PrEP?\",\n    \"How can I ensure my mental health is supported while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "caed8a8c6cc98e6c55cbf9b07a088367f23b2b9e47e73072f526798939036da8",
+  "_starter_hash": "79b986070ea132022fec1b593e2ff7acae3c97626fc4646a5b203672927115e9",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

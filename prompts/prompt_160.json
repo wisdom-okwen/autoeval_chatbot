@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "middelklasse",
+    "primary_concern": "angst voor stigma en toegang tot zorg",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart genderdysforie en maakt je zorgen over hoe dit je toegang tot PrEP kan beïnvloeden. Je voelt je soms angstig over het stigma dat je kunt tegenkomen bij zorgverleners. Tegelijkertijd hoop je op een veilige ruimte waar je vragen kunt stellen over je gezondheid.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP aanvragen zonder angst voor oordeel van zorgverleners?",
+    "Wat zijn de bijwerkingen van PrEP en kunnen deze erger zijn voor iemand in mijn situatie?",
+    "Zijn er specifieke klinieken die ervaring hebben met LGBTQ+ patiënten?",
+    "Kun je uitleggen hoe PrEP werkt en waarom het belangrijk is voor mijn gezondheid?",
+    "Hoe kan ik steun vinden bij anderen die vergelijkbare ervaringen hebben?",
+    "Wat zijn de eerste stappen die ik moet nemen om te beginnen met PrEP?"
+  ],
+  "example_questions_noisy": [
+    "hoe kan ik PrEP aanvragen zonder angst voor iordeel van zorgverlendrs",
+    "Wat zijn de bijwerkingen van PrEP en kunnen idk deze eeerger zijn voor iemand 1n mijn situatie?",
+    "Z1jn er specifieke klinieken d13 ervaring hebben met LGBTQ+ patiënten?",
+    "kun je uitleggen hoe Pr3P aerkt eeen waarom het belangrijk is voor mijn gezondheid gezondheid",
+    "Hoe kan ik steun vinden bij anderen die vergelijkbare ervaringen hebben?",
+    "Wat zijn de eerste stappen die ik moet nemen om te beginnen met PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Wat zijn de bijwerkingen van PrEP en kunnen deze erger zijn voor iemand in mijn situatie?",
+  "starter_noisy": "Wat zijn de bijwerkingen van PrEP en kunnen idk deze eeerger zijn voor iemand 1n mijn situatie?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik PrEP aanvragen zonder angst voor oordeel van zorgverleners?",
+  "followup_noisy": "hoe kan ik PrEP aanvragen zonder angst voor iordeel van zorgverlendrs",
+  "style_profile": {
+    "typo_rate": 0.1059750719223739,
+    "swap_rate": 0.040457469408430535,
+    "drop_rate": 0.030312145197584475,
+    "dup_rate": 0.024687614065838186,
+    "leet_rate": 0.09485538758289766,
+    "start_lower_prob": 0.6660524645448751,
+    "all_lower_prob": 0.19240215566413388,
+    "drop_punct_prob": 0.4442727044583475,
+    "double_space_prob": 0.1776119404111209,
+    "ellipsis_prob": 0.2489382726314231,
+    "runon_prob": 0.28815663908560474,
+    "filler_rate": 0.4651683555843741,
+    "emoji_rate": 0.239606111561753,
+    "stutter_rate": 0.10188540225408449,
+    "repeat_last_rate": 0.10140600576176413
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middelklasse\",\n    \"primary_concern\": \"angst voor stigma en toegang tot zorg\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart genderdysforie en maakt je zorgen over hoe dit je toegang tot PrEP kan beïnvloeden. Je voelt je soms angstig over het stigma dat je kunt tegenkomen bij zorgverleners. Tegelijkertijd hoop je op een veilige ruimte waar je vragen kunt stellen over je gezondheid.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP aanvragen zonder angst voor oordeel van zorgverleners?\",\n    \"Wat zijn de bijwerkingen van PrEP en kunnen deze erger zijn voor iemand in mijn situatie?\",\n    \"Zijn er specifieke klinieken die ervaring hebben met LGBTQ+ patiënten?\",\n    \"Kun je uitleggen hoe PrEP werkt en waarom het belangrijk is voor mijn gezondheid?\",\n    \"Hoe kan ik steun vinden bij anderen die vergelijkbare ervaringen hebben?\",\n    \"Wat zijn de eerste stappen die ik moet nemen om te beginnen met PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0262ec0d4b4709d5240a5b01f4942018158f08b4b8503d66bac1786014b1b317",
+  "_starter_hash": "5676e1e62985c1cbfb8b646f1cef4b37f4e0531aae2fed773889788c16026081",
+  "_language": "Dutch",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

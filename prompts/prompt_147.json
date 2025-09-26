@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "el estigma social asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Te sientes aislada socialmente debido a un diagnóstico reciente de una condición de salud. Esto ha afectado tu confianza y te preocupa cómo los demás podrían reaccionar si supieran que estás considerando tomar PrEP. Estás buscando información para tomar una decisión informada, pero el miedo al juicio y la soledad te están limitando.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios comunes de tomar PrEP?",
+    "Me preocupa que la gente me juzgue si saben que estoy tomando PrEP, ¿cómo puedo manejar eso?",
+    "¿Dónde puedo obtener PrEP de manera confidencial?",
+    "¿Es seguro tomar PrEP si tengo otras condiciones de salud?",
+    "¿Qué debo hacer si tengo dudas sobre la efectividad de PrEP?",
+    "¿Cómo puedo encontrar apoyo emocional mientras estoy en este proceso?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios comunes de tomar PrEP?",
+    "me preocupa que la gente me juzgue si saben que estoy tomando PrEP, ¿cójo puedo manejar eso? eso?",
+    "¿dónde puedo ob7en3r prep de manera confidencial?",
+    "¿-¿35 seguro tomar PrEP si 73ng0 otras condiciones dd salud?",
+    "¿Qué debo hacer si tengo dudas sobre la efectividad de PrEP?",
+    "¿Cómo puedo encontrar apoyo emocional mientras estoy en este proceso?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Dónde puedo obtener PrEP de manera confidencial?",
+  "starter_noisy": "¿dónde puedo ob7en3r prep de manera confidencial?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios comunes de tomar PrEP?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios comunes de tomar PrEP?",
+  "style_profile": {
+    "typo_rate": 0.11766318540956605,
+    "swap_rate": 0.05173234570523752,
+    "drop_rate": 0.03715286982352567,
+    "dup_rate": 0.012151808458746105,
+    "leet_rate": 0.08978018848463362,
+    "start_lower_prob": 0.6845250110416459,
+    "all_lower_prob": 0.16266202522770806,
+    "drop_punct_prob": 0.36309989529972997,
+    "double_space_prob": 0.3340020297913615,
+    "ellipsis_prob": 0.18894840899871257,
+    "runon_prob": 0.18507776754532618,
+    "filler_rate": 0.39252614464674296,
+    "emoji_rate": 0.15994352103048498,
+    "stutter_rate": 0.13610957124847134,
+    "repeat_last_rate": 0.1537407293408401
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"el estigma social asociado con el uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Te sientes aislada socialmente debido a un diagnóstico reciente de una condición de salud. Esto ha afectado tu confianza y te preocupa cómo los demás podrían reaccionar si supieran que estás considerando tomar PrEP. Estás buscando información para tomar una decisión informada, pero el miedo al juicio y la soledad te están limitando.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios comunes de tomar PrEP?\",\n    \"Me preocupa que la gente me juzgue si saben que estoy tomando PrEP, ¿cómo puedo manejar eso?\",\n    \"¿Dónde puedo obtener PrEP de manera confidencial?\",\n    \"¿Es seguro tomar PrEP si tengo otras condiciones de salud?\",\n    \"¿Qué debo hacer si tengo dudas sobre la efectividad de PrEP?\",\n    \"¿Cómo puedo encontrar apoyo emocional mientras estoy en este proceso?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c3e18a9fe59c2cb224a7e46619f32db7aaed8f63422351a1631c58786afc81e7",
+  "_starter_hash": "f756702cfa63de2b2e24285f165ed8e304ccb721906a38a1f9cf12f3b53a935a",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

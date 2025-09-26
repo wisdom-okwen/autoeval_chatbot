@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlander",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "de toegang tot PrEP in combinatie met mijn herstel van een verleden met middelengebruik",
+    "language": "Dutch"
+  },
+  "context": "Deze gebruiker heeft een verleden met middelengebruik en voelt zich angstig over het starten met PrEP. Ze maakt zich zorgen over stigma en hoe haar verleden invloed kan hebben op de zorg die ze ontvangt. Ze hoopt op een manier om veilig te blijven, maar heeft twijfels over de steun die ze zal krijgen.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP krijgen als ik in herstel ben van middelengebruik?",
+    "Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met een geschiedenis van verslaving?",
+    "Hoe kan ik het gesprek aangaan met mijn zorgverlener over mijn behoefte aan PrEP?",
+    "Is er ondersteuning beschikbaar voor mensen die PrEP gebruiken en worstelen met geestelijke gezondheidsproblemen?",
+    "Wat moet ik weten over de kosten van PrEP en eventuele verzekering?"
+  ],
+  "example_questions_noisy": [
+    "hoe kan uk prep krijgeeen als ok in i mean herstel ben van m1dd3l3hg3bru1k",
+    "zijn er speciale you know rogramma's voor mensen zoals ik die PrEP willen gebruiken 😬",
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met een geschiedenis van verslaving?",
+    "Hoe kan ik het gesprek aangaan met mijn zorgverlener over mijn behoefte aan PrEP?",
+    "Is er ondersteuning beschikbaar voor mensen die PrEP gebruiken en worstelen met geestelijke gezondheidsproblemen?",
+    "wwwwt m037 ik weten lver de kosten van prep en eventuele verzekering 🤔"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met een geschiedenis van verslaving?",
+  "starter_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met een geschiedenis van verslaving?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik PrEP krijgen als ik in herstel ben van middelengebruik?",
+  "followup_noisy": "hoe kan uk prep krijgeeen als ok in i mean herstel ben van m1dd3l3hg3bru1k",
+  "style_profile": {
+    "typo_rate": 0.0854250874787445,
+    "swap_rate": 0.02072271809497935,
+    "drop_rate": 0.035709874079959195,
+    "dup_rate": 0.019618476171880755,
+    "leet_rate": 0.11827647912166095,
+    "start_lower_prob": 0.8212378329807678,
+    "all_lower_prob": 0.21600371031967175,
+    "drop_punct_prob": 0.5371276884309925,
+    "double_space_prob": 0.17985288473171435,
+    "ellipsis_prob": 0.2145263332848141,
+    "runon_prob": 0.12182725731022462,
+    "filler_rate": 0.39181282856490374,
+    "emoji_rate": 0.30177061878777,
+    "stutter_rate": 0.17728766932418855,
+    "repeat_last_rate": 0.1242415041316681
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlander\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"de toegang tot PrEP in combinatie met mijn herstel van een verleden met middelengebruik\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Deze gebruiker heeft een verleden met middelengebruik en voelt zich angstig over het starten met PrEP. Ze maakt zich zorgen over stigma en hoe haar verleden invloed kan hebben op de zorg die ze ontvangt. Ze hoopt op een manier om veilig te blijven, maar heeft twijfels over de steun die ze zal krijgen.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP krijgen als ik in herstel ben van middelengebruik?\",\n    \"Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met een geschiedenis van verslaving?\",\n    \"Hoe kan ik het gesprek aangaan met mijn zorgverlener over mijn behoefte aan PrEP?\",\n    \"Is er ondersteuning beschikbaar voor mensen die PrEP gebruiken en worstelen met geestelijke gezondheidsproblemen?\",\n    \"Wat moet ik weten over de kosten van PrEP en eventuele verzekering?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d63e612b78bafc1b1c6e07c35a15ef61686cd2a36aa4fb7e6311c484035a0d42",
+  "_starter_hash": "f263a25a3a14bfac6c8763e2c9bdb3e205deb3e8167d4f7135aafcfd2f1b4ed6",
+  "_language": "Dutch",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP interacts with my chronic pain management medications",
+    "language": "English"
+  },
+  "context": "Living with chronic pain has been a daily challenge for me, impacting my emotional state and making it hard to prioritize my health. The idea of starting PrEP brings up fears about potential side effects and whether it will complicate my current treatment plan. I want to protect myself, but I also worry about how this medication might affect my pain levels and overall well-being.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP, especially for someone with chronic pain?",
+    "Can taking PrEP interact with medications I already use for pain management?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "Are there resources available specifically for people living with chronic conditions who want to start PrEP?",
+    "Is it normal to feel anxious about starting a new medication like PrEP?",
+    "What should I consider regarding the cost of PrEP given my health condition?"
+  ],
+  "example_questions_noisy": [
+    "wh47 are the common side effects of prep, especally for someone with chronic p41n? 😬 😬",
+    "Can taking PrEP interact with medications I already use for pain management?",
+    "how cccan I discuss my concebs about PrEP with you know my healthcare prpvider?",
+    "are there resources available 5p3c1f1cally for you know peopl living with cronic conditions who want to start PrEP?",
+    "is it n0rm5l to feel anxious about startkng a new medication like prep? prep?",
+    "uh Wha7 should I consider regarding the cost of PrEP gven my health condition?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there resources available specifically for people living with chronic conditions who want to start PrEP?",
+  "starter_noisy": "are there resources available 5p3c1f1cally for you know peopl living with cronic conditions who want to start PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP, especially for someone with chronic pain?",
+  "followup_noisy": "wh47 are the common side effects of prep, especally for someone with chronic p41n? 😬 😬",
+  "style_profile": {
+    "typo_rate": 0.06283794520888282,
+    "swap_rate": 0.03455771814862126,
+    "drop_rate": 0.03627866450910215,
+    "dup_rate": 0.014213993634603135,
+    "leet_rate": 0.08109606755803736,
+    "start_lower_prob": 0.8848059127587745,
+    "all_lower_prob": 0.3150714359323165,
+    "drop_punct_prob": 0.3601364392611038,
+    "double_space_prob": 0.3018901792041131,
+    "ellipsis_prob": 0.17361585726818032,
+    "runon_prob": 0.22455310853978505,
+    "filler_rate": 0.2426397160970022,
+    "emoji_rate": 0.34996070677126057,
+    "stutter_rate": 0.1527001273634632,
+    "repeat_last_rate": 0.16673632115615722
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP interacts with my chronic pain management medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with chronic pain has been a daily challenge for me, impacting my emotional state and making it hard to prioritize my health. The idea of starting PrEP brings up fears about potential side effects and whether it will complicate my current treatment plan. I want to protect myself, but I also worry about how this medication might affect my pain levels and overall well-being.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP, especially for someone with chronic pain?\",\n    \"Can taking PrEP interact with medications I already use for pain management?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"Are there resources available specifically for people living with chronic conditions who want to start PrEP?\",\n    \"Is it normal to feel anxious about starting a new medication like PrEP?\",\n    \"What should I consider regarding the cost of PrEP given my health condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c5ee9bdc42372150dd1022d6ff04fd8caa799c8fcc1eaf5adb6eaed26f11a7f8",
+  "_starter_hash": "3a7eb784b90b655045e816e1d2f606f157fbd36c4f97260c92c92d527f50b61b",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

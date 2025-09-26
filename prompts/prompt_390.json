@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of being judged for using PrEP due to stigma",
+    "language": "English"
+  },
+  "context": "Living with HIV-related stigma, she often feels anxious about discussing her sexual health needs. The fear of judgment from others makes it challenging for her to seek information about PrEP, even though she understands its importance for her well-being. She hopes to find a supportive environment where she can learn more without fear of prejudice.",
+  "example_questions_clean": [
+    "What are the steps to accessing PrEP if I feel uncomfortable due to stigma?",
+    "Can you share how PrEP can benefit someone in my situation?",
+    "Are there confidential resources available for someone like me to learn more about PrEP?",
+    "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+    "What should I know about the potential side effects of PrEP?",
+    "Is there a way to connect with others who may have similar experiences with PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to accessing PrEP if I feel uncomfortable due to stigma?",
+    "Can you 5har3 how Pr3P can benefit someone in my situation? situation?",
+    "Are there confidential resources available for someone like me to learn more about PrEP?",
+    "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+    "What should I know about the potential side effects of PrEP?",
+    "Is there a way to connect with others who may have similar experiences with PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+  "starter_noisy": "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to accessing PrEP if I feel uncomfortable due to stigma?",
+  "followup_noisy": "What are the steps to accessing PrEP if I feel uncomfortable due to stigma?",
+  "style_profile": {
+    "typo_rate": 0.09413918968866185,
+    "swap_rate": 0.02298652907688877,
+    "drop_rate": 0.028649465105067246,
+    "dup_rate": 0.011803838791892916,
+    "leet_rate": 0.09395603378354711,
+    "start_lower_prob": 0.8377288233857348,
+    "all_lower_prob": 0.16700020186011644,
+    "drop_punct_prob": 0.4237350743579072,
+    "double_space_prob": 0.2570593442536313,
+    "ellipsis_prob": 0.1824198492565549,
+    "runon_prob": 0.21917181274662972,
+    "filler_rate": 0.20189118416040508,
+    "emoji_rate": 0.29523433822104306,
+    "stutter_rate": 0.19677811340431514,
+    "repeat_last_rate": 0.16801370338929178
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of being judged for using PrEP due to stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with HIV-related stigma, she often feels anxious about discussing her sexual health needs. The fear of judgment from others makes it challenging for her to seek information about PrEP, even though she understands its importance for her well-being. She hopes to find a supportive environment where she can learn more without fear of prejudice.\",\n  \"example_questions\": [\n    \"What are the steps to accessing PrEP if I feel uncomfortable due to stigma?\",\n    \"Can you share how PrEP can benefit someone in my situation?\",\n    \"Are there confidential resources available for someone like me to learn more about PrEP?\",\n    \"How do I talk to my healthcare provider about my concerns regarding PrEP?\",\n    \"What should I know about the potential side effects of PrEP?\",\n    \"Is there a way to connect with others who may have similar experiences with PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5366e703af767d71b1540bf17a9cd120f9d7984308712b50f1544ffb7406656b",
+  "_starter_hash": "b00417c88c86ba9d23f32a1767705582e016973a03407cf147585eed1d55deb1",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

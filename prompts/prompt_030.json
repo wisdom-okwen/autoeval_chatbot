@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Colombiano",
+    "age": 32,
+    "gender": "Masculino",
+    "socio_economic_status": "Medio",
+    "primary_concern": "El estigma relacionado con el VIH",
+    "language": "Spanish"
+  },
+  "context": "Eres un hombre colombiano de 32 años que vive con el miedo y la ansiedad del estigma asociado al VIH. A pesar de que te preocupa la salud y el bienestar, sientes que el temor al juicio de los demás te impide acceder a información sobre PrEP. Buscas comprender cómo este tratamiento puede ayudarte a protegerte y a vivir con más confianza, aunque te enfrentas a barreras emocionales y sociales.",
+  "example_questions_clean": [
+    "¿Qué información debo saber sobre el PrEP si me siento estigmatizado por vivir con VIH?",
+    "¿Existen recursos o grupos de apoyo para personas como yo que buscan información sobre PrEP?",
+    "¿Cómo puedo abordar mis miedos sobre hablar del PrEP con mi médico?",
+    "¿Qué efectos secundarios del PrEP son importantes de considerar en mi situación?",
+    "¿Es posible acceder al PrEP sin que otros sepan que lo estoy usando?",
+    "¿Hay formas de encontrar apoyo emocional mientras exploro mi opción de usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué información debo saber sobre el PrEP si me siento estigmatizado por vivir con VIH",
+    "¿existen rceursos o grupoe de ap0y0 para p3r50n45 como yo que buscan información 50br3 prep ‼️",
+    "¿Cómo puedo abordar mis miedos sobre hablar del PrEP con mi médico?",
+    "¿qué efectos secundarios del prep son importantes de ocnsiderar en mi i mean situación?",
+    "¿Es posible 4ccedr al PrEP idk sin que otris sepan qhe lo estoy usando 😬",
+    "¿Ha44y formas de encontrar apoyo em0ci0n4l mientras explori mi ppción de usar PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Existen recursos o grupos de apoyo para personas como yo que buscan información sobre PrEP?",
+  "starter_noisy": "¿existen rceursos o grupoe de ap0y0 para p3r50n45 como yo que buscan información 50br3 prep ‼️",
+  "followup_index": 0,
+  "followup_clean": "¿Qué información debo saber sobre el PrEP si me siento estigmatizado por vivir con VIH?",
+  "followup_noisy": "¿Qué información debo saber sobre el PrEP si me siento estigmatizado por vivir con VIH",
+  "style_profile": {
+    "typo_rate": 0.09005513720472982,
+    "swap_rate": 0.04193004528644569,
+    "drop_rate": 0.035943333527129154,
+    "dup_rate": 0.028159454928681188,
+    "leet_rate": 0.09419126903311059,
+    "start_lower_prob": 0.660832930151955,
+    "all_lower_prob": 0.24466450057265277,
+    "drop_punct_prob": 0.5165527790568939,
+    "double_space_prob": 0.15876415415347978,
+    "ellipsis_prob": 0.33410672420970255,
+    "runon_prob": 0.24119871972728607,
+    "filler_rate": 0.4968303150308046,
+    "emoji_rate": 0.15754932861311557,
+    "stutter_rate": 0.1051637993617382,
+    "repeat_last_rate": 0.1251050580652088
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Colombiano\",\n    \"age\": 32,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Medio\",\n    \"primary_concern\": \"El estigma relacionado con el VIH\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres un hombre colombiano de 32 años que vive con el miedo y la ansiedad del estigma asociado al VIH. A pesar de que te preocupa la salud y el bienestar, sientes que el temor al juicio de los demás te impide acceder a información sobre PrEP. Buscas comprender cómo este tratamiento puede ayudarte a protegerte y a vivir con más confianza, aunque te enfrentas a barreras emocionales y sociales.\",\n  \"example_questions\": [\n    \"¿Qué información debo saber sobre el PrEP si me siento estigmatizado por vivir con VIH?\",\n    \"¿Existen recursos o grupos de apoyo para personas como yo que buscan información sobre PrEP?\",\n    \"¿Cómo puedo abordar mis miedos sobre hablar del PrEP con mi médico?\",\n    \"¿Qué efectos secundarios del PrEP son importantes de considerar en mi situación?\",\n    \"¿Es posible acceder al PrEP sin que otros sepan que lo estoy usando?\",\n    \"¿Hay formas de encontrar apoyo emocional mientras exploro mi opción de usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "08694e1f98da96e208307259540dd83372038e0965b109d417baf5a870d19a3f",
+  "_starter_hash": "137e27844977eeedc468a71acf3570b599eccaf76cf2e91f05e33aee5cd93d39",
+  "_language": "Spanish",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

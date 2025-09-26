@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "femenina",
+    "socio_economic_status": "bajo",
+    "primary_concern": "la dificultad de acceder a la atención médica debido a la falta de comprensión de su condición",
+    "language": "Spanish"
+  },
+  "context": "Vives con esquizofrenia y estás enfrentando el estigma que rodea a tu condición. Esto te ha llevado a sentir miedo al hablar con los proveedores de salud sobre PrEP, ya que temes que no entiendan tu situación o que te juzguen. Buscas información que te ayude a tomar decisiones informadas sobre tu salud sexual y cómo PrEP puede encajar en tu vida.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP si tengo una condición de salud mental?",
+    "¿PrEP puede afectar mi tratamiento para la esquizofrenia de alguna manera?",
+    "¿Dónde puedo encontrar profesionales de la salud que comprendan mi situación particular?",
+    "Tengo miedo de ser juzgada al preguntar sobre PrEP, ¿cómo puedo superar ese temor?",
+    "¿Existen recursos específicos para personas con condiciones de salud mental que necesiten PrEP?",
+    "¿Qué apoyo emocional puedo buscar mientras consideramos el uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son l05 pasos para acceder 4 preo sssi tnego una condición de salud mental?",
+    "¿prep puede afectr um mi tratamiento para la esquizofrenia de alguna manera? manera?",
+    "¿Dónde puedo encontrar profesionales like de l4 salud que copmrendan mi situación p4r7icul4r 🙂",
+    "Tengo miedo de ser juzgada al preguntar sobre PrEP, ¿cómo puedo superar ese temor?",
+    "¿Existen recursow específicos para personas con condiciones de salud mental que idk necesiten PrEP 😬",
+    "¿Qué apoyo emocional puedo buscar m13n7r45 consideramos el uso d3 PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Dónde puedo encontrar profesionales de la salud que comprendan mi situación particular?",
+  "starter_noisy": "¿Dónde puedo encontrar profesionales like de l4 salud que copmrendan mi situación p4r7icul4r 🙂",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP si tengo una condición de salud mental?",
+  "followup_noisy": "¿cuáles son l05 pasos para acceder 4 preo sssi tnego una condición de salud mental?",
+  "style_profile": {
+    "typo_rate": 0.051257868088757645,
+    "swap_rate": 0.030559009365605978,
+    "drop_rate": 0.035239542728301196,
+    "dup_rate": 0.018858709868938804,
+    "leet_rate": 0.08965940708369152,
+    "start_lower_prob": 0.7442143334564266,
+    "all_lower_prob": 0.26400367428987037,
+    "drop_punct_prob": 0.32269652470689286,
+    "double_space_prob": 0.2067729930367769,
+    "ellipsis_prob": 0.17953717515133777,
+    "runon_prob": 0.12316303943761675,
+    "filler_rate": 0.4591184433839485,
+    "emoji_rate": 0.2889128821839746,
+    "stutter_rate": 0.11934238720821731,
+    "repeat_last_rate": 0.13247901903986958
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"la dificultad de acceder a la atención médica debido a la falta de comprensión de su condición\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Vives con esquizofrenia y estás enfrentando el estigma que rodea a tu condición. Esto te ha llevado a sentir miedo al hablar con los proveedores de salud sobre PrEP, ya que temes que no entiendan tu situación o que te juzguen. Buscas información que te ayude a tomar decisiones informadas sobre tu salud sexual y cómo PrEP puede encajar en tu vida.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP si tengo una condición de salud mental?\",\n    \"¿PrEP puede afectar mi tratamiento para la esquizofrenia de alguna manera?\",\n    \"¿Dónde puedo encontrar profesionales de la salud que comprendan mi situación particular?\",\n    \"Tengo miedo de ser juzgada al preguntar sobre PrEP, ¿cómo puedo superar ese temor?\",\n    \"¿Existen recursos específicos para personas con condiciones de salud mental que necesiten PrEP?\",\n    \"¿Qué apoyo emocional puedo buscar mientras consideramos el uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2bcbb127bf0bed8bb94e24d864752734a3bd9ed53e473b215c84cc3f21eae946",
+  "_starter_hash": "69e07261e7342a9f06e1b5174342897f59c3fcc330e7df95b49bebfc6876b951",
+  "_language": "Spanish",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

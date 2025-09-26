@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlander",
+    "age": 28,
+    "gender": "man",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor bijwerkingen en stigma",
+    "language": "Dutch"
+  },
+  "context": "Je hebt al een tijdje te maken met een angststoornis, wat je zorgen over het nemen van PrEP versterkt. De gedachte aan bijwerkingen en hoe anderen je kunnen beoordelen, maakt het moeilijker om de beslissing te nemen. Je wilt graag de juiste informatie om een weloverwogen keuze te maken.",
+  "example_questions_clean": [
+    "Wat zijn de meest voorkomende bijwerkingen van PrEP?",
+    "Hoe kan ik omgaan met de angst die ik voel over het nemen van medicijnen?",
+    "Zijn er ervaringen van anderen die ook angstig zijn en PrEP gebruiken?",
+    "Hoe kan ik ondersteuning vinden in mijn omgeving terwijl ik PrEP overweeg?",
+    "Wat zijn de stappen om PrEP veilig te krijgen, gezien mijn situatie?",
+    "Is er speciale hulp beschikbaar voor mensen met angsten die PrEP willen gebruiken?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de meest voorkomende bijwerkingen van PrEP?",
+    "hoe kan 1k omgaan met de anst die 1k idk voel over het nmeen van m3d1c1jn3n 🫠",
+    "Zijn er ervaringen van anderen die ook angstig zijn en PrEP gebruiken?",
+    "h-hoe kan jk ondersteuning vinden idk in miiijn omg3v1ng terwijl ik prep overweeg 😅 😅",
+    "Wat zijn de stappen om idk PrEP veilig te krijgen g3z13n mijn situatie 😕 😕",
+    "i-is er speciale hulp beschikbaar voooor mensen met angsten die PrEP willen gebruiken"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Wat zijn de stappen om PrEP veilig te krijgen, gezien mijn situatie?",
+  "starter_noisy": "Wat zijn de stappen om idk PrEP veilig te krijgen g3z13n mijn situatie 😕 😕",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de meest voorkomende bijwerkingen van PrEP?",
+  "followup_noisy": "Wat zijn de meest voorkomende bijwerkingen van PrEP?",
+  "style_profile": {
+    "typo_rate": 0.10111125930432735,
+    "swap_rate": 0.049631710666422704,
+    "drop_rate": 0.02072731454009556,
+    "dup_rate": 0.029796734454467927,
+    "leet_rate": 0.11066735664951544,
+    "start_lower_prob": 0.6334802754446456,
+    "all_lower_prob": 0.28453021499677056,
+    "drop_punct_prob": 0.5731297533332912,
+    "double_space_prob": 0.20534814527976486,
+    "ellipsis_prob": 0.1755091632558393,
+    "runon_prob": 0.2250283888770924,
+    "filler_rate": 0.4711449710356267,
+    "emoji_rate": 0.19633560078964574,
+    "stutter_rate": 0.12165913720598431,
+    "repeat_last_rate": 0.16609650271187348
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlander\",\n    \"age\": 28,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor bijwerkingen en stigma\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt al een tijdje te maken met een angststoornis, wat je zorgen over het nemen van PrEP versterkt. De gedachte aan bijwerkingen en hoe anderen je kunnen beoordelen, maakt het moeilijker om de beslissing te nemen. Je wilt graag de juiste informatie om een weloverwogen keuze te maken.\",\n  \"example_questions\": [\n    \"Wat zijn de meest voorkomende bijwerkingen van PrEP?\",\n    \"Hoe kan ik omgaan met de angst die ik voel over het nemen van medicijnen?\",\n    \"Zijn er ervaringen van anderen die ook angstig zijn en PrEP gebruiken?\",\n    \"Hoe kan ik ondersteuning vinden in mijn omgeving terwijl ik PrEP overweeg?\",\n    \"Wat zijn de stappen om PrEP veilig te krijgen, gezien mijn situatie?\",\n    \"Is er speciale hulp beschikbaar voor mensen met angsten die PrEP willen gebruiken?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5b55ca12cff7160b219a66e65838e339afb03e4ea516eb8a350e3ab2d3a653bb",
+  "_starter_hash": "b813d296150da3e809d3a2aac6686cb12aa0064bbc4ec8ee029ba9a47716a410",
+  "_language": "Dutch",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

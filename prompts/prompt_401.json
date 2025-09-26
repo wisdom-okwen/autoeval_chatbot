@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "The user has been struggling with self-esteem issues, which makes her hesitant to seek out PrEP. She worries about how others might perceive her for being proactive about her sexual health. This fear can create emotional barriers that prevent her from accessing necessary resources and support.",
+  "example_questions_clean": [
+    "Can you help me understand what PrEP is and how it works?",
+    "I am worried about what others will think if I talk about taking PrEP.",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "Are there any resources specifically for people struggling with self-esteem when considering PrEP?",
+    "What steps can I take to feel more confident in discussing my sexual health?"
+  ],
+  "example_questions_noisy": [
+    "Can you help me understand what PrEP is and how it works?",
+    "I am worried about what others will think if I talk about taking PrEP.",
+    "what are the potential side effects of prep that i should be aware of? 🙄",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "are there annny resources specifically for people srtugglng with self-esteem when considering PrEP?",
+    "what 573p5 can I take to efel more confident 1n discussing myyy i mean sexual health"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I find a supportive healthcare provider who understands my concerns?",
+  "starter_noisy": "How can I find a supportive healthcare provider who understands my concerns?",
+  "followup_index": 0,
+  "followup_clean": "Can you help me understand what PrEP is and how it works?",
+  "followup_noisy": "Can you help me understand what PrEP is and how it works?",
+  "style_profile": {
+    "typo_rate": 0.0795868212557515,
+    "swap_rate": 0.028179091066017,
+    "drop_rate": 0.03637748486928921,
+    "dup_rate": 0.02533886951149198,
+    "leet_rate": 0.06569010811106978,
+    "start_lower_prob": 0.8662859588198839,
+    "all_lower_prob": 0.20984973650415545,
+    "drop_punct_prob": 0.4527852225530068,
+    "double_space_prob": 0.266094920753422,
+    "ellipsis_prob": 0.15440931372621544,
+    "runon_prob": 0.2813713422751275,
+    "filler_rate": 0.372302843692932,
+    "emoji_rate": 0.24520563378335897,
+    "stutter_rate": 0.10952573875429697,
+    "repeat_last_rate": 0.1654648776521507
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been struggling with self-esteem issues, which makes her hesitant to seek out PrEP. She worries about how others might perceive her for being proactive about her sexual health. This fear can create emotional barriers that prevent her from accessing necessary resources and support.\",\n  \"example_questions\": [\n    \"Can you help me understand what PrEP is and how it works?\",\n    \"I am worried about what others will think if I talk about taking PrEP.\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"Are there any resources specifically for people struggling with self-esteem when considering PrEP?\",\n    \"What steps can I take to feel more confident in discussing my sexual health?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f74fac3e6080ff18876c1d17fc9f57d2c26080790aede2bf9ce6bea7130757be",
+  "_starter_hash": "4803472d154ca7741bf8842311cff90b48ad5d6e14e7f4f33a1a44fef3f759c3",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

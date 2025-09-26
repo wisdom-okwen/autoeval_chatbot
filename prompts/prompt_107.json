@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 30,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor den Nebenwirkungen und der Kombination mit meiner Psychopharmaka-Therapie.",
+    "language": "German"
+  },
+  "context": "Die Nutzerin lebt mit einer bipolaren Störung und hat Bedenken, wie PrEP ihre psychische Gesundheit beeinflussen könnte. Sie ist besorgt über mögliche Wechselwirkungen zwischen PrEP und ihren Medikamenten sowie über das Stigma, das oft mit der Einnahme von Präventionsmedikamenten verbunden ist. Trotz ihrer Sorgen hat sie auch Hoffnung auf ein gesünderes Sexualleben.",
+  "example_questions_clean": [
+    "Was sind die häufigsten Nebenwirkungen von PrEP und wie könnten sie meine Stimmung beeinflussen?",
+    "Gibt es spezielle Überlegungen für Personen mit psychischen Erkrankungen, die PrEP einnehmen möchten?",
+    "Wie kann ich sicherstellen, dass PrEP gut mit meiner derzeitigen Medikation funktioniert?",
+    "Könnte die Einnahme von PrEP meine Erfahrungen mit Stigmatisierung in sozialen Situationen verstärken?",
+    "Gibt es Ressourcen oder Unterstützung für Menschen in ähnlichen Situationen wie meiner?",
+    "Was sollte ich tun, wenn ich während der Einnahme von PrEP emotionale Schwierigkeiten habe?"
+  ],
+  "example_questions_noisy": [
+    "Was sind die häufigsten Nebenwirkungen von PrEP und wie könnten sie meine Stimmung beeinflussen?",
+    "Gibt es spezielle Überlegungen für Personen mit psychischen Erkrankungen, die PrEP einnehmen möchten?",
+    "Wie kann ich sicherstellen, dass PrEP gut mit meiner derzeitigen Medikation funktioniert?",
+    "k-könnte die Einnahme von PrEP m3e31n3 Erfahrungen mit Stigmatisierung in sozialen Situationen verstärken?",
+    "Gibt es Ressourcen oder Unterstützung für Menschen in ähnlichen Situationen wie meiner?",
+    "Was sollte ich tun, wenn ich während der Einnahme v0n PrEP emotionale Schwierigkeiten you know habe? ✨"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Was sollte ich tun, wenn ich während der Einnahme von PrEP emotionale Schwierigkeiten habe?",
+  "starter_noisy": "Was sollte ich tun, wenn ich während der Einnahme v0n PrEP emotionale Schwierigkeiten you know habe? ✨",
+  "followup_index": 0,
+  "followup_clean": "Was sind die häufigsten Nebenwirkungen von PrEP und wie könnten sie meine Stimmung beeinflussen?",
+  "followup_noisy": "Was sind die häufigsten Nebenwirkungen von PrEP und wie könnten sie meine Stimmung beeinflussen?",
+  "style_profile": {
+    "typo_rate": 0.08722425774015244,
+    "swap_rate": 0.025696749843522854,
+    "drop_rate": 0.04737295370047165,
+    "dup_rate": 0.02688529739359998,
+    "leet_rate": 0.10462886337908774,
+    "start_lower_prob": 0.658807293436767,
+    "all_lower_prob": 0.15306168304413761,
+    "drop_punct_prob": 0.3255298603032966,
+    "double_space_prob": 0.3022835259392749,
+    "ellipsis_prob": 0.20091981431875428,
+    "runon_prob": 0.2845318932933347,
+    "filler_rate": 0.2240178720399583,
+    "emoji_rate": 0.2810709176772975,
+    "stutter_rate": 0.12225930448648877,
+    "repeat_last_rate": 0.10220819932591524
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 30,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor den Nebenwirkungen und der Kombination mit meiner Psychopharmaka-Therapie.\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin lebt mit einer bipolaren Störung und hat Bedenken, wie PrEP ihre psychische Gesundheit beeinflussen könnte. Sie ist besorgt über mögliche Wechselwirkungen zwischen PrEP und ihren Medikamenten sowie über das Stigma, das oft mit der Einnahme von Präventionsmedikamenten verbunden ist. Trotz ihrer Sorgen hat sie auch Hoffnung auf ein gesünderes Sexualleben.\",\n  \"example_questions\": [\n    \"Was sind die häufigsten Nebenwirkungen von PrEP und wie könnten sie meine Stimmung beeinflussen?\",\n    \"Gibt es spezielle Überlegungen für Personen mit psychischen Erkrankungen, die PrEP einnehmen möchten?\",\n    \"Wie kann ich sicherstellen, dass PrEP gut mit meiner derzeitigen Medikation funktioniert?\",\n    \"Könnte die Einnahme von PrEP meine Erfahrungen mit Stigmatisierung in sozialen Situationen verstärken?\",\n    \"Gibt es Ressourcen oder Unterstützung für Menschen in ähnlichen Situationen wie meiner?\",\n    \"Was sollte ich tun, wenn ich während der Einnahme von PrEP emotionale Schwierigkeiten habe?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f6db02c66df45c243e02da698aa87b2199cb4040045eee9fc59c721d6c0c6396",
+  "_starter_hash": "3efb7b4ce6ad39dec19222c27061eeefc026f9dd6313f164be58056d4539aad0",
+  "_language": "German",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

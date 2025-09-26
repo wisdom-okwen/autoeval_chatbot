@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Précaire",
+    "primary_concern": "Accès au traitement en raison de la situation de logement instable",
+    "language": "French"
+  },
+  "context": "Vous vivez actuellement dans une situation d'instabilité, ce qui rend difficile l'accès aux soins de santé, y compris au PrEP. Vous ressentez de l'anxiété face aux stigmates associés à votre condition et craignez que cela affecte votre capacité à obtenir le traitement nécessaire pour vous protéger. Vous espérez comprendre comment accéder au PrEP tout en gérant vos autres défis quotidiens.",
+  "example_questions_clean": [
+    "Quels sont les critères pour obtenir le PrEP dans ma situation actuelle ?",
+    "Comment puis-je trouver des cliniques qui offrent le PrEP sans frais élevés ?",
+    "Est-ce que les services liés au PrEP respectent la confidentialité des patients ?",
+    "Y a-t-il des ressources ou des organisations qui aident les personnes dans ma situation à accéder au PrEP ?",
+    "Quelle est la durée d'un traitement de PrEP et est-ce que je dois avoir un suivi médical régulier ?",
+    "Le PrEP est-il efficace même si je n'ai pas un endroit stable où vivre ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les critères pour obtenir le PrEP dans ma situation actuelle ?",
+    "comment pui-sje trouver des cliniques qui offrent le PrEP sans frais élevés ‼️",
+    "Est-ce qu3 les services liés au PrEP respectent la confidentialité des i mean patients ? ?",
+    "y a-t-il des ressources ou des organisations qui aident les personnes dans ma situation à accéder au prep 🤔",
+    "Quelle est la durée d'un traitement de PrEP et est-ce que je dois avoir un suivi médical régulier ?",
+    "Le PrEP est-il efficace même si je n'ai pas un endroit stable où vivre ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Y a-t-il des ressources ou des organisations qui aident les personnes dans ma situation à accéder au PrEP ?",
+  "starter_noisy": "y a-t-il des ressources ou des organisations qui aident les personnes dans ma situation à accéder au prep 🤔",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les critères pour obtenir le PrEP dans ma situation actuelle ?",
+  "followup_noisy": "Quels sont les critères pour obtenir le PrEP dans ma situation actuelle ?",
+  "style_profile": {
+    "typo_rate": 0.0692652041188477,
+    "swap_rate": 0.05566710757913407,
+    "drop_rate": 0.022002120906275676,
+    "dup_rate": 0.01879218534018107,
+    "leet_rate": 0.08499287315695286,
+    "start_lower_prob": 0.618346010797563,
+    "all_lower_prob": 0.25458494996684533,
+    "drop_punct_prob": 0.3677444147390454,
+    "double_space_prob": 0.2463293969531422,
+    "ellipsis_prob": 0.22769429141761088,
+    "runon_prob": 0.1367551337551554,
+    "filler_rate": 0.27633357568983946,
+    "emoji_rate": 0.20805369645238792,
+    "stutter_rate": 0.14021500499787654,
+    "repeat_last_rate": 0.0953833137975712
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Précaire\",\n    \"primary_concern\": \"Accès au traitement en raison de la situation de logement instable\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez actuellement dans une situation d'instabilité, ce qui rend difficile l'accès aux soins de santé, y compris au PrEP. Vous ressentez de l'anxiété face aux stigmates associés à votre condition et craignez que cela affecte votre capacité à obtenir le traitement nécessaire pour vous protéger. Vous espérez comprendre comment accéder au PrEP tout en gérant vos autres défis quotidiens.\",\n  \"example_questions\": [\n    \"Quels sont les critères pour obtenir le PrEP dans ma situation actuelle ?\",\n    \"Comment puis-je trouver des cliniques qui offrent le PrEP sans frais élevés ?\",\n    \"Est-ce que les services liés au PrEP respectent la confidentialité des patients ?\",\n    \"Y a-t-il des ressources ou des organisations qui aident les personnes dans ma situation à accéder au PrEP ?\",\n    \"Quelle est la durée d'un traitement de PrEP et est-ce que je dois avoir un suivi médical régulier ?\",\n    \"Le PrEP est-il efficace même si je n'ai pas un endroit stable où vivre ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ef4ee96532c708f04975c06298b0966c992fa7a692d75f243a49704cd3d43521",
+  "_starter_hash": "e2dd12648d7819f6d47d47816af5f37aa619d2a55ae15d7563eb2441431b0590",
+  "_language": "French",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

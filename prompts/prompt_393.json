@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 32,
+    "gender": "femenina",
+    "socio_economic_status": "media",
+    "primary_concern": "el impacto de mi trastorno en el acceso a PrEP y la estigmatización",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 32 años que vive en México y te enfrentas a desafíos relacionados con el trastorno bipolar. Esto afecta tu estado emocional y puede hacer que te sientas insegura sobre tomar decisiones de salud, como acceder a PrEP. Temes que la combinación de tu condición de salud mental y el uso de PrEP pueda resultar en juicios o estigmas, lo que te hace dudar sobre cómo seguir adelante.",
+  "example_questions_clean": [
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP y mi salud mental?",
+    "¿Existen recursos específicos para personas con condiciones de salud mental que están considerando PrEP?",
+    "Me preocupa cómo la gente percibirá mi uso de PrEP, ¿es común esta preocupación?",
+    "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estabilidad emocional?",
+    "¿Hay grupos de apoyo para personas como yo que están tomando PrEP?",
+    "¿Qué pasos debo seguir para asegurarme de que estoy tomando PrEP de forma segura?"
+  ],
+  "example_questions_noisy": [
+    "¿cómo pudo hablar con mi médjco sobre mis preocupaciones respecto a prep y mi you know slud mental? 💀",
+    "¿Existen recursos específicos para personas con condiciones de salud mental que están considerando PrEP?",
+    "m-me preocupa cómo la gente percibirá miii uso de PrEP, ¿es común esta preocupación?",
+    "¿cuáls son los efectos secundarios de prep que podrían afetar mi estabbbilidad emocional?",
+    "¿hay grupos de apoyo paa personas como yo que están tomando preeep? 🙄",
+    "¿Qué pasos debo seguir para asegurarme de que estoy tomando PrEP de forma segura?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estabilidad emocional?",
+  "starter_noisy": "¿cuáls son los efectos secundarios de prep que podrían afetar mi estabbbilidad emocional?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP y mi salud mental?",
+  "followup_noisy": "¿cómo pudo hablar con mi médjco sobre mis preocupaciones respecto a prep y mi you know slud mental? 💀",
+  "style_profile": {
+    "typo_rate": 0.05975018128746166,
+    "swap_rate": 0.02767342530540448,
+    "drop_rate": 0.04875488108387902,
+    "dup_rate": 0.02802038460256892,
+    "leet_rate": 0.05338702521637234,
+    "start_lower_prob": 0.7020941648987142,
+    "all_lower_prob": 0.28337891202686016,
+    "drop_punct_prob": 0.4136377533666731,
+    "double_space_prob": 0.2518650300977723,
+    "ellipsis_prob": 0.2723392913134579,
+    "runon_prob": 0.28579158178167885,
+    "filler_rate": 0.43928461406814834,
+    "emoji_rate": 0.2928056111837952,
+    "stutter_rate": 0.10692353678300542,
+    "repeat_last_rate": 0.11712304802689627
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 32,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"media\",\n    \"primary_concern\": \"el impacto de mi trastorno en el acceso a PrEP y la estigmatización\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer de 32 años que vive en México y te enfrentas a desafíos relacionados con el trastorno bipolar. Esto afecta tu estado emocional y puede hacer que te sientas insegura sobre tomar decisiones de salud, como acceder a PrEP. Temes que la combinación de tu condición de salud mental y el uso de PrEP pueda resultar en juicios o estigmas, lo que te hace dudar sobre cómo seguir adelante.\",\n  \"example_questions\": [\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP y mi salud mental?\",\n    \"¿Existen recursos específicos para personas con condiciones de salud mental que están considerando PrEP?\",\n    \"Me preocupa cómo la gente percibirá mi uso de PrEP, ¿es común esta preocupación?\",\n    \"¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estabilidad emocional?\",\n    \"¿Hay grupos de apoyo para personas como yo que están tomando PrEP?\",\n    \"¿Qué pasos debo seguir para asegurarme de que estoy tomando PrEP de forma segura?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "06b8d117acc7652d77e2b2f5f88a6db783f047618bb7b18357de6b1b492cd5a3",
+  "_starter_hash": "cec1e9e84081847c679e126d5426e186f2f483192a2d877d31561edd25c935e5",
+  "_language": "Spanish",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

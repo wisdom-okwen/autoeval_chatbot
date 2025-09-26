@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en sociale interactie",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker heeft last van sociale angst, wat het moeilijk maakt om informatie over PrEP te zoeken of met zorgverleners te communiceren. Deze angst kan gevoelens van isolatie en schaamte met zich meebrengen, waardoor de drempel om hulp te vragen hoger wordt.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen om PrEP te krijgen als ik me ongemakkelijk voel bij doktersbezoeken?",
+    "Hoe kan ik de stigma's rond het gebruik van PrEP overwinnen?",
+    "Zijn er online bronnen of ondersteuningsgroepen die kunnen helpen bij het bespreken van PrEP?",
+    "Wat zijn de meest voorkomende zorgen van mensen die sociale angst ervaren bij het gebruik van PrEP?",
+    "Kun je uitleggen hoe ik mijn huisarts kan benaderen over mijn behoefte aan PrEP?",
+    "Welke gesprekken moet ik verwachten tijdens een consult over PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de eerste stappen 0m PrEP ts krijgen als ik m3 ongemakk3lijk voel bij i mean doktersbezoeken? 😅",
+    "Hoe kan ik de stigma's rond het gebruik van PrEP overwinnen?",
+    "zijn er online bronnen of ondersteuningsgroepen d13 kunnen helpen bij het bspreken v4n PrEP? PrEP?",
+    "Wat zijn de meest voorkomende zorgen van mensen die sociale angst ervaren bij het gebruik van PrEP?",
+    "Kun je uitleggen hoe ik mijn huisarts kan benaderen over mijn behoefte aan PrEP?",
+    "w3lk3 gesprekken moet ik verwachten t1jden5 33n consult over PrEP"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Wat zijn de meest voorkomende zorgen van mensen die sociale angst ervaren bij het gebruik van PrEP?",
+  "starter_noisy": "Wat zijn de meest voorkomende zorgen van mensen die sociale angst ervaren bij het gebruik van PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de eerste stappen om PrEP te krijgen als ik me ongemakkelijk voel bij doktersbezoeken?",
+  "followup_noisy": "Wat zijn de eerste stappen 0m PrEP ts krijgen als ik m3 ongemakk3lijk voel bij i mean doktersbezoeken? 😅",
+  "style_profile": {
+    "typo_rate": 0.08991778901665402,
+    "swap_rate": 0.04018491007746132,
+    "drop_rate": 0.04304989885580674,
+    "dup_rate": 0.010581401772133783,
+    "leet_rate": 0.10375084344787307,
+    "start_lower_prob": 0.7504356353698038,
+    "all_lower_prob": 0.3440353018406348,
+    "drop_punct_prob": 0.44440689390511057,
+    "double_space_prob": 0.2015957964658941,
+    "ellipsis_prob": 0.3184821452914688,
+    "runon_prob": 0.24605881230110405,
+    "filler_rate": 0.31808608309296943,
+    "emoji_rate": 0.2551546364606184,
+    "stutter_rate": 0.15025126050121182,
+    "repeat_last_rate": 0.08260112482362082
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en sociale interactie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"De gebruiker heeft last van sociale angst, wat het moeilijk maakt om informatie over PrEP te zoeken of met zorgverleners te communiceren. Deze angst kan gevoelens van isolatie en schaamte met zich meebrengen, waardoor de drempel om hulp te vragen hoger wordt.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen om PrEP te krijgen als ik me ongemakkelijk voel bij doktersbezoeken?\",\n    \"Hoe kan ik de stigma's rond het gebruik van PrEP overwinnen?\",\n    \"Zijn er online bronnen of ondersteuningsgroepen die kunnen helpen bij het bespreken van PrEP?\",\n    \"Wat zijn de meest voorkomende zorgen van mensen die sociale angst ervaren bij het gebruik van PrEP?\",\n    \"Kun je uitleggen hoe ik mijn huisarts kan benaderen over mijn behoefte aan PrEP?\",\n    \"Welke gesprekken moet ik verwachten tijdens een consult over PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a958c4d4a4bef15e33d0b6f1831991fa1c7448643c65b6d43589e138ba4acafd",
+  "_starter_hash": "6f6799c79b7ced4048143928f8a3eab715abc4822620a6cdf833b95aa271477f",
+  "_language": "Dutch",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

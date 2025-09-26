@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 30,
+    "gender": "masculino",
+    "socio_economic_status": "médio",
+    "primary_concern": "preocupação com o estigma social relacionado ao uso do PrEP",
+    "language": "Portuguese"
+  },
+  "context": "O usuário vive em um ambiente onde o estigma associado ao HIV é prevalente, o que gera medo e hesitação em buscar informações sobre o PrEP. A preocupação constante com a discriminação e o julgamento por parte da sociedade dificulta a sua decisão de iniciar a profilaxia. Apesar de saber que o PrEP pode ser uma ferramenta importante para sua saúde, ele teme a reação das pessoas ao seu redor e se sente vulnerável a possíveis críticas.",
+  "example_questions_clean": [
+    "Como posso lidar com o medo do estigma ao considerar o uso do PrEP?",
+    "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais seguro?",
+    "Existem grupos de apoio para pessoas que usam PrEP e enfrentam discriminação?",
+    "Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhado?",
+    "O PrEP é realmente eficaz para prevenir a transmissão do HIV em minha situação?",
+    "Quais são os passos para acessar o PrEP de forma discreta?"
+  ],
+  "example_questions_noisy": [
+    "como posso lidar com o medo do esrigma 40 like considerar 0 uso dl rPEP? rPEP?",
+    "Quais são os benefícios do PrEP que podem me ajudar a me sentir mais seguro?",
+    "existem grupos fe apo10 para pppessoas que usam PrrrE e enfrenram discriminação 🤔",
+    "Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhado?",
+    "O PrEP é realmente eficaz para prevenir a transmissão do HIV em minha situação?",
+    "qjais sã0 os passoz para acessar p PrEP de frma diiiscreta?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhado?",
+  "starter_noisy": "Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhado?",
+  "followup_index": 0,
+  "followup_clean": "Como posso lidar com o medo do estigma ao considerar o uso do PrEP?",
+  "followup_noisy": "como posso lidar com o medo do esrigma 40 like considerar 0 uso dl rPEP? rPEP?",
+  "style_profile": {
+    "typo_rate": 0.10874874986647297,
+    "swap_rate": 0.059816630221161265,
+    "drop_rate": 0.04505588410039653,
+    "dup_rate": 0.02273574390337566,
+    "leet_rate": 0.06843117834731208,
+    "start_lower_prob": 0.6419356170807269,
+    "all_lower_prob": 0.17762961416410836,
+    "drop_punct_prob": 0.5894266222410665,
+    "double_space_prob": 0.24737318515314013,
+    "ellipsis_prob": 0.17465621685346563,
+    "runon_prob": 0.20076916734519545,
+    "filler_rate": 0.2629784238865856,
+    "emoji_rate": 0.3125449765585424,
+    "stutter_rate": 0.10144737603688302,
+    "repeat_last_rate": 0.08916805676414995
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 30,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"preocupação com o estigma social relacionado ao uso do PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"O usuário vive em um ambiente onde o estigma associado ao HIV é prevalente, o que gera medo e hesitação em buscar informações sobre o PrEP. A preocupação constante com a discriminação e o julgamento por parte da sociedade dificulta a sua decisão de iniciar a profilaxia. Apesar de saber que o PrEP pode ser uma ferramenta importante para sua saúde, ele teme a reação das pessoas ao seu redor e se sente vulnerável a possíveis críticas.\",\n  \"example_questions\": [\n    \"Como posso lidar com o medo do estigma ao considerar o uso do PrEP?\",\n    \"Quais são os benefícios do PrEP que podem me ajudar a me sentir mais seguro?\",\n    \"Existem grupos de apoio para pessoas que usam PrEP e enfrentam discriminação?\",\n    \"Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhado?\",\n    \"O PrEP é realmente eficaz para prevenir a transmissão do HIV em minha situação?\",\n    \"Quais são os passos para acessar o PrEP de forma discreta?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "38deb8b68ac29f460c84b1e10752a37b0aa07a32b824a41f9d93acae1db13827",
+  "_starter_hash": "6b17f6e84310bfaad413901e2a18f642b3706e1dd2dad8b952fbae9bf86ac306",
+  "_language": "Portuguese",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

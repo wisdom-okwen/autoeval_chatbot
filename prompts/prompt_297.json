@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "kuzingatia jinsi PrEP inavyoweza kuathiri mwili wangu na hali yangu ya kihisia",
+    "language": "Swahili"
+  },
+  "context": "Mtu huyu anapitia changamoto za kijinsia na ana wasiwasi kuhusu jinsi PrEP inaweza kuingiliana na mabadiliko yao ya mwili na hisia za kijinsia. Wana hofu kuhusu unyanyasaji wa kijamii na kukosa ufikiaji wa huduma za afya zinazohitajika.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuathiri mchakato wangu wa kubadilisha jinsia?",
+    "Ninaweza kupata huduma za PrEP wapi bila kuhisi aibu?",
+    "Ni vigezo gani vinavyohitajika ili kuanzisha matumizi ya PrEP?",
+    "Ninaweza kupata usaidizi wa kiakili wakati natumia PrEP?",
+    "Je, kuna hatari zozote za afya ninazopaswa kuwa nazo akilini kabla ya kuanza kutumia PrEP?",
+    "Ninapaswa kufanya nini ikiwa nitaona athari hasi kutokana na kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je, PrEP inaweza ,uathiri mchakato wangu wa kub4d1l15u4 jinsai?",
+    "Ninaweza kupata huduma za PrEP wapi bila kuhisi aibu?",
+    "Ni vigezo gani vinavyohitajika ili kuanzisha matumizi ya PrEP?",
+    "Ninaweza kupata usaidizi wa kiakili wakati natumia PrEP?",
+    "Je, kuna hatari zozote za afya ninazopaswa kuwa nazo akilini kabla ya kuanza kutumia PrEP?",
+    "Ninapaswa kufanya nini ikiwa nitaona athari hasi kutokana na kutumia PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Je, kuna hatari zozote za afya ninazopaswa kuwa nazo akilini kabla ya kuanza kutumia PrEP?",
+  "starter_noisy": "Je, kuna hatari zozote za afya ninazopaswa kuwa nazo akilini kabla ya kuanza kutumia PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kuathiri mchakato wangu wa kubadilisha jinsia?",
+  "followup_noisy": "je, PrEP inaweza ,uathiri mchakato wangu wa kub4d1l15u4 jinsai?",
+  "style_profile": {
+    "typo_rate": 0.07868342285256802,
+    "swap_rate": 0.04985021754126691,
+    "drop_rate": 0.03941954822954348,
+    "dup_rate": 0.022803770568472728,
+    "leet_rate": 0.0870769023125846,
+    "start_lower_prob": 0.7262613756908638,
+    "all_lower_prob": 0.267334179456795,
+    "drop_punct_prob": 0.38041899535621415,
+    "double_space_prob": 0.28541849839389977,
+    "ellipsis_prob": 0.32711361387234317,
+    "runon_prob": 0.2871992916274766,
+    "filler_rate": 0.43561683927141304,
+    "emoji_rate": 0.2380420306524917,
+    "stutter_rate": 0.14952104393043975,
+    "repeat_last_rate": 0.12104700713126232
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"kuzingatia jinsi PrEP inavyoweza kuathiri mwili wangu na hali yangu ya kihisia\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mtu huyu anapitia changamoto za kijinsia na ana wasiwasi kuhusu jinsi PrEP inaweza kuingiliana na mabadiliko yao ya mwili na hisia za kijinsia. Wana hofu kuhusu unyanyasaji wa kijamii na kukosa ufikiaji wa huduma za afya zinazohitajika.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuathiri mchakato wangu wa kubadilisha jinsia?\",\n    \"Ninaweza kupata huduma za PrEP wapi bila kuhisi aibu?\",\n    \"Ni vigezo gani vinavyohitajika ili kuanzisha matumizi ya PrEP?\",\n    \"Ninaweza kupata usaidizi wa kiakili wakati natumia PrEP?\",\n    \"Je, kuna hatari zozote za afya ninazopaswa kuwa nazo akilini kabla ya kuanza kutumia PrEP?\",\n    \"Ninapaswa kufanya nini ikiwa nitaona athari hasi kutokana na kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a69f46074819518506fc98811fb99dc5b7ebf16211b037ba79c908bc6d443106",
+  "_starter_hash": "517a70d41ba2c582f65ec3ff0fa0dd049a5b1002f11f7f3223ca2bd0abe212c6",
+  "_language": "Swahili",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

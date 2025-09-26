@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "potential interactions with MS medication and stigma around HIV prevention",
+    "language": "Swahili"
+  },
+  "context": "Kama mwanamke mwenye umri wa miaka 35 aliye na ugonjwa wa multiple sclerosis, unajisikia huzuni na wasiwasi kuhusu matumizi ya PrEP. Unapojaribu kujifunza zaidi kuhusu PrEP, unakutana na vikwazo vya kiuchumi na hisia za unyanyapaa kuhusiana na afya yako na hali yako ya mke. Hali hii inafanya iwe ngumu kwa wewe kufikia habari sahihi na msaada unaohitajika.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuathiri dawa zangu za MS kwa njia yoyote?",
+    "Ninaweza kupata taarifa gani kuhusu gharama za PrEP nchini Tanzania?",
+    "Je, kuna maeneo salama ya kupata huduma za PrEP bila kuhisi aibu?",
+    "Ninaweza kuzungumza na nani kuhusu hofu yangu kuhusu kutumia PrEP?",
+    "Je, ni nini faida za kutumia PrEP wakati nikiwa na hali hii?",
+    "Ninahitaji ushauri wa kitaalamu kabla ya kuamua kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je Pr3P in4w3z4 kuathiri awa zangu za MS kw4 njia yoyote",
+    "Ninaweza kupata taarifa gani kuhusu gharama za PrEP nchini Tanzania?",
+    "Je, kuna maeneo salama ya kupata huduma za PrEP bila kuhisi aibu?",
+    "Ninaweza kuzungumza na nani kuhusu hofu yangu kuhusu kutumia PrEP?",
+    "je, ni nini faida za kutumia PrEP wakati n1k1w4 na hali hii?",
+    "Ninahitaji ushauri wa kitaalamu kabla ya kuamua kutumia PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Ninaweza kuzungumza na nani kuhusu hofu yangu kuhusu kutumia PrEP?",
+  "starter_noisy": "Ninaweza kuzungumza na nani kuhusu hofu yangu kuhusu kutumia PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kuathiri dawa zangu za MS kwa njia yoyote?",
+  "followup_noisy": "je Pr3P in4w3z4 kuathiri awa zangu za MS kw4 njia yoyote",
+  "style_profile": {
+    "typo_rate": 0.08512354378262266,
+    "swap_rate": 0.02212740537846774,
+    "drop_rate": 0.02110875533790357,
+    "dup_rate": 0.02439862158849885,
+    "leet_rate": 0.05960600808216114,
+    "start_lower_prob": 0.8408693582532119,
+    "all_lower_prob": 0.20699588059463248,
+    "drop_punct_prob": 0.49210070366048553,
+    "double_space_prob": 0.2648677957443592,
+    "ellipsis_prob": 0.32642257261003443,
+    "runon_prob": 0.19939084922693068,
+    "filler_rate": 0.4084564574777477,
+    "emoji_rate": 0.24705443061800705,
+    "stutter_rate": 0.15202238982542654,
+    "repeat_last_rate": 0.12022241547224484
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"potential interactions with MS medication and stigma around HIV prevention\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Kama mwanamke mwenye umri wa miaka 35 aliye na ugonjwa wa multiple sclerosis, unajisikia huzuni na wasiwasi kuhusu matumizi ya PrEP. Unapojaribu kujifunza zaidi kuhusu PrEP, unakutana na vikwazo vya kiuchumi na hisia za unyanyapaa kuhusiana na afya yako na hali yako ya mke. Hali hii inafanya iwe ngumu kwa wewe kufikia habari sahihi na msaada unaohitajika.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuathiri dawa zangu za MS kwa njia yoyote?\",\n    \"Ninaweza kupata taarifa gani kuhusu gharama za PrEP nchini Tanzania?\",\n    \"Je, kuna maeneo salama ya kupata huduma za PrEP bila kuhisi aibu?\",\n    \"Ninaweza kuzungumza na nani kuhusu hofu yangu kuhusu kutumia PrEP?\",\n    \"Je, ni nini faida za kutumia PrEP wakati nikiwa na hali hii?\",\n    \"Ninahitaji ushauri wa kitaalamu kabla ya kuamua kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eb0ba41db1b368259833bd17aadedd195bff926db755e5d234c5e5168a8ceef0",
+  "_starter_hash": "8e2b512db090ed3d7307aa42d1c92ee20e4c485ed37857409380c5c33f5a29fe",
+  "_language": "Swahili",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

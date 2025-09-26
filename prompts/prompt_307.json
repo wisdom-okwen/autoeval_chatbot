@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenina",
+    "socio_economic_status": "Media-baja",
+    "primary_concern": "Temor al estigma social asociado al uso de PrEP.",
+    "language": "Spanish"
+  },
+  "context": "La usuaria enfrenta desafíos relacionados con la ansiedad social, lo que le dificulta hablar sobre su salud sexual y acceder a información sobre PrEP. Aunque desea protegerse del VIH, el miedo al juicio la paraliza y la hace dudar sobre cómo iniciar la conversación con profesionales de la salud o amigos.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para comenzar a tomar PrEP si tengo ansiedad social?",
+    "¿Cómo puedo superar el miedo al juicio al hablar sobre PrEP con mi médico?",
+    "Me preocupa no saber cómo manejar las reacciones de otras personas al enterarse de que estoy en PrEP. ¿Qué consejo me darías?",
+    "¿Existen recursos disponibles para personas que se sienten intimidadas por el proceso de obtener PrEP?",
+    "¿Es común que otros se sientan ansiosos al considerar iniciar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para comenzar a tomar PrEP si tengo ansiedad social?",
+    "¿Cómo puedo superar el miedo al juicio al hablar sobre PrEP con mi médico?",
+    "Me preocupa no saber cómo manejar las reacciones de otras personas al enterarse de que estoy en PrEP. ¿Qué consejo me darías?",
+    "¿Existen rceursos dispoibles para personas que se sienten intimidadas por el proceso de obtener PrEP?",
+    "¿Es común que otros se sientan ansiosos al considerar iniciar PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Cómo puedo superar el miedo al juicio al hablar sobre PrEP con mi médico?",
+  "starter_noisy": "¿Cómo puedo superar el miedo al juicio al hablar sobre PrEP con mi médico?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para comenzar a tomar PrEP si tengo ansiedad social?",
+  "followup_noisy": "¿Cuáles son los pasos para comenzar a tomar PrEP si tengo ansiedad social?",
+  "style_profile": {
+    "typo_rate": 0.0633747325844274,
+    "swap_rate": 0.05055512473111157,
+    "drop_rate": 0.029154952799822113,
+    "dup_rate": 0.021384463237198902,
+    "leet_rate": 0.06156071283181683,
+    "start_lower_prob": 0.8092451592883552,
+    "all_lower_prob": 0.30959771060834085,
+    "drop_punct_prob": 0.5076370627735953,
+    "double_space_prob": 0.1934495309597668,
+    "ellipsis_prob": 0.1682053180054856,
+    "runon_prob": 0.22649702158508006,
+    "filler_rate": 0.34888960881236214,
+    "emoji_rate": 0.3336611867891392,
+    "stutter_rate": 0.12927356080913868,
+    "repeat_last_rate": 0.12880524407715235
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Media-baja\",\n    \"primary_concern\": \"Temor al estigma social asociado al uso de PrEP.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La usuaria enfrenta desafíos relacionados con la ansiedad social, lo que le dificulta hablar sobre su salud sexual y acceder a información sobre PrEP. Aunque desea protegerse del VIH, el miedo al juicio la paraliza y la hace dudar sobre cómo iniciar la conversación con profesionales de la salud o amigos.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para comenzar a tomar PrEP si tengo ansiedad social?\",\n    \"¿Cómo puedo superar el miedo al juicio al hablar sobre PrEP con mi médico?\",\n    \"Me preocupa no saber cómo manejar las reacciones de otras personas al enterarse de que estoy en PrEP. ¿Qué consejo me darías?\",\n    \"¿Existen recursos disponibles para personas que se sienten intimidadas por el proceso de obtener PrEP?\",\n    \"¿Es común que otros se sientan ansiosos al considerar iniciar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "669ae77bf8d71b7e5308319cdb86e8799ab800d392e1e2e83f49ac8d33d33eb4",
+  "_starter_hash": "69b282fe11233b93a7862884f82bfccb0fb200ac7183cc33961a80681c989e7b",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

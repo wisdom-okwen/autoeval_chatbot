@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 25,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Understanding how PrEP can fit into my life with my condition",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that affects her ability to process information quickly and manage anxiety. She feels overwhelmed by medical conversations and is concerned about how stigma around her condition might impact her experience with PrEP. She is hopeful about reducing her risk of HIV but worries about discussing her needs with healthcare providers.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work in preventing HIV?",
+    "Can I access PrEP if I have a neurodevelopmental disorder?",
+    "What should I expect during my first visit to discuss PrEP?",
+    "Are there support resources for people like me who are considering PrEP?",
+    "How do I talk to my doctor about my specific concerns regarding PrEP?",
+    "What are the side effects of PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "what is PrEP and how does it work in like preenting HIV ❓",
+    "C-Can I access PrEP if I h4v3 i mean a neurodevelopmental disorder?",
+    "What should I expect during my first visit to discuss PrEP?",
+    "are ther support resources for people like m3 wh0 are considering prep?",
+    "How do I takl to my doctor about my specific concerns i mean regarding PrEP",
+    "What 4r3 the side effects 0f PrEPPP that I like should be aware of"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What is PrEP and how does it work in preventing HIV?",
+  "starter_noisy": "what is PrEP and how does it work in like preenting HIV ❓",
+  "followup_index": 1,
+  "followup_clean": "Can I access PrEP if I have a neurodevelopmental disorder?",
+  "followup_noisy": "C-Can I access PrEP if I h4v3 i mean a neurodevelopmental disorder?",
+  "style_profile": {
+    "typo_rate": 0.05283900582843268,
+    "swap_rate": 0.046937588049855705,
+    "drop_rate": 0.03338904330001193,
+    "dup_rate": 0.016033286641872525,
+    "leet_rate": 0.052292422921737386,
+    "start_lower_prob": 0.6386855928954955,
+    "all_lower_prob": 0.20848133648584274,
+    "drop_punct_prob": 0.5302340301840427,
+    "double_space_prob": 0.18140392237032282,
+    "ellipsis_prob": 0.22266836460190434,
+    "runon_prob": 0.16443685468308641,
+    "filler_rate": 0.4949961968002584,
+    "emoji_rate": 0.16614334168376466,
+    "stutter_rate": 0.13272897546604143,
+    "repeat_last_rate": 0.11636496828816215
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 25,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Understanding how PrEP can fit into my life with my condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that affects her ability to process information quickly and manage anxiety. She feels overwhelmed by medical conversations and is concerned about how stigma around her condition might impact her experience with PrEP. She is hopeful about reducing her risk of HIV but worries about discussing her needs with healthcare providers.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work in preventing HIV?\",\n    \"Can I access PrEP if I have a neurodevelopmental disorder?\",\n    \"What should I expect during my first visit to discuss PrEP?\",\n    \"Are there support resources for people like me who are considering PrEP?\",\n    \"How do I talk to my doctor about my specific concerns regarding PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4eb6e8f7982d92cb3b7601efea10c3a18af1242b5560b22c62f0ae1bbe7a32d7",
+  "_starter_hash": "51602e36d9b940c0abd4c629ae234d9243e71d580338e1f54e2d1e7393a45ce0",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

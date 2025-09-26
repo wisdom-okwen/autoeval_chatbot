@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "J'ai peur des effets secondaires et de la stigmatisation.",
+    "language": "French"
+  },
+  "context": "Vous vivez avec un trouble anxieux qui rend difficile la prise de décisions concernant votre santé. Vous vous sentez souvent dépassé par la peur du jugement des autres et par l'incertitude liée au traitement préventif du VIH, comme le PrEP. Cette anxiété affecte votre capacité à envisager de demander de l'aide ou à discuter ouvertement de ce sujet sensible.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir le PrEP en France?",
+    "Comment puis-je surmonter mon anxiété lors de la consultation avec un professionnel de santé?",
+    "Y a-t-il des ressources pour les personnes anxieuses qui envisagent le PrEP?",
+    "Quels sont les effets secondaires possibles du PrEP et comment les gérer?",
+    "Comment puis-je parler de mes préoccupations sur le PrEP avec mon partenaire?",
+    "Est-ce que d'autres personnes ressentent une pression sociale similaire en prenant le PrEP?"
+  ],
+  "example_questions_noisy": [
+    "um quelles sont les étapes poru obtenir le PrEP 3n France?",
+    "Comment puis-je surmonter mon anxiété lors de la consultation avec un professionnel de santé?",
+    "y a-t-il des ressources pour les personnes like anxieuses qui envisagent le PrEP?",
+    "Quels sont les effets secondaires possibles du PrEP et comment les gérer?",
+    "c-commnet puis-je parler de mee préoccupations sur le PrEP avec mon like partenaire?",
+    "Est-ce que d'autres personnes ressentent une pression sociale similaire en prenant le PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Est-ce que d'autres personnes ressentent une pression sociale similaire en prenant le PrEP?",
+  "starter_noisy": "Est-ce que d'autres personnes ressentent une pression sociale similaire en prenant le PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir le PrEP en France?",
+  "followup_noisy": "um quelles sont les étapes poru obtenir le PrEP 3n France?",
+  "style_profile": {
+    "typo_rate": 0.09618636281575914,
+    "swap_rate": 0.03697334233569215,
+    "drop_rate": 0.03435107938573987,
+    "dup_rate": 0.02181011943984682,
+    "leet_rate": 0.0805207311254191,
+    "start_lower_prob": 0.8786653736715098,
+    "all_lower_prob": 0.23401738591917454,
+    "drop_punct_prob": 0.32301127347166186,
+    "double_space_prob": 0.20694361963841904,
+    "ellipsis_prob": 0.2783493584209511,
+    "runon_prob": 0.17146528429697439,
+    "filler_rate": 0.4876805726564299,
+    "emoji_rate": 0.25661976552387283,
+    "stutter_rate": 0.1512389689271627,
+    "repeat_last_rate": 0.11829473523836144
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"J'ai peur des effets secondaires et de la stigmatisation.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez avec un trouble anxieux qui rend difficile la prise de décisions concernant votre santé. Vous vous sentez souvent dépassé par la peur du jugement des autres et par l'incertitude liée au traitement préventif du VIH, comme le PrEP. Cette anxiété affecte votre capacité à envisager de demander de l'aide ou à discuter ouvertement de ce sujet sensible.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir le PrEP en France?\",\n    \"Comment puis-je surmonter mon anxiété lors de la consultation avec un professionnel de santé?\",\n    \"Y a-t-il des ressources pour les personnes anxieuses qui envisagent le PrEP?\",\n    \"Quels sont les effets secondaires possibles du PrEP et comment les gérer?\",\n    \"Comment puis-je parler de mes préoccupations sur le PrEP avec mon partenaire?\",\n    \"Est-ce que d'autres personnes ressentent une pression sociale similaire en prenant le PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b0324886e8d49eb31c54d06bbd21e895b0c43cb5c70b9f0649970edeba0261e7",
+  "_starter_hash": "a05bcfceeabeab71f00fed466f944d721819f51075da5d9bc60fdcabb29d821f",
+  "_language": "French",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

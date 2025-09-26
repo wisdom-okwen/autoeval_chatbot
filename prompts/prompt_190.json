@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor bijwerkingen en stigma rond gebruik",
+    "language": "Dutch"
+  },
+  "context": "Je hebt een geschiedenis van middelengebruik, wat je zorgen over gezondheid en stigma versterkt. Je wilt PrEP overwegen, maar je maakt je zorgen over de bijwerkingen en hoe anderen daarop zullen reageren. Deze angsten belemmeren je om informatie te zoeken en een beslissing te nemen.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+    "Hoe kan ik de toegang tot PrEP regelen als ik me zorgen maak over stigma?",
+    "Is er ondersteuning beschikbaar voor mensen met een verleden van middelengebruik die PrEP willen gebruiken?",
+    "Wat moet ik weten over het gebruik van PrEP in combinatie met andere medicatie?",
+    "Hoe kan ik praten met mijn zorgverlener over PrEP zonder me te schamen?",
+    "Zijn er verhalen van anderen die vergelijkbare zorgen hebben gehad over het gebruik van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wat zijb de mogelijke bijwerkingen van PrEP waar 1k me bewust van mot zijn",
+    "Hoe kan ik de toegang tot PrEP regelen als ik me zorgen maak over stigma?",
+    "Is er ondersteuning beschikbaar voor mensen met een verleden van middelengebruik die PrEP willen gebruiken?",
+    "Wat moet ik weten over het gebruik van PrEP in combinatie met andere medicatie?",
+    "hoe kan ik praten met mijn zorgverlener over prep zonder me te schajen? 🙂",
+    "Zijn er verhalen van anderen die vergelijkbare zorgen hebben gehad over het gebruik van PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+  "starter_noisy": "wat zijb de mogelijke bijwerkingen van PrEP waar 1k me bewust van mot zijn",
+  "followup_index": 1,
+  "followup_clean": "Hoe kan ik de toegang tot PrEP regelen als ik me zorgen maak over stigma?",
+  "followup_noisy": "Hoe kan ik de toegang tot PrEP regelen als ik me zorgen maak over stigma?",
+  "style_profile": {
+    "typo_rate": 0.09392092729375034,
+    "swap_rate": 0.04263427337372139,
+    "drop_rate": 0.04556575080116578,
+    "dup_rate": 0.011028860093097717,
+    "leet_rate": 0.08171939244655127,
+    "start_lower_prob": 0.7790501294408355,
+    "all_lower_prob": 0.15146532889875533,
+    "drop_punct_prob": 0.5901483319934886,
+    "double_space_prob": 0.28168673664791805,
+    "ellipsis_prob": 0.2256488189183944,
+    "runon_prob": 0.21635757621499513,
+    "filler_rate": 0.34657089474084124,
+    "emoji_rate": 0.28048702388803237,
+    "stutter_rate": 0.18100635772345264,
+    "repeat_last_rate": 0.08884036745757197
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor bijwerkingen en stigma rond gebruik\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt een geschiedenis van middelengebruik, wat je zorgen over gezondheid en stigma versterkt. Je wilt PrEP overwegen, maar je maakt je zorgen over de bijwerkingen en hoe anderen daarop zullen reageren. Deze angsten belemmeren je om informatie te zoeken en een beslissing te nemen.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?\",\n    \"Hoe kan ik de toegang tot PrEP regelen als ik me zorgen maak over stigma?\",\n    \"Is er ondersteuning beschikbaar voor mensen met een verleden van middelengebruik die PrEP willen gebruiken?\",\n    \"Wat moet ik weten over het gebruik van PrEP in combinatie met andere medicatie?\",\n    \"Hoe kan ik praten met mijn zorgverlener over PrEP zonder me te schamen?\",\n    \"Zijn er verhalen van anderen die vergelijkbare zorgen hebben gehad over het gebruik van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1f4bce9fe3aceb898a73a6cc8bac709fe9249f22e74d3f3f49e9dc00bb5abd6c",
+  "_starter_hash": "e3a29fc48aeda5e3233004567fe620c474b34d522018abce3647972d0f5d711e",
+  "_language": "Dutch",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

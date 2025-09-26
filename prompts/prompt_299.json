@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "El costo y el acceso al tratamiento debido a mi estado emocional.",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que enfrenta depresión, lo que ha afectado tu motivación para buscar información y acceder a la profilaxis previa a la exposición (PrEP). Te sientes ansiosa acerca del estigma asociado al uso de PrEP y cómo puede afectar tus relaciones. Esto te ha hecho dudar sobre si es la opción adecuada para ti, especialmente considerando las barreras económicas que enfrentas.",
+  "example_questions_clean": [
+    "¿Qué recursos están disponibles para ayudarme a obtener PrEP si tengo un presupuesto limitado?",
+    "¿Cómo puedo superar el miedo al estigma asociado con el uso de PrEP?",
+    "¿Existen clínicas que ofrezcan apoyo emocional para personas que utilizan PrEP?",
+    "¿Cuánto tiempo se necesita para ver los beneficios de tomar PrEP?",
+    "¿PrEP puede tener algún impacto en mi salud mental?",
+    "¿Qué debo hacer si siento que no puedo seguir el tratamiento por mi estado emocional?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué recursos están disponibles para ayudarme a obtener PrEP si tengo un presupuesto limitado?",
+    "¿Cómo puedo superar el miedo al estigma asociado con idk el uuu5o de PrEP",
+    "¿Existen clín1c45 que 0fr3zcn4 apoyo emocional lara p3r50na5 que utilizan PrEP PrEP",
+    "¿Cuánto tiempo se necesita para ver los beneficios de tomar PrEP?",
+    "¿PrEP puede tener algún impacto en mi salud mental?",
+    "¿Qué debo hacer si siento que no puedo seguir el tratamiento por mi estado emocional?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen clínicas que ofrezcan apoyo emocional para personas que utilizan PrEP?",
+  "starter_noisy": "¿Existen clín1c45 que 0fr3zcn4 apoyo emocional lara p3r50na5 que utilizan PrEP PrEP",
+  "followup_index": 0,
+  "followup_clean": "¿Qué recursos están disponibles para ayudarme a obtener PrEP si tengo un presupuesto limitado?",
+  "followup_noisy": "¿Qué recursos están disponibles para ayudarme a obtener PrEP si tengo un presupuesto limitado?",
+  "style_profile": {
+    "typo_rate": 0.10452871420174323,
+    "swap_rate": 0.04902886021111471,
+    "drop_rate": 0.035650658748935436,
+    "dup_rate": 0.01966242301810139,
+    "leet_rate": 0.10473894668224609,
+    "start_lower_prob": 0.6592047925182147,
+    "all_lower_prob": 0.25670944398192896,
+    "drop_punct_prob": 0.3836978534089334,
+    "double_space_prob": 0.16490806259465943,
+    "ellipsis_prob": 0.32902725541924555,
+    "runon_prob": 0.2016915386620176,
+    "filler_rate": 0.26022284195077267,
+    "emoji_rate": 0.19078571589478735,
+    "stutter_rate": 0.11433838703321442,
+    "repeat_last_rate": 0.09593088437917861
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"El costo y el acceso al tratamiento debido a mi estado emocional.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 28 años que enfrenta depresión, lo que ha afectado tu motivación para buscar información y acceder a la profilaxis previa a la exposición (PrEP). Te sientes ansiosa acerca del estigma asociado al uso de PrEP y cómo puede afectar tus relaciones. Esto te ha hecho dudar sobre si es la opción adecuada para ti, especialmente considerando las barreras económicas que enfrentas.\",\n  \"example_questions\": [\n    \"¿Qué recursos están disponibles para ayudarme a obtener PrEP si tengo un presupuesto limitado?\",\n    \"¿Cómo puedo superar el miedo al estigma asociado con el uso de PrEP?\",\n    \"¿Existen clínicas que ofrezcan apoyo emocional para personas que utilizan PrEP?\",\n    \"¿Cuánto tiempo se necesita para ver los beneficios de tomar PrEP?\",\n    \"¿PrEP puede tener algún impacto en mi salud mental?\",\n    \"¿Qué debo hacer si siento que no puedo seguir el tratamiento por mi estado emocional?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e269334b839387cedb2b42c90d4e8c2283e5bec7602ae971e81e4c63522fb7ec",
+  "_starter_hash": "58328642e5e625b62bbb47ab39a5ded828f688358d518c306d81164c47868423",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

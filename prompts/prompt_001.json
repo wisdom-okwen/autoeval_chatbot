@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "the potential impact of PrEP on my recovery and overall health",
+    "language": "English"
+  },
+  "context": "The user is a 35-year-old American woman who has recently completed cancer treatment. She is in a delicate emotional state, grappling with feelings of vulnerability and anxiety about her health. The idea of starting PrEP brings up fears regarding how it might interact with her recovery process. She also worries about stigma and whether PrEP is the right choice for someone in her situation.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its relevance for someone like me recovering from cancer?",
+    "What are the common side effects of PrEP, and should I be concerned about them given my medical history?",
+    "Is there any support available for people in my situation to help navigate PrEP access?",
+    "How do I talk to my healthcare provider about starting PrEP after my cancer treatment?",
+    "Are there specific considerations I should keep in mind regarding drug interactions with PrEP?",
+    "What steps can I take to ensure I feel comfortable and supported while using PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and its relevance for someone like me recovering from cancer?",
+    "What are the common sie effects of PrEP and 5hould I be concerned about them given my mekdal history",
+    "Is there like any support available for people in my situation to help nwvigate PrrrEP adcess? 🙂",
+    "How do I talk to my healthcare provider about starting PrEP after my cancer treatment?",
+    "Are there specific considerations I should keep in mind regarding drug interactions with PrEP?",
+    "w-wg47 steps can i take to ensure j f33l comfortable and supportsd while using like prep"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Are there specific considerations I should keep in mind regarding drug interactions with PrEP?",
+  "starter_noisy": "Are there specific considerations I should keep in mind regarding drug interactions with PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and its relevance for someone like me recovering from cancer?",
+  "followup_noisy": "Can you explain how PrEP works and its relevance for someone like me recovering from cancer?",
+  "style_profile": {
+    "typo_rate": 0.1003375563264258,
+    "swap_rate": 0.028301005766165406,
+    "drop_rate": 0.04436524168687003,
+    "dup_rate": 0.014739055928252538,
+    "leet_rate": 0.0959675539782252,
+    "start_lower_prob": 0.6073607818750933,
+    "all_lower_prob": 0.3205779664479137,
+    "drop_punct_prob": 0.44534619086486016,
+    "double_space_prob": 0.2621298280088052,
+    "ellipsis_prob": 0.25533437449625207,
+    "runon_prob": 0.18966491113520145,
+    "filler_rate": 0.3683821583674513,
+    "emoji_rate": 0.32854273917437127,
+    "stutter_rate": 0.10102446397990929,
+    "repeat_last_rate": 0.1236033121206735
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"the potential impact of PrEP on my recovery and overall health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 35-year-old American woman who has recently completed cancer treatment. She is in a delicate emotional state, grappling with feelings of vulnerability and anxiety about her health. The idea of starting PrEP brings up fears regarding how it might interact with her recovery process. She also worries about stigma and whether PrEP is the right choice for someone in her situation.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its relevance for someone like me recovering from cancer?\",\n    \"What are the common side effects of PrEP, and should I be concerned about them given my medical history?\",\n    \"Is there any support available for people in my situation to help navigate PrEP access?\",\n    \"How do I talk to my healthcare provider about starting PrEP after my cancer treatment?\",\n    \"Are there specific considerations I should keep in mind regarding drug interactions with PrEP?\",\n    \"What steps can I take to ensure I feel comfortable and supported while using PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "82d02c5601f9ae904d331fd2a2a9649583c01d365c1f2d7c1153098b237e9d8a",
+  "_starter_hash": "3f9acb2c207f830842d1a70373fd552f8dd9080097d62321b2f55d4beef8d728",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

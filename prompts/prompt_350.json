@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 22,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessibility of PrEP due to fear of stigma",
+    "language": "English"
+  },
+  "context": "You are navigating gender dysphoria and are seeking information about PrEP as a means of HIV prevention. You often worry about how your identity might affect your access to healthcare and the judgment you may face. This has created emotional barriers for you, leaving you feeling both hopeful for protection and fearful of seeking help.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider who understands my situation?",
+    "Are there specific programs that help low-income individuals access PrEP without stigma?",
+    "How can I address my concerns about being judged when discussing PrEP with doctors?",
+    "What resources exist to educate myself on the benefits and side effects of PrEP?",
+    "Can you help me understand what the process looks like for getting prescribed PrEP?",
+    "What should I expect during my first appointment regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what steps can i take to find a supportive healthcare provider who understands my situation 😅 😅",
+    "Are there specific programs that help low-income individuals access PrEP without stigma?",
+    "now can I address my concerns about b31ng judged when discussing PrEP ith doctor?s",
+    "What resources exist um to educate myself in the benefits and side effects of PrEP? 😅",
+    "Can you help me understand what the process looks like for getting prescribed PrEP?",
+    "what should I expect duing my first appointment r3g4rding PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to find a supportive healthcare provider who understands my situation?",
+  "starter_noisy": "what steps can i take to find a supportive healthcare provider who understands my situation 😅 😅",
+  "followup_index": 1,
+  "followup_clean": "Are there specific programs that help low-income individuals access PrEP without stigma?",
+  "followup_noisy": "Are there specific programs that help low-income individuals access PrEP without stigma?",
+  "style_profile": {
+    "typo_rate": 0.05804335572491747,
+    "swap_rate": 0.02790806550749715,
+    "drop_rate": 0.03317395647197286,
+    "dup_rate": 0.011351872513854415,
+    "leet_rate": 0.07824861279082122,
+    "start_lower_prob": 0.8744399752751941,
+    "all_lower_prob": 0.15309279841189857,
+    "drop_punct_prob": 0.3690830317982744,
+    "double_space_prob": 0.18183930043822316,
+    "ellipsis_prob": 0.2194385964310429,
+    "runon_prob": 0.18822166677768531,
+    "filler_rate": 0.3952762751879865,
+    "emoji_rate": 0.29657154428709775,
+    "stutter_rate": 0.10329044651039304,
+    "repeat_last_rate": 0.09659129419210098
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 22,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessibility of PrEP due to fear of stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating gender dysphoria and are seeking information about PrEP as a means of HIV prevention. You often worry about how your identity might affect your access to healthcare and the judgment you may face. This has created emotional barriers for you, leaving you feeling both hopeful for protection and fearful of seeking help.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider who understands my situation?\",\n    \"Are there specific programs that help low-income individuals access PrEP without stigma?\",\n    \"How can I address my concerns about being judged when discussing PrEP with doctors?\",\n    \"What resources exist to educate myself on the benefits and side effects of PrEP?\",\n    \"Can you help me understand what the process looks like for getting prescribed PrEP?\",\n    \"What should I expect during my first appointment regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "09cdd966edc4a5c8d714410cd03e186125f51b01aff3da5f023236b8844eed51",
+  "_starter_hash": "760a791774ca2ebe64071c1cf1985aff7b0cfa3a2d158a2a7b61ddc02088c076",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

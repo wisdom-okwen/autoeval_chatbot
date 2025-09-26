@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en twijfels over effectiviteit",
+    "language": "Dutch"
+  },
+  "context": "Deze gebruiker is een 32-jarige vrouw uit Nederland, die herstellende is van trauma en daardoor onzeker is over het gebruik van PrEP. Haar eerdere ervaringen hebben haar angstig gemaakt over het delen van haar HIV-status en ze maakt zich zorgen over de reacties van anderen. Ze zoekt naar informatie om beter te begrijpen hoe PrEP haar kan helpen, maar de emotionele impact van haar situatie maakt het moeilijk voor haar om deze stap te zetten.",
+  "example_questions_clean": [
+    "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+    "Zijn er specifieke bijwerkingen van PrEP waar ik me zorgen over moet maken?",
+    "Hoe kan ik steun vinden bij anderen die ook PrEP gebruiken?",
+    "Wat zijn de stappen die ik moet nemen om toegang te krijgen tot PrEP?",
+    "Zijn er hulpbronnen beschikbaar voor mensen die angst hebben voor stigma?",
+    "Is PrEP effectief voor mensen met een verleden van trauma?"
+  ],
+  "example_questions_noisy": [
+    "wat zin de belangrijkste uh voordelen van prel voor iemand in mijn situatie",
+    "Z-Z1jn er specifieke bijwerkingen van idk PrEP waar ik me zorgen ovr moet maken?",
+    "Hoe kan ik steun vinden bij anderen die ook PrEP gebruiken?",
+    "w-wat zijn de 574pp3n die ik m037 emne om like toegang te krijgen tot prep? prep?",
+    "z-zijn er hulpbronnen beschikbaar voor mensen d13 uh wngst hebben voor stigma 😕",
+    "Is PrEP effectief voor mensen met een verleden van trauma?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Wat zijn de stappen die ik moet nemen om toegang te krijgen tot PrEP?",
+  "starter_noisy": "w-wat zijn de 574pp3n die ik m037 emne om like toegang te krijgen tot prep? prep?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+  "followup_noisy": "wat zin de belangrijkste uh voordelen van prel voor iemand in mijn situatie",
+  "style_profile": {
+    "typo_rate": 0.11324335342723914,
+    "swap_rate": 0.025278871480359486,
+    "drop_rate": 0.02737310723500921,
+    "dup_rate": 0.010804062968973438,
+    "leet_rate": 0.06224132047738123,
+    "start_lower_prob": 0.6122635109021842,
+    "all_lower_prob": 0.32079657544248136,
+    "drop_punct_prob": 0.44507188742284365,
+    "double_space_prob": 0.17185669264634285,
+    "ellipsis_prob": 0.22306502125785346,
+    "runon_prob": 0.24440993787489232,
+    "filler_rate": 0.391151046133554,
+    "emoji_rate": 0.2537395802883794,
+    "stutter_rate": 0.1609094083323294,
+    "repeat_last_rate": 0.1797924903342527
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en twijfels over effectiviteit\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Deze gebruiker is een 32-jarige vrouw uit Nederland, die herstellende is van trauma en daardoor onzeker is over het gebruik van PrEP. Haar eerdere ervaringen hebben haar angstig gemaakt over het delen van haar HIV-status en ze maakt zich zorgen over de reacties van anderen. Ze zoekt naar informatie om beter te begrijpen hoe PrEP haar kan helpen, maar de emotionele impact van haar situatie maakt het moeilijk voor haar om deze stap te zetten.\",\n  \"example_questions\": [\n    \"Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?\",\n    \"Zijn er specifieke bijwerkingen van PrEP waar ik me zorgen over moet maken?\",\n    \"Hoe kan ik steun vinden bij anderen die ook PrEP gebruiken?\",\n    \"Wat zijn de stappen die ik moet nemen om toegang te krijgen tot PrEP?\",\n    \"Zijn er hulpbronnen beschikbaar voor mensen die angst hebben voor stigma?\",\n    \"Is PrEP effectief voor mensen met een verleden van trauma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8d27f419da69ec5fe7aeae03b263885821a659266c3158e81f393f7802e66c3d",
+  "_starter_hash": "27a0e535b0854be8f74fc72e2a7f2adbe32bc2988ab2cf504c87bac37717313f",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

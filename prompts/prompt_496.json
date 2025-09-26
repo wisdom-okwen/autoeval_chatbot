@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is struggling with social anxiety, which makes it difficult for them to seek out healthcare services and discuss sensitive topics like PrEP. They feel overwhelmed by the potential judgment from others and worry that their condition might lead to negative experiences in medical settings. Despite their concerns, they are hopeful about taking proactive steps for their health.",
+  "example_questions_clean": [
+    "What are the steps to get a prescription for PrEP without feeling judged?",
+    "Can you explain how PrEP works and its importance in preventing HIV?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "What should I do if I experience stigma when trying to access PrEP?",
+    "Are there online resources or telehealth options that can help me with PrEP?",
+    "What side effects should I be aware of when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What 4r3 the steps 7o get a prescription for PrEP without feeling judgec",
+    "Can you explain how PrEP works and its importance in preventing HIV?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "What should I do if I experience stigma when triyng to access um Pr3P?",
+    "Are there online resources or telehealth options that can help me with PrEP?",
+    "What side effects should I be aware of when considering PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Can you explain how PrEP works and its importance in preventing HIV?",
+  "starter_noisy": "Can you explain how PrEP works and its importance in preventing HIV?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to get a prescription for PrEP without feeling judged?",
+  "followup_noisy": "What 4r3 the steps 7o get a prescription for PrEP without feeling judgec",
+  "style_profile": {
+    "typo_rate": 0.06186521466957621,
+    "swap_rate": 0.026282577638987066,
+    "drop_rate": 0.037609751535169655,
+    "dup_rate": 0.010671499977881145,
+    "leet_rate": 0.1009704784317314,
+    "start_lower_prob": 0.6531711327194675,
+    "all_lower_prob": 0.34704431948591125,
+    "drop_punct_prob": 0.42644273567050467,
+    "double_space_prob": 0.22642421488477668,
+    "ellipsis_prob": 0.18250233963040402,
+    "runon_prob": 0.10848517351058738,
+    "filler_rate": 0.47733109225917203,
+    "emoji_rate": 0.29968054735274596,
+    "stutter_rate": 0.11498496762119169,
+    "repeat_last_rate": 0.17406314529544115
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is struggling with social anxiety, which makes it difficult for them to seek out healthcare services and discuss sensitive topics like PrEP. They feel overwhelmed by the potential judgment from others and worry that their condition might lead to negative experiences in medical settings. Despite their concerns, they are hopeful about taking proactive steps for their health.\",\n  \"example_questions\": [\n    \"What are the steps to get a prescription for PrEP without feeling judged?\",\n    \"Can you explain how PrEP works and its importance in preventing HIV?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"What should I do if I experience stigma when trying to access PrEP?\",\n    \"Are there online resources or telehealth options that can help me with PrEP?\",\n    \"What side effects should I be aware of when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d122ea726866137140e08915b5f021994a5ad798f8e46ac2c41344ccc58e95cd",
+  "_starter_hash": "15ffd8c57cb7612bf1656ca1993f7610cef0491aec8cae7c136e1de402207ec3",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

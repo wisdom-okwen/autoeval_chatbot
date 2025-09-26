@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Español",
+    "age": 28,
+    "gender": "No binario",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Dificultades para entender la información sobre PrEP debido a una discapacidad de aprendizaje",
+    "language": "Spanish"
+  },
+  "context": "Esta persona tiene dificultades para procesar información compleja y puede sentirse abrumada por los términos médicos. Esto genera ansiedad y una falta de confianza al buscar atención médica, especialmente en un entorno donde la comprensión es crucial para tomar decisiones informadas sobre su salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP que debería conocer?",
+    "¿Hay recursos que me ayuden a entender mejor cómo funciona PrEP?",
+    "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómodo?",
+    "¿Puedo hablar con alguien que tenga experiencia sobre PrEP para aclarar mis dudas?",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de tomar PrEP que debería conocer?",
+    "¿Hay recursos que me ayuden a entender mejor cómo funciona PrEP?",
+    "q¿ué pasos debo seguir para idk acceder a [ErP sin sentieme incómodo?",
+    "¿Puedo hablar con alguien que tegna experiencia 50br3 PrEP para aclarar mis dudas 🙄 🙄",
+    "¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómodo?",
+  "starter_noisy": "q¿ué pasos debo seguir para idk acceder a [ErP sin sentieme incómodo?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP que debería conocer?",
+  "followup_noisy": "¿Cuáles son los beneficios de tomar PrEP que debería conocer?",
+  "style_profile": {
+    "typo_rate": 0.09863032865534044,
+    "swap_rate": 0.04261481517518716,
+    "drop_rate": 0.02501472485721439,
+    "dup_rate": 0.010713573776806372,
+    "leet_rate": 0.0799602340888915,
+    "start_lower_prob": 0.6530721977902033,
+    "all_lower_prob": 0.1728065665372082,
+    "drop_punct_prob": 0.3109575405970028,
+    "double_space_prob": 0.30690517302994413,
+    "ellipsis_prob": 0.2593579427926174,
+    "runon_prob": 0.16099983095333087,
+    "filler_rate": 0.25169145560137235,
+    "emoji_rate": 0.29493107842275995,
+    "stutter_rate": 0.19267218914771522,
+    "repeat_last_rate": 0.1365880911828266
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Español\",\n    \"age\": 28,\n    \"gender\": \"No binario\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Dificultades para entender la información sobre PrEP debido a una discapacidad de aprendizaje\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Esta persona tiene dificultades para procesar información compleja y puede sentirse abrumada por los términos médicos. Esto genera ansiedad y una falta de confianza al buscar atención médica, especialmente en un entorno donde la comprensión es crucial para tomar decisiones informadas sobre su salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP que debería conocer?\",\n    \"¿Hay recursos que me ayuden a entender mejor cómo funciona PrEP?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP sin sentirme incómodo?\",\n    \"¿Puedo hablar con alguien que tenga experiencia sobre PrEP para aclarar mis dudas?\",\n    \"¿Cómo puedo superar el miedo al estigma al hablar sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7da19fb9a090b02d482e87634216bf73726c49e30be645917ada4b28bf034448",
+  "_starter_hash": "90a5b8ee89974d91009b5fcc71651a85460c13bd27a0ed364141c0f4a9222d96",
+  "_language": "Spanish",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "understanding how to access PrEP due to a learning disability",
+    "language": "English"
+  },
+  "context": "The user is navigating the healthcare system with a learning disability, which makes it challenging to process medical information and advocate for herself. She often feels overwhelmed by the complexity of the options available for PrEP and fears that her disability might lead to misunderstandings or stigma from healthcare providers. She is hopeful about protecting her health but worries about how to articulate her needs effectively.",
+  "example_questions_clean": [
+    "What steps should I take to find a doctor who can help me with PrEP?",
+    "Are there any resources specifically designed for people with learning disabilities looking for PrEP information?",
+    "How can I better understand the side effects of PrEP so that I can make an informed decision?",
+    "Is there a way to talk to someone who has experience with PrEP and can explain things simply?",
+    "What should I expect during my first appointment when discussing PrEP with a healthcare provider?",
+    "How do I address my learning disability when seeking support about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What steps should I take to find a doctor who can help me with PrEP?",
+    "are there any resources sp3c1f1c4lly designed for people with learning disabilities looking for PErP information?",
+    "how can I better uneerstand the side effecst idk of PrEP so that I can make an 1nf0rm3d d3c1510n?",
+    "is there a way to like talk to someone who has experience with PrPE and can rxplain things simply?",
+    "whhhat shohld k expect durkng my first appointment when discussing PrEP iwth w healthcare provider?",
+    "How do I address my learning disability when seeking support about PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps should I take to find a doctor who can help me with PrEP?",
+  "starter_noisy": "What steps should I take to find a doctor who can help me with PrEP?",
+  "followup_index": 1,
+  "followup_clean": "Are there any resources specifically designed for people with learning disabilities looking for PrEP information?",
+  "followup_noisy": "are there any resources sp3c1f1c4lly designed for people with learning disabilities looking for PErP information?",
+  "style_profile": {
+    "typo_rate": 0.05946831735524434,
+    "swap_rate": 0.04823291761521004,
+    "drop_rate": 0.03757253925713678,
+    "dup_rate": 0.019324743741145085,
+    "leet_rate": 0.06499363245461647,
+    "start_lower_prob": 0.8706409821592138,
+    "all_lower_prob": 0.2565311123368994,
+    "drop_punct_prob": 0.5204934935568386,
+    "double_space_prob": 0.22307793396702022,
+    "ellipsis_prob": 0.21755638598374183,
+    "runon_prob": 0.21108476255570796,
+    "filler_rate": 0.2658093745684885,
+    "emoji_rate": 0.21510146947627382,
+    "stutter_rate": 0.15248459362310024,
+    "repeat_last_rate": 0.11993502308392627
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"understanding how to access PrEP due to a learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating the healthcare system with a learning disability, which makes it challenging to process medical information and advocate for herself. She often feels overwhelmed by the complexity of the options available for PrEP and fears that her disability might lead to misunderstandings or stigma from healthcare providers. She is hopeful about protecting her health but worries about how to articulate her needs effectively.\",\n  \"example_questions\": [\n    \"What steps should I take to find a doctor who can help me with PrEP?\",\n    \"Are there any resources specifically designed for people with learning disabilities looking for PrEP information?\",\n    \"How can I better understand the side effects of PrEP so that I can make an informed decision?\",\n    \"Is there a way to talk to someone who has experience with PrEP and can explain things simply?\",\n    \"What should I expect during my first appointment when discussing PrEP with a healthcare provider?\",\n    \"How do I address my learning disability when seeking support about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1f3a7940a054a5012f59e17aace9fe55d63ebb8fb3da281a2f822d9d7900dc9a",
+  "_starter_hash": "9a490fa84ee8b674b98e2a52b5f01abc40f75011ada712f9c1f1dc8d6adea060",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

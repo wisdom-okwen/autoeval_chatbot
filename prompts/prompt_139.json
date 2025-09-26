@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner reactions and access to discreet healthcare",
+    "language": "English"
+  },
+  "context": "You are in a difficult situation where you're facing intimate partner violence. This has made it challenging to prioritize your health and seek out PrEP due to fears about your partner's reactions and concerns about confidentiality in healthcare settings. You want to ensure you remain safe while also protecting yourself from HIV.",
+  "example_questions_clean": [
+    "How can I access PrEP safely without my partner knowing?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there a way to get PrEP without going through my usual healthcare provider?",
+    "How can I talk to someone about PrEP without feeling judged or scared?",
+    "What resources are available for someone in my situation who wants to start PrEP?",
+    "Can I get support for my mental health while seeking treatment for HIV prevention?"
+  ],
+  "example_questions_noisy": [
+    "y-you know how cab I accses Pr3P wafely without my parnter knowing? 💀",
+    "What are the side effects of PrEP that I should be aware of?",
+    "1-1s there a way to get PrEP without goign through my usual healthcare provider?",
+    "How can I talk to someone about PrEP without feeling judged or scared?",
+    "What resources are available for someone in my situation who wants to start PrEP?",
+    "Can I get support for my mental health while seeking treatment for HIV prevention?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I access PrEP safely without my partner knowing?",
+  "starter_noisy": "y-you know how cab I accses Pr3P wafely without my parnter knowing? 💀",
+  "followup_index": 1,
+  "followup_clean": "What are the side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.052764508757551044,
+    "swap_rate": 0.057812213353439695,
+    "drop_rate": 0.025747316581230285,
+    "dup_rate": 0.027938209223062276,
+    "leet_rate": 0.06642068137832458,
+    "start_lower_prob": 0.7567663395756116,
+    "all_lower_prob": 0.29892895367618233,
+    "drop_punct_prob": 0.46869516715609133,
+    "double_space_prob": 0.2824851589660011,
+    "ellipsis_prob": 0.3484251792587954,
+    "runon_prob": 0.24611788907180224,
+    "filler_rate": 0.3779115090186367,
+    "emoji_rate": 0.16426340548226198,
+    "stutter_rate": 0.16410563668423034,
+    "repeat_last_rate": 0.12477243800413801
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner reactions and access to discreet healthcare\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are in a difficult situation where you're facing intimate partner violence. This has made it challenging to prioritize your health and seek out PrEP due to fears about your partner's reactions and concerns about confidentiality in healthcare settings. You want to ensure you remain safe while also protecting yourself from HIV.\",\n  \"example_questions\": [\n    \"How can I access PrEP safely without my partner knowing?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there a way to get PrEP without going through my usual healthcare provider?\",\n    \"How can I talk to someone about PrEP without feeling judged or scared?\",\n    \"What resources are available for someone in my situation who wants to start PrEP?\",\n    \"Can I get support for my mental health while seeking treatment for HIV prevention?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "df299ed5ad80b952aa6400429973dd17b1b2890b85312e829b14e8bc0e5dd19f",
+  "_starter_hash": "c2213767886177e15d544387c80923f8e778e0aca43cb8533a86e56fd22a81d1",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

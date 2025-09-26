@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "After experiencing trauma, the user feels anxious about discussing their health and may worry about being judged for their decisions. This anxiety creates a barrier to seeking out information about PrEP, as they are concerned about how they will be perceived by others, especially in healthcare settings.",
+  "example_questions_clean": [
+    "What are the potential benefits of taking PrEP for someone like me?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any resources available to help with the cost of PrEP?",
+    "What should I expect during my first appointment if I decide to ask about PrEP?",
+    "How can I overcome the fear of stigma when discussing PrEP with my doctor?",
+    "Is there a way to access PrEP discreetly if I'm worried about privacy?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential benefits of taking Pr3P for someone like me 😬",
+    "h0w c4n I find s 5up[or71v3 healthcare provider who und3r574n55 my situation?",
+    "Are there any resources available to help with the cost of PrEP?",
+    "wht i mean shuold I expect during my fisrt appointment if I decie 70 ask about PrEP",
+    "h-how can i overcome the idk fear of stigma when discussing prep with my dddoctor",
+    "isss there a way to access prep discreetly if i'm worried about privacy 😬"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I expect during my first appointment if I decide to ask about PrEP?",
+  "starter_noisy": "wht i mean shuold I expect during my fisrt appointment if I decie 70 ask about PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the potential benefits of taking PrEP for someone like me?",
+  "followup_noisy": "what are the potential benefits of taking Pr3P for someone like me 😬",
+  "style_profile": {
+    "typo_rate": 0.06108031169233865,
+    "swap_rate": 0.048360509566790444,
+    "drop_rate": 0.047408172648039065,
+    "dup_rate": 0.018446574070885468,
+    "leet_rate": 0.09968031650861153,
+    "start_lower_prob": 0.7117055680413795,
+    "all_lower_prob": 0.32450344492592625,
+    "drop_punct_prob": 0.4765147152015288,
+    "double_space_prob": 0.2315554495184645,
+    "ellipsis_prob": 0.20306924636696644,
+    "runon_prob": 0.2814689653325232,
+    "filler_rate": 0.460831289445843,
+    "emoji_rate": 0.34829314133089834,
+    "stutter_rate": 0.1854900730890105,
+    "repeat_last_rate": 0.08249970301638804
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"After experiencing trauma, the user feels anxious about discussing their health and may worry about being judged for their decisions. This anxiety creates a barrier to seeking out information about PrEP, as they are concerned about how they will be perceived by others, especially in healthcare settings.\",\n  \"example_questions\": [\n    \"What are the potential benefits of taking PrEP for someone like me?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there any resources available to help with the cost of PrEP?\",\n    \"What should I expect during my first appointment if I decide to ask about PrEP?\",\n    \"How can I overcome the fear of stigma when discussing PrEP with my doctor?\",\n    \"Is there a way to access PrEP discreetly if I'm worried about privacy?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "18f3eb852f2af1a69d9b7318bf40279c92b18c6c115c1ddc5fb367f35450a56f",
+  "_starter_hash": "e3e4008a79b4b5062ae6ea50bd455d58564133a960f37394789b54a9d457d45f",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

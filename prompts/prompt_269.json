@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "nervous about the stigma associated with taking PrEP",
+    "language": "Swahili"
+  },
+  "context": "The user has been managing an anxiety disorder that makes her feel overwhelmed by the idea of discussing her health openly. This challenge has created barriers in seeking information about PrEP, as she fears judgment and stigma from her community. She hopes to find reliable information to help her make an informed decision.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi watu watakavyoniona nikichukua PrEP, je, ni kawaida kujiweza na haya mawazo?",
+    "Je, kuna njia za kufikia PrEP bila kukutana na watu wengi?",
+    "Naweza kupata usaidizi wa kiakili wakati wa kuamua kuchukua PrEP?",
+    "Nani anaweza kunisaidia kuelewa vizuri kuhusu madhara ya PrEP na faida zake?",
+    "Ni vyema nini kufanya ili kupunguza hofu yangu kuhusu matumizi ya PrEP?",
+    "Je, kuna watu wengine ambao wamepitia hali kama yangu na wanaweza kushiriki uzoefu wao?"
+  ],
+  "example_questions_noisy": [
+    "nina wasiwasi kugu5u jinsi watu watakacyoniona nikichukua pr3p je bi kaaida kujiweza na haya mawazo 🙄",
+    "j-je, kuna njia za you know kufikia PrEP bila kukutqna na watu wengi?",
+    "naweza kupata usssaiizi wa kiakili waiati wa kuamua kuchuku4 PrEP",
+    "Nani anaweza kunisaidia kuelewa vizuri kuhusu madhara ya PrEP na faida zake?",
+    "Ni vyema nini kufanya ili kupunguza hofu yangu kuhusu matumizi ya PrEP?",
+    "Je, kuna watu wengine ambao wamepitia hali kama yangu na wanaweza kushiriki uzoefu wao?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Nani anaweza kunisaidia kuelewa vizuri kuhusu madhara ya PrEP na faida zake?",
+  "starter_noisy": "Nani anaweza kunisaidia kuelewa vizuri kuhusu madhara ya PrEP na faida zake?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi watu watakavyoniona nikichukua PrEP, je, ni kawaida kujiweza na haya mawazo?",
+  "followup_noisy": "nina wasiwasi kugu5u jinsi watu watakacyoniona nikichukua pr3p je bi kaaida kujiweza na haya mawazo 🙄",
+  "style_profile": {
+    "typo_rate": 0.06180503526520183,
+    "swap_rate": 0.039803105155605784,
+    "drop_rate": 0.04150151271968562,
+    "dup_rate": 0.01651939587001295,
+    "leet_rate": 0.10194701836471529,
+    "start_lower_prob": 0.6402724808250996,
+    "all_lower_prob": 0.15888079141440656,
+    "drop_punct_prob": 0.38702369276484955,
+    "double_space_prob": 0.1878701781027189,
+    "ellipsis_prob": 0.34157748936480536,
+    "runon_prob": 0.18002131249264358,
+    "filler_rate": 0.2499391128799756,
+    "emoji_rate": 0.25653959163358764,
+    "stutter_rate": 0.11531890243933972,
+    "repeat_last_rate": 0.11721393165259057
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"nervous about the stigma associated with taking PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has been managing an anxiety disorder that makes her feel overwhelmed by the idea of discussing her health openly. This challenge has created barriers in seeking information about PrEP, as she fears judgment and stigma from her community. She hopes to find reliable information to help her make an informed decision.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi watu watakavyoniona nikichukua PrEP, je, ni kawaida kujiweza na haya mawazo?\",\n    \"Je, kuna njia za kufikia PrEP bila kukutana na watu wengi?\",\n    \"Naweza kupata usaidizi wa kiakili wakati wa kuamua kuchukua PrEP?\",\n    \"Nani anaweza kunisaidia kuelewa vizuri kuhusu madhara ya PrEP na faida zake?\",\n    \"Ni vyema nini kufanya ili kupunguza hofu yangu kuhusu matumizi ya PrEP?\",\n    \"Je, kuna watu wengine ambao wamepitia hali kama yangu na wanaweza kushiriki uzoefu wao?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6dfca046a47e65f42f7e883b41812aa4c4fc016832c72acae6ca542759a2a7a6",
+  "_starter_hash": "3e3e3ef8c0445b39c53ef24527e0d92f3a27c49651e6d1bd466a7f552f2c66bb",
+  "_language": "Swahili",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

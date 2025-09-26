@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "difficulties in managing medication due to mental health condition",
+    "language": "Spanish"
+  },
+  "context": "El usuario vive con esquizofrenia y enfrenta desafíos emocionales y de acceso a la atención médica, lo que le genera ansiedad sobre iniciar el uso de PrEP. Tiene miedo de que sus síntomas mentales afecten su capacidad para seguir el tratamiento adecuadamente y teme el estigma asociado a su condición y al uso de PrEP.",
+  "example_questions_clean": [
+    "¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme juzgado?",
+    "Me preocupa olvidarme de tomar la medicación. ¿Hay formas de establecer recordatorios efectivos?",
+    "¿Existen recursos en línea para personas que viven con condiciones mentales que buscan información sobre PrEP?",
+    "¿Qué apoyo emocional se recomienda para alguien que considera usar PrEP y tiene un diagnóstico de esquizofrenia?",
+    "¿Cuál es el proceso para obtener PrEP en México, especialmente para alguien en mi situación?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme juzgado?",
+    "me preocupa olvidarme de idk 70m4r la medicación ¿hay formas d3 establecer r3c0rd4t0r105 efectivos",
+    "¿-¿Existen recursos en ínea para personas que viven c0n c0nd1c1on3s mentaes que buscan información sobre PrEP? 🙄 🙄",
+    "¿qué apoo emocional se recomienda para 4lgu13n que considera usar prep y tiene un diagnóstico de esquizofrenia",
+    "¿Cuál es el proceso para obtener PrEP en México, especialmente para alguien en mi situación?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Cuál es el proceso para obtener PrEP en México, especialmente para alguien en mi situación?",
+  "starter_noisy": "¿Cuál es el proceso para obtener PrEP en México, especialmente para alguien en mi situación?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme juzgado?",
+  "followup_noisy": "¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme juzgado?",
+  "style_profile": {
+    "typo_rate": 0.058272648307435115,
+    "swap_rate": 0.05783928144371012,
+    "drop_rate": 0.02375000388859684,
+    "dup_rate": 0.022702101054976623,
+    "leet_rate": 0.1131436623134902,
+    "start_lower_prob": 0.7492414985923458,
+    "all_lower_prob": 0.3176842363308511,
+    "drop_punct_prob": 0.32867805804906236,
+    "double_space_prob": 0.2027101294369435,
+    "ellipsis_prob": 0.2631032820549806,
+    "runon_prob": 0.2881986047305089,
+    "filler_rate": 0.24963723072043717,
+    "emoji_rate": 0.24693223897340943,
+    "stutter_rate": 0.16147403308833946,
+    "repeat_last_rate": 0.14004591035654332
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"difficulties in managing medication due to mental health condition\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"El usuario vive con esquizofrenia y enfrenta desafíos emocionales y de acceso a la atención médica, lo que le genera ansiedad sobre iniciar el uso de PrEP. Tiene miedo de que sus síntomas mentales afecten su capacidad para seguir el tratamiento adecuadamente y teme el estigma asociado a su condición y al uso de PrEP.\",\n  \"example_questions\": [\n    \"¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme juzgado?\",\n    \"Me preocupa olvidarme de tomar la medicación. ¿Hay formas de establecer recordatorios efectivos?\",\n    \"¿Existen recursos en línea para personas que viven con condiciones mentales que buscan información sobre PrEP?\",\n    \"¿Qué apoyo emocional se recomienda para alguien que considera usar PrEP y tiene un diagnóstico de esquizofrenia?\",\n    \"¿Cuál es el proceso para obtener PrEP en México, especialmente para alguien en mi situación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7893fc479aa556a8abe8e1b601e368c998844371839c5eb24dc52d0d535fb171",
+  "_starter_hash": "73a8380daf00539c1e9e65a16618db00847842672461ef21c81f1259241a33da",
+  "_language": "Spanish",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

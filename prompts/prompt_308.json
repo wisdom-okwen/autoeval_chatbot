@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and potential side effects",
+    "language": "English"
+  },
+  "context": "The user is a 30-year-old American female who is recovering from trauma related to a previous health condition. She experiences anxiety around seeking medical help and is particularly concerned about the stigma associated with PrEP. This fear influences her emotional well-being and makes it challenging for her to access healthcare services confidently.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+    "Is there any support available for someone like me who has experienced trauma?",
+    "What are the steps I need to take to get access to PrEP in my area?",
+    "How do I know if PrEP is the right option for me given my past experiences?",
+    "Are there resources for people facing stigma when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+    "is 7h3f3 any support available for someone like me who has experienced uh 7r4um4? 7r4um4?",
+    "wnat are the steps u need to taek to get access t0 PrEP in my raea? ✨ ✨",
+    "How do I know if PrEP is the right option for me given my past experiences?",
+    "Are there resources for people facing stigma when seeking PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+  "starter_noisy": "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the potential side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.07132231074780533,
+    "swap_rate": 0.05810744470221152,
+    "drop_rate": 0.02164620794007459,
+    "dup_rate": 0.015239223012273918,
+    "leet_rate": 0.055604760708960047,
+    "start_lower_prob": 0.8256242635152568,
+    "all_lower_prob": 0.20990434035762476,
+    "drop_punct_prob": 0.5811452884449151,
+    "double_space_prob": 0.2103243774884253,
+    "ellipsis_prob": 0.3006506510129019,
+    "runon_prob": 0.24625367499679807,
+    "filler_rate": 0.27310020772262655,
+    "emoji_rate": 0.27692508988338876,
+    "stutter_rate": 0.12650463776569373,
+    "repeat_last_rate": 0.16130340166583917
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and potential side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 30-year-old American female who is recovering from trauma related to a previous health condition. She experiences anxiety around seeking medical help and is particularly concerned about the stigma associated with PrEP. This fear influences her emotional well-being and makes it challenging for her to access healthcare services confidently.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I discuss my interest in PrEP with a healthcare provider without feeling judged?\",\n    \"Is there any support available for someone like me who has experienced trauma?\",\n    \"What are the steps I need to take to get access to PrEP in my area?\",\n    \"How do I know if PrEP is the right option for me given my past experiences?\",\n    \"Are there resources for people facing stigma when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5f975681c95231713246e3ba3e0b5f8868a69be646b59b212ee98624f27b7ef1",
+  "_starter_hash": "38a28055ca6c01871a5906b5d5ec5fca3a9e92e476c10550b19db170c9343f67",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

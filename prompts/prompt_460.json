@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "La posibilidad de que PrEP afecte mi condición de dolor crónico.",
+    "language": "Spanish"
+  },
+  "context": "Vives con dolor crónico, lo que te ha llevado a sentir ansiedad sobre el manejo de tu salud. Tienes preocupaciones sobre cómo PrEP podría interactuar con tu tratamiento actual y si podrá exacerbar tu situación. Te preocupa también el estigma asociado a la medicación para prevenir el VIH, y buscas información que te ayude a tomar una decisión informada y segura.",
+  "example_questions_clean": [
+    "¿Cómo puede afectar PrEP a mi dolor crónico?",
+    "¿Existen estudios sobre la interacción entre PrEP y medicamentos para el dolor?",
+    "Me preocupa el estigma que puede venir con el uso de PrEP, ¿cómo puedo manejarlo?",
+    "¿Cuál es la mejor manera de hablar con mi médico sobre PrEP y mi situación?",
+    "¿Qué recursos existen para personas con condiciones crónicas que consideran usar PrEP?",
+    "¿Cómo puedo obtener más información sin sentirme juzgada?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo pu3d3 afectar PrEP a mi dolor crónico?",
+    "¿existen estudios sobre la you know interacción ejtre prep y medicamentos para el dolor dolor",
+    "Me preocupa el estigma qu3 puede venir um con eeel uso de PrEP ¿cómo pu3d0 manejarlo",
+    "¿Cuál es la mejor manera de hablar con mi médico sobre PrEP y mi situación?",
+    "¿Qué recursos existen para personas con condiciones crónicas que consideran usar PrEP?",
+    "¿Cómo puedo obtener más información sin sentirme juzgada?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Qué recursos existen para personas con condiciones crónicas que consideran usar PrEP?",
+  "starter_noisy": "¿Qué recursos existen para personas con condiciones crónicas que consideran usar PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puede afectar PrEP a mi dolor crónico?",
+  "followup_noisy": "¿Cómo pu3d3 afectar PrEP a mi dolor crónico?",
+  "style_profile": {
+    "typo_rate": 0.10023793031942918,
+    "swap_rate": 0.02825064175995702,
+    "drop_rate": 0.029751543544289893,
+    "dup_rate": 0.029084469194339824,
+    "leet_rate": 0.0929863586472725,
+    "start_lower_prob": 0.8510700587712587,
+    "all_lower_prob": 0.28195167191722825,
+    "drop_punct_prob": 0.5912688017256513,
+    "double_space_prob": 0.25568252056818513,
+    "ellipsis_prob": 0.16551304177981976,
+    "runon_prob": 0.19574259949290967,
+    "filler_rate": 0.45039171216323887,
+    "emoji_rate": 0.21911304828527248,
+    "stutter_rate": 0.15590069960095707,
+    "repeat_last_rate": 0.08875133978543728
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"La posibilidad de que PrEP afecte mi condición de dolor crónico.\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Vives con dolor crónico, lo que te ha llevado a sentir ansiedad sobre el manejo de tu salud. Tienes preocupaciones sobre cómo PrEP podría interactuar con tu tratamiento actual y si podrá exacerbar tu situación. Te preocupa también el estigma asociado a la medicación para prevenir el VIH, y buscas información que te ayude a tomar una decisión informada y segura.\",\n  \"example_questions\": [\n    \"¿Cómo puede afectar PrEP a mi dolor crónico?\",\n    \"¿Existen estudios sobre la interacción entre PrEP y medicamentos para el dolor?\",\n    \"Me preocupa el estigma que puede venir con el uso de PrEP, ¿cómo puedo manejarlo?\",\n    \"¿Cuál es la mejor manera de hablar con mi médico sobre PrEP y mi situación?\",\n    \"¿Qué recursos existen para personas con condiciones crónicas que consideran usar PrEP?\",\n    \"¿Cómo puedo obtener más información sin sentirme juzgada?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fb720d807199fdb1bf43aa39305e931a298d9bc467756819a25776dc46ed5747",
+  "_starter_hash": "fad94fba8ae5ab3ee6eb08a3708b233c450985938149ca208e935de71297335e",
+  "_language": "Spanish",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

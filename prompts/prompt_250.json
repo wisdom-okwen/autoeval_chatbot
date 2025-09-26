@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP might interact with my ongoing recovery and overall health",
+    "language": "English"
+  },
+  "context": "After completing cancer treatment, I feel overwhelmed by the idea of starting a new medication like PrEP. I worry about how it could affect my body and whether I can trust my health to manage more medications. The fear of stigma related to HIV prevention adds to my anxiety, making it hard to discuss my needs openly.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+    "Can I safely take PrEP alongside other medications I am currently on?",
+    "How does PrEP help in preventing HIV, and what should I know before starting it?",
+    "Is there support available for people like me who might feel stigmatized while seeking PrEP?",
+    "What steps can I take to ensure that I have access to PrEP without financial strain?"
+  ],
+  "example_questions_noisy": [
+    "Wnat are the potential side 3ff3c75 of PrEP, especially for someon rrcovering from you know cancer? cancer?",
+    "c-caaan i safely i mean twke prep alongside other medications i am currently on? 🙂",
+    "Hooow does PrEP help in preventing HIV, and what should I uh know before starting it? 😅",
+    "is there support available for people liek me who might feel stigmatized wh1l3 seeking uh PrEP?",
+    "What steps can I take to ensure that I have access to PrEP without financial strain?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What steps can I take to ensure that I have access to PrEP without financial strain?",
+  "starter_noisy": "What steps can I take to ensure that I have access to PrEP without financial strain?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+  "followup_noisy": "Wnat are the potential side 3ff3c75 of PrEP, especially for someon rrcovering from you know cancer? cancer?",
+  "style_profile": {
+    "typo_rate": 0.0515462043673178,
+    "swap_rate": 0.02632703838956154,
+    "drop_rate": 0.02909276230252284,
+    "dup_rate": 0.027568576281204814,
+    "leet_rate": 0.0625141405544052,
+    "start_lower_prob": 0.6004383836996204,
+    "all_lower_prob": 0.16493789240177228,
+    "drop_punct_prob": 0.39505572728274635,
+    "double_space_prob": 0.20967892635791213,
+    "ellipsis_prob": 0.17870208650724667,
+    "runon_prob": 0.12133480568712872,
+    "filler_rate": 0.33412919221162396,
+    "emoji_rate": 0.18794863821389063,
+    "stutter_rate": 0.1851350527432495,
+    "repeat_last_rate": 0.15271443655796788
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP might interact with my ongoing recovery and overall health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"After completing cancer treatment, I feel overwhelmed by the idea of starting a new medication like PrEP. I worry about how it could affect my body and whether I can trust my health to manage more medications. The fear of stigma related to HIV prevention adds to my anxiety, making it hard to discuss my needs openly.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP, especially for someone recovering from cancer?\",\n    \"Can I safely take PrEP alongside other medications I am currently on?\",\n    \"How does PrEP help in preventing HIV, and what should I know before starting it?\",\n    \"Is there support available for people like me who might feel stigmatized while seeking PrEP?\",\n    \"What steps can I take to ensure that I have access to PrEP without financial strain?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f76bbf5c53b646460ddc0d4ce2660464b6feb7f3fb9f6e2c9f29128f6ad3605a",
+  "_starter_hash": "1cf28545f6361ad1f52fade1b60dc258011f17f922a49e076b147502a4d8e830",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

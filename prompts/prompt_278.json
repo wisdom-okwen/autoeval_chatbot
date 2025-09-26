@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "moeite met het begrijpen van medische informatie",
+    "language": "Dutch"
+  },
+  "context": "Deze gebruiker heeft een leerstoornis die het moeilijk maakt om complexe medische termen te begrijpen. Ze voelt zich angstig over het proces om PrEP te verkrijgen en is bezorgd dat ze niet de juiste informatie kan krijgen om een weloverwogen beslissing te maken. De stigma rond haar situatie maakt haar ook nerveus om vragen te stellen.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen om PrEP te krijgen?",
+    "Kun je me uitleggen hoe PrEP werkt in eenvoudige woorden?",
+    "Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?",
+    "Hoe kan ik de juiste informatie over PrEP vinden als ik het moeilijk vind om te begrijpen?",
+    "Is er ondersteuning beschikbaar voor mensen die hulp nodig hebben bij het aanvragen van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de eerste stappen om PrEP te krijgen?",
+    "k-kun je ne uitleggen hoe PrdP werkt in eenvoudige woorden? 🙂",
+    "Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?",
+    "Hoe kan ik de juiste informatie over PrEP vinden als ik het moeilijk vind om te begrijpen?",
+    "Is er ondersteuning beschikbaar voor mensen die hulp nodig hebben bij het aanvragen van PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Hoe kan ik de juiste informatie over PrEP vinden als ik het moeilijk vind om te begrijpen?",
+  "starter_noisy": "Hoe kan ik de juiste informatie over PrEP vinden als ik het moeilijk vind om te begrijpen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de eerste stappen om PrEP te krijgen?",
+  "followup_noisy": "Wat zijn de eerste stappen om PrEP te krijgen?",
+  "style_profile": {
+    "typo_rate": 0.06920290842831536,
+    "swap_rate": 0.02835417200640864,
+    "drop_rate": 0.02216117566989835,
+    "dup_rate": 0.011343733740591904,
+    "leet_rate": 0.08225879997534222,
+    "start_lower_prob": 0.6412048176301218,
+    "all_lower_prob": 0.30146373279952776,
+    "drop_punct_prob": 0.4634644673884421,
+    "double_space_prob": 0.2306750652572908,
+    "ellipsis_prob": 0.3066012068762588,
+    "runon_prob": 0.16729057819811116,
+    "filler_rate": 0.38460590786084076,
+    "emoji_rate": 0.21783214265966008,
+    "stutter_rate": 0.11367397994762275,
+    "repeat_last_rate": 0.12672505280319643
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"moeite met het begrijpen van medische informatie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Deze gebruiker heeft een leerstoornis die het moeilijk maakt om complexe medische termen te begrijpen. Ze voelt zich angstig over het proces om PrEP te verkrijgen en is bezorgd dat ze niet de juiste informatie kan krijgen om een weloverwogen beslissing te maken. De stigma rond haar situatie maakt haar ook nerveus om vragen te stellen.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen om PrEP te krijgen?\",\n    \"Kun je me uitleggen hoe PrEP werkt in eenvoudige woorden?\",\n    \"Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Hoe kan ik de juiste informatie over PrEP vinden als ik het moeilijk vind om te begrijpen?\",\n    \"Is er ondersteuning beschikbaar voor mensen die hulp nodig hebben bij het aanvragen van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4f7f99f748ad7029cfe3e8dfe276870f731a8adee8a97660c4b4e6239957e066",
+  "_starter_hash": "bbe9cd0896f60e1e54b0151a407eb16efcc41307551f0ce4fd9a7fe4504e4cd1",
+  "_language": "Dutch",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 25,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Comprendre comment PrEP fonctionne et ses effets secondaires potentiels.",
+    "language": "French"
+  },
+  "context": "Vous êtes un jeune homme vivant à Paris, qui a des difficultés d'apprentissage. Vous ressentez de l'anxiété à l'idée de parler de votre santé et d'accéder aux informations sur la PrEP. Cette situation rend l'accès à la santé plus difficile et vous a amené à vous sentir isolé et confus face à vos options.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer à prendre la PrEP ?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?",
+    "Comment puis-je discuter de la PrEP avec mon médecin sans me sentir mal à l'aise ?",
+    "Y a-t-il des ressources disponibles pour m'aider à mieux comprendre la PrEP ?",
+    "La PrEP est-elle accessible dans toutes les pharmacies ?",
+    "Quelles sont les précautions que je dois prendre en utilisant la PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour commencer à prendre la PrEP ?",
+    "quel5 osnt les effets secondaires possibles de la prep que je devrais connaître connaître",
+    "Comment puis-je discuter de la PrEP avec mon médecin sans me sentir mal à l'aise ?",
+    "Y a-t-il des ressources disponibles pour m'aider à mieux comprendre la PrEP ?",
+    "La PrEP est-elle accessible dans toutes les pharmacies ?",
+    "you know Quelles sont les précautions que je dois prendre en utilisant la PrEP"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les étapes pour commencer à prendre la PrEP ?",
+  "starter_noisy": "Quelles sont les étapes pour commencer à prendre la PrEP ?",
+  "followup_index": 1,
+  "followup_clean": "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?",
+  "followup_noisy": "quel5 osnt les effets secondaires possibles de la prep que je devrais connaître connaître",
+  "style_profile": {
+    "typo_rate": 0.05451589064712977,
+    "swap_rate": 0.037743612987534036,
+    "drop_rate": 0.022764302307164638,
+    "dup_rate": 0.02981755243190696,
+    "leet_rate": 0.05455415048953582,
+    "start_lower_prob": 0.7220322376031247,
+    "all_lower_prob": 0.17360593560634918,
+    "drop_punct_prob": 0.4920862791973205,
+    "double_space_prob": 0.2997317905471317,
+    "ellipsis_prob": 0.28736515486961267,
+    "runon_prob": 0.10354857867343457,
+    "filler_rate": 0.2823041569080365,
+    "emoji_rate": 0.2628601064017339,
+    "stutter_rate": 0.10773471490604228,
+    "repeat_last_rate": 0.09546199114211708
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 25,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Comprendre comment PrEP fonctionne et ses effets secondaires potentiels.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes un jeune homme vivant à Paris, qui a des difficultés d'apprentissage. Vous ressentez de l'anxiété à l'idée de parler de votre santé et d'accéder aux informations sur la PrEP. Cette situation rend l'accès à la santé plus difficile et vous a amené à vous sentir isolé et confus face à vos options.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer à prendre la PrEP ?\",\n    \"Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?\",\n    \"Comment puis-je discuter de la PrEP avec mon médecin sans me sentir mal à l'aise ?\",\n    \"Y a-t-il des ressources disponibles pour m'aider à mieux comprendre la PrEP ?\",\n    \"La PrEP est-elle accessible dans toutes les pharmacies ?\",\n    \"Quelles sont les précautions que je dois prendre en utilisant la PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f05b020fb2026b34315e6e3cf87e705b70973474a4938a701b1e87aa143f72e9",
+  "_starter_hash": "6d5d45209303f1f3c7343629704b9906ca4a5c57232facf58edee554447e6411",
+  "_language": "French",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 25,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Difficulties in understanding medical information due to my neurodevelopmental disorder",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven de México que vive con un trastorno del desarrollo neurológico. Esto te ha causado ansiedad al intentar acceder a información sobre PrEP, ya que te preocupa no entender completamente los detalles médicos y los efectos secundarios. A pesar de tu deseo de protegerte, la confusión y el miedo al estigma te hacen dudar en buscar ayuda.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de PrEP y cómo puedo saber si son manejables para mí?",
+    "¿Existen recursos o profesionales que puedan explicarme PrEP en un lenguaje más simple?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿PrEP puede ser una opción segura para alguien con mis desafíos personales?",
+    "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades económicas?",
+    "¿Hay grupos de apoyo donde puedo compartir mis experiencias y aprender más sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secnudarios de Pr3P y cóom puedo 54ber si son manejables para mí ❓",
+    "¿existen recursos o profesionales que puedan xplicarme prep en un lenguaje más simple",
+    "i mean ¿cómo puedo hhhablar con mi médico sobre mis preocupaciones sin sentirme juzgada? 😅",
+    "¿PrEP puede ser una opción segura para alguien con mis desafíos personales?",
+    "¿Qué pasos eebo seguir para acceder a Prrr3P si tengo dificultades económicas? ‼️",
+    "¿hay grup0s de apoyo donde puedo compartir mis experiencias y aprender más sobre prep?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades económicas?",
+  "starter_noisy": "¿Qué pasos eebo seguir para acceder a Prrr3P si tengo dificultades económicas? ‼️",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios de PrEP y cómo puedo saber si son manejables para mí?",
+  "followup_noisy": "¿Cuáles son los efectos secnudarios de Pr3P y cóom puedo 54ber si son manejables para mí ❓",
+  "style_profile": {
+    "typo_rate": 0.07311883926714496,
+    "swap_rate": 0.035036804398431695,
+    "drop_rate": 0.033558233756356796,
+    "dup_rate": 0.02260132674196281,
+    "leet_rate": 0.09123902042231596,
+    "start_lower_prob": 0.6829624883061084,
+    "all_lower_prob": 0.28853823244201104,
+    "drop_punct_prob": 0.566487998970338,
+    "double_space_prob": 0.333256345019765,
+    "ellipsis_prob": 0.3313548040953014,
+    "runon_prob": 0.24615341486868908,
+    "filler_rate": 0.25100619879301905,
+    "emoji_rate": 0.3369659475573299,
+    "stutter_rate": 0.18111034232071885,
+    "repeat_last_rate": 0.09550490651556316
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 25,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Difficulties in understanding medical information due to my neurodevelopmental disorder\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven de México que vive con un trastorno del desarrollo neurológico. Esto te ha causado ansiedad al intentar acceder a información sobre PrEP, ya que te preocupa no entender completamente los detalles médicos y los efectos secundarios. A pesar de tu deseo de protegerte, la confusión y el miedo al estigma te hacen dudar en buscar ayuda.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de PrEP y cómo puedo saber si son manejables para mí?\",\n    \"¿Existen recursos o profesionales que puedan explicarme PrEP en un lenguaje más simple?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿PrEP puede ser una opción segura para alguien con mis desafíos personales?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP si tengo dificultades económicas?\",\n    \"¿Hay grupos de apoyo donde puedo compartir mis experiencias y aprender más sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1a8196255cf9fcb2790d188254bf3d7fe70dbc27a11d2fe99f056a1c0b76f13a",
+  "_starter_hash": "59a0547ec701c8410860020e3382c7744e64f7d7e4440f87d825ebab0bccbec1",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

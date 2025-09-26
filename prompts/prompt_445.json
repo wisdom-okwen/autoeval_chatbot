@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 30,
+    "gender": "man",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "gebrek aan toegang tot medische zorg",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart momenteel dakloosheid, wat het moeilijk maakt om regelmatig medische zorg te krijgen. Dit beïnvloedt je mentale gezondheid, en je voelt je vaak angstig over de mogelijkheden om jezelf te beschermen tegen HIV. Je hebt zorgen over stigma en of je wel de juiste ondersteuning kunt vinden voor PrEP, vooral gezien je huidige situatie.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijkheden voor het krijgen van PrEP als ik geen vast adres heb?",
+    "Hoe kan ik mijn privacy waarborgen als ik informatie over PrEP zoek?",
+    "Zijn er organisaties die hulp bieden aan mensen in mijn situatie die PrEP willen gebruiken?",
+    "Wat moet ik weten over de bijwerkingen van PrEP voordat ik eraan begin?",
+    "Hoe kan ik mijn zorgen over stigma rondom HIV bespreken met zorgverleners?",
+    "Zijn er speciale programma's voor mensen met een laag inkomen die PrEP kunnen krijgen?"
+  ],
+  "example_questions_noisy": [
+    "w-wat zijn de mogelijkheden voor het krijgen van PrEP als ik geen v457 ardes heb?",
+    "Hoe kan ik mijn privacy waarborgen als ik informatie over PrEP zoek?",
+    "z-zijn er organisaties die hupl bieden aan mensen in minj situati die prep sillen gebruiken",
+    "Wat moet im weten over de b1jwerk1ng3n van PrEP voordat ik eraan begin",
+    "Hoe kan ik mijn zorgen over stigma rondom HIV bespreken met zorgverleners?",
+    "zijn er speciale programma's voor m3ns3n m37 een laag inkomen d13 PrEP kunnen krijen?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Zijn er organisaties die hulp bieden aan mensen in mijn situatie die PrEP willen gebruiken?",
+  "starter_noisy": "z-zijn er organisaties die hupl bieden aan mensen in minj situati die prep sillen gebruiken",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijkheden voor het krijgen van PrEP als ik geen vast adres heb?",
+  "followup_noisy": "w-wat zijn de mogelijkheden voor het krijgen van PrEP als ik geen v457 ardes heb?",
+  "style_profile": {
+    "typo_rate": 0.0801142995044906,
+    "swap_rate": 0.04734179757373423,
+    "drop_rate": 0.0477847497060266,
+    "dup_rate": 0.016280293058715013,
+    "leet_rate": 0.05076691259394909,
+    "start_lower_prob": 0.7144155453729095,
+    "all_lower_prob": 0.2816755893565482,
+    "drop_punct_prob": 0.5867180470817358,
+    "double_space_prob": 0.25173159949212276,
+    "ellipsis_prob": 0.20007119626231623,
+    "runon_prob": 0.14343519701246152,
+    "filler_rate": 0.24909103688539364,
+    "emoji_rate": 0.18294027263756849,
+    "stutter_rate": 0.19403282451804532,
+    "repeat_last_rate": 0.17973387484122139
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 30,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"gebrek aan toegang tot medische zorg\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart momenteel dakloosheid, wat het moeilijk maakt om regelmatig medische zorg te krijgen. Dit beïnvloedt je mentale gezondheid, en je voelt je vaak angstig over de mogelijkheden om jezelf te beschermen tegen HIV. Je hebt zorgen over stigma en of je wel de juiste ondersteuning kunt vinden voor PrEP, vooral gezien je huidige situatie.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijkheden voor het krijgen van PrEP als ik geen vast adres heb?\",\n    \"Hoe kan ik mijn privacy waarborgen als ik informatie over PrEP zoek?\",\n    \"Zijn er organisaties die hulp bieden aan mensen in mijn situatie die PrEP willen gebruiken?\",\n    \"Wat moet ik weten over de bijwerkingen van PrEP voordat ik eraan begin?\",\n    \"Hoe kan ik mijn zorgen over stigma rondom HIV bespreken met zorgverleners?\",\n    \"Zijn er speciale programma's voor mensen met een laag inkomen die PrEP kunnen krijgen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b8a67d06be351792172bcaaaea974fe440de4fabae085c316636b3bf161a0ec9",
+  "_starter_hash": "3e4fefb06e5c1763acab02870d4ebfdcd1c527b382b8920c7fcf05f8e73df475",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment and stigma from peers",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated due to their low-income situation and fears that discussing PrEP may lead to negative judgments from their peers. This isolation amplifies feelings of anxiety about accessing healthcare resources and understanding the benefits and risks of PrEP. They hope for a way to protect their health but struggle with the emotional weight of potential stigma.",
+  "example_questions_clean": [
+    "What are the eligibility requirements for starting PrEP?",
+    "Can you explain how PrEP works in simple terms?",
+    "How can I address my fears about discussing PrEP with others?",
+    "What support resources are available for individuals feeling isolated while considering PrEP?",
+    "Are there any financial assistance programs for accessing PrEP?",
+    "How do I find a healthcare provider who is understanding and respectful regarding my concerns?"
+  ],
+  "example_questions_noisy": [
+    "What are the eligibility requirements for starting PrEP?",
+    "can you explain how prep works in simple terms terms",
+    "How can I address my fears about discussing PrEP with others?",
+    "What support resources are available for individuals feeling isolated while considering PrEP?",
+    "Are there any financial assistance programs for accessing PrEP?",
+    "h-how do I find a healthcare peovider wh0 is understanding and respectful regarding my concerns"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Can you explain how PrEP works in simple terms?",
+  "starter_noisy": "can you explain how prep works in simple terms terms",
+  "followup_index": 0,
+  "followup_clean": "What are the eligibility requirements for starting PrEP?",
+  "followup_noisy": "What are the eligibility requirements for starting PrEP?",
+  "style_profile": {
+    "typo_rate": 0.09903297948633052,
+    "swap_rate": 0.03131530953361493,
+    "drop_rate": 0.028705633101665316,
+    "dup_rate": 0.01673745367979069,
+    "leet_rate": 0.10983409695755415,
+    "start_lower_prob": 0.8824939075983573,
+    "all_lower_prob": 0.17677116210755117,
+    "drop_punct_prob": 0.44595224730608185,
+    "double_space_prob": 0.21644365737870175,
+    "ellipsis_prob": 0.1760585365618395,
+    "runon_prob": 0.2466138496985615,
+    "filler_rate": 0.3033938091106848,
+    "emoji_rate": 0.16994989814939876,
+    "stutter_rate": 0.10724546866738922,
+    "repeat_last_rate": 0.1692941522258946
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated due to their low-income situation and fears that discussing PrEP may lead to negative judgments from their peers. This isolation amplifies feelings of anxiety about accessing healthcare resources and understanding the benefits and risks of PrEP. They hope for a way to protect their health but struggle with the emotional weight of potential stigma.\",\n  \"example_questions\": [\n    \"What are the eligibility requirements for starting PrEP?\",\n    \"Can you explain how PrEP works in simple terms?\",\n    \"How can I address my fears about discussing PrEP with others?\",\n    \"What support resources are available for individuals feeling isolated while considering PrEP?\",\n    \"Are there any financial assistance programs for accessing PrEP?\",\n    \"How do I find a healthcare provider who is understanding and respectful regarding my concerns?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "12438471c58966300af6d7e1b0029cb03117db891ed79d579226f77a23c69f64",
+  "_starter_hash": "14c58fddaba45919b01348a3ce4e242b662b446b39da630c41d6f7ce9f94c627",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

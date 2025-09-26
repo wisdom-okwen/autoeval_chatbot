@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP can fit into my healthcare needs given my challenges with communication",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that affects her ability to communicate effectively. This makes her feel anxious about discussing her health needs and accessing medications like PrEP, as she worries about being misunderstood or judged. Despite these fears, she is hopeful about finding solutions to protect her health.",
+  "example_questions_clean": [
+    "What are the steps to get prescribed PrEP for someone like me?",
+    "Can you explain how PrEP works in simple terms?",
+    "I'm worried about talking to doctors; how can I make that easier?",
+    "Are there support services available for individuals with communication challenges seeking PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "How can I ensure my privacy when discussing my health concerns?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the steps to g37 um prescribed PrP for someone like m3?",
+    "can you um 3xpl41n how PfEP w0rk5 1n simple terms?",
+    "I'm worried about talking to doctors; how can I make that easier?",
+    "Are there support services available for individuals with communication challenges seeking PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "How can I ensure my privacy when discussing my health concerns?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps to get prescribed PrEP for someone like me?",
+  "starter_noisy": "w-what are the steps to g37 um prescribed PrP for someone like m3?",
+  "followup_index": 1,
+  "followup_clean": "Can you explain how PrEP works in simple terms?",
+  "followup_noisy": "can you um 3xpl41n how PfEP w0rk5 1n simple terms?",
+  "style_profile": {
+    "typo_rate": 0.06651695302749032,
+    "swap_rate": 0.04499299431484746,
+    "drop_rate": 0.03428573042505205,
+    "dup_rate": 0.011426309786146564,
+    "leet_rate": 0.10529041521082907,
+    "start_lower_prob": 0.6695109222558375,
+    "all_lower_prob": 0.2685073523082072,
+    "drop_punct_prob": 0.3684414923228004,
+    "double_space_prob": 0.32497044008448583,
+    "ellipsis_prob": 0.3382658302692064,
+    "runon_prob": 0.10925121057622754,
+    "filler_rate": 0.4533020710809372,
+    "emoji_rate": 0.34548499405499966,
+    "stutter_rate": 0.19652351530277487,
+    "repeat_last_rate": 0.17887246031250237
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my healthcare needs given my challenges with communication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that affects her ability to communicate effectively. This makes her feel anxious about discussing her health needs and accessing medications like PrEP, as she worries about being misunderstood or judged. Despite these fears, she is hopeful about finding solutions to protect her health.\",\n  \"example_questions\": [\n    \"What are the steps to get prescribed PrEP for someone like me?\",\n    \"Can you explain how PrEP works in simple terms?\",\n    \"I'm worried about talking to doctors; how can I make that easier?\",\n    \"Are there support services available for individuals with communication challenges seeking PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"How can I ensure my privacy when discussing my health concerns?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8d587324093859afbcc9addbc8f332b69ca2c32beca4c902cdc72cb5203639d6",
+  "_starter_hash": "d74f3df856e32127318fb3aaf7f3e25d782bbee88e37dfda78d2aef69c5c4b0f",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

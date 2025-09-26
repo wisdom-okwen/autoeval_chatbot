@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 24,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation liée à la prise de PrEP en raison de mon identité de genre",
+    "language": "French"
+  },
+  "context": "Cette personne fait face à des défis liés à la dysphorie de genre et s'inquiète de la manière dont cela peut affecter leur accès à la PrEP. Ils ressentent souvent de l'anxiété à l'idée de demander des informations sur la PrEP en raison de la peur du jugement et des préjugés liés à leur identité.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP sans se sentir jugé ?",
+    "Est-ce que la prise de PrEP peut affecter mon bien-être émotionnel en tant que personne non-binaire ?",
+    "Comment puis-je aborder le sujet de la PrEP avec un professionnel de santé ?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi concernant la PrEP ?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles sont les étapes pour obtenir PrEP sanx se sentir jugé i mean ? 😕",
+    "Est-ce que la prise de PrEP peut affecter mon bien-être émotionnel en tant que personne non-binaire ?",
+    "i-i mean comment puis-je aborder le sujet de la prep avec un professionenl de santé",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi concernant la PrEP ?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Y a-t-il des ressources spécifiques pour les personnes comme moi concernant la PrEP ?",
+  "starter_noisy": "Y a-t-il des ressources spécifiques pour les personnes comme moi concernant la PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir PrEP sans se sentir jugé ?",
+  "followup_noisy": "q-quelles sont les étapes pour obtenir PrEP sanx se sentir jugé i mean ? 😕",
+  "style_profile": {
+    "typo_rate": 0.08055064895341328,
+    "swap_rate": 0.03418057463991397,
+    "drop_rate": 0.023402392836866494,
+    "dup_rate": 0.01479605699651015,
+    "leet_rate": 0.05025522654822869,
+    "start_lower_prob": 0.609293936170584,
+    "all_lower_prob": 0.3209923593965634,
+    "drop_punct_prob": 0.5570452062715843,
+    "double_space_prob": 0.3281991656033295,
+    "ellipsis_prob": 0.2576135967022525,
+    "runon_prob": 0.29513174792291663,
+    "filler_rate": 0.47019393799036946,
+    "emoji_rate": 0.22137757639926248,
+    "stutter_rate": 0.15626343003951007,
+    "repeat_last_rate": 0.17792211230690808
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 24,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation liée à la prise de PrEP en raison de mon identité de genre\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne fait face à des défis liés à la dysphorie de genre et s'inquiète de la manière dont cela peut affecter leur accès à la PrEP. Ils ressentent souvent de l'anxiété à l'idée de demander des informations sur la PrEP en raison de la peur du jugement et des préjugés liés à leur identité.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP sans se sentir jugé ?\",\n    \"Est-ce que la prise de PrEP peut affecter mon bien-être émotionnel en tant que personne non-binaire ?\",\n    \"Comment puis-je aborder le sujet de la PrEP avec un professionnel de santé ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes comme moi concernant la PrEP ?\",\n    \"Quels sont les effets secondaires possibles de la PrEP que je devrais connaître ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1379c894e01b948fce57af894c10fb65f1c672280428ec1d0e2106a9f62d9a6a",
+  "_starter_hash": "f586fe32464336333401b4f42be934e902c5bf79e7ad54cbbfcda352fd9f163d",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "managing my mental health while considering PrEP",
+    "language": "English"
+  },
+  "context": "You are experiencing depression, which makes it difficult to focus on your health. You are worried about how starting PrEP might affect your mood and whether you will be able to keep up with taking the medication consistently. You feel overwhelmed by the stigma surrounding sexual health and are seeking guidance while navigating your feelings about this treatment option.",
+  "example_questions_clean": [
+    "How can PrEP impact my mental health if I am already dealing with depression?",
+    "Are there any support resources available for people starting PrEP while managing mental health challenges?",
+    "What should I do if I have trouble remembering to take my PrEP medication daily?",
+    "Is it common for people with similar experiences to feel anxious about starting PrEP?",
+    "Can you help me understand the benefits of PrEP in relation to my current emotional state?"
+  ],
+  "example_questions_noisy": [
+    "H-How can PrEP impact my mental health if I am already dealing with like depression?",
+    "l-like are there any support resources 4v41l4bl3 for people starting PrEP hwie m4n4ging mental health challenges 😕",
+    "What should I do if I have trouble remembering to take my PrEP medication daily?",
+    "Is it common for people with similar experiences to feel anxious about starting PrEP?",
+    "Can you help me understand the benefits of PrEP in relation to my current emotional state?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Is it common for people with similar experiences to feel anxious about starting PrEP?",
+  "starter_noisy": "Is it common for people with similar experiences to feel anxious about starting PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can PrEP impact my mental health if I am already dealing with depression?",
+  "followup_noisy": "H-How can PrEP impact my mental health if I am already dealing with like depression?",
+  "style_profile": {
+    "typo_rate": 0.05738536735853451,
+    "swap_rate": 0.044339887229855685,
+    "drop_rate": 0.032095917380714906,
+    "dup_rate": 0.010050861874921897,
+    "leet_rate": 0.06471780139033212,
+    "start_lower_prob": 0.6676716683915787,
+    "all_lower_prob": 0.23004017884355582,
+    "drop_punct_prob": 0.44277939657767607,
+    "double_space_prob": 0.3343989575373455,
+    "ellipsis_prob": 0.30019293478635856,
+    "runon_prob": 0.23807246631431514,
+    "filler_rate": 0.36844865725699794,
+    "emoji_rate": 0.280461819204469,
+    "stutter_rate": 0.19881561923292645,
+    "repeat_last_rate": 0.1752143007361753
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"managing my mental health while considering PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are experiencing depression, which makes it difficult to focus on your health. You are worried about how starting PrEP might affect your mood and whether you will be able to keep up with taking the medication consistently. You feel overwhelmed by the stigma surrounding sexual health and are seeking guidance while navigating your feelings about this treatment option.\",\n  \"example_questions\": [\n    \"How can PrEP impact my mental health if I am already dealing with depression?\",\n    \"Are there any support resources available for people starting PrEP while managing mental health challenges?\",\n    \"What should I do if I have trouble remembering to take my PrEP medication daily?\",\n    \"Is it common for people with similar experiences to feel anxious about starting PrEP?\",\n    \"Can you help me understand the benefits of PrEP in relation to my current emotional state?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "781bf9a2e3f285250e51cec664c1f2e4aab57332035d8b6bb3709e968d927a0d",
+  "_starter_hash": "27352b236b7875ac9962dd26731215168edaded8a49b7b9a9eec00979dd158c7",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "angst voor stigmatisering en de toegang tot zorg",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker voelt zich sociaal geïsoleerd door een combinatie van hun persoonlijke omstandigheden en angst voor stigmatisering rondom hiv-preventie. Deze isolatie heeft hun zelfvertrouwen aangetast en maakt het moeilijk om open te zijn over hun gezondheid en om toegang te krijgen tot PrEP.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen om PrEP te krijgen in mijn situatie?",
+    "Hoe kan ik praten over PrEP met zorgverleners zonder me ongemakkelijk te voelen?",
+    "Zijn er steun groepen of resources voor mensen zoals ik die PrEP willen overwegen?",
+    "Wat kan ik doen als ik me geïsoleerd voel in mijn zoektocht naar informatie over PrEP?",
+    "Welke informatie heb ik nodig om mij zekerder te voelen over het starten met PrEP?",
+    "Hoe kan ik omgaan met de angst voor stigmatisering bij het bespreken van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de eerste stappen om PrEP te krijgen in mijn situatie?",
+    "Hoe kan ik praten over PrEP met zorgverleners zonder me ongemakkelijk te voelen?",
+    "Zijn er steun groepen of resources voor mensen zoals ik die PrEP willen overwegen?",
+    "Wat kan ik doen als ik me geïsoleerd voel in mijn zoektocht naar informatie over PrEP?",
+    "Welke informatie heb ik nodig om mij zekerder te voelen over het starten met PrEP?",
+    "Hoe kan ik omagan met de angst voor stigmatisering bij you know het bespreken van PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat zijn de eerste stappen om PrEP te krijgen in mijn situatie?",
+  "starter_noisy": "Wat zijn de eerste stappen om PrEP te krijgen in mijn situatie?",
+  "followup_index": 1,
+  "followup_clean": "Hoe kan ik praten over PrEP met zorgverleners zonder me ongemakkelijk te voelen?",
+  "followup_noisy": "Hoe kan ik praten over PrEP met zorgverleners zonder me ongemakkelijk te voelen?",
+  "style_profile": {
+    "typo_rate": 0.06652425763535487,
+    "swap_rate": 0.03065412000165582,
+    "drop_rate": 0.041677529971053034,
+    "dup_rate": 0.012350720332974928,
+    "leet_rate": 0.1193624027038811,
+    "start_lower_prob": 0.613627247429685,
+    "all_lower_prob": 0.20947986170096705,
+    "drop_punct_prob": 0.48351507676463445,
+    "double_space_prob": 0.2730038882304022,
+    "ellipsis_prob": 0.1562201356858452,
+    "runon_prob": 0.17720198667220644,
+    "filler_rate": 0.4542475366774365,
+    "emoji_rate": 0.3196480986270175,
+    "stutter_rate": 0.1267551457823258,
+    "repeat_last_rate": 0.14850606403352168
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"angst voor stigmatisering en de toegang tot zorg\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"De gebruiker voelt zich sociaal geïsoleerd door een combinatie van hun persoonlijke omstandigheden en angst voor stigmatisering rondom hiv-preventie. Deze isolatie heeft hun zelfvertrouwen aangetast en maakt het moeilijk om open te zijn over hun gezondheid en om toegang te krijgen tot PrEP.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen om PrEP te krijgen in mijn situatie?\",\n    \"Hoe kan ik praten over PrEP met zorgverleners zonder me ongemakkelijk te voelen?\",\n    \"Zijn er steun groepen of resources voor mensen zoals ik die PrEP willen overwegen?\",\n    \"Wat kan ik doen als ik me geïsoleerd voel in mijn zoektocht naar informatie over PrEP?\",\n    \"Welke informatie heb ik nodig om mij zekerder te voelen over het starten met PrEP?\",\n    \"Hoe kan ik omgaan met de angst voor stigmatisering bij het bespreken van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a0f997f1146c737aceafa72313d018bb2b903cf11f16fe3562b9e4dc0b47d79",
+  "_starter_hash": "c43c8139f8b0dedcb4c22f76d1192433d7d610066991f5329b3bcb43253e5115",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

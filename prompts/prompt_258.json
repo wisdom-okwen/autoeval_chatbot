@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "worries about side effects and managing medication alongside mental health",
+    "language": "English"
+  },
+  "context": "As a woman living with schizophrenia, you often feel overwhelmed by the stigma surrounding both your mental health and sexual health. The fear of possible side effects from PrEP complicates your decision, as managing your medication is already a challenge. You worry about how to communicate with healthcare providers who may not understand your unique situation.",
+  "example_questions_clean": [
+    "How can I safely incorporate PrEP into my current medication regimen?",
+    "What support options are available for someone with schizophrenia who wants to start PrEP?",
+    "Can you help me understand the potential side effects of PrEP in relation to my mental health?",
+    "Are there specific healthcare providers who specialize in PrEP for individuals with mental health conditions?",
+    "What resources can I access to learn more about PrEP without feeling judged?"
+  ],
+  "example_questions_noisy": [
+    "how can I 54f3ly you know incorporate Pr3P into mmmy current medication regimen",
+    "what support options are available for someone iwth schizophrenia who want to start prep 💀",
+    "can you help m3 understand the potential side effects of perp in relation to my mental health",
+    "Are there specific healthcare providers who specialize in PrEP for individuals with mental health conditions?",
+    "What resources can I access to learn more about PrEP without feeling judged?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I safely incorporate PrEP into my current medication regimen?",
+  "starter_noisy": "how can I 54f3ly you know incorporate Pr3P into mmmy current medication regimen",
+  "followup_index": 1,
+  "followup_clean": "What support options are available for someone with schizophrenia who wants to start PrEP?",
+  "followup_noisy": "what support options are available for someone iwth schizophrenia who want to start prep 💀",
+  "style_profile": {
+    "typo_rate": 0.08953621162217848,
+    "swap_rate": 0.056943427488030635,
+    "drop_rate": 0.028988546509798305,
+    "dup_rate": 0.011050797125428714,
+    "leet_rate": 0.0827699636338759,
+    "start_lower_prob": 0.8735921206796959,
+    "all_lower_prob": 0.2703563767971118,
+    "drop_punct_prob": 0.5319495946440691,
+    "double_space_prob": 0.2583874276587892,
+    "ellipsis_prob": 0.32276308966861783,
+    "runon_prob": 0.11748361080118018,
+    "filler_rate": 0.4175517905433367,
+    "emoji_rate": 0.1999137398491237,
+    "stutter_rate": 0.14216786469029752,
+    "repeat_last_rate": 0.17118057743433385
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"worries about side effects and managing medication alongside mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with schizophrenia, you often feel overwhelmed by the stigma surrounding both your mental health and sexual health. The fear of possible side effects from PrEP complicates your decision, as managing your medication is already a challenge. You worry about how to communicate with healthcare providers who may not understand your unique situation.\",\n  \"example_questions\": [\n    \"How can I safely incorporate PrEP into my current medication regimen?\",\n    \"What support options are available for someone with schizophrenia who wants to start PrEP?\",\n    \"Can you help me understand the potential side effects of PrEP in relation to my mental health?\",\n    \"Are there specific healthcare providers who specialize in PrEP for individuals with mental health conditions?\",\n    \"What resources can I access to learn more about PrEP without feeling judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "80b10f6e82cb7eb25fcbc5acdda79464ccdc538116bb02c6fe6e8c9fb48833dc",
+  "_starter_hash": "97bd3a627a11fa3cf6a11b5678edddf7ba85cecb1c90c3b3eee3b309d73a7b54",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

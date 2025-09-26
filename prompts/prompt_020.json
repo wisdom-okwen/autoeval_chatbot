@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Non-binaire",
+    "socio_economic_status": "Faible revenu",
+    "primary_concern": "Comprendre comment le PrEP peut m'aider malgré mes difficultés d'apprentissage.",
+    "language": "French"
+  },
+  "context": "En raison d'une dyslexie, cette personne éprouve des difficultés à comprendre les informations écrites sur le PrEP. Ils ressentent de l'anxiété face à la stigmatisation liée à leur condition et craignent de ne pas être pris au sérieux lors de la recherche d'informations. Ils espèrent accéder à des ressources adaptées qui expliquent clairement le PrEP.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder au PrEP si j'ai des difficultés à comprendre les documents?",
+    "Y a-t-il des ressources en ligne qui expliquent le PrEP avec des vidéos ou des infographies?",
+    "Comment puis-je parler de ma situation à un professionnel de santé sans avoir peur du jugement?",
+    "Le PrEP est-il vraiment efficace pour ceux qui ont un faible revenu et peu d'accès aux soins?",
+    "Y a-t-il des groupes de soutien où je peux rencontrer d'autres personnes avec des défis similaires?",
+    "Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour accéder au PrEP si j'ai des difficultés à comprendre les documents?",
+    "Y a-t-il des ressources en ligne qui expliquent le PrEP avec des vidéos ou des infographies?",
+    "Comment puis-je parler de ma situation à un professionnel de santé sans avoir peur du jugement?",
+    "le prep esr-il vraiment efficace pour ceux qui ont un faible revenu e7 peu d'accès aux soins",
+    "y uh a-t-il des groupes de soutien où ie peux rencontrer d'autres personnes avec des défis similaires?",
+    "Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Y a-t-il des ressources en ligne qui expliquent le PrEP avec des vidéos ou des infographies?",
+  "starter_noisy": "Y a-t-il des ressources en ligne qui expliquent le PrEP avec des vidéos ou des infographies?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder au PrEP si j'ai des difficultés à comprendre les documents?",
+  "followup_noisy": "Quelles sont les étapes pour accéder au PrEP si j'ai des difficultés à comprendre les documents?",
+  "style_profile": {
+    "typo_rate": 0.06235388804642976,
+    "swap_rate": 0.027113989163179978,
+    "drop_rate": 0.04151759133029609,
+    "dup_rate": 0.029178245571234197,
+    "leet_rate": 0.08666658877847164,
+    "start_lower_prob": 0.6976508613525413,
+    "all_lower_prob": 0.2376277617438975,
+    "drop_punct_prob": 0.43317431983510846,
+    "double_space_prob": 0.3198564861918248,
+    "ellipsis_prob": 0.33205182013771073,
+    "runon_prob": 0.22175077088355843,
+    "filler_rate": 0.2851963084483702,
+    "emoji_rate": 0.21659790381219102,
+    "stutter_rate": 0.13106621100351468,
+    "repeat_last_rate": 0.12942170637228834
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Non-binaire\",\n    \"socio_economic_status\": \"Faible revenu\",\n    \"primary_concern\": \"Comprendre comment le PrEP peut m'aider malgré mes difficultés d'apprentissage.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En raison d'une dyslexie, cette personne éprouve des difficultés à comprendre les informations écrites sur le PrEP. Ils ressentent de l'anxiété face à la stigmatisation liée à leur condition et craignent de ne pas être pris au sérieux lors de la recherche d'informations. Ils espèrent accéder à des ressources adaptées qui expliquent clairement le PrEP.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder au PrEP si j'ai des difficultés à comprendre les documents?\",\n    \"Y a-t-il des ressources en ligne qui expliquent le PrEP avec des vidéos ou des infographies?\",\n    \"Comment puis-je parler de ma situation à un professionnel de santé sans avoir peur du jugement?\",\n    \"Le PrEP est-il vraiment efficace pour ceux qui ont un faible revenu et peu d'accès aux soins?\",\n    \"Y a-t-il des groupes de soutien où je peux rencontrer d'autres personnes avec des défis similaires?\",\n    \"Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3a1742afcdd0f499f7b1c842826fa1f83cadbc72b3330daff2b2b4583864bab4",
+  "_starter_hash": "d6c0b54b4ef534f424a19024f526a3283f409570ddf3e9198261257503588bdc",
+  "_language": "French",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

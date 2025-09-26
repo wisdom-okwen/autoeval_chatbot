@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of disclosing my health needs to a provider due to past trauma",
+    "language": "English"
+  },
+  "context": "You are navigating your health while dealing with intimate partner violence, which makes it difficult to seek medical help. You feel overwhelmed by fear and stigma surrounding both your situation and PrEP access, yet you hope to find a way to protect your health.",
+  "example_questions_clean": [
+    "What are the steps I should take to talk to a healthcare provider about PrEP without feeling judged?",
+    "Can you explain how PrEP works and who it is for?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I ensure my privacy when seeking PrEP given my personal circumstances?",
+    "Are there resources available for individuals in abusive relationships who want to access PrEP?",
+    "What support systems are in place for people like me who are afraid of seeking help?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the steps I should take 70 talk 70 a healthcare provider aboht PrEP you know w17h0ut feeling judged?",
+    "Can you explain how PrEP works and who it is for?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "h-how can I ensure my privacy when seeking PrEP g1v3n my personal circumstances?",
+    "Are there resources available for individuals in abusive relationships who want to access PrEP?",
+    "What support systems are in place for people like me who are afraid of seeking help?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Are there resources available for individuals in abusive relationships who want to access PrEP?",
+  "starter_noisy": "Are there resources available for individuals in abusive relationships who want to access PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I should take to talk to a healthcare provider about PrEP without feeling judged?",
+  "followup_noisy": "w-what are the steps I should take 70 talk 70 a healthcare provider aboht PrEP you know w17h0ut feeling judged?",
+  "style_profile": {
+    "typo_rate": 0.09824332661660154,
+    "swap_rate": 0.056447308010899325,
+    "drop_rate": 0.046141404221499545,
+    "dup_rate": 0.022107620123625278,
+    "leet_rate": 0.11655647472523332,
+    "start_lower_prob": 0.8927328409860431,
+    "all_lower_prob": 0.21770773290192671,
+    "drop_punct_prob": 0.5408420698615933,
+    "double_space_prob": 0.21907953948900322,
+    "ellipsis_prob": 0.2105012573967307,
+    "runon_prob": 0.2319451907993105,
+    "filler_rate": 0.3266799844380367,
+    "emoji_rate": 0.15032719196317407,
+    "stutter_rate": 0.13315793501771567,
+    "repeat_last_rate": 0.0956585913927836
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of disclosing my health needs to a provider due to past trauma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating your health while dealing with intimate partner violence, which makes it difficult to seek medical help. You feel overwhelmed by fear and stigma surrounding both your situation and PrEP access, yet you hope to find a way to protect your health.\",\n  \"example_questions\": [\n    \"What are the steps I should take to talk to a healthcare provider about PrEP without feeling judged?\",\n    \"Can you explain how PrEP works and who it is for?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I ensure my privacy when seeking PrEP given my personal circumstances?\",\n    \"Are there resources available for individuals in abusive relationships who want to access PrEP?\",\n    \"What support systems are in place for people like me who are afraid of seeking help?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "97cdc7eaadcee79b007f51699c5e98a7656bd822776b8b7abce22bb94ae917d8",
+  "_starter_hash": "488a1ee4f59baaeec04dd2c74a0ccfedb11ea45c1137f5b0ba86b41933d12fc9",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

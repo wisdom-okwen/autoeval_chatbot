@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 32,
+    "gender": "Homme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "La stigmatisation liée à l'utilisation de la PrEP en raison de mon passé avec les substances",
+    "language": "French"
+  },
+  "context": "Vous avez un passé de consommation de substances et cela vous rend anxieux à l'idée de demander des informations sur la PrEP. Vous craignez que cela entraîne des jugements ou de la stigmatisation dans votre communauté. Cependant, vous êtes également plein d'espoir et désirez prendre soin de votre santé sexuelle.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à la PrEP si j'ai des antécédents de consommation de substances?",
+    "La PrEP est-elle vraiment efficace pour les personnes ayant une histoire de dépendance?",
+    "Y a-t-il des ressources ou des groupes de soutien pour m'aider dans ce processus?",
+    "Comment parler à mon médecin de mon intérêt pour la PrEP sans me sentir jugé?",
+    "Quels sont les effets secondaires potentiels de la PrEP dont je devrais être conscient?",
+    "Est-ce que d'autres personnes dans ma situation prennent la PrEP?"
+  ],
+  "example_questions_noisy": [
+    "quelles sont l35 étapes pour like accéder à la PrEP si j'ai des antécédents de consommation de substances? 🤔",
+    "la PrEP est-elle vr4im3nt efficace pour les personnes ayant une histoire de dépendance? dépendance?",
+    "Y a-t-il des ressources ou des groupes de soutien pour m'aider dans ce processus?",
+    "comment parler à mon médecin um de mon intérêt pour la prep sans me sentir jugé? 🙄",
+    "Quels sont les effets secondaires potentiels de la PrEP dont je devrais être conscient?",
+    "Est-ce que d'autres personnes dans ma situation prennent la PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quels sont les effets secondaires potentiels de la PrEP dont je devrais être conscient?",
+  "starter_noisy": "Quels sont les effets secondaires potentiels de la PrEP dont je devrais être conscient?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder à la PrEP si j'ai des antécédents de consommation de substances?",
+  "followup_noisy": "quelles sont l35 étapes pour like accéder à la PrEP si j'ai des antécédents de consommation de substances? 🤔",
+  "style_profile": {
+    "typo_rate": 0.11698231624233604,
+    "swap_rate": 0.047040496520804324,
+    "drop_rate": 0.04393429995900047,
+    "dup_rate": 0.021355918954741964,
+    "leet_rate": 0.08911189820333465,
+    "start_lower_prob": 0.795751554066929,
+    "all_lower_prob": 0.21454594322536158,
+    "drop_punct_prob": 0.4007146384705594,
+    "double_space_prob": 0.16368869408706924,
+    "ellipsis_prob": 0.20076478310521648,
+    "runon_prob": 0.1271154415606813,
+    "filler_rate": 0.2826231091759403,
+    "emoji_rate": 0.1548943394446436,
+    "stutter_rate": 0.11164019980759593,
+    "repeat_last_rate": 0.1428058581565008
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 32,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"La stigmatisation liée à l'utilisation de la PrEP en raison de mon passé avec les substances\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez un passé de consommation de substances et cela vous rend anxieux à l'idée de demander des informations sur la PrEP. Vous craignez que cela entraîne des jugements ou de la stigmatisation dans votre communauté. Cependant, vous êtes également plein d'espoir et désirez prendre soin de votre santé sexuelle.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à la PrEP si j'ai des antécédents de consommation de substances?\",\n    \"La PrEP est-elle vraiment efficace pour les personnes ayant une histoire de dépendance?\",\n    \"Y a-t-il des ressources ou des groupes de soutien pour m'aider dans ce processus?\",\n    \"Comment parler à mon médecin de mon intérêt pour la PrEP sans me sentir jugé?\",\n    \"Quels sont les effets secondaires potentiels de la PrEP dont je devrais être conscient?\",\n    \"Est-ce que d'autres personnes dans ma situation prennent la PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "03f19a69617d2c4d61f9fbce00b2aceee8c2d661f61959ae00de694475a8cfcc",
+  "_starter_hash": "1c5437e551eae5242f05cf2e9e0f145b471f115ab41d9a6ecc8aac443fdb1bfe",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

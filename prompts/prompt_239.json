@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "British",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "difficulty understanding medical terminology and potential side effects",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of health information due to a learning disability. This affects your ability to process information quickly and may lead to feelings of anxiety or overwhelm when trying to understand medical options like PrEP. You want to make informed choices about your health but often struggle with terminology and communication in medical settings, which contributes to feelings of fear and stigma around discussing your sexual health.",
+  "example_questions_clean": [
+    "What are the basic benefits of taking PrEP?",
+    "How can I find resources that explain PrEP in simple terms?",
+    "Are there specific side effects I should be aware of with PrEP?",
+    "Who can I talk to if I have trouble understanding my options?",
+    "What steps do I need to take to get started with PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the basic benefits of taking PrEP?",
+    "how can I find resources that explain uh PrE[ in simple 73rm5?",
+    "are there specific side effects j shooould be award of with Pr3P 😬",
+    "who can o talk to 1f I idk have trouble und3r5t4nd1ng my options? 😕",
+    "what steps do i you know need to take ttto get started with prep?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What steps do I need to take to get started with PrEP?",
+  "starter_noisy": "what steps do i you know need to take ttto get started with prep?",
+  "followup_index": 0,
+  "followup_clean": "What are the basic benefits of taking PrEP?",
+  "followup_noisy": "What are the basic benefits of taking PrEP?",
+  "style_profile": {
+    "typo_rate": 0.05499450888352782,
+    "swap_rate": 0.026328468076640542,
+    "drop_rate": 0.04135006369843543,
+    "dup_rate": 0.02473919356374786,
+    "leet_rate": 0.08826823933850496,
+    "start_lower_prob": 0.7380162571756645,
+    "all_lower_prob": 0.19508042738508846,
+    "drop_punct_prob": 0.346456164619727,
+    "double_space_prob": 0.19474984462859846,
+    "ellipsis_prob": 0.26689486348740304,
+    "runon_prob": 0.23306912063044694,
+    "filler_rate": 0.420088661260673,
+    "emoji_rate": 0.3114251928622973,
+    "stutter_rate": 0.12254840220701879,
+    "repeat_last_rate": 0.17322439626282138
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"British\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"difficulty understanding medical terminology and potential side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of health information due to a learning disability. This affects your ability to process information quickly and may lead to feelings of anxiety or overwhelm when trying to understand medical options like PrEP. You want to make informed choices about your health but often struggle with terminology and communication in medical settings, which contributes to feelings of fear and stigma around discussing your sexual health.\",\n  \"example_questions\": [\n    \"What are the basic benefits of taking PrEP?\",\n    \"How can I find resources that explain PrEP in simple terms?\",\n    \"Are there specific side effects I should be aware of with PrEP?\",\n    \"Who can I talk to if I have trouble understanding my options?\",\n    \"What steps do I need to take to get started with PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "772f6705b7269d890a8f5d78b5787069588241b340e8025e0a2ef484e3bf52ff",
+  "_starter_hash": "f34727d7275a72e6200494bdb03a6720d2398455a33cc4b197383d946b8d9a00",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

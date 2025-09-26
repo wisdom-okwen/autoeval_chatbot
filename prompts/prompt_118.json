@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "navigating anxiety about potential side effects of PrEP",
+    "language": "Swahili"
+  },
+  "context": "You are a 29-year-old woman from Kenya, managing an anxiety disorder. This condition makes it challenging for you to consider taking PrEP due to fears about side effects and how they might affect your mental health. You often feel overwhelmed by stigma surrounding HIV prevention and are looking for reliable information to help you make an informed decision.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuathiri afya yangu ya akili kwa njia yoyote?",
+    "Ni njia gani bora za kushughulikia wasiwasi wangu kuhusu madhara ya PrEP?",
+    "Ninaweza kupata msaada gani wa kihisia wakati ninapoanza kutumia PrEP?",
+    "Je, kuna watu wengine wanakabiliwa na changamoto kama yangu kuhusu matumizi ya PrEP?",
+    "Ni nani anaweza kunipa maelezo zaidi kuhusu faida na hasara za PrEP?",
+    "Vipi nitaweza kujihusisha na jamii au vikundi vinavyounga mkono watu wanaotumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je, prep inaweza kuathiri afya yangu ya akili kwa njia yoyote? 🙄",
+    "Ni njia gani bora za kushughulikia wasiwasi wangu kuhusu madhara ya PrEP?",
+    "ninaweza kupata msaada gani wa kihisia wakati ninapoanza kutumia PrEP ❓ ❓",
+    "Je, kuna watu wengine wanakabiliwa na changamoto kama yangu kuhusu matumizi ya PrEP?",
+    "Ni nani anaweza kunipa maelezo zaidi kuhusu faida na hasara za PrEP?",
+    "Vipi nitaweza kujihusisha na jamii au vikundi vinavyounga mkono watu wanaotumia PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ninaweza kupata msaada gani wa kihisia wakati ninapoanza kutumia PrEP?",
+  "starter_noisy": "ninaweza kupata msaada gani wa kihisia wakati ninapoanza kutumia PrEP ❓ ❓",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kuathiri afya yangu ya akili kwa njia yoyote?",
+  "followup_noisy": "je, prep inaweza kuathiri afya yangu ya akili kwa njia yoyote? 🙄",
+  "style_profile": {
+    "typo_rate": 0.08656120708493523,
+    "swap_rate": 0.04312654586435803,
+    "drop_rate": 0.024562687087844683,
+    "dup_rate": 0.02969032679529965,
+    "leet_rate": 0.06563622458880235,
+    "start_lower_prob": 0.7208194002918383,
+    "all_lower_prob": 0.22229076822163524,
+    "drop_punct_prob": 0.4389977873296173,
+    "double_space_prob": 0.294999102955252,
+    "ellipsis_prob": 0.15226981880310217,
+    "runon_prob": 0.11473749825444723,
+    "filler_rate": 0.26788814875413364,
+    "emoji_rate": 0.29620145812061127,
+    "stutter_rate": 0.1731804057585099,
+    "repeat_last_rate": 0.165936532851426
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"navigating anxiety about potential side effects of PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are a 29-year-old woman from Kenya, managing an anxiety disorder. This condition makes it challenging for you to consider taking PrEP due to fears about side effects and how they might affect your mental health. You often feel overwhelmed by stigma surrounding HIV prevention and are looking for reliable information to help you make an informed decision.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuathiri afya yangu ya akili kwa njia yoyote?\",\n    \"Ni njia gani bora za kushughulikia wasiwasi wangu kuhusu madhara ya PrEP?\",\n    \"Ninaweza kupata msaada gani wa kihisia wakati ninapoanza kutumia PrEP?\",\n    \"Je, kuna watu wengine wanakabiliwa na changamoto kama yangu kuhusu matumizi ya PrEP?\",\n    \"Ni nani anaweza kunipa maelezo zaidi kuhusu faida na hasara za PrEP?\",\n    \"Vipi nitaweza kujihusisha na jamii au vikundi vinavyounga mkono watu wanaotumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "89ae11ceb862fb0f1fa5d60111896af733c06299a716e52f01c0b524fcec1c7d",
+  "_starter_hash": "e10feaae24936d677bbb919131b32b736207aa7b6e48e02abc3a1ba9ee517045",
+  "_language": "Swahili",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "worries about discrimination if using PrEP",
+    "language": "Swahili"
+  },
+  "context": "As a young woman living in Tanzania, you experience significant HIV-related stigma that affects your daily life. This stigma creates a barrier to seeking preventive care like PrEP, making you feel anxious and fearful about potential judgment from your community. You hope for a solution that allows you to protect your health without facing discrimination.",
+  "example_questions_clean": [
+    "Nina hofu ya jinsi jamii yangu itakavyoniona nikitumia PrEP.",
+    "Je, ni hatua gani zinazoweza kunisaidia kupata PrEP bila hofu?",
+    "Ninaweza kupata taarifa zaidi juu ya PrEP wapi?",
+    "Ni njia zipi za kufikisha ujumbe mzuri kuhusu PrEP katika jamii zetu?",
+    "Je, PrEP inapatikana kwa bei nafuu katika maeneo yetu?",
+    "Je, kuna mashirika yanayosaidia watu kama mimi kupata PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Nina hofu ya jinsi jamii yangu itakavyoniona nikitumia PrEP.",
+    "j3 n1 hats gani zinazoweza kjnisaidia kup474 rPEP b1l4 hofu",
+    "Ninaweza kupata taarifa zaidi juu ya PrEP wapi?",
+    "ni nju4 zipi za kuf1k15ha ujumbe mzuri kuhsu PrEP kat1k4 jamii z37u?",
+    "Je, PrEP inapatikana kwa bei nafuu katika maeneo yetu?",
+    "Je, kuna mashirika yanayosaidia watu kama mimi kupata PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ninaweza kupata taarifa zaidi juu ya PrEP wapi?",
+  "starter_noisy": "Ninaweza kupata taarifa zaidi juu ya PrEP wapi?",
+  "followup_index": 0,
+  "followup_clean": "Nina hofu ya jinsi jamii yangu itakavyoniona nikitumia PrEP.",
+  "followup_noisy": "Nina hofu ya jinsi jamii yangu itakavyoniona nikitumia PrEP.",
+  "style_profile": {
+    "typo_rate": 0.09741031028414332,
+    "swap_rate": 0.059490613803335715,
+    "drop_rate": 0.04730479378430915,
+    "dup_rate": 0.012267769528066573,
+    "leet_rate": 0.09965119969472944,
+    "start_lower_prob": 0.8795043090827759,
+    "all_lower_prob": 0.24668339908751669,
+    "drop_punct_prob": 0.38399769327959676,
+    "double_space_prob": 0.23125128968097222,
+    "ellipsis_prob": 0.2314173743897027,
+    "runon_prob": 0.18370685778515977,
+    "filler_rate": 0.2633276031304718,
+    "emoji_rate": 0.25419455624602916,
+    "stutter_rate": 0.11417643287552574,
+    "repeat_last_rate": 0.11480177681703174
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"worries about discrimination if using PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a young woman living in Tanzania, you experience significant HIV-related stigma that affects your daily life. This stigma creates a barrier to seeking preventive care like PrEP, making you feel anxious and fearful about potential judgment from your community. You hope for a solution that allows you to protect your health without facing discrimination.\",\n  \"example_questions\": [\n    \"Nina hofu ya jinsi jamii yangu itakavyoniona nikitumia PrEP.\",\n    \"Je, ni hatua gani zinazoweza kunisaidia kupata PrEP bila hofu?\",\n    \"Ninaweza kupata taarifa zaidi juu ya PrEP wapi?\",\n    \"Ni njia zipi za kufikisha ujumbe mzuri kuhusu PrEP katika jamii zetu?\",\n    \"Je, PrEP inapatikana kwa bei nafuu katika maeneo yetu?\",\n    \"Je, kuna mashirika yanayosaidia watu kama mimi kupata PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "08f227a96527f156e335b6bfee817a56e895514fae36cfbce41191205da42613",
+  "_starter_hash": "4cbecc8ca8a49b3b06f1e52cf8f8502b6e09e70f188685b2bb0cc27b580abb44",
+  "_language": "Swahili",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

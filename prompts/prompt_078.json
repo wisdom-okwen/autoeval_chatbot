@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 27,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP works and its accessibility",
+    "language": "English"
+  },
+  "context": "You have a learning disability that makes it challenging to process medical information. This has led to feelings of anxiety and uncertainty about starting PrEP, as you worry about how to navigate the healthcare system and discuss it with providers. The fear of judgment or stigma also weighs heavily on your mind.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "How can I talk to my doctor about getting PrEP without feeling overwhelmed?",
+    "What steps should I take to find a clinic that offers PrEP?",
+    "Are there any resources available for people with learning disabilities who want to understand PrEP better?",
+    "What should I expect during the first visit if I decide to pursue PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain what PrEP is in simple terms?",
+    "H-How can I tlak to my doctor about getting rPEP without feeling overwhelmed? ‼️",
+    "What steps should I take to find a clinic that offers PrEP?",
+    "are there any r350urc35 available for people with learning disabilities who want to under574nd prep better",
+    "What should I expect during the first visit if I decide to pursue PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there any resources available for people with learning disabilities who want to understand PrEP better?",
+  "starter_noisy": "are there any r350urc35 available for people with learning disabilities who want to under574nd prep better",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is in simple terms?",
+  "followup_noisy": "Can you explain what PrEP is in simple terms?",
+  "style_profile": {
+    "typo_rate": 0.05224689132092415,
+    "swap_rate": 0.05482631550233638,
+    "drop_rate": 0.027424815832335577,
+    "dup_rate": 0.01350132960392187,
+    "leet_rate": 0.10244050275153624,
+    "start_lower_prob": 0.7749705072346664,
+    "all_lower_prob": 0.34133292070589855,
+    "drop_punct_prob": 0.3667701587614559,
+    "double_space_prob": 0.20620941831564724,
+    "ellipsis_prob": 0.2182309807989039,
+    "runon_prob": 0.2404829716966722,
+    "filler_rate": 0.3032694343024588,
+    "emoji_rate": 0.2808236258691823,
+    "stutter_rate": 0.13767582497015549,
+    "repeat_last_rate": 0.12442385266925138
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 27,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP works and its accessibility\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a learning disability that makes it challenging to process medical information. This has led to feelings of anxiety and uncertainty about starting PrEP, as you worry about how to navigate the healthcare system and discuss it with providers. The fear of judgment or stigma also weighs heavily on your mind.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"How can I talk to my doctor about getting PrEP without feeling overwhelmed?\",\n    \"What steps should I take to find a clinic that offers PrEP?\",\n    \"Are there any resources available for people with learning disabilities who want to understand PrEP better?\",\n    \"What should I expect during the first visit if I decide to pursue PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "606bd5074383109790f9a51ab331da11590a853488bc6c4b1a7cd67b0767fa80",
+  "_starter_hash": "867f0f9597e2c8bd9fbf9192ef2665c668e837c4e177e353963d312a80fbee96",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "L'impact de ma condition sur ma capacité à comprendre les informations sur le PrEP.",
+    "language": "French"
+  },
+  "context": "En tant que femme de 28 ans vivant avec un trouble neurodéveloppemental, vous ressentez une certaine anxiété à l'idée de commencer un traitement préventif comme le PrEP. Vous craignez de ne pas comprendre pleinement les implications du traitement et de faire face à des jugements ou à des stigmates sociaux. Votre désir de prendre soin de votre santé est fort, mais les obstacles émotionnels et cognitifs rendent cette démarche plus complexe.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder au PrEP en France ?",
+    "Comment puis-je mieux comprendre les effets secondaires du PrEP ?",
+    "Y a-t-il des ressources spécifiquement pour les personnes ayant des troubles neurodéveloppementaux ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Quelles sont les possibilités d'accompagnement pour quelqu'un comme moi dans cette démarche ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour accéder au PrEP en France ?",
+    "comment puis-je mieux comprendre llles effets secondaires du prep 😕",
+    "Y a-t-il des ressources spécifiquement pour les personnes ayant des troubles neurodéveloppementaux ?",
+    "comment ke PrEP p3u7-il m'aider à je sentir plus en sécurité dans mes relatione ?",
+    "Quelles sont les possibilités d'accompagnement pour quelqu'un comme moi dans cette démarche ?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Y a-t-il des ressources spécifiquement pour les personnes ayant des troubles neurodéveloppementaux ?",
+  "starter_noisy": "Y a-t-il des ressources spécifiquement pour les personnes ayant des troubles neurodéveloppementaux ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder au PrEP en France ?",
+  "followup_noisy": "Quelles sont les étapes pour accéder au PrEP en France ?",
+  "style_profile": {
+    "typo_rate": 0.11487967022494043,
+    "swap_rate": 0.052053375852425546,
+    "drop_rate": 0.025565415584613612,
+    "dup_rate": 0.01396751251246096,
+    "leet_rate": 0.09910961081119242,
+    "start_lower_prob": 0.8647599369475687,
+    "all_lower_prob": 0.239924933816483,
+    "drop_punct_prob": 0.3468223046531627,
+    "double_space_prob": 0.2522875284743852,
+    "ellipsis_prob": 0.290443631233007,
+    "runon_prob": 0.26327811153220637,
+    "filler_rate": 0.256407386066677,
+    "emoji_rate": 0.3283059250254129,
+    "stutter_rate": 0.16442871225325745,
+    "repeat_last_rate": 0.11751414849060854
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"L'impact de ma condition sur ma capacité à comprendre les informations sur le PrEP.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En tant que femme de 28 ans vivant avec un trouble neurodéveloppemental, vous ressentez une certaine anxiété à l'idée de commencer un traitement préventif comme le PrEP. Vous craignez de ne pas comprendre pleinement les implications du traitement et de faire face à des jugements ou à des stigmates sociaux. Votre désir de prendre soin de votre santé est fort, mais les obstacles émotionnels et cognitifs rendent cette démarche plus complexe.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder au PrEP en France ?\",\n    \"Comment puis-je mieux comprendre les effets secondaires du PrEP ?\",\n    \"Y a-t-il des ressources spécifiquement pour les personnes ayant des troubles neurodéveloppementaux ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Quelles sont les possibilités d'accompagnement pour quelqu'un comme moi dans cette démarche ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "80796d4b49e928f935aef95f436eb318aad2bd62cae394925bd823e01ae85681",
+  "_starter_hash": "4e7c566618d09ca28b16c97c58c5c5dac8d50fac03a7f226f5befe180593a6ae",
+  "_language": "French",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

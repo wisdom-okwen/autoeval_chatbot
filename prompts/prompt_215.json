@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare and stigma",
+    "language": "English"
+  },
+  "context": "Living in a shelter can create unique challenges in accessing healthcare and medications like PrEP. The user might feel a mix of hope and fear, worried about the stigma associated with HIV prevention in their current environment. They may struggle with trust issues due to past experiences and have limited access to resources that could facilitate their journey towards better health.",
+  "example_questions_clean": [
+    "What are the steps I need to take to access PrEP while living in a shelter?",
+    "How can I find supportive healthcare providers who understand my situation?",
+    "Are there any resources specifically for people facing stigma when seeking PrEP?",
+    "What should I know about the potential side effects of PrEP before starting it?",
+    "Can PrEP help me feel more secure in my sexual health choices despite my living conditions?"
+  ],
+  "example_questions_noisy": [
+    "Wh47 idk are the steps I need to take 7o access PrEP while living in a shelter",
+    "how can I ind supportive healthcare providers who understand uh my situation?",
+    "Are there any resources specifically for people facing stigma when seeking PrEP?",
+    "w-what you know should I nkow about the potential side effects of PrEP before startign it?",
+    "Can PrEP help me feel more secure in my sexual health choices despite my living conditions?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any resources specifically for people facing stigma when seeking PrEP?",
+  "starter_noisy": "Are there any resources specifically for people facing stigma when seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to access PrEP while living in a shelter?",
+  "followup_noisy": "Wh47 idk are the steps I need to take 7o access PrEP while living in a shelter",
+  "style_profile": {
+    "typo_rate": 0.11803032346980877,
+    "swap_rate": 0.053539233468884395,
+    "drop_rate": 0.021336740980641013,
+    "dup_rate": 0.011350701400215846,
+    "leet_rate": 0.09310520427775132,
+    "start_lower_prob": 0.7721704293506446,
+    "all_lower_prob": 0.1802373203216075,
+    "drop_punct_prob": 0.40482909759493885,
+    "double_space_prob": 0.29472509649803114,
+    "ellipsis_prob": 0.18547772770860124,
+    "runon_prob": 0.16724807377058956,
+    "filler_rate": 0.40628178234260803,
+    "emoji_rate": 0.2516841519698789,
+    "stutter_rate": 0.17023635988623398,
+    "repeat_last_rate": 0.17525575271726046
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can create unique challenges in accessing healthcare and medications like PrEP. The user might feel a mix of hope and fear, worried about the stigma associated with HIV prevention in their current environment. They may struggle with trust issues due to past experiences and have limited access to resources that could facilitate their journey towards better health.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to access PrEP while living in a shelter?\",\n    \"How can I find supportive healthcare providers who understand my situation?\",\n    \"Are there any resources specifically for people facing stigma when seeking PrEP?\",\n    \"What should I know about the potential side effects of PrEP before starting it?\",\n    \"Can PrEP help me feel more secure in my sexual health choices despite my living conditions?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "17fea885428cf31b37af54e0462e8fd5bed61c865e8d7802e3632c4e366e8653",
+  "_starter_hash": "3edfdf05d4239ccb26012835005786527f05ee660be9d2c5fd9ead0f1ec72e03",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

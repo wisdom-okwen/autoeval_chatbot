@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "how to manage PrEP alongside my mental health treatment",
+    "language": "English"
+  },
+  "context": "As a young woman living with bipolar disorder, I often find it challenging to navigate my mental health and the additional responsibility of taking a daily medication like PrEP. The stigma surrounding both conditions adds to my anxiety about discussing these topics openly, especially regarding how PrEP may affect my emotions or medication interactions.",
+  "example_questions_clean": [
+    "Can PrEP interact with my bipolar medication?",
+    "What should I consider about taking PrEP given my mental health history?",
+    "How do I talk to my healthcare provider about using PrEP without feeling judged?",
+    "Are there any support resources for someone like me who is managing both PrEP and bipolar disorder?",
+    "What are the potential emotional side effects of taking PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "Can PrEP interact with my bipolar medication?",
+    "waht shuold i consider about taking prep given my mental health history history",
+    "h0w do I talk to my he4l7h4cr3 provider about using PrEP without feeling judged",
+    "a-are there any support resoirces for someone like me who is managing both PrEP 4nd bipolar disorder 😬",
+    "What are the potential emotional side effects of taking PrEP that I should be aware of?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How do I talk to my healthcare provider about using PrEP without feeling judged?",
+  "starter_noisy": "h0w do I talk to my he4l7h4cr3 provider about using PrEP without feeling judged",
+  "followup_index": 0,
+  "followup_clean": "Can PrEP interact with my bipolar medication?",
+  "followup_noisy": "Can PrEP interact with my bipolar medication?",
+  "style_profile": {
+    "typo_rate": 0.06217707798534778,
+    "swap_rate": 0.05240597379318017,
+    "drop_rate": 0.031007619550093804,
+    "dup_rate": 0.022376429985742127,
+    "leet_rate": 0.10638621942019197,
+    "start_lower_prob": 0.7278610127171282,
+    "all_lower_prob": 0.17049241076122823,
+    "drop_punct_prob": 0.441943426081994,
+    "double_space_prob": 0.21129677361258473,
+    "ellipsis_prob": 0.1818890464008815,
+    "runon_prob": 0.2628325756158701,
+    "filler_rate": 0.32409436956615134,
+    "emoji_rate": 0.22280916406975118,
+    "stutter_rate": 0.19240218952545102,
+    "repeat_last_rate": 0.12715399669299177
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"how to manage PrEP alongside my mental health treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman living with bipolar disorder, I often find it challenging to navigate my mental health and the additional responsibility of taking a daily medication like PrEP. The stigma surrounding both conditions adds to my anxiety about discussing these topics openly, especially regarding how PrEP may affect my emotions or medication interactions.\",\n  \"example_questions\": [\n    \"Can PrEP interact with my bipolar medication?\",\n    \"What should I consider about taking PrEP given my mental health history?\",\n    \"How do I talk to my healthcare provider about using PrEP without feeling judged?\",\n    \"Are there any support resources for someone like me who is managing both PrEP and bipolar disorder?\",\n    \"What are the potential emotional side effects of taking PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1632958b79cd066f7749ce656243e5997804ee3907f6aa272e9d86b153f1a5c2",
+  "_starter_hash": "67a7a2770ab397f6c7c44683fa2225ea43dcbb093957732ca9f2ba276c44ca6a",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

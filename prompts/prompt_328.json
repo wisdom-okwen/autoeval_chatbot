@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and accessing healthcare services",
+    "language": "English"
+  },
+  "context": "The user is navigating gender dysphoria while considering PrEP for HIV prevention. They feel apprehensive about discussing their sexual health with healthcare providers due to fear of being misunderstood or facing discrimination. This fear creates a barrier to accessing PrEP and can lead to feelings of isolation and uncertainty about their health choices.",
+  "example_questions_clean": [
+    "What are the steps to start PrEP, and how can I find a supportive healthcare provider?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "What should I expect during my first visit when discussing PrEP with a doctor?",
+    "How can I talk to my friends or family about my decision to pursue PrEP without feeling judged?",
+    "Are there community resources or support groups that can help me navigate my experience with PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to start PrEP, and how can I find a supportive healthcare provider?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "w-what should I expect during my um first visit when discussing PrEP with a doctor",
+    "H-How can I talk to um my friends or family aobut my decision to uprsue orEP without feeling judged",
+    "Are there community resources or support groups that can help me navigate my experience with PrEP?",
+    "what are the po73n7ial side 3f3fc75 of PrE taht I should be aware of"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+  "starter_noisy": "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to start PrEP, and how can I find a supportive healthcare provider?",
+  "followup_noisy": "What are the steps to start PrEP, and how can I find a supportive healthcare provider?",
+  "style_profile": {
+    "typo_rate": 0.07273351758222138,
+    "swap_rate": 0.057267596131999624,
+    "drop_rate": 0.03886114697906502,
+    "dup_rate": 0.014265429244611397,
+    "leet_rate": 0.086872231610715,
+    "start_lower_prob": 0.7076218974395007,
+    "all_lower_prob": 0.17619961875984458,
+    "drop_punct_prob": 0.5498851364865707,
+    "double_space_prob": 0.26192331071356845,
+    "ellipsis_prob": 0.23268471896573928,
+    "runon_prob": 0.2503672803414395,
+    "filler_rate": 0.4674595992307266,
+    "emoji_rate": 0.16351428302593105,
+    "stutter_rate": 0.16385829931562146,
+    "repeat_last_rate": 0.12421019591223995
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and accessing healthcare services\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating gender dysphoria while considering PrEP for HIV prevention. They feel apprehensive about discussing their sexual health with healthcare providers due to fear of being misunderstood or facing discrimination. This fear creates a barrier to accessing PrEP and can lead to feelings of isolation and uncertainty about their health choices.\",\n  \"example_questions\": [\n    \"What are the steps to start PrEP, and how can I find a supportive healthcare provider?\",\n    \"Can you explain how PrEP works and its effectiveness in preventing HIV?\",\n    \"What should I expect during my first visit when discussing PrEP with a doctor?\",\n    \"How can I talk to my friends or family about my decision to pursue PrEP without feeling judged?\",\n    \"Are there community resources or support groups that can help me navigate my experience with PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2cb1f70cfbe9b811d5e7969557738b40b1057cec2172520d3c5fb14f07fe1d22",
+  "_starter_hash": "f28d420157c06f59d546b7be8cf30069e0a75f73ea23e42dcc753dcca788adae",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

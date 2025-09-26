@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La stigmatisation et l'accès à PrEP en raison de l'isolement social",
+    "language": "French"
+  },
+  "context": "Vous êtes une femme de 28 ans vivant en France, qui se sent socialement isolée à cause de circonstances personnelles. Cette situation affecte votre état d'esprit et vous rend hésitante à chercher des informations sur PrEP. Vous craignez le jugement des autres et vous vous demandez si PrEP est vraiment adapté pour vous dans votre situation actuelle.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à PrEP dans un contexte d'isolement social ?",
+    "Comment puis-je surmonter la peur de la stigmatisation liée à l'utilisation de PrEP ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui se sentent isolées et ont besoin d'aide avec PrEP ?",
+    "Comment la communauté médicale peut-elle soutenir les personnes comme moi qui hésitent à commencer PrEP ?",
+    "Quels sont les effets secondaires courants de PrEP et comment les gérer ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour accéder à PrEP dans un contexte d'isolement social ?",
+    "comment puis-je urmonter l4 peur de l4 stigmatisation liée à l'utilisation de PrEP ?",
+    "y a-t-il des ressoruces d15p0n1bl35 like pour les personnes qui se sentent isolées et ont besoin d'aide avec Pr3P ? 🤔",
+    "commen7 la communauté médicale peut-elle soutenir les personnes comme moi qui idk hésitent à commencer PrrrEP ? ❓ ❓",
+    "Quels sont les effets secondaires courants de PrEP et comment les gérer ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment la communauté médicale peut-elle soutenir les personnes comme moi qui hésitent à commencer PrEP ?",
+  "starter_noisy": "commen7 la communauté médicale peut-elle soutenir les personnes comme moi qui idk hésitent à commencer PrrrEP ? ❓ ❓",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder à PrEP dans un contexte d'isolement social ?",
+  "followup_noisy": "Quelles sont les étapes pour accéder à PrEP dans un contexte d'isolement social ?",
+  "style_profile": {
+    "typo_rate": 0.06093740547842612,
+    "swap_rate": 0.052261081887206864,
+    "drop_rate": 0.03950553636583724,
+    "dup_rate": 0.013004245706381916,
+    "leet_rate": 0.07991590974078297,
+    "start_lower_prob": 0.6295694668921835,
+    "all_lower_prob": 0.18370196563488297,
+    "drop_punct_prob": 0.5563592801401285,
+    "double_space_prob": 0.2876784056971647,
+    "ellipsis_prob": 0.18205182286003613,
+    "runon_prob": 0.11084380243512185,
+    "filler_rate": 0.31802848577024884,
+    "emoji_rate": 0.20527016359411682,
+    "stutter_rate": 0.11939763936284047,
+    "repeat_last_rate": 0.17123535924678596
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La stigmatisation et l'accès à PrEP en raison de l'isolement social\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes une femme de 28 ans vivant en France, qui se sent socialement isolée à cause de circonstances personnelles. Cette situation affecte votre état d'esprit et vous rend hésitante à chercher des informations sur PrEP. Vous craignez le jugement des autres et vous vous demandez si PrEP est vraiment adapté pour vous dans votre situation actuelle.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à PrEP dans un contexte d'isolement social ?\",\n    \"Comment puis-je surmonter la peur de la stigmatisation liée à l'utilisation de PrEP ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui se sentent isolées et ont besoin d'aide avec PrEP ?\",\n    \"Comment la communauté médicale peut-elle soutenir les personnes comme moi qui hésitent à commencer PrEP ?\",\n    \"Quels sont les effets secondaires courants de PrEP et comment les gérer ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4d9278f97087a23bcabb8e481cdf7de7ae2a28297280868e14f6de4c5f286b5d",
+  "_starter_hash": "242c01f4774ee61690a457355ff1ec6da1d01539c90bb7ff1904c2874b22ec1d",
+  "_language": "French",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

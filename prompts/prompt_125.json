@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding the side effects of PrEP and how it might interact with my learning disability",
+    "language": "English"
+  },
+  "context": "You have a learning disability that makes processing medical information more challenging for you. This creates a barrier when trying to understand the complexities of PrEP. You feel anxious about potential side effects and are worried about accessing the medication while navigating a healthcare system that may not be accommodating to your needs. Despite these fears, there is hope in finding supportive resources and understanding more about how PrEP can help you stay healthy.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I better understand the information I find about PrEP?",
+    "Are there resources available that simplify the process of getting PrEP?",
+    "Can I trust that my healthcare provider will support my unique learning needs?",
+    "What should I do if I experience any side effects while taking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the common side effecs of PrEP that I should b3 waare of of",
+    "how can i better understand the informaton i find abot prep",
+    "Are there resources available that simplify the process of getting PrEP?",
+    "can i trust that my healthcare provider will suppirt my uniqu learning needs?",
+    "wh47 should 1 do 1f I experience any side effects while 74king PrEP"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can I trust that my healthcare provider will support my unique learning needs?",
+  "starter_noisy": "can i trust that my healthcare provider will suppirt my uniqu learning needs?",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP that I should be aware of?",
+  "followup_noisy": "what are the common side effecs of PrEP that I should b3 waare of of",
+  "style_profile": {
+    "typo_rate": 0.09285846996367321,
+    "swap_rate": 0.050689448442851795,
+    "drop_rate": 0.04536707175539106,
+    "dup_rate": 0.025345291384275097,
+    "leet_rate": 0.06554967162174256,
+    "start_lower_prob": 0.6221778544929787,
+    "all_lower_prob": 0.34405328045932343,
+    "drop_punct_prob": 0.5739984815756435,
+    "double_space_prob": 0.28011806437399334,
+    "ellipsis_prob": 0.32998263792573396,
+    "runon_prob": 0.18514182845590393,
+    "filler_rate": 0.3014962350952719,
+    "emoji_rate": 0.26793228785317247,
+    "stutter_rate": 0.1673004960299538,
+    "repeat_last_rate": 0.12960309358490962
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding the side effects of PrEP and how it might interact with my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a learning disability that makes processing medical information more challenging for you. This creates a barrier when trying to understand the complexities of PrEP. You feel anxious about potential side effects and are worried about accessing the medication while navigating a healthcare system that may not be accommodating to your needs. Despite these fears, there is hope in finding supportive resources and understanding more about how PrEP can help you stay healthy.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I better understand the information I find about PrEP?\",\n    \"Are there resources available that simplify the process of getting PrEP?\",\n    \"Can I trust that my healthcare provider will support my unique learning needs?\",\n    \"What should I do if I experience any side effects while taking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "66e595bf8e1e8a22f9127239a2f2e36122e4698a1eab068da2432902392e91fe",
+  "_starter_hash": "0c4ba7bbc099f09a38dbce1c4cddca33148f868064cad171ce4ab78cf0c46c93",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

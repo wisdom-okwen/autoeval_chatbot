@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner retaliation",
+    "language": "English"
+  },
+  "context": "You are a woman in a low-income situation facing intimate partner violence. Your partner controls many aspects of your life, making it difficult to seek help or access PrEP without fear of their reaction. You feel a mix of hope for protection against HIV and fear that seeking PrEP could escalate your situation.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get access to PrEP without my partner knowing?",
+    "How can I talk to a healthcare provider about my situation safely?",
+    "What should I do if my partner finds out I'm taking PrEP?",
+    "Are there support services available for people in abusive relationships who want to start PrEP?",
+    "Can I get PrEP discreetly, and what options are available for someone like me?",
+    "What kind of side effects should I be aware of when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "hat are the 5tep5 k n33f to take to get access tp PrEP without my partner knowing? 🙂",
+    "how can i talk to a healthcare provider aout my 517ua710n safely safely",
+    "what should I do if my partner finds out I'm 74king PrEP",
+    "are there suuupport uh services availabbble for p30pl3 in absive relationships who want to start PrEP PrEP",
+    "can i grt pr3p d15cr337ly and what options are available for someone ilke me?",
+    "wh47 knd of side effects should I be aware of whem considering Pr3P"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What should I do if my partner finds out I'm taking PrEP?",
+  "starter_noisy": "what should I do if my partner finds out I'm 74king PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get access to PrEP without my partner knowing?",
+  "followup_noisy": "hat are the 5tep5 k n33f to take to get access tp PrEP without my partner knowing? 🙂",
+  "style_profile": {
+    "typo_rate": 0.0960973604033494,
+    "swap_rate": 0.050679499602803824,
+    "drop_rate": 0.04821252600840524,
+    "dup_rate": 0.02697937238983574,
+    "leet_rate": 0.11562298473384235,
+    "start_lower_prob": 0.7284710244021736,
+    "all_lower_prob": 0.2776961813319621,
+    "drop_punct_prob": 0.5698213762082481,
+    "double_space_prob": 0.15696895668074431,
+    "ellipsis_prob": 0.24925436184522098,
+    "runon_prob": 0.24687817601211295,
+    "filler_rate": 0.37416639284545605,
+    "emoji_rate": 0.22185149055120634,
+    "stutter_rate": 0.11213222150892484,
+    "repeat_last_rate": 0.11896734480787362
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner retaliation\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a woman in a low-income situation facing intimate partner violence. Your partner controls many aspects of your life, making it difficult to seek help or access PrEP without fear of their reaction. You feel a mix of hope for protection against HIV and fear that seeking PrEP could escalate your situation.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get access to PrEP without my partner knowing?\",\n    \"How can I talk to a healthcare provider about my situation safely?\",\n    \"What should I do if my partner finds out I'm taking PrEP?\",\n    \"Are there support services available for people in abusive relationships who want to start PrEP?\",\n    \"Can I get PrEP discreetly, and what options are available for someone like me?\",\n    \"What kind of side effects should I be aware of when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "40fe496f6b7e9d7a6d23ba0dbfe26dccf434c468af60edca9e591d2e5e53d8e6",
+  "_starter_hash": "7fca463e5131ec719fb0e465354d99cc4e360a1e34407be0ee23f12ed79109e5",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

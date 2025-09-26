@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "bezorgdheid over medicatie-interacties met pijnstillers",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker leeft met chronische pijn, wat leidt tot angst over de effecten van nieuwe medicatie. Ze maakt zich zorgen over hoe PrEP samenwerkt met haar huidige pijnstillers en of het haar algehele welzijn zal beïnvloeden. Haar emotionele toestand varieert van hoop tot frustratie, vooral omdat ze ook bang is voor stigmatisering rondom hiv-preventie.",
+  "example_questions_clean": [
+    "Hoe kan ik er zeker van zijn dat PrEP veilig is voor iemand die chronische pijn heeft?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?",
+    "Zijn er specifieke richtlijnen voor het combineren van PrEP met pijnstillers?",
+    "Hoe kan ik gesprekken over PrEP aangaan met mijn arts, gezien mijn situatie?",
+    "Wat zijn de ervaringen van anderen met chronische aandoeningen die PrEP gebruiken?",
+    "Welke stappen kan ik nemen om toegang te krijgen tot PrEP zonder me gestigmatiseerd te voelen?"
+  ],
+  "example_questions_noisy": [
+    "Hoe kan ik er zeker van zijn dat PrEP veilig is voor iemand die chronische pijn heeft?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?",
+    "zikn er specifieke r1ch7lijn3n voor het combineren van PrEP met pijnstillers 😕",
+    "Hoe kan ik gesprekken over PrEP aangaan met mijn arts, gezien mijn situatie?",
+    "wat z1jn d3 ervaringen van nderen meeet chronische aandoeningen die PrEP g3bru1k3n 🤔",
+    "Welkkke um stappen kan ik nem3n ok toegang fe krrrijgen f0t PrEP z0ndr ,e gestigmatiseerd te boelen?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Welke stappen kan ik nemen om toegang te krijgen tot PrEP zonder me gestigmatiseerd te voelen?",
+  "starter_noisy": "Welkkke um stappen kan ik nem3n ok toegang fe krrrijgen f0t PrEP z0ndr ,e gestigmatiseerd te boelen?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik er zeker van zijn dat PrEP veilig is voor iemand die chronische pijn heeft?",
+  "followup_noisy": "Hoe kan ik er zeker van zijn dat PrEP veilig is voor iemand die chronische pijn heeft?",
+  "style_profile": {
+    "typo_rate": 0.10527797292904909,
+    "swap_rate": 0.034139725669958404,
+    "drop_rate": 0.04003646182131286,
+    "dup_rate": 0.02956164720979814,
+    "leet_rate": 0.1182742960749985,
+    "start_lower_prob": 0.6390803841252527,
+    "all_lower_prob": 0.3067387406037685,
+    "drop_punct_prob": 0.4756903602368894,
+    "double_space_prob": 0.21047222724933695,
+    "ellipsis_prob": 0.15135307460047445,
+    "runon_prob": 0.227568299712401,
+    "filler_rate": 0.41975668181364173,
+    "emoji_rate": 0.21644503507646418,
+    "stutter_rate": 0.1616447708267375,
+    "repeat_last_rate": 0.10757511331709235
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"bezorgdheid over medicatie-interacties met pijnstillers\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"De gebruiker leeft met chronische pijn, wat leidt tot angst over de effecten van nieuwe medicatie. Ze maakt zich zorgen over hoe PrEP samenwerkt met haar huidige pijnstillers en of het haar algehele welzijn zal beïnvloeden. Haar emotionele toestand varieert van hoop tot frustratie, vooral omdat ze ook bang is voor stigmatisering rondom hiv-preventie.\",\n  \"example_questions\": [\n    \"Hoe kan ik er zeker van zijn dat PrEP veilig is voor iemand die chronische pijn heeft?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?\",\n    \"Zijn er specifieke richtlijnen voor het combineren van PrEP met pijnstillers?\",\n    \"Hoe kan ik gesprekken over PrEP aangaan met mijn arts, gezien mijn situatie?\",\n    \"Wat zijn de ervaringen van anderen met chronische aandoeningen die PrEP gebruiken?\",\n    \"Welke stappen kan ik nemen om toegang te krijgen tot PrEP zonder me gestigmatiseerd te voelen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c392423b9eb47cf6ea8eb8c7a2489486bfa826a324db001e80f2acefbe01e51a",
+  "_starter_hash": "5b046599c7c027bc94df3b5c0faca59fd73fbd1d11fc415318cefb46c92551c1",
+  "_language": "Dutch",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "middelklasse",
+    "primary_concern": "de kosten en toegankelijkheid van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je voelt je sociaal geïsoleerd en hebt moeite om open te zijn over je gezondheid. Deze situatie beïnvloedt je emoties en zorgt voor angst om PrEP te vragen, omdat je bang bent voor stigma of afwijzing. Je zoekt naar informatie over hoe je PrEP kunt verkrijgen ondanks de uitdagingen die je ervaart.",
+  "example_questions_clean": [
+    "Wat zijn de kosten van PrEP en wordt het vergoed?",
+    "Hoe kan ik steun vinden bij het bespreken van PrEP met mijn zorgverlener?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik op moet letten?",
+    "Zijn er gemeenschappen waar ik contact kan maken met anderen die PrEP gebruiken?",
+    "Hoe kan ik me voorbereiden op een gesprek over PrEP met een arts?",
+    "Is er een verschil tussen de beschikbare soorten PrEP in Nederland?"
+  ],
+  "example_questions_noisy": [
+    "wattt zijn de kosten van prep en wordt het v3rg03d? ✨",
+    "hoe kan ik seun vindennn bij het bespreken can prep met m1jn zorgverlener?",
+    "w47 zijn de mogelijke bijwerkingen van prep waar ik op moet letten? ✨",
+    "Zijn er gemeenschappen waar ik contact kan maken met anderen die PrEP gebruiken?",
+    "Hoe kan ik me voorbereiden op een gesprek over PrEP met een arts?",
+    "Is er een verschil tussen de beschikbare soorten PrEP in Nederland?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is er een verschil tussen de beschikbare soorten PrEP in Nederland?",
+  "starter_noisy": "Is er een verschil tussen de beschikbare soorten PrEP in Nederland?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de kosten van PrEP en wordt het vergoed?",
+  "followup_noisy": "wattt zijn de kosten van prep en wordt het v3rg03d? ✨",
+  "style_profile": {
+    "typo_rate": 0.07981314714808428,
+    "swap_rate": 0.03604262236612223,
+    "drop_rate": 0.02050620924014701,
+    "dup_rate": 0.028873530980627997,
+    "leet_rate": 0.09207201538500898,
+    "start_lower_prob": 0.6033267236559123,
+    "all_lower_prob": 0.349880001289422,
+    "drop_punct_prob": 0.38525780116939107,
+    "double_space_prob": 0.3467726146702519,
+    "ellipsis_prob": 0.3115941162102077,
+    "runon_prob": 0.21093979520865974,
+    "filler_rate": 0.2609109740705694,
+    "emoji_rate": 0.27873529395445756,
+    "stutter_rate": 0.11505937583005976,
+    "repeat_last_rate": 0.13463016419375778
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middelklasse\",\n    \"primary_concern\": \"de kosten en toegankelijkheid van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je voelt je sociaal geïsoleerd en hebt moeite om open te zijn over je gezondheid. Deze situatie beïnvloedt je emoties en zorgt voor angst om PrEP te vragen, omdat je bang bent voor stigma of afwijzing. Je zoekt naar informatie over hoe je PrEP kunt verkrijgen ondanks de uitdagingen die je ervaart.\",\n  \"example_questions\": [\n    \"Wat zijn de kosten van PrEP en wordt het vergoed?\",\n    \"Hoe kan ik steun vinden bij het bespreken van PrEP met mijn zorgverlener?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP waar ik op moet letten?\",\n    \"Zijn er gemeenschappen waar ik contact kan maken met anderen die PrEP gebruiken?\",\n    \"Hoe kan ik me voorbereiden op een gesprek over PrEP met een arts?\",\n    \"Is er een verschil tussen de beschikbare soorten PrEP in Nederland?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4c9e01e25a69cd3f6c2b06cba875467a65cc97c656b6cbbd7fd314688be825a9",
+  "_starter_hash": "3929ab96df2aabcb54c438cd65e0f1ed46e444d7715f49f05440a4f6cd7dd245",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

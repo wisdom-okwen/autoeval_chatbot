@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "baixo",
+    "primary_concern": "medo de que meu parceiro descubra que estou buscando PrEP e reaja de forma violenta",
+    "language": "Portuguese"
+  },
+  "context": "Você é uma mulher de 28 anos que enfrenta a violência de um parceiro íntimo e sente-se insegura sobre como acessar o PrEP. O medo da reação do seu parceiro impede que você busque informações e apoio, causando ansiedade e incertezas sobre sua saúde sexual.",
+  "example_questions_clean": [
+    "Quais são os passos para iniciar o uso do PrEP sem levantar suspeitas?",
+    "Como posso garantir minha segurança ao discutir PrEP com um profissional de saúde?",
+    "O que devo fazer se meu parceiro descobrir que estou tomando PrEP?",
+    "É possível obter PrEP de forma anônima no Brasil?",
+    "Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?",
+    "Como posso encontrar apoio emocional enquanto lido com essa situação?"
+  ],
+  "example_questions_noisy": [
+    "quais são os passos para iniciar o uso d0 PrEP sem levantar suspeitas? ‼️",
+    "fomo posso garamtir minha segurança ao discutir PrEP com um proissional d3 saúde?",
+    "o-o qu3 d3v0 f4zr se meu parceiro descobror que estou tomando prwp?",
+    "É possível obter PrEP de forma anônima no Brasil?",
+    "idk quais são os efeitos colaterais do prep que eu deveria estar ciente?",
+    "Como posso encontrar apoio emocional enquanto lido com essa situação?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "O que devo fazer se meu parceiro descobrir que estou tomando PrEP?",
+  "starter_noisy": "o-o qu3 d3v0 f4zr se meu parceiro descobror que estou tomando prwp?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os passos para iniciar o uso do PrEP sem levantar suspeitas?",
+  "followup_noisy": "quais são os passos para iniciar o uso d0 PrEP sem levantar suspeitas? ‼️",
+  "style_profile": {
+    "typo_rate": 0.09579053220348788,
+    "swap_rate": 0.04522504154415157,
+    "drop_rate": 0.038860027893137264,
+    "dup_rate": 0.011403383625375184,
+    "leet_rate": 0.10114719494721383,
+    "start_lower_prob": 0.645478004469231,
+    "all_lower_prob": 0.1658953300555311,
+    "drop_punct_prob": 0.42378727745729383,
+    "double_space_prob": 0.1530873514250348,
+    "ellipsis_prob": 0.2342506223032274,
+    "runon_prob": 0.15986992064916739,
+    "filler_rate": 0.35584103134624456,
+    "emoji_rate": 0.16420189810168553,
+    "stutter_rate": 0.1391508700094681,
+    "repeat_last_rate": 0.16181129739973998
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"baixo\",\n    \"primary_concern\": \"medo de que meu parceiro descubra que estou buscando PrEP e reaja de forma violenta\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é uma mulher de 28 anos que enfrenta a violência de um parceiro íntimo e sente-se insegura sobre como acessar o PrEP. O medo da reação do seu parceiro impede que você busque informações e apoio, causando ansiedade e incertezas sobre sua saúde sexual.\",\n  \"example_questions\": [\n    \"Quais são os passos para iniciar o uso do PrEP sem levantar suspeitas?\",\n    \"Como posso garantir minha segurança ao discutir PrEP com um profissional de saúde?\",\n    \"O que devo fazer se meu parceiro descobrir que estou tomando PrEP?\",\n    \"É possível obter PrEP de forma anônima no Brasil?\",\n    \"Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?\",\n    \"Como posso encontrar apoio emocional enquanto lido com essa situação?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "60884f055d79200b5b23ee285e53846be682501d3fe1f3351d4f24a7c8872865",
+  "_starter_hash": "4082eed17b77c653d60ca13e0b35aa5e71df407b0b872e5082ad1652a424fa19",
+  "_language": "Portuguese",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

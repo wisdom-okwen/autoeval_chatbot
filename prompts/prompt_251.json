@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "acceso y costo del PrEP mientras está sin hogar",
+    "language": "Spanish"
+  },
+  "context": "Esta persona enfrenta la dificultad de mantenerse en un lugar seguro y estable, lo que genera incertidumbre y ansiedad sobre su salud y el acceso a servicios médicos como el PrEP. El miedo a ser estigmatizada o rechazada al buscar tratamiento es una preocupación constante.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder al PrEP si no tengo un hogar estable?",
+    "Me gustaría saber si hay programas gratuitos o de bajo costo para obtener PrEP.",
+    "¿El PrEP puede ayudarme a sentirme más segura en mi vida diaria?",
+    "¿Qué efectos secundarios debo tener en cuenta al considerar el PrEP?",
+    "¿Es posible recibir apoyo emocional mientras busco acceso al PrEP?",
+    "¿Qué hago si me siento discriminada al buscar información sobre el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿-¿Cuáles son los pasos paraaa acceder al Pr3P si no tengo un hogar 357able? 357able?",
+    "Md gustaría saber si hayyy rogramas gra7u1705 o de bajo costo para obtener PrEP",
+    "¿El PrEP puede ayudarme a sentirme más segura en mi vida diaria?",
+    "¿aué efectos secundarios deho tener en cuenta al considerar el PrEP PrEP",
+    "¿Es posible recibir apoyo emocional imentras busco acceso al PrEP PrEP",
+    "¿Qué hago si me siento discriminada al buscar inforacióóón sobre el PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los pasos para acceder al PrEP si no tengo un hogar estable?",
+  "starter_noisy": "¿-¿Cuáles son los pasos paraaa acceder al Pr3P si no tengo un hogar 357able? 357able?",
+  "followup_index": 1,
+  "followup_clean": "Me gustaría saber si hay programas gratuitos o de bajo costo para obtener PrEP.",
+  "followup_noisy": "Md gustaría saber si hayyy rogramas gra7u1705 o de bajo costo para obtener PrEP",
+  "style_profile": {
+    "typo_rate": 0.09208169424894674,
+    "swap_rate": 0.02790848846096993,
+    "drop_rate": 0.025346268722182343,
+    "dup_rate": 0.025923882497036338,
+    "leet_rate": 0.09523817344686904,
+    "start_lower_prob": 0.8261458568285492,
+    "all_lower_prob": 0.2453573766109054,
+    "drop_punct_prob": 0.5568360918616241,
+    "double_space_prob": 0.31919877064279356,
+    "ellipsis_prob": 0.3409068357251489,
+    "runon_prob": 0.15688798297231518,
+    "filler_rate": 0.22425964449122665,
+    "emoji_rate": 0.22994624583497306,
+    "stutter_rate": 0.19074509619942143,
+    "repeat_last_rate": 0.1736129660488206
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"acceso y costo del PrEP mientras está sin hogar\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta persona enfrenta la dificultad de mantenerse en un lugar seguro y estable, lo que genera incertidumbre y ansiedad sobre su salud y el acceso a servicios médicos como el PrEP. El miedo a ser estigmatizada o rechazada al buscar tratamiento es una preocupación constante.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder al PrEP si no tengo un hogar estable?\",\n    \"Me gustaría saber si hay programas gratuitos o de bajo costo para obtener PrEP.\",\n    \"¿El PrEP puede ayudarme a sentirme más segura en mi vida diaria?\",\n    \"¿Qué efectos secundarios debo tener en cuenta al considerar el PrEP?\",\n    \"¿Es posible recibir apoyo emocional mientras busco acceso al PrEP?\",\n    \"¿Qué hago si me siento discriminada al buscar información sobre el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "baec8a7b5e41dd735b85bff6aeb418c462d64fbf3aee9327ef64e6c73f2d68d5",
+  "_starter_hash": "b5ad3a3d21b444ccbc33a52c60e1905c7c8a5907a1bc22d3e0df70385ba2cca6",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

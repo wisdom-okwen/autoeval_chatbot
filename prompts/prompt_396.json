@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "temor a la estigmatización y el acceso al tratamiento",
+    "language": "Spanish"
+  },
+  "context": "Esta persona está en proceso de recuperación de un trauma relacionado con su salud sexual. A pesar de su deseo de protegerse contra el VIH, tiene miedo de ser juzgada y siente que su pasado la limita en buscar información sobre PrEP.",
+  "example_questions_clean": [
+    "¿Qué beneficios reales tiene el PrEP para alguien que ha pasado por experiencias difíciles?",
+    "¿Cómo puedo encontrar apoyo emocional mientras consideramos el uso de PrEP?",
+    "¿Existen recursos específicos para personas que enfrentan estigmas al hablar sobre PrEP?",
+    "¿Cuál es el proceso para acceder a PrEP si me preocupa la discriminación?",
+    "¿Puede el PrEP ayudarme a sentirme más segura en mis relaciones futuras?",
+    "¿Qué pasos debo seguir para obtener PrEP sin enfrentar juicios?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué beneficios reales tiene el PrEP para alguien que ha pasado por experiencias difíciles?",
+    "¿Cómo peudo encontrrrar apoyo emocional m13ntr45 con51d3ram05 el uso de PrEP?",
+    "¿Existen recursos específicos para personas que enfrentan estigmas al hablar sobre PrEP?",
+    "¿Cuál 35 el proceso para acceder a PrEP si me preocupa la discriminación?",
+    "¿Puede el PrEP ayudarme a sentirme más segura en mis r3l4c10n35 futur45?",
+    "¿Qué pasos debo seguir para obtener PrEP sin enfrentar juicios?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Cómo puedo encontrar apoyo emocional mientras consideramos el uso de PrEP?",
+  "starter_noisy": "¿Cómo peudo encontrrrar apoyo emocional m13ntr45 con51d3ram05 el uso de PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué beneficios reales tiene el PrEP para alguien que ha pasado por experiencias difíciles?",
+  "followup_noisy": "¿Qué beneficios reales tiene el PrEP para alguien que ha pasado por experiencias difíciles?",
+  "style_profile": {
+    "typo_rate": 0.09370292794023893,
+    "swap_rate": 0.021323715858030827,
+    "drop_rate": 0.028915440562805483,
+    "dup_rate": 0.028444351827995193,
+    "leet_rate": 0.060827297634475704,
+    "start_lower_prob": 0.875908264354537,
+    "all_lower_prob": 0.15702481122286907,
+    "drop_punct_prob": 0.5131787326633568,
+    "double_space_prob": 0.3386391171739944,
+    "ellipsis_prob": 0.2794458811174348,
+    "runon_prob": 0.26905568953122205,
+    "filler_rate": 0.2543388830451251,
+    "emoji_rate": 0.2054442531693545,
+    "stutter_rate": 0.1170567586949256,
+    "repeat_last_rate": 0.17648238382556306
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"temor a la estigmatización y el acceso al tratamiento\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta persona está en proceso de recuperación de un trauma relacionado con su salud sexual. A pesar de su deseo de protegerse contra el VIH, tiene miedo de ser juzgada y siente que su pasado la limita en buscar información sobre PrEP.\",\n  \"example_questions\": [\n    \"¿Qué beneficios reales tiene el PrEP para alguien que ha pasado por experiencias difíciles?\",\n    \"¿Cómo puedo encontrar apoyo emocional mientras consideramos el uso de PrEP?\",\n    \"¿Existen recursos específicos para personas que enfrentan estigmas al hablar sobre PrEP?\",\n    \"¿Cuál es el proceso para acceder a PrEP si me preocupa la discriminación?\",\n    \"¿Puede el PrEP ayudarme a sentirme más segura en mis relaciones futuras?\",\n    \"¿Qué pasos debo seguir para obtener PrEP sin enfrentar juicios?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a3fbb93df3100f6aa9eff4d56df6c54366cc69aa1cf0e43f6efe0dc87b91776b",
+  "_starter_hash": "543d234299f2aa6e4ea1aad32449cbfe71ced5b0302f50f86690f5f290f079de",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

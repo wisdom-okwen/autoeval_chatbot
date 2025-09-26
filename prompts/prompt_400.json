@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and partner violence",
+    "language": "English"
+  },
+  "context": "You are experiencing intimate partner violence, which makes it challenging for you to consider accessing PrEP. You fear that discussing your sexual health or seeking preventative measures could escalate the violence you face. Your emotional state is a mix of anxiety and hope, as you want to protect yourself but also feel trapped in your situation.",
+  "example_questions_clean": [
+    "What are the risks of not taking PrEP if I have a violent partner?",
+    "How can I safely access PrEP without my partner knowing?",
+    "What support resources are available for someone in my situation who wants to start PrEP?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "Are there organizations that help individuals facing violence who want to use PrEP?",
+    "What steps can I take to maintain my privacy while seeking medical help?"
+  ],
+  "example_questions_noisy": [
+    "what are the you know risks of not taking Pr3P if I have a violent partner? ❓",
+    "how can I safely access PrEP without my partner knowwwing? 😕",
+    "what support resources are available for someone jn my sitation who eants to start i mean PrEP?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "are there you know organizations that help individuals f4c1nnng vi0l3nc3 who wzn7 ttto use prep? ❓",
+    "w-what steps can i take to maintain my pr1v4cy while seeking medical help? help?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What steps can I take to maintain my privacy while seeking medical help?",
+  "starter_noisy": "w-what steps can i take to maintain my pr1v4cy while seeking medical help? help?",
+  "followup_index": 0,
+  "followup_clean": "What are the risks of not taking PrEP if I have a violent partner?",
+  "followup_noisy": "what are the you know risks of not taking Pr3P if I have a violent partner? ❓",
+  "style_profile": {
+    "typo_rate": 0.0705293906889174,
+    "swap_rate": 0.0585958094689817,
+    "drop_rate": 0.04395940958694239,
+    "dup_rate": 0.02718648235004434,
+    "leet_rate": 0.10239279560250741,
+    "start_lower_prob": 0.8668136718121993,
+    "all_lower_prob": 0.3388516513369339,
+    "drop_punct_prob": 0.5699569265520893,
+    "double_space_prob": 0.27335678933632857,
+    "ellipsis_prob": 0.22489139025623495,
+    "runon_prob": 0.29751311340859,
+    "filler_rate": 0.41263924287432285,
+    "emoji_rate": 0.32572133990503926,
+    "stutter_rate": 0.12309523042411477,
+    "repeat_last_rate": 0.1147417179996762
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and partner violence\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are experiencing intimate partner violence, which makes it challenging for you to consider accessing PrEP. You fear that discussing your sexual health or seeking preventative measures could escalate the violence you face. Your emotional state is a mix of anxiety and hope, as you want to protect yourself but also feel trapped in your situation.\",\n  \"example_questions\": [\n    \"What are the risks of not taking PrEP if I have a violent partner?\",\n    \"How can I safely access PrEP without my partner knowing?\",\n    \"What support resources are available for someone in my situation who wants to start PrEP?\",\n    \"Can you explain how PrEP works and its effectiveness in preventing HIV?\",\n    \"Are there organizations that help individuals facing violence who want to use PrEP?\",\n    \"What steps can I take to maintain my privacy while seeking medical help?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b7b5a7786c20b7692ac671d78d79cfd91d37ee80235cf76c245aff79c1e23419",
+  "_starter_hash": "f87db65eb4812fa3297d0890effe69ee666c7af89073caabf29f725668e0b832",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

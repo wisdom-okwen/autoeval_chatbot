@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "La stigmatisation et la peur des effets secondaires",
+    "language": "French"
+  },
+  "context": "Vous êtes en train de vous remettre d'un traumatisme personnel qui affecte votre confiance en vous et votre capacité à parler ouvertement de votre santé sexuelle. La peur du jugement et des effets secondaires potentiels vous freine dans votre démarche pour accéder au PrEP.",
+  "example_questions_clean": [
+    "Quelles sont les options pour obtenir le PrEP sans se sentir jugé ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité après mon traumatisme ?",
+    "Y a-t-il des ressources pour soutenir les personnes ayant des antécédents de traumatismes qui souhaitent commencer le PrEP ?",
+    "Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer ?",
+    "Comment puis-je parler de mes préoccupations concernant le PrEP avec un professionnel de santé ?",
+    "Le PrEP est-il accessible aux personnes qui éprouvent de l'anxiété ou de la peur à l'idée d'en parler ?"
+  ],
+  "example_questions_noisy": [
+    "quelles zont les options ppur 0b73n1 le prep sans se s3n71r jugé",
+    "Comment le Pr3P peut-il m'aider um à m3 sentir plus en sécurité après mon traumatisme",
+    "y -at-il des ressources pour soutenir les peronnes ayant des 4n7écéden75 de traumatismes qui souhaitttent commencer le r3p ?",
+    "Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer ?",
+    "Comment puis-je parler de mes préoccupations concernant le PrEP avec un professionnel de santé ?",
+    "Le PrEP est-il accessible aux personnes qui éprouvent de l'anxiété ou de la peur à l'idée d'en parler ?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Le PrEP est-il accessible aux personnes qui éprouvent de l'anxiété ou de la peur à l'idée d'en parler ?",
+  "starter_noisy": "Le PrEP est-il accessible aux personnes qui éprouvent de l'anxiété ou de la peur à l'idée d'en parler ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les options pour obtenir le PrEP sans se sentir jugé ?",
+  "followup_noisy": "quelles zont les options ppur 0b73n1 le prep sans se s3n71r jugé",
+  "style_profile": {
+    "typo_rate": 0.05482705415288802,
+    "swap_rate": 0.021063220565528028,
+    "drop_rate": 0.029846721951975914,
+    "dup_rate": 0.012644272053232567,
+    "leet_rate": 0.11527547342317714,
+    "start_lower_prob": 0.6275797226751604,
+    "all_lower_prob": 0.31033765436942806,
+    "drop_punct_prob": 0.4647803126279343,
+    "double_space_prob": 0.18351354305357886,
+    "ellipsis_prob": 0.3373491303361214,
+    "runon_prob": 0.14078030178490766,
+    "filler_rate": 0.4686698746776418,
+    "emoji_rate": 0.22380811529329792,
+    "stutter_rate": 0.19569486127044314,
+    "repeat_last_rate": 0.13711688992735324
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"La stigmatisation et la peur des effets secondaires\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes en train de vous remettre d'un traumatisme personnel qui affecte votre confiance en vous et votre capacité à parler ouvertement de votre santé sexuelle. La peur du jugement et des effets secondaires potentiels vous freine dans votre démarche pour accéder au PrEP.\",\n  \"example_questions\": [\n    \"Quelles sont les options pour obtenir le PrEP sans se sentir jugé ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité après mon traumatisme ?\",\n    \"Y a-t-il des ressources pour soutenir les personnes ayant des antécédents de traumatismes qui souhaitent commencer le PrEP ?\",\n    \"Quels sont les effets secondaires possibles du PrEP et comment puis-je les gérer ?\",\n    \"Comment puis-je parler de mes préoccupations concernant le PrEP avec un professionnel de santé ?\",\n    \"Le PrEP est-il accessible aux personnes qui éprouvent de l'anxiété ou de la peur à l'idée d'en parler ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b2297964d9db4353416acbb143ef6ed05921b50087792c66920d200acb9d87db",
+  "_starter_hash": "e65e2bfa0a6160c71dd8e13916c479739c0389a173cf67cce20bd37c167234bb",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

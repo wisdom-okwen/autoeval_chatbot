@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 30,
+    "gender": "man",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "moeilijkheden met toegang tot zorg door gebrek aan huisvesting",
+    "language": "Dutch"
+  },
+  "context": "Je bevindt je in een uitdagende situatie door dakloosheid, wat je zorgen over gezondheid en toegang tot PrEP vergroot. Je voelt je soms verloren en vraagt je af hoe je PrEP kunt krijgen zonder een vaste woonplaats. De angst voor stigma en de strijd om basisbehoeften kunnen ontmoedigend zijn, maar er is hoop op steun en informatie.",
+  "example_questions_clean": [
+    "Wat zijn de stappen om PrEP te verkrijgen als ik geen vaste woning heb?",
+    "Kunnen er anonieme opties zijn om PrEP te bespreken met een zorgverlener?",
+    "Wat moet ik doen als ik me onveilig voel bij het zoeken naar informatie over PrEP?",
+    "Zijn er hulporganisaties die ondersteuning bieden voor mensen zonder huisvesting die PrEP willen gebruiken?",
+    "Hoe kan ik het beste mijn zorgen over stigma delen met een zorgverlener?",
+    "Welke middelen zijn er beschikbaar voor educatie over PrEP voor mensen in mijn situatie?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de stappen om PrEP te verkrijgen als ik geen vaste woning heb?",
+    "unnen er 4n0n13me idk opties zijn om prep 73 bespreken met een zorgverlener",
+    "wat mo37 ik doen you know aps ik me onveilig veol bij beeet zoekeeen na44r informatie over prep prep",
+    "Zijn er hulporganisaties die ondersteuning bieden voor mensen zonder huisvesting die PrEP willen gebruiken?",
+    "hoe kan ik het beste mijn zorgen over stogma um delen met een zorgerlener?",
+    "Welke middelen zijn er beschikbaar voor educatie over PrEP voor mensen in mijn situatie?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Kunnen er anonieme opties zijn om PrEP te bespreken met een zorgverlener?",
+  "starter_noisy": "unnen er 4n0n13me idk opties zijn om prep 73 bespreken met een zorgverlener",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de stappen om PrEP te verkrijgen als ik geen vaste woning heb?",
+  "followup_noisy": "Wat zijn de stappen om PrEP te verkrijgen als ik geen vaste woning heb?",
+  "style_profile": {
+    "typo_rate": 0.1194559707071107,
+    "swap_rate": 0.04304300075723719,
+    "drop_rate": 0.038737303079858426,
+    "dup_rate": 0.023397160991825927,
+    "leet_rate": 0.07370426725479,
+    "start_lower_prob": 0.6310112071964121,
+    "all_lower_prob": 0.333996404051555,
+    "drop_punct_prob": 0.5873648408278257,
+    "double_space_prob": 0.2947654509698473,
+    "ellipsis_prob": 0.2083159909498541,
+    "runon_prob": 0.10322015114507199,
+    "filler_rate": 0.45847721183917284,
+    "emoji_rate": 0.1766809177067925,
+    "stutter_rate": 0.1698377375136585,
+    "repeat_last_rate": 0.11263098514371174
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 30,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"moeilijkheden met toegang tot zorg door gebrek aan huisvesting\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je bevindt je in een uitdagende situatie door dakloosheid, wat je zorgen over gezondheid en toegang tot PrEP vergroot. Je voelt je soms verloren en vraagt je af hoe je PrEP kunt krijgen zonder een vaste woonplaats. De angst voor stigma en de strijd om basisbehoeften kunnen ontmoedigend zijn, maar er is hoop op steun en informatie.\",\n  \"example_questions\": [\n    \"Wat zijn de stappen om PrEP te verkrijgen als ik geen vaste woning heb?\",\n    \"Kunnen er anonieme opties zijn om PrEP te bespreken met een zorgverlener?\",\n    \"Wat moet ik doen als ik me onveilig voel bij het zoeken naar informatie over PrEP?\",\n    \"Zijn er hulporganisaties die ondersteuning bieden voor mensen zonder huisvesting die PrEP willen gebruiken?\",\n    \"Hoe kan ik het beste mijn zorgen over stigma delen met een zorgverlener?\",\n    \"Welke middelen zijn er beschikbaar voor educatie over PrEP voor mensen in mijn situatie?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "899e232cfd319cc5c69a0df27c4a71a0b7ec836d377af701b498fd7dd1c28e24",
+  "_starter_hash": "57f94fc68ca77c611d8750d055ebfca51840328626366d7bcda34b433eac86a2",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

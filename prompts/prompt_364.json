@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 34,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact de la douleur chronique sur ma capacité à prendre PrEP",
+    "language": "French"
+  },
+  "context": "En raison de ma douleur chronique, je me sens souvent dépassée et j'ai des doutes sur ma capacité à suivre un traitement comme la PrEP. Je crains que cela n'aggrave ma situation. Je veux comprendre comment cela peut m'aider sans augmenter mes défis quotidiens.",
+  "example_questions_clean": [
+    "Comment la PrEP fonctionne-t-elle dans le cadre de ma gestion de la douleur?",
+    "Y a-t-il des effets secondaires de la PrEP qui pourraient interférer avec ma condition?",
+    "Quel soutien est disponible pour les personnes vivant avec des douleurs chroniques qui souhaitent commencer la PrEP?",
+    "Est-ce que d'autres personnes dans ma situation ont partagé leurs expériences avec la PrEP?",
+    "La prise de la PrEP pourrait-elle apporter un sentiment de sécurité supplémentaire malgré ma douleur?"
+  ],
+  "example_questions_noisy": [
+    "comment la PrEP fonctionne-t-elle uh dans le cadre de m4 gestion de la douleur? 😭",
+    "y a-t-il des effets secondaires de la PrEP qui pourraient interfréer avec ma condition?",
+    "Quel soutien est disponible pour les personnes vivant avec des douleurs chroniques qui souhaitent commencer la PrEP?",
+    "Est-ce que d'autres personnes dans ma situation ont partagé uers expériences avec la PrEP",
+    "La prise de la PrEP pourrait-elle apporter un sentiment de sécurité supplémentaire malgré ma douleur?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Comment la PrEP fonctionne-t-elle dans le cadre de ma gestion de la douleur?",
+  "starter_noisy": "comment la PrEP fonctionne-t-elle uh dans le cadre de m4 gestion de la douleur? 😭",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des effets secondaires de la PrEP qui pourraient interférer avec ma condition?",
+  "followup_noisy": "y a-t-il des effets secondaires de la PrEP qui pourraient interfréer avec ma condition?",
+  "style_profile": {
+    "typo_rate": 0.0549617559440361,
+    "swap_rate": 0.042486386010096286,
+    "drop_rate": 0.04370205508104927,
+    "dup_rate": 0.02597502937689955,
+    "leet_rate": 0.0954419433113447,
+    "start_lower_prob": 0.7527587793946813,
+    "all_lower_prob": 0.25343217237395294,
+    "drop_punct_prob": 0.30171009201495497,
+    "double_space_prob": 0.26306573354246116,
+    "ellipsis_prob": 0.33664673585161925,
+    "runon_prob": 0.20523529238074262,
+    "filler_rate": 0.20122171929421848,
+    "emoji_rate": 0.2069601460438285,
+    "stutter_rate": 0.12919679055909605,
+    "repeat_last_rate": 0.0896396637536873
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 34,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact de la douleur chronique sur ma capacité à prendre PrEP\",\n    \"language\": \"français\"\n  },\n  \"context\": \"En raison de ma douleur chronique, je me sens souvent dépassée et j'ai des doutes sur ma capacité à suivre un traitement comme la PrEP. Je crains que cela n'aggrave ma situation. Je veux comprendre comment cela peut m'aider sans augmenter mes défis quotidiens.\",\n  \"example_questions\": [\n    \"Comment la PrEP fonctionne-t-elle dans le cadre de ma gestion de la douleur?\",\n    \"Y a-t-il des effets secondaires de la PrEP qui pourraient interférer avec ma condition?\",\n    \"Quel soutien est disponible pour les personnes vivant avec des douleurs chroniques qui souhaitent commencer la PrEP?\",\n    \"Est-ce que d'autres personnes dans ma situation ont partagé leurs expériences avec la PrEP?\",\n    \"La prise de la PrEP pourrait-elle apporter un sentiment de sécurité supplémentaire malgré ma douleur?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9f8e286102b20d1409e2768fbd0615489117b2d0c869fb6979eff12cfc60e77d",
+  "_starter_hash": "64a51ea0780e14630e543f16df71a473fdea0b894a397d3f54510c338b517cde",
+  "_language": "French",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

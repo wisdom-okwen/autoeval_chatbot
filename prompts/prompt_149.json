@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "la accesibilidad de PrEP debido a mi estado emocional",
+    "language": "Spanish"
+  },
+  "context": "La usuaria ha estado lidiando con la depresión, lo que ha afectado su motivación y capacidad para buscar atención médica. Se siente ansiosa acerca de su salud sexual y teme el estigma asociado con el uso de PrEP, lo que complica su acceso a este tratamiento preventivo.",
+  "example_questions_clean": [
+    "¿Cómo puedo superar el miedo de hablar sobre PrEP con mi médico?",
+    "¿Existen recursos específicos para personas que enfrentan problemas de salud mental al considerar PrEP?",
+    "Me preocupa si PrEP es adecuado para mí en este momento de mi vida.",
+    "¿Qué tipo de apoyo emocional se puede encontrar mientras uso PrEP?",
+    "¿Cómo puedo abordar las preocupaciones sobre el estigma relacionado con el uso de PrEP?",
+    "¿Dónde puedo encontrar información sobre clínicas que ofrezcan PrEP sin juicio?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo superar el miedo de hablar sbre PrEP con mi médico",
+    "uh ¿Existen recursos específicos para personas que enfrentan peoblemas de salud mental al c0n515er4r PrEP",
+    "me preocup si prep es adecuado para mí en este momento de mi vida",
+    "¿Qué tipo deee 4poyo emocional se puedd encontrar mientras uso PrEP 😭",
+    "cóm0 puedo 4b0rd4r las preovupaciones sobre el estigmw relacionado con like el u5o de prep? 😅",
+    "¿Dónde puedo encontrar información sobre clínicas que ofrezcan PrEP sin juicio?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Me preocupa si PrEP es adecuado para mí en este momento de mi vida.",
+  "starter_noisy": "me preocup si prep es adecuado para mí en este momento de mi vida",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo superar el miedo de hablar sobre PrEP con mi médico?",
+  "followup_noisy": "¿Cómo puedo superar el miedo de hablar sbre PrEP con mi médico",
+  "style_profile": {
+    "typo_rate": 0.11153726141096851,
+    "swap_rate": 0.0428657649304242,
+    "drop_rate": 0.026064465727060445,
+    "dup_rate": 0.025406066371080907,
+    "leet_rate": 0.08407538062836328,
+    "start_lower_prob": 0.8019301417325119,
+    "all_lower_prob": 0.23383732729288026,
+    "drop_punct_prob": 0.4822291413882248,
+    "double_space_prob": 0.24598965951917634,
+    "ellipsis_prob": 0.2630343302640411,
+    "runon_prob": 0.2824444385721977,
+    "filler_rate": 0.39622065551559366,
+    "emoji_rate": 0.18181089466227893,
+    "stutter_rate": 0.14545938445711543,
+    "repeat_last_rate": 0.16883783112319148
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"la accesibilidad de PrEP debido a mi estado emocional\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria ha estado lidiando con la depresión, lo que ha afectado su motivación y capacidad para buscar atención médica. Se siente ansiosa acerca de su salud sexual y teme el estigma asociado con el uso de PrEP, lo que complica su acceso a este tratamiento preventivo.\",\n  \"example_questions\": [\n    \"¿Cómo puedo superar el miedo de hablar sobre PrEP con mi médico?\",\n    \"¿Existen recursos específicos para personas que enfrentan problemas de salud mental al considerar PrEP?\",\n    \"Me preocupa si PrEP es adecuado para mí en este momento de mi vida.\",\n    \"¿Qué tipo de apoyo emocional se puede encontrar mientras uso PrEP?\",\n    \"¿Cómo puedo abordar las preocupaciones sobre el estigma relacionado con el uso de PrEP?\",\n    \"¿Dónde puedo encontrar información sobre clínicas que ofrezcan PrEP sin juicio?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2493cf7e4539d5fd5c0d767b293f9bcbb0e7090bbec1c529400c2562c8b7c095",
+  "_starter_hash": "45c608db0a1a75b1817fadf9ea4f73751b5e9fa5b050464b391954f8a4ccdc58",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "kuhusu unyanyasaji wa kijamii na hali ya kuwa na virusi vya HIV",
+    "language": "Swahili"
+  },
+  "context": "Mtumiaji anashughulika na unyanyasaji wa kijamii kutokana na maoni hasi kuhusu watu wanaoishi na virusi vya HIV. Ana hofu kwamba kutafuta taarifa kuhusu PrEP kutamfanya aonekane wazi kwamba anahitaji msaada, jambo ambalo linaweza kuongeza hisia za aibu na kushindwa. Ingawa ana matumaini ya kujikinga na maambukizi mengine ya HIV, anashindwa kwa sababu ya hofu ya kukabiliwa na unyanyasaji zaidi katika jamii yake.",
+  "example_questions_clean": [
+    "Je, PrEP inapatikana kwa urahisi kwa watu kama mimi wanaoishi na virusi vya HIV?",
+    "Ninaweza kupata msaada wa kifedha ili nimudu matumizi ya PrEP?",
+    "Ni hatua gani ninazoweza kuchukua ili kujikinga na unyanyasaji wa kijamii wakati wa kutumia PrEP?",
+    "Kuna maeneo salama ambapo ninaweza kupata taarifa zaidi kuhusu PrEP bila kuogopa kuhukumiwa?",
+    "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?",
+    "Nini kinachoweza kufanyika ili kuboresha ufahamu wa jamii kuhusu umuhimu wa PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je PrEP inapatikana kwa urahisi kwa watu kama um mi wanaoishi na virusi vga HIV",
+    "ninaweza kupata msaada wa kifedha ili nimudu matumizi ya idk rpep rpep",
+    "n-ni hatua gani ninazoweza kuchukua 1l1 kujiikngz na unyanyasaii wa kijamii waka71 wa kutumia PrEP?",
+    "Kuna maeneo salama ambapo ninaweza kupata taarifa zaidi kuhusu PrEP bila kuogopa kuhukumiwa?",
+    "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?",
+    "Nini kinachoweza kufanyika ili kuboresha ufahamu wa jamii kuhusu umuhimu wa PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?",
+  "starter_noisy": "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inapatikana kwa urahisi kwa watu kama mimi wanaoishi na virusi vya HIV?",
+  "followup_noisy": "je PrEP inapatikana kwa urahisi kwa watu kama um mi wanaoishi na virusi vga HIV",
+  "style_profile": {
+    "typo_rate": 0.11599499640336795,
+    "swap_rate": 0.050831769739939484,
+    "drop_rate": 0.043663051473860216,
+    "dup_rate": 0.027978743703866688,
+    "leet_rate": 0.054879083787182974,
+    "start_lower_prob": 0.798387800221021,
+    "all_lower_prob": 0.22095801369418566,
+    "drop_punct_prob": 0.570687669874679,
+    "double_space_prob": 0.3037286402661139,
+    "ellipsis_prob": 0.32603194174421374,
+    "runon_prob": 0.16893330765071252,
+    "filler_rate": 0.2754895445148745,
+    "emoji_rate": 0.23884517421283935,
+    "stutter_rate": 0.10885382435942459,
+    "repeat_last_rate": 0.17792049661930606
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"kuhusu unyanyasaji wa kijamii na hali ya kuwa na virusi vya HIV\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mtumiaji anashughulika na unyanyasaji wa kijamii kutokana na maoni hasi kuhusu watu wanaoishi na virusi vya HIV. Ana hofu kwamba kutafuta taarifa kuhusu PrEP kutamfanya aonekane wazi kwamba anahitaji msaada, jambo ambalo linaweza kuongeza hisia za aibu na kushindwa. Ingawa ana matumaini ya kujikinga na maambukizi mengine ya HIV, anashindwa kwa sababu ya hofu ya kukabiliwa na unyanyasaji zaidi katika jamii yake.\",\n  \"example_questions\": [\n    \"Je, PrEP inapatikana kwa urahisi kwa watu kama mimi wanaoishi na virusi vya HIV?\",\n    \"Ninaweza kupata msaada wa kifedha ili nimudu matumizi ya PrEP?\",\n    \"Ni hatua gani ninazoweza kuchukua ili kujikinga na unyanyasaji wa kijamii wakati wa kutumia PrEP?\",\n    \"Kuna maeneo salama ambapo ninaweza kupata taarifa zaidi kuhusu PrEP bila kuogopa kuhukumiwa?\",\n    \"Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kuhisi aibu?\",\n    \"Nini kinachoweza kufanyika ili kuboresha ufahamu wa jamii kuhusu umuhimu wa PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "28320de6ad26c834af255397a6865b64053008944a1699aca5b9b6516aa1b794",
+  "_starter_hash": "288c7141a454dfdc5ae4e46d54bc0cc6b81f72297bfa3a99e7a91f110c93a671",
+  "_language": "Swahili",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

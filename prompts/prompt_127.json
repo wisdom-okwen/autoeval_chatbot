@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Managing my mental health while adhering to PrEP",
+    "language": "English"
+  },
+  "context": "The user is living with schizophrenia, which adds complexity to her daily life and decision-making processes. She struggles with the stigma surrounding both her mental health condition and her sexual health. Fear of judgment and concerns about medication interactions weigh heavily on her mind, making her hesitant about starting PrEP despite understanding its importance. She hopes to find supportive resources that respect her unique situation.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP won't interfere with my schizophrenia medications?",
+    "What support systems are available for someone like me who is considering PrEP?",
+    "Are there any resources specifically for individuals with mental health challenges looking into PrEP?",
+    "How do I address my concerns about stigma when discussing PrEP with healthcare providers?",
+    "What are the potential side effects of PrEP that I should be aware of, considering my condition?",
+    "How can I find a doctor who understands both my mental health and sexual health needs?"
+  ],
+  "example_questions_noisy": [
+    "hlw can i ensure that taking prep won't interfere with my schizophrenia medidations",
+    "What support systems are available for someone like me who is considering PrEP?",
+    "Are there any resources specifically for individuals with mental health challenges looking into PrEP?",
+    "h-how do I address my conceens about xtigma when discussing PrEP with healthcare providers",
+    "What are the potential side effects of PrEP that I should be aware of, considering my condition?",
+    "how can I i mean find a doctor wh0 understands both my mental health and sexual health needs"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any resources specifically for individuals with mental health challenges looking into PrEP?",
+  "starter_noisy": "Are there any resources specifically for individuals with mental health challenges looking into PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that taking PrEP won't interfere with my schizophrenia medications?",
+  "followup_noisy": "hlw can i ensure that taking prep won't interfere with my schizophrenia medidations",
+  "style_profile": {
+    "typo_rate": 0.1087330546177344,
+    "swap_rate": 0.03950250158427175,
+    "drop_rate": 0.0420808401016675,
+    "dup_rate": 0.012306596626428305,
+    "leet_rate": 0.05434853761454396,
+    "start_lower_prob": 0.7706542570459429,
+    "all_lower_prob": 0.1684953268143022,
+    "drop_punct_prob": 0.5268003338836087,
+    "double_space_prob": 0.3311915854268937,
+    "ellipsis_prob": 0.32462426786551407,
+    "runon_prob": 0.2606412618530949,
+    "filler_rate": 0.20543727200647738,
+    "emoji_rate": 0.23408023481074203,
+    "stutter_rate": 0.15915622073547914,
+    "repeat_last_rate": 0.11219662925823735
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Managing my mental health while adhering to PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is living with schizophrenia, which adds complexity to her daily life and decision-making processes. She struggles with the stigma surrounding both her mental health condition and her sexual health. Fear of judgment and concerns about medication interactions weigh heavily on her mind, making her hesitant about starting PrEP despite understanding its importance. She hopes to find supportive resources that respect her unique situation.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP won't interfere with my schizophrenia medications?\",\n    \"What support systems are available for someone like me who is considering PrEP?\",\n    \"Are there any resources specifically for individuals with mental health challenges looking into PrEP?\",\n    \"How do I address my concerns about stigma when discussing PrEP with healthcare providers?\",\n    \"What are the potential side effects of PrEP that I should be aware of, considering my condition?\",\n    \"How can I find a doctor who understands both my mental health and sexual health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9339d3136492abdf280546b960fe733ab32b32cf3e411ea1f331dcbd4db8c580",
+  "_starter_hash": "49d434d0b5407e89d0fe5b4740b70ff21c6117f8ac0f8297975a239074f83d92",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

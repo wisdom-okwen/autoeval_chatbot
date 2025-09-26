@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are feeling socially isolated, which makes it challenging to seek information about PrEP. You worry that discussing your sexual health could lead to stigma or judgment from others. This fear has created a barrier to accessing PrEP, despite understanding its importance in preventing HIV.",
+  "example_questions_clean": [
+    "How can I approach my doctor about getting a prescription for PrEP without feeling embarrassed?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Are there support groups for individuals interested in learning more about PrEP?",
+    "Is there a way to access PrEP discreetly if I'm worried about being judged?",
+    "What resources can help me feel more confident in discussing my sexual health?",
+    "How effective is PrEP in preventing HIV compared to other methods?"
+  ],
+  "example_questions_noisy": [
+    "How c4n I approach my doctor about getting a prescription for PrEP without idk feeling embarrassed?",
+    "Waht are the potential s1d3 effects of PrEP that I should be aware of",
+    "Are there support groups for individuals interested in learning more about PrEP?",
+    "Is there a way to access PrEP discreetly if I'm worried about being judged?",
+    "wWWhat resources can you know help me feel more confident in discussing my sesual health health",
+    "How effective is PrEP in preventing HIV compared to other methods?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I approach my doctor about getting a prescription for PrEP without feeling embarrassed?",
+  "starter_noisy": "How c4n I approach my doctor about getting a prescription for PrEP without idk feeling embarrassed?",
+  "followup_index": 1,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_noisy": "Waht are the potential s1d3 effects of PrEP that I should be aware of",
+  "style_profile": {
+    "typo_rate": 0.07819280267433076,
+    "swap_rate": 0.021467770147640928,
+    "drop_rate": 0.04679970910714328,
+    "dup_rate": 0.027496558161749285,
+    "leet_rate": 0.082541356779742,
+    "start_lower_prob": 0.6708937292504421,
+    "all_lower_prob": 0.2104169830579962,
+    "drop_punct_prob": 0.4111847139794638,
+    "double_space_prob": 0.21402884146040382,
+    "ellipsis_prob": 0.17898050428138196,
+    "runon_prob": 0.2923316005723465,
+    "filler_rate": 0.49781396169058767,
+    "emoji_rate": 0.3112217327958795,
+    "stutter_rate": 0.1232692764304935,
+    "repeat_last_rate": 0.14031201871771162
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling socially isolated, which makes it challenging to seek information about PrEP. You worry that discussing your sexual health could lead to stigma or judgment from others. This fear has created a barrier to accessing PrEP, despite understanding its importance in preventing HIV.\",\n  \"example_questions\": [\n    \"How can I approach my doctor about getting a prescription for PrEP without feeling embarrassed?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Are there support groups for individuals interested in learning more about PrEP?\",\n    \"Is there a way to access PrEP discreetly if I'm worried about being judged?\",\n    \"What resources can help me feel more confident in discussing my sexual health?\",\n    \"How effective is PrEP in preventing HIV compared to other methods?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fb0ab7feb72c574543935734263752f0bd27776ef679805e9bde04924ec8a581",
+  "_starter_hash": "a249357ae4739d331e57d9526366c11a7712023aa95c80452eb2d93675f94460",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

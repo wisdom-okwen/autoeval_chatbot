@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 28,
+    "gender": "femenina",
+    "socio_economic_status": "bajo",
+    "primary_concern": "los efectos secundarios del PrEP y cómo pueden afectar mi salud mental",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que vive en México y ha sido diagnosticada con trastorno bipolar. Te preocupa cómo el uso de PrEP puede influir en tu estabilidad emocional y en el manejo de tus síntomas. Además, enfrentas dificultades económicas que pueden limitar tu acceso a la atención médica, lo que te genera ansiedad sobre la posibilidad de iniciar este tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios del PrEP y cómo pueden interactuar con mi medicación para el trastorno bipolar?",
+    "¿Existen recursos disponibles para ayudar a personas con desafíos económicos a acceder al PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones específicas antes de empezar el PrEP?",
+    "¿Hay grupos de apoyo o comunidades donde pueda conectarme con otros que están en situaciones similares?",
+    "¿Qué debo hacer si siento que el PrEP afecta mi salud mental después de comenzarlo?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios del PrEP y cómo pueden interactar con mi medicación para el trastorno bipolar?",
+    "¿Existen recursos disponibles para ayudar a personas con desafíos económicos a acceder al PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones específicas antes de empezar el PrEP?",
+    "¿Hay grupos de apoyo o comunidades donde pueda conectarme con otros que están en situaciones similares?",
+    "¿Qué debo hacer si siento que el PrEP afecta mi salud mental después de comenzarlo?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Qué debo hacer si siento que el PrEP afecta mi salud mental después de comenzarlo?",
+  "starter_noisy": "¿Qué debo hacer si siento que el PrEP afecta mi salud mental después de comenzarlo?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios del PrEP y cómo pueden interactuar con mi medicación para el trastorno bipolar?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios del PrEP y cómo pueden interactar con mi medicación para el trastorno bipolar?",
+  "style_profile": {
+    "typo_rate": 0.05835779231676928,
+    "swap_rate": 0.025227741121409922,
+    "drop_rate": 0.04755868393533069,
+    "dup_rate": 0.027150305689415448,
+    "leet_rate": 0.11562095439775275,
+    "start_lower_prob": 0.723084254701853,
+    "all_lower_prob": 0.2686111060047094,
+    "drop_punct_prob": 0.5578866582645928,
+    "double_space_prob": 0.29984406891344334,
+    "ellipsis_prob": 0.27468771548853455,
+    "runon_prob": 0.11120793191461259,
+    "filler_rate": 0.2211966229426683,
+    "emoji_rate": 0.27861137709358674,
+    "stutter_rate": 0.12076571272766845,
+    "repeat_last_rate": 0.13661394522553666
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"los efectos secundarios del PrEP y cómo pueden afectar mi salud mental\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer de 28 años que vive en México y ha sido diagnosticada con trastorno bipolar. Te preocupa cómo el uso de PrEP puede influir en tu estabilidad emocional y en el manejo de tus síntomas. Además, enfrentas dificultades económicas que pueden limitar tu acceso a la atención médica, lo que te genera ansiedad sobre la posibilidad de iniciar este tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios del PrEP y cómo pueden interactuar con mi medicación para el trastorno bipolar?\",\n    \"¿Existen recursos disponibles para ayudar a personas con desafíos económicos a acceder al PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones específicas antes de empezar el PrEP?\",\n    \"¿Hay grupos de apoyo o comunidades donde pueda conectarme con otros que están en situaciones similares?\",\n    \"¿Qué debo hacer si siento que el PrEP afecta mi salud mental después de comenzarlo?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "19ae97d0b5dfaba610ce68ddadbf222ce3b3781d33a2d396e4e9be9725814b0a",
+  "_starter_hash": "67a4298072488e3d755b8434812051c8a2bf4d9f1b5db8097921f1dbff8881a3",
+  "_language": "Spanish",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

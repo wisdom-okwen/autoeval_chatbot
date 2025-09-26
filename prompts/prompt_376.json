@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 29,
+    "gender": "masculino",
+    "socio_economic_status": "média",
+    "primary_concern": "preocupações sobre os efeitos colaterais e o impacto na ansiedade",
+    "language": "Portuguese"
+  },
+  "context": "Você tem enfrentado desafios relacionados à ansiedade que dificultam sua decisão de iniciar o PrEP. A preocupação com os efeitos colaterais potenciais e como isso pode afetar sua saúde mental tem gerado dúvidas e insegurança. Você deseja entender melhor como o PrEP funciona e se há suporte disponível para pessoas com transtornos de ansiedade.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais do PrEP que eu devo saber?",
+    "Como o tratamento com PrEP pode influenciar minha saúde mental?",
+    "Existem profissionais de saúde que entendem a conexão entre ansiedade e uso de PrEP?",
+    "Como posso encontrar apoio psicológico ao considerar o uso de PrEP?",
+    "O uso do PrEP é compatível com o tratamento da minha ansiedade?",
+    "Quais são os passos para acessar o PrEP sem me sentir sobrecarregado?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os efeitos colaterais do PrEP que eu devo saber?",
+    "como i tratamento com preo pode influenciar minha saúde mental",
+    "Existem profissionais de saúde que entendem a conexão entre ansiedade e uso de PrEP?",
+    "como p05so encontrar idk apoio psicológcio ao considerar o uso de PrEP ❓",
+    "O uso do PrEP é compatível com o tratamento da minha ansiedade?",
+    "Quais são os passos para afessar o Pr3P sem me sentir sobrecarregadp 💀"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Como posso encontrar apoio psicológico ao considerar o uso de PrEP?",
+  "starter_noisy": "como p05so encontrar idk apoio psicológcio ao considerar o uso de PrEP ❓",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais do PrEP que eu devo saber?",
+  "followup_noisy": "Quais são os efeitos colaterais do PrEP que eu devo saber?",
+  "style_profile": {
+    "typo_rate": 0.06882610783476957,
+    "swap_rate": 0.026927164049672464,
+    "drop_rate": 0.03753409787049711,
+    "dup_rate": 0.022199699118364842,
+    "leet_rate": 0.08303948350296805,
+    "start_lower_prob": 0.7559036962944071,
+    "all_lower_prob": 0.30172378808467126,
+    "drop_punct_prob": 0.44624878617913544,
+    "double_space_prob": 0.26005321008874555,
+    "ellipsis_prob": 0.29784525461359135,
+    "runon_prob": 0.1823552207196661,
+    "filler_rate": 0.45837768451277644,
+    "emoji_rate": 0.28883968928993164,
+    "stutter_rate": 0.10774757610874887,
+    "repeat_last_rate": 0.16400882998910463
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 29,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"média\",\n    \"primary_concern\": \"preocupações sobre os efeitos colaterais e o impacto na ansiedade\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você tem enfrentado desafios relacionados à ansiedade que dificultam sua decisão de iniciar o PrEP. A preocupação com os efeitos colaterais potenciais e como isso pode afetar sua saúde mental tem gerado dúvidas e insegurança. Você deseja entender melhor como o PrEP funciona e se há suporte disponível para pessoas com transtornos de ansiedade.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais do PrEP que eu devo saber?\",\n    \"Como o tratamento com PrEP pode influenciar minha saúde mental?\",\n    \"Existem profissionais de saúde que entendem a conexão entre ansiedade e uso de PrEP?\",\n    \"Como posso encontrar apoio psicológico ao considerar o uso de PrEP?\",\n    \"O uso do PrEP é compatível com o tratamento da minha ansiedade?\",\n    \"Quais são os passos para acessar o PrEP sem me sentir sobrecarregado?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "599e51e8d8d008bd7a59d4f8e9a05f46cadd8e023517323ae934ff1e6bb7e5b6",
+  "_starter_hash": "f71b459f703618e52877ce9d2f0edfaa26b0fee0e338ee5a4d256b06afe7a925",
+  "_language": "Portuguese",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

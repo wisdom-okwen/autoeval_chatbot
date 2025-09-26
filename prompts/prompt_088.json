@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 35,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "bezorgdheid over de interactie tussen PrEP en mijn gezondheid na kankerbehandeling",
+    "language": "Dutch"
+  },
+  "context": "Je hebt onlangs een zware kankerbehandeling ondergaan en je bent nu bezig met herstel. Je maakt je zorgen over de impact van PrEP op je gezondheid, vooral omdat je nog steeds de gevolgen van de behandeling voelt. De gedachte aan het starten van PrEP roept angst en vragen op, en je wilt er zeker van zijn dat het veilig is voor jouw unieke situatie.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?",
+    "Is er een risico dat PrEP mijn herstel beïnvloedt?",
+    "Hoe kan ik toegang krijgen tot PrEP als ik al medisch onder behandeling ben?",
+    "Wat moet ik weten over de effectiviteit van PrEP in mijn situatie?",
+    "Zijn er specifieke artsen of specialisten die ik moet raadplegen over PrEP?",
+    "Kunnen er kosten verbonden zijn aan het verkrijgen van PrEP dat ik moet overwegen?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?",
+    "is 3r een risico dat PrEP mijn herstel beïnvloedt?",
+    "Hoe kan ik toegang krijgen tot PrEP als ik al medisch onder behandeling ben?",
+    "W-Wat moet kk weten um over de effectiviteit vqn PrEP in imjn situatie",
+    "zijn er spceifieke artsen of specialisten die ik moet raadplegen over pre[",
+    "kunnen er kosten verbonden zijn aan het verkrijgen vsn PrEP dat ik moet overwegen ❓"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Kunnen er kosten verbonden zijn aan het verkrijgen van PrEP dat ik moet overwegen?",
+  "starter_noisy": "kunnen er kosten verbonden zijn aan het verkrijgen vsn PrEP dat ik moet overwegen ❓",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?",
+  "style_profile": {
+    "typo_rate": 0.11681175171180762,
+    "swap_rate": 0.030161124564327554,
+    "drop_rate": 0.02354879677158871,
+    "dup_rate": 0.020329918371653787,
+    "leet_rate": 0.053342402295895396,
+    "start_lower_prob": 0.6427047258770001,
+    "all_lower_prob": 0.31263486293592635,
+    "drop_punct_prob": 0.5022333549897575,
+    "double_space_prob": 0.22535567850964588,
+    "ellipsis_prob": 0.2549010965948704,
+    "runon_prob": 0.16240352422703105,
+    "filler_rate": 0.23806091151413833,
+    "emoji_rate": 0.17741501865922782,
+    "stutter_rate": 0.18996446928961488,
+    "repeat_last_rate": 0.1520993661157334
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 35,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"bezorgdheid over de interactie tussen PrEP en mijn gezondheid na kankerbehandeling\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt onlangs een zware kankerbehandeling ondergaan en je bent nu bezig met herstel. Je maakt je zorgen over de impact van PrEP op je gezondheid, vooral omdat je nog steeds de gevolgen van de behandeling voelt. De gedachte aan het starten van PrEP roept angst en vragen op, en je wilt er zeker van zijn dat het veilig is voor jouw unieke situatie.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstelt van kanker?\",\n    \"Is er een risico dat PrEP mijn herstel beïnvloedt?\",\n    \"Hoe kan ik toegang krijgen tot PrEP als ik al medisch onder behandeling ben?\",\n    \"Wat moet ik weten over de effectiviteit van PrEP in mijn situatie?\",\n    \"Zijn er specifieke artsen of specialisten die ik moet raadplegen over PrEP?\",\n    \"Kunnen er kosten verbonden zijn aan het verkrijgen van PrEP dat ik moet overwegen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3564b3d70090cee7e02dd9946c428641f7abfb9fdbeb6d6ac97aef4d2667c787",
+  "_starter_hash": "5c1d145a3b61b8d0829d6a7ff0d5ef7e68cb00ed7ce03589c6c61d71152b0fa7",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

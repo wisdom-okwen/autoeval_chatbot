@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "navigating mental health alongside PrEP adherence",
+    "language": "Swahili"
+  },
+  "context": "As a woman living with bipolar disorder, you face challenges in managing your mental health while considering PrEP. You worry that your mood swings might affect your ability to take the medication consistently, and there is a fear of stigma from both mental health and HIV perspectives. Despite these challenges, you hope to find a way to protect your health without compromising your mental stability.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi dawa za PrEP zitakavyoathiri hisia zangu.",
+    "Je, kuna usaidizi wa kiakili wa kupunguza wasiwasi wangu kuhusu kutumia PrEP?",
+    "Ninaweza kupata taarifa zaidi juu ya uhusiano kati ya PrEP na bipolar disorder wapi?",
+    "Je, ni hatua gani za kuchukua ikiwa ninakutana na matatizo ya kukumbuka kunywa dawa zangu?",
+    "Ni muhimu kujua kama kuna watu wengine wenye hali kama yangu wanaotumia PrEP.",
+    "Ninaweza kupata msaada wa kifedha kwa ajili ya kununua PrEP wapi?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kuhusu jinsi dawa za PrEP z17ak4vy047h1ri hsiia z4ngu 😕",
+    "Je, kuna usaidizi wa kiakili wa kupunguza wasiwasi wangu kuhusu kutumia PrEP?",
+    "Ninaweza kupata taarifa zaidi juu ya uhusiano kati ya PrEP na bipolar disorder wapi?",
+    "Je ni hatua gai za kuchukua ikiwa ninakutana ba matatizo ya kukumbuka khywa dawa x4ngu 😅",
+    "ni muhimu kuju4 kama kuna watu wengime wenye hali kmaa yangu wanaotumia prep",
+    "Ninaweza kupata msaada wa kifedha kwa ajili ya kununua i mean PrEP wapi wapi"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Ni muhimu kujua kama kuna watu wengine wenye hali kama yangu wanaotumia PrEP.",
+  "starter_noisy": "ni muhimu kuju4 kama kuna watu wengime wenye hali kmaa yangu wanaotumia prep",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi dawa za PrEP zitakavyoathiri hisia zangu.",
+  "followup_noisy": "Nina wasiwasi kuhusu jinsi dawa za PrEP z17ak4vy047h1ri hsiia z4ngu 😕",
+  "style_profile": {
+    "typo_rate": 0.1137623611936909,
+    "swap_rate": 0.05575740283225196,
+    "drop_rate": 0.025500190057714606,
+    "dup_rate": 0.01782084827767359,
+    "leet_rate": 0.10346071718102047,
+    "start_lower_prob": 0.6942494585491469,
+    "all_lower_prob": 0.24665491735118505,
+    "drop_punct_prob": 0.5518284070587562,
+    "double_space_prob": 0.3104304497522795,
+    "ellipsis_prob": 0.3320753346316623,
+    "runon_prob": 0.22409386654387542,
+    "filler_rate": 0.47965787413871624,
+    "emoji_rate": 0.27398592169782976,
+    "stutter_rate": 0.1316228542999872,
+    "repeat_last_rate": 0.15416707550970044
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"navigating mental health alongside PrEP adherence\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a woman living with bipolar disorder, you face challenges in managing your mental health while considering PrEP. You worry that your mood swings might affect your ability to take the medication consistently, and there is a fear of stigma from both mental health and HIV perspectives. Despite these challenges, you hope to find a way to protect your health without compromising your mental stability.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi dawa za PrEP zitakavyoathiri hisia zangu.\",\n    \"Je, kuna usaidizi wa kiakili wa kupunguza wasiwasi wangu kuhusu kutumia PrEP?\",\n    \"Ninaweza kupata taarifa zaidi juu ya uhusiano kati ya PrEP na bipolar disorder wapi?\",\n    \"Je, ni hatua gani za kuchukua ikiwa ninakutana na matatizo ya kukumbuka kunywa dawa zangu?\",\n    \"Ni muhimu kujua kama kuna watu wengine wenye hali kama yangu wanaotumia PrEP.\",\n    \"Ninaweza kupata msaada wa kifedha kwa ajili ya kununua PrEP wapi?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2984b8c21ddad46a37c2cefa23ddaf8aa222dd5dfcb474f746f058b5c41198a2",
+  "_starter_hash": "dac1874dfeeb232adbf580d2a5c98f7722455bc6e576ad2cd8a2d776d1a5e140",
+  "_language": "Swahili",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

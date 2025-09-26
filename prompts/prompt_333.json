@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "la interacción entre la esclerosis múltiple y el PrEP",
+    "language": "Spanish"
+  },
+  "context": "Una mujer de 35 años vive con esclerosis múltiple y siente incertidumbre sobre cómo el PrEP podría afectar su salud. Está preocupada por los efectos secundarios y si su condición podría complicar el tratamiento. Además, siente el estigma asociado a su condición y teme cómo la comunidad podría reaccionar a su búsqueda de información sobre PrEP.",
+  "example_questions_clean": [
+    "¿El uso de PrEP puede tener efectos negativos en mi condición de esclerosis múltiple?",
+    "¿Existen estudios que analicen la seguridad del PrEP en personas con enfermedades autoinmunes?",
+    "Tengo miedo de ser juzgada por buscar información sobre PrEP, ¿cómo puedo manejar esto?",
+    "¿Qué opciones tengo si me preocupa el costo del PrEP y mis gastos médicos actuales?",
+    "¿Cuáles son los pasos que debo seguir para acceder al PrEP en mi situación particular?",
+    "¿Hay grupos de apoyo para personas que viven con condiciones como la mía y que están considerando el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿El uso de PrEP puede tener efectos negativos en mi condición de esclerosis múltiple?",
+    "¿existen estudios que 4n4l1c3n la seguridad de prep en personas con enfermedades autoinmunes",
+    "Tengo miedo de ser juzgada por buscar información sobre PrEP, ¿cómo puedo manejar esto?",
+    "¿aué opciones tengo si me preocupa el costo del prrp y mis gastos médicos actuales",
+    "¿Cuáles son los pasos que debo seguir para acceder 4l Pr3P en mi situación particular 🤔",
+    "¿Hay grupos de apoyo para personas que viven con condiciones como la mía y que están considerando el PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Qué opciones tengo si me preocupa el costo del PrEP y mis gastos médicos actuales?",
+  "starter_noisy": "¿aué opciones tengo si me preocupa el costo del prrp y mis gastos médicos actuales",
+  "followup_index": 0,
+  "followup_clean": "¿El uso de PrEP puede tener efectos negativos en mi condición de esclerosis múltiple?",
+  "followup_noisy": "¿El uso de PrEP puede tener efectos negativos en mi condición de esclerosis múltiple?",
+  "style_profile": {
+    "typo_rate": 0.08987052128483172,
+    "swap_rate": 0.020528254173561522,
+    "drop_rate": 0.028612658934583125,
+    "dup_rate": 0.02017583643750823,
+    "leet_rate": 0.07580661902367569,
+    "start_lower_prob": 0.608432837268887,
+    "all_lower_prob": 0.21008706269378474,
+    "drop_punct_prob": 0.4800038268534035,
+    "double_space_prob": 0.1600002263674342,
+    "ellipsis_prob": 0.2854422533891998,
+    "runon_prob": 0.2188538915745175,
+    "filler_rate": 0.30879675875462387,
+    "emoji_rate": 0.32579674454170976,
+    "stutter_rate": 0.10748089621594756,
+    "repeat_last_rate": 0.17586962564991404
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"la interacción entre la esclerosis múltiple y el PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una mujer de 35 años vive con esclerosis múltiple y siente incertidumbre sobre cómo el PrEP podría afectar su salud. Está preocupada por los efectos secundarios y si su condición podría complicar el tratamiento. Además, siente el estigma asociado a su condición y teme cómo la comunidad podría reaccionar a su búsqueda de información sobre PrEP.\",\n  \"example_questions\": [\n    \"¿El uso de PrEP puede tener efectos negativos en mi condición de esclerosis múltiple?\",\n    \"¿Existen estudios que analicen la seguridad del PrEP en personas con enfermedades autoinmunes?\",\n    \"Tengo miedo de ser juzgada por buscar información sobre PrEP, ¿cómo puedo manejar esto?\",\n    \"¿Qué opciones tengo si me preocupa el costo del PrEP y mis gastos médicos actuales?\",\n    \"¿Cuáles son los pasos que debo seguir para acceder al PrEP en mi situación particular?\",\n    \"¿Hay grupos de apoyo para personas que viven con condiciones como la mía y que están considerando el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "82e67cf21c5feaafaeab59359fd888c558294e2998282b10d4f8fb5d6c749bbf",
+  "_starter_hash": "b1eed188ec3d107ba4ccbea2c54c0b2f35279e9a90f41c0d2897c5f627afd2eb",
+  "_language": "Spanish",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

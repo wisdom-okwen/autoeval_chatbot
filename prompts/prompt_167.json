@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP discreetly due to fear of partner violence",
+    "language": "Swahili"
+  },
+  "context": "You are a 28-year-old woman living in Kenya, facing challenges in accessing PrEP due to fears of intimate partner violence. You worry about the potential consequences of disclosing your intentions to your partner, who may react negatively. This situation leaves you feeling anxious and uncertain about your health options, while still holding onto hope for a safer future.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi ya kupata PrEP bila kumfahamisha mwenzi wangu.",
+    "Je, kuna njia za kupata PrEP kwa usiri zaidi?",
+    "Ninaweza kupata taarifa zaidi kuhusu athari za PrEP kwenye afya yangu?",
+    "Ni wapi naweza kupata msaada wa kujadili hofu yangu kuhusu kutumia PrEP?",
+    "Je, ni vikwazo gani vinavyoweza kunizuia kufikia PrEP?",
+    "Ninaweza kutafuta usaidizi wapi ikiwa niko katika hali ngumu?"
+  ],
+  "example_questions_noisy": [
+    "nina wasiwas kuhusu jinsi ya kupata PrP bla kumfahamisha mwenzi wangu.",
+    "Je, kuna njia za kupata PrEP kwa usiri zaidi?",
+    "Ninaweza kupata taarifa zaidi kuhusu athari za PrEP kwenye afya yangu?",
+    "ni idk wapi n4w3z4 ukp474 msaada wa kujadili hofu yangu kuhu5u kutumia Pr3P",
+    "Je, ni vikwazo gani vinavyoweza kunizuia kufikia PrEP?",
+    "ninaweza kutafuta usaidizi wapi ikia niko like katika hali ngumu?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Je, ni vikwazo gani vinavyoweza kunizuia kufikia PrEP?",
+  "starter_noisy": "Je, ni vikwazo gani vinavyoweza kunizuia kufikia PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi ya kupata PrEP bila kumfahamisha mwenzi wangu.",
+  "followup_noisy": "nina wasiwas kuhusu jinsi ya kupata PrP bla kumfahamisha mwenzi wangu.",
+  "style_profile": {
+    "typo_rate": 0.07898540809551607,
+    "swap_rate": 0.033307502862774625,
+    "drop_rate": 0.04270895088338596,
+    "dup_rate": 0.021472400975503916,
+    "leet_rate": 0.11889416453718452,
+    "start_lower_prob": 0.75534617828274,
+    "all_lower_prob": 0.2436916378154415,
+    "drop_punct_prob": 0.40802207883944175,
+    "double_space_prob": 0.2656114937584574,
+    "ellipsis_prob": 0.28711609467248256,
+    "runon_prob": 0.11255592353502449,
+    "filler_rate": 0.45107208094050316,
+    "emoji_rate": 0.2861106472888424,
+    "stutter_rate": 0.15543420850267126,
+    "repeat_last_rate": 0.14271875105384405
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP discreetly due to fear of partner violence\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are a 28-year-old woman living in Kenya, facing challenges in accessing PrEP due to fears of intimate partner violence. You worry about the potential consequences of disclosing your intentions to your partner, who may react negatively. This situation leaves you feeling anxious and uncertain about your health options, while still holding onto hope for a safer future.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi ya kupata PrEP bila kumfahamisha mwenzi wangu.\",\n    \"Je, kuna njia za kupata PrEP kwa usiri zaidi?\",\n    \"Ninaweza kupata taarifa zaidi kuhusu athari za PrEP kwenye afya yangu?\",\n    \"Ni wapi naweza kupata msaada wa kujadili hofu yangu kuhusu kutumia PrEP?\",\n    \"Je, ni vikwazo gani vinavyoweza kunizuia kufikia PrEP?\",\n    \"Ninaweza kutafuta usaidizi wapi ikiwa niko katika hali ngumu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "dc6ea205c83cf90035b8ba377a78c256af77abab4f88d3d1a74486a6904a99b4",
+  "_starter_hash": "03bfbff7469b2f557eea7dbedd599050459f1da51ad5d7677c21d35bf85348d5",
+  "_language": "Swahili",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 34,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "preocupação sobre interações entre PrEP e medicamentos pós-tratamento",
+    "language": "Portuguese"
+  },
+  "context": "Após finalizar o tratamento contra o câncer, estou lidando com um novo cenário em minha vida. Embora esteja feliz por ter superado a doença, tenho medo de como o PrEP pode interagir com os medicamentos que ainda preciso tomar. Estou em busca de informações que possam me ajudar a tomar decisões informadas e me sentir mais segura sobre minha saúde.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais do PrEP, especialmente para alguém que está se recuperando de tratamento de câncer?",
+    "Como posso discutir minhas preocupações sobre PrEP com meu médico sem me sentir julgada?",
+    "Existem recursos ou grupos de apoio para pessoas na minha situação que estão considerando o uso de PrEP?",
+    "O que devo saber sobre a adesão ao PrEP enquanto ainda faço acompanhamento médico após o câncer?",
+    "O PrEP pode afetar minha saúde mental de alguma maneira relacionada à minha recuperação?",
+    "Como encontrar informações confiáveis sobre PrEP para quem passou por tratamentos intensivos de saúde?"
+  ],
+  "example_questions_noisy": [
+    "quais são os efeitos colaterais do rep 35p3c14lm3n73 para 4lguém que está se recuperando de tratamento de câncer",
+    "Como posso discutir minhas preocupações sobre PrEP com meu médico sem me sentir julgada?",
+    "e33xi573m recursos ou grupos de apoio par4 pessoas na minha situação que estão considerand o uso de pr3p",
+    "O que devo saber sobre a adesão ao PrEP enquanto ainda faço acompanhamento médico após o câncer?",
+    "o-o prep pode afetar minha saúde menta de alguma manerq relacionada à inha recuperação",
+    "Como encontrar informações confiáveis sobre PrEP para quem um pppassou por tratammmentos intensivos de saúde"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Como posso discutir minhas preocupações sobre PrEP com meu médico sem me sentir julgada?",
+  "starter_noisy": "Como posso discutir minhas preocupações sobre PrEP com meu médico sem me sentir julgada?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais do PrEP, especialmente para alguém que está se recuperando de tratamento de câncer?",
+  "followup_noisy": "quais são os efeitos colaterais do rep 35p3c14lm3n73 para 4lguém que está se recuperando de tratamento de câncer",
+  "style_profile": {
+    "typo_rate": 0.05056777012333909,
+    "swap_rate": 0.021686735114048922,
+    "drop_rate": 0.04851717520988756,
+    "dup_rate": 0.026001004598363756,
+    "leet_rate": 0.09639449358384808,
+    "start_lower_prob": 0.8250171742511765,
+    "all_lower_prob": 0.34188579956395276,
+    "drop_punct_prob": 0.5041060949478587,
+    "double_space_prob": 0.25647653612981286,
+    "ellipsis_prob": 0.32462652718851076,
+    "runon_prob": 0.2412624366359412,
+    "filler_rate": 0.2094732109524973,
+    "emoji_rate": 0.2913919907323398,
+    "stutter_rate": 0.1863755454288429,
+    "repeat_last_rate": 0.10968344647116318
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 34,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"preocupação sobre interações entre PrEP e medicamentos pós-tratamento\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Após finalizar o tratamento contra o câncer, estou lidando com um novo cenário em minha vida. Embora esteja feliz por ter superado a doença, tenho medo de como o PrEP pode interagir com os medicamentos que ainda preciso tomar. Estou em busca de informações que possam me ajudar a tomar decisões informadas e me sentir mais segura sobre minha saúde.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais do PrEP, especialmente para alguém que está se recuperando de tratamento de câncer?\",\n    \"Como posso discutir minhas preocupações sobre PrEP com meu médico sem me sentir julgada?\",\n    \"Existem recursos ou grupos de apoio para pessoas na minha situação que estão considerando o uso de PrEP?\",\n    \"O que devo saber sobre a adesão ao PrEP enquanto ainda faço acompanhamento médico após o câncer?\",\n    \"O PrEP pode afetar minha saúde mental de alguma maneira relacionada à minha recuperação?\",\n    \"Como encontrar informações confiáveis sobre PrEP para quem passou por tratamentos intensivos de saúde?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7d61da297e6e214a683dde46a7d08a7e5d5959167ec54bda18949e36327dd4fb",
+  "_starter_hash": "75edd5cfa9eda75f4de458ae10d3ef3dcad154075cab2d8c7fa028fb38bd9f9d",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

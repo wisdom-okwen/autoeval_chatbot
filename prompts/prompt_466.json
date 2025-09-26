@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner reaction and stigma",
+    "language": "English"
+  },
+  "context": "You are navigating a situation of intimate partner violence, which complicates your ability to seek out PrEP. You feel fearful about discussing your sexual health and potential preventive measures due to concerns about how your partner might react. This fear affects your mental well-being and creates barriers to accessing healthcare resources. You wish to prioritize your safety and health but are unsure how to move forward.",
+  "example_questions_clean": [
+    "What steps can I take to access PrEP discreetly without my partner knowing?",
+    "Are there resources available for individuals facing intimate partner violence who want to use PrEP?",
+    "How can I ensure my privacy when discussing my health needs with a provider?",
+    "What support services exist for someone in my situation who feels overwhelmed by stigma?",
+    "Can you help me understand the side effects of PrEP and how they might affect my situation?",
+    "What should I consider when discussing my sexual health with a trusted friend or family member?"
+  ],
+  "example_questions_noisy": [
+    "what steps can like i take to access prep discreetly without ky partner knowing",
+    "Are there resources available for individuals facing intimate partner violence who want to use PrEP?",
+    "How can I ensure my privacy when discussing my health needs with a provider?",
+    "What support services exist for someone in my situation who feels overwhelmed by stigma?",
+    "Can you help me understand the side effects of PrEP and how they might affect my situation?",
+    "what i mean 5hhh0uld I consider when discussing my sexual health with a trusted friend pr family member"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I ensure my privacy when discussing my health needs with a provider?",
+  "starter_noisy": "How can I ensure my privacy when discussing my health needs with a provider?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to access PrEP discreetly without my partner knowing?",
+  "followup_noisy": "what steps can like i take to access prep discreetly without ky partner knowing",
+  "style_profile": {
+    "typo_rate": 0.10837329575444937,
+    "swap_rate": 0.03632408678584104,
+    "drop_rate": 0.032537867072771835,
+    "dup_rate": 0.017128396053511206,
+    "leet_rate": 0.08110357816508597,
+    "start_lower_prob": 0.7203851272535117,
+    "all_lower_prob": 0.15450248827890134,
+    "drop_punct_prob": 0.5681520036121146,
+    "double_space_prob": 0.18802417678156705,
+    "ellipsis_prob": 0.29567745146767255,
+    "runon_prob": 0.2136114776288806,
+    "filler_rate": 0.20602873486178305,
+    "emoji_rate": 0.1628690536142334,
+    "stutter_rate": 0.1735132725934022,
+    "repeat_last_rate": 0.15199831515784212
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner reaction and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating a situation of intimate partner violence, which complicates your ability to seek out PrEP. You feel fearful about discussing your sexual health and potential preventive measures due to concerns about how your partner might react. This fear affects your mental well-being and creates barriers to accessing healthcare resources. You wish to prioritize your safety and health but are unsure how to move forward.\",\n  \"example_questions\": [\n    \"What steps can I take to access PrEP discreetly without my partner knowing?\",\n    \"Are there resources available for individuals facing intimate partner violence who want to use PrEP?\",\n    \"How can I ensure my privacy when discussing my health needs with a provider?\",\n    \"What support services exist for someone in my situation who feels overwhelmed by stigma?\",\n    \"Can you help me understand the side effects of PrEP and how they might affect my situation?\",\n    \"What should I consider when discussing my sexual health with a trusted friend or family member?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5aa265569f86438d27133fe30cfb97a6276e7b40a933e66615f9c820b118e6f1",
+  "_starter_hash": "e632fd2f84c58431905810421ff29b5e18e5d284451df6144bd1b463f6c7c679",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

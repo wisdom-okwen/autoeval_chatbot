@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 25,
+    "gender": "nicht-binär",
+    "socio_economic_status": "mittleres Einkommen",
+    "primary_concern": "Zugang zu PrEP aufgrund von Diskriminierung und Angst vor Stigmatisierung",
+    "language": "German"
+  },
+  "context": "Die Person kämpft mit Geschlechtsdysphorie und hat das Gefühl, dass ihre Identität ihre Fähigkeit einschränkt, Informationen über PrEP zu erhalten. Sie sorgt sich um mögliche Vorurteile von Ärzten und die Auswirkungen auf ihr Selbstwertgefühl.",
+  "example_questions_clean": [
+    "Wie kann ich sicherstellen, dass ich einen Arzt finde, der meine Identität respektiert, wenn ich nach PrEP frage?",
+    "Gibt es spezifische Ressourcen oder Unterstützungsgruppen für nicht-binäre Personen, die mehr über PrEP erfahren möchten?",
+    "Welche Erfahrungen haben andere Menschen gemacht, wenn sie PrEP anfordern wollten?",
+    "Wie viel kostet PrEP in Deutschland und gibt es finanzielle Unterstützung für Menschen in meiner Situation?",
+    "Was sollte ich tun, wenn ich mich beim Arztbesuch unwohl fühle oder Angst habe?",
+    "Wie lange dauert es, bis ich mit der Einnahme von PrEP beginnen kann, nachdem ich meinen Arzt konsultiert habe?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich sicherstellen, dass ich einen Arzt finde, der meine Identität respektiert, wenn ich nach PrEP frage?",
+    "Gibt es spezifische Ressourcen oder Unterstützungsgruppen für nicht-binäre Personen, die mehr über PrEP erfahren möchten?",
+    "welche 3rf4hrung3n haben andere Menschen gemacht, wenn sie PrEP anfordern wollten?",
+    "Wie viel ostet PrEP in Deutschland ynd gibt es finanzielleee UUUnterstützung für enschen in meiner Situation",
+    "Was sollte ich tun, wenn ich mich beim Arztbesuch unwohl fühle oder Angst habe?",
+    "Wie lange dauert es, bis ich mit der Einnahme von PrEP beginnen kann, nachdem ich meinen Arzt konsultiert habe?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Wie lange dauert es, bis ich mit der Einnahme von PrEP beginnen kann, nachdem ich meinen Arzt konsultiert habe?",
+  "starter_noisy": "Wie lange dauert es, bis ich mit der Einnahme von PrEP beginnen kann, nachdem ich meinen Arzt konsultiert habe?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich sicherstellen, dass ich einen Arzt finde, der meine Identität respektiert, wenn ich nach PrEP frage?",
+  "followup_noisy": "Wie kann ich sicherstellen, dass ich einen Arzt finde, der meine Identität respektiert, wenn ich nach PrEP frage?",
+  "style_profile": {
+    "typo_rate": 0.06429322606426975,
+    "swap_rate": 0.021748339820513787,
+    "drop_rate": 0.03868073543982102,
+    "dup_rate": 0.017102082249429097,
+    "leet_rate": 0.08810496463077216,
+    "start_lower_prob": 0.6244606334575116,
+    "all_lower_prob": 0.2467556216676024,
+    "drop_punct_prob": 0.5914234044774688,
+    "double_space_prob": 0.21503868861095646,
+    "ellipsis_prob": 0.17203418162109657,
+    "runon_prob": 0.18647380837349437,
+    "filler_rate": 0.27654734052118146,
+    "emoji_rate": 0.24160452407052385,
+    "stutter_rate": 0.1733863971053261,
+    "repeat_last_rate": 0.16748630779661683
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 25,\n    \"gender\": \"nicht-binär\",\n    \"socio_economic_status\": \"mittleres Einkommen\",\n    \"primary_concern\": \"Zugang zu PrEP aufgrund von Diskriminierung und Angst vor Stigmatisierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person kämpft mit Geschlechtsdysphorie und hat das Gefühl, dass ihre Identität ihre Fähigkeit einschränkt, Informationen über PrEP zu erhalten. Sie sorgt sich um mögliche Vorurteile von Ärzten und die Auswirkungen auf ihr Selbstwertgefühl.\",\n  \"example_questions\": [\n    \"Wie kann ich sicherstellen, dass ich einen Arzt finde, der meine Identität respektiert, wenn ich nach PrEP frage?\",\n    \"Gibt es spezifische Ressourcen oder Unterstützungsgruppen für nicht-binäre Personen, die mehr über PrEP erfahren möchten?\",\n    \"Welche Erfahrungen haben andere Menschen gemacht, wenn sie PrEP anfordern wollten?\",\n    \"Wie viel kostet PrEP in Deutschland und gibt es finanzielle Unterstützung für Menschen in meiner Situation?\",\n    \"Was sollte ich tun, wenn ich mich beim Arztbesuch unwohl fühle oder Angst habe?\",\n    \"Wie lange dauert es, bis ich mit der Einnahme von PrEP beginnen kann, nachdem ich meinen Arzt konsultiert habe?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c82c3bb6c199d036a276c1c74356f47952ef28e44f731cc1db45671670bd8bf7",
+  "_starter_hash": "46e637f97db314d0ed28ad5e81ab54e6488089c08531b51b898253f02b020de1",
+  "_language": "German",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

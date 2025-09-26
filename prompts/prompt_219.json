@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 34,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Schwierigkeiten bei der Medikamenteneinnahme aufgrund von chronischen Schmerzen",
+    "language": "German"
+  },
+  "context": "Die Nutzerin lebt mit chronischen Schmerzen, was ihre Fähigkeit einschränkt, regelmäßig Medikamente einzunehmen. Sie hat Bedenken hinsichtlich der Auswirkungen von PrEP auf ihre Schmerzen und die mögliche Stigmatisierung, wenn sie Fragen dazu stellt.",
+  "example_questions_clean": [
+    "Wie könnte PrEP meine chronischen Schmerzen beeinflussen?",
+    "Gibt es spezielle Unterstützung für Menschen wie mich, die PrEP einnehmen möchten?",
+    "Wie kann ich sicherstellen, dass ich die Medikation regelmäßig einnehmen kann?",
+    "Habe ich Anspruch auf finanzielle Unterstützung für PrEP unter meiner aktuellen Krankenkasse?",
+    "Was kann ich tun, wenn ich Angst habe, wegen der Einnahme von PrEP beurteilt zu werden?",
+    "Gibt es Erfahrungen von anderen Betroffenen, die mir helfen könnten?"
+  ],
+  "example_questions_noisy": [
+    "Wie könnte PrEP meine chronischen Schmerzen beeinflussen?",
+    "Gibt es spezielle Unterstützung für Menschen wie mich, die PrEP einnehmen möchten?",
+    "Wie kann ich sicherstellen, dass ich die Medikation regelmäßig einnehmen kann?",
+    "habe uch Anspruch auf finanzielle Unterstützung für PrEP un73r meiner aktuellen Krankenkasse?",
+    "was kann ich tun, wenn ich angst habe, wegen der einnahme von prep b3ur731l7 zu werden?",
+    "Gibt es Erfahrungen von anderen Betroffenen, die mir helfen könnten?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wie kann ich sicherstellen, dass ich die Medikation regelmäßig einnehmen kann?",
+  "starter_noisy": "Wie kann ich sicherstellen, dass ich die Medikation regelmäßig einnehmen kann?",
+  "followup_index": 0,
+  "followup_clean": "Wie könnte PrEP meine chronischen Schmerzen beeinflussen?",
+  "followup_noisy": "Wie könnte PrEP meine chronischen Schmerzen beeinflussen?",
+  "style_profile": {
+    "typo_rate": 0.07496273053068814,
+    "swap_rate": 0.05136814213104077,
+    "drop_rate": 0.03488716108301279,
+    "dup_rate": 0.013299440215892702,
+    "leet_rate": 0.0731048293118609,
+    "start_lower_prob": 0.754734115381879,
+    "all_lower_prob": 0.2858014426494332,
+    "drop_punct_prob": 0.33375911529148616,
+    "double_space_prob": 0.2034239172566786,
+    "ellipsis_prob": 0.2141550657431487,
+    "runon_prob": 0.2990182224564714,
+    "filler_rate": 0.4465810630455114,
+    "emoji_rate": 0.17096127729403543,
+    "stutter_rate": 0.15950763383459937,
+    "repeat_last_rate": 0.09293986033331418
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 34,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Schwierigkeiten bei der Medikamenteneinnahme aufgrund von chronischen Schmerzen\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin lebt mit chronischen Schmerzen, was ihre Fähigkeit einschränkt, regelmäßig Medikamente einzunehmen. Sie hat Bedenken hinsichtlich der Auswirkungen von PrEP auf ihre Schmerzen und die mögliche Stigmatisierung, wenn sie Fragen dazu stellt.\",\n  \"example_questions\": [\n    \"Wie könnte PrEP meine chronischen Schmerzen beeinflussen?\",\n    \"Gibt es spezielle Unterstützung für Menschen wie mich, die PrEP einnehmen möchten?\",\n    \"Wie kann ich sicherstellen, dass ich die Medikation regelmäßig einnehmen kann?\",\n    \"Habe ich Anspruch auf finanzielle Unterstützung für PrEP unter meiner aktuellen Krankenkasse?\",\n    \"Was kann ich tun, wenn ich Angst habe, wegen der Einnahme von PrEP beurteilt zu werden?\",\n    \"Gibt es Erfahrungen von anderen Betroffenen, die mir helfen könnten?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c58ffbceba55a2a550c157f74561ceebcce03a56c588bde37b28bda18582bad3",
+  "_starter_hash": "7afcf0219a887588029cad9a918c9a0d1611e3305b1afb754aba49c8b31eba31",
+  "_language": "German",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

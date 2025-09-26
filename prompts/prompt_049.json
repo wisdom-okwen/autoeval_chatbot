@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP works with my learning disability",
+    "language": "English"
+  },
+  "context": "As someone with a learning disability, I often find it challenging to process medical information. This leads to feelings of anxiety and fear about taking PrEP, as I worry that I might not fully understand the implications or usage. The stigma around both my condition and HIV prevention adds to my concerns, making me hesitant to seek help.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works in simple terms?",
+    "What should I do if I have trouble understanding the information about PrEP?",
+    "Are there resources available that can help me learn about PrEP more effectively?",
+    "How can I talk to my healthcare provider about my concerns with learning about PrEP?",
+    "Is it common for people with learning disabilities to use PrEP?",
+    "What support options are there for someone in my situation who wants to learn more about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works in simple terms? 🤔",
+    "What should I do if I have trouble understanding the information about PrEP?",
+    "are there resources available that can help me learn about prep more effectively?",
+    "How can I talk to my healthcare provider about my concerns with learning about PrEP?",
+    "1-15 it common f0r p30pl3 with learning disabilities to use PrEP",
+    "What support options are there for someone in my situation who wants to learn more about PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I talk to my healthcare provider about my concerns with learning about PrEP?",
+  "starter_noisy": "How can I talk to my healthcare provider about my concerns with learning about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works in simple terms?",
+  "followup_noisy": "Can you explain how PrEP works in simple terms? 🤔",
+  "style_profile": {
+    "typo_rate": 0.05847718713036453,
+    "swap_rate": 0.029530125453837257,
+    "drop_rate": 0.039035869555409525,
+    "dup_rate": 0.028224530815967326,
+    "leet_rate": 0.06330471103081217,
+    "start_lower_prob": 0.704681747033975,
+    "all_lower_prob": 0.3393443850128057,
+    "drop_punct_prob": 0.3670581958200203,
+    "double_space_prob": 0.1551455178999475,
+    "ellipsis_prob": 0.20943843983735408,
+    "runon_prob": 0.1484913214188799,
+    "filler_rate": 0.21762024265499616,
+    "emoji_rate": 0.3309325382628183,
+    "stutter_rate": 0.14913455414150845,
+    "repeat_last_rate": 0.14907496018089955
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP works with my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone with a learning disability, I often find it challenging to process medical information. This leads to feelings of anxiety and fear about taking PrEP, as I worry that I might not fully understand the implications or usage. The stigma around both my condition and HIV prevention adds to my concerns, making me hesitant to seek help.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works in simple terms?\",\n    \"What should I do if I have trouble understanding the information about PrEP?\",\n    \"Are there resources available that can help me learn about PrEP more effectively?\",\n    \"How can I talk to my healthcare provider about my concerns with learning about PrEP?\",\n    \"Is it common for people with learning disabilities to use PrEP?\",\n    \"What support options are there for someone in my situation who wants to learn more about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cb0a0707b85d4794f2606042908863e903fe6433f84c6d7f2e19e38766e5b2ee",
+  "_starter_hash": "875efaf99b6c02128794cdc3d8b85db9efa1251c5b1a7b37f3fe57d2b8c6cfb0",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

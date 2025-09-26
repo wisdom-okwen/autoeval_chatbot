@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La stigmatisation liée à l'utilisation de PrEP",
+    "language": "French"
+  },
+  "context": "En raison d'un sentiment d'isolement social, cette personne se sent nerveuse et mal à l'aise à l'idée de discuter de sa santé sexuelle ou d'accéder au PrEP. Elle craint que son utilisation soit mal perçue par son entourage et cela l'empêche de prendre des décisions éclairées concernant sa protection.",
+  "example_questions_clean": [
+    "Quels sont les avantages de commencer le PrEP si je me sens isolée socialement ?",
+    "Comment puis-je surmonter la peur du jugement des autres en prenant le PrEP ?",
+    "Y a-t-il des ressources disponibles pour les personnes qui se sentent seules et veulent en savoir plus sur le PrEP ?",
+    "Le PrEP est-il accessible sans avoir à se sentir exposée devant un professionnel de santé ?",
+    "Comment le PrEP peut-il m'aider à améliorer ma qualité de vie malgré mon isolement ?"
+  ],
+  "example_questions_noisy": [
+    "quels song les avantages de commencer l3 PrEP si je me sens like isolée socialement ?",
+    "comment puis-je surmonter la peur du juuugement d35 uatres 3n prenant le prep uh ?",
+    "y 4-t-1l des ressources disponibles pour les personnes qui se sentent seules et veulent en savoir plus sur le prep ?",
+    "Le PrEP est-il accessible sans avoir à se sentir exposée devant un professionnel de santé ?",
+    "comment le PrEP peut-il m'aider à 4mél10r3r ma qualité de vie malgré mon isolement"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Le PrEP est-il accessible sans avoir à se sentir exposée devant un professionnel de santé ?",
+  "starter_noisy": "Le PrEP est-il accessible sans avoir à se sentir exposée devant un professionnel de santé ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les avantages de commencer le PrEP si je me sens isolée socialement ?",
+  "followup_noisy": "quels song les avantages de commencer l3 PrEP si je me sens like isolée socialement ?",
+  "style_profile": {
+    "typo_rate": 0.08054688611885032,
+    "swap_rate": 0.04548024376499966,
+    "drop_rate": 0.027870969177752454,
+    "dup_rate": 0.018876555654001592,
+    "leet_rate": 0.11182978361363974,
+    "start_lower_prob": 0.7567745409496272,
+    "all_lower_prob": 0.2636989430763022,
+    "drop_punct_prob": 0.4718954704689402,
+    "double_space_prob": 0.2185710064254324,
+    "ellipsis_prob": 0.3105981153008347,
+    "runon_prob": 0.21988296451265885,
+    "filler_rate": 0.33773401184779067,
+    "emoji_rate": 0.16293967369625986,
+    "stutter_rate": 0.17399338673504644,
+    "repeat_last_rate": 0.17242288686330387
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La stigmatisation liée à l'utilisation de PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En raison d'un sentiment d'isolement social, cette personne se sent nerveuse et mal à l'aise à l'idée de discuter de sa santé sexuelle ou d'accéder au PrEP. Elle craint que son utilisation soit mal perçue par son entourage et cela l'empêche de prendre des décisions éclairées concernant sa protection.\",\n  \"example_questions\": [\n    \"Quels sont les avantages de commencer le PrEP si je me sens isolée socialement ?\",\n    \"Comment puis-je surmonter la peur du jugement des autres en prenant le PrEP ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes qui se sentent seules et veulent en savoir plus sur le PrEP ?\",\n    \"Le PrEP est-il accessible sans avoir à se sentir exposée devant un professionnel de santé ?\",\n    \"Comment le PrEP peut-il m'aider à améliorer ma qualité de vie malgré mon isolement ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e8ec5ad39a671cd17a2aa1e5a4832303e5a31c128c34ab4b47d9e97f562ce7b9",
+  "_starter_hash": "f3aa30e399be04741a63d161bf4a5a9c6dbb02875c48a44a07a821e70b1caab2",
+  "_language": "French",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

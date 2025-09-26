@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Homme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "L'effet de la dépression sur ma motivation à commencer le PrEP",
+    "language": "French"
+  },
+  "context": "Vous vous sentez dépassé par la dépression et cela affecte votre motivation à prendre des mesures pour protéger votre santé. Vous craignez que le PrEP soit trop difficile à gérer dans votre état actuel et vous avez des inquiétudes concernant le stigmate associé à son utilisation.",
+  "example_questions_clean": [
+    "Comment puis-je trouver la motivation pour commencer le PrEP malgré ma dépression ?",
+    "Le PrEP a-t-il des effets secondaires qui pourraient aggraver mes symptômes de dépression ?",
+    "Y a-t-il des ressources spécifiques pour les personnes souffrant de problèmes de santé mentale qui envisagent le PrEP ?",
+    "Comment discuter du PrEP avec mon médecin sans me sentir jugé ?",
+    "Le soutien psychologique est-il disponible pour ceux qui prennent le PrEP ?",
+    "Quelles étapes puis-je suivre pour accéder au PrEP dans ma situation actuelle ?"
+  ],
+  "example_questions_noisy": [
+    "Comment puis-je trouver la motivation opur commencer le PrEP malgré ma dépr3s510n ?",
+    "Le PrEP at--il des effets secondaiers qui pourraient aggraver mes symptômes de dépression ?",
+    "Y a-t-il des ressources spécifiques pour les perosnnes souffrant de problèmes de santé mentale qui envisagent le PrEP ?",
+    "Comment discuter du PrEP avec mon médecin sans me sentir jugé ?",
+    "Le soutien psychologique est-il disponible pour ceux qui prennent le PrEP ?",
+    "Quelles étapes puis-je suivre pour accéder au PrEP dans ma situation actuelle ?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Y a-t-il des ressources spécifiques pour les personnes souffrant de problèmes de santé mentale qui envisagent le PrEP ?",
+  "starter_noisy": "Y a-t-il des ressources spécifiques pour les perosnnes souffrant de problèmes de santé mentale qui envisagent le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je trouver la motivation pour commencer le PrEP malgré ma dépression ?",
+  "followup_noisy": "Comment puis-je trouver la motivation opur commencer le PrEP malgré ma dépr3s510n ?",
+  "style_profile": {
+    "typo_rate": 0.09216993157441368,
+    "swap_rate": 0.04948896505642219,
+    "drop_rate": 0.022012532690830533,
+    "dup_rate": 0.012565192006998488,
+    "leet_rate": 0.11580146615229642,
+    "start_lower_prob": 0.7465074884580143,
+    "all_lower_prob": 0.344334163457253,
+    "drop_punct_prob": 0.38993074934896177,
+    "double_space_prob": 0.2351763517003636,
+    "ellipsis_prob": 0.3054268351877072,
+    "runon_prob": 0.15144582163375087,
+    "filler_rate": 0.23487540174150712,
+    "emoji_rate": 0.3050778735851392,
+    "stutter_rate": 0.19573324876882603,
+    "repeat_last_rate": 0.14747854563788645
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"L'effet de la dépression sur ma motivation à commencer le PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vous sentez dépassé par la dépression et cela affecte votre motivation à prendre des mesures pour protéger votre santé. Vous craignez que le PrEP soit trop difficile à gérer dans votre état actuel et vous avez des inquiétudes concernant le stigmate associé à son utilisation.\",\n  \"example_questions\": [\n    \"Comment puis-je trouver la motivation pour commencer le PrEP malgré ma dépression ?\",\n    \"Le PrEP a-t-il des effets secondaires qui pourraient aggraver mes symptômes de dépression ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes souffrant de problèmes de santé mentale qui envisagent le PrEP ?\",\n    \"Comment discuter du PrEP avec mon médecin sans me sentir jugé ?\",\n    \"Le soutien psychologique est-il disponible pour ceux qui prennent le PrEP ?\",\n    \"Quelles étapes puis-je suivre pour accéder au PrEP dans ma situation actuelle ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d2ceee8f88ae426bd4ea784bcebb7e222b792d56a58f2e357e6dcd85064ebd42",
+  "_starter_hash": "759b488ce40528dc7686968ece55a6f8bc1c9fdd9730953ba1fa1282b159f67b",
+  "_language": "French",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

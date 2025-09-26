@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "the interaction of PrEP with her current medications for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "As a 35-year-old woman living with multiple sclerosis, she often feels overwhelmed by her health conditions and the complexity of managing them. Her MS symptoms sometimes lead to fear about the side effects of new medications, including PrEP. She worries about how PrEP might interact with her current medications and if it’s safe for her condition. The stigma surrounding both MS and HIV prevention adds to her anxiety, but she remains hopeful about finding the right information.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works for someone who has existing health conditions like mine?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I safely incorporate PrEP into my treatment plan for multiple sclerosis?",
+    "Are there specific resources for people with chronic conditions seeking information on PrEP?",
+    "What should I discuss with my doctor when considering PrEP given my situation?"
+  ],
+  "example_questions_noisy": [
+    "c-can you explain h0w Pr3P works for somepne who hasss existing healt conditions like mine?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "how can I safely incorporate PrEP into my treatment plan flr multiple sclerosis? sclerosis?",
+    "Are there specific resources for people with chronic conditions seeking information on PrEP?",
+    "What should I discuss with my doctor when considering PrEP given my situation?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there specific resources for people with chronic conditions seeking information on PrEP?",
+  "starter_noisy": "Are there specific resources for people with chronic conditions seeking information on PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works for someone who has existing health conditions like mine?",
+  "followup_noisy": "c-can you explain h0w Pr3P works for somepne who hasss existing healt conditions like mine?",
+  "style_profile": {
+    "typo_rate": 0.07022917626217304,
+    "swap_rate": 0.027350493709866624,
+    "drop_rate": 0.0339342630575393,
+    "dup_rate": 0.028116541333532814,
+    "leet_rate": 0.06192414338136182,
+    "start_lower_prob": 0.6642156344298298,
+    "all_lower_prob": 0.2901746519558762,
+    "drop_punct_prob": 0.34647504259854894,
+    "double_space_prob": 0.1935513388859927,
+    "ellipsis_prob": 0.31749692820369907,
+    "runon_prob": 0.26304418479317815,
+    "filler_rate": 0.2855031037418986,
+    "emoji_rate": 0.3451464993776181,
+    "stutter_rate": 0.11412813716403186,
+    "repeat_last_rate": 0.11837886055924865
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"the interaction of PrEP with her current medications for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 35-year-old woman living with multiple sclerosis, she often feels overwhelmed by her health conditions and the complexity of managing them. Her MS symptoms sometimes lead to fear about the side effects of new medications, including PrEP. She worries about how PrEP might interact with her current medications and if it’s safe for her condition. The stigma surrounding both MS and HIV prevention adds to her anxiety, but she remains hopeful about finding the right information.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works for someone who has existing health conditions like mine?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I safely incorporate PrEP into my treatment plan for multiple sclerosis?\",\n    \"Are there specific resources for people with chronic conditions seeking information on PrEP?\",\n    \"What should I discuss with my doctor when considering PrEP given my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4569a6178bb30be5f0b32df9b8952ce3e7e5edcd9d9e5ae63393363201813cf0",
+  "_starter_hash": "cd6e7306f56ee3a4960ac94317c211010387bb769dadff6e1b86fd6a0705bdfd",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

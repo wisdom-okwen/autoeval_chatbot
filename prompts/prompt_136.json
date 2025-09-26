@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "toegang tot PrEP en stigma",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart momenteel dakloosheid, wat het moeilijk maakt om toegang te krijgen tot gezondheidszorg en je zorgen over PrEP vergroten de angst voor stigma. Deze situatie beïnvloedt je mentale gezondheid en maakt het lastig om hulp te zoeken, omdat je bang bent voor negatieve oordelen en moeilijkheden met middelen.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP krijgen als ik geen vast adres heb?",
+    "Wat moet ik doen als ik me niet veilig voel om te praten over PrEP?",
+    "Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?",
+    "Hoe kan ik om hulp vragen zonder me te schamen voor mijn situatie?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?",
+    "Waar kan ik betrouwbare informatie over PrEP vinden in mijn buurt?"
+  ],
+  "example_questions_noisy": [
+    "hoe kan ik PrEP ktijgen 4l5 ik geen like vast adrws heb?",
+    "Wat moet ik doen als ik me niet veilig voel om te praten over PrEP?",
+    "z1jn er speciale programma'w voot mensen zoals ik die prep willen gebruiken?",
+    "hoe kan ik om hulp vragen zpnder mmme te schamen vooe m1jn situatie? 😬",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?",
+    "Waar kan ik betrouwbare informatie over PrEP vinden in mijn buurt?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Wat moet ik doen als ik me niet veilig voel om te praten over PrEP?",
+  "starter_noisy": "Wat moet ik doen als ik me niet veilig voel om te praten over PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik PrEP krijgen als ik geen vast adres heb?",
+  "followup_noisy": "hoe kan ik PrEP ktijgen 4l5 ik geen like vast adrws heb?",
+  "style_profile": {
+    "typo_rate": 0.10525534345309608,
+    "swap_rate": 0.05995610125300639,
+    "drop_rate": 0.021391877635499882,
+    "dup_rate": 0.02627658882451009,
+    "leet_rate": 0.0597074804937445,
+    "start_lower_prob": 0.7993803104866865,
+    "all_lower_prob": 0.2861497015418776,
+    "drop_punct_prob": 0.3276683192683776,
+    "double_space_prob": 0.2946582319143085,
+    "ellipsis_prob": 0.3334977930454479,
+    "runon_prob": 0.11262656349524386,
+    "filler_rate": 0.49498202315692386,
+    "emoji_rate": 0.29847642336446767,
+    "stutter_rate": 0.15147529111766433,
+    "repeat_last_rate": 0.16378600751370637
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"toegang tot PrEP en stigma\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart momenteel dakloosheid, wat het moeilijk maakt om toegang te krijgen tot gezondheidszorg en je zorgen over PrEP vergroten de angst voor stigma. Deze situatie beïnvloedt je mentale gezondheid en maakt het lastig om hulp te zoeken, omdat je bang bent voor negatieve oordelen en moeilijkheden met middelen.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP krijgen als ik geen vast adres heb?\",\n    \"Wat moet ik doen als ik me niet veilig voel om te praten over PrEP?\",\n    \"Zijn er speciale programma's voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Hoe kan ik om hulp vragen zonder me te schamen voor mijn situatie?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?\",\n    \"Waar kan ik betrouwbare informatie over PrEP vinden in mijn buurt?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "07109bc33ae8f058c49e7bce4feb2c96d55005cfddc7ec1b7bb98c1529582816",
+  "_starter_hash": "fa4f6b00c7f45829d0ba4aa6f0b7d034ad32daef0f49cc1de468b8ef234656df",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

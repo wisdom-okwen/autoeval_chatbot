@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "man",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "moeilijkheden met toegang tot gezondheidszorg",
+    "language": "Dutch"
+  },
+  "context": "Je hebt te maken met dakloosheid, wat je dagelijks leven en mentale welzijn beïnvloedt. Je voelt je vaak onzeker over je gezondheid en hebt zorgen over het krijgen van de juiste zorg, waaronder toegang tot PrEP. De stigma's rondom je situatie maken het moeilijk om open te zijn over je behoeften, en dat veroorzaakt angst en verwarring over hoe en waar je PrEP kunt verkrijgen.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijkheden voor het verkrijgen van PrEP voor iemand zonder vaste woonplaats?",
+    "Zijn er speciale programma's die me kunnen helpen met de kosten van PrEP?",
+    "Hoe kan ik me veilig voelen bij het bespreken van PrEP met zorgverleners?",
+    "Wat moet ik weten over de bijwerkingen van PrEP in mijn situatie?",
+    "Kun je me vertellen over de effectiviteit van PrEP tegen hiv in mijn omstandigheden?",
+    "Zijn er organisaties die ondersteuning bieden aan mensen zoals ik die geïnteresseerd zijn in PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijkheden voor het verkrijgen van PrEP voor iemand zonder vaste woonplaats?",
+    "zijn er speciale programma's die me you know kunnen helpen met de kosten van PrE;? ❓",
+    "Hoe kan ik me veilig voelen bij het bespreken van PrEP met zorgverleners?",
+    "Wat moet ik weten over de bijwerkingen van PrEP in mijn situatie?",
+    "Kun je me vertellen over de effectiviteit van PrEP tegen hiv in mijn omstandigheden?",
+    "zinj er organisaties die ondersteuning bieden azn mensen zoals ik die geïnteresseerd zijn in prep"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Zijn er organisaties die ondersteuning bieden aan mensen zoals ik die geïnteresseerd zijn in PrEP?",
+  "starter_noisy": "zinj er organisaties die ondersteuning bieden azn mensen zoals ik die geïnteresseerd zijn in prep",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijkheden voor het verkrijgen van PrEP voor iemand zonder vaste woonplaats?",
+  "followup_noisy": "Wat zijn de mogelijkheden voor het verkrijgen van PrEP voor iemand zonder vaste woonplaats?",
+  "style_profile": {
+    "typo_rate": 0.05605100851175904,
+    "swap_rate": 0.044981705119526094,
+    "drop_rate": 0.04006414618703312,
+    "dup_rate": 0.01942592988883087,
+    "leet_rate": 0.11493851091369292,
+    "start_lower_prob": 0.867320865296278,
+    "all_lower_prob": 0.18655810559621008,
+    "drop_punct_prob": 0.44903740943111325,
+    "double_space_prob": 0.15185258758993975,
+    "ellipsis_prob": 0.30348816545341184,
+    "runon_prob": 0.1453351403119388,
+    "filler_rate": 0.4370489840303713,
+    "emoji_rate": 0.27032792903625275,
+    "stutter_rate": 0.18174232012109287,
+    "repeat_last_rate": 0.08374054436595103
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"moeilijkheden met toegang tot gezondheidszorg\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt te maken met dakloosheid, wat je dagelijks leven en mentale welzijn beïnvloedt. Je voelt je vaak onzeker over je gezondheid en hebt zorgen over het krijgen van de juiste zorg, waaronder toegang tot PrEP. De stigma's rondom je situatie maken het moeilijk om open te zijn over je behoeften, en dat veroorzaakt angst en verwarring over hoe en waar je PrEP kunt verkrijgen.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijkheden voor het verkrijgen van PrEP voor iemand zonder vaste woonplaats?\",\n    \"Zijn er speciale programma's die me kunnen helpen met de kosten van PrEP?\",\n    \"Hoe kan ik me veilig voelen bij het bespreken van PrEP met zorgverleners?\",\n    \"Wat moet ik weten over de bijwerkingen van PrEP in mijn situatie?\",\n    \"Kun je me vertellen over de effectiviteit van PrEP tegen hiv in mijn omstandigheden?\",\n    \"Zijn er organisaties die ondersteuning bieden aan mensen zoals ik die geïnteresseerd zijn in PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f7b24bad0d711483c78be47c1abcc208c01cb8d1e75e014698f3e8ad77d61b42",
+  "_starter_hash": "b8c4663465e8255e72681bf857b9694e80d0c46a0a9604cceafc5f202fffc9c1",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

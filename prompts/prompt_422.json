@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 30,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Accès à PrEP à cause de la violence conjugale",
+    "language": "French"
+  },
+  "context": "Cette femme fait face à des défis majeurs en raison de la violence de son partenaire. Elle ressent de la peur et de l'angoisse, ce qui complique sa capacité à chercher des informations sur PrEP. Sa situation l'empêche de se sentir en sécurité et lui impose des barrières émotionnelles et pratiques pour accéder aux soins de santé. Malgré tout, elle espère trouver des solutions pour se protéger et améliorer sa santé sexuelle.",
+  "example_questions_clean": [
+    "Quelles sont les options disponibles pour obtenir PrEP sans que mon partenaire le sache ?",
+    "Comment puis-je parler à un professionnel de la santé de PrEP dans un environnement sécuritaire ?",
+    "Y a-t-il des ressources pour les femmes vivant des situations similaires qui souhaitent commencer PrEP ?",
+    "Quelles sont les implications de l'utilisation de PrEP sur ma santé mentale en ce moment ?",
+    "PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations intimes ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les options disponibles pour obtenir PrEP sans que mon partenaire le sache ?",
+    "C-Comment pui-sje parler à un professionnel de la santé de lrEP dans un environnement sécuritaire ? ?",
+    "Y a-t-il des ressources pour les femmes vivant des situations similaires qui souhaitent commencer PrEP ?",
+    "quelles sont les implications de l'utilisation de prep sur ma san7é mentale en um ce moment ?",
+    "PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations intimes ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations intimes ?",
+  "starter_noisy": "PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations intimes ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les options disponibles pour obtenir PrEP sans que mon partenaire le sache ?",
+  "followup_noisy": "Quelles sont les options disponibles pour obtenir PrEP sans que mon partenaire le sache ?",
+  "style_profile": {
+    "typo_rate": 0.08671153585844427,
+    "swap_rate": 0.03876787737977343,
+    "drop_rate": 0.034962522795609303,
+    "dup_rate": 0.02083005877834335,
+    "leet_rate": 0.09029381029306534,
+    "start_lower_prob": 0.8578435907657116,
+    "all_lower_prob": 0.3174181415358726,
+    "drop_punct_prob": 0.305308771147257,
+    "double_space_prob": 0.2916429424606132,
+    "ellipsis_prob": 0.3208260179629589,
+    "runon_prob": 0.24157719529144064,
+    "filler_rate": 0.2473154829696277,
+    "emoji_rate": 0.2864079076573265,
+    "stutter_rate": 0.16071328362588272,
+    "repeat_last_rate": 0.12996090267169985
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 30,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Accès à PrEP à cause de la violence conjugale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette femme fait face à des défis majeurs en raison de la violence de son partenaire. Elle ressent de la peur et de l'angoisse, ce qui complique sa capacité à chercher des informations sur PrEP. Sa situation l'empêche de se sentir en sécurité et lui impose des barrières émotionnelles et pratiques pour accéder aux soins de santé. Malgré tout, elle espère trouver des solutions pour se protéger et améliorer sa santé sexuelle.\",\n  \"example_questions\": [\n    \"Quelles sont les options disponibles pour obtenir PrEP sans que mon partenaire le sache ?\",\n    \"Comment puis-je parler à un professionnel de la santé de PrEP dans un environnement sécuritaire ?\",\n    \"Y a-t-il des ressources pour les femmes vivant des situations similaires qui souhaitent commencer PrEP ?\",\n    \"Quelles sont les implications de l'utilisation de PrEP sur ma santé mentale en ce moment ?\",\n    \"PrEP peut-elle m'aider à me sentir plus en sécurité dans mes relations intimes ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b8f71929db89df202533f801e5f7de16c26439240dac7aa544fc02bd33c892dc",
+  "_starter_hash": "c462f04b0659d4b3f042f937a62e507b491c03815d58330db3b13b04e5a99e78",
+  "_language": "French",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

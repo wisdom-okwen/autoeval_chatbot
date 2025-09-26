@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "femenino",
+    "socio_economic_status": "bajo",
+    "primary_concern": "miedo al estigma social y a la falta de apoyo emocional",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años en proceso de recuperación de un trauma personal que te ha dejado con ansiedad sobre tu salud sexual. Te preocupa el estigma asociado con el uso de PrEP y sientes que podrías no tener el apoyo emocional necesario para tomar decisiones sobre tu salud. El miedo a ser juzgada por tus elecciones y la falta de recursos económicos te hacen dudar sobre la posibilidad de acceder a PrEP.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo se pueden manejar?",
+    "Estoy preocupada por lo que piensen los demás si decido usar PrEP, ¿cómo puedo enfrentar ese miedo?",
+    "¿Existen programas que ofrezcan PrEP de forma gratuita o a bajo costo?",
+    "¿Qué pasos debo seguir para hablar con un médico sobre la opción de tomar PrEP?",
+    "¿PrEP es una opción segura para alguien que está en proceso de recuperación emocional?",
+    "¿Cómo puedo encontrar un grupo de apoyo para personas que usan PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son los 3fect05 secundarios más comunes del prep u cómo se ueden manejar",
+    "estoy preocupada por lo qur piensne los demás si dscido usar PrEP ¿cómo puedo enfrentar ese miedo",
+    "¿Existen pogramas que ofrezcan PrEP idk de forma gratuita o 4 bajo costo?",
+    "¿-¿Qué pasos debo seguir para hablar con un émdico sobre la opción de yomar PrEP?",
+    "¿PrEP es una opción segura para alguien que está en proceso de recuperación emocional emocional",
+    "¿Cómo pu3d0 encontrar un grupo de apoyo para uh personas que usan PrEP"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Cómo puedo encontrar un grupo de apoyo para personas que usan PrEP?",
+  "starter_noisy": "¿Cómo pu3d0 encontrar un grupo de apoyo para uh personas que usan PrEP",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo se pueden manejar?",
+  "followup_noisy": "¿cuáles son los 3fect05 secundarios más comunes del prep u cómo se ueden manejar",
+  "style_profile": {
+    "typo_rate": 0.10940085633042052,
+    "swap_rate": 0.02826402453790544,
+    "drop_rate": 0.028383604653964147,
+    "dup_rate": 0.010170867917143984,
+    "leet_rate": 0.06299117728180237,
+    "start_lower_prob": 0.7480424688526282,
+    "all_lower_prob": 0.2941943848751615,
+    "drop_punct_prob": 0.4652407328685769,
+    "double_space_prob": 0.30059794610862106,
+    "ellipsis_prob": 0.19175510863646583,
+    "runon_prob": 0.2913066977921832,
+    "filler_rate": 0.280183008175411,
+    "emoji_rate": 0.15659764576666121,
+    "stutter_rate": 0.1838512528804007,
+    "repeat_last_rate": 0.08360467388162098
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"miedo al estigma social y a la falta de apoyo emocional\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer de 28 años en proceso de recuperación de un trauma personal que te ha dejado con ansiedad sobre tu salud sexual. Te preocupa el estigma asociado con el uso de PrEP y sientes que podrías no tener el apoyo emocional necesario para tomar decisiones sobre tu salud. El miedo a ser juzgada por tus elecciones y la falta de recursos económicos te hacen dudar sobre la posibilidad de acceder a PrEP.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes del PrEP y cómo se pueden manejar?\",\n    \"Estoy preocupada por lo que piensen los demás si decido usar PrEP, ¿cómo puedo enfrentar ese miedo?\",\n    \"¿Existen programas que ofrezcan PrEP de forma gratuita o a bajo costo?\",\n    \"¿Qué pasos debo seguir para hablar con un médico sobre la opción de tomar PrEP?\",\n    \"¿PrEP es una opción segura para alguien que está en proceso de recuperación emocional?\",\n    \"¿Cómo puedo encontrar un grupo de apoyo para personas que usan PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "36209bf20b80bd5a6ecbff0a62597c4efa54579a0f2b7656be19a1c05bb44726",
+  "_starter_hash": "8ba59c94f557470eae56b265196752845e05ec43aa2f55fe66b3794f6934b4e2",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

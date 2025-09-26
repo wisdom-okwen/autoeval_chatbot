@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "la interacción entre la medicación para el trastorno bipolar y el PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que vive en México y que ha sido diagnosticada con trastorno bipolar. Sientes preocupación por cómo el uso de PrEP puede afectar tu salud mental, especialmente en momentos de inestabilidad emocional. También te preocupa el estigma asociado al uso de PrEP y cómo podría influir en tu tratamiento actual. Deseas informarte más sobre la compatibilidad del PrEP con tus medicamentos y qué apoyo puedes recibir.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios del PrEP en personas con problemas de salud mental?",
+    "¿Es seguro tomar PrEP junto con mis medicamentos para el trastorno bipolar?",
+    "Me preocupa lo que la gente pensará si me ven recogiendo mi receta de PrEP, ¿cómo manejo ese miedo?",
+    "¿Dónde puedo encontrar un médico que entienda mi situación y me brinde el apoyo que necesito?",
+    "¿Qué recursos están disponibles para ayudar a quienes enfrentan estigmas por usar PrEP?",
+    "¿Qué pasos debo seguir para acceder al PrEP sin afectar mi salud mental?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios del PrrP en p3r50n45 like con pr0blem4 de aslud mental? mental?",
+    "¿Es seguro tomar PrEP junto con mis medicamentos para el trastorno bipolar?",
+    "Me preocupa lo que la gente pensará si me ven recogiendo mi receta de PrEP, ¿cómo manejo ese miedo?",
+    "¿dónde puedo encontrar un médico que entienad ji situacióh you know y me brinde el apoyo que necesiot?",
+    "¿-¿Qué recursos están disponibles para ayudar a quienes enfrentan estigmas por usar PrEP",
+    "¿Qué pasos debo seguir praw acceder al PrEP sin afectar mi salud mental?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los efectos secundarios del PrEP en personas con problemas de salud mental?",
+  "starter_noisy": "¿Cuáles son los efectos secundarios del PrrP en p3r50n45 like con pr0blem4 de aslud mental? mental?",
+  "followup_index": 1,
+  "followup_clean": "¿Es seguro tomar PrEP junto con mis medicamentos para el trastorno bipolar?",
+  "followup_noisy": "¿Es seguro tomar PrEP junto con mis medicamentos para el trastorno bipolar?",
+  "style_profile": {
+    "typo_rate": 0.07387056389266983,
+    "swap_rate": 0.04777863234217257,
+    "drop_rate": 0.033846426402393354,
+    "dup_rate": 0.014118695046606353,
+    "leet_rate": 0.09237419416955307,
+    "start_lower_prob": 0.8325889552715395,
+    "all_lower_prob": 0.24335286266477874,
+    "drop_punct_prob": 0.5686121807034183,
+    "double_space_prob": 0.21209069163850483,
+    "ellipsis_prob": 0.32272164952713,
+    "runon_prob": 0.2821842855080572,
+    "filler_rate": 0.2541426556178922,
+    "emoji_rate": 0.2762115338776593,
+    "stutter_rate": 0.136723066512603,
+    "repeat_last_rate": 0.0843629724775474
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"la interacción entre la medicación para el trastorno bipolar y el PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 28 años que vive en México y que ha sido diagnosticada con trastorno bipolar. Sientes preocupación por cómo el uso de PrEP puede afectar tu salud mental, especialmente en momentos de inestabilidad emocional. También te preocupa el estigma asociado al uso de PrEP y cómo podría influir en tu tratamiento actual. Deseas informarte más sobre la compatibilidad del PrEP con tus medicamentos y qué apoyo puedes recibir.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios del PrEP en personas con problemas de salud mental?\",\n    \"¿Es seguro tomar PrEP junto con mis medicamentos para el trastorno bipolar?\",\n    \"Me preocupa lo que la gente pensará si me ven recogiendo mi receta de PrEP, ¿cómo manejo ese miedo?\",\n    \"¿Dónde puedo encontrar un médico que entienda mi situación y me brinde el apoyo que necesito?\",\n    \"¿Qué recursos están disponibles para ayudar a quienes enfrentan estigmas por usar PrEP?\",\n    \"¿Qué pasos debo seguir para acceder al PrEP sin afectar mi salud mental?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e29d18d4fda6c63c077b45dadb1fbe70079f34abee598d356c63f1a30540a8a1",
+  "_starter_hash": "ed836f8e23bb839058b06b1f25e8deb9b5f38af338b9aad600328f2732ebfa52",
+  "_language": "Spanish",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

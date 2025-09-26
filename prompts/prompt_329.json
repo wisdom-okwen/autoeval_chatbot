@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 35,
+    "gender": "masculino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "impacto do PrEP na dor crônica",
+    "language": "Portuguese"
+  },
+  "context": "Você está lidando com dor crônica, que afeta sua vida diária e seu bem-estar emocional. Essa condição traz medo sobre como o tratamento PrEP pode interagir com sua saúde geral e se você conseguirá gerenciar os efeitos colaterais potenciais. Além disso, você sente um estigma em relação ao uso de medicações preventivas e se pergunta se as pessoas ao seu redor entenderão sua situação.",
+  "example_questions_clean": [
+    "Como a medicação PrEP pode afetar minha dor crônica?",
+    "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+    "É comum sentir medo ou insegurança ao começar o PrEP?",
+    "Existem opções de suporte para pessoas que têm condições de saúde pré-existentes e estão considerando o PrEP?",
+    "Como posso encontrar informações confiáveis sobre o uso do PrEP em meu contexto?",
+    "O que devo considerar antes de falar sobre PrEP com meu médico?"
+  ],
+  "example_questions_noisy": [
+    "Como a medicação PrEP pode afetar minha dor crônica?",
+    "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+    "É comum sentir medo ou insegurança ao começar o PrEP?",
+    "existem opções de suporte para pessoas que têm condções de saúde pré-existentes 3 estão considerando o PrEP",
+    "como posso encontrar informações onfiáveis sobre o uso do prep em meu contexto? contexto?",
+    "O que devo considerar antes de falar sobre PrEP com meu médico?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Como posso encontrar informações confiáveis sobre o uso do PrEP em meu contexto?",
+  "starter_noisy": "como posso encontrar informações onfiáveis sobre o uso do prep em meu contexto? contexto?",
+  "followup_index": 0,
+  "followup_clean": "Como a medicação PrEP pode afetar minha dor crônica?",
+  "followup_noisy": "Como a medicação PrEP pode afetar minha dor crônica?",
+  "style_profile": {
+    "typo_rate": 0.05162961119653444,
+    "swap_rate": 0.05409670172708189,
+    "drop_rate": 0.030909314703493056,
+    "dup_rate": 0.014044806597517225,
+    "leet_rate": 0.05319038950798642,
+    "start_lower_prob": 0.8062463049292607,
+    "all_lower_prob": 0.18934520262592303,
+    "drop_punct_prob": 0.33619805274812203,
+    "double_space_prob": 0.31220588660084725,
+    "ellipsis_prob": 0.2562417077091075,
+    "runon_prob": 0.13962844476214128,
+    "filler_rate": 0.44814738141756294,
+    "emoji_rate": 0.1504594604358396,
+    "stutter_rate": 0.19922599851446243,
+    "repeat_last_rate": 0.17253503148041946
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 35,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"impacto do PrEP na dor crônica\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está lidando com dor crônica, que afeta sua vida diária e seu bem-estar emocional. Essa condição traz medo sobre como o tratamento PrEP pode interagir com sua saúde geral e se você conseguirá gerenciar os efeitos colaterais potenciais. Além disso, você sente um estigma em relação ao uso de medicações preventivas e se pergunta se as pessoas ao seu redor entenderão sua situação.\",\n  \"example_questions\": [\n    \"Como a medicação PrEP pode afetar minha dor crônica?\",\n    \"Quais são os efeitos colaterais do PrEP que eu devo estar ciente?\",\n    \"É comum sentir medo ou insegurança ao começar o PrEP?\",\n    \"Existem opções de suporte para pessoas que têm condições de saúde pré-existentes e estão considerando o PrEP?\",\n    \"Como posso encontrar informações confiáveis sobre o uso do PrEP em meu contexto?\",\n    \"O que devo considerar antes de falar sobre PrEP com meu médico?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6bfa0a7347d21376b8df5b755e6d1b1e5dc2d44e4b14bcf3d55ec904f1f017a7",
+  "_starter_hash": "48db67acca852a7062d203c8db1cb43bf27f814d989e9bbfd674554b4cc9474e",
+  "_language": "Portuguese",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

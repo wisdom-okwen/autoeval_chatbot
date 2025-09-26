@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 32,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Accès à PrEP en raison de mon passé avec la consommation de substances",
+    "language": "French"
+  },
+  "context": "Vous avez des préoccupations concernant l'accès à PrEP en raison de votre histoire de consommation de substances. Vous ressentez une certaine appréhension face au jugement possible des professionnels de santé et vous craignez que cela impacte votre santé. Cependant, vous avez aussi l'espoir que PrEP puisse vous aider à vous protéger et à améliorer votre bien-être général.",
+  "example_questions_clean": [
+    "Comment puis-je parler à mon médecin de mon intérêt pour la PrEP ?",
+    "Y a-t-il des ressources spécifiques pour ceux qui ont un passé de consommation de substances ?",
+    "Quelles sont les étapes pour obtenir un traitement par PrEP ?",
+    "Les médecins sont-ils sensibles aux antécédents de consommation lors de la prescription de PrEP ?",
+    "La PrEP peut-elle réellement m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Comment puis-je surmonter ma peur du jugement lorsque je discute de la PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "c-comment puis-je parler à mon médecin deee mon intérêt pour la PrEP ? 🫠",
+    "y a-t-il des ressources spécifiques pour ceux qui ont un passé de consommation de substances ?",
+    "Quelles sont les étapes pour obtenir un traitement par PrEP ?",
+    "Les médecins sont-ils sensibles aux antécédents de consommation lors de la prescription de PrEP ?",
+    "La PrEP peut-elle réellement m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Comment puis-je surmonter ma peur du jugement lorsque je discute de la PrEP ?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Comment puis-je parler à mon médecin de mon intérêt pour la PrEP ?",
+  "starter_noisy": "c-comment puis-je parler à mon médecin deee mon intérêt pour la PrEP ? 🫠",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des ressources spécifiques pour ceux qui ont un passé de consommation de substances ?",
+  "followup_noisy": "y a-t-il des ressources spécifiques pour ceux qui ont un passé de consommation de substances ?",
+  "style_profile": {
+    "typo_rate": 0.0990476002304449,
+    "swap_rate": 0.03830082080479841,
+    "drop_rate": 0.026191044965751448,
+    "dup_rate": 0.017622046228532747,
+    "leet_rate": 0.05193021275505848,
+    "start_lower_prob": 0.7431915554747497,
+    "all_lower_prob": 0.29997939982479893,
+    "drop_punct_prob": 0.34585028830616926,
+    "double_space_prob": 0.2719972296760045,
+    "ellipsis_prob": 0.15244390816589995,
+    "runon_prob": 0.13984916020988708,
+    "filler_rate": 0.30693344251468013,
+    "emoji_rate": 0.27870887591924876,
+    "stutter_rate": 0.18634649736112702,
+    "repeat_last_rate": 0.16239993076680825
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 32,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Accès à PrEP en raison de mon passé avec la consommation de substances\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez des préoccupations concernant l'accès à PrEP en raison de votre histoire de consommation de substances. Vous ressentez une certaine appréhension face au jugement possible des professionnels de santé et vous craignez que cela impacte votre santé. Cependant, vous avez aussi l'espoir que PrEP puisse vous aider à vous protéger et à améliorer votre bien-être général.\",\n  \"example_questions\": [\n    \"Comment puis-je parler à mon médecin de mon intérêt pour la PrEP ?\",\n    \"Y a-t-il des ressources spécifiques pour ceux qui ont un passé de consommation de substances ?\",\n    \"Quelles sont les étapes pour obtenir un traitement par PrEP ?\",\n    \"Les médecins sont-ils sensibles aux antécédents de consommation lors de la prescription de PrEP ?\",\n    \"La PrEP peut-elle réellement m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Comment puis-je surmonter ma peur du jugement lorsque je discute de la PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9e5a0a40b52cdc23e09dd4dc581f411fa5826de4e3254f14ab8c40430a7dcbe9",
+  "_starter_hash": "9b682cd74994104e8813e19dc0fb01dab2b8e014990a7b76f75a7b7540d99d01",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

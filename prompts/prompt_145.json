@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 29,
+    "gender": "Femenino",
+    "socio_economic_status": "Medio",
+    "primary_concern": "La falta de apoyo emocional para tomar la decisión de empezar PrEP.",
+    "language": "Spanish"
+  },
+  "context": "La usuaria ha estado lidiando con la depresión, lo que ha afectado su capacidad para buscar atención médica y tomar decisiones sobre su salud. Se siente insegura sobre comenzar PrEP debido a sus preocupaciones emocionales y el miedo al estigma asociado con su situación.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de usar PrEP en mi situación actual?",
+    "Me gustaría saber cómo la depresión puede influir en la efectividad de PrEP.",
+    "¿Existen recursos de apoyo emocional para personas que inician PrEP?",
+    "¿Qué pasos debo seguir para obtener PrEP en mi localidad?",
+    "¿Hay algún grupo donde pueda compartir mis experiencias mientras tomo PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones relacionadas con el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de usar PrEP en mi situación actual?",
+    "me gustaría asber cómo la depresión puede influir 3n la efedtividad de PrEP.",
+    "¿Existen recursos de apoyo ejocional paa personas que inician PrEP",
+    "¿Qué pasoa idk debo esguir para obtener PrEP en mi localidad 🫠",
+    "¿Hay algún grupo donde pueda compartir mis experiencias mientras tomo PrEP?",
+    "¿Cómo puedo uh hablar con mi médico sobre mis preocupaciones relacionadas con el PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen recursos de apoyo emocional para personas que inician PrEP?",
+  "starter_noisy": "¿Existen recursos de apoyo ejocional paa personas que inician PrEP",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de usar PrEP en mi situación actual?",
+  "followup_noisy": "¿Cuáles son los beneficios de usar PrEP en mi situación actual?",
+  "style_profile": {
+    "typo_rate": 0.11206464953339304,
+    "swap_rate": 0.03073498126097912,
+    "drop_rate": 0.037167505736709655,
+    "dup_rate": 0.02125897872588604,
+    "leet_rate": 0.08041096599776965,
+    "start_lower_prob": 0.8055212933644047,
+    "all_lower_prob": 0.28823101732331025,
+    "drop_punct_prob": 0.4807596314135057,
+    "double_space_prob": 0.1886587832512102,
+    "ellipsis_prob": 0.3467947589781853,
+    "runon_prob": 0.17710743821610433,
+    "filler_rate": 0.4072767927464358,
+    "emoji_rate": 0.297415329144732,
+    "stutter_rate": 0.10360695862648137,
+    "repeat_last_rate": 0.1141718035238925
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 29,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Medio\",\n    \"primary_concern\": \"La falta de apoyo emocional para tomar la decisión de empezar PrEP.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La usuaria ha estado lidiando con la depresión, lo que ha afectado su capacidad para buscar atención médica y tomar decisiones sobre su salud. Se siente insegura sobre comenzar PrEP debido a sus preocupaciones emocionales y el miedo al estigma asociado con su situación.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de usar PrEP en mi situación actual?\",\n    \"Me gustaría saber cómo la depresión puede influir en la efectividad de PrEP.\",\n    \"¿Existen recursos de apoyo emocional para personas que inician PrEP?\",\n    \"¿Qué pasos debo seguir para obtener PrEP en mi localidad?\",\n    \"¿Hay algún grupo donde pueda compartir mis experiencias mientras tomo PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones relacionadas con el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c9b1ec2f574422f3dcacf8e798d81738da879b36e3913a9dce55e6e91aa7c917",
+  "_starter_hash": "81438f67803ff5334c1ce71b75ac73a4fa6e829aac63ce3a1d6e49156b92a96e",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 29,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en het delen van mijn medische geschiedenis",
+    "language": "Dutch"
+  },
+  "context": "Je bent een jonge vrouw die herstellende is van trauma en twijfelt over het gebruik van PrEP. Deze omstandigheden maken je onzeker over het delen van je medische situatie met zorgverleners. Je hebt vragen over de toegankelijkheid van PrEP en hoe het je kan helpen zonder extra angst voor stigma.",
+  "example_questions_clean": [
+    "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+    "Hoe kan ik omgaan met de angst voor stigma bij het aanvragen van PrEP?",
+    "Zijn er specifieke zorgverleners die ervaring hebben met patiënten die trauma hebben ervaren?",
+    "Wat zijn de stappen die ik moet volgen om PrEP te krijgen zonder me te moeten rechtvaardigen?",
+    "Hoe kan ik er zeker van zijn dat mijn privacy wordt beschermd tijdens het proces?",
+    "Welke ondersteuning is er beschikbaar voor mensen zoals ik die PrEP willen overwegen?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+    "Hoe kan ik omgaan met de angst voor stigma bij het aanvragen van PrEP?",
+    "Zijjjn er sepcifieke zorgverleners die ervaring hebben mettt patiënten die trauma hebben ervaren? 🙂",
+    "wat zijn de 574pp3n die kk moet volgen im PrEP te krijgen zonder me te mk373n rechtvaardigen?",
+    "hoe kam ik er zek3r van zijn dat mijn privacy wordt besch3rmd tijdens het proces?",
+    "Welke ondersteuning is er beschikbaar voor mensen zoals ik die PrEP willen overwegen?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik omgaan met de angst voor stigma bij het aanvragen van PrEP?",
+  "starter_noisy": "Hoe kan ik omgaan met de angst voor stigma bij het aanvragen van PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+  "followup_noisy": "Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?",
+  "style_profile": {
+    "typo_rate": 0.09994820490372794,
+    "swap_rate": 0.05999655990811613,
+    "drop_rate": 0.028359011813509985,
+    "dup_rate": 0.02728132300424009,
+    "leet_rate": 0.10816579977108909,
+    "start_lower_prob": 0.638451796815679,
+    "all_lower_prob": 0.22431050337505767,
+    "drop_punct_prob": 0.43281778679060573,
+    "double_space_prob": 0.33401281243670555,
+    "ellipsis_prob": 0.3384270644712025,
+    "runon_prob": 0.27019637621875814,
+    "filler_rate": 0.26302037354030233,
+    "emoji_rate": 0.2589662638311282,
+    "stutter_rate": 0.17179230806563545,
+    "repeat_last_rate": 0.12759359268140577
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 29,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en het delen van mijn medische geschiedenis\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je bent een jonge vrouw die herstellende is van trauma en twijfelt over het gebruik van PrEP. Deze omstandigheden maken je onzeker over het delen van je medische situatie met zorgverleners. Je hebt vragen over de toegankelijkheid van PrEP en hoe het je kan helpen zonder extra angst voor stigma.\",\n  \"example_questions\": [\n    \"Wat zijn de belangrijkste voordelen van PrEP voor iemand in mijn situatie?\",\n    \"Hoe kan ik omgaan met de angst voor stigma bij het aanvragen van PrEP?\",\n    \"Zijn er specifieke zorgverleners die ervaring hebben met patiënten die trauma hebben ervaren?\",\n    \"Wat zijn de stappen die ik moet volgen om PrEP te krijgen zonder me te moeten rechtvaardigen?\",\n    \"Hoe kan ik er zeker van zijn dat mijn privacy wordt beschermd tijdens het proces?\",\n    \"Welke ondersteuning is er beschikbaar voor mensen zoals ik die PrEP willen overwegen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f7e09c6a8972bdf1af2ddebc2c0a0e0553a6481ebdb3f557d7fd6322553761ea",
+  "_starter_hash": "aae3f99f661bf703266922c0abdf17c9fae03098290b0dc17810a1f0f1d6b044",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

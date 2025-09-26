@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "français",
+    "age": 30,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation liée à l'utilisation de PrEP dans le contexte de mon PTSD",
+    "language": "French"
+  },
+  "context": "Cette personne a du mal à accéder aux informations sur PrEP en raison de son passé traumatique. Les souvenirs douloureux liés à ses expériences de vie influencent sa capacité à discuter ouvertement de sa santé sexuelle et à envisager des options de prévention. Elle ressent un mélange d'espoir et de peur face à la stigmatisation potentielle et aux jugements des autres.",
+  "example_questions_clean": [
+    "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété sociale ?",
+    "Comment puis-je aborder la conversation sur PrEP avec un professionnel de santé ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de PTSD qui souhaitent en savoir plus sur PrEP ?",
+    "Est-ce que le traitement par PrEP pourrait avoir un impact sur ma santé mentale ?",
+    "Quelles étapes devrais-je suivre pour commencer le traitement sans me sentir jugé ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété sociale ?",
+    "Comment puis-je aborder la conversation sur PrEP avec un professionnel de santé santé",
+    "y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de ptsd qui souaitent en 5wv01r plus sur prpe",
+    "Est-ce que le traitement par PrEP pourrait avoir un impact sur ma santé mentale ?",
+    "uQelles éatpes devrais-je suivre pour commencer le traitement sans me um sssentir jugé"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété sociale ?",
+  "starter_noisy": "Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété sociale ?",
+  "followup_index": 1,
+  "followup_clean": "Comment puis-je aborder la conversation sur PrEP avec un professionnel de santé ?",
+  "followup_noisy": "Comment puis-je aborder la conversation sur PrEP avec un professionnel de santé santé",
+  "style_profile": {
+    "typo_rate": 0.10805190102486598,
+    "swap_rate": 0.04427041875956214,
+    "drop_rate": 0.04088483751368538,
+    "dup_rate": 0.021962459539716123,
+    "leet_rate": 0.07853831478542593,
+    "start_lower_prob": 0.8273049553198186,
+    "all_lower_prob": 0.29055109567097015,
+    "drop_punct_prob": 0.547673151593338,
+    "double_space_prob": 0.18316433532719187,
+    "ellipsis_prob": 0.33754428486361365,
+    "runon_prob": 0.20584869894785404,
+    "filler_rate": 0.2908930873052251,
+    "emoji_rate": 0.324751257415255,
+    "stutter_rate": 0.11335942331283924,
+    "repeat_last_rate": 0.1522901207593999
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"français\",\n    \"age\": 30,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation liée à l'utilisation de PrEP dans le contexte de mon PTSD\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne a du mal à accéder aux informations sur PrEP en raison de son passé traumatique. Les souvenirs douloureux liés à ses expériences de vie influencent sa capacité à discuter ouvertement de sa santé sexuelle et à envisager des options de prévention. Elle ressent un mélange d'espoir et de peur face à la stigmatisation potentielle et aux jugements des autres.\",\n  \"example_questions\": [\n    \"Quelles sont les options disponibles pour obtenir PrEP si je ressens de l'anxiété sociale ?\",\n    \"Comment puis-je aborder la conversation sur PrEP avec un professionnel de santé ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de PTSD qui souhaitent en savoir plus sur PrEP ?\",\n    \"Est-ce que le traitement par PrEP pourrait avoir un impact sur ma santé mentale ?\",\n    \"Quelles étapes devrais-je suivre pour commencer le traitement sans me sentir jugé ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "810497967a6e1f73e1cc52f89a7f89ded717293710331a60ef9ee9b1f82ec218",
+  "_starter_hash": "c9b4d65f84268d9cf2c05ccbabd821d0e59e075dfd5a30aebbcf282dc83b7089",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

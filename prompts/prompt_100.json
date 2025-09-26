@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old American woman struggling with self-esteem issues, which makes you feel anxious about seeking PrEP. The fear of being judged by others for your choices weighs heavily on you, creating emotional barriers that make it difficult to access healthcare resources. You want to ensure that you take the right steps for your health while navigating the stigma surrounding PrEP.",
+  "example_questions_clean": [
+    "What are the benefits of taking PrEP for someone in my situation?",
+    "How can I overcome my fear of what others might think about me using PrEP?",
+    "Are there support groups or resources available for people like me considering PrEP?",
+    "What should I expect during my first appointment to discuss PrEP?",
+    "Could you explain how PrEP works and its effectiveness in preventing HIV?",
+    "What financial assistance options are available for someone with my socio-economic background looking to start PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the benefits of taking PrEP for someone in my situtaion",
+    "How can I overcome my fear of what others might think about me using PrEP?",
+    "a-are there support groups or r350urc35 available f0r people like me considering PrEP? 🙂",
+    "wh47 should I expect during my first appointment to discuss PrEP?",
+    "Could you explain how PrEP works and its effectiveness in preventing HIV?",
+    "shat financial assistance ptions are like available for someone with my socio-economic background l00k1ng to 574r7 PrEP? PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the benefits of taking PrEP for someone in my situation?",
+  "starter_noisy": "what are the benefits of taking PrEP for someone in my situtaion",
+  "followup_index": 1,
+  "followup_clean": "How can I overcome my fear of what others might think about me using PrEP?",
+  "followup_noisy": "How can I overcome my fear of what others might think about me using PrEP?",
+  "style_profile": {
+    "typo_rate": 0.07204447124240433,
+    "swap_rate": 0.032472270272730495,
+    "drop_rate": 0.04782685062485105,
+    "dup_rate": 0.010162131553210735,
+    "leet_rate": 0.10634406670534355,
+    "start_lower_prob": 0.7350878586213495,
+    "all_lower_prob": 0.2524416126532646,
+    "drop_punct_prob": 0.3655856728424918,
+    "double_space_prob": 0.24801386112809645,
+    "ellipsis_prob": 0.24431854279860926,
+    "runon_prob": 0.2143078690770565,
+    "filler_rate": 0.3693944948092007,
+    "emoji_rate": 0.3043504047264137,
+    "stutter_rate": 0.185091733891914,
+    "repeat_last_rate": 0.10463819408976432
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old American woman struggling with self-esteem issues, which makes you feel anxious about seeking PrEP. The fear of being judged by others for your choices weighs heavily on you, creating emotional barriers that make it difficult to access healthcare resources. You want to ensure that you take the right steps for your health while navigating the stigma surrounding PrEP.\",\n  \"example_questions\": [\n    \"What are the benefits of taking PrEP for someone in my situation?\",\n    \"How can I overcome my fear of what others might think about me using PrEP?\",\n    \"Are there support groups or resources available for people like me considering PrEP?\",\n    \"What should I expect during my first appointment to discuss PrEP?\",\n    \"Could you explain how PrEP works and its effectiveness in preventing HIV?\",\n    \"What financial assistance options are available for someone with my socio-economic background looking to start PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "64a9498d6c274b9b6078deaf11b56fedab49a0ea94050924065b4893a85c009c",
+  "_starter_hash": "62be3714eb629cbb0d004137a536792588fe316db72481ca1a8242bf3781465c",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

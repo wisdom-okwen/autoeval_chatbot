@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld inkomen",
+    "primary_concern": "angst voor stigma en bijwerkingen",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker heeft een geschiedenis van middelengebruik, wat leidt tot angst en onzekerheid over het starten met PrEP. Ze maakt zich zorgen over hoe anderen haar zouden kunnen beoordelen en of ze de juiste ondersteuning kan krijgen. Deze situatie veroorzaakt een gevoel van isolatie en twijfels over haar gezondheid.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik me daarop voorbereiden?",
+    "Hoe kan ik mijn huisarts benaderen over PrEP zonder me te schamen?",
+    "Zijn er speciale programma's die ondersteuning bieden aan mensen met een geschiedenis van middelengebruik?",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd als ik PrEP wil aanvragen?",
+    "Wat zijn de ervaringen van anderen in vergelijkbare situaties met het gebruik van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik me daarop voorbereiden?",
+    "Hoe kan ik mijn huisarts benaderen over PrEP zonder me te schamen?",
+    "zijn er speciale programma's die ondersteuning bieden aan mensen met een geschiedenis van like middelengebruik",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd als ik PrEP wil aanvragen?",
+    "wat zijn de ervaringne van anderen in vergelijkbare situaties met het gebruik van PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik mijn huisarts benaderen over PrEP zonder me te schamen?",
+  "starter_noisy": "Hoe kan ik mijn huisarts benaderen over PrEP zonder me te schamen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik me daarop voorbereiden?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik me daarop voorbereiden?",
+  "style_profile": {
+    "typo_rate": 0.060998790670756364,
+    "swap_rate": 0.028934333050168577,
+    "drop_rate": 0.03483327736837296,
+    "dup_rate": 0.014715677227327126,
+    "leet_rate": 0.09625948115690591,
+    "start_lower_prob": 0.7736685623623706,
+    "all_lower_prob": 0.2346230648409216,
+    "drop_punct_prob": 0.5739476224142197,
+    "double_space_prob": 0.24024965747697313,
+    "ellipsis_prob": 0.31793858218607046,
+    "runon_prob": 0.2741535165148653,
+    "filler_rate": 0.28312274396943515,
+    "emoji_rate": 0.2979957409442767,
+    "stutter_rate": 0.12524478092647115,
+    "repeat_last_rate": 0.08735622331134432
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld inkomen\",\n    \"primary_concern\": \"angst voor stigma en bijwerkingen\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"De gebruiker heeft een geschiedenis van middelengebruik, wat leidt tot angst en onzekerheid over het starten met PrEP. Ze maakt zich zorgen over hoe anderen haar zouden kunnen beoordelen en of ze de juiste ondersteuning kan krijgen. Deze situatie veroorzaakt een gevoel van isolatie en twijfels over haar gezondheid.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik me daarop voorbereiden?\",\n    \"Hoe kan ik mijn huisarts benaderen over PrEP zonder me te schamen?\",\n    \"Zijn er speciale programma's die ondersteuning bieden aan mensen met een geschiedenis van middelengebruik?\",\n    \"Hoe kan ik ervoor zorgen dat mijn privacy wordt gerespecteerd als ik PrEP wil aanvragen?\",\n    \"Wat zijn de ervaringen van anderen in vergelijkbare situaties met het gebruik van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8df662fbd89e8f4c97720acd2576ec0e646734e7948716291f40323aa480f6c2",
+  "_starter_hash": "ef4ff81538a7e95794ccf354af65b27e2b3601895e0be692be3d08a3b95c9fba",
+  "_language": "Dutch",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

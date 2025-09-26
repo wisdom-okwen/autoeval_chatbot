@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "worries about side effects and stigma from her community",
+    "language": "Swahili"
+  },
+  "context": "You are a 28-year-old woman from Tanzania experiencing depression, which makes you feel overwhelmed when considering your health options. This condition affects your motivation to seek information about PrEP, and you often worry about how it might be perceived by your family and friends. You hope for a healthier future but feel anxious about potential stigma attached to using PrEP in your community.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kusaidia katika hali yangu ya afya ya akili?",
+    "Ni faida zipi za kutumia PrEP ambazo ningepaswa kujua?",
+    "Ninaweza kupata PrEP wapi bila kujulikana?",
+    "Je, kuna madhara yoyote ya muda mrefu yanayohusiana na PrEP?",
+    "Nitajisikiaje nikitumia PrEP katika jamii yangu?",
+    "Ninahitaji vigezo gani ili kuweza kuanza kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je, PrEP inaweza kusaidia katika hali like y4ngu y4 afya ya akili?",
+    "n-n1 faida zipi za kutumia PrEP ambazo ningepaswa kuju4? kuju4?",
+    "ninaweza kupata prep wapi bila kujulikana?",
+    "je, ukna madhara yoyote ya muda mrefu yanayohusiana na uh perp? 🤔",
+    "Nitajisikiaje nikitumia PrEP katika jamii yangu?",
+    "Ninahitaji vigezo gani ili kuweza kuanza kutumia PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Nitajisikiaje nikitumia PrEP katika jamii yangu?",
+  "starter_noisy": "Nitajisikiaje nikitumia PrEP katika jamii yangu?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kusaidia katika hali yangu ya afya ya akili?",
+  "followup_noisy": "je, PrEP inaweza kusaidia katika hali like y4ngu y4 afya ya akili?",
+  "style_profile": {
+    "typo_rate": 0.1013008430680507,
+    "swap_rate": 0.0228459090325726,
+    "drop_rate": 0.022370331837090897,
+    "dup_rate": 0.02397499146470357,
+    "leet_rate": 0.08225174239665904,
+    "start_lower_prob": 0.874943520321289,
+    "all_lower_prob": 0.29475954412187283,
+    "drop_punct_prob": 0.4560783560864916,
+    "double_space_prob": 0.19550288999069113,
+    "ellipsis_prob": 0.3187485078540148,
+    "runon_prob": 0.23009428511382848,
+    "filler_rate": 0.26268311268926936,
+    "emoji_rate": 0.15833205550156473,
+    "stutter_rate": 0.1376991772981363,
+    "repeat_last_rate": 0.10866108801593213
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"worries about side effects and stigma from her community\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are a 28-year-old woman from Tanzania experiencing depression, which makes you feel overwhelmed when considering your health options. This condition affects your motivation to seek information about PrEP, and you often worry about how it might be perceived by your family and friends. You hope for a healthier future but feel anxious about potential stigma attached to using PrEP in your community.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kusaidia katika hali yangu ya afya ya akili?\",\n    \"Ni faida zipi za kutumia PrEP ambazo ningepaswa kujua?\",\n    \"Ninaweza kupata PrEP wapi bila kujulikana?\",\n    \"Je, kuna madhara yoyote ya muda mrefu yanayohusiana na PrEP?\",\n    \"Nitajisikiaje nikitumia PrEP katika jamii yangu?\",\n    \"Ninahitaji vigezo gani ili kuweza kuanza kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "995132ea85f32865d672dbf99ab31c5eb4b83052837351ef03a72780336ed6a1",
+  "_starter_hash": "32c63402902e8d3a982937c101edcf46cd7f9042ca1d071d0ac74379aeb7ad16",
+  "_language": "Swahili",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

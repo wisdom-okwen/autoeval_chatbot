@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "el acceso a PrEP y el estigma asociado a mi identidad de género",
+    "language": "Spanish"
+  },
+  "context": "La persona se siente ansiosa sobre cómo su identidad de género podría afectar su capacidad para acceder a PrEP, temiendo el estigma en los servicios de salud. Esto genera una barrera emocional y práctica en su búsqueda de protección contra el VIH, sintiéndose vulnerable y esperanzada a la vez por la posibilidad de cuidar su salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para obtener PrEP si tengo miedo de ser juzgado en la clínica?",
+    "¿Existen organizaciones que ofrezcan apoyo específico para personas no binarias que buscan PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme incómodo?",
+    "¿Qué tipo de efectos secundarios puedo esperar al empezar a tomar PrEP?",
+    "¿Es posible obtener PrEP de forma anónima si tengo miedo al estigma?",
+    "¿Qué recursos están disponibles para ayudarme a entender mejor el proceso de acceso a PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos par obtener PrEP si tengo miedo de ser juzgado en la clínica?",
+    "¿Existen organizaciones que ofrezcan apoyo específico para personas no binarias que buscan PrEP?",
+    "¿-¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme incómodo?",
+    "¿qué tipo de efectos secundarios puedo esperar al empezar a tomar prep? 💀",
+    "¿Es posible obtener PrEP de f0rm4 anónima 51 tengo mieeo al estigma? 🙄",
+    "¿qué recursos están disponibles para ayudarme a 3n73ndr3 mejor el proceso de acceso a prep prep"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Es posible obtener PrEP de forma anónima si tengo miedo al estigma?",
+  "starter_noisy": "¿Es posible obtener PrEP de f0rm4 anónima 51 tengo mieeo al estigma? 🙄",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para obtener PrEP si tengo miedo de ser juzgado en la clínica?",
+  "followup_noisy": "¿Cuáles son los pasos par obtener PrEP si tengo miedo de ser juzgado en la clínica?",
+  "style_profile": {
+    "typo_rate": 0.07440065312470229,
+    "swap_rate": 0.04168418142820707,
+    "drop_rate": 0.03199173758577424,
+    "dup_rate": 0.02599019751729577,
+    "leet_rate": 0.06207303204773469,
+    "start_lower_prob": 0.8323938794896347,
+    "all_lower_prob": 0.1990795568865996,
+    "drop_punct_prob": 0.3309855268993477,
+    "double_space_prob": 0.2517090652327634,
+    "ellipsis_prob": 0.17713630051950469,
+    "runon_prob": 0.12087927146710081,
+    "filler_rate": 0.23004352979752418,
+    "emoji_rate": 0.33048645014527533,
+    "stutter_rate": 0.1251377015365813,
+    "repeat_last_rate": 0.08287313692835287
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"el acceso a PrEP y el estigma asociado a mi identidad de género\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La persona se siente ansiosa sobre cómo su identidad de género podría afectar su capacidad para acceder a PrEP, temiendo el estigma en los servicios de salud. Esto genera una barrera emocional y práctica en su búsqueda de protección contra el VIH, sintiéndose vulnerable y esperanzada a la vez por la posibilidad de cuidar su salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para obtener PrEP si tengo miedo de ser juzgado en la clínica?\",\n    \"¿Existen organizaciones que ofrezcan apoyo específico para personas no binarias que buscan PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme incómodo?\",\n    \"¿Qué tipo de efectos secundarios puedo esperar al empezar a tomar PrEP?\",\n    \"¿Es posible obtener PrEP de forma anónima si tengo miedo al estigma?\",\n    \"¿Qué recursos están disponibles para ayudarme a entender mejor el proceso de acceso a PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "13f1e25cd23ecb657c3d80e58bdeac1db8b6f5c233c19c317c9972380e7df52d",
+  "_starter_hash": "f8cc73b5a4e2a9793de8ed02ea2e3b1c9c441f651e626d6701d8e7be61e83249",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

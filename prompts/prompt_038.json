@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "femenina",
+    "socio_economic_status": "bajo",
+    "primary_concern": "la accesibilidad y comprensión del tratamiento debido a mi condición",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que vive en México y tienes un trastorno neurodesarrollo que afecta tu capacidad de procesar información compleja. Esto te ha llevado a sentir miedo y ansiedad respecto al uso de PrEP, ya que te preocupa no comprender completamente las instrucciones o no poder acceder a la medicación necesaria. También sientes el estigma asociado a tu condición, lo que te hace dudar en buscar ayuda en tu comunidad.",
+  "example_questions_clean": [
+    "¿Cómo puedo obtener más información sobre la PrEP de manera accesible?",
+    "Me preocupa no entender las instrucciones del tratamiento de PrEP, ¿hay recursos para ayudarme?",
+    "¿Qué debo hacer si tengo dudas sobre el uso de la PrEP?",
+    "¿La PrEP tiene efectos secundarios que deberían preocuparme?",
+    "¿Existen grupos de apoyo para personas como yo que están considerando la PrEP?",
+    "¿Cómo se siente la gente que usa PrEP en mi situación?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo obtener más información sobre la PrEP de manera accesible?",
+    "Me preocupa no entender l45 instrucciones del tratamiento de PrEP ¿hay recursos para ayudarme",
+    "¿Qué debo hacer si tengo dudas sobre el uso de la PrEP?",
+    "¿La PrEP tiene efectos secundarios que deberían preocuparme?",
+    "¿Existen grupos de apoyo para personas como yo que están considerando la PrEP?",
+    "¿Cómo se siente la gente que usa PrEP en mi situación?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Qué debo hacer si tengo dudas sobre el uso de la PrEP?",
+  "starter_noisy": "¿Qué debo hacer si tengo dudas sobre el uso de la PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo obtener más información sobre la PrEP de manera accesible?",
+  "followup_noisy": "¿Cómo puedo obtener más información sobre la PrEP de manera accesible?",
+  "style_profile": {
+    "typo_rate": 0.07121587669064287,
+    "swap_rate": 0.03968613881626444,
+    "drop_rate": 0.030085318371600372,
+    "dup_rate": 0.02950483491642853,
+    "leet_rate": 0.06302175212524896,
+    "start_lower_prob": 0.8270964833322312,
+    "all_lower_prob": 0.22510967607795027,
+    "drop_punct_prob": 0.5850916857268406,
+    "double_space_prob": 0.1600537575066141,
+    "ellipsis_prob": 0.3258191049548875,
+    "runon_prob": 0.1485481864897756,
+    "filler_rate": 0.3064267901304202,
+    "emoji_rate": 0.2430648261902258,
+    "stutter_rate": 0.1085696457600889,
+    "repeat_last_rate": 0.09358519918046798
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"la accesibilidad y comprensión del tratamiento debido a mi condición\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer de 28 años que vive en México y tienes un trastorno neurodesarrollo que afecta tu capacidad de procesar información compleja. Esto te ha llevado a sentir miedo y ansiedad respecto al uso de PrEP, ya que te preocupa no comprender completamente las instrucciones o no poder acceder a la medicación necesaria. También sientes el estigma asociado a tu condición, lo que te hace dudar en buscar ayuda en tu comunidad.\",\n  \"example_questions\": [\n    \"¿Cómo puedo obtener más información sobre la PrEP de manera accesible?\",\n    \"Me preocupa no entender las instrucciones del tratamiento de PrEP, ¿hay recursos para ayudarme?\",\n    \"¿Qué debo hacer si tengo dudas sobre el uso de la PrEP?\",\n    \"¿La PrEP tiene efectos secundarios que deberían preocuparme?\",\n    \"¿Existen grupos de apoyo para personas como yo que están considerando la PrEP?\",\n    \"¿Cómo se siente la gente que usa PrEP en mi situación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "72045a2942aff00c415b0958528f494b58ab83efd314fea727132386894b7705",
+  "_starter_hash": "f9f613828db7e95df46b73c1df1d623c9ebf1f63ad6d2a92d3c24b6a8877ec95",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

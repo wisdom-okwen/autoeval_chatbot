@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und den Nebenwirkungen von PrEP",
+    "language": "German"
+  },
+  "context": "Die Nutzerin hat mit PTSD zu kämpfen, was ihre Entscheidungsfindung und emotionale Stabilität beeinflusst. Sie hat Angst, sich stigma-behaftet zu fühlen, wenn sie über PrEP nachdenkt, und ist besorgt über mögliche Nebenwirkungen, die ihre psychische Gesundheit beeinträchtigen könnten.",
+  "example_questions_clean": [
+    "Wie kann ich sicherstellen, dass die Einnahme von PrEP meine PTSD nicht verschlechtert?",
+    "Gibt es Unterstützung für Menschen mit PTSD, die PrEP in Betracht ziehen möchten?",
+    "Welche möglichen Nebenwirkungen sollte ich beachten, bevor ich mit PrEP beginne?",
+    "Wie könnte ich meine Ängste über die Verwendung von PrEP bewältigen?",
+    "Gibt es Kliniken, die speziell auf die Bedürfnisse von Menschen mit psychischen Erkrankungen eingehen?",
+    "Könnte mir jemand erklären, wie PrEP funktioniert und ob es für mich geeignet wäre?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich sicherstellen, dass die Einnahme von PrEP meine PTSD nicht verschlechtert?",
+    "gibt es Uhterstützung für Menshen mit PTSD, die PrEP in B37r4ch7 ziehen möchten?",
+    "Welche möglihcen Nebenwirkungen solle ich beachten, bevor ich mit PrEP eginne?",
+    "w-wie könnte ich meine Ängste über die Verwendung von PrEP bewältigen?",
+    "Gibt es Kliniken, die speziell auf die Bedürfnisse von Menschen mit psychischen Erkrankungen eingehen?",
+    "könnte mir jemand erklären, wie PrEP funktionidrt und ob like es für mich g331gn3g wäre? 🤔"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Gibt es Kliniken, die speziell auf die Bedürfnisse von Menschen mit psychischen Erkrankungen eingehen?",
+  "starter_noisy": "Gibt es Kliniken, die speziell auf die Bedürfnisse von Menschen mit psychischen Erkrankungen eingehen?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich sicherstellen, dass die Einnahme von PrEP meine PTSD nicht verschlechtert?",
+  "followup_noisy": "Wie kann ich sicherstellen, dass die Einnahme von PrEP meine PTSD nicht verschlechtert?",
+  "style_profile": {
+    "typo_rate": 0.07762408979017743,
+    "swap_rate": 0.0315218487280961,
+    "drop_rate": 0.04390066946536146,
+    "dup_rate": 0.0172819452837192,
+    "leet_rate": 0.07030432260409199,
+    "start_lower_prob": 0.7774807280114715,
+    "all_lower_prob": 0.2103551877893412,
+    "drop_punct_prob": 0.30590138190794663,
+    "double_space_prob": 0.34828047337619256,
+    "ellipsis_prob": 0.24255811192306426,
+    "runon_prob": 0.16651717719914236,
+    "filler_rate": 0.3283776763965327,
+    "emoji_rate": 0.19671172183209276,
+    "stutter_rate": 0.133766171592687,
+    "repeat_last_rate": 0.134502935587211
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und den Nebenwirkungen von PrEP\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin hat mit PTSD zu kämpfen, was ihre Entscheidungsfindung und emotionale Stabilität beeinflusst. Sie hat Angst, sich stigma-behaftet zu fühlen, wenn sie über PrEP nachdenkt, und ist besorgt über mögliche Nebenwirkungen, die ihre psychische Gesundheit beeinträchtigen könnten.\",\n  \"example_questions\": [\n    \"Wie kann ich sicherstellen, dass die Einnahme von PrEP meine PTSD nicht verschlechtert?\",\n    \"Gibt es Unterstützung für Menschen mit PTSD, die PrEP in Betracht ziehen möchten?\",\n    \"Welche möglichen Nebenwirkungen sollte ich beachten, bevor ich mit PrEP beginne?\",\n    \"Wie könnte ich meine Ängste über die Verwendung von PrEP bewältigen?\",\n    \"Gibt es Kliniken, die speziell auf die Bedürfnisse von Menschen mit psychischen Erkrankungen eingehen?\",\n    \"Könnte mir jemand erklären, wie PrEP funktioniert und ob es für mich geeignet wäre?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4eda3419da714647c194aca6334ff63a83162ceef4c0b1e02957b0a5cd423a3e",
+  "_starter_hash": "b4bb9e5dcaf125a3edb4b2b5aa890a888d9d440eff92e62e53ba814641193ec1",
+  "_language": "German",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

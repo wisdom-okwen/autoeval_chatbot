@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur de la stigmatisation et du jugement",
+    "language": "French"
+  },
+  "context": "Vous vivez avec le poids de la stigmatisation liée au VIH dans votre communauté. Cela a créé une anxiété profonde autour de l'accès à des traitements comme le PrEP, car vous craignez le jugement des autres et l'impact sur vos relations personnelles. Votre désir d'être proactive pour votre santé est fort, mais la peur de l'exposition sociale vous freine.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer le PrEP sans se sentir jugée ?",
+    "Comment puis-je aborder le sujet du PrEP avec un professionnel de la santé ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec la stigmatisation du VIH ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Quelles sont les effets secondaires possibles du PrEP que je devrais connaître ?",
+    "Est-ce que d'autres personnes ayant connu la stigmatisation utilisent le PrEP et quelles sont leurs expériences ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour commencer le PrEP sans 53 sentir jugée ?",
+    "comment pu15-j3 aborder le sujet du prep avec un proefssionnel d3 la santé",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec la stigmatisation du VIH ?",
+    "comeny le prep peut-il m'aider à me sentir plu5 3n sécurité dnas mes relations relations",
+    "Quelles sont les effets secondaires possibles du PrEP que je devrais connaître ?",
+    "Est-ce que d'autres personnes ayant connu la stigmatisation utilisent le PrEP et quelles sont leurs expériences ?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Est-ce que d'autres personnes ayant connu la stigmatisation utilisent le PrEP et quelles sont leurs expériences ?",
+  "starter_noisy": "Est-ce que d'autres personnes ayant connu la stigmatisation utilisent le PrEP et quelles sont leurs expériences ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer le PrEP sans se sentir jugée ?",
+  "followup_noisy": "Quelles sont les étapes pour commencer le PrEP sans 53 sentir jugée ?",
+  "style_profile": {
+    "typo_rate": 0.07215961097089373,
+    "swap_rate": 0.03201113250359189,
+    "drop_rate": 0.0300170328014501,
+    "dup_rate": 0.012380331640725151,
+    "leet_rate": 0.11208410334084286,
+    "start_lower_prob": 0.6507807410846145,
+    "all_lower_prob": 0.21268112904469655,
+    "drop_punct_prob": 0.529795373157534,
+    "double_space_prob": 0.17363328763182642,
+    "ellipsis_prob": 0.33397638887007375,
+    "runon_prob": 0.12250005601110198,
+    "filler_rate": 0.2738603011253169,
+    "emoji_rate": 0.19322637741666224,
+    "stutter_rate": 0.11725421671874305,
+    "repeat_last_rate": 0.12055883444409558
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur de la stigmatisation et du jugement\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez avec le poids de la stigmatisation liée au VIH dans votre communauté. Cela a créé une anxiété profonde autour de l'accès à des traitements comme le PrEP, car vous craignez le jugement des autres et l'impact sur vos relations personnelles. Votre désir d'être proactive pour votre santé est fort, mais la peur de l'exposition sociale vous freine.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer le PrEP sans se sentir jugée ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec un professionnel de la santé ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec la stigmatisation du VIH ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Quelles sont les effets secondaires possibles du PrEP que je devrais connaître ?\",\n    \"Est-ce que d'autres personnes ayant connu la stigmatisation utilisent le PrEP et quelles sont leurs expériences ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a46db0dc42dc44cf8f659715c5845309695e92688957ef1720ec5748bebd0c4",
+  "_starter_hash": "e87b3e2cabce469841f901170b5f6e7f7a0855e9b3804dea87a4b05f22435220",
+  "_language": "French",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

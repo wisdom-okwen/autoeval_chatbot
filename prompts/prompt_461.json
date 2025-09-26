@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 25,
+    "gender": "nicht-binär",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Befürchtung, dass PrEP meine Geschlechtsidentität negativ beeinflusst oder nicht zugänglich ist",
+    "language": "German"
+  },
+  "context": "Du bist nicht-binär und hast Schwierigkeiten, deine Geschlechtsidentität zu akzeptieren. Du bist besorgt über die Stigmatisierung, die mit der Nutzung von PrEP verbunden sein könnte und hast Angst, dass andere Menschen deine Identität und deinen Gesundheitsbedarf nicht verstehen. Diese Sorgen belasten dich emotional und machen es schwieriger, dich mit dem Thema PrEP auseinanderzusetzen.",
+  "example_questions_clean": [
+    "Was sind die gesundheitlichen Vorteile von PrEP für mich?",
+    "Wie kann ich sicherstellen, dass ich PrEP ohne Vorurteile und Diskriminierung erhalten kann?",
+    "Gibt es spezifische Kliniken oder Ärzte, die in Bezug auf Genderfragen sensibel sind?",
+    "Welche Informationen sollte ich bei einem Arztgespräch über PrEP ansprechen?",
+    "Könnte die Einnahme von PrEP meine emotionale Gesundheit beeinflussen?",
+    "Welche Unterstützung gibt es für Menschen mit ähnlichen Herausforderungen wie mir?"
+  ],
+  "example_questions_noisy": [
+    "was 5ind die gesundheitlichen Vkrteile von PrPE für mich?",
+    "Wie kann ich sicherstellen, dass ich PrEP ohne Vorurteile und Diskriminierung erhalten kann?",
+    "gbit es spezifische Kl1n1k3n oder Ärzte die in Bezug auuuf Genderfragen sensibel snid?",
+    "Welche Informationen sollte ich bei einem Arztgespräch über PrEP ansprechen?",
+    "Könnte die Einnahme von PrEP meine emotionale Gesundheit beeinflussen?",
+    "Welche Unterstützung gibt es für Menschen mit ähnlichen Herausforderungen wie mir?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Gibt es spezifische Kliniken oder Ärzte, die in Bezug auf Genderfragen sensibel sind?",
+  "starter_noisy": "gbit es spezifische Kl1n1k3n oder Ärzte die in Bezug auuuf Genderfragen sensibel snid?",
+  "followup_index": 0,
+  "followup_clean": "Was sind die gesundheitlichen Vorteile von PrEP für mich?",
+  "followup_noisy": "was 5ind die gesundheitlichen Vkrteile von PrPE für mich?",
+  "style_profile": {
+    "typo_rate": 0.06489229413751015,
+    "swap_rate": 0.026997665449875564,
+    "drop_rate": 0.02098391929419116,
+    "dup_rate": 0.029075299000327737,
+    "leet_rate": 0.09402960735332459,
+    "start_lower_prob": 0.849022337497517,
+    "all_lower_prob": 0.2727903576678355,
+    "drop_punct_prob": 0.30108074777560695,
+    "double_space_prob": 0.2476207728706849,
+    "ellipsis_prob": 0.2650815415420108,
+    "runon_prob": 0.14379085715218035,
+    "filler_rate": 0.2768252829697392,
+    "emoji_rate": 0.151066453022201,
+    "stutter_rate": 0.14112007090445344,
+    "repeat_last_rate": 0.17866158888051623
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 25,\n    \"gender\": \"nicht-binär\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Befürchtung, dass PrEP meine Geschlechtsidentität negativ beeinflusst oder nicht zugänglich ist\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Du bist nicht-binär und hast Schwierigkeiten, deine Geschlechtsidentität zu akzeptieren. Du bist besorgt über die Stigmatisierung, die mit der Nutzung von PrEP verbunden sein könnte und hast Angst, dass andere Menschen deine Identität und deinen Gesundheitsbedarf nicht verstehen. Diese Sorgen belasten dich emotional und machen es schwieriger, dich mit dem Thema PrEP auseinanderzusetzen.\",\n  \"example_questions\": [\n    \"Was sind die gesundheitlichen Vorteile von PrEP für mich?\",\n    \"Wie kann ich sicherstellen, dass ich PrEP ohne Vorurteile und Diskriminierung erhalten kann?\",\n    \"Gibt es spezifische Kliniken oder Ärzte, die in Bezug auf Genderfragen sensibel sind?\",\n    \"Welche Informationen sollte ich bei einem Arztgespräch über PrEP ansprechen?\",\n    \"Könnte die Einnahme von PrEP meine emotionale Gesundheit beeinflussen?\",\n    \"Welche Unterstützung gibt es für Menschen mit ähnlichen Herausforderungen wie mir?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a4009c9d0e038fb7ca10fbd6cef63c783081d98a38473f261cb2c6903786f077",
+  "_starter_hash": "a6fda587a56a172c857aae445d21c7f398c7d31303d0cee515df89a7d0b02a6c",
+  "_language": "German",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

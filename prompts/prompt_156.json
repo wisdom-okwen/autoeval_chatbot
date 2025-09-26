@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 30,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en bijwerkingen",
+    "language": "Dutch"
+  },
+  "context": "Je herstelt van een trauma en voelt je kwetsbaar. Dit maakt het moeilijk om over je gezondheid te praten en nieuwe behandelingen, zoals PrEP, te overwegen. Je vraagt je af of PrEP geschikt is voor jou, gezien je zorgen over stigma en de impact op je emotionele welzijn.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik die het beste beheren?",
+    "Hoe kan ik mijn huisarts benaderen om over PrEP te praten zonder me ongemakkelijk te voelen?",
+    "Zijn er mensen die hetzelfde hebben meegemaakt en positieve ervaringen met PrEP hebben gehad?",
+    "Hoe kan ik mezelf beter informeren over de effectiviteit van PrEP in mijn situatie?",
+    "Wat zijn de eerste stappen die ik moet nemen om PrEP toegankelijk te maken voor mezelf?",
+    "Wat als ik geen steun heb van mijn omgeving bij het gebruik van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik die het beste beheren?",
+    "Hoe kan ik mijn huisarts benaderen om over PrEP te praten zonder me ongemakkelijk te voelen?",
+    "Zijn er mensen die hetzelfde hbben i mean meegemaakt en positievw ervaringen met PrEP hbben gehad?",
+    "hoe kan ik mezelf beter informeren over de effectiviteit v4n prep in mijn situatie?",
+    "wat zijn d3 eerste stappen die uk moet nejen om prep toegankelijk te maken voor mezelf?",
+    "wattt als ik geen steun heb v4n mijn omgeving bin het gebruik van PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik mijn huisarts benaderen om over PrEP te praten zonder me ongemakkelijk te voelen?",
+  "starter_noisy": "Hoe kan ik mijn huisarts benaderen om over PrEP te praten zonder me ongemakkelijk te voelen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik die het beste beheren?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik die het beste beheren?",
+  "style_profile": {
+    "typo_rate": 0.06817479811559704,
+    "swap_rate": 0.04457170801166565,
+    "drop_rate": 0.024225147443605814,
+    "dup_rate": 0.01652883839953502,
+    "leet_rate": 0.06887486715709382,
+    "start_lower_prob": 0.6914172495517947,
+    "all_lower_prob": 0.1641741647799104,
+    "drop_punct_prob": 0.30763690673380517,
+    "double_space_prob": 0.22247625956492786,
+    "ellipsis_prob": 0.33007664381417867,
+    "runon_prob": 0.24008303015329346,
+    "filler_rate": 0.22165051829891988,
+    "emoji_rate": 0.20857161862375093,
+    "stutter_rate": 0.19241348664518387,
+    "repeat_last_rate": 0.10032740068475407
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 30,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en bijwerkingen\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je herstelt van een trauma en voelt je kwetsbaar. Dit maakt het moeilijk om over je gezondheid te praten en nieuwe behandelingen, zoals PrEP, te overwegen. Je vraagt je af of PrEP geschikt is voor jou, gezien je zorgen over stigma en de impact op je emotionele welzijn.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP en hoe kan ik die het beste beheren?\",\n    \"Hoe kan ik mijn huisarts benaderen om over PrEP te praten zonder me ongemakkelijk te voelen?\",\n    \"Zijn er mensen die hetzelfde hebben meegemaakt en positieve ervaringen met PrEP hebben gehad?\",\n    \"Hoe kan ik mezelf beter informeren over de effectiviteit van PrEP in mijn situatie?\",\n    \"Wat zijn de eerste stappen die ik moet nemen om PrEP toegankelijk te maken voor mezelf?\",\n    \"Wat als ik geen steun heb van mijn omgeving bij het gebruik van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c49054274f5dfd6588404b5a7cb8b371a5a479a6b4ab3fb238b534fd9bd1e42a",
+  "_starter_hash": "9ba1e892abc5d313e6704022534fc1be427cca5a58a1f3c58d6f69a58a1f0704",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

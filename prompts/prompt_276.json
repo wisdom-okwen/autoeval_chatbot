@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 30,
+    "gender": "féminin",
+    "socio_economic_status": "moyen",
+    "primary_concern": "les effets secondaires potentiels du PrEP sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "Vous avez vécu des expériences traumatisantes qui ont entraîné un trouble de stress post-traumatique. Cela influence votre perception des traitements médicaux, comme le PrEP. Vous ressentez de l'anxiété à l'idée de commencer un nouveau médicament et vous vous demandez comment cela pourrait interagir avec vos émotions et votre bien-être mental. Vous craignez également d'être stigmatisée pour votre besoin de protection contre le VIH.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires du PrEP que je devrais connaître, surtout en relation avec mon état de santé mentale ?",
+    "Est-ce que prendre le PrEP pourrait aggraver mes symptômes de PTSD ?",
+    "Comment puis-je aborder la conversation avec mon médecin concernant mes inquiétudes sur le PrEP ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de trauma qui envisagent le PrEP ?",
+    "Quel soutien est disponible pour m'aider à gérer ma santé mentale pendant que je prends du PrEP ?",
+    "Le stigma autour du PrEP est-il un obstacle que d'autres personnes ont également rencontré ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les effets secondaires du PrEP que je devrais connaître, surtout en relation avec mon état de santé mentale ?",
+    "Est-ce que prendre le PrEP pourrait aggraver mes symptômes de PTSD ?",
+    "Comment puis-je aborder la conversation avec mon médecin concernant mes inquiétudes sur le PrEP ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de trauma qui envisagent le PrEP ?",
+    "Quel soutien est disponible pour m'aider à gérer ma santé mentale pendant que je prends du PrEP ?",
+    "pe stigma autour du PrEP 357-il un 0b57acle que d'autres personnes ont également r3nc0n7ré ? ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de trauma qui envisagent le PrEP ?",
+  "starter_noisy": "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de trauma qui envisagent le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires du PrEP que je devrais connaître, surtout en relation avec mon état de santé mentale ?",
+  "followup_noisy": "Quels sont les effets secondaires du PrEP que je devrais connaître, surtout en relation avec mon état de santé mentale ?",
+  "style_profile": {
+    "typo_rate": 0.1113368102285513,
+    "swap_rate": 0.028943634077610546,
+    "drop_rate": 0.025724733511579265,
+    "dup_rate": 0.024438516777030364,
+    "leet_rate": 0.09870200251494045,
+    "start_lower_prob": 0.7245958406865385,
+    "all_lower_prob": 0.2455099058525586,
+    "drop_punct_prob": 0.5749158864519505,
+    "double_space_prob": 0.2664898684594482,
+    "ellipsis_prob": 0.27252474650285585,
+    "runon_prob": 0.24640500841292196,
+    "filler_rate": 0.21498279040833168,
+    "emoji_rate": 0.1991662072998608,
+    "stutter_rate": 0.11179634989415933,
+    "repeat_last_rate": 0.09303464968760096
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 30,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyen\",\n    \"primary_concern\": \"les effets secondaires potentiels du PrEP sur ma santé mentale\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous avez vécu des expériences traumatisantes qui ont entraîné un trouble de stress post-traumatique. Cela influence votre perception des traitements médicaux, comme le PrEP. Vous ressentez de l'anxiété à l'idée de commencer un nouveau médicament et vous vous demandez comment cela pourrait interagir avec vos émotions et votre bien-être mental. Vous craignez également d'être stigmatisée pour votre besoin de protection contre le VIH.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires du PrEP que je devrais connaître, surtout en relation avec mon état de santé mentale ?\",\n    \"Est-ce que prendre le PrEP pourrait aggraver mes symptômes de PTSD ?\",\n    \"Comment puis-je aborder la conversation avec mon médecin concernant mes inquiétudes sur le PrEP ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de trauma qui envisagent le PrEP ?\",\n    \"Quel soutien est disponible pour m'aider à gérer ma santé mentale pendant que je prends du PrEP ?\",\n    \"Le stigma autour du PrEP est-il un obstacle que d'autres personnes ont également rencontré ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8fdcdcd2904991c99a1aad57bc8ae9a823fc944cac320a957f55233473cb45c4",
+  "_starter_hash": "d2fca28c3d5548f15ec21cd7da12ca78772df70f6ddd59849a7afa18eb388792",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

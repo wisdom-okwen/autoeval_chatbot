@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 34,
+    "gender": "femme",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "les effets potentiels de PrEP sur ma santé après un traitement du cancer",
+    "language": "French"
+  },
+  "context": "Vous êtes une femme de 34 ans, française, qui a récemment terminé un traitement contre le cancer. Bien que vous souhaitiez prendre PrEP pour réduire le risque d'infection par le VIH, vous ressentez des appréhensions liées à votre état de santé et aux effets secondaires potentiels. Vous cherchez des informations fiables pour vous aider à prendre une décision éclairée tout en étant préoccupée par la stigmatisation entourant l'utilisation de PrEP.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles de PrEP, en particulier pour quelqu'un dans ma situation ?",
+    "Comment puis-je discuter de la PrEP avec mon médecin sans craindre d'être jugée ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de cancer ?",
+    "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+    "Est-ce que PrEP pourrait interagir avec d'autres médicaments liés à ma santé ?",
+    "Comment les autres personnes ont-elles fait face à la stigmatisation liée à la prise de PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les effets secondaires possibles de PrEP, en particulier pour quelqu'un dans ma situation ?",
+    "Comment puis-je discuter de la PrEP avec mon médecin sans craindre d'être jugée ?",
+    "y a-t-il desss ressources spécifiques puor les personnes ayant des antécédents de c4nc3r ? 🤔",
+    "um quelles sont les étapes à suivre poud accéder à PrEP en France",
+    "Est-ce que PrEP pourrait interagir avec d'autres médicaments liés à ma santé ?",
+    "Comment les autres personnes ont-elles fait face à la i mean stigmatisation liée à la pris de PrEP ? 😕 😕"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+  "starter_noisy": "um quelles sont les étapes à suivre poud accéder à PrEP en France",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires possibles de PrEP, en particulier pour quelqu'un dans ma situation ?",
+  "followup_noisy": "Quels sont les effets secondaires possibles de PrEP, en particulier pour quelqu'un dans ma situation ?",
+  "style_profile": {
+    "typo_rate": 0.06316354129353821,
+    "swap_rate": 0.03646814351214317,
+    "drop_rate": 0.04122119236033185,
+    "dup_rate": 0.024277858899075425,
+    "leet_rate": 0.099102512483625,
+    "start_lower_prob": 0.6558208885353289,
+    "all_lower_prob": 0.27987085009305124,
+    "drop_punct_prob": 0.5126884988206131,
+    "double_space_prob": 0.23758054960912783,
+    "ellipsis_prob": 0.3215206170063457,
+    "runon_prob": 0.28257437234729166,
+    "filler_rate": 0.24344412466749366,
+    "emoji_rate": 0.32136076812317,
+    "stutter_rate": 0.15981468039012495,
+    "repeat_last_rate": 0.09098130442483883
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 34,\n    \"gender\": \"femme\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"les effets potentiels de PrEP sur ma santé après un traitement du cancer\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous êtes une femme de 34 ans, française, qui a récemment terminé un traitement contre le cancer. Bien que vous souhaitiez prendre PrEP pour réduire le risque d'infection par le VIH, vous ressentez des appréhensions liées à votre état de santé et aux effets secondaires potentiels. Vous cherchez des informations fiables pour vous aider à prendre une décision éclairée tout en étant préoccupée par la stigmatisation entourant l'utilisation de PrEP.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles de PrEP, en particulier pour quelqu'un dans ma situation ?\",\n    \"Comment puis-je discuter de la PrEP avec mon médecin sans craindre d'être jugée ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de cancer ?\",\n    \"Quelles sont les étapes à suivre pour accéder à PrEP en France ?\",\n    \"Est-ce que PrEP pourrait interagir avec d'autres médicaments liés à ma santé ?\",\n    \"Comment les autres personnes ont-elles fait face à la stigmatisation liée à la prise de PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9bc466fac3170c98d366e23d6d95f167b2ba569683eb27ae9a7b9a6d9948c388",
+  "_starter_hash": "89d82f04d028d2eb3424670d9408e8c61b9a410be660343f36ae25bc541f873a",
+  "_language": "French",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

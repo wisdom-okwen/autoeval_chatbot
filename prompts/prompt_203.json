@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "miedo a ser juzgada por su situación de salud mental",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que está luchando con la ansiedad social. Te preocupa cómo la gente puede reaccionar al saber que estás considerando PrEP, ya que temes ser estigmatizada. A pesar de tu interés en protegerte, la ansiedad te hace dudar y te sientes abrumada por el proceso de acceder a la medicación.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo podrían afectar mi ansiedad?",
+    "Me preocupa cómo preguntar sobre PrEP en una clínica, ¿tienen consejos para hacer esto más fácil?",
+    "¿Qué tipos de apoyo emocional están disponibles para personas que inician PrEP?",
+    "¿Hay recursos en línea donde pueda aprender más sobre PrEP sin sentirme expuesta?",
+    "¿Es normal sentir miedo al comenzar un tratamiento como PrEP?",
+    "¿Hay alguna forma de hablar con un profesional que entienda mi ansiedad social?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo podrían afectar mi ansiedad?",
+    "me preocupa cómo preguntar sobre PrEP en una clínica, ¿tienen c0n53j05 para hacer 357o más fácil? ❓ ❓",
+    "¿Qué tipos de apoyo emocional están disponibles para personas que inician PrEP?",
+    "¿Hay recursos ennn línea donde ueda aaapreder más 50br3 PrEP sin sentirme expuesta? ✨",
+    "¿Es normal sentir miedo al comenzar un tratamiento como PEP?",
+    "¿Hay alguna forma de hablar con un procesional que entienda mi ansiedad social?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Me preocupa cómo preguntar sobre PrEP en una clínica, ¿tienen consejos para hacer esto más fácil?",
+  "starter_noisy": "me preocupa cómo preguntar sobre PrEP en una clínica, ¿tienen c0n53j05 para hacer 357o más fácil? ❓ ❓",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo podrían afectar mi ansiedad?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo podrían afectar mi ansiedad?",
+  "style_profile": {
+    "typo_rate": 0.05582019859830108,
+    "swap_rate": 0.048493577064707326,
+    "drop_rate": 0.04905073279846961,
+    "dup_rate": 0.024814166338152893,
+    "leet_rate": 0.11934373504464013,
+    "start_lower_prob": 0.8995514479183495,
+    "all_lower_prob": 0.1638783902876573,
+    "drop_punct_prob": 0.5340110826771745,
+    "double_space_prob": 0.15693064255427386,
+    "ellipsis_prob": 0.2594013163656913,
+    "runon_prob": 0.21485823653791264,
+    "filler_rate": 0.4772036312957643,
+    "emoji_rate": 0.23546731873807614,
+    "stutter_rate": 0.19214891604871046,
+    "repeat_last_rate": 0.1435080562433318
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"miedo a ser juzgada por su situación de salud mental\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que está luchando con la ansiedad social. Te preocupa cómo la gente puede reaccionar al saber que estás considerando PrEP, ya que temes ser estigmatizada. A pesar de tu interés en protegerte, la ansiedad te hace dudar y te sientes abrumada por el proceso de acceder a la medicación.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes de PrEP y cómo podrían afectar mi ansiedad?\",\n    \"Me preocupa cómo preguntar sobre PrEP en una clínica, ¿tienen consejos para hacer esto más fácil?\",\n    \"¿Qué tipos de apoyo emocional están disponibles para personas que inician PrEP?\",\n    \"¿Hay recursos en línea donde pueda aprender más sobre PrEP sin sentirme expuesta?\",\n    \"¿Es normal sentir miedo al comenzar un tratamiento como PrEP?\",\n    \"¿Hay alguna forma de hablar con un profesional que entienda mi ansiedad social?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "61a9c50b265459ff17581812430dc6ceb6f484429810fb43507ba8192a8df60d",
+  "_starter_hash": "5681dcd8caf115ee1f4d8b69ab8c0da92b85359bb3bdbb4eea1488ce12d93448",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

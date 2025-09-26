@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de angst voor stigma en bijwerkingen",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker is een 28-jarige Nederlandse vrouw die herstellende is van trauma. Haar persoonlijke ervaringen hebben invloed op haar mindset, waardoor ze bang is om PrEP te bespreken. Ze maakt zich zorgen over de mogelijke bijwerkingen en hoe andere mensen haar kunnen zien als ze PrEP gebruikt.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+    "Hoe kan ik met mijn angsten omgaan als het gaat om het gebruik van PrEP?",
+    "Is het normaal om je zorgen te maken over stigma bij het nemen van PrEP?",
+    "Welke steunbronnen zijn er voor iemand die PrEP overweegt na trauma?",
+    "Hoe kan ik het gesprek over PrEP aangaan met mijn zorgverlener?",
+    "Wat zijn de ervaringen van anderen die in een vergelijkbare situatie zitten?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+    "hoe kan ik met mijh 4ng57en omagan als het gaat om h37 gebruiiik van PrEP 🙄",
+    "Is het normaal om je zorgen te maken over stigma bij het nemen van PrEP?",
+    "Welke steunbronnen zijn er voor iemand die PrEP overweegt na trauma?",
+    "Hoe kan ik het gesprek over PrEP aangaan met mijn zorgverlener?",
+    "Wat zijn de ervaringen van anderen die in een vergelijkbare situatie zitten?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik met mijn angsten omgaan als het gaat om het gebruik van PrEP?",
+  "starter_noisy": "hoe kan ik met mijh 4ng57en omagan als het gaat om h37 gebruiiik van PrEP 🙄",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?",
+  "style_profile": {
+    "typo_rate": 0.08100450037441845,
+    "swap_rate": 0.033467916846809144,
+    "drop_rate": 0.03909611216836266,
+    "dup_rate": 0.012831878462943449,
+    "leet_rate": 0.09618161337860494,
+    "start_lower_prob": 0.7974414279838968,
+    "all_lower_prob": 0.16460192582442118,
+    "drop_punct_prob": 0.36251919699004315,
+    "double_space_prob": 0.2468750729158963,
+    "ellipsis_prob": 0.28283217915627135,
+    "runon_prob": 0.23348147335981442,
+    "filler_rate": 0.4475475144540124,
+    "emoji_rate": 0.333492552526465,
+    "stutter_rate": 0.16566220600080134,
+    "repeat_last_rate": 0.11716524033054367
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de angst voor stigma en bijwerkingen\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"De gebruiker is een 28-jarige Nederlandse vrouw die herstellende is van trauma. Haar persoonlijke ervaringen hebben invloed op haar mindset, waardoor ze bang is om PrEP te bespreken. Ze maakt zich zorgen over de mogelijke bijwerkingen en hoe andere mensen haar kunnen zien als ze PrEP gebruikt.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP waar ik me bewust van moet zijn?\",\n    \"Hoe kan ik met mijn angsten omgaan als het gaat om het gebruik van PrEP?\",\n    \"Is het normaal om je zorgen te maken over stigma bij het nemen van PrEP?\",\n    \"Welke steunbronnen zijn er voor iemand die PrEP overweegt na trauma?\",\n    \"Hoe kan ik het gesprek over PrEP aangaan met mijn zorgverlener?\",\n    \"Wat zijn de ervaringen van anderen die in een vergelijkbare situatie zitten?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c4c87df1cf47b5dd852b5a452876123277eddef645adefd864578d3e82351d75",
+  "_starter_hash": "0b9f90b19d8f6c4aeab789c0309680262f97a9a680b8c560e6c4eb2539f253ba",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

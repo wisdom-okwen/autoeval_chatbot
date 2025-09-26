@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of intimate partner violence, which has made accessing healthcare difficult. The fear of your partner's reaction and the stigma surrounding PrEP create significant barriers for you, affecting your emotional well-being and sense of safety.",
+  "example_questions_clean": [
+    "How can I access PrEP without my partner knowing?",
+    "What should I do if I'm feeling judged by healthcare providers?",
+    "Are there support services for individuals facing intimate partner violence who want to start PrEP?",
+    "Can you tell me more about how PrEP works and its effectiveness?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there a way to get PrEP anonymously?"
+  ],
+  "example_questions_noisy": [
+    "how can i access prep w17h0ut my partner knosing?",
+    "What should I do if I'm feeling judged by healthcare providers?",
+    "are there 5upp0r7 services for individuals facing intimate partner violence who want 7o start prep 😬",
+    "Can yoy tell me more about how PrEP works 4nd its effectiveness?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there a way to get PrEP anonymously?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can you tell me more about how PrEP works and its effectiveness?",
+  "starter_noisy": "Can yoy tell me more about how PrEP works 4nd its effectiveness?",
+  "followup_index": 0,
+  "followup_clean": "How can I access PrEP without my partner knowing?",
+  "followup_noisy": "how can i access prep w17h0ut my partner knosing?",
+  "style_profile": {
+    "typo_rate": 0.09452729936965598,
+    "swap_rate": 0.050461203483021896,
+    "drop_rate": 0.04709368654056559,
+    "dup_rate": 0.012635613970168172,
+    "leet_rate": 0.05757767968872175,
+    "start_lower_prob": 0.6401810464109129,
+    "all_lower_prob": 0.17579889059876727,
+    "drop_punct_prob": 0.5621525609503644,
+    "double_space_prob": 0.24387425463982088,
+    "ellipsis_prob": 0.33163102552465196,
+    "runon_prob": 0.10439180951728583,
+    "filler_rate": 0.22441552023489286,
+    "emoji_rate": 0.2616431050983114,
+    "stutter_rate": 0.12838609531052442,
+    "repeat_last_rate": 0.13003182598816526
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of intimate partner violence, which has made accessing healthcare difficult. The fear of your partner's reaction and the stigma surrounding PrEP create significant barriers for you, affecting your emotional well-being and sense of safety.\",\n  \"example_questions\": [\n    \"How can I access PrEP without my partner knowing?\",\n    \"What should I do if I'm feeling judged by healthcare providers?\",\n    \"Are there support services for individuals facing intimate partner violence who want to start PrEP?\",\n    \"Can you tell me more about how PrEP works and its effectiveness?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there a way to get PrEP anonymously?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9f984153ffc6bb0a0c00be198ed526ec7afc07ad09fddbdbc6c23a3f83097d7c",
+  "_starter_hash": "639c9f4f9ba75f04b32bdf970f187ba5590bef7aca6fb264dd028bbb2c2213ac",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

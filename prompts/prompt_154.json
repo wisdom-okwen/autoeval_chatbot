@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 29,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "J'ai peur des effets secondaires et je me sens souvent anxieuse à propos de mon état de santé.",
+    "language": "French"
+  },
+  "context": "Cette personne lutte avec un trouble anxieux qui affecte sa capacité à prendre des décisions concernant sa santé. Elle s'inquiète des effets secondaires potentiels du PrEP et se sent souvent submergée par la peur et le stigma liés à son état de santé. Son anxiété rend l'accès à des informations sur le PrEP plus difficile, car elle redoute les consultations médicales et craint le jugement des autres.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer le PrEP dans un contexte d'anxiété ?",
+    "Le PrEP peut-il aggraver mes symptômes d'anxiété ?",
+    "Y a-t-il des ressources pour m'aider à gérer mon anxiété tout en prenant le PrEP ?",
+    "Comment parler à mon médecin de mes préoccupations concernant le PrEP ?",
+    "Y a-t-il des histoires positives de personnes comme moi qui ont pris le PrEP ?",
+    "Quels sont les effets secondaires possibles du PrEP auxquels je devrais faire attention ?"
+  ],
+  "example_questions_noisy": [
+    "q-quelles sont l35 étapes pour commencer le PrEP dansss un contexte d'znxiété",
+    "Le PrEP peut-il zggr4v3r mes 5ymp7ôm35 d'anxiété d'anxiété",
+    "Y a-t-il des ressoruces pour m'aider à gérer mon anxiété tout en prenant le PrPE",
+    "Comment parler à mon médecin de mes préoccupations concernant le PrEP ?",
+    "y a-t-il des histoirea positives de personnes comme moi qui ont pr15 le PrEP ?",
+    "quelsss 50nt les efftes secondaires possibles du prep auxquels je defrais faire attention ? 🙄"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment parler à mon médecin de mes préoccupations concernant le PrEP ?",
+  "starter_noisy": "Comment parler à mon médecin de mes préoccupations concernant le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour commencer le PrEP dans un contexte d'anxiété ?",
+  "followup_noisy": "q-quelles sont l35 étapes pour commencer le PrEP dansss un contexte d'znxiété",
+  "style_profile": {
+    "typo_rate": 0.09586599410355783,
+    "swap_rate": 0.05978553680970608,
+    "drop_rate": 0.020631099329524963,
+    "dup_rate": 0.015445833124888064,
+    "leet_rate": 0.11717364357490222,
+    "start_lower_prob": 0.6025425404502531,
+    "all_lower_prob": 0.24608971594058787,
+    "drop_punct_prob": 0.3134062622835341,
+    "double_space_prob": 0.2948591784485505,
+    "ellipsis_prob": 0.20116960153239644,
+    "runon_prob": 0.19662437910759034,
+    "filler_rate": 0.2734717062950907,
+    "emoji_rate": 0.3401254110107307,
+    "stutter_rate": 0.1183117590336279,
+    "repeat_last_rate": 0.16007928400466315
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 29,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"J'ai peur des effets secondaires et je me sens souvent anxieuse à propos de mon état de santé.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne lutte avec un trouble anxieux qui affecte sa capacité à prendre des décisions concernant sa santé. Elle s'inquiète des effets secondaires potentiels du PrEP et se sent souvent submergée par la peur et le stigma liés à son état de santé. Son anxiété rend l'accès à des informations sur le PrEP plus difficile, car elle redoute les consultations médicales et craint le jugement des autres.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer le PrEP dans un contexte d'anxiété ?\",\n    \"Le PrEP peut-il aggraver mes symptômes d'anxiété ?\",\n    \"Y a-t-il des ressources pour m'aider à gérer mon anxiété tout en prenant le PrEP ?\",\n    \"Comment parler à mon médecin de mes préoccupations concernant le PrEP ?\",\n    \"Y a-t-il des histoires positives de personnes comme moi qui ont pris le PrEP ?\",\n    \"Quels sont les effets secondaires possibles du PrEP auxquels je devrais faire attention ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "83f12952500a213755438a7532ca700ef74ae1213a90ecd1b8f30a053a441368",
+  "_starter_hash": "8e3c62f12921d1533864977dffc83162ae3942adfffaf5548b4af9bc631d430f",
+  "_language": "French",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

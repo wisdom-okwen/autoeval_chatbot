@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 29,
+    "gender": "femenino",
+    "socio_economic_status": "medio",
+    "primary_concern": "preocupaciones sobre el estigma y el impacto en mi salud mental",
+    "language": "Spanish"
+  },
+  "context": "La usuaria ha estado lidiando con el PTSD después de una experiencia traumática. Esto afecta su capacidad para manejar el estrés y puede hacer que se sienta ansiosa al buscar información sobre PrEP. Tiene miedo del juicio de los demás y se preocupa por cómo la percepción social podría afectar su bienestar emocional y su acceso al tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP si tengo problemas de salud mental?",
+    "Me preocupa el estigma asociado a PrEP, ¿cómo puedo manejarlo?",
+    "¿Es común que las personas con PTSD consideren usar PrEP?",
+    "¿Qué recursos hay para personas que enfrentan ansiedad al acceder a tratamientos como PrEP?",
+    "¿Cómo puedo hablar sobre mis necesidades de salud sexual sin sentirme juzgada?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios um de 70m4r PrEP si tengo problemqs d3 salud mental 🫠",
+    "me preocupa el estigma asociado a PPPrEP ¿cómo puedo manejarlo 🫠",
+    "¿Es común qu3 las personas con PTSD consideren usar PrEP ❓ ❓",
+    "¿Qué recursos hay para personas que enfrentan ansiedad al acceder a tratamientos como PrEP?",
+    "¿Cómo puedo hablar sobre mis necesidades de salud sexual sin sentirme juzgada?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Cómo puedo hablar sobre mis necesidades de salud sexual sin sentirme juzgada?",
+  "starter_noisy": "¿Cómo puedo hablar sobre mis necesidades de salud sexual sin sentirme juzgada?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP si tengo problemas de salud mental?",
+  "followup_noisy": "¿Cuáles son los beneficios um de 70m4r PrEP si tengo problemqs d3 salud mental 🫠",
+  "style_profile": {
+    "typo_rate": 0.07251359882764305,
+    "swap_rate": 0.02131799679779803,
+    "drop_rate": 0.021111359127353818,
+    "dup_rate": 0.016800108959152543,
+    "leet_rate": 0.1094117109242755,
+    "start_lower_prob": 0.7318636748312863,
+    "all_lower_prob": 0.18349129754980104,
+    "drop_punct_prob": 0.5035189932945638,
+    "double_space_prob": 0.2879300639776929,
+    "ellipsis_prob": 0.2698602804695259,
+    "runon_prob": 0.2518831930834521,
+    "filler_rate": 0.48853976824966044,
+    "emoji_rate": 0.25741777572403923,
+    "stutter_rate": 0.1699912679549189,
+    "repeat_last_rate": 0.12076548650580073
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 29,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"preocupaciones sobre el estigma y el impacto en mi salud mental\",\n    \"language\": \"español\"\n  },\n  \"context\": \"La usuaria ha estado lidiando con el PTSD después de una experiencia traumática. Esto afecta su capacidad para manejar el estrés y puede hacer que se sienta ansiosa al buscar información sobre PrEP. Tiene miedo del juicio de los demás y se preocupa por cómo la percepción social podría afectar su bienestar emocional y su acceso al tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP si tengo problemas de salud mental?\",\n    \"Me preocupa el estigma asociado a PrEP, ¿cómo puedo manejarlo?\",\n    \"¿Es común que las personas con PTSD consideren usar PrEP?\",\n    \"¿Qué recursos hay para personas que enfrentan ansiedad al acceder a tratamientos como PrEP?\",\n    \"¿Cómo puedo hablar sobre mis necesidades de salud sexual sin sentirme juzgada?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3a283a68bdcbcbb1b2b2658aac89aee17ef17dd1b89a046961b413c93ccff7e4",
+  "_starter_hash": "87156087b0dba3e3553d1006aa8b485039bbccece4b7870c5dd4bac1aa67b92c",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

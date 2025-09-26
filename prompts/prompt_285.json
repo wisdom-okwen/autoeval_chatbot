@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "miedo al estigma social y a ser juzgada por tomar PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 29 años que se siente insegura sobre su salud sexual y teme el juicio de los demás. Tu autoestima ha sido un reto y te preocupa cómo otros podrían ver tu decisión de acceder a PrEP. Esto te causa ansiedad y te hace dudar sobre si deberías hablar con un profesional de la salud.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP en mi situación personal?",
+    "¿Cómo puedo manejar el miedo al estigma social relacionado con PrEP?",
+    "¿Es posible acceder a PrEP sin enfrentar juicios por parte del personal médico?",
+    "¿Qué pasos debo seguir para empezar con el tratamiento de PrEP?",
+    "¿Hay grupos de apoyo para personas que toman PrEP y se sienten inseguras?",
+    "¿Cómo afecta mi autoestima la decisión de comenzar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de tomar PrEP en mi situación personal?",
+    "¿Cómo puedo manejar el miedo al estigma social relacionado con PrEP?",
+    "¿Es posible acceder a PrEP sin enfrentar juicios por parte del personal médico?",
+    "¿Qué pasos debo i mean 53gu1r para empezar con el tratamiento de Pr3P? Pr3P?",
+    "¿hay grpos de 4p0yo praa personas que toman pwp y you know se sienten 1n53gur4s?",
+    "¿Cómo afecta mi autoestima la decisión de comenzar PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Es posible acceder a PrEP sin enfrentar juicios por parte del personal médico?",
+  "starter_noisy": "¿Es posible acceder a PrEP sin enfrentar juicios por parte del personal médico?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP en mi situación personal?",
+  "followup_noisy": "¿Cuáles son los beneficios de tomar PrEP en mi situación personal?",
+  "style_profile": {
+    "typo_rate": 0.05290047690295726,
+    "swap_rate": 0.023287936481484476,
+    "drop_rate": 0.04991868138729546,
+    "dup_rate": 0.028072905691976423,
+    "leet_rate": 0.09822964456609456,
+    "start_lower_prob": 0.6588606560235664,
+    "all_lower_prob": 0.2659772008250453,
+    "drop_punct_prob": 0.4545305406270418,
+    "double_space_prob": 0.1898972020215383,
+    "ellipsis_prob": 0.17686687539122256,
+    "runon_prob": 0.2020236251394209,
+    "filler_rate": 0.3931742920094786,
+    "emoji_rate": 0.1617611745857594,
+    "stutter_rate": 0.16734933907025173,
+    "repeat_last_rate": 0.1449681822855144
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"miedo al estigma social y a ser juzgada por tomar PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 29 años que se siente insegura sobre su salud sexual y teme el juicio de los demás. Tu autoestima ha sido un reto y te preocupa cómo otros podrían ver tu decisión de acceder a PrEP. Esto te causa ansiedad y te hace dudar sobre si deberías hablar con un profesional de la salud.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP en mi situación personal?\",\n    \"¿Cómo puedo manejar el miedo al estigma social relacionado con PrEP?\",\n    \"¿Es posible acceder a PrEP sin enfrentar juicios por parte del personal médico?\",\n    \"¿Qué pasos debo seguir para empezar con el tratamiento de PrEP?\",\n    \"¿Hay grupos de apoyo para personas que toman PrEP y se sienten inseguras?\",\n    \"¿Cómo afecta mi autoestima la decisión de comenzar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1ac8184cd64a80d9db2848b59d0636cd4e3178e461198b962a6cd566c40204b6",
+  "_starter_hash": "bb1536d4424edd96c3b2680c0505dd2840c9033d83eea834f2cd8a3ebdd02aff",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

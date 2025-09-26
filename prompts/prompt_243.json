@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 35,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Nebenwirkungen und fehlender Zugang zu medizinischer Unterstützung",
+    "language": "German"
+  },
+  "context": "Die Nutzerin lebt mit chronischen Schmerzen, was ihre Mobilität und den Zugang zu Gesundheitsdiensten beeinträchtigt. Sie hat Angst, dass die Einnahme von PrEP ihre Schmerzen verschlimmern könnte, und ist unsicher, ob sie die notwendige Unterstützung von ihrem Arzt bekommen kann.",
+  "example_questions_clean": [
+    "Wie beeinflussen chronische Schmerzen die Entscheidung, PrEP zu nehmen?",
+    "Könnten die Nebenwirkungen von PrEP meine bestehenden Schmerzen verschlimmern?",
+    "Welche Unterstützung kann ich von meinem Arzt erwarten, wenn ich PrEP in Betracht ziehe?",
+    "Wie kann ich sicherstellen, dass ich Zugang zu den notwendigen Medikamenten habe?",
+    "Gibt es spezielle Programme für Menschen mit chronischen Erkrankungen, die PrEP benötigen?",
+    "Wie gehe ich mit der Angst um, stigmatisiert zu werden, wenn ich nach PrEP frage?"
+  ],
+  "example_questions_noisy": [
+    "qie beeinflussen chrpnische Schmerzen die ntscheidung PrsP zu nehmen 🫠 🫠",
+    "Könnten die Nebenwirkungen von PrEP meine bestehenden Schmerzen verschlimmern?",
+    "Welche Unterstützung kann ich von meinem Arzt erwarten, wenn ich PrEP in Betracht ziehe?",
+    "wie kann ich sicherstellen dass ich zugang i mean zu den notwendigen medikamenten habe? 🫠",
+    "Gibt es spezielle Programme für Menschen mit chronischen Erkrankungen, die PrEP benötigen?",
+    "Wie gehe ich mit der Angst um, stigmatisiert zu werden, wenn ich nach PrEP frage?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Welche Unterstützung kann ich von meinem Arzt erwarten, wenn ich PrEP in Betracht ziehe?",
+  "starter_noisy": "Welche Unterstützung kann ich von meinem Arzt erwarten, wenn ich PrEP in Betracht ziehe?",
+  "followup_index": 0,
+  "followup_clean": "Wie beeinflussen chronische Schmerzen die Entscheidung, PrEP zu nehmen?",
+  "followup_noisy": "qie beeinflussen chrpnische Schmerzen die ntscheidung PrsP zu nehmen 🫠 🫠",
+  "style_profile": {
+    "typo_rate": 0.0522725798087217,
+    "swap_rate": 0.05666774786866738,
+    "drop_rate": 0.04538066813410747,
+    "dup_rate": 0.026960445885624316,
+    "leet_rate": 0.09638263028093189,
+    "start_lower_prob": 0.6055833353177943,
+    "all_lower_prob": 0.19516516337172207,
+    "drop_punct_prob": 0.5051274470299666,
+    "double_space_prob": 0.19150183405247692,
+    "ellipsis_prob": 0.21401467148402498,
+    "runon_prob": 0.1729279520790274,
+    "filler_rate": 0.48481137264247465,
+    "emoji_rate": 0.16139250728928545,
+    "stutter_rate": 0.14074122550308804,
+    "repeat_last_rate": 0.08434222669168673
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 35,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Nebenwirkungen und fehlender Zugang zu medizinischer Unterstützung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin lebt mit chronischen Schmerzen, was ihre Mobilität und den Zugang zu Gesundheitsdiensten beeinträchtigt. Sie hat Angst, dass die Einnahme von PrEP ihre Schmerzen verschlimmern könnte, und ist unsicher, ob sie die notwendige Unterstützung von ihrem Arzt bekommen kann.\",\n  \"example_questions\": [\n    \"Wie beeinflussen chronische Schmerzen die Entscheidung, PrEP zu nehmen?\",\n    \"Könnten die Nebenwirkungen von PrEP meine bestehenden Schmerzen verschlimmern?\",\n    \"Welche Unterstützung kann ich von meinem Arzt erwarten, wenn ich PrEP in Betracht ziehe?\",\n    \"Wie kann ich sicherstellen, dass ich Zugang zu den notwendigen Medikamenten habe?\",\n    \"Gibt es spezielle Programme für Menschen mit chronischen Erkrankungen, die PrEP benötigen?\",\n    \"Wie gehe ich mit der Angst um, stigmatisiert zu werden, wenn ich nach PrEP frage?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c424bd6b9aac841fac29eec6bba4d96a674b0c5dc6c6fad9de680000906f1f7b",
+  "_starter_hash": "5abc704c5b18cb2ddc7c41a75cb9a9502b08d67a18cd8df397e9308193b9fe5a",
+  "_language": "German",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

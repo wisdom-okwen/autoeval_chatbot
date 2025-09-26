@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "l'impact de l'histoire de consommation de substances sur l'accès à PrEP",
+    "language": "French"
+  },
+  "context": "Cette personne a un passé de consommation de substances qui influence son état d'esprit, notamment une peur de la stigmatisation et des doutes sur sa capacité à accéder au PrEP. Elle ressent une combinaison d'espoir pour une meilleure santé sexuelle et une appréhension face aux jugements sociaux.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP en France si j'ai une histoire de consommation de substances ?",
+    "Est-il possible de recevoir PrEP dans un environnement où je ne me sens pas jugée ?",
+    "Quelles ressources existent pour soutenir les personnes comme moi lors de la prise de décision concernant le PrEP ?",
+    "Le PrEP est-il compatible avec un traitement de désintoxication que je suis actuellement ?",
+    "Y a-t-il des groupes de soutien pour aider les gens ayant des antécédents similaires dans leur parcours vers le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour obtenir PrEP en France si j'ai une histoire de consommation de substances ?",
+    "s-sEt-jl possible de recevoir PrEP dans un environnement où je ne ne sens pas jugée",
+    "quelles ressources existent pour soutenir les personnes comme m01 lors de la pries de décision concernant le prep ❓",
+    "le prep est-il compatible avec un traitement de désintoxication qu3 je suis actuellement ?",
+    "y 4--7il des groupes de soutien p0ur aider les gens ayant des antécédents similaires dans leur p4rcour5 vers le rEP"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Quelles ressources existent pour soutenir les personnes comme moi lors de la prise de décision concernant le PrEP ?",
+  "starter_noisy": "quelles ressources existent pour soutenir les personnes comme m01 lors de la pries de décision concernant le prep ❓",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir PrEP en France si j'ai une histoire de consommation de substances ?",
+  "followup_noisy": "Quelles sont les étapes pour obtenir PrEP en France si j'ai une histoire de consommation de substances ?",
+  "style_profile": {
+    "typo_rate": 0.06974467047721944,
+    "swap_rate": 0.054406513403234144,
+    "drop_rate": 0.04456666132004261,
+    "dup_rate": 0.014545241294287383,
+    "leet_rate": 0.05782268480018298,
+    "start_lower_prob": 0.8108282235917783,
+    "all_lower_prob": 0.22374736291858502,
+    "drop_punct_prob": 0.48559187048665525,
+    "double_space_prob": 0.3404549207027789,
+    "ellipsis_prob": 0.17347290944525273,
+    "runon_prob": 0.11246170016770629,
+    "filler_rate": 0.2946932563908983,
+    "emoji_rate": 0.3498493916128161,
+    "stutter_rate": 0.17244707563814904,
+    "repeat_last_rate": 0.10520578602792276
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"l'impact de l'histoire de consommation de substances sur l'accès à PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne a un passé de consommation de substances qui influence son état d'esprit, notamment une peur de la stigmatisation et des doutes sur sa capacité à accéder au PrEP. Elle ressent une combinaison d'espoir pour une meilleure santé sexuelle et une appréhension face aux jugements sociaux.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP en France si j'ai une histoire de consommation de substances ?\",\n    \"Est-il possible de recevoir PrEP dans un environnement où je ne me sens pas jugée ?\",\n    \"Quelles ressources existent pour soutenir les personnes comme moi lors de la prise de décision concernant le PrEP ?\",\n    \"Le PrEP est-il compatible avec un traitement de désintoxication que je suis actuellement ?\",\n    \"Y a-t-il des groupes de soutien pour aider les gens ayant des antécédents similaires dans leur parcours vers le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7f77bef2d01abce0a0a2295b388f24a0bd84a6735a3754790958525e880b9429",
+  "_starter_hash": "9085af6c5f3d66d3805a919e2ef3c1263262361aa34fb2540819107a08cc23d7",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

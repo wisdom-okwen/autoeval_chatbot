@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "el miedo al estigma social asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Esta mujer enfrenta el desafío de vivir con el estigma relacionado con el VIH en su comunidad. Esto la lleva a sentir ansiedad sobre cómo será percibida si busca información sobre PrEP. La presión social y el miedo a ser juzgada afectan su decisión de acceder a este tratamiento preventivo.",
+  "example_questions_clean": [
+    "¿Cómo puedo superar el miedo al estigma social cuando hablo de PrEP?",
+    "¿Qué recursos hay disponibles para alguien en mi situación que quiere considerar PrEP?",
+    "¿Es común que las personas enfrenten rechazo al hablar de PrEP?",
+    "¿Qué pasos debo seguir para empezar a usar PrEP sin sentirme juzgada?",
+    "¿Hay grupos de apoyo que se enfoquen en el uso de PrEP y la reducción del estigma?",
+    "¿Cuáles son los beneficios emocionales de tomar PrEP en mi caso?"
+  ],
+  "example_questions_noisy": [
+    "¿cómo pu3d0 superar el miedo alll estifma social cuando hablo de prep? 😕 😕",
+    "¿Qué recursos hay disponibles para alguien en mi situación que quiere considerar PrEP?",
+    "¿es común que las personas enfrenten rscahzo al h4bl4r de prep?",
+    "¿Qué pasos debo seguir para empezar a usar PrEP sin sentirme juzgada?",
+    "¿hay grupos re apoyo que se enfoquen en el uso de prep y la reducción del estigma",
+    "¿Cuáles son los ben3f1c105 emocionales de tomar PrEP en mi caso"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Qué recursos hay disponibles para alguien en mi situación que quiere considerar PrEP?",
+  "starter_noisy": "¿Qué recursos hay disponibles para alguien en mi situación que quiere considerar PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo superar el miedo al estigma social cuando hablo de PrEP?",
+  "followup_noisy": "¿cómo pu3d0 superar el miedo alll estifma social cuando hablo de prep? 😕 😕",
+  "style_profile": {
+    "typo_rate": 0.06703327021024824,
+    "swap_rate": 0.0494484842594953,
+    "drop_rate": 0.03940642048889935,
+    "dup_rate": 0.023674556305705315,
+    "leet_rate": 0.10407401376232388,
+    "start_lower_prob": 0.6004997382277039,
+    "all_lower_prob": 0.33509360607951855,
+    "drop_punct_prob": 0.4416708349298474,
+    "double_space_prob": 0.3199903929026482,
+    "ellipsis_prob": 0.3048803653949596,
+    "runon_prob": 0.14518718978183806,
+    "filler_rate": 0.3056092025090979,
+    "emoji_rate": 0.3423663100069283,
+    "stutter_rate": 0.18738115423132115,
+    "repeat_last_rate": 0.14144166099500807
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"el miedo al estigma social asociado con el uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta mujer enfrenta el desafío de vivir con el estigma relacionado con el VIH en su comunidad. Esto la lleva a sentir ansiedad sobre cómo será percibida si busca información sobre PrEP. La presión social y el miedo a ser juzgada afectan su decisión de acceder a este tratamiento preventivo.\",\n  \"example_questions\": [\n    \"¿Cómo puedo superar el miedo al estigma social cuando hablo de PrEP?\",\n    \"¿Qué recursos hay disponibles para alguien en mi situación que quiere considerar PrEP?\",\n    \"¿Es común que las personas enfrenten rechazo al hablar de PrEP?\",\n    \"¿Qué pasos debo seguir para empezar a usar PrEP sin sentirme juzgada?\",\n    \"¿Hay grupos de apoyo que se enfoquen en el uso de PrEP y la reducción del estigma?\",\n    \"¿Cuáles son los beneficios emocionales de tomar PrEP en mi caso?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ac362a1ea8227e059efd63cdcbbd4ca61405a7cc3ad3c8d9bab16908c3acac9d",
+  "_starter_hash": "97780b028c8013d8308b758bd2d0df60dde85138c11a2bb2b824a499ea02ede0",
+  "_language": "Spanish",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 25,
+    "gender": "nicht-binär",
+    "socio_economic_status": "mittelklasse",
+    "primary_concern": "Zugang zu medizinischer Versorgung und Stigmatisierung aufgrund von Geschlechtsidentität",
+    "language": "German"
+  },
+  "context": "Als nicht-binäre Person, die mit Geschlechtsdysphorie kämpft, fühle ich mich oft verletzlich und unsicher. Die Angst vor Stigmatisierung und Missverständnissen in der medizinischen Gemeinschaft macht den Zugang zu PrEP herausfordernd. Ich möchte meine Gesundheit schützen, aber ich mache mir Sorgen, wie medizinisches Personal auf meine Identität reagieren wird.",
+  "example_questions_clean": [
+    "Wie finde ich einen Arzt, der meine Identität respektiert und mich über PrEP informieren kann?",
+    "Gibt es spezielle Programme oder Unterstützung für nicht-binäre Menschen, die PrEP in Anspruch nehmen möchten?",
+    "Ich habe Angst vor der Stigmatisierung im Gesundheitswesen; wie kann ich damit umgehen?",
+    "Welche finanziellen Hilfen gibt es für Menschen in meiner Situation, um PrEP zu erhalten?",
+    "Könnte es negative Auswirkungen auf meine psychische Gesundheit haben, wenn ich über meine Geschlechtsidentität spreche, während ich nach PrEP frage?",
+    "Welche Informationen sollte ich bereit haben, um gut vorbereitet zu meinem Arztbesuch zu gehen?"
+  ],
+  "example_questions_noisy": [
+    "wie finde ich 31n3n arzt, der meine identität respektiert und mic über prep informieren uh kann?",
+    "Gibt es spezielle Programme oder Unterstützung für nicht-binäre Menschen, die PrEP in Anspruch nehmen möchten?",
+    "Ich habe Angst vor der Stigmatisierung im Gesundheitswesen; wie kann ich damit umgehen?",
+    "Welche finanziellen Hilfen gibt es für Menschen in meiner Situation, um PrEP zu erhalten?",
+    "k-könnttte es negative Auswirknugen auf meien psychische Gesundheit haben wenn um ich über meien Geschlechtsidentität spreche, während 1ch nach PrEP frage?",
+    "Welche Informationen sollte ich bereit haben, um gut vorbereitet zu meinem Arztbesuch zu gehen?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ich habe Angst vor der Stigmatisierung im Gesundheitswesen; wie kann ich damit umgehen?",
+  "starter_noisy": "Ich habe Angst vor der Stigmatisierung im Gesundheitswesen; wie kann ich damit umgehen?",
+  "followup_index": 0,
+  "followup_clean": "Wie finde ich einen Arzt, der meine Identität respektiert und mich über PrEP informieren kann?",
+  "followup_noisy": "wie finde ich 31n3n arzt, der meine identität respektiert und mic über prep informieren uh kann?",
+  "style_profile": {
+    "typo_rate": 0.06487694106311866,
+    "swap_rate": 0.03807872971137766,
+    "drop_rate": 0.042253650755027676,
+    "dup_rate": 0.02154345249931455,
+    "leet_rate": 0.08601164618810041,
+    "start_lower_prob": 0.7999104671169134,
+    "all_lower_prob": 0.2146627411741823,
+    "drop_punct_prob": 0.5826126229441028,
+    "double_space_prob": 0.21148660053423693,
+    "ellipsis_prob": 0.30927864742228073,
+    "runon_prob": 0.28756422002467463,
+    "filler_rate": 0.3854119546354831,
+    "emoji_rate": 0.15076583806900848,
+    "stutter_rate": 0.1100227633695218,
+    "repeat_last_rate": 0.17376304767947037
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 25,\n    \"gender\": \"nicht-binär\",\n    \"socio_economic_status\": \"mittelklasse\",\n    \"primary_concern\": \"Zugang zu medizinischer Versorgung und Stigmatisierung aufgrund von Geschlechtsidentität\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Als nicht-binäre Person, die mit Geschlechtsdysphorie kämpft, fühle ich mich oft verletzlich und unsicher. Die Angst vor Stigmatisierung und Missverständnissen in der medizinischen Gemeinschaft macht den Zugang zu PrEP herausfordernd. Ich möchte meine Gesundheit schützen, aber ich mache mir Sorgen, wie medizinisches Personal auf meine Identität reagieren wird.\",\n  \"example_questions\": [\n    \"Wie finde ich einen Arzt, der meine Identität respektiert und mich über PrEP informieren kann?\",\n    \"Gibt es spezielle Programme oder Unterstützung für nicht-binäre Menschen, die PrEP in Anspruch nehmen möchten?\",\n    \"Ich habe Angst vor der Stigmatisierung im Gesundheitswesen; wie kann ich damit umgehen?\",\n    \"Welche finanziellen Hilfen gibt es für Menschen in meiner Situation, um PrEP zu erhalten?\",\n    \"Könnte es negative Auswirkungen auf meine psychische Gesundheit haben, wenn ich über meine Geschlechtsidentität spreche, während ich nach PrEP frage?\",\n    \"Welche Informationen sollte ich bereit haben, um gut vorbereitet zu meinem Arztbesuch zu gehen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "21acdf1b96a872ee4af709e28565e782e47f7026b67ffa8eeb1c814923f4301c",
+  "_starter_hash": "70583cef3150ae4a8b350c0651be48613e71a69ddcc65fba9d0828fe55668627",
+  "_language": "German",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

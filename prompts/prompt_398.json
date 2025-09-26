@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Colombiana",
+    "age": 29,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Temor a la violencia de pareja al acceder a PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer colombiana de 29 años que está lidiando con una situación de violencia de pareja. Este entorno te hace sentir miedo y ansiedad, lo que dificulta tu acceso a la atención de salud y a la información sobre PrEP. Sientes que tu seguridad es prioritaria y te preocupa cómo la toma de decisiones sobre tu salud podría afectar tu relación actual.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Qué recursos existen para mujeres en mi situación que necesiten PrEP?",
+    "Me preocupa el estigma asociado al uso de PrEP, ¿cómo puedo manejarlo?",
+    "¿Qué debo considerar antes de hablar con un médico sobre PrEP?",
+    "¿Existen organizaciones que puedan ayudarme a acceder a PrEP en un ambiente seguro?",
+    "¿Qué información debería tener sobre los efectos secundarios de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Qué recursos existen para mujeres en mi situación que necesiten PrEP?",
+    "Me preocupa el estigma asociado al uso de PrEP, ¿cómo puedo manejarlo?",
+    "¿Qué debo c0n51d3r4r antes dr uh hablar con un médico sobre PrEP",
+    "¿Existen organizaciones que puedan ayudarme a acceder a PrEP en un ambiente seguro?",
+    "¿Qu informaicón debería tener sobre los efectosss secundarios se PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Me preocupa el estigma asociado al uso de PrEP, ¿cómo puedo manejarlo?",
+  "starter_noisy": "Me preocupa el estigma asociado al uso de PrEP, ¿cómo puedo manejarlo?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+  "followup_noisy": "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+  "style_profile": {
+    "typo_rate": 0.06343796179853063,
+    "swap_rate": 0.04676884756276079,
+    "drop_rate": 0.025436620972044577,
+    "dup_rate": 0.01874521230390625,
+    "leet_rate": 0.08980169034900606,
+    "start_lower_prob": 0.7734113830418065,
+    "all_lower_prob": 0.2651645817679789,
+    "drop_punct_prob": 0.3979771275457542,
+    "double_space_prob": 0.22581594108918152,
+    "ellipsis_prob": 0.15092929828721557,
+    "runon_prob": 0.1068340334771088,
+    "filler_rate": 0.31710286256182824,
+    "emoji_rate": 0.3101363306503938,
+    "stutter_rate": 0.14559102359841739,
+    "repeat_last_rate": 0.15146046896026932
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Colombiana\",\n    \"age\": 29,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Temor a la violencia de pareja al acceder a PrEP\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer colombiana de 29 años que está lidiando con una situación de violencia de pareja. Este entorno te hace sentir miedo y ansiedad, lo que dificulta tu acceso a la atención de salud y a la información sobre PrEP. Sientes que tu seguridad es prioritaria y te preocupa cómo la toma de decisiones sobre tu salud podría afectar tu relación actual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?\",\n    \"¿Qué recursos existen para mujeres en mi situación que necesiten PrEP?\",\n    \"Me preocupa el estigma asociado al uso de PrEP, ¿cómo puedo manejarlo?\",\n    \"¿Qué debo considerar antes de hablar con un médico sobre PrEP?\",\n    \"¿Existen organizaciones que puedan ayudarme a acceder a PrEP en un ambiente seguro?\",\n    \"¿Qué información debería tener sobre los efectos secundarios de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "514fe380c632d9da36e2434b0412d0dda6bf2d60f75034c6ad167c975cc6fc99",
+  "_starter_hash": "0198fa502bdc49768b602d9ec5f28186c4df6a6cd5d5a27808395f5b682838b6",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

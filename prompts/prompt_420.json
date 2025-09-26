@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en de impact van trauma op mijn gezondheid",
+    "language": "Dutch"
+  },
+  "context": "Je bent een 32-jarige Nederlandse vrouw die herstellende is van trauma. Dit heeft je kijk op intieme relaties en je gevoel van veiligheid beïnvloed. Je maakt je zorgen over hoe PrEP jouw situatie kan veranderen en of het veilig voor je is, gezien je persoonlijke geschiedenis. De angst voor stigma houdt je tegen om verder te zoeken naar informatie.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van PrEP voor iemand die trauma heeft ervaren?",
+    "Zijn er specifieke overwegingen voor vrouwen die PrEP overwegen in verband met hun mentale gezondheid?",
+    "Hoe kan ik ervoor zorgen dat ik toegang krijg tot PrEP zonder oordeel van anderen?",
+    "Kun je uitleggen hoe PrEP mijn risico op hiv kan verlagen?",
+    "Wat moet ik doen als ik me ongemakkelijk voel om over PrEP te praten met mijn zorgverlener?",
+    "Zijn er steunprogramma's voor mensen zoals ik die PrEP willen gebruiken?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de voordelen van PrEP voor iemand die trauma heeft ervaren?",
+    "zijn er specifieke overwegingen voor vrouwen d13 PrEP overwegen in verband m37 hun mentale gezondheid? 💀",
+    "Hoe kan ik ervoor zorgen dat ik toegang krijg tot PrEP zonder oordeel van anderen?",
+    "Kun je uitleggen hoe PrEP mijn risico op hiv kan verlagen?",
+    "wat moet ik doen als ik me ongemakkelijk voel om over Pr3P te praten met ijn zorgverlener?",
+    "xijn er steunprogramma's voor mensen zoals ik die perp willen gebruiken?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Hoe kan ik ervoor zorgen dat ik toegang krijg tot PrEP zonder oordeel van anderen?",
+  "starter_noisy": "Hoe kan ik ervoor zorgen dat ik toegang krijg tot PrEP zonder oordeel van anderen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de voordelen van PrEP voor iemand die trauma heeft ervaren?",
+  "followup_noisy": "Wat zijn de voordelen van PrEP voor iemand die trauma heeft ervaren?",
+  "style_profile": {
+    "typo_rate": 0.06819733515936721,
+    "swap_rate": 0.027479389784924594,
+    "drop_rate": 0.04720998661664401,
+    "dup_rate": 0.01011864550442135,
+    "leet_rate": 0.09984296358154832,
+    "start_lower_prob": 0.8011020135061164,
+    "all_lower_prob": 0.30990293330086016,
+    "drop_punct_prob": 0.42426705447914165,
+    "double_space_prob": 0.17090945397412804,
+    "ellipsis_prob": 0.3321050860331945,
+    "runon_prob": 0.13234828806877744,
+    "filler_rate": 0.3167111213094873,
+    "emoji_rate": 0.15163573327134885,
+    "stutter_rate": 0.16402495220119684,
+    "repeat_last_rate": 0.16208452636755255
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en de impact van trauma op mijn gezondheid\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je bent een 32-jarige Nederlandse vrouw die herstellende is van trauma. Dit heeft je kijk op intieme relaties en je gevoel van veiligheid beïnvloed. Je maakt je zorgen over hoe PrEP jouw situatie kan veranderen en of het veilig voor je is, gezien je persoonlijke geschiedenis. De angst voor stigma houdt je tegen om verder te zoeken naar informatie.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van PrEP voor iemand die trauma heeft ervaren?\",\n    \"Zijn er specifieke overwegingen voor vrouwen die PrEP overwegen in verband met hun mentale gezondheid?\",\n    \"Hoe kan ik ervoor zorgen dat ik toegang krijg tot PrEP zonder oordeel van anderen?\",\n    \"Kun je uitleggen hoe PrEP mijn risico op hiv kan verlagen?\",\n    \"Wat moet ik doen als ik me ongemakkelijk voel om over PrEP te praten met mijn zorgverlener?\",\n    \"Zijn er steunprogramma's voor mensen zoals ik die PrEP willen gebruiken?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9108524699bf8c5b05c52072b4a0d045a3c7418ccb3fcd9ddbc2cd589a9b2a6d",
+  "_starter_hash": "cbb7a1113dc64e1c4ac2bcb2d790c9fce1b69b6938e6ff2ac94f0cbeb3cbdaf7",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

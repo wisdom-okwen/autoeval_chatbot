@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about the side effects of PrEP and how it may affect her mental health",
+    "language": "Swahili"
+  },
+  "context": "The user is currently experiencing depression, which makes it difficult for her to consider starting PrEP. She feels overwhelmed by the stigma surrounding HIV prevention and is uncertain about how to balance her mental health with her sexual health needs. Despite her fears, she hopes to find a solution that supports both aspects of her life.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu madhara ya PrEP kwenye afya yangu ya akili, je, inaweza kuwa salama kwangu?",
+    "Ninaweza kupata msaada wa kiakili wakati naanza kutumia PrEP?",
+    "Ni vigezo gani vinavyohitajika ili kuanza kutumia PrEP nchini Kenya?",
+    "Je, kuna watu wengine katika hali yangu ambao wameweza kufaulu kutumia PrEP?",
+    "Ninaweza kupata maelezo zaidi kuhusu jinsi PrEP inavyofanya kazi?",
+    "Ni hatua gani za kuchukua ili kupunguza unyanyapaa unapojiandikisha kwa ajili ya PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kuhusu madhara ya PrEP kwenye afya yangu ya akili, je, inaweza kuwa salama kwangu?",
+    "Ninaweza kupata msaada wa kiakili wakati naanza kutumia PrEP?",
+    "ni vigezo gani vinavyohitajika ili kunz4 kutumia rep nchini kenya",
+    "Je, kuna watu wengine katika hali yangu ambao wameweza kufaulu kutumia PrEP?",
+    "Ninaweza kupata maelezo zaidi kuhusu jinsi PrEP inavyofanya kazi?",
+    "ni hatua gani zq kuchukua ili kupunguza unyanyapaa unapojiandikisha kwa ajili y4 PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Nina wasiwasi kuhusu madhara ya PrEP kwenye afya yangu ya akili, je, inaweza kuwa salama kwangu?",
+  "starter_noisy": "Nina wasiwasi kuhusu madhara ya PrEP kwenye afya yangu ya akili, je, inaweza kuwa salama kwangu?",
+  "followup_index": 1,
+  "followup_clean": "Ninaweza kupata msaada wa kiakili wakati naanza kutumia PrEP?",
+  "followup_noisy": "Ninaweza kupata msaada wa kiakili wakati naanza kutumia PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0843629077088676,
+    "swap_rate": 0.030104425175405465,
+    "drop_rate": 0.03746563752068906,
+    "dup_rate": 0.02183007301622311,
+    "leet_rate": 0.10325501292319628,
+    "start_lower_prob": 0.876411161925852,
+    "all_lower_prob": 0.34904193149745066,
+    "drop_punct_prob": 0.5153714571871965,
+    "double_space_prob": 0.21373896032796758,
+    "ellipsis_prob": 0.20403762096547595,
+    "runon_prob": 0.19896629276198768,
+    "filler_rate": 0.37875790334368653,
+    "emoji_rate": 0.28936712288926386,
+    "stutter_rate": 0.16019939643640396,
+    "repeat_last_rate": 0.09886193679906412
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about the side effects of PrEP and how it may affect her mental health\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is currently experiencing depression, which makes it difficult for her to consider starting PrEP. She feels overwhelmed by the stigma surrounding HIV prevention and is uncertain about how to balance her mental health with her sexual health needs. Despite her fears, she hopes to find a solution that supports both aspects of her life.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu madhara ya PrEP kwenye afya yangu ya akili, je, inaweza kuwa salama kwangu?\",\n    \"Ninaweza kupata msaada wa kiakili wakati naanza kutumia PrEP?\",\n    \"Ni vigezo gani vinavyohitajika ili kuanza kutumia PrEP nchini Kenya?\",\n    \"Je, kuna watu wengine katika hali yangu ambao wameweza kufaulu kutumia PrEP?\",\n    \"Ninaweza kupata maelezo zaidi kuhusu jinsi PrEP inavyofanya kazi?\",\n    \"Ni hatua gani za kuchukua ili kupunguza unyanyapaa unapojiandikisha kwa ajili ya PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "56eee3d2983afbbcc59d06495482247a05b4cef4ad04089ce5a32aff689e64b8",
+  "_starter_hash": "e67847eb6ef8f1d13013f6e341c05fc24f54ce55db75dabb537a4f318e97fba3",
+  "_language": "Swahili",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

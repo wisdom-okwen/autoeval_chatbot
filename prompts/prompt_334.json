@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "angst voor stigmatisering en controle door de partner",
+    "language": "Dutch"
+  },
+  "context": "Je hebt te maken met een situatie van huiselijk geweld en overweegt PrEP als een manier om jezelf te beschermen tegen hiv. Je voelt je angstig over de mogelijke reacties van je partner en maakt je zorgen dat deze informatie niet veilig is. Het idee om PrEP te gebruiken brengt zowel hoop als angst met zich mee, vooral omdat je twijfelt over hoe je dit zonder oordeel kunt bespreken.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van PrEP voor iemand in mijn situatie?",
+    "Hoe kan ik PrEP krijgen zonder dat mijn partner het weet?",
+    "Zijn er ondersteuningsgroepen voor mensen die in vergelijkbare situaties zitten?",
+    "Wat moet ik doen als ik problemen ondervind bij het aanvragen van PrEP?",
+    "Hoe kan ik me voorbereiden op een gesprek met mijn arts over PrEP?",
+    "Zijn er middelen beschikbaar die mij kunnen helpen met mijn angst voor stigma?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de voordelen van rPEP voor iemand in uh mijn situatie",
+    "H-Hoe kan 1k PErP idk krijgen znoder dat imjn partner het weet",
+    "Zijn er ondersteuningsgroepen voor mensen die in vergelijkbare situaties zitten?",
+    "Wat moet ik doen als ik problemen ondervind bij het aanvragen van PrEP?",
+    "Hoe kan ik me voorbereiden op een gesprdk met imjn arts over PrEP? ‼️",
+    "Zijn er middelen beschikbaar die mij kunnen h3lp3n met mijn angst boor stigma"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat zijn de voordelen van PrEP voor iemand in mijn situatie?",
+  "starter_noisy": "wat zijn de voordelen van rPEP voor iemand in uh mijn situatie",
+  "followup_index": 1,
+  "followup_clean": "Hoe kan ik PrEP krijgen zonder dat mijn partner het weet?",
+  "followup_noisy": "H-Hoe kan 1k PErP idk krijgen znoder dat imjn partner het weet",
+  "style_profile": {
+    "typo_rate": 0.061825932496099696,
+    "swap_rate": 0.04886079475493538,
+    "drop_rate": 0.02608222237042509,
+    "dup_rate": 0.0274103589970318,
+    "leet_rate": 0.07802119752812992,
+    "start_lower_prob": 0.6698811391465673,
+    "all_lower_prob": 0.16621099153430874,
+    "drop_punct_prob": 0.570904613590135,
+    "double_space_prob": 0.31678523792643676,
+    "ellipsis_prob": 0.17001843171598804,
+    "runon_prob": 0.24709007037627764,
+    "filler_rate": 0.2777906032481046,
+    "emoji_rate": 0.3257189193246636,
+    "stutter_rate": 0.12196113589911382,
+    "repeat_last_rate": 0.12938691638540326
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"angst voor stigmatisering en controle door de partner\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt te maken met een situatie van huiselijk geweld en overweegt PrEP als een manier om jezelf te beschermen tegen hiv. Je voelt je angstig over de mogelijke reacties van je partner en maakt je zorgen dat deze informatie niet veilig is. Het idee om PrEP te gebruiken brengt zowel hoop als angst met zich mee, vooral omdat je twijfelt over hoe je dit zonder oordeel kunt bespreken.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van PrEP voor iemand in mijn situatie?\",\n    \"Hoe kan ik PrEP krijgen zonder dat mijn partner het weet?\",\n    \"Zijn er ondersteuningsgroepen voor mensen die in vergelijkbare situaties zitten?\",\n    \"Wat moet ik doen als ik problemen ondervind bij het aanvragen van PrEP?\",\n    \"Hoe kan ik me voorbereiden op een gesprek met mijn arts over PrEP?\",\n    \"Zijn er middelen beschikbaar die mij kunnen helpen met mijn angst voor stigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "39edee21f6bc1c2c8e785ab876410813fac17f4d95392e7f0f16b7a1887afc76",
+  "_starter_hash": "960cc9372db9468565d57fc255f77393e8991868713e4eb319fc5f92c0914510",
+  "_language": "Dutch",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

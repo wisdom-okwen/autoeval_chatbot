@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affording PrEP and managing my past substance use",
+    "language": "English"
+  },
+  "context": "This user has a history of substance use and is trying to navigate the healthcare system to access PrEP. She feels anxious about stigma and fears judgment from healthcare providers while also being hopeful that PrEP could provide her with the protection she needs.",
+  "example_questions_clean": [
+    "How can I afford PrEP considering my current financial situation?",
+    "What should I say to my doctor about my past substance use when discussing PrEP?",
+    "Are there specific programs available for people with a history of substance use?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Will using PrEP affect my chances of receiving support for my past issues?",
+    "How can I ensure my privacy when seeking information about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can I afford PeEP considering my current financial sjtuation? 🙄",
+    "What should I say to my doctor about my past substance use when discussing PrEP?",
+    "Are there specific programs available for people with a history of substance use?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Will using PrEP affect my chances of receiving support for my past issues?",
+    "How can I ensure my privacy when seeking information about PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What should I say to my doctor about my past substance use when discussing PrEP?",
+  "starter_noisy": "What should I say to my doctor about my past substance use when discussing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I afford PrEP considering my current financial situation?",
+  "followup_noisy": "how can I afford PeEP considering my current financial sjtuation? 🙄",
+  "style_profile": {
+    "typo_rate": 0.08450603068711313,
+    "swap_rate": 0.056212401917338506,
+    "drop_rate": 0.0449715897705807,
+    "dup_rate": 0.02820662251283273,
+    "leet_rate": 0.11042589932830907,
+    "start_lower_prob": 0.792679277334867,
+    "all_lower_prob": 0.19469942930134412,
+    "drop_punct_prob": 0.4116697598221668,
+    "double_space_prob": 0.15629312637727302,
+    "ellipsis_prob": 0.21886617255300567,
+    "runon_prob": 0.26901065013567016,
+    "filler_rate": 0.48594227459941647,
+    "emoji_rate": 0.25861712675262005,
+    "stutter_rate": 0.17758111962993797,
+    "repeat_last_rate": 0.09717956704282832
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affording PrEP and managing my past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user has a history of substance use and is trying to navigate the healthcare system to access PrEP. She feels anxious about stigma and fears judgment from healthcare providers while also being hopeful that PrEP could provide her with the protection she needs.\",\n  \"example_questions\": [\n    \"How can I afford PrEP considering my current financial situation?\",\n    \"What should I say to my doctor about my past substance use when discussing PrEP?\",\n    \"Are there specific programs available for people with a history of substance use?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Will using PrEP affect my chances of receiving support for my past issues?\",\n    \"How can I ensure my privacy when seeking information about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5f41e4cb52cac213b0a659ed5c42cb39a32fe43f7c8cd2d28903a92aa9911baa",
+  "_starter_hash": "1e92bf11675669023583a8709e8cf61efc1c82ee65b4d6a661300a49ca817523",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

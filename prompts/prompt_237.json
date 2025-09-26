@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affordability and access to healthcare services",
+    "language": "English"
+  },
+  "context": "You are currently living in a shelter and are concerned about how your living situation affects your ability to access PrEP. You feel a mix of hope and anxiety about protecting your health while facing stigma around your circumstances. You want to learn more about how to navigate these challenges.",
+  "example_questions_clean": [
+    "What options do I have for obtaining PrEP while living in a shelter?",
+    "Can you explain the costs associated with PrEP and if there are any programs that can help me?",
+    "Are there local clinics that provide support for individuals in my situation?",
+    "How can I talk to healthcare providers about PrEP without feeling judged?",
+    "What steps should I take if I want to start taking PrEP but am worried about stigma?",
+    "Is it possible to get PrEP without insurance, and what documentation might I need?"
+  ],
+  "example_questions_noisy": [
+    "What options do I have for obtaining PrEP while living in a shelter?",
+    "can tou explain the costs associated with prrrep and if there are any programs that can help me?",
+    "Are there local clinics that provide support for individuals in my situation?",
+    "How can I talk to healthcare providers about PrEP without feeling judged?",
+    "what 573p5 shuold i take if 1 want to start taking prep but ... am worried about stigma?",
+    "Is it possible to get PrEP without insurance, and what documentation might I need?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Can you explain the costs associated with PrEP and if there are any programs that can help me?",
+  "starter_noisy": "can tou explain the costs associated with prrrep and if there are any programs that can help me?",
+  "followup_index": 0,
+  "followup_clean": "What options do I have for obtaining PrEP while living in a shelter?",
+  "followup_noisy": "What options do I have for obtaining PrEP while living in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.05830299693488408,
+    "swap_rate": 0.05500645070044917,
+    "drop_rate": 0.03129229160425376,
+    "dup_rate": 0.014953706321658346,
+    "leet_rate": 0.08221883308967037,
+    "start_lower_prob": 0.7999141811270502,
+    "all_lower_prob": 0.33876330598628335,
+    "drop_punct_prob": 0.30967261832146314,
+    "double_space_prob": 0.20080100219900965,
+    "ellipsis_prob": 0.19988206569819308,
+    "runon_prob": 0.23858750623152716,
+    "filler_rate": 0.4844017971742782,
+    "emoji_rate": 0.17587346901681505,
+    "stutter_rate": 0.19093919102098444,
+    "repeat_last_rate": 0.12084082776639193
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affordability and access to healthcare services\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently living in a shelter and are concerned about how your living situation affects your ability to access PrEP. You feel a mix of hope and anxiety about protecting your health while facing stigma around your circumstances. You want to learn more about how to navigate these challenges.\",\n  \"example_questions\": [\n    \"What options do I have for obtaining PrEP while living in a shelter?\",\n    \"Can you explain the costs associated with PrEP and if there are any programs that can help me?\",\n    \"Are there local clinics that provide support for individuals in my situation?\",\n    \"How can I talk to healthcare providers about PrEP without feeling judged?\",\n    \"What steps should I take if I want to start taking PrEP but am worried about stigma?\",\n    \"Is it possible to get PrEP without insurance, and what documentation might I need?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "65e655c20ebd8d5b2270d22a58935c831fb1bd638051050d4f2856e187ec0386",
+  "_starter_hash": "b5728ae9f80dd8fd39f688fa6aa7535673031c241513a8ffa648323562a8a7c8",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

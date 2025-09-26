@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 24,
+    "gender": "No binario",
+    "socio_economic_status": "Medio",
+    "primary_concern": "El acceso a PrEP y la percepción de mi identidad de género en el proceso.",
+    "language": "Spanish"
+  },
+  "context": "La persona se enfrenta a la disforia de género, lo que les causa ansiedad al considerar iniciar PrEP. Tienen miedo de ser juzgados o no ser tomados en serio por los profesionales de salud debido a su identidad de género. Buscan información sobre cómo acceder a PrEP sin enfrentar discriminación y cómo esto podría afectar su salud mental y emocional.",
+  "example_questions_clean": [
+    "¿Qué pasos debo seguir para acceder a PrEP en mi situación específica?",
+    "Tengo miedo de que mi identidad de género influya en la atención que recibiré al solicitar PrEP.",
+    "¿Existen clínicas que sean inclusivas y comprensivas con personas no binarias?",
+    "¿Qué efectos secundarios podría experimentar al tomar PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto al uso de PrEP?",
+    "¿Hay recursos o grupos de apoyo para personas que están considerando PrEP y que también enfrentan disforia de género?"
+  ],
+  "example_questions_noisy": [
+    "¿-¿Qué pasos debo seguir para acceder a PrE en mi situación específica?",
+    "Tengo miedo de que mi identidad de género influya en la atención que recibiré al solicitar PrEP.",
+    "¿Existen clínicas que sean inclusivas y comprensivas con personas no binarias?",
+    "¿qué efectos secundarios odrí experimentar al tomar prep 🫠",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto al uso de PrEP?",
+    "¿Hay recursos o grupos de apoyo para p3r50n45 que están considerando like PrEP y que también enfrentan disforai de género?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen clínicas que sean inclusivas y comprensivas con personas no binarias?",
+  "starter_noisy": "¿Existen clínicas que sean inclusivas y comprensivas con personas no binarias?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué pasos debo seguir para acceder a PrEP en mi situación específica?",
+  "followup_noisy": "¿-¿Qué pasos debo seguir para acceder a PrE en mi situación específica?",
+  "style_profile": {
+    "typo_rate": 0.09628037776479137,
+    "swap_rate": 0.0503389161709351,
+    "drop_rate": 0.023134433929994095,
+    "dup_rate": 0.020397761114489637,
+    "leet_rate": 0.08586043324552309,
+    "start_lower_prob": 0.6555645298753751,
+    "all_lower_prob": 0.30714785701862746,
+    "drop_punct_prob": 0.31741620764142314,
+    "double_space_prob": 0.2626509506362946,
+    "ellipsis_prob": 0.30807181115349336,
+    "runon_prob": 0.23359545281498947,
+    "filler_rate": 0.3788835048863445,
+    "emoji_rate": 0.1630812613450329,
+    "stutter_rate": 0.15609278839412943,
+    "repeat_last_rate": 0.11859219274688093
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 24,\n    \"gender\": \"No binario\",\n    \"socio_economic_status\": \"Medio\",\n    \"primary_concern\": \"El acceso a PrEP y la percepción de mi identidad de género en el proceso.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La persona se enfrenta a la disforia de género, lo que les causa ansiedad al considerar iniciar PrEP. Tienen miedo de ser juzgados o no ser tomados en serio por los profesionales de salud debido a su identidad de género. Buscan información sobre cómo acceder a PrEP sin enfrentar discriminación y cómo esto podría afectar su salud mental y emocional.\",\n  \"example_questions\": [\n    \"¿Qué pasos debo seguir para acceder a PrEP en mi situación específica?\",\n    \"Tengo miedo de que mi identidad de género influya en la atención que recibiré al solicitar PrEP.\",\n    \"¿Existen clínicas que sean inclusivas y comprensivas con personas no binarias?\",\n    \"¿Qué efectos secundarios podría experimentar al tomar PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto al uso de PrEP?\",\n    \"¿Hay recursos o grupos de apoyo para personas que están considerando PrEP y que también enfrentan disforia de género?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d2787ffec068eedb2b1157749bb17cbab6fe7ab02fddd1ecfdb3d2f6bc38911f",
+  "_starter_hash": "5c03745368871e10633a2733a5424ab2f9592da38898dce01df32d8c3dee0560",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

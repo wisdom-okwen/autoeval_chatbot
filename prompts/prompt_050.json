@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 29,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La gestion de l'anxiété liée à la prise de PrEP avec mon trouble de stress post-traumatique.",
+    "language": "French"
+  },
+  "context": "Cette personne se sent souvent anxieuse et a des difficultés à parler de sa santé sexuelle en raison de son passé traumatique. Elle souhaite en savoir plus sur le PrEP, mais elle craint le jugement et les stéréotypes associés à son état mental. Elle espère trouver un soutien compréhensif pour naviguer dans ces préoccupations tout en cherchant à protéger sa santé.",
+  "example_questions_clean": [
+    "Comment le PrEP peut-il influencer ma santé mentale en tenant compte de mon PTSD ?",
+    "Y a-t-il des ressources disponibles pour les personnes avec des problèmes de santé mentale qui envisagent de prendre du PrEP ?",
+    "Quelles sont les étapes pour accéder au PrEP tout en gérant l'anxiété ?",
+    "Comment parler de mes préoccupations sur le PrEP avec mon médecin sans ressentir de jugement ?",
+    "Le fait d'avoir un PTSD peut-il affecter la manière dont je ressens les effets secondaires du PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Comment le PrEP peut-il influencer ma santé mentale en tenant compte de mon PTSD ?",
+    "Y a-t-il des ressources disponibles pour les personnes avec des problèmes de santé mentale qui envisagent de prendre du PrEP ?",
+    "Quelles sont les étapes pour accéder au PrEP tout en gérant l'anxiété ?",
+    "Comment parler de mes préoccupations sur le PrEP avec mon médecin sans ressentir de jugement ?",
+    "le fait d'avoir un P75D peut-il affecter ka manière dpnt je ressens les effets secondaires du PrEP ?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Y a-t-il des ressources disponibles pour les personnes avec des problèmes de santé mentale qui envisagent de prendre du PrEP ?",
+  "starter_noisy": "Y a-t-il des ressources disponibles pour les personnes avec des problèmes de santé mentale qui envisagent de prendre du PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Comment le PrEP peut-il influencer ma santé mentale en tenant compte de mon PTSD ?",
+  "followup_noisy": "Comment le PrEP peut-il influencer ma santé mentale en tenant compte de mon PTSD ?",
+  "style_profile": {
+    "typo_rate": 0.11672603996978022,
+    "swap_rate": 0.04133371093494919,
+    "drop_rate": 0.023220443973232228,
+    "dup_rate": 0.028358988688902895,
+    "leet_rate": 0.09102963621149977,
+    "start_lower_prob": 0.7832998949545169,
+    "all_lower_prob": 0.3423387919574927,
+    "drop_punct_prob": 0.47134255619073573,
+    "double_space_prob": 0.2844890669528167,
+    "ellipsis_prob": 0.2360075358522611,
+    "runon_prob": 0.16513805228707196,
+    "filler_rate": 0.2977264324010335,
+    "emoji_rate": 0.1929014507067872,
+    "stutter_rate": 0.10130312541524435,
+    "repeat_last_rate": 0.08170906208069087
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 29,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La gestion de l'anxiété liée à la prise de PrEP avec mon trouble de stress post-traumatique.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne se sent souvent anxieuse et a des difficultés à parler de sa santé sexuelle en raison de son passé traumatique. Elle souhaite en savoir plus sur le PrEP, mais elle craint le jugement et les stéréotypes associés à son état mental. Elle espère trouver un soutien compréhensif pour naviguer dans ces préoccupations tout en cherchant à protéger sa santé.\",\n  \"example_questions\": [\n    \"Comment le PrEP peut-il influencer ma santé mentale en tenant compte de mon PTSD ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes avec des problèmes de santé mentale qui envisagent de prendre du PrEP ?\",\n    \"Quelles sont les étapes pour accéder au PrEP tout en gérant l'anxiété ?\",\n    \"Comment parler de mes préoccupations sur le PrEP avec mon médecin sans ressentir de jugement ?\",\n    \"Le fait d'avoir un PTSD peut-il affecter la manière dont je ressens les effets secondaires du PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6babec5c48ca2709fc73b16753fcd92ee6d03d1d5861fb02651e903c37c2a61f",
+  "_starter_hash": "8238910bb10a3fe2b4c3c0d44a2b596d7ca00a5482869c06a6469e9f81634546",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

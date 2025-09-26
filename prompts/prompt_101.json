@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "middelmatig",
+    "primary_concern": "begrip van de bijwerkingen en de noodzaak van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je hebt een leerstoornis die het moeilijk maakt om complexe informatie te verwerken. Dit zorgt ervoor dat je je vaak overweldigd voelt door de keuzes die je moet maken over je gezondheid en medicatie. Je wilt goed geïnformeerd zijn over PrEP, maar je vreest dat je sommige belangrijke details niet zult begrijpen of onthouden. Je hoopt op duidelijke uitleg zonder jargon, zodat je vertrouwen kunt krijgen in je beslissing.",
+  "example_questions_clean": [
+    "Wat zijn de belangrijkste voordelen van het gebruik van PrEP?",
+    "Hoe kan ik er zeker van zijn dat ik PrEP op de juiste manier gebruik?",
+    "Zijn er specifieke bijwerkingen van PrEP die ik moet kennen?",
+    "Kun je uitleggen hoe PrEP werkt in vergelijking met andere preventiemethoden?",
+    "Wat moet ik doen als ik een dosis mis?",
+    "Is het mogelijk om vragen over PrEP te stellen zonder me te schamen?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de belangrijkset voordelen van het gebruk v4n prep 🙂",
+    "hoe kan ik er you know zeker v4n zijn dat ik PrEP 0p de uuisteee man13r gebruik",
+    "zijn er specifieke bijwerkingen van Pr3P die ik moet um kennen?",
+    "kun je uitelggen hoe PrEP werkt in vergelijking met andere i mean preventiemethoden? preventiemethoden?",
+    "Wat moet ik doen als ik een dosis mis?",
+    "Is het mogelijk om vragen over PrEP te stellen zonder me te schamen?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat zijn de belangrijkste voordelen van het gebruik van PrEP?",
+  "starter_noisy": "wat zijn de belangrijkset voordelen van het gebruk v4n prep 🙂",
+  "followup_index": 1,
+  "followup_clean": "Hoe kan ik er zeker van zijn dat ik PrEP op de juiste manier gebruik?",
+  "followup_noisy": "hoe kan ik er you know zeker v4n zijn dat ik PrEP 0p de uuisteee man13r gebruik",
+  "style_profile": {
+    "typo_rate": 0.05526748544299316,
+    "swap_rate": 0.046087103580158356,
+    "drop_rate": 0.039324728199180876,
+    "dup_rate": 0.011381195249876026,
+    "leet_rate": 0.09416515170916266,
+    "start_lower_prob": 0.8713935293323809,
+    "all_lower_prob": 0.24419226499598984,
+    "drop_punct_prob": 0.43735374957975254,
+    "double_space_prob": 0.2763048375154142,
+    "ellipsis_prob": 0.17228842738036282,
+    "runon_prob": 0.1687083278105293,
+    "filler_rate": 0.4918524335442581,
+    "emoji_rate": 0.19244770606645784,
+    "stutter_rate": 0.189333562362813,
+    "repeat_last_rate": 0.1640663207769731
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middelmatig\",\n    \"primary_concern\": \"begrip van de bijwerkingen en de noodzaak van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt een leerstoornis die het moeilijk maakt om complexe informatie te verwerken. Dit zorgt ervoor dat je je vaak overweldigd voelt door de keuzes die je moet maken over je gezondheid en medicatie. Je wilt goed geïnformeerd zijn over PrEP, maar je vreest dat je sommige belangrijke details niet zult begrijpen of onthouden. Je hoopt op duidelijke uitleg zonder jargon, zodat je vertrouwen kunt krijgen in je beslissing.\",\n  \"example_questions\": [\n    \"Wat zijn de belangrijkste voordelen van het gebruik van PrEP?\",\n    \"Hoe kan ik er zeker van zijn dat ik PrEP op de juiste manier gebruik?\",\n    \"Zijn er specifieke bijwerkingen van PrEP die ik moet kennen?\",\n    \"Kun je uitleggen hoe PrEP werkt in vergelijking met andere preventiemethoden?\",\n    \"Wat moet ik doen als ik een dosis mis?\",\n    \"Is het mogelijk om vragen over PrEP te stellen zonder me te schamen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "013415d42efb5a5ace7c738a6e1386148955a2af3b81071bb71b230f5c4926a2",
+  "_starter_hash": "db92f2bc75c708c91e0418a7ca06658eda0a10e37c6cb209652d0019728aec14",
+  "_language": "Dutch",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

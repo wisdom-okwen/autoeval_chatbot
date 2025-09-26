@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Homme",
+    "socio_economic_status": "Faible revenu",
+    "primary_concern": "Accès à PrEP dans un environnement précaire",
+    "language": "French"
+  },
+  "context": "Vous vivez dans un refuge et vous êtes inquiet de votre santé sexuelle. Vous ressentez la peur du jugement des autres et l'incertitude quant à l'accès aux soins de santé. L'environnement précaire vous empêche de vous sentir en sécurité pour discuter de vos besoins en matière de PrEP.",
+  "example_questions_clean": [
+    "Comment puis-je accéder à PrEP sans jugement dans un refuge?",
+    "Quelles sont les ressources disponibles pour les personnes vivant dans des situations précaires?",
+    "Y a-t-il des programmes qui aident ceux qui n'ont pas de logement à obtenir PrEP?",
+    "Est-ce que parler de PrEP dans un refuge peut poser problème?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître?",
+    "Comment puis-je surmonter la peur d'en parler à mon médecin?"
+  ],
+  "example_questions_noisy": [
+    "Comment puis-je accéder à PrEP sans jugement dans un refuge?",
+    "Quelles sont les ressources disponibles pour les personnes vivant dans des situations précaires?",
+    "y a-t-il des programmes qui aident ceux qui n'0n7 idk pas de logement à obtenir prep?",
+    "est-ce que parler de PrEP dans un refuge peut ps03f pfoblème?",
+    "quels sont les effets 5c0nd413r5 possibles de PrEP que je devrais connaître",
+    "Comment puis-je surmonter la peur d'en parler à mon médecin?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Y a-t-il des programmes qui aident ceux qui n'ont pas de logement à obtenir PrEP?",
+  "starter_noisy": "y a-t-il des programmes qui aident ceux qui n'0n7 idk pas de logement à obtenir prep?",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je accéder à PrEP sans jugement dans un refuge?",
+  "followup_noisy": "Comment puis-je accéder à PrEP sans jugement dans un refuge?",
+  "style_profile": {
+    "typo_rate": 0.10114571179687104,
+    "swap_rate": 0.054400249533453265,
+    "drop_rate": 0.021203504085994702,
+    "dup_rate": 0.017333348817284835,
+    "leet_rate": 0.1056884115323936,
+    "start_lower_prob": 0.897942421546859,
+    "all_lower_prob": 0.23620380892497667,
+    "drop_punct_prob": 0.49944194590232605,
+    "double_space_prob": 0.19307573294567704,
+    "ellipsis_prob": 0.19213567623202693,
+    "runon_prob": 0.2923926682539195,
+    "filler_rate": 0.37486459398199146,
+    "emoji_rate": 0.24805035195772868,
+    "stutter_rate": 0.18004509376367725,
+    "repeat_last_rate": 0.17871341137240787
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Faible revenu\",\n    \"primary_concern\": \"Accès à PrEP dans un environnement précaire\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez dans un refuge et vous êtes inquiet de votre santé sexuelle. Vous ressentez la peur du jugement des autres et l'incertitude quant à l'accès aux soins de santé. L'environnement précaire vous empêche de vous sentir en sécurité pour discuter de vos besoins en matière de PrEP.\",\n  \"example_questions\": [\n    \"Comment puis-je accéder à PrEP sans jugement dans un refuge?\",\n    \"Quelles sont les ressources disponibles pour les personnes vivant dans des situations précaires?\",\n    \"Y a-t-il des programmes qui aident ceux qui n'ont pas de logement à obtenir PrEP?\",\n    \"Est-ce que parler de PrEP dans un refuge peut poser problème?\",\n    \"Quels sont les effets secondaires possibles de PrEP que je devrais connaître?\",\n    \"Comment puis-je surmonter la peur d'en parler à mon médecin?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3b26137bb767e7b8fd38c0fae137a33d52ef1b9de7cac7d3dc001dbb2626e126",
+  "_starter_hash": "52fbf4b35c633b51b4a359c3304f1ec12dd1884839235e95fc289163894d79f7",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

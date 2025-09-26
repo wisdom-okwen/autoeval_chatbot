@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "el estigma asociado al uso de PrEP y la posibilidad de ser juzgada",
+    "language": "Spanish"
+  },
+  "context": "La usuaria está lidiando con una ansiedad social que le dificulta hablar abiertamente sobre su salud sexual. Se siente nerviosa ante la idea de acudir a un médico para preguntar sobre PrEP, ya que teme ser juzgada o malinterpretada. Esta situación le genera incertidumbre y preocupaciones sobre su bienestar y la posibilidad de contraer VIH.",
+  "example_questions_clean": [
+    "¿Cómo puedo encontrar un médico que me hable sobre PrEP sin sentirme juzgada?",
+    "¿Es común que las personas se sientan ansiosas al hablar de PrEP?",
+    "¿Qué apoyo existe para personas que se sienten intimidadas por el proceso de acceder a PrEP?",
+    "¿Cuáles son los beneficios de usar PrEP si tengo miedo al estigma?",
+    "¿Hay grupos de apoyo para personas que quieren aprender más sobre PrEP?",
+    "¿Qué debo considerar antes de decidirme a comenzar con PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo encontrar un médico que me hable sobre PrEP sin sentirme juzgada?",
+    "¿Es común que las personas se sientan ansiosas al hablar de PrEP?",
+    "¿Qué apoyo existe para personas que se sienten intimidadas por el proceso de acceder a PrEP?",
+    "¿Cuáles son los beneficios de usar PrEP si tengo miedo al estigma?",
+    "¿Hay grupos de apoyo para personas que quieren aprender más sobre PrEP?",
+    "¿Qué debo considerar antes de dceidirme a comenzar con PrEP"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cómo puedo encontrar un médico que me hable sobre PrEP sin sentirme juzgada?",
+  "starter_noisy": "¿Cómo puedo encontrar un médico que me hable sobre PrEP sin sentirme juzgada?",
+  "followup_index": 1,
+  "followup_clean": "¿Es común que las personas se sientan ansiosas al hablar de PrEP?",
+  "followup_noisy": "¿Es común que las personas se sientan ansiosas al hablar de PrEP?",
+  "style_profile": {
+    "typo_rate": 0.07726479237484687,
+    "swap_rate": 0.04753046534132423,
+    "drop_rate": 0.025100502099739932,
+    "dup_rate": 0.029064268239231007,
+    "leet_rate": 0.11038795073506548,
+    "start_lower_prob": 0.7000066146551602,
+    "all_lower_prob": 0.17571265035091255,
+    "drop_punct_prob": 0.3739909499603004,
+    "double_space_prob": 0.25220452333117777,
+    "ellipsis_prob": 0.2609249416242615,
+    "runon_prob": 0.29846369217798896,
+    "filler_rate": 0.4882734872567106,
+    "emoji_rate": 0.22448062094368015,
+    "stutter_rate": 0.1527453533931356,
+    "repeat_last_rate": 0.16401086169719234
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"el estigma asociado al uso de PrEP y la posibilidad de ser juzgada\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria está lidiando con una ansiedad social que le dificulta hablar abiertamente sobre su salud sexual. Se siente nerviosa ante la idea de acudir a un médico para preguntar sobre PrEP, ya que teme ser juzgada o malinterpretada. Esta situación le genera incertidumbre y preocupaciones sobre su bienestar y la posibilidad de contraer VIH.\",\n  \"example_questions\": [\n    \"¿Cómo puedo encontrar un médico que me hable sobre PrEP sin sentirme juzgada?\",\n    \"¿Es común que las personas se sientan ansiosas al hablar de PrEP?\",\n    \"¿Qué apoyo existe para personas que se sienten intimidadas por el proceso de acceder a PrEP?\",\n    \"¿Cuáles son los beneficios de usar PrEP si tengo miedo al estigma?\",\n    \"¿Hay grupos de apoyo para personas que quieren aprender más sobre PrEP?\",\n    \"¿Qué debo considerar antes de decidirme a comenzar con PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "52753bacb87e8b5cbacd4cbcd7dbe5a66856e895dbb0e16533b5c25f64476b22",
+  "_starter_hash": "bf3043cb4b73fc9d6768b0c7bbcd38ebc5a1a0182c8ca63756043e7a078acfc9",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

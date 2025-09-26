@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Précaire",
+    "primary_concern": "Accès à PrEP en raison de mon logement instable",
+    "language": "French"
+  },
+  "context": "Vous vivez dans un refuge et vous vous sentez préoccupé par l'accès à la PrEP. La peur du jugement et la stigmatisation vous rendent hésitant à demander des informations. Vous souhaitez comprendre comment la PrEP pourrait vous aider tout en naviguant dans les défis émotionnels liés à votre situation.",
+  "example_questions_clean": [
+    "Comment puis-je obtenir des informations sur la PrEP si je suis dans un refuge?",
+    "Y a-t-il des ressources pour les personnes comme moi qui ont un logement instable?",
+    "La PrEP est-elle accessible sans assurance santé?",
+    "Quelles sont les étapes pour discuter de la PrEP avec un professionnel de santé?",
+    "Est-ce que d'autres personnes vivant dans des conditions similaires prennent la PrEP?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître?"
+  ],
+  "example_questions_noisy": [
+    "c000mm3n7 puis-je obtenir des informmmations sur like l4 PErP si je suis dans un refuge? 🙄",
+    "Y a-t-il des ressources p0ur les p3r50nn3s c0mm3 m0i like qui ont un logement instable?",
+    "La PrEP est-elle accessible sans assurance santé?",
+    "Quelles sont les étapes pour discuter de la PrEP aveccc un pr0fe55i0nn3l d3 santé 😭",
+    "Est-ce que d'autres personnes vivat d4n5 des conditions similaires prennent la PrEP 🙄 🙄",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Est-ce que d'autres personnes vivant dans des conditions similaires prennent la PrEP?",
+  "starter_noisy": "Est-ce que d'autres personnes vivat d4n5 des conditions similaires prennent la PrEP 🙄 🙄",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je obtenir des informations sur la PrEP si je suis dans un refuge?",
+  "followup_noisy": "c000mm3n7 puis-je obtenir des informmmations sur like l4 PErP si je suis dans un refuge? 🙄",
+  "style_profile": {
+    "typo_rate": 0.06235563978982247,
+    "swap_rate": 0.03616585222070692,
+    "drop_rate": 0.03364595318553797,
+    "dup_rate": 0.025696876633671623,
+    "leet_rate": 0.11864962431665659,
+    "start_lower_prob": 0.6786615274099912,
+    "all_lower_prob": 0.3366291695948073,
+    "drop_punct_prob": 0.49137686106503453,
+    "double_space_prob": 0.15806343328667863,
+    "ellipsis_prob": 0.2098668092274095,
+    "runon_prob": 0.1377489697875508,
+    "filler_rate": 0.47536195947601434,
+    "emoji_rate": 0.3477977428710115,
+    "stutter_rate": 0.1547521382421501,
+    "repeat_last_rate": 0.11690696779085323
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Précaire\",\n    \"primary_concern\": \"Accès à PrEP en raison de mon logement instable\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez dans un refuge et vous vous sentez préoccupé par l'accès à la PrEP. La peur du jugement et la stigmatisation vous rendent hésitant à demander des informations. Vous souhaitez comprendre comment la PrEP pourrait vous aider tout en naviguant dans les défis émotionnels liés à votre situation.\",\n  \"example_questions\": [\n    \"Comment puis-je obtenir des informations sur la PrEP si je suis dans un refuge?\",\n    \"Y a-t-il des ressources pour les personnes comme moi qui ont un logement instable?\",\n    \"La PrEP est-elle accessible sans assurance santé?\",\n    \"Quelles sont les étapes pour discuter de la PrEP avec un professionnel de santé?\",\n    \"Est-ce que d'autres personnes vivant dans des conditions similaires prennent la PrEP?\",\n    \"Quels sont les effets secondaires possibles de la PrEP que je devrais connaître?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7471466f19872065297c9a26d22368776ee1b25ca67a4f692f892931cd07d212",
+  "_starter_hash": "96f07b3f2c8846419afd876673b446a22c334f23dfad4296ba4d8cde59aca80e",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "concerns about potential interactions with medications for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old American woman living with multiple sclerosis. Your condition sometimes affects your energy levels and can make you anxious about starting new treatments, including PrEP. You worry about how the medication might interact with your existing MS treatments and if it could affect your health overall. You hope to protect yourself while managing these concerns.",
+  "example_questions_clean": [
+    "What should I know about how PrEP might interact with my MS medications?",
+    "Are there any specific side effects of PrEP that could worsen my condition?",
+    "How can I talk to my healthcare provider about my concerns regarding PrEP?",
+    "Is PrEP safe for someone with multiple sclerosis, given my current treatment plan?",
+    "What resources are available for people like me who want to learn more about PrEP?",
+    "Can you help me understand the process of accessing PrEP while managing my health condition?"
+  ],
+  "example_questions_noisy": [
+    "wh47 should I know about how Pr3P might interact with my MS medications? 😬",
+    "Are there any specific side effects of PrEP that could worsen my condition?",
+    "how c4n I talk to my healthcare procider about my ocncerns regarding PrEP",
+    "us PrEP safe for someone with multiple sclerodis given my current treatmennnt plan 🙄",
+    "what resources 4re available for [eople like mr sho w4n7 ti learn more about rpep?",
+    "v4n yooou help me understand the process of accessing PrEP while managing my h3a7h condition"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What should I know about how PrEP might interact with my MS medications?",
+  "starter_noisy": "wh47 should I know about how Pr3P might interact with my MS medications? 😬",
+  "followup_index": 1,
+  "followup_clean": "Are there any specific side effects of PrEP that could worsen my condition?",
+  "followup_noisy": "Are there any specific side effects of PrEP that could worsen my condition?",
+  "style_profile": {
+    "typo_rate": 0.09532961738349241,
+    "swap_rate": 0.050444136482178104,
+    "drop_rate": 0.03148410263828188,
+    "dup_rate": 0.013727467415896645,
+    "leet_rate": 0.09498702311722436,
+    "start_lower_prob": 0.8625475516276992,
+    "all_lower_prob": 0.1893519871363556,
+    "drop_punct_prob": 0.3517094889285201,
+    "double_space_prob": 0.17770832957596794,
+    "ellipsis_prob": 0.16813680596526742,
+    "runon_prob": 0.2516659790652288,
+    "filler_rate": 0.26434176521329456,
+    "emoji_rate": 0.24678060912213046,
+    "stutter_rate": 0.1331273244484991,
+    "repeat_last_rate": 0.1558739726676343
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"concerns about potential interactions with medications for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old American woman living with multiple sclerosis. Your condition sometimes affects your energy levels and can make you anxious about starting new treatments, including PrEP. You worry about how the medication might interact with your existing MS treatments and if it could affect your health overall. You hope to protect yourself while managing these concerns.\",\n  \"example_questions\": [\n    \"What should I know about how PrEP might interact with my MS medications?\",\n    \"Are there any specific side effects of PrEP that could worsen my condition?\",\n    \"How can I talk to my healthcare provider about my concerns regarding PrEP?\",\n    \"Is PrEP safe for someone with multiple sclerosis, given my current treatment plan?\",\n    \"What resources are available for people like me who want to learn more about PrEP?\",\n    \"Can you help me understand the process of accessing PrEP while managing my health condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d026e207c91d9789115c89e6f4555e0acd7a6601be65241af488c4846529bc4c",
+  "_starter_hash": "2e5935cd1ee36cf256a75fa649a52fe1c06d8f5b76d8cc87c94712c8dc7d8e41",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

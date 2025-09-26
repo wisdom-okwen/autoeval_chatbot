@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "middle",
+    "primary_concern": "la posibilidad de efectos secundarios de PrEP en mi salud mental",
+    "language": "Spanish"
+  },
+  "context": "El usuario está lidiando con la depresión, lo que le hace sentir ansioso sobre cómo podría afectar su bienestar emocional el uso de PrEP. A pesar de su deseo de protegerse, enfrenta barreras debido a sus pensamientos negativos y temores sobre la medicación.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estado emocional?",
+    "¿PrEP es una buena opción para alguien que está lidiando con la depresión?",
+    "¿Existen recursos o apoyo para personas con problemas de salud mental que quieren comenzar PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones mentales y PrEP?",
+    "¿Hay diferencias en el acceso a PrEP en mi comunidad que debería conocer?",
+    "¿Qué pasos debo seguir para comenzar con PrEP de manera segura?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estado emocional?",
+    "¿PrEP es una buena opción par4 alyuien que está lidiando c0n la depresión",
+    "like ¿Existeh recur505 o apoyo para personas con problemas de salud m3n7al que quieren comenzar PrEP",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones mentales y PrEP?",
+    "¿hay diferencias en 3l accsso a prep en m1 comunidad que debería conpcer",
+    "¿Qué paxos debo xeguir para comenzar con PEP d3 manera s3gur4"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Qué pasos debo seguir para comenzar con PrEP de manera segura?",
+  "starter_noisy": "¿Qué paxos debo xeguir para comenzar con PEP d3 manera s3gur4",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estado emocional?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estado emocional?",
+  "style_profile": {
+    "typo_rate": 0.08327590431621121,
+    "swap_rate": 0.051439694155076585,
+    "drop_rate": 0.04503070166575092,
+    "dup_rate": 0.02203719020849807,
+    "leet_rate": 0.11997848779975877,
+    "start_lower_prob": 0.6920233969995687,
+    "all_lower_prob": 0.23970906995408664,
+    "drop_punct_prob": 0.4489673714399899,
+    "double_space_prob": 0.20927075877838575,
+    "ellipsis_prob": 0.1690094381595692,
+    "runon_prob": 0.16299209378818544,
+    "filler_rate": 0.4820507871117864,
+    "emoji_rate": 0.2515381040480575,
+    "stutter_rate": 0.11879171638804407,
+    "repeat_last_rate": 0.1043407632825355
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"middle\",\n    \"primary_concern\": \"la posibilidad de efectos secundarios de PrEP en mi salud mental\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"El usuario está lidiando con la depresión, lo que le hace sentir ansioso sobre cómo podría afectar su bienestar emocional el uso de PrEP. A pesar de su deseo de protegerse, enfrenta barreras debido a sus pensamientos negativos y temores sobre la medicación.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios de PrEP que podrían afectar mi estado emocional?\",\n    \"¿PrEP es una buena opción para alguien que está lidiando con la depresión?\",\n    \"¿Existen recursos o apoyo para personas con problemas de salud mental que quieren comenzar PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones mentales y PrEP?\",\n    \"¿Hay diferencias en el acceso a PrEP en mi comunidad que debería conocer?\",\n    \"¿Qué pasos debo seguir para comenzar con PrEP de manera segura?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e05c9406ed5721782cc868b406d3334045bb3a5da2683ca54b24b6f86c499e1f",
+  "_starter_hash": "67751cceccfd0d9cce2b78e92bc71500f61cc268b378100992b740dcb139b958",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

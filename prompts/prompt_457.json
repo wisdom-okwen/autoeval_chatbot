@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und sozialer Interaktion",
+    "language": "German"
+  },
+  "context": "Die Person hat Schwierigkeiten mit sozialer Angst, was dazu führt, dass sie sich bei Arztbesuchen und Gesprächen über PrEP unwohl fühlt. Diese Herausforderung beeinflusst ihre Fähigkeit, Informationen zu sammeln und notwendige Schritte zur Prävention von HIV zu unternehmen.",
+  "example_questions_clean": [
+    "Wie kann ich PrEP diskret und ohne große soziale Interaktionen erhalten?",
+    "Gibt es Unterstützungsgruppen für Menschen mit sozialer Angst, die sich für PrEP interessieren?",
+    "Was sind die ersten Schritte, um mehr über PrEP zu erfahren, wenn ich mich unsicher fühle?",
+    "Wie gehe ich mit der Angst vor Stigmatisierung um, wenn ich über PrEP spreche?",
+    "Könnte ein Online-Programm helfen, um mehr über PrEP zu lernen?",
+    "Gibt es Anlaufstellen für Beratung, die auf Menschen mit sozialen Ängsten spezialisiert sind?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich PrEP diskret und ohne große soziale Interaktionen erhalten?",
+    "Gibt es Unterstützungsgruppen für Menschen mit soziqler Angst, die sic für PrEP interessieren?",
+    "Was sind die ersten Schritte, um mehr über PrEP zu erfahren, wenn ich mich unsicher fühle?",
+    "wie gehe icb mit der angst vor stigmatisierung um enn ich über prep spreche",
+    "Könnte ein Online-Programm helfen, um mehr über PrEP zu lernen?",
+    "Gibt es Anlaufstellen für Beratung, die auf Menschen mit sozialen Ängsten spezialisiert sind?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Gibt es Anlaufstellen für Beratung, die auf Menschen mit sozialen Ängsten spezialisiert sind?",
+  "starter_noisy": "Gibt es Anlaufstellen für Beratung, die auf Menschen mit sozialen Ängsten spezialisiert sind?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich PrEP diskret und ohne große soziale Interaktionen erhalten?",
+  "followup_noisy": "Wie kann ich PrEP diskret und ohne große soziale Interaktionen erhalten?",
+  "style_profile": {
+    "typo_rate": 0.061763944076719826,
+    "swap_rate": 0.04316186889703591,
+    "drop_rate": 0.04595963015137254,
+    "dup_rate": 0.012977838078284567,
+    "leet_rate": 0.08136936012445113,
+    "start_lower_prob": 0.6891567588887647,
+    "all_lower_prob": 0.21313359486583972,
+    "drop_punct_prob": 0.4750522468394594,
+    "double_space_prob": 0.2093402568058075,
+    "ellipsis_prob": 0.18957768971669456,
+    "runon_prob": 0.2947711549189712,
+    "filler_rate": 0.4584144519473137,
+    "emoji_rate": 0.19828857459761173,
+    "stutter_rate": 0.12623022148753446,
+    "repeat_last_rate": 0.11164000882952325
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und sozialer Interaktion\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person hat Schwierigkeiten mit sozialer Angst, was dazu führt, dass sie sich bei Arztbesuchen und Gesprächen über PrEP unwohl fühlt. Diese Herausforderung beeinflusst ihre Fähigkeit, Informationen zu sammeln und notwendige Schritte zur Prävention von HIV zu unternehmen.\",\n  \"example_questions\": [\n    \"Wie kann ich PrEP diskret und ohne große soziale Interaktionen erhalten?\",\n    \"Gibt es Unterstützungsgruppen für Menschen mit sozialer Angst, die sich für PrEP interessieren?\",\n    \"Was sind die ersten Schritte, um mehr über PrEP zu erfahren, wenn ich mich unsicher fühle?\",\n    \"Wie gehe ich mit der Angst vor Stigmatisierung um, wenn ich über PrEP spreche?\",\n    \"Könnte ein Online-Programm helfen, um mehr über PrEP zu lernen?\",\n    \"Gibt es Anlaufstellen für Beratung, die auf Menschen mit sozialen Ängsten spezialisiert sind?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fde906051ebd7446faf4ed75053babef169971690483b12899555ef45b26a4ea",
+  "_starter_hash": "7f8088cc9fefdc372fbdaa0f212ac7e709601b4525ec64b7e885419474cdf4b4",
+  "_language": "German",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

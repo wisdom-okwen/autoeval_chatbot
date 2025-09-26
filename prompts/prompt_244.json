@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "dealing with stigma and fear of judgment regarding PrEP use due to my past",
+    "language": "Dutch"
+  },
+  "context": "Je hebt een geschiedenis van middelengebruik, wat je zorgen over het gebruik van PrEP vergroot. Je voelt je angstig over hoe anderen zullen reageren op jouw keuze om PrEP te nemen en of het wel veilig voor je is. Dit leidt tot een gevoel van isolatie en wanhoop, terwijl je ook hoopt op een betere gezondheid.",
+  "example_questions_clean": [
+    "Hoe kan ik PrEP aanvragen zonder te vrezen voor stigma?",
+    "Zijn er speciale programma's voor mensen met een geschiedenis van middelengebruik die PrEP willen gebruiken?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met mijn verleden?",
+    "Hoe kan ik ondersteuning vinden bij het starten met PrEP?",
+    "Is er een kans dat ik opnieuw in de problemen kom door het gebruik van PrEP?",
+    "Wat moet ik weten over de effectiviteit van PrEP in mijn situatie?"
+  ],
+  "example_questions_noisy": [
+    "hoe kan idk ik prep aanvragen zonder te vrezen voor stigma? 😭",
+    "Zijn er speciale programma's voor mensen met een geschiedenis van middelengebruik die PrEP willen gebruiken?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met mijn verleden?",
+    "Hoe kan ik ondersteuning vinden bij het starten met PrEP?",
+    "is er een kans dat ik opnieuw in de problemen kom door het gebruik you know van PrEP?",
+    "Wat moet ik weten over de effectiviteit van PrEP in mijn situatie?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is er een kans dat ik opnieuw in de problemen kom door het gebruik van PrEP?",
+  "starter_noisy": "is er een kans dat ik opnieuw in de problemen kom door het gebruik you know van PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik PrEP aanvragen zonder te vrezen voor stigma?",
+  "followup_noisy": "hoe kan idk ik prep aanvragen zonder te vrezen voor stigma? 😭",
+  "style_profile": {
+    "typo_rate": 0.05906034246900629,
+    "swap_rate": 0.026988256398642205,
+    "drop_rate": 0.02260117519284654,
+    "dup_rate": 0.010306186817939511,
+    "leet_rate": 0.10929674208250292,
+    "start_lower_prob": 0.8460714835365482,
+    "all_lower_prob": 0.2805385580748686,
+    "drop_punct_prob": 0.3074069641290629,
+    "double_space_prob": 0.17276913072772793,
+    "ellipsis_prob": 0.16449132068849398,
+    "runon_prob": 0.2101529700259189,
+    "filler_rate": 0.2637261845240957,
+    "emoji_rate": 0.3468343935733189,
+    "stutter_rate": 0.18284364894766975,
+    "repeat_last_rate": 0.1113204707271143
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"dealing with stigma and fear of judgment regarding PrEP use due to my past\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Je hebt een geschiedenis van middelengebruik, wat je zorgen over het gebruik van PrEP vergroot. Je voelt je angstig over hoe anderen zullen reageren op jouw keuze om PrEP te nemen en of het wel veilig voor je is. Dit leidt tot een gevoel van isolatie en wanhoop, terwijl je ook hoopt op een betere gezondheid.\",\n  \"example_questions\": [\n    \"Hoe kan ik PrEP aanvragen zonder te vrezen voor stigma?\",\n    \"Zijn er speciale programma's voor mensen met een geschiedenis van middelengebruik die PrEP willen gebruiken?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met mijn verleden?\",\n    \"Hoe kan ik ondersteuning vinden bij het starten met PrEP?\",\n    \"Is er een kans dat ik opnieuw in de problemen kom door het gebruik van PrEP?\",\n    \"Wat moet ik weten over de effectiviteit van PrEP in mijn situatie?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1195ca5ff9e2fda47a03b3c0064eb5f28d71e96c2e5887002e912795b194b18c",
+  "_starter_hash": "39ce75bc7b66a805b9fd8dc9dfaa5c3068f9204f3da1f41a7b432b41a592a725",
+  "_language": "Dutch",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

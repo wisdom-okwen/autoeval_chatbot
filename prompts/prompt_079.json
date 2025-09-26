@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of judgment and misunderstanding from healthcare providers",
+    "language": "English"
+  },
+  "context": "As a non-binary individual coping with gender dysphoria, there are feelings of anxiety when seeking healthcare, particularly regarding PrEP. The fear of being misgendered or not taken seriously adds a layer of stress to the process. They worry about the stigma associated with both their gender identity and their need for sexual health resources.",
+  "example_questions_clean": [
+    "What is the process for getting prescribed PrEP and what should I expect during the appointment?",
+    "How can I find a healthcare provider who understands and respects my gender identity while discussing PrEP?",
+    "Are there specific resources or support groups for people like me who are considering PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How does PrEP work in terms of protection against HIV for someone like me?",
+    "What can I do if I feel uncomfortable during the consultation about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what is the process for gettnig prescribed PrEP and ... what should j expect during the appointment? appointment?",
+    "How can I find a healthcare provider who understands and respects my gender identity while discussing PrEP?",
+    "Are there specific resources or support groups for people like me who are considering PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "how does PrEP work in terms um of protection against HIV for someone like me?",
+    "What can I do if I feel uncomfortable during the consultation about PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What is the process for getting prescribed PrEP and what should I expect during the appointment?",
+  "starter_noisy": "what is the process for gettnig prescribed PrEP and ... what should j expect during the appointment? appointment?",
+  "followup_index": 1,
+  "followup_clean": "How can I find a healthcare provider who understands and respects my gender identity while discussing PrEP?",
+  "followup_noisy": "How can I find a healthcare provider who understands and respects my gender identity while discussing PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06641840377469427,
+    "swap_rate": 0.03943366964189737,
+    "drop_rate": 0.0206358586247052,
+    "dup_rate": 0.01081937334193972,
+    "leet_rate": 0.11647028661482003,
+    "start_lower_prob": 0.7160533677961896,
+    "all_lower_prob": 0.3119865596747483,
+    "drop_punct_prob": 0.3977130909164843,
+    "double_space_prob": 0.23686526213285652,
+    "ellipsis_prob": 0.18688482993595731,
+    "runon_prob": 0.12463700028651464,
+    "filler_rate": 0.36131679731584776,
+    "emoji_rate": 0.24365993452532186,
+    "stutter_rate": 0.12784292533269945,
+    "repeat_last_rate": 0.1522317808083246
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of judgment and misunderstanding from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a non-binary individual coping with gender dysphoria, there are feelings of anxiety when seeking healthcare, particularly regarding PrEP. The fear of being misgendered or not taken seriously adds a layer of stress to the process. They worry about the stigma associated with both their gender identity and their need for sexual health resources.\",\n  \"example_questions\": [\n    \"What is the process for getting prescribed PrEP and what should I expect during the appointment?\",\n    \"How can I find a healthcare provider who understands and respects my gender identity while discussing PrEP?\",\n    \"Are there specific resources or support groups for people like me who are considering PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How does PrEP work in terms of protection against HIV for someone like me?\",\n    \"What can I do if I feel uncomfortable during the consultation about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "44c03ed422f220b39f30d75700ee29f25466e6cd94ab51df339213f966821879",
+  "_starter_hash": "06c0c208162c4d54bba86ec0a506e88c749f375d428dd8f1fee9fb0e2136ba12",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

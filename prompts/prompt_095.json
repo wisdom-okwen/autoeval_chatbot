@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and access barriers",
+    "language": "English"
+  },
+  "context": "Living in a shelter can create feelings of isolation and fear regarding health decisions. Access to healthcare resources, like PrEP, can feel daunting due to stigma and lack of privacy. The user may worry about judgment from others or be unsure about where to obtain medication.",
+  "example_questions_clean": [
+    "What steps can I take to get PrEP while living in a shelter?",
+    "Are there confidential services available for someone like me?",
+    "How can I manage my concerns about privacy when accessing PrEP?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there any financial assistance for someone with my situation to afford PrEP?",
+    "Can you recommend any supportive communities that discuss PrEP openly?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to get PrEP while living in a shelter?",
+    "Are there confidential services available for someone like me?",
+    "How can I manage my concerns about privacy when accessing PrEP?",
+    "w-what are the side effects of rpep that j should b3 4wr3 of",
+    "Is there any financial assistance for someone with my situation to afford PrEP?",
+    "Can you recommend any supportive communities that discuss PrEP openly?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is there any financial assistance for someone with my situation to afford PrEP?",
+  "starter_noisy": "Is there any financial assistance for someone with my situation to afford PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to get PrEP while living in a shelter?",
+  "followup_noisy": "What steps can I take to get PrEP while living in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.11836283919013095,
+    "swap_rate": 0.056477729426079884,
+    "drop_rate": 0.03108598697658395,
+    "dup_rate": 0.014773416943963757,
+    "leet_rate": 0.057703612174530766,
+    "start_lower_prob": 0.8400432694758254,
+    "all_lower_prob": 0.32826054282953976,
+    "drop_punct_prob": 0.4424363284868044,
+    "double_space_prob": 0.31324243916979266,
+    "ellipsis_prob": 0.3080924983159753,
+    "runon_prob": 0.17887337605381423,
+    "filler_rate": 0.4586214463581674,
+    "emoji_rate": 0.31886388449015435,
+    "stutter_rate": 0.18723426850446506,
+    "repeat_last_rate": 0.1177882279234751
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and access barriers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can create feelings of isolation and fear regarding health decisions. Access to healthcare resources, like PrEP, can feel daunting due to stigma and lack of privacy. The user may worry about judgment from others or be unsure about where to obtain medication.\",\n  \"example_questions\": [\n    \"What steps can I take to get PrEP while living in a shelter?\",\n    \"Are there confidential services available for someone like me?\",\n    \"How can I manage my concerns about privacy when accessing PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there any financial assistance for someone with my situation to afford PrEP?\",\n    \"Can you recommend any supportive communities that discuss PrEP openly?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "776b1e733f425fdec90eb9886dec006b14f0c2b85d6a056f72f260cf6f4599f5",
+  "_starter_hash": "6d4c78586beb7f3d26acaffd50557eceb6fb1cb264131f41f24eb6ccdd71ff03",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

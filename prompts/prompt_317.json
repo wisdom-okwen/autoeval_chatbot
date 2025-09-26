@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "difficulty accessing PrEP while living in a shelter",
+    "language": "Spanish"
+  },
+  "context": "Vives en un refugio y te preocupa cómo puedes acceder a PrEP. Te sientes ansiosa por el estigma que podrías enfrentar y temes que tu situación actual dificulte recibir la atención médica adecuada. A pesar de estos desafíos, esperas encontrar apoyo y soluciones.",
+  "example_questions_clean": [
+    "¿Cuáles son los requisitos para acceder a PrEP si estoy viviendo en un refugio?",
+    "¿Hay organizaciones que me puedan ayudar a obtener PrEP sin juicio?",
+    "Me preocupa el costo de PrEP; ¿hay opciones gratuitas o de bajo costo?",
+    "¿Cómo puedo hablar con un profesional de salud sobre PrEP sin sentirme avergonzada?",
+    "¿Qué información debo llevar a una cita para discutir el inicio de PrEP?",
+    "¿Es posible recibir asesoramiento confidencial sobre PrEP en mi situación?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son lps requisitos para acceder a PrEP si estoy v1v13nd0 en un refugio?",
+    "¿hag ogranizaciones que me puedan ayudar a obtener prep 51n um juicio",
+    "M-Me preocupa el costo de PrEP; ¿hay opciones gratuitas o de hajo costo? 🤔",
+    "¿Cómo puedo hablar con un profesional de salud sobre PrEP sin sentirme avergonzada?",
+    "¿Qué 1nformac1ón debo llevar a una cita para discutir el inicio de PrEP?",
+    "¿Es posible recibir asesoramiento confidencial sobre PrEP en mi situación?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Hay organizaciones que me puedan ayudar a obtener PrEP sin juicio?",
+  "starter_noisy": "¿hag ogranizaciones que me puedan ayudar a obtener prep 51n um juicio",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los requisitos para acceder a PrEP si estoy viviendo en un refugio?",
+  "followup_noisy": "¿Cuáles son lps requisitos para acceder a PrEP si estoy v1v13nd0 en un refugio?",
+  "style_profile": {
+    "typo_rate": 0.08863888201320602,
+    "swap_rate": 0.02348432620542263,
+    "drop_rate": 0.02113073112971519,
+    "dup_rate": 0.014505802548451952,
+    "leet_rate": 0.05612210344095096,
+    "start_lower_prob": 0.6247999251850389,
+    "all_lower_prob": 0.20976906802702883,
+    "drop_punct_prob": 0.34305936069113635,
+    "double_space_prob": 0.3082625404534616,
+    "ellipsis_prob": 0.1898857704310023,
+    "runon_prob": 0.2897670124412418,
+    "filler_rate": 0.2721875134311428,
+    "emoji_rate": 0.21857873356959218,
+    "stutter_rate": 0.1269048750674245,
+    "repeat_last_rate": 0.14099687557543716
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"difficulty accessing PrEP while living in a shelter\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Vives en un refugio y te preocupa cómo puedes acceder a PrEP. Te sientes ansiosa por el estigma que podrías enfrentar y temes que tu situación actual dificulte recibir la atención médica adecuada. A pesar de estos desafíos, esperas encontrar apoyo y soluciones.\",\n  \"example_questions\": [\n    \"¿Cuáles son los requisitos para acceder a PrEP si estoy viviendo en un refugio?\",\n    \"¿Hay organizaciones que me puedan ayudar a obtener PrEP sin juicio?\",\n    \"Me preocupa el costo de PrEP; ¿hay opciones gratuitas o de bajo costo?\",\n    \"¿Cómo puedo hablar con un profesional de salud sobre PrEP sin sentirme avergonzada?\",\n    \"¿Qué información debo llevar a una cita para discutir el inicio de PrEP?\",\n    \"¿Es posible recibir asesoramiento confidencial sobre PrEP en mi situación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "32129845075374169bdf75c40882a0df32800c98673e50995e81c6a8f28798df",
+  "_starter_hash": "8dca4e688574ae3348d888e32d4d4738ac391f861a8ba77c1f201a7fb634a3c0",
+  "_language": "Spanish",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

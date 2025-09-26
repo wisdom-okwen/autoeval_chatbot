@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "miedo al estigma social y a la posibilidad de rechazo",
+    "language": "Spanish"
+  },
+  "context": "Esta mujer de 28 años se siente insegura acerca de su salud sexual y teme que el uso de PrEP pueda llevar a juicios o rechazo por parte de sus amigos y familiares. Aunque es consciente de los beneficios de la PrEP, su auto-estima baja la hace dudar sobre si debe o no buscar esta opción, sintiendo que podría ser vista de manera diferente por quienes la rodean.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP en mi situación?",
+    "Me preocupa que al pedir información sobre PrEP me etiqueten, ¿cómo puedo superar este miedo?",
+    "¿Qué debo hacer si siento que no tengo el apoyo de mis seres queridos para empezar con PrEP?",
+    "¿Existen recursos en línea donde pueda aprender más sobre PrEP sin tener que hablar con alguien en persona?",
+    "¿Cómo puede la PrEP ayudarme a sentirme más segura acerca de mi vida sexual?",
+    "¿Es común que las personas tengan miedo del estigma relacionado con el uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de tomar PrEP en mi situación?",
+    "me preocupa que al pedir información sobte prep me e71qu37en ¿cómo puedo superar 3st3 miedo miedo",
+    "¿Qué debo hacer si siento que no tengo el apoyo de mis seres queridos para empezar con PrEP?",
+    "¿Existen r3curs05 en línea donde pu3d4 aprender más sobre PrEP sin tener que bablar con alguien en persona?",
+    "¿Cómo puede la PrEP ayudarme a sentirme más segura acerca de mi you know v1da sexual?",
+    "¿Es común que las like personas tengan miedo del estigma relacionado con wl uso de PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Existen recursos en línea donde pueda aprender más sobre PrEP sin tener que hablar con alguien en persona?",
+  "starter_noisy": "¿Existen r3curs05 en línea donde pu3d4 aprender más sobre PrEP sin tener que bablar con alguien en persona?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP en mi situación?",
+  "followup_noisy": "¿Cuáles son los beneficios de tomar PrEP en mi situación?",
+  "style_profile": {
+    "typo_rate": 0.10265258277497301,
+    "swap_rate": 0.026187944632491023,
+    "drop_rate": 0.048200147271182575,
+    "dup_rate": 0.014502542416997699,
+    "leet_rate": 0.052580946341445,
+    "start_lower_prob": 0.8447468446489508,
+    "all_lower_prob": 0.31307219370388684,
+    "drop_punct_prob": 0.3333077241633329,
+    "double_space_prob": 0.24133924466901902,
+    "ellipsis_prob": 0.17735564892750566,
+    "runon_prob": 0.280037766454081,
+    "filler_rate": 0.492436481458695,
+    "emoji_rate": 0.23518284559487335,
+    "stutter_rate": 0.16741469683085058,
+    "repeat_last_rate": 0.1466843304824815
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"miedo al estigma social y a la posibilidad de rechazo\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta mujer de 28 años se siente insegura acerca de su salud sexual y teme que el uso de PrEP pueda llevar a juicios o rechazo por parte de sus amigos y familiares. Aunque es consciente de los beneficios de la PrEP, su auto-estima baja la hace dudar sobre si debe o no buscar esta opción, sintiendo que podría ser vista de manera diferente por quienes la rodean.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP en mi situación?\",\n    \"Me preocupa que al pedir información sobre PrEP me etiqueten, ¿cómo puedo superar este miedo?\",\n    \"¿Qué debo hacer si siento que no tengo el apoyo de mis seres queridos para empezar con PrEP?\",\n    \"¿Existen recursos en línea donde pueda aprender más sobre PrEP sin tener que hablar con alguien en persona?\",\n    \"¿Cómo puede la PrEP ayudarme a sentirme más segura acerca de mi vida sexual?\",\n    \"¿Es común que las personas tengan miedo del estigma relacionado con el uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e3cba8dfe9da77ce0477ee3c5f669cbdb499679c1673f280ca55afff84b6e128",
+  "_starter_hash": "ee16cde79a67e502a10e994a9ed37ec1eb9924f5380f84a95645821362182e6c",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

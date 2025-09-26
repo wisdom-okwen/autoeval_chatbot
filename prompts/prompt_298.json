@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 24,
+    "gender": "non-binaire",
+    "socio_economic_status": "middenklasse",
+    "primary_concern": "angst voor discriminatie bij het verkrijgen van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart genderdysforie en maakt je zorgen over hoe dit je toegang tot PrEP kan beïnvloeden. De angst voor stigma en afwijzing houdt je tegen om vragen te stellen of hulp te zoeken, ondanks de hoop dat PrEP je kan helpen bij je seksuele gezondheid.",
+  "example_questions_clean": [
+    "Wat zijn de vereisten voor het verkrijgen van PrEP in Nederland?",
+    "Kun je me vertellen hoe ik een arts kan vinden die begripvol is tegenover mijn situatie?",
+    "Zijn er speciale programma's of ondersteuning voor mensen die zich in een soortgelijke situatie bevinden?",
+    "Hoe kan ik mijn zorgen over stigma bespreken als ik PrEP wil aanvragen?",
+    "Wat moet ik weten over de mogelijke bijwerkingen van PrEP in relatie tot mijn genderidentiteit?",
+    "Is er financiële hulp beschikbaar voor mensen die PrEP willen gebruiken maar zich dat niet kunnen veroorloven?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de vereisetn voor het verkrijgen van idk PrEP innn Nederland?",
+    "Kun je me vertellen hoe ik een arts kan vinden die begripvol is tegenover mijn situatie?",
+    "zijn er speciale pr0gr4mm4'5 of 0nd3r573un1ng voor men53n die zich in een soortgelijke situatie bevinden",
+    "h-hoe kan ik mijn zooorgen over s71gm4 bespreken aaals ik prep wil aanvragen ❓",
+    "wat moet ik weten oer de mogelijke bijwerkingem vvvan prep in realtie tot mijn genderidentiteit?",
+    "i5 er financiële hulp beschikbaar voor mensen die prep willen gebruiken maar zich d47 uh iet kunenn veroorloven?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Kun je me vertellen hoe ik een arts kan vinden die begripvol is tegenover mijn situatie?",
+  "starter_noisy": "Kun je me vertellen hoe ik een arts kan vinden die begripvol is tegenover mijn situatie?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de vereisten voor het verkrijgen van PrEP in Nederland?",
+  "followup_noisy": "wat zijn de vereisetn voor het verkrijgen van idk PrEP innn Nederland?",
+  "style_profile": {
+    "typo_rate": 0.05430253457979084,
+    "swap_rate": 0.04073201797139578,
+    "drop_rate": 0.04216209285726162,
+    "dup_rate": 0.020624682290044476,
+    "leet_rate": 0.08918433374846602,
+    "start_lower_prob": 0.7711084805483903,
+    "all_lower_prob": 0.30386032800660123,
+    "drop_punct_prob": 0.41767147889292905,
+    "double_space_prob": 0.3112872070442552,
+    "ellipsis_prob": 0.342196491979579,
+    "runon_prob": 0.2689446895231807,
+    "filler_rate": 0.49935458907090774,
+    "emoji_rate": 0.27537080534730474,
+    "stutter_rate": 0.10632431364487925,
+    "repeat_last_rate": 0.10681055913813287
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 24,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"middenklasse\",\n    \"primary_concern\": \"angst voor discriminatie bij het verkrijgen van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart genderdysforie en maakt je zorgen over hoe dit je toegang tot PrEP kan beïnvloeden. De angst voor stigma en afwijzing houdt je tegen om vragen te stellen of hulp te zoeken, ondanks de hoop dat PrEP je kan helpen bij je seksuele gezondheid.\",\n  \"example_questions\": [\n    \"Wat zijn de vereisten voor het verkrijgen van PrEP in Nederland?\",\n    \"Kun je me vertellen hoe ik een arts kan vinden die begripvol is tegenover mijn situatie?\",\n    \"Zijn er speciale programma's of ondersteuning voor mensen die zich in een soortgelijke situatie bevinden?\",\n    \"Hoe kan ik mijn zorgen over stigma bespreken als ik PrEP wil aanvragen?\",\n    \"Wat moet ik weten over de mogelijke bijwerkingen van PrEP in relatie tot mijn genderidentiteit?\",\n    \"Is er financiële hulp beschikbaar voor mensen die PrEP willen gebruiken maar zich dat niet kunnen veroorloven?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3d1f72e129af6398c6284ab94459117ecb55c2b084505b825c74fbb26608c15a",
+  "_starter_hash": "ef7870715a61be143c3f3f6692967dbe7bf864e4a28c094072c281b776db0a70",
+  "_language": "Dutch",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

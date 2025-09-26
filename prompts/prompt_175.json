@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "français",
+    "age": 28,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la gestion de l'anxiété liée à la prise de médicaments",
+    "language": "French"
+  },
+  "context": "Vous ressentez une forte anxiété lorsque vous envisagez de commencer un traitement préventif comme le PrEP. Cette anxiété vous pousse à douter de votre capacité à suivre un traitement régulier et à vous inquiéter du jugement des autres. Vous cherchez des réponses pour mieux comprendre les effets du PrEP sur votre santé mentale.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires du PrEP qui pourraient affecter mon anxiété ?",
+    "Comment puis-je gérer mon stress tout en prenant le PrEP ?",
+    "Y a-t-il des ressources pour m'aider à surmonter ma peur de commencer ce traitement ?",
+    "Les médecins sont-ils compréhensifs concernant l'anxiété des patients qui prennent le PrEP ?",
+    "Est-ce que d'autres personnes ayant des troubles anxieux prennent le PrEP et comment gèrent-elles cela ?"
+  ],
+  "example_questions_noisy": [
+    "quels sont l35 effets secondaires du PrEP qui pourraient affecter m0h i mean anixété ?",
+    "c-comment puis-je gérer mon um 57r35s tout 3n prenant le PrEP ? ?",
+    "t a-t-il des ressources pour m'aider à surmonter ma oeur de cmmencer ce traite,ent ? 😭",
+    "Les médecins sont-ils compréhensifs concernant l'anxiété des patients qui prennent le PrEP ?",
+    "ets-ce que d'autres personnes ayant des trobules axieux ptennent le i mean PrEP et comment gèrent-elles cela ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Les médecins sont-ils compréhensifs concernant l'anxiété des patients qui prennent le PrEP ?",
+  "starter_noisy": "Les médecins sont-ils compréhensifs concernant l'anxiété des patients qui prennent le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires du PrEP qui pourraient affecter mon anxiété ?",
+  "followup_noisy": "quels sont l35 effets secondaires du PrEP qui pourraient affecter m0h i mean anixété ?",
+  "style_profile": {
+    "typo_rate": 0.09606306124986683,
+    "swap_rate": 0.03467777461046291,
+    "drop_rate": 0.04726956581978617,
+    "dup_rate": 0.021454470291155207,
+    "leet_rate": 0.05839190369038749,
+    "start_lower_prob": 0.8137504988051356,
+    "all_lower_prob": 0.2986405351492107,
+    "drop_punct_prob": 0.4619404440947679,
+    "double_space_prob": 0.2543451628554575,
+    "ellipsis_prob": 0.3025765935836452,
+    "runon_prob": 0.18257733911659849,
+    "filler_rate": 0.3684563753979903,
+    "emoji_rate": 0.20261324795222607,
+    "stutter_rate": 0.1521269920052817,
+    "repeat_last_rate": 0.09486507103052697
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"français\",\n    \"age\": 28,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la gestion de l'anxiété liée à la prise de médicaments\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous ressentez une forte anxiété lorsque vous envisagez de commencer un traitement préventif comme le PrEP. Cette anxiété vous pousse à douter de votre capacité à suivre un traitement régulier et à vous inquiéter du jugement des autres. Vous cherchez des réponses pour mieux comprendre les effets du PrEP sur votre santé mentale.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires du PrEP qui pourraient affecter mon anxiété ?\",\n    \"Comment puis-je gérer mon stress tout en prenant le PrEP ?\",\n    \"Y a-t-il des ressources pour m'aider à surmonter ma peur de commencer ce traitement ?\",\n    \"Les médecins sont-ils compréhensifs concernant l'anxiété des patients qui prennent le PrEP ?\",\n    \"Est-ce que d'autres personnes ayant des troubles anxieux prennent le PrEP et comment gèrent-elles cela ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fc6cdeec5345b1270f06f3ad39394ccca0de41c441951641e0c532507c33254b",
+  "_starter_hash": "f5521a9b1a9f86182236499d062b11cff780171981dd1a6caac5776589af7ab3",
+  "_language": "French",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Non binaire",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Le jugement potentiel des autres en raison de mon état de santé mental.",
+    "language": "French"
+  },
+  "context": "Vous luttez contre l'anxiété sociale, ce qui vous rend nerveux à l'idée de parler à des professionnels de la santé ou d'autres personnes au sujet de PrEP. Vous avez peur du jugement et cela vous empêche d'obtenir les informations dont vous avez besoin pour protéger votre santé. Vous souhaitez trouver des réponses dans un environnement respectueux et accueillant.",
+  "example_questions_clean": [
+    "Qu'est-ce que PrEP et comment fonctionne-t-il pour prévenir le VIH ?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître ?",
+    "Comment puis-je aborder le sujet de PrEP avec un médecin sans me sentir jugé ?",
+    "Y a-t-il des ressources en ligne où je peux en apprendre davantage sur PrEP tout en restant anonyme ?",
+    "Les personnes qui prennent PrEP sont-elles souvent stigmatisées dans la société ?",
+    "Est-il possible de recevoir PrEP dans un cadre où je me sens à l'aise et sécurisé ?"
+  ],
+  "example_questions_noisy": [
+    "Qu'est-ce que PrEP et comment fonctionne-t-il pour prévenir le VIH ?",
+    "quels s0n7 l35 effets secondaires possibles de PrPE sue i mean je devrais connwître",
+    "comment pu15-j3 4b0rd3r lr sujet d3 prep avec un médecin sans me sentir jugé ? 💀",
+    "Y 4-t-1l d35 ressources en ligne où je peux en apprendre davantage sur PrPE 7ou7 en restant anonyme ?",
+    "Les personnes qui prennent PrEP sont-elles souvent stigmatisées dans la société ?",
+    "Est-il possible de recevoir PrEP dans un cadre où je me sens à l'aise et sécurisé ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Les personnes qui prennent PrEP sont-elles souvent stigmatisées dans la société ?",
+  "starter_noisy": "Les personnes qui prennent PrEP sont-elles souvent stigmatisées dans la société ?",
+  "followup_index": 0,
+  "followup_clean": "Qu'est-ce que PrEP et comment fonctionne-t-il pour prévenir le VIH ?",
+  "followup_noisy": "Qu'est-ce que PrEP et comment fonctionne-t-il pour prévenir le VIH ?",
+  "style_profile": {
+    "typo_rate": 0.06135976514562916,
+    "swap_rate": 0.024961957200552158,
+    "drop_rate": 0.0334945522939439,
+    "dup_rate": 0.01679445149011121,
+    "leet_rate": 0.11749656873659184,
+    "start_lower_prob": 0.8569164430668557,
+    "all_lower_prob": 0.3037581547682453,
+    "drop_punct_prob": 0.34379692127229183,
+    "double_space_prob": 0.3255351488628677,
+    "ellipsis_prob": 0.2627717332725804,
+    "runon_prob": 0.15197880968723448,
+    "filler_rate": 0.3000633688438735,
+    "emoji_rate": 0.17148124215975685,
+    "stutter_rate": 0.19181085982635795,
+    "repeat_last_rate": 0.17282730087933473
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Non binaire\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Le jugement potentiel des autres en raison de mon état de santé mental.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous luttez contre l'anxiété sociale, ce qui vous rend nerveux à l'idée de parler à des professionnels de la santé ou d'autres personnes au sujet de PrEP. Vous avez peur du jugement et cela vous empêche d'obtenir les informations dont vous avez besoin pour protéger votre santé. Vous souhaitez trouver des réponses dans un environnement respectueux et accueillant.\",\n  \"example_questions\": [\n    \"Qu'est-ce que PrEP et comment fonctionne-t-il pour prévenir le VIH ?\",\n    \"Quels sont les effets secondaires possibles de PrEP que je devrais connaître ?\",\n    \"Comment puis-je aborder le sujet de PrEP avec un médecin sans me sentir jugé ?\",\n    \"Y a-t-il des ressources en ligne où je peux en apprendre davantage sur PrEP tout en restant anonyme ?\",\n    \"Les personnes qui prennent PrEP sont-elles souvent stigmatisées dans la société ?\",\n    \"Est-il possible de recevoir PrEP dans un cadre où je me sens à l'aise et sécurisé ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cf3e6b22cf1ff4116e02eb507803be2e8f311a0e26eb574c5714acb777d7074f",
+  "_starter_hash": "94b806f81fa37f488fd42456d8fc362b11a4aea487e5ddc14b455380f10376ff",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

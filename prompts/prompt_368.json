@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and lack of support",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated due to a personal condition and worries about how others will perceive them if they seek PrEP. Their emotional state is affected by fear of judgment and a desire for support, making it challenging to access healthcare services.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get started with PrEP?",
+    "Can you help me understand the potential side effects of PrEP?",
+    "I am worried about how my friends might react if they find out I'm on PrEP. What should I consider?",
+    "Are there community resources available for someone in my situation?",
+    "How can I have an open conversation with my healthcare provider about PrEP?",
+    "What options exist for financial assistance with PrEP if I'm on a tight budget?"
+  ],
+  "example_questions_noisy": [
+    "wh47 are the steps I need to 74k3 to get started wiyh PrEP",
+    "you know Can yyyou help me understand the potential side effect og PrEP? ‼️",
+    "I am worried about how my friends might react if they find out I'm on PrEP. What should I consider?",
+    "Are there community resources available for someone in my situation?",
+    "how can i have an open conversation with my healthcare provider about pr3p? ‼️",
+    "what 0p710n5 exist for financial assistance with PrEP ir I'm on a tight budget? ‼️"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I need to take to get started with PrEP?",
+  "starter_noisy": "wh47 are the steps I need to 74k3 to get started wiyh PrEP",
+  "followup_index": 1,
+  "followup_clean": "Can you help me understand the potential side effects of PrEP?",
+  "followup_noisy": "you know Can yyyou help me understand the potential side effect og PrEP? ‼️",
+  "style_profile": {
+    "typo_rate": 0.07063469137907834,
+    "swap_rate": 0.040433376493394034,
+    "drop_rate": 0.022052789695364873,
+    "dup_rate": 0.01879560678746619,
+    "leet_rate": 0.10828537817240386,
+    "start_lower_prob": 0.6489403280208479,
+    "all_lower_prob": 0.34862972043073526,
+    "drop_punct_prob": 0.48586601467178736,
+    "double_space_prob": 0.2787318439047324,
+    "ellipsis_prob": 0.3048364672751448,
+    "runon_prob": 0.2813255206511565,
+    "filler_rate": 0.42676314911213076,
+    "emoji_rate": 0.2525595525971058,
+    "stutter_rate": 0.11351538979694047,
+    "repeat_last_rate": 0.16454598929092498
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and lack of support\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated due to a personal condition and worries about how others will perceive them if they seek PrEP. Their emotional state is affected by fear of judgment and a desire for support, making it challenging to access healthcare services.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get started with PrEP?\",\n    \"Can you help me understand the potential side effects of PrEP?\",\n    \"I am worried about how my friends might react if they find out I'm on PrEP. What should I consider?\",\n    \"Are there community resources available for someone in my situation?\",\n    \"How can I have an open conversation with my healthcare provider about PrEP?\",\n    \"What options exist for financial assistance with PrEP if I'm on a tight budget?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c2be0fb00f11b420633ee85584c7943d968344255056ea163a60080dd652f130",
+  "_starter_hash": "c5b81db05526b3419bd3799fb43855d33cb096e5f5b119c0ab515118d3912bfe",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

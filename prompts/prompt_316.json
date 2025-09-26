@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of stigma and side effects of medication",
+    "language": "English"
+  },
+  "context": "The user is experiencing depression, which makes it challenging to seek information about PrEP. She feels overwhelmed and worries that discussing her sexual health may lead to judgment. Her depression affects her motivation and energy levels, creating barriers to accessing healthcare and understanding treatment options. She hopes to find the right information to make an informed decision about PrEP while managing her mental health.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+    "Are there resources available for someone like me who is also dealing with mental health challenges?",
+    "What should I do if I experience anxiety about taking a new medication?",
+    "How can I manage feelings of stigma while trying to take care of my sexual health?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I discuss my interest in PrEP with a healthcare provider without feeling judged?",
+    "A-Are three resoures vaailable for someone like me who is also dealing with mental health challenges?",
+    "what 5h0uld I do if o experience anxiety about taking i mean a new medication?",
+    "how can i manage feelings of stigma while trying to take care of my sexual health"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "starter_noisy": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and who should consider taking it?",
+  "followup_noisy": "Can you explain how PrEP works and who should consider taking it?",
+  "style_profile": {
+    "typo_rate": 0.08567660442560535,
+    "swap_rate": 0.042967341301481055,
+    "drop_rate": 0.032055386776250284,
+    "dup_rate": 0.015286435070037305,
+    "leet_rate": 0.08306555409888024,
+    "start_lower_prob": 0.6773663772603145,
+    "all_lower_prob": 0.1723255044512461,
+    "drop_punct_prob": 0.32821254671409633,
+    "double_space_prob": 0.20713058947624252,
+    "ellipsis_prob": 0.16178717834342135,
+    "runon_prob": 0.1314974312715104,
+    "filler_rate": 0.22237413640301207,
+    "emoji_rate": 0.15732634964615919,
+    "stutter_rate": 0.11863662222297489,
+    "repeat_last_rate": 0.1714173063617284
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of stigma and side effects of medication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is experiencing depression, which makes it challenging to seek information about PrEP. She feels overwhelmed and worries that discussing her sexual health may lead to judgment. Her depression affects her motivation and energy levels, creating barriers to accessing healthcare and understanding treatment options. She hopes to find the right information to make an informed decision about PrEP while managing her mental health.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and who should consider taking it?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I discuss my interest in PrEP with a healthcare provider without feeling judged?\",\n    \"Are there resources available for someone like me who is also dealing with mental health challenges?\",\n    \"What should I do if I experience anxiety about taking a new medication?\",\n    \"How can I manage feelings of stigma while trying to take care of my sexual health?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "552e81e8ac025ec3a9d2624d578eea1fd75125e6e846a528bca7fe53bc2d26e1",
+  "_starter_hash": "ac9417fd6cb9306d1073c53503cff85cf9fa4603074d0d5c4d2d8baa77db630e",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

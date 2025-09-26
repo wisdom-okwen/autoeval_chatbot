@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "how my bipolar disorder might affect my ability to take PrEP consistently",
+    "language": "Swahili"
+  },
+  "context": "The user is living with bipolar disorder, which influences her emotions and mindset towards managing her health. She often feels overwhelmed by the possibility of medication adherence and worries about stigma related to both her mental health and HIV prevention. Despite her concerns, she hopes to learn how PrEP can fit into her life without exacerbating her condition.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi hali yangu ya akili itakavyoathiri ufanisi wa PrEP.",
+    "Je, ni njia gani bora za kuhakikisha naweza kuchukua PrEP kila siku?",
+    "Ninaweza kupata msaada gani wa kiakili wakati wa kutumia PrEP?",
+    "Je, kuna madhara yoyote ya kutumia PrEP na dawa zangu za bipolar disorder?",
+    "Nifanye nini ikiwa nitaona athari mbaya kwenye hali yangu ya akili?",
+    "Je, ni rahisi kupata PrEP nchini Kenya kwa watu wenye changamoto kama zangu?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kuhusu jinsi hali yangu ya akili itakavyoathiri ufanisi wa PrEP.",
+    "je n1 nji4 gani bora za kuh4k1ki5h4 naweza kudhukua PrEP kila siku 🙄",
+    "Ninaweza kupata msaada gani wa kiakili wakati wa kutumia PrEP?",
+    "je, kuna madahra yoyote ya kutumia ppprep n4 dawa zangu zzza bipolar um disorder? 😅",
+    "Nifanye nini ikiwa nitaona athari mbaya kwenye hali yangu ya akili?",
+    "Je, ni rahisi kupata PrEP nchini Kenya kwa watu wenye changamoto kama zangu?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Je, ni rahisi kupata PrEP nchini Kenya kwa watu wenye changamoto kama zangu?",
+  "starter_noisy": "Je, ni rahisi kupata PrEP nchini Kenya kwa watu wenye changamoto kama zangu?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi hali yangu ya akili itakavyoathiri ufanisi wa PrEP.",
+  "followup_noisy": "Nina wasiwasi kuhusu jinsi hali yangu ya akili itakavyoathiri ufanisi wa PrEP.",
+  "style_profile": {
+    "typo_rate": 0.10307793140351543,
+    "swap_rate": 0.04174441026205312,
+    "drop_rate": 0.04467798156706762,
+    "dup_rate": 0.026737226577409866,
+    "leet_rate": 0.05930539056288377,
+    "start_lower_prob": 0.7362674951410495,
+    "all_lower_prob": 0.3101164149012156,
+    "drop_punct_prob": 0.5296932065957152,
+    "double_space_prob": 0.2831988928035656,
+    "ellipsis_prob": 0.25056809802435503,
+    "runon_prob": 0.15732109007216416,
+    "filler_rate": 0.4515205479243713,
+    "emoji_rate": 0.30582287122383167,
+    "stutter_rate": 0.1994965554637754,
+    "repeat_last_rate": 0.1329863817889465
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"how my bipolar disorder might affect my ability to take PrEP consistently\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is living with bipolar disorder, which influences her emotions and mindset towards managing her health. She often feels overwhelmed by the possibility of medication adherence and worries about stigma related to both her mental health and HIV prevention. Despite her concerns, she hopes to learn how PrEP can fit into her life without exacerbating her condition.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi hali yangu ya akili itakavyoathiri ufanisi wa PrEP.\",\n    \"Je, ni njia gani bora za kuhakikisha naweza kuchukua PrEP kila siku?\",\n    \"Ninaweza kupata msaada gani wa kiakili wakati wa kutumia PrEP?\",\n    \"Je, kuna madhara yoyote ya kutumia PrEP na dawa zangu za bipolar disorder?\",\n    \"Nifanye nini ikiwa nitaona athari mbaya kwenye hali yangu ya akili?\",\n    \"Je, ni rahisi kupata PrEP nchini Kenya kwa watu wenye changamoto kama zangu?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c18548c6a73c959e39a34ffdaa983fa2f0dcfc6d34a8564a3353872eecfbcf3c",
+  "_starter_hash": "0aae2931bca06720b9461aa32dc1a56415b5cc641d15796fa2a4e9b44d5d2619",
+  "_language": "Swahili",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

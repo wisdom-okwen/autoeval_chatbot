@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Homme",
+    "socio_economic_status": "Modeste",
+    "primary_concern": "L'accès à PrEP en raison de mon passé de consommation de substances",
+    "language": "French"
+  },
+  "context": "Vous avez des inquiétudes concernant l'accès à PrEP à cause de votre histoire de consommation de substances. Vous craignez que cela puisse influencer la perception des professionnels de santé et que cela complique l'obtention du traitement. Malgré ces défis, vous espérez trouver des informations fiables et un soutien adapté.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour accéder à PrEP si j'ai un passé de consommation de substances ?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent prendre PrEP ?",
+    "Comment les professionnels de santé perçoivent-ils mon histoire personnelle lors de la prescription de PrEP ?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître en tant que personne avec un passé complexe ?",
+    "Est-ce que le traitement PrEP est accessible aux personnes issues de milieux socio-économiques modestes ?",
+    "Y a-t-il des témoignages d'autres personnes ayant surmonté des obstacles similaires pour accéder à PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour accéder à PrEP si j'ai un passé de consommation de substances ?",
+    "Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent prendre PrEP ?",
+    "Comment les professionnels de santé perçoivent-ils mon histoire personnelle lors de la prescription de PrEP ?",
+    "Quels sont les effets secondaires possibles de PrEP que je devrais connaître en tant que personne avec un passé complexe ?",
+    "est-ce que le traitement PrEP est accessible aux personnes issues de milieux scio-économiques modestes 😭",
+    "y a-t-il desss tém0ign4ges d'autres personnes ay4n7 surmonté des obstacles idk similaires p0ur accéder à prep 🫠 🫠"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Comment les professionnels de santé perçoivent-ils mon histoire personnelle lors de la prescription de PrEP ?",
+  "starter_noisy": "Comment les professionnels de santé perçoivent-ils mon histoire personnelle lors de la prescription de PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour accéder à PrEP si j'ai un passé de consommation de substances ?",
+  "followup_noisy": "Quelles sont les étapes pour accéder à PrEP si j'ai un passé de consommation de substances ?",
+  "style_profile": {
+    "typo_rate": 0.10618075867614611,
+    "swap_rate": 0.026816206552891967,
+    "drop_rate": 0.04059089001346835,
+    "dup_rate": 0.02662010503659603,
+    "leet_rate": 0.09583175791995197,
+    "start_lower_prob": 0.8121705124454235,
+    "all_lower_prob": 0.23639827261058158,
+    "drop_punct_prob": 0.541671718624929,
+    "double_space_prob": 0.2427135014624288,
+    "ellipsis_prob": 0.28059667613631756,
+    "runon_prob": 0.16321238744583771,
+    "filler_rate": 0.4238159972080917,
+    "emoji_rate": 0.33513967427172575,
+    "stutter_rate": 0.19172407701485855,
+    "repeat_last_rate": 0.16324447614581022
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Modeste\",\n    \"primary_concern\": \"L'accès à PrEP en raison de mon passé de consommation de substances\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez des inquiétudes concernant l'accès à PrEP à cause de votre histoire de consommation de substances. Vous craignez que cela puisse influencer la perception des professionnels de santé et que cela complique l'obtention du traitement. Malgré ces défis, vous espérez trouver des informations fiables et un soutien adapté.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour accéder à PrEP si j'ai un passé de consommation de substances ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes comme moi qui souhaitent prendre PrEP ?\",\n    \"Comment les professionnels de santé perçoivent-ils mon histoire personnelle lors de la prescription de PrEP ?\",\n    \"Quels sont les effets secondaires possibles de PrEP que je devrais connaître en tant que personne avec un passé complexe ?\",\n    \"Est-ce que le traitement PrEP est accessible aux personnes issues de milieux socio-économiques modestes ?\",\n    \"Y a-t-il des témoignages d'autres personnes ayant surmonté des obstacles similaires pour accéder à PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4dc62cd2b4ae657a897b5ffe4c53af441544972cd34c7e0bfe7e4cdca1be53ce",
+  "_starter_hash": "e15965ad991490185408fd3af25e69088df3ac6b10acb9d304b468e45a0a0c5c",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

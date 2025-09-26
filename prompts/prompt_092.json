@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 28,
+    "gender": "männlich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und möglichen Nebenwirkungen",
+    "language": "German"
+  },
+  "context": "Du kämpfst mit deinem Selbstwertgefühl, was dich daran hindert, über PrEP nachzudenken. Du machst dir Sorgen darüber, wie andere über dich denken könnten, wenn sie erfahren, dass du es in Betracht ziehst, und bist besorgt über die möglichen Nebenwirkungen. Diese Ängste behindern deinen Zugang zu Gesundheitsinformationen.",
+  "example_questions_clean": [
+    "Was ist PrEP und wie funktioniert es genau?",
+    "Welche möglichen Nebenwirkungen könnte ich von PrEP erwarten?",
+    "Wie kann ich mich sicherer fühlen, wenn ich über PrEP nachdenke?",
+    "Gibt es Unterstützung für Menschen wie mich, die sich unsicher fühlen?",
+    "Welche Erfahrungen haben andere Menschen mit PrEP gemacht?",
+    "Wie kann ich meine Bedenken gegenüber Stigmatisierung abbauen?"
+  ],
+  "example_questions_noisy": [
+    "w-was ist PrEP und um wie funktioniert es genau?",
+    "Welche möglichen Nebenwirkungen könnte ich von PrEP erwarten?",
+    "Wie kann ich mich sicherer fühlen, wenn ich über PrEP nachdenke?",
+    "gibt es unterstützung für menschen wie imch die sich unsicher fühlne 😕",
+    "welche erfahrungen haben uh andere menschen mit prep gemacht",
+    "Wie kann ich meine Bedenken gegenüber Stigmatisierung abbauen?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Welche möglichen Nebenwirkungen könnte ich von PrEP erwarten?",
+  "starter_noisy": "Welche möglichen Nebenwirkungen könnte ich von PrEP erwarten?",
+  "followup_index": 0,
+  "followup_clean": "Was ist PrEP und wie funktioniert es genau?",
+  "followup_noisy": "w-was ist PrEP und um wie funktioniert es genau?",
+  "style_profile": {
+    "typo_rate": 0.05220436613557108,
+    "swap_rate": 0.049169542813123905,
+    "drop_rate": 0.04884271175128185,
+    "dup_rate": 0.014475220962846785,
+    "leet_rate": 0.05223658147856615,
+    "start_lower_prob": 0.79925069439671,
+    "all_lower_prob": 0.3448293990849444,
+    "drop_punct_prob": 0.5261615362989087,
+    "double_space_prob": 0.2864475110739454,
+    "ellipsis_prob": 0.3130198423239297,
+    "runon_prob": 0.2227402037861876,
+    "filler_rate": 0.36733732424893567,
+    "emoji_rate": 0.15200097810361315,
+    "stutter_rate": 0.12269401243858497,
+    "repeat_last_rate": 0.11397159936201723
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 28,\n    \"gender\": \"männlich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und möglichen Nebenwirkungen\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Du kämpfst mit deinem Selbstwertgefühl, was dich daran hindert, über PrEP nachzudenken. Du machst dir Sorgen darüber, wie andere über dich denken könnten, wenn sie erfahren, dass du es in Betracht ziehst, und bist besorgt über die möglichen Nebenwirkungen. Diese Ängste behindern deinen Zugang zu Gesundheitsinformationen.\",\n  \"example_questions\": [\n    \"Was ist PrEP und wie funktioniert es genau?\",\n    \"Welche möglichen Nebenwirkungen könnte ich von PrEP erwarten?\",\n    \"Wie kann ich mich sicherer fühlen, wenn ich über PrEP nachdenke?\",\n    \"Gibt es Unterstützung für Menschen wie mich, die sich unsicher fühlen?\",\n    \"Welche Erfahrungen haben andere Menschen mit PrEP gemacht?\",\n    \"Wie kann ich meine Bedenken gegenüber Stigmatisierung abbauen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "32183517590aebf2489b99a2725ed025022c5b4ef6fd55d9d3cb0625c3cb7758",
+  "_starter_hash": "69206aeb811582bd6a7dce74bc4cd2f1665ef7c8b82489efc7a65dbb57810757",
+  "_language": "German",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu anajitahidi kuanza kutumia PrEP lakini anasumbuliwa na hisia za hofu na aibu kutokana na uzoefu wake wa zamani wa unyanyasaji. Anataka kujikinga na virusi vya UKIMWI lakini anaogopa kile jamii itasema ikiwa atajulikana kuwa anatumia dawa hii. Anaweza kuwa na changamoto katika kupata huduma za afya kutokana na hali yake ya kifedha na hali ya kihisia inayomfanya asijisikie salama katika kuzungumza kuhusu masuala ya kiafya.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kusaidia watu kama mimi ambao wanakabiliwa na hofu ya kufichuliwa?",
+    "Ninaweza kupata wapi huduma za PrEP bila kuhisi aibu au kutengwa?",
+    "Ni gharama gani ya matumizi ya PrEP nchini Kenya?",
+    "Je, kuna njia zozote za kupunguza unyanyasaji wa kijamii kwa watumiaji wa PrEP?",
+    "Nani anaweza kunisaidia kuelewa zaidi kuhusu matumizi salama ya PrEP?",
+    "Naweza kufanya nini ili kujihifadhi nikitumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "je PrEo inaweza kusaidia atu kama j1m1 ambao wanakabiliwa na hocu ya kufichuliwa kufichuliwa",
+    "Ninaweza kupata wapi huduma za PrEP bila kuhisi aibu au kutengwa?",
+    "Ni gharama gani ya matumizi ya PrEP nchini Kenya?",
+    "je kuna njia zozote za kupunguza unyanyasaji wa kijmii kwa watumiaji wa prep",
+    "Nani anaweza kunisaidia kuelewa zaidi kuhusu matumizi salama ya PrEP?",
+    "naewza kufanya nini ili kujihifadhi you know niiktumia PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Ninaweza kupata wapi huduma za PrEP bila kuhisi aibu au kutengwa?",
+  "starter_noisy": "Ninaweza kupata wapi huduma za PrEP bila kuhisi aibu au kutengwa?",
+  "followup_index": 0,
+  "followup_clean": "Je, PrEP inaweza kusaidia watu kama mimi ambao wanakabiliwa na hofu ya kufichuliwa?",
+  "followup_noisy": "je PrEo inaweza kusaidia atu kama j1m1 ambao wanakabiliwa na hocu ya kufichuliwa kufichuliwa",
+  "style_profile": {
+    "typo_rate": 0.07937277539611436,
+    "swap_rate": 0.04391694286587583,
+    "drop_rate": 0.038798161216113625,
+    "dup_rate": 0.014394672022586572,
+    "leet_rate": 0.07782172920025184,
+    "start_lower_prob": 0.692666576709534,
+    "all_lower_prob": 0.3342158341720251,
+    "drop_punct_prob": 0.5129596468266822,
+    "double_space_prob": 0.274833810131487,
+    "ellipsis_prob": 0.25204629981121246,
+    "runon_prob": 0.11831061090327366,
+    "filler_rate": 0.25341206583143394,
+    "emoji_rate": 0.32003184043521793,
+    "stutter_rate": 0.16339240406499583,
+    "repeat_last_rate": 0.14897487083139133
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu anajitahidi kuanza kutumia PrEP lakini anasumbuliwa na hisia za hofu na aibu kutokana na uzoefu wake wa zamani wa unyanyasaji. Anataka kujikinga na virusi vya UKIMWI lakini anaogopa kile jamii itasema ikiwa atajulikana kuwa anatumia dawa hii. Anaweza kuwa na changamoto katika kupata huduma za afya kutokana na hali yake ya kifedha na hali ya kihisia inayomfanya asijisikie salama katika kuzungumza kuhusu masuala ya kiafya.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kusaidia watu kama mimi ambao wanakabiliwa na hofu ya kufichuliwa?\",\n    \"Ninaweza kupata wapi huduma za PrEP bila kuhisi aibu au kutengwa?\",\n    \"Ni gharama gani ya matumizi ya PrEP nchini Kenya?\",\n    \"Je, kuna njia zozote za kupunguza unyanyasaji wa kijamii kwa watumiaji wa PrEP?\",\n    \"Nani anaweza kunisaidia kuelewa zaidi kuhusu matumizi salama ya PrEP?\",\n    \"Naweza kufanya nini ili kujihifadhi nikitumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ce3d9550a4b5b87a8cb5802aa37fa8ece54708c9ddc21b1f375ff1a0cb9af038",
+  "_starter_hash": "65b15a51e9abaff9755639c16edf0467049af375b0f08f805315e7290bd274be",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

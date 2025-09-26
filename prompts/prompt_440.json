@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worries about how PrEP may interact with ongoing health conditions post-cancer treatment",
+    "language": "Swahili"
+  },
+  "context": "After undergoing cancer treatment, the individual is focused on rebuilding their health and managing potential risks. They feel a mix of hope and anxiety about starting PrEP, concerned about its effects on their body and how it might impact their recovery journey.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu athari za PrEP kwa afya yangu baada ya matibabu ya saratani.",
+    "Je, PrEP inaweza kusaidia watu kama mimi waliorejea kwenye afya baada ya saratani?",
+    "Ni vipi nitakavyoweza kupata PrEP bila kujihisi aibu katika jamii yangu?",
+    "Ninaweza kupata ushauri wapi kuhusu jinsi PrEP inavyofanya kazi na afya yangu?",
+    "Je, kuna hatua zozote za ziada ninazohitaji kuchukua ili kuhakikisha usalama wangu na wa wengine?",
+    "Ningependa kujua zaidi kuhusu gharama za PrEP kwa watu walio katika hali yangu."
+  ],
+  "example_questions_noisy": [
+    "nina wa5iw451 juhusu athari za rPEP kwa afya yangu baada ya matibbau ya saratan. 🙂",
+    "Je, PrEP inaweza kusaidia watu kama mimi waliorejea kwenye afya baada ya saratani?",
+    "Ni vipi nitakavyoweza kupata PrEP bila kujihisi aibu katika jamii yangu?",
+    "ninaweza kupataaa you know ushauri w4pi kuhusu jinsi prep 1n4vyof4ny4 kazi na afya yangu?",
+    "je kuna hatua ozzote zzza ziada ninazohitaji kuchukua ili kuh4k1k1sh4 usalama wangu na wa wengine",
+    "Ningependa kujua zaidi kuhusu gharama za PrEP kwa watu walio katika hali yangu."
+  ],
+  "starter_index": 0,
+  "starter_clean": "Nina wasiwasi kuhusu athari za PrEP kwa afya yangu baada ya matibabu ya saratani.",
+  "starter_noisy": "nina wa5iw451 juhusu athari za rPEP kwa afya yangu baada ya matibbau ya saratan. 🙂",
+  "followup_index": 1,
+  "followup_clean": "Je, PrEP inaweza kusaidia watu kama mimi waliorejea kwenye afya baada ya saratani?",
+  "followup_noisy": "Je, PrEP inaweza kusaidia watu kama mimi waliorejea kwenye afya baada ya saratani?",
+  "style_profile": {
+    "typo_rate": 0.09147848306803502,
+    "swap_rate": 0.058116366490396504,
+    "drop_rate": 0.03508932671329163,
+    "dup_rate": 0.01699110972142152,
+    "leet_rate": 0.05407100294921099,
+    "start_lower_prob": 0.7885266810314271,
+    "all_lower_prob": 0.21301846701383575,
+    "drop_punct_prob": 0.4070505088723874,
+    "double_space_prob": 0.18320031222453634,
+    "ellipsis_prob": 0.24565630962726873,
+    "runon_prob": 0.24772328292089624,
+    "filler_rate": 0.4605476371002816,
+    "emoji_rate": 0.27813527828212914,
+    "stutter_rate": 0.14779010174320928,
+    "repeat_last_rate": 0.1687959021187842
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worries about how PrEP may interact with ongoing health conditions post-cancer treatment\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"After undergoing cancer treatment, the individual is focused on rebuilding their health and managing potential risks. They feel a mix of hope and anxiety about starting PrEP, concerned about its effects on their body and how it might impact their recovery journey.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu athari za PrEP kwa afya yangu baada ya matibabu ya saratani.\",\n    \"Je, PrEP inaweza kusaidia watu kama mimi waliorejea kwenye afya baada ya saratani?\",\n    \"Ni vipi nitakavyoweza kupata PrEP bila kujihisi aibu katika jamii yangu?\",\n    \"Ninaweza kupata ushauri wapi kuhusu jinsi PrEP inavyofanya kazi na afya yangu?\",\n    \"Je, kuna hatua zozote za ziada ninazohitaji kuchukua ili kuhakikisha usalama wangu na wa wengine?\",\n    \"Ningependa kujua zaidi kuhusu gharama za PrEP kwa watu walio katika hali yangu.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "dd44df7ad43517949ba86d92e84a5d31320b9b97a024ed3bdcab508e763a7aa7",
+  "_starter_hash": "67ed02f4c3f07aefcf2ccd5d04504e6d540b947162f335ee4fa4811593a21fde",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

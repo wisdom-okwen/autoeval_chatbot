@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 27,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how to take PrEP with my learning disability",
+    "language": "Swahili"
+  },
+  "context": "You are navigating the complexities of accessing PrEP while managing a learning disability that makes processing medical information more challenging. This has led to feelings of anxiety about understanding the medication and its benefits, as well as concerns about potential stigma from healthcare providers and peers.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi ya kuchukua PrEP kwa sababu ya ugumu wa kuelewa maelezo ya matibabu.",
+    "Je, kuna njia rahisi ya kupata habari kuhusu PrEP ambazo naweza kuelewa vizuri?",
+    "Ninaweza kupata msaada wapi kwa maswali yangu kuhusu PrEP?",
+    "Ni muhimu kwangu kujua kama PrEP itakuwa salama kwangu na hali yangu.",
+    "Ninataka kujua ni hatua zipi nitazochukua ili kuanza kutumia PrEP."
+  ],
+  "example_questions_noisy": [
+    "nina wasiwasi kuhusu jinsi ya kuchukua prep idk kqa sababu ya ugumu wa kuelewa maeleoz y4 matibabu. matibabu.",
+    "Je, kuna njia rahisi ya kupata habari kuhusu PrEP ambazo naweza kuelewa vizuri?",
+    "Ninaweza kupata msaada wapi kwa maswali yangu kuhusu PrEP?",
+    "Ni muhimu kwangu kujua kama PrEP itakuwa salama kwangu na hali yangu.",
+    "ninataka kujua ni hatua zipi nitazochukua ili you know kuanza kutumia Pr3P."
+  ],
+  "starter_index": 1,
+  "starter_clean": "Je, kuna njia rahisi ya kupata habari kuhusu PrEP ambazo naweza kuelewa vizuri?",
+  "starter_noisy": "Je, kuna njia rahisi ya kupata habari kuhusu PrEP ambazo naweza kuelewa vizuri?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi ya kuchukua PrEP kwa sababu ya ugumu wa kuelewa maelezo ya matibabu.",
+  "followup_noisy": "nina wasiwasi kuhusu jinsi ya kuchukua prep idk kqa sababu ya ugumu wa kuelewa maeleoz y4 matibabu. matibabu.",
+  "style_profile": {
+    "typo_rate": 0.05841561709095659,
+    "swap_rate": 0.03651611952923739,
+    "drop_rate": 0.04527857229523731,
+    "dup_rate": 0.027321258748803597,
+    "leet_rate": 0.09274068155289536,
+    "start_lower_prob": 0.7795164280672376,
+    "all_lower_prob": 0.2922942768128146,
+    "drop_punct_prob": 0.54723365101156,
+    "double_space_prob": 0.1716900537479393,
+    "ellipsis_prob": 0.26701515116949703,
+    "runon_prob": 0.27189332553124745,
+    "filler_rate": 0.40512683012225553,
+    "emoji_rate": 0.19695648828688553,
+    "stutter_rate": 0.10797199386161903,
+    "repeat_last_rate": 0.14922123294877537
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 27,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how to take PrEP with my learning disability\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"You are navigating the complexities of accessing PrEP while managing a learning disability that makes processing medical information more challenging. This has led to feelings of anxiety about understanding the medication and its benefits, as well as concerns about potential stigma from healthcare providers and peers.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi ya kuchukua PrEP kwa sababu ya ugumu wa kuelewa maelezo ya matibabu.\",\n    \"Je, kuna njia rahisi ya kupata habari kuhusu PrEP ambazo naweza kuelewa vizuri?\",\n    \"Ninaweza kupata msaada wapi kwa maswali yangu kuhusu PrEP?\",\n    \"Ni muhimu kwangu kujua kama PrEP itakuwa salama kwangu na hali yangu.\",\n    \"Ninataka kujua ni hatua zipi nitazochukua ili kuanza kutumia PrEP.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "56ba65f377122628f85a9980c4f083a7ee525d2e35c499ebcf4b67c0aa09b325",
+  "_starter_hash": "fa27d7c7954a35efe18b3114dcccb32d646a8bca7b0b26828991c8e4decd9886",
+  "_language": "Swahili",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

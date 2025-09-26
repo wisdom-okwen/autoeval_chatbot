@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "managing medication alongside mental health treatment",
+    "language": "English"
+  },
+  "context": "You are living with schizophrenia and are interested in learning about PrEP but feel anxious about managing another medication. You worry about how it might affect your mental health and the stigma associated with your condition. You also face challenges accessing healthcare due to financial constraints and fear of discrimination.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP will not interfere with my mental health medications?",
+    "What resources are available to help me afford PrEP given my financial situation?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "Can you explain how PrEP works and its side effects?",
+    "What should I discuss with my healthcare provider about my schizophrenia when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that taking PrEP will not interfere with my mental health medications?",
+    "what resources are vaailable to help me afford PrEP given my f1nanc14l situation",
+    "Are there support groups for people like me who are considering PrEP?",
+    "can you explain how prep works and its side effects",
+    "What should I discuss with my healthcare provider about my schizophrenia when considering PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I ensure that taking PrEP will not interfere with my mental health medications?",
+  "starter_noisy": "How can I ensure that taking PrEP will not interfere with my mental health medications?",
+  "followup_index": 1,
+  "followup_clean": "What resources are available to help me afford PrEP given my financial situation?",
+  "followup_noisy": "what resources are vaailable to help me afford PrEP given my f1nanc14l situation",
+  "style_profile": {
+    "typo_rate": 0.0597818523408652,
+    "swap_rate": 0.05695642433229876,
+    "drop_rate": 0.023723115245250736,
+    "dup_rate": 0.01932010702638762,
+    "leet_rate": 0.06763934845578849,
+    "start_lower_prob": 0.7617437688242754,
+    "all_lower_prob": 0.20953233912936925,
+    "drop_punct_prob": 0.5513983858415374,
+    "double_space_prob": 0.19941289879247082,
+    "ellipsis_prob": 0.2978385903183041,
+    "runon_prob": 0.14866974052971574,
+    "filler_rate": 0.40183277183532845,
+    "emoji_rate": 0.18999028160936726,
+    "stutter_rate": 0.17131383508572945,
+    "repeat_last_rate": 0.1390452944414114
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"managing medication alongside mental health treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are living with schizophrenia and are interested in learning about PrEP but feel anxious about managing another medication. You worry about how it might affect your mental health and the stigma associated with your condition. You also face challenges accessing healthcare due to financial constraints and fear of discrimination.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP will not interfere with my mental health medications?\",\n    \"What resources are available to help me afford PrEP given my financial situation?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"Can you explain how PrEP works and its side effects?\",\n    \"What should I discuss with my healthcare provider about my schizophrenia when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d1b4d3ebc965cbed650afde250b3495eb6a745317cc98ddb14aeae592ee1e6e5",
+  "_starter_hash": "b2a1e6beaeb15d4fcd2ad696ed2d9aa5aa3e3a9789e0bfb534016a0f9831f36c",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

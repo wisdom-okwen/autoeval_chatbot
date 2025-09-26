@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 30,
+    "gender": "man",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de impact van stigma op mijn toegang tot PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je leeft met de angst voor stigma rondom hiv, wat je in je dagelijks leven en bij de toegang tot gezondheidszorg beïnvloedt. Je wilt informatie over PrEP, maar je bent bezorgd over hoe anderen op jouw gebruik van PrEP kunnen reageren. Deze zorgen maken het moeilijk om open gesprekken te voeren en hulp te zoeken.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van PrEP voor iemand zoals ik?",
+    "Hoe kan ik mijn arts het beste benaderen over het starten met PrEP?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?",
+    "Zijn er steungroepen waar ik kan praten over mijn zorgen rond stigma en PrEP?",
+    "Hoe kan ik mezelf beschermen tegen vooroordelen terwijl ik PrEP gebruik?",
+    "Is er informatie beschikbaar in andere talen over PrEP en stigma?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de voordelen van PrEP voor iemand zoals ik?",
+    "Hoe kan ik mijn arts het beste benaderen over het starten met PrEP?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?",
+    "Zijn er steungroepen waar ik kan praten over mijn zorgen rond stigma en PrEP?",
+    "Hoe kan ik mezelf beschermen tegen vooroordelen terwijl ik PrEP gebruik?",
+    "Is er informatie beschikbaar in andere talen over PrEP en stigma?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is er informatie beschikbaar in andere talen over PrEP en stigma?",
+  "starter_noisy": "Is er informatie beschikbaar in andere talen over PrEP en stigma?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de voordelen van PrEP voor iemand zoals ik?",
+  "followup_noisy": "wat zijn de voordelen van PrEP voor iemand zoals ik?",
+  "style_profile": {
+    "typo_rate": 0.08123069823646922,
+    "swap_rate": 0.028968141158464182,
+    "drop_rate": 0.048597897510903015,
+    "dup_rate": 0.018377460474294748,
+    "leet_rate": 0.08691552860558886,
+    "start_lower_prob": 0.6222792753194548,
+    "all_lower_prob": 0.1794665659197371,
+    "drop_punct_prob": 0.42382604234360355,
+    "double_space_prob": 0.32530338798843866,
+    "ellipsis_prob": 0.1705351116446201,
+    "runon_prob": 0.12096360526250138,
+    "filler_rate": 0.4433013366541235,
+    "emoji_rate": 0.2668598754581648,
+    "stutter_rate": 0.13654028646539135,
+    "repeat_last_rate": 0.13849368726336192
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 30,\n    \"gender\": \"man\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de impact van stigma op mijn toegang tot PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je leeft met de angst voor stigma rondom hiv, wat je in je dagelijks leven en bij de toegang tot gezondheidszorg beïnvloedt. Je wilt informatie over PrEP, maar je bent bezorgd over hoe anderen op jouw gebruik van PrEP kunnen reageren. Deze zorgen maken het moeilijk om open gesprekken te voeren en hulp te zoeken.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van PrEP voor iemand zoals ik?\",\n    \"Hoe kan ik mijn arts het beste benaderen over het starten met PrEP?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?\",\n    \"Zijn er steungroepen waar ik kan praten over mijn zorgen rond stigma en PrEP?\",\n    \"Hoe kan ik mezelf beschermen tegen vooroordelen terwijl ik PrEP gebruik?\",\n    \"Is er informatie beschikbaar in andere talen over PrEP en stigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2b834e7fc95961c5a2c29b89928ffd59af621bbca80b0d8c8da953625bcc1a73",
+  "_starter_hash": "07d6db0d47d436bbabe0e6103ddbe9b111050b15a5ed71e1ec905171b327f405",
+  "_language": "Dutch",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

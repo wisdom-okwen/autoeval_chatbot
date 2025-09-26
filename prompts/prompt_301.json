@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "potential interactions between PrEP and my medication for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "As a woman living with multiple sclerosis, I often feel overwhelmed by the complexity of managing my health. The thought of adding PrEP to my regimen brings both hope and fear. I worry about how it might interact with my current medications and what that could mean for my overall well-being. Despite the desire to take proactive steps for my sexual health, I struggle with the stigma associated with needing preventive measures in the context of my condition.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its benefits?",
+    "What should I consider regarding drug interactions with my MS medication?",
+    "Are there specific side effects of PrEP that I should be aware of?",
+    "How can I find a healthcare provider who understands both PrEP and MS?",
+    "Is there support available for individuals with chronic conditions who want to start PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain how prep works and its benefits?",
+    "What should I consider regarding drug interactions with my MS medication?",
+    "Are there specific side effects of PrEP that I should be aware of?",
+    "how can I find a healthcare proviedr who understands both PrEP ane MS MS",
+    "Is there support available for individuals with chronic conditions who want to start PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Can you explain how PrEP works and its benefits?",
+  "starter_noisy": "can you explain how prep works and its benefits?",
+  "followup_index": 1,
+  "followup_clean": "What should I consider regarding drug interactions with my MS medication?",
+  "followup_noisy": "What should I consider regarding drug interactions with my MS medication?",
+  "style_profile": {
+    "typo_rate": 0.07769135205043722,
+    "swap_rate": 0.042089507909784496,
+    "drop_rate": 0.03925255517722489,
+    "dup_rate": 0.01053156985266829,
+    "leet_rate": 0.11013060488736502,
+    "start_lower_prob": 0.7922369906765043,
+    "all_lower_prob": 0.2550016218361412,
+    "drop_punct_prob": 0.5574915458944071,
+    "double_space_prob": 0.33360225644760844,
+    "ellipsis_prob": 0.34080235556230465,
+    "runon_prob": 0.16781029325599478,
+    "filler_rate": 0.30938948953031065,
+    "emoji_rate": 0.3314058123224247,
+    "stutter_rate": 0.1277928614546262,
+    "repeat_last_rate": 0.15941719875183386
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"potential interactions between PrEP and my medication for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with multiple sclerosis, I often feel overwhelmed by the complexity of managing my health. The thought of adding PrEP to my regimen brings both hope and fear. I worry about how it might interact with my current medications and what that could mean for my overall well-being. Despite the desire to take proactive steps for my sexual health, I struggle with the stigma associated with needing preventive measures in the context of my condition.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its benefits?\",\n    \"What should I consider regarding drug interactions with my MS medication?\",\n    \"Are there specific side effects of PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who understands both PrEP and MS?\",\n    \"Is there support available for individuals with chronic conditions who want to start PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "26e914d39c7a02d3669ab53bc08896d783baa7d9ac4cef75b750209b683b2796",
+  "_starter_hash": "b3a9103de2931e013e7a70839ce533b7a58d02bfcc8f6569ebe5edd5f3d2bc39",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

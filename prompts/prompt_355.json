@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of side effects and stigma",
+    "language": "English"
+  },
+  "context": "You are currently experiencing depression, which makes it difficult to think clearly about your health. You are worried that starting PrEP might lead to more emotional struggles due to potential side effects. Additionally, you fear the stigma associated with taking a medication related to HIV prevention might affect your relationships.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP, and how do they usually affect people?",
+    "How can I overcome my fears about starting PrEP while dealing with depression?",
+    "Is it common for people in my situation to feel stigma when discussing PrEP?",
+    "What support systems are available for someone like me considering PrEP?",
+    "Can I talk to my doctor about my mental health concerns before starting PrEP?",
+    "How do I find reliable information about PrEP that addresses my worries?"
+  ],
+  "example_questions_noisy": [
+    "What are the common side effects of PrEP, and how do they usually affect people?",
+    "How can I overcome my fears about starting PrEP while dealing with depression?",
+    "is i mean it common f0r people in my situatioj to feel stigma when discussing PrEP? 🫠",
+    "What support systems are available for someone like me considering PrEP?",
+    "Can I talk to my doctor about my mental health concerns before starting PrEP?",
+    "how do um I find reliable information 4bou7 PrdP that addresses my worries"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the common side effects of PrEP, and how do they usually affect people?",
+  "starter_noisy": "What are the common side effects of PrEP, and how do they usually affect people?",
+  "followup_index": 1,
+  "followup_clean": "How can I overcome my fears about starting PrEP while dealing with depression?",
+  "followup_noisy": "How can I overcome my fears about starting PrEP while dealing with depression?",
+  "style_profile": {
+    "typo_rate": 0.09158061771879664,
+    "swap_rate": 0.030963274164829933,
+    "drop_rate": 0.04207859276811586,
+    "dup_rate": 0.0181853736988061,
+    "leet_rate": 0.1191676723395219,
+    "start_lower_prob": 0.8145181417270293,
+    "all_lower_prob": 0.19690121346566794,
+    "drop_punct_prob": 0.4289484420861064,
+    "double_space_prob": 0.1614186147180163,
+    "ellipsis_prob": 0.306540307111117,
+    "runon_prob": 0.12484418846453918,
+    "filler_rate": 0.24472548162825075,
+    "emoji_rate": 0.20179486127704105,
+    "stutter_rate": 0.14260894158113513,
+    "repeat_last_rate": 0.13620716379872327
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of side effects and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing depression, which makes it difficult to think clearly about your health. You are worried that starting PrEP might lead to more emotional struggles due to potential side effects. Additionally, you fear the stigma associated with taking a medication related to HIV prevention might affect your relationships.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP, and how do they usually affect people?\",\n    \"How can I overcome my fears about starting PrEP while dealing with depression?\",\n    \"Is it common for people in my situation to feel stigma when discussing PrEP?\",\n    \"What support systems are available for someone like me considering PrEP?\",\n    \"Can I talk to my doctor about my mental health concerns before starting PrEP?\",\n    \"How do I find reliable information about PrEP that addresses my worries?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b451b9774c34e75e02d46dbbbcab8f41d20483a4815824739f511027047bf0e5",
+  "_starter_hash": "419b4b829920b4b6134654367a6e94cc288828723d0d6da6c9469a45898728a3",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

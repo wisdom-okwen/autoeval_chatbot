@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "médio",
+    "primary_concern": "preocupações sobre os efeitos colaterais e a adesão ao tratamento devido à ansiedade",
+    "language": "Portuguese"
+  },
+  "context": "Usuária que enfrenta um transtorno de ansiedade, o que a torna cautelosa em relação a novos tratamentos e provoca medos sobre possíveis efeitos colaterais do PrEP. Ela também se preocupa com o estigma social em torno do uso de medicamentos preventivos.",
+  "example_questions_clean": [
+    "Como posso lidar com minha ansiedade ao considerar o uso do PrEP?",
+    "Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?",
+    "É comum sentir medo de ser julgado ao buscar informações sobre PrEP?",
+    "Como posso me preparar para uma conversa aberta com meu médico sobre o PrEP?",
+    "Existem recursos específicos para pessoas que lidam com ansiedade ao buscar PrEP?",
+    "Quais são as etapas para acessar o PrEP sem me sentir sobrecarregada?"
+  ],
+  "example_questions_noisy": [
+    "Como posso lidar com minha ansiedade ao considerar o uso do PrEP?",
+    "Quai são os efeitos colaterais do PrEP que 3u d3v3r14 estar ciente?",
+    "é comum sentir medo de ser i mean julg4d0 ao buscar informações 50bre PrEP? PrEP?",
+    "Como posso me preparar para uma conversa aberta com meu médico sobre o PrEP?",
+    "Existem uh rvursos específicos para pessoas que lidam com ansiedade ao buscar PrEP?",
+    "uais são ax etapas para acessar o PrEP sem me sentir sobrecarregada"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Quais são as etapas para acessar o PrEP sem me sentir sobrecarregada?",
+  "starter_noisy": "uais são ax etapas para acessar o PrEP sem me sentir sobrecarregada",
+  "followup_index": 0,
+  "followup_clean": "Como posso lidar com minha ansiedade ao considerar o uso do PrEP?",
+  "followup_noisy": "Como posso lidar com minha ansiedade ao considerar o uso do PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06687441268383998,
+    "swap_rate": 0.024795118140811794,
+    "drop_rate": 0.02798873699202073,
+    "dup_rate": 0.026783483485255152,
+    "leet_rate": 0.10262385448265036,
+    "start_lower_prob": 0.7855662062498678,
+    "all_lower_prob": 0.17760725435993907,
+    "drop_punct_prob": 0.4930945035872092,
+    "double_space_prob": 0.2280835104278652,
+    "ellipsis_prob": 0.2916016511769288,
+    "runon_prob": 0.2615229068046081,
+    "filler_rate": 0.3582618186902907,
+    "emoji_rate": 0.22095138723424917,
+    "stutter_rate": 0.1557028292490361,
+    "repeat_last_rate": 0.08082768067306931
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"preocupações sobre os efeitos colaterais e a adesão ao tratamento devido à ansiedade\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Usuária que enfrenta um transtorno de ansiedade, o que a torna cautelosa em relação a novos tratamentos e provoca medos sobre possíveis efeitos colaterais do PrEP. Ela também se preocupa com o estigma social em torno do uso de medicamentos preventivos.\",\n  \"example_questions\": [\n    \"Como posso lidar com minha ansiedade ao considerar o uso do PrEP?\",\n    \"Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?\",\n    \"É comum sentir medo de ser julgado ao buscar informações sobre PrEP?\",\n    \"Como posso me preparar para uma conversa aberta com meu médico sobre o PrEP?\",\n    \"Existem recursos específicos para pessoas que lidam com ansiedade ao buscar PrEP?\",\n    \"Quais são as etapas para acessar o PrEP sem me sentir sobrecarregada?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9525e2bc3d74becdccec8c79f88a1ab05bda03033e00893cbeb3c23d0d4ae6bf",
+  "_starter_hash": "c8c30eb755cc0e0ef1237c9371fe6f52a2a35f06bd10a6f52514da58d05abf77",
+  "_language": "Portuguese",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

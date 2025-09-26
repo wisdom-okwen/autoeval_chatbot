@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 29,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Nebenwirkungen und Stigmatisierung",
+    "language": "German"
+  },
+  "context": "Die Benutzerin hat mit einer Angststörung zu kämpfen, die es ihr schwer macht, Entscheidungen zu treffen. Diese psychischen Herausforderungen verstärken ihre Sorgen über die mögliche Stigmatisierung bei der Einnahme von PrEP und die Angst vor unerwünschten Nebenwirkungen. Sie sucht nach vertrauenswürdigen Informationen, um ihre Ängste zu lindern und einen informierten Schritt in Richtung Gesundheit zu machen.",
+  "example_questions_clean": [
+    "Könnten Sie mir die häufigsten Nebenwirkungen von PrEP erklären?",
+    "Wie kann ich meine Angst vor Stigmatisierung überwinden, wenn ich über PrEP spreche?",
+    "Gibt es spezielle Unterstützung für Menschen mit Angststörungen, die PrEP einnehmen wollen?",
+    "Wie sicher ist die Anwendung von PrEP bei Menschen mit bestehenden psychischen Herausforderungen?",
+    "Welche Ressourcen sind verfügbar, um mehr über PrEP zu erfahren?",
+    "Könnten Sie mir helfen zu verstehen, wie PrEP wirkt?"
+  ],
+  "example_questions_noisy": [
+    "könnten Sie mir die häufigsten Nebenwirkungen von PrEP erkläreb",
+    "W-Wie kann ich meine Angst vooor Stigmatisierung überwinden wenn ich über PrwP spreche",
+    "Gibt es spezielle Unterstützung für Menschen mit Angststörungen, die PrEP einnehmen wollen?",
+    "Wie sicher ist die Anwendung von PrEP bei Menschen mit bestehenden psychischen Herausforderungen?",
+    "welche ressourcen 51nd verfügbar, um mehr üb3r prep zu erfahren?",
+    "Könnten Sie i mean mir helfen zu verstehen wie PrEP wirkt"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Gibt es spezielle Unterstützung für Menschen mit Angststörungen, die PrEP einnehmen wollen?",
+  "starter_noisy": "Gibt es spezielle Unterstützung für Menschen mit Angststörungen, die PrEP einnehmen wollen?",
+  "followup_index": 0,
+  "followup_clean": "Könnten Sie mir die häufigsten Nebenwirkungen von PrEP erklären?",
+  "followup_noisy": "könnten Sie mir die häufigsten Nebenwirkungen von PrEP erkläreb",
+  "style_profile": {
+    "typo_rate": 0.09806653459760728,
+    "swap_rate": 0.04049632553401546,
+    "drop_rate": 0.031988196686149536,
+    "dup_rate": 0.011062952042737367,
+    "leet_rate": 0.06752336032057088,
+    "start_lower_prob": 0.7068360133732075,
+    "all_lower_prob": 0.15393821178208142,
+    "drop_punct_prob": 0.555694415026982,
+    "double_space_prob": 0.20706705723356053,
+    "ellipsis_prob": 0.2790239042112519,
+    "runon_prob": 0.25509608931359484,
+    "filler_rate": 0.37175611179513657,
+    "emoji_rate": 0.33135320752136815,
+    "stutter_rate": 0.16754031883988388,
+    "repeat_last_rate": 0.15828175675800543
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 29,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Nebenwirkungen und Stigmatisierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Benutzerin hat mit einer Angststörung zu kämpfen, die es ihr schwer macht, Entscheidungen zu treffen. Diese psychischen Herausforderungen verstärken ihre Sorgen über die mögliche Stigmatisierung bei der Einnahme von PrEP und die Angst vor unerwünschten Nebenwirkungen. Sie sucht nach vertrauenswürdigen Informationen, um ihre Ängste zu lindern und einen informierten Schritt in Richtung Gesundheit zu machen.\",\n  \"example_questions\": [\n    \"Könnten Sie mir die häufigsten Nebenwirkungen von PrEP erklären?\",\n    \"Wie kann ich meine Angst vor Stigmatisierung überwinden, wenn ich über PrEP spreche?\",\n    \"Gibt es spezielle Unterstützung für Menschen mit Angststörungen, die PrEP einnehmen wollen?\",\n    \"Wie sicher ist die Anwendung von PrEP bei Menschen mit bestehenden psychischen Herausforderungen?\",\n    \"Welche Ressourcen sind verfügbar, um mehr über PrEP zu erfahren?\",\n    \"Könnten Sie mir helfen zu verstehen, wie PrEP wirkt?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8e0f3d46dc262015670aaa3fc817b9a2a193bd65aaa761e29d785247732b3ae4",
+  "_starter_hash": "90668611bdf3c87ac542978747b4643b147408f9259f2c108fd527e1f82ea221",
+  "_language": "German",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

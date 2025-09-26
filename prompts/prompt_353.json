@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "worries about how her mental health may affect her ability to adhere to PrEP",
+    "language": "Swahili"
+  },
+  "context": "The user is navigating the complexities of living with schizophrenia while seeking information about PrEP. She experiences fear about potential stigma and the impact of her mental health condition on her ability to consistently take medication. She is looking for guidance on how to manage her health effectively.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kusaidia katika kuzuia maambukizi ya HIV hata kama nina changamoto za kiafya?",
+    "Nina wasiwasi kuhusu jinsi ya kukumbuka kutumia PrEP kila siku. Je, kuna msaada gani wa kufuatilia matumizi yake?",
+    "Ni vipi nitakavyoweza kujadili matumizi ya PrEP na daktari wangu bila kuhisi aibu?",
+    "Je, kuna watu wengine wenye hali kama yangu ambao wamefanikiwa kutumia PrEP?",
+    "Ningependa kujua kama kuna makundi ya msaada yanayoweza kunisaidia katika safari yangu ya afya.",
+    "Ninahitaji habari za ziada kuhusu madhara ya PrEP na jinsi ya kuyashughulikia."
+  ],
+  "example_questions_noisy": [
+    "jJJe, idk PrEP inaweza kisaidia katika kuzuia maambukizi ta HIV hat4 kama nina ch4ng4m070 za kiafya?",
+    "n1na wasiwasi kuhusu jinsi ya kukumbukkka kutumia PrEP kil4 siku Je kun4 msaada gani wa kufuatilia matumizi yake",
+    "ni vpi nitakavyoweza kujadili um mautmizi y4 PrEP na d4k7ae1 wangu bila kuhisi aig?u 🤔",
+    "Je, kuna watu wengine wenye hali kama yangu ambao wamefanikiwa kutumia PrEP?",
+    "ningependa idk kujua kama kua makundi ya msaada yanayoweza kun1541d1a katika safari yangu ya 4fy4. 😬",
+    "Ninahitaji habari za ziada kuhusu madhara ya PrEP na jinsi ya kuyashughulikia."
+  ],
+  "starter_index": 0,
+  "starter_clean": "Je, PrEP inaweza kusaidia katika kuzuia maambukizi ya HIV hata kama nina changamoto za kiafya?",
+  "starter_noisy": "jJJe, idk PrEP inaweza kisaidia katika kuzuia maambukizi ta HIV hat4 kama nina ch4ng4m070 za kiafya?",
+  "followup_index": 1,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi ya kukumbuka kutumia PrEP kila siku. Je, kuna msaada gani wa kufuatilia matumizi yake?",
+  "followup_noisy": "n1na wasiwasi kuhusu jinsi ya kukumbukkka kutumia PrEP kil4 siku Je kun4 msaada gani wa kufuatilia matumizi yake",
+  "style_profile": {
+    "typo_rate": 0.10459588831929523,
+    "swap_rate": 0.02571895191621489,
+    "drop_rate": 0.027686284709291922,
+    "dup_rate": 0.029673614076711867,
+    "leet_rate": 0.09920799786096085,
+    "start_lower_prob": 0.7646863420254317,
+    "all_lower_prob": 0.16222365800114316,
+    "drop_punct_prob": 0.566171081781649,
+    "double_space_prob": 0.29296736085058883,
+    "ellipsis_prob": 0.3329157344377998,
+    "runon_prob": 0.24394430974296247,
+    "filler_rate": 0.43245938875253315,
+    "emoji_rate": 0.3390218633384535,
+    "stutter_rate": 0.13215908273548246,
+    "repeat_last_rate": 0.09938373520899513
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"worries about how her mental health may affect her ability to adhere to PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is navigating the complexities of living with schizophrenia while seeking information about PrEP. She experiences fear about potential stigma and the impact of her mental health condition on her ability to consistently take medication. She is looking for guidance on how to manage her health effectively.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kusaidia katika kuzuia maambukizi ya HIV hata kama nina changamoto za kiafya?\",\n    \"Nina wasiwasi kuhusu jinsi ya kukumbuka kutumia PrEP kila siku. Je, kuna msaada gani wa kufuatilia matumizi yake?\",\n    \"Ni vipi nitakavyoweza kujadili matumizi ya PrEP na daktari wangu bila kuhisi aibu?\",\n    \"Je, kuna watu wengine wenye hali kama yangu ambao wamefanikiwa kutumia PrEP?\",\n    \"Ningependa kujua kama kuna makundi ya msaada yanayoweza kunisaidia katika safari yangu ya afya.\",\n    \"Ninahitaji habari za ziada kuhusu madhara ya PrEP na jinsi ya kuyashughulikia.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "572df6ada865fa5b263b9c6611c37dfea3653bb06e7d31305de58c7764f69cf3",
+  "_starter_hash": "47826626dbe9829fa3bdb9b4e4558457913f8b9328b98e85cf10b7809ae0488f",
+  "_language": "Swahili",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

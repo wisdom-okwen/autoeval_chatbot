@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "lack of stable housing impacting access to healthcare and medications",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart een moeilijke periode in je leven door dakloosheid, wat je emotioneel belast en je zorgen over je gezondheid vergroot. Je wilt meer weten over PrEP, maar je maakt je zorgen over hoe je het kunt verkrijgen zonder een vaste woonplek en de stigma's die daarmee gepaard gaan.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijkheden om PrEP te krijgen als ik geen vast adres heb?",
+    "Kan ik PrEP ook verkrijgen via een noodopvang of een andere sociale dienst?",
+    "Hoe kan ik ervoor zorgen dat mijn privacy wordt beschermd tijdens het aanvragen van PrEP?",
+    "Zijn er organisaties die speciale ondersteuning bieden voor mensen in mijn situatie?",
+    "Welke gezondheidszorgprofessionals kan ik benaderen voor informatie over PrEP?",
+    "Wat moet ik doen als ik me angstig voel om PrEP aan te vragen vanwege stigma?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijkheden om PrEP te krijgen als ik geen vast adres heb?",
+    "kan ik PrEP ook verkrijven v14 33n noodopvang of een andere sociale dienst 😬",
+    "u-uh h0e kan ik ervoor ozrgen dat mijn privacy wordt beschermd tijdens het aanvragen van PrEP?",
+    "Zijn er organisaties die speciale ondersteuning bieden voor mensen in mijn situatie?",
+    "Welke gezondheidszorgprofessionals kan ik benaderen voor informatie over PrEP?",
+    "Wat moet ik doen als ik me angstig voel om PrEP aan te vragen vanwege stigma?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Welke gezondheidszorgprofessionals kan ik benaderen voor informatie over PrEP?",
+  "starter_noisy": "Welke gezondheidszorgprofessionals kan ik benaderen voor informatie over PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijkheden om PrEP te krijgen als ik geen vast adres heb?",
+  "followup_noisy": "Wat zijn de mogelijkheden om PrEP te krijgen als ik geen vast adres heb?",
+  "style_profile": {
+    "typo_rate": 0.08128276309446228,
+    "swap_rate": 0.040098829883353,
+    "drop_rate": 0.03510571210821362,
+    "dup_rate": 0.010769486483408757,
+    "leet_rate": 0.1130009940559511,
+    "start_lower_prob": 0.731882054945083,
+    "all_lower_prob": 0.25415776178883215,
+    "drop_punct_prob": 0.43223644775167736,
+    "double_space_prob": 0.17540830993440792,
+    "ellipsis_prob": 0.24586977570454174,
+    "runon_prob": 0.10812076659275936,
+    "filler_rate": 0.20335092051821885,
+    "emoji_rate": 0.33314087735214276,
+    "stutter_rate": 0.13717098856627358,
+    "repeat_last_rate": 0.14322402636400983
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"lack of stable housing impacting access to healthcare and medications\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Je ervaart een moeilijke periode in je leven door dakloosheid, wat je emotioneel belast en je zorgen over je gezondheid vergroot. Je wilt meer weten over PrEP, maar je maakt je zorgen over hoe je het kunt verkrijgen zonder een vaste woonplek en de stigma's die daarmee gepaard gaan.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijkheden om PrEP te krijgen als ik geen vast adres heb?\",\n    \"Kan ik PrEP ook verkrijgen via een noodopvang of een andere sociale dienst?\",\n    \"Hoe kan ik ervoor zorgen dat mijn privacy wordt beschermd tijdens het aanvragen van PrEP?\",\n    \"Zijn er organisaties die speciale ondersteuning bieden voor mensen in mijn situatie?\",\n    \"Welke gezondheidszorgprofessionals kan ik benaderen voor informatie over PrEP?\",\n    \"Wat moet ik doen als ik me angstig voel om PrEP aan te vragen vanwege stigma?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b9953c7ab0b7bcb775241cdc002591d67ee62647870545d31e16d7436001f041",
+  "_starter_hash": "6267780ede302154969c3b450ff6cde5b8b6e6ea546ad00e74ac80da3f61978c",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

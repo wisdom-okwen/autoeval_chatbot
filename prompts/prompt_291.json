@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP interacts with my medications for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "As a woman living with multiple sclerosis, I often feel anxious about adding new medications to my routine. I worry about potential side effects or interactions with my current treatments. The stigma around HIV prevention sometimes makes me hesitant to ask for help, and I want to ensure that I'm making a safe choice for my health.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and my MS medications?",
+    "How can I discuss my interest in PrEP with my healthcare provider without feeling judged?",
+    "Are there specific resources available for individuals with chronic conditions who want to start PrEP?",
+    "What are the long-term implications of taking PrEP while managing multiple sclerosis?",
+    "How can I find support groups for people like me who are considering PrEP?",
+    "What should I do if I experience any adverse effects while on PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential interactions between PrEP and my MS medications?",
+    "How can I discuss my interest in PrEP with my healthcare provider without feeling judged?",
+    "Are there specific resources available for individuals with chronic conditions who want to start PrEP?",
+    "what are the long-term 1mpl1cat10n5 of taking Pr3P while managing multiple sclerosis",
+    "How can I find support groups for people like me who are considering PrEP?",
+    "what should i do if i experience any adverse effects while on prep"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I discuss my interest in PrEP with my healthcare provider without feeling judged?",
+  "starter_noisy": "How can I discuss my interest in PrEP with my healthcare provider without feeling judged?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential interactions between PrEP and my MS medications?",
+  "followup_noisy": "What are the potential interactions between PrEP and my MS medications?",
+  "style_profile": {
+    "typo_rate": 0.06374257397837624,
+    "swap_rate": 0.031767886167557005,
+    "drop_rate": 0.0262224315491434,
+    "dup_rate": 0.025301840178276774,
+    "leet_rate": 0.11652138329519443,
+    "start_lower_prob": 0.731300784386291,
+    "all_lower_prob": 0.3206165739338465,
+    "drop_punct_prob": 0.5585348465258715,
+    "double_space_prob": 0.31070712797445965,
+    "ellipsis_prob": 0.2909133240794184,
+    "runon_prob": 0.19290620403048958,
+    "filler_rate": 0.47682057962739083,
+    "emoji_rate": 0.267995419411434,
+    "stutter_rate": 0.16275297806621208,
+    "repeat_last_rate": 0.10679991895272221
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP interacts with my medications for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with multiple sclerosis, I often feel anxious about adding new medications to my routine. I worry about potential side effects or interactions with my current treatments. The stigma around HIV prevention sometimes makes me hesitant to ask for help, and I want to ensure that I'm making a safe choice for my health.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and my MS medications?\",\n    \"How can I discuss my interest in PrEP with my healthcare provider without feeling judged?\",\n    \"Are there specific resources available for individuals with chronic conditions who want to start PrEP?\",\n    \"What are the long-term implications of taking PrEP while managing multiple sclerosis?\",\n    \"How can I find support groups for people like me who are considering PrEP?\",\n    \"What should I do if I experience any adverse effects while on PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3c4086b94fd52bd15ab56bde51a2c9d883f6f5abe8ce86cbecf3f9e96e9b205f",
+  "_starter_hash": "c773ed1a1805363be01384c3f9442c11b8d4918c3515554550cb5c87e7ae7312",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Colombiana",
+    "age": 28,
+    "gender": "mujer",
+    "socio_economic_status": "bajo",
+    "primary_concern": "temor a que su pareja lo descubra y reaccione de manera violenta",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que enfrenta situaciones de violencia por parte de su pareja. Esto te genera miedo y ansiedad sobre tu salud sexual y el acceso a la profilaxis previa a la exposición (PrEP). Te preocupa cómo hablar sobre este tema y las posibles reacciones de tu pareja, además de las barreras económicas y emocionales que enfrentas para acceder a PrEP.",
+  "example_questions_clean": [
+    "¿Cuál es el proceso para obtener PrEP sin que mi pareja lo sepa?",
+    "¿Existen recursos disponibles para mujeres en situaciones de violencia doméstica que necesiten PrEP?",
+    "¿Cómo puedo abordar mis preocupaciones sobre el acceso a PrEP con un profesional de la salud?",
+    "¿Qué efectos secundarios tiene PrEP y cómo podrían afectar mi situación actual?",
+    "¿Hay programas en Colombia que ofrezcan PrEP gratuitamente o a bajo costo?",
+    "¿Es posible conseguir apoyo psicológico para lidiar con el miedo asociado al uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuál es el proceso para obtener PrEP sin que mi pareja lo sepa",
+    "¿Existen recursos disponibles para mujeres en situaciones de violencia doméstica que necesiten PrEP?",
+    "¿cómo puedo abordar mis preocupaciones sobre el acceso a prep con un profesional de la salud",
+    "¿aué efectos secudarios tiene PrEP y xómo podrían afectar m1 situación actual",
+    "¿aHy programas 3m Colombia que ofrezcan PrEEEP gratuitamente o a bajo costo? 🙄",
+    "¿-¿35 posible conseguir apoyo p51c0lógic0 p4r4 lidiar con el miedo uh asociado al uso de PrEP? PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuál es el proceso para obtener PrEP sin que mi pareja lo sepa?",
+  "starter_noisy": "¿Cuál es el proceso para obtener PrEP sin que mi pareja lo sepa",
+  "followup_index": 1,
+  "followup_clean": "¿Existen recursos disponibles para mujeres en situaciones de violencia doméstica que necesiten PrEP?",
+  "followup_noisy": "¿Existen recursos disponibles para mujeres en situaciones de violencia doméstica que necesiten PrEP?",
+  "style_profile": {
+    "typo_rate": 0.11999912717638186,
+    "swap_rate": 0.03742720073068356,
+    "drop_rate": 0.020780422710925006,
+    "dup_rate": 0.024773277576092975,
+    "leet_rate": 0.10905714566097335,
+    "start_lower_prob": 0.7012665650460438,
+    "all_lower_prob": 0.18131624963100113,
+    "drop_punct_prob": 0.43102953482052075,
+    "double_space_prob": 0.3303993987128795,
+    "ellipsis_prob": 0.27169129740269027,
+    "runon_prob": 0.142764965912242,
+    "filler_rate": 0.3494613738655803,
+    "emoji_rate": 0.22270812142379326,
+    "stutter_rate": 0.14629621103079032,
+    "repeat_last_rate": 0.10543631043257795
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Colombiana\",\n    \"age\": 28,\n    \"gender\": \"mujer\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"temor a que su pareja lo descubra y reaccione de manera violenta\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Eres una mujer joven que enfrenta situaciones de violencia por parte de su pareja. Esto te genera miedo y ansiedad sobre tu salud sexual y el acceso a la profilaxis previa a la exposición (PrEP). Te preocupa cómo hablar sobre este tema y las posibles reacciones de tu pareja, además de las barreras económicas y emocionales que enfrentas para acceder a PrEP.\",\n  \"example_questions\": [\n    \"¿Cuál es el proceso para obtener PrEP sin que mi pareja lo sepa?\",\n    \"¿Existen recursos disponibles para mujeres en situaciones de violencia doméstica que necesiten PrEP?\",\n    \"¿Cómo puedo abordar mis preocupaciones sobre el acceso a PrEP con un profesional de la salud?\",\n    \"¿Qué efectos secundarios tiene PrEP y cómo podrían afectar mi situación actual?\",\n    \"¿Hay programas en Colombia que ofrezcan PrEP gratuitamente o a bajo costo?\",\n    \"¿Es posible conseguir apoyo psicológico para lidiar con el miedo asociado al uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b11f12c008db06db4382b6fc20b40444985979b47be3978002fdc30bede5ec3d",
+  "_starter_hash": "a716c4c8648834f420e38e69efa9abdd2a8afb984f9b03a7104b023a7b6a90be",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

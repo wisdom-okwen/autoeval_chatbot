@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of side effects and stigma",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old American woman dealing with an anxiety disorder. This condition sometimes makes it difficult for you to navigate health care decisions, particularly regarding PrEP. You worry about potential side effects and how others may perceive you if they find out you are considering this preventive measure. The anxiety leads to feelings of uncertainty and fear, which create barriers to accessing the information and support you need.",
+  "example_questions_clean": [
+    "What are the most common side effects of PrEP, and how can they be managed?",
+    "Are there support groups for individuals considering PrEP that can help ease anxiety about starting treatment?",
+    "How do I talk to my doctor about PrEP if I'm feeling anxious about the conversation?",
+    "What should I know about the stigma surrounding PrEP in my community?",
+    "Can you provide resources that address both PrEP information and mental health support?",
+    "What steps can I take to feel more confident in my decision to pursue PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the omst common side effects of pr3p, 4nd how can they be managed?",
+    "Are there support groups for individuals considering PrEP that can help ease anxiety about starting treatment?",
+    "how do I talk to my doctor about PrEP if I'm feeling anxious about the conversation",
+    "what should i um kn0w about the stigma surrounding prpe in my community? community?",
+    "can ylu provide resourcs that address both prep 1nf0rm4t10n and mental health support",
+    "w-what steps can i take tk feel more confident in my decision to pursue prep? ✨"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the most common side effects of PrEP, and how can they be managed?",
+  "starter_noisy": "what are the omst common side effects of pr3p, 4nd how can they be managed?",
+  "followup_index": 1,
+  "followup_clean": "Are there support groups for individuals considering PrEP that can help ease anxiety about starting treatment?",
+  "followup_noisy": "Are there support groups for individuals considering PrEP that can help ease anxiety about starting treatment?",
+  "style_profile": {
+    "typo_rate": 0.08799634006025459,
+    "swap_rate": 0.03278875337528132,
+    "drop_rate": 0.04580230796493716,
+    "dup_rate": 0.011205213719497498,
+    "leet_rate": 0.06101963248336082,
+    "start_lower_prob": 0.7948636571674452,
+    "all_lower_prob": 0.3171882352745721,
+    "drop_punct_prob": 0.3971931178088776,
+    "double_space_prob": 0.34064379167173764,
+    "ellipsis_prob": 0.22626137556096437,
+    "runon_prob": 0.24974217226413623,
+    "filler_rate": 0.36108383543991485,
+    "emoji_rate": 0.32135555321793147,
+    "stutter_rate": 0.19782737093660582,
+    "repeat_last_rate": 0.17588635329340907
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of side effects and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old American woman dealing with an anxiety disorder. This condition sometimes makes it difficult for you to navigate health care decisions, particularly regarding PrEP. You worry about potential side effects and how others may perceive you if they find out you are considering this preventive measure. The anxiety leads to feelings of uncertainty and fear, which create barriers to accessing the information and support you need.\",\n  \"example_questions\": [\n    \"What are the most common side effects of PrEP, and how can they be managed?\",\n    \"Are there support groups for individuals considering PrEP that can help ease anxiety about starting treatment?\",\n    \"How do I talk to my doctor about PrEP if I'm feeling anxious about the conversation?\",\n    \"What should I know about the stigma surrounding PrEP in my community?\",\n    \"Can you provide resources that address both PrEP information and mental health support?\",\n    \"What steps can I take to feel more confident in my decision to pursue PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "74cbfd72075697befcbee486acfaac2b0045b453e5905fdf0ef10549362003b0",
+  "_starter_hash": "4de0a351e9fc5bd6e194a48e9ab83fd4378c6b8ed3b67ccd73940c1fb0cf7f4c",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

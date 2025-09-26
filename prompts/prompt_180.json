@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "el estigma asociado al uso de PrEP en mi comunidad",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 32 años que vive en México y está interesada en PrEP, pero te sientes ansiosa debido al estigma que rodea su uso en tu comunidad. Temes cómo las personas a tu alrededor podrían reaccionar si supieran que estás considerando esta opción, lo que te provoca inseguridad y dudas sobre tu salud y bienestar. A pesar de tus preocupaciones, sientes una esperanza de poder protegerte y mantener una vida sexual saludable.",
+  "example_questions_clean": [
+    "¿Qué es exactamente PrEP y cómo puede ayudarme a prevenir la transmisión del VIH?",
+    "Tengo miedo de lo que otros puedan pensar si descubren que estoy tomando PrEP, ¿cómo puedo manejar esto?",
+    "¿Existen recursos o grupos de apoyo para personas como yo que están considerando PrEP?",
+    "¿Cuáles son los efectos secundarios comunes de PrEP y cómo puedo manejarlos?",
+    "¿Puedo acceder a PrEP si no tengo un seguro médico adecuado?",
+    "¿Qué pasos debo seguir para obtener una receta de PrEP en mi ciudad?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué es exactamente Pr3P y cómo puede ayudarme a prevwnir la 7r4nsm151ón d3l VIH?",
+    "tengo miedo de lo que otros puedan pensar si d35cubren que estoy tomando prep ¿cómo puedo manejar e570",
+    "¿Existen recursos o grupos de apoyo para personas como yo que están considerando PrEP?",
+    "¿cuáles son los efectos secundarios c0mun3s de prep y cómk pu333do manejarlos?",
+    "¿Puedo acceder a PrEP si no tengo un seguro médico adecuado?",
+    "¿Qué pasos debo seguir para obtener una receta de PtEP en mi c1ud4d?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen recursos o grupos de apoyo para personas como yo que están considerando PrEP?",
+  "starter_noisy": "¿Existen recursos o grupos de apoyo para personas como yo que están considerando PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué es exactamente PrEP y cómo puede ayudarme a prevenir la transmisión del VIH?",
+  "followup_noisy": "¿Qué es exactamente Pr3P y cómo puede ayudarme a prevwnir la 7r4nsm151ón d3l VIH?",
+  "style_profile": {
+    "typo_rate": 0.0601800591437399,
+    "swap_rate": 0.028515886473763262,
+    "drop_rate": 0.029265166509134515,
+    "dup_rate": 0.022413161651442123,
+    "leet_rate": 0.0794265107349745,
+    "start_lower_prob": 0.8439009049695267,
+    "all_lower_prob": 0.24209028709662622,
+    "drop_punct_prob": 0.3454030892553075,
+    "double_space_prob": 0.2968135152974067,
+    "ellipsis_prob": 0.31939159280103985,
+    "runon_prob": 0.10431992939055701,
+    "filler_rate": 0.388906607091725,
+    "emoji_rate": 0.2961625136068648,
+    "stutter_rate": 0.11673818654404586,
+    "repeat_last_rate": 0.15014306962067375
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"el estigma asociado al uso de PrEP en mi comunidad\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 32 años que vive en México y está interesada en PrEP, pero te sientes ansiosa debido al estigma que rodea su uso en tu comunidad. Temes cómo las personas a tu alrededor podrían reaccionar si supieran que estás considerando esta opción, lo que te provoca inseguridad y dudas sobre tu salud y bienestar. A pesar de tus preocupaciones, sientes una esperanza de poder protegerte y mantener una vida sexual saludable.\",\n  \"example_questions\": [\n    \"¿Qué es exactamente PrEP y cómo puede ayudarme a prevenir la transmisión del VIH?\",\n    \"Tengo miedo de lo que otros puedan pensar si descubren que estoy tomando PrEP, ¿cómo puedo manejar esto?\",\n    \"¿Existen recursos o grupos de apoyo para personas como yo que están considerando PrEP?\",\n    \"¿Cuáles son los efectos secundarios comunes de PrEP y cómo puedo manejarlos?\",\n    \"¿Puedo acceder a PrEP si no tengo un seguro médico adecuado?\",\n    \"¿Qué pasos debo seguir para obtener una receta de PrEP en mi ciudad?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3d52fc296a2e4293fc1e81e64e4c39b8941f536bf9c72498bcd6e82a618620db",
+  "_starter_hash": "ce52989118e09cf3cf383bb995b40acbce5446ee2ac5b032f679a9af8cfe17b4",
+  "_language": "Spanish",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

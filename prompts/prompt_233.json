@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to PrEP due to lack of privacy in the shelter",
+    "language": "Swahili"
+  },
+  "context": "Living in a shelter can create barriers to accessing health services like PrEP, especially with concerns about stigma and privacy. The individual may feel anxious about discussing their health in such an environment, leading to fear of judgment from others. Despite these challenges, there is hope for maintaining health and preventing HIV transmission.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi naweza kupata PrEP katika makazi ya pamoja.",
+    "Je, ni vigezo gani vinavyohitajika ili nipate PrEP nchini Kenya?",
+    "Ninaweza kupata usaidizi wa faragha wa matibabu wapi?",
+    "Je, ni gharama gani ya kutumia PrEP kila mwezi?",
+    "Kuna maswali yoyote ambayo naweza kuuliza ili kuelewa vizuri kuhusu madhara ya PrEP?",
+    "Ninaweza kufanya nini ikiwa ninahisi aibu kuzungumza na daktari kuhusu PrEP?"
+  ],
+  "example_questions_noisy": [
+    "nia wasiwasi kuhusu jinsi naweza kuataaa prep katika makazi ya pamoja",
+    "Je, ni vigezo gani vinavyohitajika ili nipate PrEP nchini Kenya?",
+    "Ninaweza kupata usaidizi wa faragha wa matibabu wapi?",
+    "je ni gharama gani ya kutumia PrEP ikla mwezi 😅",
+    "Kuna maswali yoyote ambayo naweza kuuliza ili kuelewa vizuri kuhusu madhara ya PrEP?",
+    "n1n4wez4 kufanya nini ikiwa ninahisi aibu kusungumza nnna daktari khuusu PrEP"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Ninaweza kupata usaidizi wa faragha wa matibabu wapi?",
+  "starter_noisy": "Ninaweza kupata usaidizi wa faragha wa matibabu wapi?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi naweza kupata PrEP katika makazi ya pamoja.",
+  "followup_noisy": "nia wasiwasi kuhusu jinsi naweza kuataaa prep katika makazi ya pamoja",
+  "style_profile": {
+    "typo_rate": 0.07067504994846441,
+    "swap_rate": 0.031077913426213754,
+    "drop_rate": 0.04760669390750169,
+    "dup_rate": 0.01817772158215388,
+    "leet_rate": 0.08297423612849192,
+    "start_lower_prob": 0.788151809525086,
+    "all_lower_prob": 0.20216934131415232,
+    "drop_punct_prob": 0.4240271666153103,
+    "double_space_prob": 0.19951617639643068,
+    "ellipsis_prob": 0.3467275681718503,
+    "runon_prob": 0.2980259273770576,
+    "filler_rate": 0.3871683355916328,
+    "emoji_rate": 0.1960509113668839,
+    "stutter_rate": 0.17722889107873915,
+    "repeat_last_rate": 0.09970423790983843
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to PrEP due to lack of privacy in the shelter\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Living in a shelter can create barriers to accessing health services like PrEP, especially with concerns about stigma and privacy. The individual may feel anxious about discussing their health in such an environment, leading to fear of judgment from others. Despite these challenges, there is hope for maintaining health and preventing HIV transmission.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi naweza kupata PrEP katika makazi ya pamoja.\",\n    \"Je, ni vigezo gani vinavyohitajika ili nipate PrEP nchini Kenya?\",\n    \"Ninaweza kupata usaidizi wa faragha wa matibabu wapi?\",\n    \"Je, ni gharama gani ya kutumia PrEP kila mwezi?\",\n    \"Kuna maswali yoyote ambayo naweza kuuliza ili kuelewa vizuri kuhusu madhara ya PrEP?\",\n    \"Ninaweza kufanya nini ikiwa ninahisi aibu kuzungumza na daktari kuhusu PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "33c0455aaedba7da20890e453c695fa0a128a130035a5570dac40441e330eaf1",
+  "_starter_hash": "8bc121dedae6838b25c9f865de60859e2cdfaa292b1b6cf7f6532101c868adc6",
+  "_language": "Swahili",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "de mogelijke stigma's rond het gebruik van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je voelt je vaak sociaal geïsoleerd en hebt moeite om contact te maken met anderen. Dit beïnvloedt je mindset en maakt je angstig over hoe anderen over je zouden denken als je PrEP zou gebruiken. Je bent bezorgd dat het delen van deze informatie kan leiden tot oordeel of afwijzing, wat de toegang tot PrEP nog moeilijker voor je maakt.",
+  "example_questions_clean": [
+    "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+    "Hoe kan ik mijn arts het beste benaderen over PrEP?",
+    "Zijn er groepen waar ik steun kan vinden bij het gebruik van PrEP?",
+    "Hoe kan ik omgaan met mijn angst voor stigma rond PrEP?",
+    "Is het mogelijk om anoniem informatie over PrEP te verkrijgen?",
+    "Wat zijn de eerste stappen om met PrEP te beginnen?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+    "hoe kan ik mijn arrrts het beste benaderen 0v3r prep?",
+    "zijn er groepen w44r ik steun kan vijden bij het gebruik v4n prrre;?",
+    "hoe kan ik omgaan meg mijn angst v00r stigma rond prep? 🫠",
+    "Iw het mogelijk om anoniem informatie over PrEP te verkrijgen? 😕",
+    "Wat zijn de eerste stappen om met PrEP te beginnen?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is het mogelijk om anoniem informatie over PrEP te verkrijgen?",
+  "starter_noisy": "Iw het mogelijk om anoniem informatie over PrEP te verkrijgen? 😕",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+  "followup_noisy": "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+  "style_profile": {
+    "typo_rate": 0.11270517270400335,
+    "swap_rate": 0.024524675754417632,
+    "drop_rate": 0.035155986094680555,
+    "dup_rate": 0.029050485653691012,
+    "leet_rate": 0.11548917381377781,
+    "start_lower_prob": 0.8806493360118526,
+    "all_lower_prob": 0.24241793914453497,
+    "drop_punct_prob": 0.31720998381637083,
+    "double_space_prob": 0.2206231854027067,
+    "ellipsis_prob": 0.3180271222936749,
+    "runon_prob": 0.13395837318422096,
+    "filler_rate": 0.30809650604411176,
+    "emoji_rate": 0.21218004328548878,
+    "stutter_rate": 0.16031284451662925,
+    "repeat_last_rate": 0.10388689982435861
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"de mogelijke stigma's rond het gebruik van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je voelt je vaak sociaal geïsoleerd en hebt moeite om contact te maken met anderen. Dit beïnvloedt je mindset en maakt je angstig over hoe anderen over je zouden denken als je PrEP zou gebruiken. Je bent bezorgd dat het delen van deze informatie kan leiden tot oordeel of afwijzing, wat de toegang tot PrEP nog moeilijker voor je maakt.\",\n  \"example_questions\": [\n    \"Wat zijn de bijwerkingen van PrEP die ik moet kennen?\",\n    \"Hoe kan ik mijn arts het beste benaderen over PrEP?\",\n    \"Zijn er groepen waar ik steun kan vinden bij het gebruik van PrEP?\",\n    \"Hoe kan ik omgaan met mijn angst voor stigma rond PrEP?\",\n    \"Is het mogelijk om anoniem informatie over PrEP te verkrijgen?\",\n    \"Wat zijn de eerste stappen om met PrEP te beginnen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a3254ee1840476ab7533b5445bca709932f3ea13951fd11aab4ca4cc98080947",
+  "_starter_hash": "2defedd7cbf9d722f21bd4a2bed24f0967d58fdf1c44addc289925f9d4889ee5",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

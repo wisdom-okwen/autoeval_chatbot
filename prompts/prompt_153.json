@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "el estigma social asociado al uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer joven que enfrenta la ansiedad social, lo que dificulta tu acceso a la atención médica y a la información sobre PrEP. Te preocupa el juicio de los demás y cómo podría afectar tus relaciones personales. A pesar de esto, sientes la necesidad de informarte sobre PrEP para proteger tu salud y te gustaría superar tus miedos.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos que debo seguir para acceder a PrEP en México?",
+    "Tengo miedo de ser juzgada al preguntar sobre PrEP en una clínica, ¿qué puedo hacer?",
+    "¿Qué efectos secundarios podría experimentar al tomar PrEP?",
+    "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin sentirme incómoda?",
+    "¿Hay grupos de apoyo para personas que están considerando PrEP?",
+    "¿PrEP es una opción segura para alguien con mi nivel de ansiedad social?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos que debo seguir para acceder a PrEP en México?",
+    "Tengo miedo de ser juzgada al preguntar sobre PrEP en una clínica, ¿qué puedo hacer?",
+    "¿Qué efectos secundarios podría experimentar al tomar PrEP?",
+    "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin sentirme incómoda?",
+    "¿Hay grupos de apoyo para personas que están considerando PrEP?",
+    "¿PrEP es una opción segura para alguien con m1 nivel d3 4ns13dad social"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿PrEP es una opción segura para alguien con mi nivel de ansiedad social?",
+  "starter_noisy": "¿PrEP es una opción segura para alguien con m1 nivel d3 4ns13dad social",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos que debo seguir para acceder a PrEP en México?",
+  "followup_noisy": "¿Cuáles son los pasos que debo seguir para acceder a PrEP en México?",
+  "style_profile": {
+    "typo_rate": 0.055360130598921545,
+    "swap_rate": 0.027127973642795476,
+    "drop_rate": 0.02207760085024635,
+    "dup_rate": 0.021641926291020293,
+    "leet_rate": 0.08942583526769238,
+    "start_lower_prob": 0.6601478096753907,
+    "all_lower_prob": 0.3445386838471907,
+    "drop_punct_prob": 0.5920219333089465,
+    "double_space_prob": 0.283783189937585,
+    "ellipsis_prob": 0.1901992148164931,
+    "runon_prob": 0.17939742723730062,
+    "filler_rate": 0.34977272931475045,
+    "emoji_rate": 0.3356734359037024,
+    "stutter_rate": 0.1284479266806849,
+    "repeat_last_rate": 0.09451379293788925
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"el estigma social asociado al uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer joven que enfrenta la ansiedad social, lo que dificulta tu acceso a la atención médica y a la información sobre PrEP. Te preocupa el juicio de los demás y cómo podría afectar tus relaciones personales. A pesar de esto, sientes la necesidad de informarte sobre PrEP para proteger tu salud y te gustaría superar tus miedos.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos que debo seguir para acceder a PrEP en México?\",\n    \"Tengo miedo de ser juzgada al preguntar sobre PrEP en una clínica, ¿qué puedo hacer?\",\n    \"¿Qué efectos secundarios podría experimentar al tomar PrEP?\",\n    \"¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin sentirme incómoda?\",\n    \"¿Hay grupos de apoyo para personas que están considerando PrEP?\",\n    \"¿PrEP es una opción segura para alguien con mi nivel de ansiedad social?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5cb0c01c87f8ebb232dfcc6cbfd9764ae827e5b8d70b6079b587577c0cdf03f0",
+  "_starter_hash": "a31483662aa584db0cfb1f727c9e2c4488d57862f86b4dc8698cbcce03c36718",
+  "_language": "Spanish",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

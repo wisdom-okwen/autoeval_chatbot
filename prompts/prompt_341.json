@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worried about stigma and being judged for taking PrEP",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated, struggling to connect with others and fearing judgment due to her past experiences. This emotional barrier makes it difficult for her to approach the topic of PrEP, as she is concerned about how others might perceive her decision to take it. She hopes for information that can empower her without additional stigma.",
+  "example_questions_clean": [
+    "What are the main benefits of taking PrEP for someone in my situation?",
+    "Can you explain how PrEP works in simple terms?",
+    "How can I find support or community resources related to PrEP?",
+    "What should I consider before starting PrEP if I'm feeling isolated?",
+    "Are there ways to discreetly access PrEP without drawing attention?",
+    "What are common misconceptions about PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "What are the main benefits of taking PrEP for someone in my situation?",
+    "Can you explain how PrEP works in simple terms?",
+    "h-how can I find 5upp0rt 0r community resources related to PrEP",
+    "hWat you know should u consider b3f0r3 staring PrEP if I'm feeling isolated? 🤔",
+    "Are there ways to discreetly access PrEP without drawing attention?",
+    "what are common misconceptions about prep ghat i 5h0uld be aw4r3 of"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the main benefits of taking PrEP for someone in my situation?",
+  "starter_noisy": "What are the main benefits of taking PrEP for someone in my situation?",
+  "followup_index": 1,
+  "followup_clean": "Can you explain how PrEP works in simple terms?",
+  "followup_noisy": "Can you explain how PrEP works in simple terms?",
+  "style_profile": {
+    "typo_rate": 0.0730320619635736,
+    "swap_rate": 0.05137146567639855,
+    "drop_rate": 0.040938335221672145,
+    "dup_rate": 0.017713817698221366,
+    "leet_rate": 0.0894434600301418,
+    "start_lower_prob": 0.6172218588876347,
+    "all_lower_prob": 0.2636074420332017,
+    "drop_punct_prob": 0.30992535825267087,
+    "double_space_prob": 0.29847089816771843,
+    "ellipsis_prob": 0.20455952136071068,
+    "runon_prob": 0.28856263789597114,
+    "filler_rate": 0.48671148733395525,
+    "emoji_rate": 0.16069818611824443,
+    "stutter_rate": 0.1726653051937624,
+    "repeat_last_rate": 0.15572755318113163
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worried about stigma and being judged for taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated, struggling to connect with others and fearing judgment due to her past experiences. This emotional barrier makes it difficult for her to approach the topic of PrEP, as she is concerned about how others might perceive her decision to take it. She hopes for information that can empower her without additional stigma.\",\n  \"example_questions\": [\n    \"What are the main benefits of taking PrEP for someone in my situation?\",\n    \"Can you explain how PrEP works in simple terms?\",\n    \"How can I find support or community resources related to PrEP?\",\n    \"What should I consider before starting PrEP if I'm feeling isolated?\",\n    \"Are there ways to discreetly access PrEP without drawing attention?\",\n    \"What are common misconceptions about PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6fe5cb0d15d75ef2a0d6f7d1d43dd98554e107f7a7632b010283ffc5b4f5e578",
+  "_starter_hash": "637a93ad2f8b724f8d251440f9f149fc64bce7de6c16ce398184d82185e8466e",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

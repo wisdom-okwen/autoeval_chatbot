@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 34,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact du PrEP sur ma condition de santé",
+    "language": "French"
+  },
+  "context": "Cette personne vit avec la sclérose en plaques et s'inquiète de la compatibilité du PrEP avec son état de santé. Elle ressent un mélange de peur et d'espoir, se demandant si le PrEP pourrait être une option viable pour elle, tout en craignant des effets secondaires ou des complications. La stigmatisation autour de son état l'empêche également d'en parler ouvertement.",
+  "example_questions_clean": [
+    "Quelles sont les études concernant l'utilisation du PrEP chez les personnes atteintes de sclérose en plaques ?",
+    "Y a-t-il des risques spécifiques que je devrais considérer avant de commencer le PrEP ?",
+    "Comment le PrEP pourrait-il influencer mon état de santé actuel ?",
+    "Existe-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent le PrEP ?",
+    "Est-ce que le coût du PrEP est un problème courant pour d'autres personnes dans ma situation ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les études concernant l'utilisation du PrEP chez les personnes atteintes de sclérose en plaques ?",
+    "Y a-t-il des risques spécifiques que je devrais considérer avant de commencer le PrEP ?",
+    "commenf le prep pourrait-il influencer m0n état de santé actuel ? 😭",
+    "3x1573-7-1l des ressources ou des groupes de soutien pour les personnes comme moiii uh qui envisagent le PrEP ?",
+    "Est-ce que le coût du PrEP est un problème courant pour d'autres personnes dans ma situation ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Est-ce que le coût du PrEP est un problème courant pour d'autres personnes dans ma situation ?",
+  "starter_noisy": "Est-ce que le coût du PrEP est un problème courant pour d'autres personnes dans ma situation ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les études concernant l'utilisation du PrEP chez les personnes atteintes de sclérose en plaques ?",
+  "followup_noisy": "Quelles sont les études concernant l'utilisation du PrEP chez les personnes atteintes de sclérose en plaques ?",
+  "style_profile": {
+    "typo_rate": 0.11985962484304041,
+    "swap_rate": 0.044583016298025836,
+    "drop_rate": 0.021800756909811224,
+    "dup_rate": 0.02868562849198531,
+    "leet_rate": 0.0860581376152045,
+    "start_lower_prob": 0.838270046830264,
+    "all_lower_prob": 0.2792840898267151,
+    "drop_punct_prob": 0.48066371732851615,
+    "double_space_prob": 0.2936642458641884,
+    "ellipsis_prob": 0.3493897075228044,
+    "runon_prob": 0.1041615977404029,
+    "filler_rate": 0.24109639269870958,
+    "emoji_rate": 0.2391473539118829,
+    "stutter_rate": 0.12105721893683229,
+    "repeat_last_rate": 0.1352150796951817
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 34,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact du PrEP sur ma condition de santé\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne vit avec la sclérose en plaques et s'inquiète de la compatibilité du PrEP avec son état de santé. Elle ressent un mélange de peur et d'espoir, se demandant si le PrEP pourrait être une option viable pour elle, tout en craignant des effets secondaires ou des complications. La stigmatisation autour de son état l'empêche également d'en parler ouvertement.\",\n  \"example_questions\": [\n    \"Quelles sont les études concernant l'utilisation du PrEP chez les personnes atteintes de sclérose en plaques ?\",\n    \"Y a-t-il des risques spécifiques que je devrais considérer avant de commencer le PrEP ?\",\n    \"Comment le PrEP pourrait-il influencer mon état de santé actuel ?\",\n    \"Existe-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent le PrEP ?\",\n    \"Est-ce que le coût du PrEP est un problème courant pour d'autres personnes dans ma situation ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7b4d2fa420babe345d60dc42b3080a486e38909c08c71905d2dc2fcadbcfb201",
+  "_starter_hash": "dd86e2f40e586723351f36cf7331a1bd8eba636739f3f90abbeae1e09a94d2fe",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

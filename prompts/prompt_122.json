@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 35,
+    "gender": "Femenino",
+    "socio_economic_status": "Clase media",
+    "primary_concern": "Preocupación sobre los efectos secundarios y la interacción con mi tratamiento de recuperación.",
+    "language": "Spanish"
+  },
+  "context": "Después de haber superado un tratamiento de cáncer, me siento vulnerable y ansiosa sobre mi salud sexual. La idea de comenzar PrEP me causa temor porque no estoy segura de cómo afectará mi cuerpo, que ya ha pasado por mucho. Me preocupa el estigma que podría enfrentar al hablar de esto con mis médicos o en mi comunidad, ya que la falta de información puede hacer que me sienta aislada en esta nueva etapa de mi vida.",
+  "example_questions_clean": [
+    "¿Cómo puede la PrEP afectar mi recuperación después del tratamiento del cáncer?",
+    "¿Qué debo considerar sobre los efectos secundarios antes de empezar con PrEP?",
+    "¿Hay profesionales de la salud que comprendan mi situación particular?",
+    "¿Cómo puedo abordar el tema de la PrEP con mi médico sin sentirme juzgada?",
+    "¿Existen recursos disponibles para personas como yo que buscan información sobre PrEP?",
+    "¿Qué pasos debo seguir para acceder a la PrEP en mi localidad?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo pueeede la PrEP afectar mi recuperación después del tratamiento del cáncer? 😅",
+    "¿Qué debo considerar sobre los efectos secundarios antes de empezar con PrEP?",
+    "¿Hay profesionales de la salud que comprendan mi situación particular?",
+    "¿Cómo puedo aobrdar 3l etma de la PrP con mi médico sin sentirme juzgada?",
+    "¿Existen recursos disponibles para personas como yo que buscan información sobre PrEP?",
+    "¿Qué pasos debo seguir para acceder a la PrEP en mi localidad?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Qué pasos debo seguir para acceder a la PrEP en mi localidad?",
+  "starter_noisy": "¿Qué pasos debo seguir para acceder a la PrEP en mi localidad?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puede la PrEP afectar mi recuperación después del tratamiento del cáncer?",
+  "followup_noisy": "¿Cómo pueeede la PrEP afectar mi recuperación después del tratamiento del cáncer? 😅",
+  "style_profile": {
+    "typo_rate": 0.07156439394714303,
+    "swap_rate": 0.05054688709807252,
+    "drop_rate": 0.04768834022818165,
+    "dup_rate": 0.02356461669710545,
+    "leet_rate": 0.05004619437445225,
+    "start_lower_prob": 0.7305816462200179,
+    "all_lower_prob": 0.2733512819579531,
+    "drop_punct_prob": 0.4775368773835338,
+    "double_space_prob": 0.2785783308756482,
+    "ellipsis_prob": 0.28360431752915866,
+    "runon_prob": 0.24649450157625566,
+    "filler_rate": 0.38844869289364337,
+    "emoji_rate": 0.17043921202751652,
+    "stutter_rate": 0.17719977812013885,
+    "repeat_last_rate": 0.12176815762636237
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 35,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Clase media\",\n    \"primary_concern\": \"Preocupación sobre los efectos secundarios y la interacción con mi tratamiento de recuperación.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Después de haber superado un tratamiento de cáncer, me siento vulnerable y ansiosa sobre mi salud sexual. La idea de comenzar PrEP me causa temor porque no estoy segura de cómo afectará mi cuerpo, que ya ha pasado por mucho. Me preocupa el estigma que podría enfrentar al hablar de esto con mis médicos o en mi comunidad, ya que la falta de información puede hacer que me sienta aislada en esta nueva etapa de mi vida.\",\n  \"example_questions\": [\n    \"¿Cómo puede la PrEP afectar mi recuperación después del tratamiento del cáncer?\",\n    \"¿Qué debo considerar sobre los efectos secundarios antes de empezar con PrEP?\",\n    \"¿Hay profesionales de la salud que comprendan mi situación particular?\",\n    \"¿Cómo puedo abordar el tema de la PrEP con mi médico sin sentirme juzgada?\",\n    \"¿Existen recursos disponibles para personas como yo que buscan información sobre PrEP?\",\n    \"¿Qué pasos debo seguir para acceder a la PrEP en mi localidad?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a369faea3c5d7aae68ae75e0d38deb8c23ea9063446cf726578a453cdd7f394",
+  "_starter_hash": "0dd466d0343e3ec72abe2fda8882dd9a1c521f5e7be0935e91ccc093a19219e8",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Egyptian",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma from community and healthcare providers",
+    "language": "Arabic"
+  },
+  "context": "The user is navigating the challenges of living with HIV-related stigma, which affects his willingness to seek information and access to PrEP. He feels anxious about how others might perceive him and is worried that discussing his health may lead to social isolation or discrimination. Despite these fears, he remains hopeful about the possibility of protecting his health.",
+  "example_questions_clean": [
+    "ما هي الخطوات الأساسية للتسجيل في برنامج PrEP؟",
+    "هل يمكن أن يتسبب استخدام PrEP في أي آثار جانبية أواجهها بشكل خاص؟",
+    "كيف يمكنني التعامل مع الخوف من وصمة العار أثناء الحديث عن PrEP؟",
+    "هل هناك موارد متاحة لدعم الأشخاص الذين يشعرون بالقلق من stigma المرتبط بـ HIV؟",
+    "ما هو أفضل مكان للحصول على معلومات موثوقة عن PrEP دون الخوف من الحكم؟"
+  ],
+  "example_questions_noisy": [
+    "ما هي الخطوات الأساسية للتسجيل في برنامج PrEP؟",
+    "هل يمكن أن يتسبب استخدام PrEP في أي آثار جانبية أواجهها بشكل خاص؟",
+    "كيف يمكنني التعامل مع الخوف من وصمة العار أثناء الحديث عن PrEP؟",
+    "هل هناك موارد متاحة لدعم الأشخاص الذين يشعرون بالقلق من stigma المرتبط بـ HIV؟",
+    "ما هو أفضل مكان للحصول على معلومات موثوقة عن PrEP دون الخوف من الحكم؟"
+  ],
+  "starter_index": 0,
+  "starter_clean": "ما هي الخطوات الأساسية للتسجيل في برنامج PrEP؟",
+  "starter_noisy": "ما هي الخطوات الأساسية للتسجيل في برنامج PrEP؟",
+  "followup_index": 1,
+  "followup_clean": "هل يمكن أن يتسبب استخدام PrEP في أي آثار جانبية أواجهها بشكل خاص؟",
+  "followup_noisy": "هل يمكن أن يتسبب استخدام PrEP في أي آثار جانبية أواجهها بشكل خاص؟",
+  "style_profile": {
+    "typo_rate": 0.07018145173432487,
+    "swap_rate": 0.04457731976459668,
+    "drop_rate": 0.047919054365631944,
+    "dup_rate": 0.016363113049406044,
+    "leet_rate": 0.11874571139975414,
+    "start_lower_prob": 0.6360763045203792,
+    "all_lower_prob": 0.27111254598644646,
+    "drop_punct_prob": 0.38238849795485863,
+    "double_space_prob": 0.2715476595082164,
+    "ellipsis_prob": 0.21861497369153313,
+    "runon_prob": 0.1794391984421747,
+    "filler_rate": 0.24045516899899458,
+    "emoji_rate": 0.1863134978921007,
+    "stutter_rate": 0.11592203457013739,
+    "repeat_last_rate": 0.12843098784027762
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Egyptian\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma from community and healthcare providers\",\n    \"language\": \"Arabic\"\n  },\n  \"context\": \"The user is navigating the challenges of living with HIV-related stigma, which affects his willingness to seek information and access to PrEP. He feels anxious about how others might perceive him and is worried that discussing his health may lead to social isolation or discrimination. Despite these fears, he remains hopeful about the possibility of protecting his health.\",\n  \"example_questions\": [\n    \"ما هي الخطوات الأساسية للتسجيل في برنامج PrEP؟\",\n    \"هل يمكن أن يتسبب استخدام PrEP في أي آثار جانبية أواجهها بشكل خاص؟\",\n    \"كيف يمكنني التعامل مع الخوف من وصمة العار أثناء الحديث عن PrEP؟\",\n    \"هل هناك موارد متاحة لدعم الأشخاص الذين يشعرون بالقلق من stigma المرتبط بـ HIV؟\",\n    \"ما هو أفضل مكان للحصول على معلومات موثوقة عن PrEP دون الخوف من الحكم؟\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4aff49cfa0608d1bf8e3d2d7e1fa68d05e8b6367ea448d2d8d8bb85713f32907",
+  "_starter_hash": "4fff89ca89a73a89a45975d459a25a4e86839af689b7cbc7add0cd557ef9f780",
+  "_language": "Arabic",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

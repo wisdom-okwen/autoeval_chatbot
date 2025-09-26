@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "la posibilidad de que PrEP afecte mi recuperación",
+    "language": "Spanish"
+  },
+  "context": "Soy una mujer joven en recuperación de un problema de uso de sustancias. A veces me preocupa que el tratamiento con PrEP pueda interferir con mi proceso de sanación y que el estigma relacionado con mi historia afecte cómo me ven los demás. Estoy buscando información sobre cómo PrEP podría beneficiar mi salud sin afectar mi recuperación.",
+  "example_questions_clean": [
+    "¿Qué efectos secundarios podría tener PrEP en alguien con antecedentes de uso de sustancias?",
+    "¿Existen recursos específicos que ayuden a las personas en recuperación a acceder a PrEP?",
+    "Me gustaría saber si es común que personas en mi situación usen PrEP.",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?",
+    "¿Qué pasos debo seguir para obtener PrEP en mi comunidad?",
+    "¿Hay grupos de apoyo que traten sobre el uso de PrEP y la recuperación?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué efectos secundarios podría tener PrEP en alguien con antecedentes de uso de sustancias?",
+    "¿Existen recursos específicos que ayuden a las personas en recuperación a acceder a PrEP?",
+    "Me gustaría saber si es común que personas en mi situación usen PrEP.",
+    "¿CCCómo puedo hablar c0n mi médico sobee mis preeeocupaciones respecto s PrEP",
+    "¿Qué pppasos debo seguir para obtener PrEP en mi comunidad",
+    "¿Hay gruops de apoyo que traten sobre eeel uso ddde PrEP y la recuperación"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Qué efectos secundarios podría tener PrEP en alguien con antecedentes de uso de sustancias?",
+  "starter_noisy": "¿Qué efectos secundarios podría tener PrEP en alguien con antecedentes de uso de sustancias?",
+  "followup_index": 1,
+  "followup_clean": "¿Existen recursos específicos que ayuden a las personas en recuperación a acceder a PrEP?",
+  "followup_noisy": "¿Existen recursos específicos que ayuden a las personas en recuperación a acceder a PrEP?",
+  "style_profile": {
+    "typo_rate": 0.05876068636835309,
+    "swap_rate": 0.052633900228751446,
+    "drop_rate": 0.023558311945920323,
+    "dup_rate": 0.022203283764971132,
+    "leet_rate": 0.1007063681057489,
+    "start_lower_prob": 0.7309154813162502,
+    "all_lower_prob": 0.16402720911175017,
+    "drop_punct_prob": 0.5753251138151705,
+    "double_space_prob": 0.15743816892238205,
+    "ellipsis_prob": 0.2641025502989751,
+    "runon_prob": 0.2789236229789731,
+    "filler_rate": 0.21539897015644255,
+    "emoji_rate": 0.150373968257225,
+    "stutter_rate": 0.17543734526568822,
+    "repeat_last_rate": 0.0876727035761244
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"la posibilidad de que PrEP afecte mi recuperación\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Soy una mujer joven en recuperación de un problema de uso de sustancias. A veces me preocupa que el tratamiento con PrEP pueda interferir con mi proceso de sanación y que el estigma relacionado con mi historia afecte cómo me ven los demás. Estoy buscando información sobre cómo PrEP podría beneficiar mi salud sin afectar mi recuperación.\",\n  \"example_questions\": [\n    \"¿Qué efectos secundarios podría tener PrEP en alguien con antecedentes de uso de sustancias?\",\n    \"¿Existen recursos específicos que ayuden a las personas en recuperación a acceder a PrEP?\",\n    \"Me gustaría saber si es común que personas en mi situación usen PrEP.\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a PrEP?\",\n    \"¿Qué pasos debo seguir para obtener PrEP en mi comunidad?\",\n    \"¿Hay grupos de apoyo que traten sobre el uso de PrEP y la recuperación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a669013292ffaf029aef91a0ccf27f37422797be0a087958e742c1a02cd24072",
+  "_starter_hash": "e12027465920b9b4bc26f233e0cf31339b3dcc9de615699fdae47646cc6d9d5e",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

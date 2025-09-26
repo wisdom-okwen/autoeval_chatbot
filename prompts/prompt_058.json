@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "baixa renda",
+    "primary_concern": "o impacto do uso de PrEP na minha saúde mental e nos efeitos colaterais que posso enfrentar",
+    "language": "Portuguese"
+  },
+  "context": "Você é um homem de 28 anos, vivendo com esquizofrenia, e isso torna sua vida um pouco mais desafiadora. A medicação que você já toma para a saúde mental pode interferir com outros medicamentos, e você se preocupa em como o PrEP pode afetar sua estabilidade emocional. Além disso, você sente medo do estigma associado à sua condição e à necessidade de proteção contra o HIV.",
+  "example_questions_clean": [
+    "Como o PrEP pode afetar minha saúde mental?",
+    "Quais são os efeitos colaterais mais comuns do PrEP?",
+    "É possível que eu tenha dificuldade para acessar o PrEP devido à minha condição?",
+    "Existem recursos ou grupos de apoio para pessoas como eu que querem usar PrEP?",
+    "O que devo discutir com meu médico antes de começar a tomar PrEP?",
+    "Como posso lidar com o estigma social ao considerar o uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "coko o PrEP pode afetttar minha saúde mental? 😭",
+    "q-quais são 0s efeitis colaterais mais comuns do PrEP?",
+    "É possível que eu tenha dificuldade para acessar o PrEP devido à minha condição?",
+    "exustem recursos 0u grupos de apoio p4ra pessoas como eu que querem idk uasr PrEP",
+    "O que devo discutir com meu médico antes de começar a tomar PrEP?",
+    "como posso lidar fom o estigma uh social ao considerar o uso se prep prep"
+  ],
+  "starter_index": 2,
+  "starter_clean": "É possível que eu tenha dificuldade para acessar o PrEP devido à minha condição?",
+  "starter_noisy": "É possível que eu tenha dificuldade para acessar o PrEP devido à minha condição?",
+  "followup_index": 0,
+  "followup_clean": "Como o PrEP pode afetar minha saúde mental?",
+  "followup_noisy": "coko o PrEP pode afetttar minha saúde mental? 😭",
+  "style_profile": {
+    "typo_rate": 0.10691989258723489,
+    "swap_rate": 0.05365747749900798,
+    "drop_rate": 0.04985713942728818,
+    "dup_rate": 0.013323080506436814,
+    "leet_rate": 0.06748784385828391,
+    "start_lower_prob": 0.851801633942856,
+    "all_lower_prob": 0.1864266917110875,
+    "drop_punct_prob": 0.49145962976069013,
+    "double_space_prob": 0.34566082767681594,
+    "ellipsis_prob": 0.27885124065740097,
+    "runon_prob": 0.21270877489454065,
+    "filler_rate": 0.45646294011064226,
+    "emoji_rate": 0.3350293520936591,
+    "stutter_rate": 0.10892755962540401,
+    "repeat_last_rate": 0.17883624893110067
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"baixa renda\",\n    \"primary_concern\": \"o impacto do uso de PrEP na minha saúde mental e nos efeitos colaterais que posso enfrentar\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é um homem de 28 anos, vivendo com esquizofrenia, e isso torna sua vida um pouco mais desafiadora. A medicação que você já toma para a saúde mental pode interferir com outros medicamentos, e você se preocupa em como o PrEP pode afetar sua estabilidade emocional. Além disso, você sente medo do estigma associado à sua condição e à necessidade de proteção contra o HIV.\",\n  \"example_questions\": [\n    \"Como o PrEP pode afetar minha saúde mental?\",\n    \"Quais são os efeitos colaterais mais comuns do PrEP?\",\n    \"É possível que eu tenha dificuldade para acessar o PrEP devido à minha condição?\",\n    \"Existem recursos ou grupos de apoio para pessoas como eu que querem usar PrEP?\",\n    \"O que devo discutir com meu médico antes de começar a tomar PrEP?\",\n    \"Como posso lidar com o estigma social ao considerar o uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ba723e419a394d07fb8b6d6df8e712df871bad48f865c15c1180cd8e687e8a89",
+  "_starter_hash": "63ea8aa3b06c68606c164753ef54f439354231334a9c1299dc5b0b784045bbf8",
+  "_language": "Portuguese",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

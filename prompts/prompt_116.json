@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "navigating complex health information due to learning challenges",
+    "language": "Swahili"
+  },
+  "context": "The user has a learning disability that makes it difficult to process information quickly. This situation creates fear and anxiety about understanding the details regarding PrEP, as well as concerns about accessing the medication without feeling overwhelmed by health jargon or stigma from healthcare providers.",
+  "example_questions_clean": [
+    "Ninaweza kupata PrEP wapi katika jiji langu?",
+    "Ni hatua gani ninazoweza kuchukua ili kuelewa vizuri kuhusu PrEP?",
+    "Je, kuna watu ambao wanasaidia watu kama mimi kuhusu PrEP?",
+    "Nifanye nini ikiwa nahisi aibu kuuliza maswali kuhusu PrEP?",
+    "PrEP inafanya kazi vipi dhidi ya maambukizi ya virusi vya UKIMWI?",
+    "Ninaweza kuzungumza na nani ili nipate msaada wa kuelewa matumizi ya PrEP?"
+  ],
+  "example_questions_noisy": [
+    "ninaweza kupata Pr3P wapi katika jiji langu",
+    "Ni hatua gani ninazoweza kuchukua ili kuelewa vizuri kuhusu PrEP?",
+    "Je,,, kuna w47u ambao wanasaidia watu kama mimi kuhusu PrEP? PrEP?",
+    "nifayne nini ikiwa nahisi aibu kuuliza maswali kuhusu PrEP",
+    "PrEP inafanya kazi vipi dhidi ya maambukizi ya virusi vya UKIMWI?",
+    "ninaweza kuzungumza na nani ili you know nipate msaada wa kueelwa matumizi ya PrEP? PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Ninaweza kuzungumza na nani ili nipate msaada wa kuelewa matumizi ya PrEP?",
+  "starter_noisy": "ninaweza kuzungumza na nani ili you know nipate msaada wa kueelwa matumizi ya PrEP? PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ninaweza kupata PrEP wapi katika jiji langu?",
+  "followup_noisy": "ninaweza kupata Pr3P wapi katika jiji langu",
+  "style_profile": {
+    "typo_rate": 0.0536520590676247,
+    "swap_rate": 0.053885922359777336,
+    "drop_rate": 0.04715329668168424,
+    "dup_rate": 0.027157336501753344,
+    "leet_rate": 0.09723109389304099,
+    "start_lower_prob": 0.8815399352260948,
+    "all_lower_prob": 0.18853222382323442,
+    "drop_punct_prob": 0.5474911672910674,
+    "double_space_prob": 0.26284016584286957,
+    "ellipsis_prob": 0.25708230687392497,
+    "runon_prob": 0.18883246553767347,
+    "filler_rate": 0.23557218075417033,
+    "emoji_rate": 0.27664965024796495,
+    "stutter_rate": 0.12281493430870424,
+    "repeat_last_rate": 0.1377001450651329
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"navigating complex health information due to learning challenges\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has a learning disability that makes it difficult to process information quickly. This situation creates fear and anxiety about understanding the details regarding PrEP, as well as concerns about accessing the medication without feeling overwhelmed by health jargon or stigma from healthcare providers.\",\n  \"example_questions\": [\n    \"Ninaweza kupata PrEP wapi katika jiji langu?\",\n    \"Ni hatua gani ninazoweza kuchukua ili kuelewa vizuri kuhusu PrEP?\",\n    \"Je, kuna watu ambao wanasaidia watu kama mimi kuhusu PrEP?\",\n    \"Nifanye nini ikiwa nahisi aibu kuuliza maswali kuhusu PrEP?\",\n    \"PrEP inafanya kazi vipi dhidi ya maambukizi ya virusi vya UKIMWI?\",\n    \"Ninaweza kuzungumza na nani ili nipate msaada wa kuelewa matumizi ya PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "00b60949128245dfd366f3a4a66169a2ef56caa9d94dffab2582b170f6f2848c",
+  "_starter_hash": "723faa9006e8492fceb9bdf041a7f61b9b9d50aaa90babd8f797bc023483c51e",
+  "_language": "Swahili",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

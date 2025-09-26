@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "mexicana",
+    "age": 28,
+    "gender": "femenina",
+    "socio_economic_status": "bajo",
+    "primary_concern": "la preocupación sobre los efectos secundarios de PrEP y su interacción con la medicación actual para la esquizofrenia",
+    "language": "Spanish"
+  },
+  "context": "La usuaria vive con esquizofrenia y enfrenta desafíos adicionales en su bienestar emocional, lo que la hace sentir ansiosa sobre la posibilidad de iniciar PrEP. Además, la falta de recursos y el estigma asociado a su condición mental la llevan a dudar sobre el acceso a este medicamento, temiendo que pueda afectar su estabilidad emocional o que no sea comprendida por los profesionales de salud.",
+  "example_questions_clean": [
+    "¿Qué información hay sobre cómo PrEP puede interactuar con mis medicamentos actuales?",
+    "¿Existen programas de apoyo para ayudarme a acceder a PrEP considerando mi situación?",
+    "¿Cuáles son los posibles efectos secundarios que debería considerar antes de empezar PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Hay recursos disponibles específicamente para personas con condiciones mentales que quieren iniciar PrEP?",
+    "¿Qué pasos debo seguir para obtener PrEP si tengo un presupuesto limitado?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué ifnormación hay sobre cómo PrEP puede 1n7er4c7u4r con mis medicamentos actuales",
+    "¿Existen programas de apoyooo para ayudarme a 4cc3der a PrEP considerando mi situación? 🫠",
+    "¿Cuáles son los posibles efectos secundarios que debería considerar antes de empezar PrEP?",
+    "¿Cómo puedo hablra con mi médico sobre mis preocupaciones sin sentirme juzgada",
+    "¿Hay recursos disponibles específicamente para personas con condiciones mentales que quieren iniciar PrEP?",
+    "¿Qué paaasos debo s3gu1r para obtener PrEP si tengo un presupjesto limitado?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Existen programas de apoyo para ayudarme a acceder a PrEP considerando mi situación?",
+  "starter_noisy": "¿Existen programas de apoyooo para ayudarme a 4cc3der a PrEP considerando mi situación? 🫠",
+  "followup_index": 0,
+  "followup_clean": "¿Qué información hay sobre cómo PrEP puede interactuar con mis medicamentos actuales?",
+  "followup_noisy": "¿Qué ifnormación hay sobre cómo PrEP puede 1n7er4c7u4r con mis medicamentos actuales",
+  "style_profile": {
+    "typo_rate": 0.05503602757376726,
+    "swap_rate": 0.049169090530750706,
+    "drop_rate": 0.038528149595885436,
+    "dup_rate": 0.019478418718201447,
+    "leet_rate": 0.08060313483078976,
+    "start_lower_prob": 0.7561909728453315,
+    "all_lower_prob": 0.20758129051927776,
+    "drop_punct_prob": 0.4848373202981018,
+    "double_space_prob": 0.32702576179819665,
+    "ellipsis_prob": 0.21896529163942569,
+    "runon_prob": 0.11705290304103125,
+    "filler_rate": 0.3793938205138851,
+    "emoji_rate": 0.19718145391481892,
+    "stutter_rate": 0.1742618130590753,
+    "repeat_last_rate": 0.14255288149882372
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"mexicana\",\n    \"age\": 28,\n    \"gender\": \"femenina\",\n    \"socio_economic_status\": \"bajo\",\n    \"primary_concern\": \"la preocupación sobre los efectos secundarios de PrEP y su interacción con la medicación actual para la esquizofrenia\",\n    \"language\": \"español\"\n  },\n  \"context\": \"La usuaria vive con esquizofrenia y enfrenta desafíos adicionales en su bienestar emocional, lo que la hace sentir ansiosa sobre la posibilidad de iniciar PrEP. Además, la falta de recursos y el estigma asociado a su condición mental la llevan a dudar sobre el acceso a este medicamento, temiendo que pueda afectar su estabilidad emocional o que no sea comprendida por los profesionales de salud.\",\n  \"example_questions\": [\n    \"¿Qué información hay sobre cómo PrEP puede interactuar con mis medicamentos actuales?\",\n    \"¿Existen programas de apoyo para ayudarme a acceder a PrEP considerando mi situación?\",\n    \"¿Cuáles son los posibles efectos secundarios que debería considerar antes de empezar PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Hay recursos disponibles específicamente para personas con condiciones mentales que quieren iniciar PrEP?\",\n    \"¿Qué pasos debo seguir para obtener PrEP si tengo un presupuesto limitado?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4d98f725497df4378e8513f3cefda3ac8eaa70271c1f9edacdb28fa02c86e614",
+  "_starter_hash": "950b41b0d783f487f99d7674c9eda223a1a01dcf7d7a53e8342785c3f8c76e62",
+  "_language": "Spanish",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

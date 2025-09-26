@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare while facing housing instability",
+    "language": "Spanish"
+  },
+  "context": "Como una mujer joven que enfrenta la falta de vivienda, puedes sentirte ansiosa sobre el acceso a PrEP debido a tus circunstancias personales. La incertidumbre sobre dónde dormir cada noche puede afectar tu salud mental y hacer que te preocupe cómo obtener los servicios de salud necesarios. El estigma en torno a la prevención del VIH podría generar miedo o dudas acerca de buscar información y atención adecuada.",
+  "example_questions_clean": [
+    "¿Dónde puedo encontrar información sobre PrEP si no tengo un hogar estable?",
+    "¿Cuáles son las opciones para obtener PrEP sin seguro médico?",
+    "¿Existen organizaciones que puedan ayudarme con PrEP en mi situación?",
+    "Me preocupa el costo de PrEP; ¿hay recursos disponibles para personas como yo?",
+    "¿Qué debo hacer si siento miedo de ser juzgada al preguntar sobre PrEP?",
+    "¿Cómo puede afectar la falta de vivienda mi capacidad para seguir un tratamiento con PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Dónde puedo encontrar información sobe PrEP si n0 tengo un hpg4r 3574bl3? 3574bl3?",
+    "¿Cuáles son las 0pc10n35 para obtener PrEP sin uh 53guuur0 médico",
+    "¿-¿Existen organizaciones que pu3dan ayudarme con PrP en mi situación",
+    "you know m3 preocupa el c0570 de PrEP ¿hay recursos disponibles para personas como yo",
+    "¿Qué debo hac3r si siento m13d0 de ser juzgada al preguntar sobre Pr3P 🫠",
+    "¿Cómo puede afectra la fzlta de vivienda mi capacidad p4r4 53gu1r um tratamiento con PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Existen organizaciones que puedan ayudarme con PrEP en mi situación?",
+  "starter_noisy": "¿-¿Existen organizaciones que pu3dan ayudarme con PrP en mi situación",
+  "followup_index": 0,
+  "followup_clean": "¿Dónde puedo encontrar información sobre PrEP si no tengo un hogar estable?",
+  "followup_noisy": "¿Dónde puedo encontrar información sobe PrEP si n0 tengo un hpg4r 3574bl3? 3574bl3?",
+  "style_profile": {
+    "typo_rate": 0.09537415725727569,
+    "swap_rate": 0.03398953949053271,
+    "drop_rate": 0.03805001312341234,
+    "dup_rate": 0.028545642562200928,
+    "leet_rate": 0.09694073946905742,
+    "start_lower_prob": 0.6224321250951207,
+    "all_lower_prob": 0.1725625522839808,
+    "drop_punct_prob": 0.5779386472005229,
+    "double_space_prob": 0.22721187907478782,
+    "ellipsis_prob": 0.3036828413374927,
+    "runon_prob": 0.13150941350592343,
+    "filler_rate": 0.4988061698200058,
+    "emoji_rate": 0.3429436303364777,
+    "stutter_rate": 0.127913557598133,
+    "repeat_last_rate": 0.17421385790724792
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare while facing housing instability\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Como una mujer joven que enfrenta la falta de vivienda, puedes sentirte ansiosa sobre el acceso a PrEP debido a tus circunstancias personales. La incertidumbre sobre dónde dormir cada noche puede afectar tu salud mental y hacer que te preocupe cómo obtener los servicios de salud necesarios. El estigma en torno a la prevención del VIH podría generar miedo o dudas acerca de buscar información y atención adecuada.\",\n  \"example_questions\": [\n    \"¿Dónde puedo encontrar información sobre PrEP si no tengo un hogar estable?\",\n    \"¿Cuáles son las opciones para obtener PrEP sin seguro médico?\",\n    \"¿Existen organizaciones que puedan ayudarme con PrEP en mi situación?\",\n    \"Me preocupa el costo de PrEP; ¿hay recursos disponibles para personas como yo?\",\n    \"¿Qué debo hacer si siento miedo de ser juzgada al preguntar sobre PrEP?\",\n    \"¿Cómo puede afectar la falta de vivienda mi capacidad para seguir un tratamiento con PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9bfe35e1511d7ce531bd1b76b918798be161a246f1af969c7c13a251ee2986ca",
+  "_starter_hash": "58aa3a32f6eec2776676ea61c356ba6e6ad52481db2c8cf8e17bf17d02775962",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "worries about being judged or discriminated against while seeking PrEP",
+    "language": "Swahili"
+  },
+  "context": "Living with the stigma associated with HIV, this young woman feels apprehensive about accessing PrEP. The fear of being judged and facing discrimination makes her hesitant to seek the information she needs for her health. Despite wanting to protect herself, the emotional weight of stigma creates significant barriers in her pursuit of preventive care.",
+  "example_questions_clean": [
+    "Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?",
+    "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyoweza kunisaidia kujilinda?",
+    "Ni muhimu gani kujadili hali yangu ya kiafya na daktari kabla ya kuanza kutumia PrEP?",
+    "Vipi naweza kujenga ujasiri wa kutafuta huduma za PrEP bila kuogopa hukumu kutoka kwa wengine?",
+    "Ni mahali gani salama ambapo naweza kujifunza zaidi kuhusu PrEP bila kuhisi aibu?",
+    "Je, ni njia gani za kujilinda dhidi ya unyanyasaji wakati wa kutafuta huduma za afya?"
+  ],
+  "example_questions_noisy": [
+    "Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?",
+    "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyoweza kunisaidia kujilinda?",
+    "Ni muhimu gani kujadili hali yangu ya kiafya na daktari kabla ya kuanza kutumia PrEP?",
+    "Vipi naweza kujenga ujasiri wa kutafuta huduma za PrEP bila kuogopa hukumu kutoka kwa wengine?",
+    "Ni mahali gani salama ambapo naweza kujifunza zaidi kuhusu PrEP bila kuhisi aibu?",
+    "je, ni njia gani za kujilinda dhidi ya unyanyasaji wakati wa kutafuta huduma za 4fy4?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?",
+  "starter_noisy": "Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?",
+  "followup_index": 1,
+  "followup_clean": "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyoweza kunisaidia kujilinda?",
+  "followup_noisy": "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyoweza kunisaidia kujilinda?",
+  "style_profile": {
+    "typo_rate": 0.05475117757934003,
+    "swap_rate": 0.05181982635230534,
+    "drop_rate": 0.02717628116385369,
+    "dup_rate": 0.02600810733192751,
+    "leet_rate": 0.1030993959355435,
+    "start_lower_prob": 0.7565757039523032,
+    "all_lower_prob": 0.20320616518130838,
+    "drop_punct_prob": 0.34755839560909774,
+    "double_space_prob": 0.26481369800714144,
+    "ellipsis_prob": 0.22898153917860847,
+    "runon_prob": 0.13627231557385855,
+    "filler_rate": 0.44022964995530794,
+    "emoji_rate": 0.25705870883891274,
+    "stutter_rate": 0.17304854175977033,
+    "repeat_last_rate": 0.1344786958501289
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"worries about being judged or discriminated against while seeking PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Living with the stigma associated with HIV, this young woman feels apprehensive about accessing PrEP. The fear of being judged and facing discrimination makes her hesitant to seek the information she needs for her health. Despite wanting to protect herself, the emotional weight of stigma creates significant barriers in her pursuit of preventive care.\",\n  \"example_questions\": [\n    \"Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?\",\n    \"Ninaweza kupata habari gani kuhusu jinsi PrEP inavyoweza kunisaidia kujilinda?\",\n    \"Ni muhimu gani kujadili hali yangu ya kiafya na daktari kabla ya kuanza kutumia PrEP?\",\n    \"Vipi naweza kujenga ujasiri wa kutafuta huduma za PrEP bila kuogopa hukumu kutoka kwa wengine?\",\n    \"Ni mahali gani salama ambapo naweza kujifunza zaidi kuhusu PrEP bila kuhisi aibu?\",\n    \"Je, ni njia gani za kujilinda dhidi ya unyanyasaji wakati wa kutafuta huduma za afya?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ef82dd82f50ad2184b482a0529cf6b926f89b8e19e4d16bb552045669c8f3fc6",
+  "_starter_hash": "69f890abe750dc7fa0b1fd1c2fd3c65fb02a57e68f8494fc336f46f6bec6656e",
+  "_language": "Swahili",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlander",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "beperkingen door leerproblemen en het begrijpen van medische informatie",
+    "language": "Dutch"
+  },
+  "context": "Deze persoon heeft een leerstoornis die het moeilijk maakt om complexe medische informatie te begrijpen. Hierdoor voelt ze zich vaak overweldigd en onzeker over haar vermogen om PrEP goed te begrijpen en te gebruiken. Ze maakt zich zorgen over de stigma's rondom HIV-preventie en twijfelt of ze wel de juiste ondersteuning kan krijgen.",
+  "example_questions_clean": [
+    "Wat is PrEP precies en hoe werkt het?",
+    "Zijn er speciale programma's voor mensen met leerproblemen om meer te leren over PrEP?",
+    "Hoe kan ik ervoor zorgen dat ik PrEP goed begrijp voordat ik het begin te gebruiken?",
+    "Wat zijn de bijwerkingen van PrEP waar ik rekening mee moet houden?",
+    "Is er hulp beschikbaar voor mensen die zich ongemakkelijk voelen om over PrEP te praten?",
+    "Hoe kan ik mijn zorgen over stigma delen met mijn zorgverlener?"
+  ],
+  "example_questions_noisy": [
+    "w-wat is PrEP precies en h03 werkt i mean het?",
+    "zijn 3r speciale programma's vo0r mensen met leerproblemen om meer te leren over PrEP? 😭",
+    "hoe kan ik ervoor zorgen dat ik prep you know goed begrijp voordat ik het begin te gebruiken",
+    "Wat zijn de bijwerkingen van PrEP waar ik rekening mee moet houden?",
+    "Is er hulp beschikbaar voor mensen die zich ongemakkelijk voelen om over PrEP te praten?",
+    "hoe kan ik mijn zorgen over stigma delen you know met mijn zorgverlener? zorgverlener?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat is PrEP precies en hoe werkt het?",
+  "starter_noisy": "w-wat is PrEP precies en h03 werkt i mean het?",
+  "followup_index": 1,
+  "followup_clean": "Zijn er speciale programma's voor mensen met leerproblemen om meer te leren over PrEP?",
+  "followup_noisy": "zijn 3r speciale programma's vo0r mensen met leerproblemen om meer te leren over PrEP? 😭",
+  "style_profile": {
+    "typo_rate": 0.05395430437202543,
+    "swap_rate": 0.05702762689389203,
+    "drop_rate": 0.02322921308101908,
+    "dup_rate": 0.01343225160386261,
+    "leet_rate": 0.10258588164766608,
+    "start_lower_prob": 0.6810721964718952,
+    "all_lower_prob": 0.22852131539198428,
+    "drop_punct_prob": 0.4884072420104112,
+    "double_space_prob": 0.16052681140311795,
+    "ellipsis_prob": 0.15313717358031617,
+    "runon_prob": 0.15140377131350208,
+    "filler_rate": 0.4210248975681632,
+    "emoji_rate": 0.23817373946901543,
+    "stutter_rate": 0.16065247153273016,
+    "repeat_last_rate": 0.11608266150477725
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlander\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"beperkingen door leerproblemen en het begrijpen van medische informatie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Deze persoon heeft een leerstoornis die het moeilijk maakt om complexe medische informatie te begrijpen. Hierdoor voelt ze zich vaak overweldigd en onzeker over haar vermogen om PrEP goed te begrijpen en te gebruiken. Ze maakt zich zorgen over de stigma's rondom HIV-preventie en twijfelt of ze wel de juiste ondersteuning kan krijgen.\",\n  \"example_questions\": [\n    \"Wat is PrEP precies en hoe werkt het?\",\n    \"Zijn er speciale programma's voor mensen met leerproblemen om meer te leren over PrEP?\",\n    \"Hoe kan ik ervoor zorgen dat ik PrEP goed begrijp voordat ik het begin te gebruiken?\",\n    \"Wat zijn de bijwerkingen van PrEP waar ik rekening mee moet houden?\",\n    \"Is er hulp beschikbaar voor mensen die zich ongemakkelijk voelen om over PrEP te praten?\",\n    \"Hoe kan ik mijn zorgen over stigma delen met mijn zorgverlener?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ade96fe07841167225ceb634e08bb0f701608fa135de6abc9de75484b9697c14",
+  "_starter_hash": "21c00d69345e5680d2c1321b7fd21680d25f3bb5f4d6bedd132be7486f9a5b6f",
+  "_language": "Dutch",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

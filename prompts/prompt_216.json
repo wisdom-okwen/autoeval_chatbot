@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "accessibility of PrEP due to my chronic pain condition",
+    "language": "English"
+  },
+  "context": "You are dealing with chronic pain that makes it challenging to maintain a consistent healthcare routine. This situation adds emotional stress and makes you anxious about seeking new treatments like PrEP. You worry about how to navigate the healthcare system, especially with the stigma surrounding both your condition and HIV prevention.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP while managing my chronic pain?",
+    "Are there specific resources for people with chronic conditions who want to access PrEP?",
+    "How does my chronic pain affect the effectiveness or side effects of PrEP?",
+    "Can I discuss my fears about taking PrEP with my doctor without feeling judged?",
+    "What support groups are available for individuals like me considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to start PrEP while managing my chronic pain?",
+    "are there specific resources fffor people with chrnic conditions who wnat to access PrEP 🤔",
+    "How does my chronic pain affect the effectiveness or side effects of PrEP?",
+    "c-can I xiscuss my fears about taking PrEP w1th my doctor without feeling judged?",
+    "What support groups are available for individuals like me considering PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How does my chronic pain affect the effectiveness or side effects of PrEP?",
+  "starter_noisy": "How does my chronic pain affect the effectiveness or side effects of PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to start PrEP while managing my chronic pain?",
+  "followup_noisy": "What are the steps I need to take to start PrEP while managing my chronic pain?",
+  "style_profile": {
+    "typo_rate": 0.09335246345705012,
+    "swap_rate": 0.05859169203534166,
+    "drop_rate": 0.03268840288188796,
+    "dup_rate": 0.02321055653675857,
+    "leet_rate": 0.10682585881338291,
+    "start_lower_prob": 0.7417706464211985,
+    "all_lower_prob": 0.23640592762032747,
+    "drop_punct_prob": 0.3001983927714864,
+    "double_space_prob": 0.32179169188790285,
+    "ellipsis_prob": 0.27959847408751,
+    "runon_prob": 0.1632168971702394,
+    "filler_rate": 0.3389861902701865,
+    "emoji_rate": 0.32912643081449444,
+    "stutter_rate": 0.12260315064535722,
+    "repeat_last_rate": 0.17434534306994134
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"accessibility of PrEP due to my chronic pain condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are dealing with chronic pain that makes it challenging to maintain a consistent healthcare routine. This situation adds emotional stress and makes you anxious about seeking new treatments like PrEP. You worry about how to navigate the healthcare system, especially with the stigma surrounding both your condition and HIV prevention.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP while managing my chronic pain?\",\n    \"Are there specific resources for people with chronic conditions who want to access PrEP?\",\n    \"How does my chronic pain affect the effectiveness or side effects of PrEP?\",\n    \"Can I discuss my fears about taking PrEP with my doctor without feeling judged?\",\n    \"What support groups are available for individuals like me considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6bae307bbc2b21c17a3003a79c6d71e19514bb6d5fb4209156ff9a92ea1c8a2c",
+  "_starter_hash": "5eebb1e22b79e5a02ec115186d7cc3de2c26ae2054437694aa46abb174765f66",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Lower-middle class",
+    "primary_concern": "Managing medication interactions with bipolar disorder",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old American woman living with bipolar disorder. She often struggles with mood fluctuations and the fear of stigma related to both her mental health and her sexual health. This leads to anxiety about starting PrEP, particularly concerning how it might interact with her existing medications and affect her mental state. She is looking for information to navigate these concerns and to feel empowered in making informed choices regarding her health.",
+  "example_questions_clean": [
+    "What are the potential interactions between PrEP and my current bipolar medications?",
+    "How can I manage my anxiety about starting PrEP given my mental health history?",
+    "Are there support resources available for people with mental health conditions considering PrEP?",
+    "What steps can I take to ensure I have a smooth experience while on PrEP?",
+    "Is it common for individuals with bipolar disorder to be prescribed PrEP?",
+    "How can I find a healthcare provider who understands both my mental health and sexual health needs?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential intersctinos between pr3p and my current b1p04r medications",
+    "How can I manage my anxiety about starting PrEP given my mental health history?",
+    "Are there support resources available for people with mental health conditions considering PrEP?",
+    "What steps can I take to ensure I have a smooth experience while on PrEP",
+    "is it v0mm0n for individuals wigh bipolar disorder to like be prescribed PrEP",
+    "How can I fid a healthcare provider who understands both my mental health and sexual health needs 🤔"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What steps can I take to ensure I have a smooth experience while on PrEP?",
+  "starter_noisy": "What steps can I take to ensure I have a smooth experience while on PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the potential interactions between PrEP and my current bipolar medications?",
+  "followup_noisy": "what are the potential intersctinos between pr3p and my current b1p04r medications",
+  "style_profile": {
+    "typo_rate": 0.10793871064117885,
+    "swap_rate": 0.03690892174364188,
+    "drop_rate": 0.03248204767170417,
+    "dup_rate": 0.022648350579706496,
+    "leet_rate": 0.09740972139932555,
+    "start_lower_prob": 0.6099719129537601,
+    "all_lower_prob": 0.2768324522577028,
+    "drop_punct_prob": 0.3639533959894017,
+    "double_space_prob": 0.26279856595196055,
+    "ellipsis_prob": 0.2523116070769458,
+    "runon_prob": 0.21872204521125546,
+    "filler_rate": 0.2516449657630926,
+    "emoji_rate": 0.24202525482654091,
+    "stutter_rate": 0.12584483995946527,
+    "repeat_last_rate": 0.09277000405061815
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Lower-middle class\",\n    \"primary_concern\": \"Managing medication interactions with bipolar disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old American woman living with bipolar disorder. She often struggles with mood fluctuations and the fear of stigma related to both her mental health and her sexual health. This leads to anxiety about starting PrEP, particularly concerning how it might interact with her existing medications and affect her mental state. She is looking for information to navigate these concerns and to feel empowered in making informed choices regarding her health.\",\n  \"example_questions\": [\n    \"What are the potential interactions between PrEP and my current bipolar medications?\",\n    \"How can I manage my anxiety about starting PrEP given my mental health history?\",\n    \"Are there support resources available for people with mental health conditions considering PrEP?\",\n    \"What steps can I take to ensure I have a smooth experience while on PrEP?\",\n    \"Is it common for individuals with bipolar disorder to be prescribed PrEP?\",\n    \"How can I find a healthcare provider who understands both my mental health and sexual health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8d92a56c11cc5ef2dd59f8362b4dc5fd7076538fa8242a17e82f0dca63a471c7",
+  "_starter_hash": "5c8471ba2ee2df11cd34f6550398347db47588242f52e29ac580ee2c7f5cfba9",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

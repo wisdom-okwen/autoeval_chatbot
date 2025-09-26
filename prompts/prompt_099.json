@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 22,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and discrimination when accessing PrEP",
+    "language": "Spanish"
+  },
+  "context": "Esta persona está lidiando con la disforia de género y se siente ansiosa acerca de acceder a PrEP debido al miedo al rechazo y la falta de apoyo en su comunidad. Su situación económica y emocional le dificulta buscar información sobre opciones de salud y prevención del VIH, ya que se siente vulnerable y teme ser juzgada.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para obtener PrEP sin sentirme incómoda?",
+    "¿Existen clínicas que sean inclusivas y respetuosas con personas no binarias como yo?",
+    "¿Qué tipo de apoyo emocional puedo encontrar mientras inicio el tratamiento de PrEP?",
+    "¿Es seguro hablar con mi médico sobre PrEP si me preocupa el estigma?",
+    "¿Cómo puedo asegurarme de que mi privacidad esté protegida al buscar información sobre PrEP?",
+    "¿Hay recursos disponibles específicamente para personas que enfrentan disforia de género?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para obtener PrEP sin sentirme incómoda?",
+    "¿Existen clínicas que sean inclusivas y respetuosas con personas no binarias como yo?",
+    "¿Qué tipo de apoyo emocional puedo encontrar mientras inicio el tratamiento de PrEP?",
+    "¿Es seguro hablar con mi médico sobre PrEP si me preocupa el estigma?",
+    "¿Cómo puedo asegurarme de que mi privacidad esté protegida al buscar información sobre PrEP?",
+    "¿H4y recursos disponibles 35p3cíf1c4m3n73 para personas queee enfrentan d1sfor14 de género ✨"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Hay recursos disponibles específicamente para personas que enfrentan disforia de género?",
+  "starter_noisy": "¿H4y recursos disponibles 35p3cíf1c4m3n73 para personas queee enfrentan d1sfor14 de género ✨",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para obtener PrEP sin sentirme incómoda?",
+  "followup_noisy": "¿Cuáles son los pasos para obtener PrEP sin sentirme incómoda?",
+  "style_profile": {
+    "typo_rate": 0.06773342014784654,
+    "swap_rate": 0.02083579764031779,
+    "drop_rate": 0.02266590108865571,
+    "dup_rate": 0.029849846111433896,
+    "leet_rate": 0.10861766257553199,
+    "start_lower_prob": 0.7920369304125998,
+    "all_lower_prob": 0.22301198824876164,
+    "drop_punct_prob": 0.3817336161634495,
+    "double_space_prob": 0.22696275120168974,
+    "ellipsis_prob": 0.3266546835987891,
+    "runon_prob": 0.19072620854203165,
+    "filler_rate": 0.3013425286650969,
+    "emoji_rate": 0.1629771001650228,
+    "stutter_rate": 0.11611306860884153,
+    "repeat_last_rate": 0.1745222957107636
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 22,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and discrimination when accessing PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta persona está lidiando con la disforia de género y se siente ansiosa acerca de acceder a PrEP debido al miedo al rechazo y la falta de apoyo en su comunidad. Su situación económica y emocional le dificulta buscar información sobre opciones de salud y prevención del VIH, ya que se siente vulnerable y teme ser juzgada.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para obtener PrEP sin sentirme incómoda?\",\n    \"¿Existen clínicas que sean inclusivas y respetuosas con personas no binarias como yo?\",\n    \"¿Qué tipo de apoyo emocional puedo encontrar mientras inicio el tratamiento de PrEP?\",\n    \"¿Es seguro hablar con mi médico sobre PrEP si me preocupa el estigma?\",\n    \"¿Cómo puedo asegurarme de que mi privacidad esté protegida al buscar información sobre PrEP?\",\n    \"¿Hay recursos disponibles específicamente para personas que enfrentan disforia de género?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a4bdeb2cdad4dd82609a14016e1e547cc9bf448499fece4cb8723c6898a12ac6",
+  "_starter_hash": "683653618ad859c616c744f112180afa774c9b19da06af4c5b8a8fc752325454",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

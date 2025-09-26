@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 24,
+    "gender": "non-binaire",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation et l'accès au traitement en raison de la dysphorie de genre",
+    "language": "French"
+  },
+  "context": "En raison de la dysphorie de genre, cette personne se sent souvent mal à l'aise dans des environnements médicaux et craint le jugement. Cela crée des obstacles à l'accès à des soins comme le PrEP, car ils ont peur de ne pas être pris au sérieux ou de rencontrer des professionnels de santé peu informés sur leur situation. Malgré ces défis, ils espèrent trouver des informations claires et rassurantes sur le PrEP pour se protéger et prendre soin de leur santé.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer le PrEP en tant que personne non binaire?",
+    "Y a-t-il des médecins qui sont formés pour comprendre la dysphorie de genre lors de la prescription du PrEP?",
+    "Comment le PrEP pourrait-il influencer ma santé mentale en ce moment?",
+    "Quels sont les effets secondaires du PrEP dont je devrais être conscient?",
+    "Est-ce que le PrEP est accessible dans ma région pour les personnes qui se sentent comme moi?",
+    "Comment aborder la conversation sur le PrEP avec un professionnel de santé?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour commencer le PrEP en tant que personne non binaire?",
+    "y a-t-il des médecins qui sont formés pojr comprendre la dysphoriiie de genre lors de la prescription i mean du PrEP?",
+    "Comment le PrEP pourrait-il influencer ma santé mentale en ce moment?",
+    "Quels sont les effets secondaires du PrEP dont je devrais être conscient?",
+    "est-ce que ke prep est accexsible dans ma réigon opur les personnes qui uh se 53n7ent c0mme m01?",
+    "c-comment aborder la conversation sur le PrEP 4vec un pr0f35510nn3l de santé?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les étapes pour commencer le PrEP en tant que personne non binaire?",
+  "starter_noisy": "Quelles sont les étapes pour commencer le PrEP en tant que personne non binaire?",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des médecins qui sont formés pour comprendre la dysphorie de genre lors de la prescription du PrEP?",
+  "followup_noisy": "y a-t-il des médecins qui sont formés pojr comprendre la dysphoriiie de genre lors de la prescription i mean du PrEP?",
+  "style_profile": {
+    "typo_rate": 0.10482832223539781,
+    "swap_rate": 0.03183933529520243,
+    "drop_rate": 0.04109861427959413,
+    "dup_rate": 0.01857378174210203,
+    "leet_rate": 0.09499600565206409,
+    "start_lower_prob": 0.8877345939613075,
+    "all_lower_prob": 0.19579384264778377,
+    "drop_punct_prob": 0.4663933198139593,
+    "double_space_prob": 0.23921583669848429,
+    "ellipsis_prob": 0.22851676745062488,
+    "runon_prob": 0.2240782462831712,
+    "filler_rate": 0.4548153257384991,
+    "emoji_rate": 0.17719647672652616,
+    "stutter_rate": 0.1945617449497045,
+    "repeat_last_rate": 0.13095292859257784
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 24,\n    \"gender\": \"non-binaire\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation et l'accès au traitement en raison de la dysphorie de genre\",\n    \"language\": \"français\"\n  },\n  \"context\": \"En raison de la dysphorie de genre, cette personne se sent souvent mal à l'aise dans des environnements médicaux et craint le jugement. Cela crée des obstacles à l'accès à des soins comme le PrEP, car ils ont peur de ne pas être pris au sérieux ou de rencontrer des professionnels de santé peu informés sur leur situation. Malgré ces défis, ils espèrent trouver des informations claires et rassurantes sur le PrEP pour se protéger et prendre soin de leur santé.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer le PrEP en tant que personne non binaire?\",\n    \"Y a-t-il des médecins qui sont formés pour comprendre la dysphorie de genre lors de la prescription du PrEP?\",\n    \"Comment le PrEP pourrait-il influencer ma santé mentale en ce moment?\",\n    \"Quels sont les effets secondaires du PrEP dont je devrais être conscient?\",\n    \"Est-ce que le PrEP est accessible dans ma région pour les personnes qui se sentent comme moi?\",\n    \"Comment aborder la conversation sur le PrEP avec un professionnel de santé?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0126f316fc504bb5b586f8ea21c907177ba25ec5ccef2a83e81d62fd5426369a",
+  "_starter_hash": "678555f639e47b67f29f39ded00e86a5649aef67a7b6fda85479f08456f4dbea",
+  "_language": "French",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

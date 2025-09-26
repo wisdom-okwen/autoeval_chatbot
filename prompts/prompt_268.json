@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and rejection from peers",
+    "language": "English"
+  },
+  "context": "You feel socially isolated and struggle with anxiety about seeking medical advice. This isolation makes you hesitant to reach out for support regarding PrEP, as you worry about being judged or misunderstood by others in your community. You're hopeful for better health but fear the potential reactions from people around you.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "I’m concerned about the side effects of PrEP; what should I know?",
+    "How can I find a healthcare provider who understands my situation?",
+    "What are some ways to talk about PrEP with friends or family?",
+    "Is there financial assistance available for accessing PrEP?",
+    "How can I build a support network while feeling so isolated?"
+  ],
+  "example_questions_noisy": [
+    "What exactly is PrEP and how does it work?",
+    "I’m concerned about the side effects of PrEP; what should I know?",
+    "How cannn I find a healthcare provider who understands my situation? 😭",
+    "What are some ways to talk about PrEP with friends or family?",
+    "is there financial assistance available fkr accessing PrEP?",
+    "How c4h I build a support network idk while feling so ioslated?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How can I build a support network while feeling so isolated?",
+  "starter_noisy": "How c4h I build a support network idk while feling so ioslated?",
+  "followup_index": 0,
+  "followup_clean": "What exactly is PrEP and how does it work?",
+  "followup_noisy": "What exactly is PrEP and how does it work?",
+  "style_profile": {
+    "typo_rate": 0.08337283726509635,
+    "swap_rate": 0.05720804409015608,
+    "drop_rate": 0.03792073997851171,
+    "dup_rate": 0.011245335708566274,
+    "leet_rate": 0.11118082707135393,
+    "start_lower_prob": 0.8130797567585812,
+    "all_lower_prob": 0.3077287081783642,
+    "drop_punct_prob": 0.5406559087681619,
+    "double_space_prob": 0.27781958178853516,
+    "ellipsis_prob": 0.25377444768574614,
+    "runon_prob": 0.2900706006874074,
+    "filler_rate": 0.4582794732255896,
+    "emoji_rate": 0.16978391540431578,
+    "stutter_rate": 0.11801448407601657,
+    "repeat_last_rate": 0.09837422591844908
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and rejection from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You feel socially isolated and struggle with anxiety about seeking medical advice. This isolation makes you hesitant to reach out for support regarding PrEP, as you worry about being judged or misunderstood by others in your community. You're hopeful for better health but fear the potential reactions from people around you.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"I’m concerned about the side effects of PrEP; what should I know?\",\n    \"How can I find a healthcare provider who understands my situation?\",\n    \"What are some ways to talk about PrEP with friends or family?\",\n    \"Is there financial assistance available for accessing PrEP?\",\n    \"How can I build a support network while feeling so isolated?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "85bb407dcba92ab003bee7467ee10dcaf06a9161f9fd38e498612b70a7aa39da",
+  "_starter_hash": "c80f0f4a3ec3d62aa1a4122e5d6b223ba65a2ded874c09fa1c117a2dbd3d3c3a",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

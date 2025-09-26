@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of discussing PrEP with my partner due to violence",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 32 años que enfrenta la violencia de pareja y está preocupada por su salud sexual. Sientes miedo al hablar sobre PrEP, ya que temes que tu pareja reaccione de manera violenta si mencionas la necesidad de protección contra el VIH. Este temor afecta tu capacidad para buscar información y acceder a los recursos de salud que necesitas.",
+  "example_questions_clean": [
+    "¿Qué es exactamente PrEP y cómo puede ayudarme en mi situación?",
+    "¿Existen formas de acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Cuáles son los efectos secundarios que debo conocer sobre el uso de PrEP?",
+    "¿Cómo puedo encontrar apoyo o recursos que me ayuden a hablar sobre PrEP?",
+    "¿Qué pasos debo seguir para empezar con la toma de PrEP de manera segura?"
+  ],
+  "example_questions_noisy": [
+    "¿qué you know es exqctamente rep y cómo pu3d3 ayudarme en mi situación?",
+    "¿Existen formas de acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Cuáles son los efectos secundarios que debo conocer sobre el uso de PrEP?",
+    "¿Cómo puedo encontrar apoyo o recursos que me ayuden a hablar sobre PrEP?",
+    "¿Qué pasos debo segiur para empezar like con la toma d3 PrEPPP de manera segura"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Qué es exactamente PrEP y cómo puede ayudarme en mi situación?",
+  "starter_noisy": "¿qué you know es exqctamente rep y cómo pu3d3 ayudarme en mi situación?",
+  "followup_index": 1,
+  "followup_clean": "¿Existen formas de acceder a PrEP sin que mi pareja lo sepa?",
+  "followup_noisy": "¿Existen formas de acceder a PrEP sin que mi pareja lo sepa?",
+  "style_profile": {
+    "typo_rate": 0.06685084111360623,
+    "swap_rate": 0.04950667529076757,
+    "drop_rate": 0.044373037859396565,
+    "dup_rate": 0.01921887689893484,
+    "leet_rate": 0.09601831191725294,
+    "start_lower_prob": 0.8289479379010024,
+    "all_lower_prob": 0.17776104362398557,
+    "drop_punct_prob": 0.35537486992372064,
+    "double_space_prob": 0.15269992724498962,
+    "ellipsis_prob": 0.2672599931813735,
+    "runon_prob": 0.12864925494531113,
+    "filler_rate": 0.4796682903927401,
+    "emoji_rate": 0.20318398621192635,
+    "stutter_rate": 0.13714281891259764,
+    "repeat_last_rate": 0.15464021124004446
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of discussing PrEP with my partner due to violence\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 32 años que enfrenta la violencia de pareja y está preocupada por su salud sexual. Sientes miedo al hablar sobre PrEP, ya que temes que tu pareja reaccione de manera violenta si mencionas la necesidad de protección contra el VIH. Este temor afecta tu capacidad para buscar información y acceder a los recursos de salud que necesitas.\",\n  \"example_questions\": [\n    \"¿Qué es exactamente PrEP y cómo puede ayudarme en mi situación?\",\n    \"¿Existen formas de acceder a PrEP sin que mi pareja lo sepa?\",\n    \"¿Cuáles son los efectos secundarios que debo conocer sobre el uso de PrEP?\",\n    \"¿Cómo puedo encontrar apoyo o recursos que me ayuden a hablar sobre PrEP?\",\n    \"¿Qué pasos debo seguir para empezar con la toma de PrEP de manera segura?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b880cc536e550104f336d99251922acfd2861e40196d9ac49a7b4154434af96f",
+  "_starter_hash": "c15d8bcbfdae43a4946022bd3b1955cda84d9da6a87d27880deb3682f4dbb279",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

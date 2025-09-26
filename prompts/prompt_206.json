@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding the medication and overcoming stigma",
+    "language": "English"
+  },
+  "context": "You have a learning disability that makes it difficult to process complex information quickly. This condition often leads you to feel anxious about accessing new healthcare options like PrEP. You worry about misunderstanding the information or being judged by others for your choices. Despite these challenges, you are hopeful about protecting your health and reducing your risk of HIV.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it works in simple terms?",
+    "What are the steps I need to take to get prescribed PrEP?",
+    "I feel overwhelmed by the medical jargon; how can I find resources that are easier to understand?",
+    "Are there support groups or services that can help someone like me navigate PrEP?",
+    "What should I do if I encounter stigma when discussing my PrEP use with others?",
+    "How often do I need to see a doctor while taking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you wxplain what PrEP is 4nd uow it works 1n sipmle terms?",
+    "What are the steps I need to take to get prescribed PrEP?",
+    "i feel overwhelmed by the medical jargon; um how can I fixn resources thar are easier ti understand?",
+    "are there support like groups or services that can elp someone like me navigate PrEP",
+    "Whta shoud I do if I encounter stigma when discussing my PrEP use with otehrs",
+    "h-how often d0 i need to see a doctor you know while takjng prep"
+  ],
+  "starter_index": 2,
+  "starter_clean": "I feel overwhelmed by the medical jargon; how can I find resources that are easier to understand?",
+  "starter_noisy": "i feel overwhelmed by the medical jargon; um how can I fixn resources thar are easier ti understand?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it works in simple terms?",
+  "followup_noisy": "can you wxplain what PrEP is 4nd uow it works 1n sipmle terms?",
+  "style_profile": {
+    "typo_rate": 0.10924207943890396,
+    "swap_rate": 0.0574082662553298,
+    "drop_rate": 0.0273318057079804,
+    "dup_rate": 0.02858599773427383,
+    "leet_rate": 0.06492068042466499,
+    "start_lower_prob": 0.788210380333102,
+    "all_lower_prob": 0.17446647694892667,
+    "drop_punct_prob": 0.5555287597518199,
+    "double_space_prob": 0.26606130375105186,
+    "ellipsis_prob": 0.20965136571380596,
+    "runon_prob": 0.10281387248391294,
+    "filler_rate": 0.41474950903802343,
+    "emoji_rate": 0.297792859043163,
+    "stutter_rate": 0.15777018876893983,
+    "repeat_last_rate": 0.10072119132984876
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding the medication and overcoming stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a learning disability that makes it difficult to process complex information quickly. This condition often leads you to feel anxious about accessing new healthcare options like PrEP. You worry about misunderstanding the information or being judged by others for your choices. Despite these challenges, you are hopeful about protecting your health and reducing your risk of HIV.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it works in simple terms?\",\n    \"What are the steps I need to take to get prescribed PrEP?\",\n    \"I feel overwhelmed by the medical jargon; how can I find resources that are easier to understand?\",\n    \"Are there support groups or services that can help someone like me navigate PrEP?\",\n    \"What should I do if I encounter stigma when discussing my PrEP use with others?\",\n    \"How often do I need to see a doctor while taking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ddb16f556bdec648d42bd6d8a46f5b8c64de123fdc9f0ffc43d8e598c177f357",
+  "_starter_hash": "99d3bcc44f4bbf6accfcdbd5f886e01272c5b7863afdcd7e8b1eef5d2086af70",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

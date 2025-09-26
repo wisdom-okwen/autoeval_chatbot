@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur des effets secondaires et la stigmatisation sociale",
+    "language": "French"
+  },
+  "context": "Vous êtes en train de vous remettre d'un traumatisme personnel et cela affecte votre approche de la santé et de votre corps. Vous vous sentez souvent anxieuse et avez des préoccupations quant à la perception des autres concernant l'utilisation du PrEP. La peur de l'inconnu et des réactions négatives des autres pèse sur votre esprit, ce qui rend difficile l'accès à des informations précises sur le PrEP.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles du PrEP et comment peuvent-ils affecter ma santé mentale ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin sans me sentir jugée ?",
+    "Le PrEP est-il accessible financièrement pour quelqu'un dans ma situation ?",
+    "Quelles sont les expériences d'autres personnes qui ont utilisé le PrEP après avoir subi un traumatisme ?",
+    "Comment faire face à la stigmatisation lorsque je parle du PrEP avec mon entourage ?",
+    "Quelles ressources peuvent m'aider à mieux comprendre le PrEP dans un contexte de récupération émotionnelle ?"
+  ],
+  "example_questions_noisy": [
+    "quels sont les effets secondaires possibles du PrEP i mean et ojment peuvent-ils affecer ma santé mentale ?",
+    "comment puis-j3 aborder le suj3t du [rEP avec mon mdéecin sans me sentir jugée ? ❓ ❓",
+    "Le PrEP est-il accessible financièrement pour quelqu'un dans ma situation ?",
+    "Quelles sont les expériences d'autres personnes qui ont utilisé le PrEP après avoir subi un traumatisme ?",
+    "Comment faire face à la stigmatisation lorsque je parle du PrEP avec mon entourage ?",
+    "Quelles ressources peuvent m'aider à mieux comprendre le PrEP dans un contexte de récupération émotionnelle ?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Comment faire face à la stigmatisation lorsque je parle du PrEP avec mon entourage ?",
+  "starter_noisy": "Comment faire face à la stigmatisation lorsque je parle du PrEP avec mon entourage ?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires possibles du PrEP et comment peuvent-ils affecter ma santé mentale ?",
+  "followup_noisy": "quels sont les effets secondaires possibles du PrEP i mean et ojment peuvent-ils affecer ma santé mentale ?",
+  "style_profile": {
+    "typo_rate": 0.08730161819496474,
+    "swap_rate": 0.03730498682965601,
+    "drop_rate": 0.04592007398934165,
+    "dup_rate": 0.01869427258778577,
+    "leet_rate": 0.0887216610045703,
+    "start_lower_prob": 0.8701273802613313,
+    "all_lower_prob": 0.1807996564643012,
+    "drop_punct_prob": 0.4668495582595124,
+    "double_space_prob": 0.2596055039536135,
+    "ellipsis_prob": 0.31692361589537643,
+    "runon_prob": 0.2252078876431838,
+    "filler_rate": 0.4809123279515604,
+    "emoji_rate": 0.156013344851657,
+    "stutter_rate": 0.13141772550661868,
+    "repeat_last_rate": 0.16349819835617782
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur des effets secondaires et la stigmatisation sociale\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes en train de vous remettre d'un traumatisme personnel et cela affecte votre approche de la santé et de votre corps. Vous vous sentez souvent anxieuse et avez des préoccupations quant à la perception des autres concernant l'utilisation du PrEP. La peur de l'inconnu et des réactions négatives des autres pèse sur votre esprit, ce qui rend difficile l'accès à des informations précises sur le PrEP.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles du PrEP et comment peuvent-ils affecter ma santé mentale ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Le PrEP est-il accessible financièrement pour quelqu'un dans ma situation ?\",\n    \"Quelles sont les expériences d'autres personnes qui ont utilisé le PrEP après avoir subi un traumatisme ?\",\n    \"Comment faire face à la stigmatisation lorsque je parle du PrEP avec mon entourage ?\",\n    \"Quelles ressources peuvent m'aider à mieux comprendre le PrEP dans un contexte de récupération émotionnelle ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c2d4a3e2ab5f2e3f1078ffb346bd8c57f3c7c1301524bb238da9bd26d06a3791",
+  "_starter_hash": "6c6c525ce6e04ccf980e0abac080b77c1ed53e1af8b14af8bc4007527acd9a91",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

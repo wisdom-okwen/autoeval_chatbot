@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "Female",
+    "socio_economic_status": "Low-income",
+    "primary_concern": "Access to medical care and stigma around HIV",
+    "language": "Spanish"
+  },
+  "context": "Vives en un albergue y te preocupa cómo acceder a PrEP debido a la falta de recursos y el estigma asociado con el VIH. Tu situación actual te hace sentir vulnerable y temerosa, pero también esperanzada por encontrar información que te ayude a protegerte.",
+  "example_questions_clean": [
+    "¿Cómo puedo acceder a PrEP si no tengo una dirección fija?",
+    "¿Hay opciones de PrEP disponibles para personas que viven en refugios?",
+    "¿Qué debo hacer si siento miedo de hablar sobre mi salud sexual con el personal del albergue?",
+    "¿Cuánto cuesta la PrEP y hay programas de ayuda financiera?",
+    "¿Existen grupos de apoyo para personas en mi situación que toman PrEP?",
+    "¿Cómo puedo manejar el estigma que siento respecto al uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo acceder a PrEP si no tengo una driección fija",
+    "¿Hay opciones de PrEP disponiblse para personas que viven en r3fugios?",
+    "q-q¿ué debo hacer si siento miedo de hablar sobre mi salud sexual don el personal del alb3rg3u ❓ ❓",
+    "¿Cuánto cuesta la PrEP y hay programas de ayuda financiera?",
+    "¿Existen grupos de apoyo para personas en mi situación que toman PrEP?",
+    "¿Cómo puedo manejar el estigma que siento respecto al uso de PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cómo puedo acceder a PrEP si no tengo una dirección fija?",
+  "starter_noisy": "¿Cómo puedo acceder a PrEP si no tengo una driección fija",
+  "followup_index": 1,
+  "followup_clean": "¿Hay opciones de PrEP disponibles para personas que viven en refugios?",
+  "followup_noisy": "¿Hay opciones de PrEP disponiblse para personas que viven en r3fugios?",
+  "style_profile": {
+    "typo_rate": 0.09691913271627906,
+    "swap_rate": 0.0501146467964272,
+    "drop_rate": 0.04657724824617722,
+    "dup_rate": 0.0143566098709678,
+    "leet_rate": 0.05329791120768572,
+    "start_lower_prob": 0.7455692809595748,
+    "all_lower_prob": 0.3070962350327623,
+    "drop_punct_prob": 0.3635141114486507,
+    "double_space_prob": 0.3402206655297816,
+    "ellipsis_prob": 0.19672893592634527,
+    "runon_prob": 0.10179253336126998,
+    "filler_rate": 0.35845779923316273,
+    "emoji_rate": 0.3492871897093446,
+    "stutter_rate": 0.12028148589312308,
+    "repeat_last_rate": 0.13756348942025198
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low-income\",\n    \"primary_concern\": \"Access to medical care and stigma around HIV\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Vives en un albergue y te preocupa cómo acceder a PrEP debido a la falta de recursos y el estigma asociado con el VIH. Tu situación actual te hace sentir vulnerable y temerosa, pero también esperanzada por encontrar información que te ayude a protegerte.\",\n  \"example_questions\": [\n    \"¿Cómo puedo acceder a PrEP si no tengo una dirección fija?\",\n    \"¿Hay opciones de PrEP disponibles para personas que viven en refugios?\",\n    \"¿Qué debo hacer si siento miedo de hablar sobre mi salud sexual con el personal del albergue?\",\n    \"¿Cuánto cuesta la PrEP y hay programas de ayuda financiera?\",\n    \"¿Existen grupos de apoyo para personas en mi situación que toman PrEP?\",\n    \"¿Cómo puedo manejar el estigma que siento respecto al uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d31c1b53762a0f7ea4e3c47f67731e0f027efd9f07ea412da149df1d3f090a57",
+  "_starter_hash": "a117a06a8cae11442fb6e6fa81c7ac033a8653ab6708fe5ba52450e0acb71d55",
+  "_language": "Spanish",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

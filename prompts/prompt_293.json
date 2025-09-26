@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de impact van PrEP op mijn pijn en gezondheid",
+    "language": "Dutch"
+  },
+  "context": "Je leeft met chronische pijn, wat het moeilijk maakt om met nieuwe gezondheidsopties om te gaan. Je maakt je zorgen over hoe PrEP je symptomen kan beïnvloeden en of het wel veilig is voor jou. Er is ook een angst om beoordeeld te worden door zorgverleners die je situatie misschien niet begrijpen. Ondanks deze uitdagingen hoop je op een betere manier om jezelf te beschermen tegen HIV.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met chronische pijn?",
+    "Zijn er speciale richtlijnen voor mensen zoals ik die PrEP willen gebruiken?",
+    "Hoe kan ik ervoor zorgen dat mijn arts mijn zorgen serieus neemt als ik PrEP wil bespreken?",
+    "Wat zijn de ervaringen van anderen met het gebruik van PrEP terwijl ze leven met chronische aandoeningen?",
+    "Is er een verschil in toegang tot PrEP voor mensen die chronische pijn hebben?",
+    "Wat kan ik doen om me meer op mijn gemak te voelen bij het gebruik van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-wat zijn de mogelijke bijwerkiiingen van prep in combinatie idk met chronische pijn? 🫠 🫠",
+    "Zijn er speciale richtlijnen voor mensen zoals ik die PrEP willen gebruiken?",
+    "h03 kan ik erovor zorgen dat mijn arts mijn zorgen serieus neemt als i mean ik PrEP wil bespreken? 🙄",
+    "wat zijn de ervarigen v4n anderen m37 het gebruik van PrEP terwijl ze leven uh met chronische aandoeningen? ✨",
+    "is er een verschil in i mean toegang tot prep voor mensen die chronische pijm hebben",
+    "Wat kan ik doen om me meer op mijn gemak te voelen bij het gebruik van PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Wat kan ik doen om me meer op mijn gemak te voelen bij het gebruik van PrEP?",
+  "starter_noisy": "Wat kan ik doen om me meer op mijn gemak te voelen bij het gebruik van PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met chronische pijn?",
+  "followup_noisy": "w-wat zijn de mogelijke bijwerkiiingen van prep in combinatie idk met chronische pijn? 🫠 🫠",
+  "style_profile": {
+    "typo_rate": 0.11919245757494434,
+    "swap_rate": 0.04174617658108099,
+    "drop_rate": 0.028411777308598327,
+    "dup_rate": 0.018718942385531102,
+    "leet_rate": 0.11641766597884529,
+    "start_lower_prob": 0.7078502260524469,
+    "all_lower_prob": 0.1803509856255489,
+    "drop_punct_prob": 0.3032031072270214,
+    "double_space_prob": 0.30951793765136476,
+    "ellipsis_prob": 0.16537482378707594,
+    "runon_prob": 0.23017509596664118,
+    "filler_rate": 0.3365893465932839,
+    "emoji_rate": 0.3482622387042599,
+    "stutter_rate": 0.1853934933847356,
+    "repeat_last_rate": 0.1510938257781138
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de impact van PrEP op mijn pijn en gezondheid\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je leeft met chronische pijn, wat het moeilijk maakt om met nieuwe gezondheidsopties om te gaan. Je maakt je zorgen over hoe PrEP je symptomen kan beïnvloeden en of het wel veilig is voor jou. Er is ook een angst om beoordeeld te worden door zorgverleners die je situatie misschien niet begrijpen. Ondanks deze uitdagingen hoop je op een betere manier om jezelf te beschermen tegen HIV.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met chronische pijn?\",\n    \"Zijn er speciale richtlijnen voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Hoe kan ik ervoor zorgen dat mijn arts mijn zorgen serieus neemt als ik PrEP wil bespreken?\",\n    \"Wat zijn de ervaringen van anderen met het gebruik van PrEP terwijl ze leven met chronische aandoeningen?\",\n    \"Is er een verschil in toegang tot PrEP voor mensen die chronische pijn hebben?\",\n    \"Wat kan ik doen om me meer op mijn gemak te voelen bij het gebruik van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a32846a94d523662baffc16f9caa08e07654312539f2548700a1d6d1ebc6249",
+  "_starter_hash": "3cc72dec60b1f9f66210824b38f0d104a4bf5585ce2ded00fc029acddc06640a",
+  "_language": "Dutch",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

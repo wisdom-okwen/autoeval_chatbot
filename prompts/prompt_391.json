@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and access barriers due to gender dysphoria",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of gender dysphoria while considering PrEP. The fear of stigma and concerns about how healthcare providers might perceive your identity are significant barriers. You feel hopeful about protecting your health but worry about the emotional impact of seeking help.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider for PrEP?",
+    "How does gender dysphoria affect my eligibility or experience with PrEP?",
+    "Are there specific resources available for non-binary individuals considering PrEP?",
+    "Can you tell me about any potential side effects of PrEP that I should be aware of?",
+    "How can I address my fears about discussing PrEP with a doctor?",
+    "What should I know about confidentiality when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to find a supportive healthcare provider for PrEP?",
+    "How does gender dysphoria affect my eligibility or experience with PrEP?",
+    "are there specific resources available for non-binary 1nd1v1dual5 considering PPPr3;?",
+    "Can you tell me about any potential side effects of PrEP that I should be aware of?",
+    "How can I address my fears about discussing PrEP with a doctor?",
+    "What should I know about confidentiality when seeking PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What should I know about confidentiality when seeking PrEP?",
+  "starter_noisy": "What should I know about confidentiality when seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to find a supportive healthcare provider for PrEP?",
+  "followup_noisy": "What steps can I take to find a supportive healthcare provider for PrEP?",
+  "style_profile": {
+    "typo_rate": 0.055141139493739874,
+    "swap_rate": 0.057359042290542006,
+    "drop_rate": 0.04518508206751125,
+    "dup_rate": 0.029767993560629737,
+    "leet_rate": 0.05353908963582413,
+    "start_lower_prob": 0.7049051503281554,
+    "all_lower_prob": 0.3358034735226556,
+    "drop_punct_prob": 0.3984042603930549,
+    "double_space_prob": 0.33208338166668716,
+    "ellipsis_prob": 0.26767533022617174,
+    "runon_prob": 0.21509402950112072,
+    "filler_rate": 0.21196211097465445,
+    "emoji_rate": 0.16494888572391403,
+    "stutter_rate": 0.10318602366447999,
+    "repeat_last_rate": 0.10569023587197725
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and access barriers due to gender dysphoria\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of gender dysphoria while considering PrEP. The fear of stigma and concerns about how healthcare providers might perceive your identity are significant barriers. You feel hopeful about protecting your health but worry about the emotional impact of seeking help.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider for PrEP?\",\n    \"How does gender dysphoria affect my eligibility or experience with PrEP?\",\n    \"Are there specific resources available for non-binary individuals considering PrEP?\",\n    \"Can you tell me about any potential side effects of PrEP that I should be aware of?\",\n    \"How can I address my fears about discussing PrEP with a doctor?\",\n    \"What should I know about confidentiality when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e5420317c48fdcc0084d2ff68568ed137438c4f329f5e662c6104ec1c9b274d1",
+  "_starter_hash": "153c1898a1654caeae83793676ed4905acc6e3721bc2eaa5144bcde37df929f7",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

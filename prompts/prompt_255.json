@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and misunderstanding about my past experiences",
+    "language": "English"
+  },
+  "context": "As someone who is recovering from trauma, I often feel anxious about discussing my health, especially topics like PrEP. I worry that people will judge me or not understand my situation. This makes it hard for me to seek out information or support, as I want to protect my privacy while also taking care of my health.",
+  "example_questions_clean": [
+    "How can I approach the topic of PrEP with my healthcare provider without feeling judged?",
+    "What are the common side effects of PrEP that I should be aware of?",
+    "Are there support groups for individuals in similar situations regarding PrEP?",
+    "How do I talk to my partner about starting PrEP when I'm feeling vulnerable?",
+    "What resources are available to help me navigate my fears about stigma and PrEP?",
+    "Can you explain how PrEP works in terms of reducing the risk of HIV?"
+  ],
+  "example_questions_noisy": [
+    "h-how c4n I approach the opic of PrEP with my healthcare providre idk without fe3l1ng judged?",
+    "what are the common side effects of prep that o should be aware of",
+    "are there supporrrt groups for individuals im similar situations like regarding PrdP PrdP",
+    "How do I talk to my partner about starting PrEP when I'm feeling vulnerable?",
+    "wh47 resources are available to help me navigate my fears about stigma 4nd PrEP? PrEP?",
+    "Can you explain how PrEP works in terms of reducing the risk of HIV?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources are available to help me navigate my fears about stigma and PrEP?",
+  "starter_noisy": "wh47 resources are available to help me navigate my fears about stigma 4nd PrEP? PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I approach the topic of PrEP with my healthcare provider without feeling judged?",
+  "followup_noisy": "h-how c4n I approach the opic of PrEP with my healthcare providre idk without fe3l1ng judged?",
+  "style_profile": {
+    "typo_rate": 0.07875137677856633,
+    "swap_rate": 0.024713981446631644,
+    "drop_rate": 0.03389880607320615,
+    "dup_rate": 0.026509392503122793,
+    "leet_rate": 0.06676882969903526,
+    "start_lower_prob": 0.76035425985742,
+    "all_lower_prob": 0.1955405667115254,
+    "drop_punct_prob": 0.558239560158657,
+    "double_space_prob": 0.27750958021448435,
+    "ellipsis_prob": 0.2614682161225277,
+    "runon_prob": 0.15370439646185285,
+    "filler_rate": 0.2895070135080411,
+    "emoji_rate": 0.2690666556663991,
+    "stutter_rate": 0.18639593033138488,
+    "repeat_last_rate": 0.14187128605836907
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and misunderstanding about my past experiences\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone who is recovering from trauma, I often feel anxious about discussing my health, especially topics like PrEP. I worry that people will judge me or not understand my situation. This makes it hard for me to seek out information or support, as I want to protect my privacy while also taking care of my health.\",\n  \"example_questions\": [\n    \"How can I approach the topic of PrEP with my healthcare provider without feeling judged?\",\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"Are there support groups for individuals in similar situations regarding PrEP?\",\n    \"How do I talk to my partner about starting PrEP when I'm feeling vulnerable?\",\n    \"What resources are available to help me navigate my fears about stigma and PrEP?\",\n    \"Can you explain how PrEP works in terms of reducing the risk of HIV?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fe1a971055c2e481045eef5184670830fd87462e208de3e6565ef9d8b8009eba",
+  "_starter_hash": "052c96d41b976a27273bef9eb6c7c1f71e88199b89d6022f01ab960f7cee4184",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

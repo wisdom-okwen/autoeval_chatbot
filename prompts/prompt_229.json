@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 24,
+    "gender": "transgender woman",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and misunderstanding from healthcare providers",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer trans de 24 años viviendo en México y estás lidiando con la disforia de género. Esto ha afectado tu confianza al buscar atención médica, especialmente en lo que respecta a PrEP. Tienes miedo de ser juzgada o malinterpretada por los proveedores de salud, lo que te impide acceder a la información y el tratamiento que necesitas para proteger tu salud sexual.",
+  "example_questions_clean": [
+    "¿Cuáles son los primeros pasos que debo seguir para acceder a PrEP en mi situación?",
+    "¿Hay algún recurso o grupo de apoyo que pueda ayudarme con mis preocupaciones sobre el estigma?",
+    "¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme incómoda?",
+    "¿Qué debo considerar antes de comenzar a tomar PrEP dado mi estado emocional actual?",
+    "¿Existen servicios específicos para personas trans que necesiten información sobre PrEP?",
+    "¿Qué efectos secundarios puedo esperar al comenzar a usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los primeros pasos que debo seguir para acceder a PrEP en mi situación?",
+    "¿-¿hay algún recurso 0 grupo de apoyo que pueda idk ayudrame con mis preocupaciones sobre el 3stigm4?",
+    "¿Cómo puedo hablar con mi médico 50br3 la PrEP sin sentirme incómoda? incómoda?",
+    "¿Qué debo considerar antes de comenzar a tomar PrEP dado mi estado emocional actual?",
+    "¿Existen servicios específicos para personas trans que necesiten información sobre PrEP?",
+    "¿-¿Qué efectos secundarios puedo esperar al comenzar like a usar PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Qué debo considerar antes de comenzar a tomar PrEP dado mi estado emocional actual?",
+  "starter_noisy": "¿Qué debo considerar antes de comenzar a tomar PrEP dado mi estado emocional actual?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los primeros pasos que debo seguir para acceder a PrEP en mi situación?",
+  "followup_noisy": "¿Cuáles son los primeros pasos que debo seguir para acceder a PrEP en mi situación?",
+  "style_profile": {
+    "typo_rate": 0.06508967753508071,
+    "swap_rate": 0.05130367752954132,
+    "drop_rate": 0.040352706593769674,
+    "dup_rate": 0.02629338792973722,
+    "leet_rate": 0.0905106421286605,
+    "start_lower_prob": 0.8145467171542609,
+    "all_lower_prob": 0.2584508325422024,
+    "drop_punct_prob": 0.30387314684592565,
+    "double_space_prob": 0.30116857784555395,
+    "ellipsis_prob": 0.24429660369592665,
+    "runon_prob": 0.2678429520484409,
+    "filler_rate": 0.36531017355073997,
+    "emoji_rate": 0.18430885695140423,
+    "stutter_rate": 0.1713932696209809,
+    "repeat_last_rate": 0.17643574795940475
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 24,\n    \"gender\": \"transgender woman\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and misunderstanding from healthcare providers\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer trans de 24 años viviendo en México y estás lidiando con la disforia de género. Esto ha afectado tu confianza al buscar atención médica, especialmente en lo que respecta a PrEP. Tienes miedo de ser juzgada o malinterpretada por los proveedores de salud, lo que te impide acceder a la información y el tratamiento que necesitas para proteger tu salud sexual.\",\n  \"example_questions\": [\n    \"¿Cuáles son los primeros pasos que debo seguir para acceder a PrEP en mi situación?\",\n    \"¿Hay algún recurso o grupo de apoyo que pueda ayudarme con mis preocupaciones sobre el estigma?\",\n    \"¿Cómo puedo hablar con mi médico sobre la PrEP sin sentirme incómoda?\",\n    \"¿Qué debo considerar antes de comenzar a tomar PrEP dado mi estado emocional actual?\",\n    \"¿Existen servicios específicos para personas trans que necesiten información sobre PrEP?\",\n    \"¿Qué efectos secundarios puedo esperar al comenzar a usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2cd28eb8d6add16ebf81c74c5e091943871971e5ac519fc0e79f4fb0404fc542",
+  "_starter_hash": "c935a7ca58ebb969463104449c04d013ab16f8e822cb77789fbee44f15b5a488",
+  "_language": "Spanish",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

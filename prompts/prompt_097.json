@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "temor a los efectos secundarios y el estigma social",
+    "language": "Spanish"
+  },
+  "context": "Esta persona ha estado lidiando con el PTSD después de experiencias traumáticas y siente que esto la ha hecho más vulnerable a los desafíos emocionales y de salud. Tiene miedo de ser juzgada por su decisión de considerar PrEP y está preocupada por cómo podría afectar su salud mental, especialmente en el contexto de su experiencia pasada. Además, enfrenta barreras económicas para acceder al tratamiento, lo que la hace sentirse impotente y ansiosa.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo pueden influir en mi salud mental?",
+    "Estoy preocupada por el estigma que podría enfrentar al usar PrEP. ¿Cómo puedo manejar esas reacciones?",
+    "¿Existen recursos o grupos de apoyo para personas con PTSD que están considerando el uso de PrEP?",
+    "¿Qué opciones tengo si no puedo pagar el tratamiento de PrEP?",
+    "¿Cómo puede el uso de PrEP impactar mi bienestar emocional a largo plazo?",
+    "¿Hay alguna forma de obtener información confidencial sobre el PrEP sin enfrentar juicios?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo pueden influir en mi salud mental?",
+    "Estoy preocupada por el estigma que podría enfrentar al usar PrEP. ¿Cómo puedo manejar esas reacciones?",
+    "¿Existen recursos o grupos like de apyoo ara personas con PTSD que 357án cnsiderando el uso de PrEP",
+    "¿Qué opciones tengo si no puedo pagar el tratamiento de PrEP?",
+    "¿Cómo puede el uso de PrEP impactar mi bienestar emocional a largo plazo?",
+    "¿Hay alguna forma de obtener información confidencial sobre el PrEP sin enfrentar juicios?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Estoy preocupada por el estigma que podría enfrentar al usar PrEP. ¿Cómo puedo manejar esas reacciones?",
+  "starter_noisy": "Estoy preocupada por el estigma que podría enfrentar al usar PrEP. ¿Cómo puedo manejar esas reacciones?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo pueden influir en mi salud mental?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios más comunes del PrEP y cómo pueden influir en mi salud mental?",
+  "style_profile": {
+    "typo_rate": 0.051696264122196245,
+    "swap_rate": 0.045901587006072615,
+    "drop_rate": 0.03998432324926603,
+    "dup_rate": 0.026726985500749173,
+    "leet_rate": 0.0917180564833864,
+    "start_lower_prob": 0.716871912587577,
+    "all_lower_prob": 0.15229024328022292,
+    "drop_punct_prob": 0.426177050939334,
+    "double_space_prob": 0.2996171310628152,
+    "ellipsis_prob": 0.30814037221906354,
+    "runon_prob": 0.17718272857731043,
+    "filler_rate": 0.3687312933577545,
+    "emoji_rate": 0.3358523337286207,
+    "stutter_rate": 0.17867579968295574,
+    "repeat_last_rate": 0.14566373340999605
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"temor a los efectos secundarios y el estigma social\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Esta persona ha estado lidiando con el PTSD después de experiencias traumáticas y siente que esto la ha hecho más vulnerable a los desafíos emocionales y de salud. Tiene miedo de ser juzgada por su decisión de considerar PrEP y está preocupada por cómo podría afectar su salud mental, especialmente en el contexto de su experiencia pasada. Además, enfrenta barreras económicas para acceder al tratamiento, lo que la hace sentirse impotente y ansiosa.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes del PrEP y cómo pueden influir en mi salud mental?\",\n    \"Estoy preocupada por el estigma que podría enfrentar al usar PrEP. ¿Cómo puedo manejar esas reacciones?\",\n    \"¿Existen recursos o grupos de apoyo para personas con PTSD que están considerando el uso de PrEP?\",\n    \"¿Qué opciones tengo si no puedo pagar el tratamiento de PrEP?\",\n    \"¿Cómo puede el uso de PrEP impactar mi bienestar emocional a largo plazo?\",\n    \"¿Hay alguna forma de obtener información confidencial sobre el PrEP sin enfrentar juicios?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b5212835311a33f3a3ad9c4b2786e191a2f0c8fa90c9d03b72e145bdb8b6e3bd",
+  "_starter_hash": "790b0dd63403412fc3a5416706572e38f20ec59b52035fac62713f184f36d8b1",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

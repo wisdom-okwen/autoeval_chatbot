@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Colombiano",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Miedo a la discriminación y a los efectos secundarios del PrEP",
+    "language": "Spanish"
+  },
+  "context": "Esta persona se encuentra en proceso de recuperación de un trauma personal relacionado con relaciones pasadas. Se siente vulnerable y tiene miedo de ser juzgada por buscar información sobre PrEP, temiendo que su estado emocional pueda afectar su capacidad para tomar decisiones informadas. Su situación económica limitada añade un nivel de estrés adicional sobre la accesibilidad del tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP si he tenido experiencias traumáticas en el pasado?",
+    "¿Es normal sentir miedo al comenzar un tratamiento como el PrEP?",
+    "¿Cómo puedo superar el estigma que siento al considerar el uso de PrEP?",
+    "¿Existen recursos disponibles para personas en mi situación que buscan acceder a PrEP?",
+    "¿Qué efectos secundarios son más comunes y cómo pueden afectar mi salud mental?",
+    "¿Hay grupos de apoyo para personas que están considerando el PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son l05 beneficios de 7omar PrEP si hs tenido experiencias traumáticas en el pasado",
+    "¿Es normal sentir miedo al comenzar un tratamiento como el PrEP?",
+    "¿Cómo puedo superar el estigma que siento al considerar el uso de PrEP?",
+    "¿Ex15t3n recursos disponibles p4ra personas en mi situación qu3 buscan acceder a Pr3P",
+    "¿Qué efectos secundarios son más comunes y cómo pueden afectar mi salud mental?",
+    "¿Hay grupos de apoyo para personas que están considerando el PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cuáles son los beneficios de tomar PrEP si he tenido experiencias traumáticas en el pasado?",
+  "starter_noisy": "¿Cuáles son l05 beneficios de 7omar PrEP si hs tenido experiencias traumáticas en el pasado",
+  "followup_index": 1,
+  "followup_clean": "¿Es normal sentir miedo al comenzar un tratamiento como el PrEP?",
+  "followup_noisy": "¿Es normal sentir miedo al comenzar un tratamiento como el PrEP?",
+  "style_profile": {
+    "typo_rate": 0.10125218233876183,
+    "swap_rate": 0.03900366535507826,
+    "drop_rate": 0.02715156032505888,
+    "dup_rate": 0.022656289454015925,
+    "leet_rate": 0.11012129489582975,
+    "start_lower_prob": 0.855689125799034,
+    "all_lower_prob": 0.17169092224848825,
+    "drop_punct_prob": 0.5483412951985543,
+    "double_space_prob": 0.3310033402724336,
+    "ellipsis_prob": 0.31936714426402785,
+    "runon_prob": 0.28729430291426783,
+    "filler_rate": 0.4725066538005104,
+    "emoji_rate": 0.31717045357676993,
+    "stutter_rate": 0.1714970345591582,
+    "repeat_last_rate": 0.14738114641026534
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Colombiano\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Miedo a la discriminación y a los efectos secundarios del PrEP\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Esta persona se encuentra en proceso de recuperación de un trauma personal relacionado con relaciones pasadas. Se siente vulnerable y tiene miedo de ser juzgada por buscar información sobre PrEP, temiendo que su estado emocional pueda afectar su capacidad para tomar decisiones informadas. Su situación económica limitada añade un nivel de estrés adicional sobre la accesibilidad del tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP si he tenido experiencias traumáticas en el pasado?\",\n    \"¿Es normal sentir miedo al comenzar un tratamiento como el PrEP?\",\n    \"¿Cómo puedo superar el estigma que siento al considerar el uso de PrEP?\",\n    \"¿Existen recursos disponibles para personas en mi situación que buscan acceder a PrEP?\",\n    \"¿Qué efectos secundarios son más comunes y cómo pueden afectar mi salud mental?\",\n    \"¿Hay grupos de apoyo para personas que están considerando el PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "019d3ea5343f904de70cc85f5bb4cf60cde8ef9f2fcb1556fc12ca08144c2729",
+  "_starter_hash": "252d7147a5fc11e0a0de228a07ffe7d983aff2f15c8fa07cfb822e88cf977306",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Dutch",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "angst voor stigma en de invloed van eerdere trauma's op het nemen van deze stap",
+    "language": "Dutch"
+  },
+  "context": "Je bent een 32-jarige vrouw die herstellende is van trauma en zich zorgen maakt over het gebruik van PrEP. Je voelt je vaak angstig over hoe anderen je zullen zien als je deze keuze maakt, en het verleden beïnvloedt je vertrouwen in gezondheid en relaties.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van het nemen van PrEP, vooral voor iemand met een verleden van trauma?",
+    "Hoe kan ik mijn angst over stigma rond PrEP aanpakken?",
+    "Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?",
+    "Wat moet ik weten over de bijwerkingen van PrEP in mijn situatie?",
+    "Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen?",
+    "Wat zijn de stappen om te beginnen met PrEP als ik twijfels heb?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de voordelen vab het nemen van i mean PrEP vooral voor iemand met een verleden van 7r4um4?",
+    "h03 k4n 1k mijn angst like over stigma rond PrEP aanpakken? aanpakken?",
+    "Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen ‼️",
+    "wat moet ik weten over d3 bijwerkingen van PrEP in mijn situaite?",
+    "Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen?",
+    "wat zijn de 574pp3n om fe beginnen m37 Pr3P als ik twijfels heb"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Wat zijn de stappen om te beginnen met PrEP als ik twijfels heb?",
+  "starter_noisy": "wat zijn de 574pp3n om fe beginnen m37 Pr3P als ik twijfels heb",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de voordelen van het nemen van PrEP, vooral voor iemand met een verleden van trauma?",
+  "followup_noisy": "wat zijn de voordelen vab het nemen van i mean PrEP vooral voor iemand met een verleden van 7r4um4?",
+  "style_profile": {
+    "typo_rate": 0.05760206177386947,
+    "swap_rate": 0.057312060656572406,
+    "drop_rate": 0.03502489706097331,
+    "dup_rate": 0.013631715033231106,
+    "leet_rate": 0.07905139920921411,
+    "start_lower_prob": 0.8803418951377476,
+    "all_lower_prob": 0.29729091949389497,
+    "drop_punct_prob": 0.40008203381642116,
+    "double_space_prob": 0.34889832705263824,
+    "ellipsis_prob": 0.16502437804544978,
+    "runon_prob": 0.18155741689273922,
+    "filler_rate": 0.3284890149651113,
+    "emoji_rate": 0.3260611511594528,
+    "stutter_rate": 0.13166634514393236,
+    "repeat_last_rate": 0.10032189565077718
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Dutch\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"angst voor stigma en de invloed van eerdere trauma's op het nemen van deze stap\",\n    \"language\": \"Dutch\"\n  },\n  \"context\": \"Je bent een 32-jarige vrouw die herstellende is van trauma en zich zorgen maakt over het gebruik van PrEP. Je voelt je vaak angstig over hoe anderen je zullen zien als je deze keuze maakt, en het verleden beïnvloedt je vertrouwen in gezondheid en relaties.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van het nemen van PrEP, vooral voor iemand met een verleden van trauma?\",\n    \"Hoe kan ik mijn angst over stigma rond PrEP aanpakken?\",\n    \"Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?\",\n    \"Wat moet ik weten over de bijwerkingen van PrEP in mijn situatie?\",\n    \"Hoe kan ik toegang krijgen tot PrEP zonder me ongemakkelijk te voelen?\",\n    \"Wat zijn de stappen om te beginnen met PrEP als ik twijfels heb?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0a9f1cdb946a85d69d587f780eb7c4320cab9c666d4a62df18f263c7969fa9c4",
+  "_starter_hash": "6298c2eec6177ed7affcddad1ac33413fbcf9f0383aaaa9a93fa05db7346268e",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

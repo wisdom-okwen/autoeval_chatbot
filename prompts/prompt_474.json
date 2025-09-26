@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 35,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "bezorgdheid over de interactie van PrEP met mijn huidige medicatie",
+    "language": "Dutch"
+  },
+  "context": "Als iemand die herstellende is van kankerbehandeling, voel ik me kwetsbaar en onzeker over mijn gezondheid. De angst voor infecties is groot en ik vraag me af of PrEP een veilige optie voor mij is, gezien de medicatie die ik momenteel gebruik. Ik maak me zorgen over hoe het stigma rondom hiv en PrEP mijn mentale welzijn kan beïnvloeden.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met kankerbehandelingen?",
+    "Hoe kan ik toegang krijgen tot PrEP zonder me stigma of schande te voelen?",
+    "Is er specifieke begeleiding beschikbaar voor mensen met een kankerverleden die PrEP overwegen?",
+    "Hoe kan ik een arts vinden die begrijpt wat ik doormaak en me helpt bij het gebruik van PrEP?",
+    "Zijn er succesverhalen van anderen zoals ik die PrEP hebben gebruikt na kankerbehandeling?",
+    "Wat zijn de stappen om te beginnen met PrEP en wat moet ik weten over de monitoring?"
+  ],
+  "example_questions_noisy": [
+    "wat z1jn de mogelijke b1jw3rk1ng3n van PrEP in like combinatie m3t kankerbehandelingen?",
+    "h-hoe kan ik toegang kkkrijgen tot PrP zonder i mean me 571gma of schande te voelen",
+    "is er specifieke begelriding beschikbaar voor mensen met edn kankerverleden die prep overwegen",
+    "Hoe kan ik een arts vinden die begrijpt wat ik doormaak en me helpt bij het gebruik van PrEP?",
+    "zijn er succesvefhalen can anderen zols ik die PrEP hebben gebruikt na kankerbehandeling",
+    "Wat zijn de stappen om te beginnen met PrEP en wat moet ik weten over de monitoring?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Is er specifieke begeleiding beschikbaar voor mensen met een kankerverleden die PrEP overwegen?",
+  "starter_noisy": "is er specifieke begelriding beschikbaar voor mensen met edn kankerverleden die prep overwegen",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met kankerbehandelingen?",
+  "followup_noisy": "wat z1jn de mogelijke b1jw3rk1ng3n van PrEP in like combinatie m3t kankerbehandelingen?",
+  "style_profile": {
+    "typo_rate": 0.07749079830941626,
+    "swap_rate": 0.021651661031836803,
+    "drop_rate": 0.042643134315821195,
+    "dup_rate": 0.02599918653683278,
+    "leet_rate": 0.07526435556619678,
+    "start_lower_prob": 0.8122623336136144,
+    "all_lower_prob": 0.22436061663553422,
+    "drop_punct_prob": 0.5493082856026137,
+    "double_space_prob": 0.2598684194664303,
+    "ellipsis_prob": 0.2641539531588862,
+    "runon_prob": 0.10812761918182559,
+    "filler_rate": 0.4151653342098459,
+    "emoji_rate": 0.17591258453759467,
+    "stutter_rate": 0.13193298005664683,
+    "repeat_last_rate": 0.16270382951007245
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 35,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"bezorgdheid over de interactie van PrEP met mijn huidige medicatie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Als iemand die herstellende is van kankerbehandeling, voel ik me kwetsbaar en onzeker over mijn gezondheid. De angst voor infecties is groot en ik vraag me af of PrEP een veilige optie voor mij is, gezien de medicatie die ik momenteel gebruik. Ik maak me zorgen over hoe het stigma rondom hiv en PrEP mijn mentale welzijn kan beïnvloeden.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP in combinatie met kankerbehandelingen?\",\n    \"Hoe kan ik toegang krijgen tot PrEP zonder me stigma of schande te voelen?\",\n    \"Is er specifieke begeleiding beschikbaar voor mensen met een kankerverleden die PrEP overwegen?\",\n    \"Hoe kan ik een arts vinden die begrijpt wat ik doormaak en me helpt bij het gebruik van PrEP?\",\n    \"Zijn er succesverhalen van anderen zoals ik die PrEP hebben gebruikt na kankerbehandeling?\",\n    \"Wat zijn de stappen om te beginnen met PrEP en wat moet ik weten over de monitoring?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1bb4a3c1475ab7718896e72440c00f647792f70f3bc3b077599714cdbdeeabdb",
+  "_starter_hash": "b151960a9eb546340a514ce82e5786e64330b18ae40d0882274bb6b071bcd82a",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "männlich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und Diskriminierung bei der Beschaffung von PrEP",
+    "language": "German"
+  },
+  "context": "Der Benutzer lebt mit der ständigen Angst, von anderen aufgrund seiner HIV-Status diskriminiert zu werden. Diese Stigmatisierung führt zu einem Gefühl der Isolation und Unsicherheit, insbesondere wenn es um den Zugang zu Gesundheitsdienstleistungen wie PrEP geht. Der Benutzer sucht nach Informationen, um seine Optionen zu verstehen und möglicherweise die Hoffnung auf ein gesünderes Leben zu stärken.",
+  "example_questions_clean": [
+    "Wie kann ich sicherstellen, dass ich PrEP diskret erhalten kann?",
+    "Welche Unterstützung gibt es für Menschen, die unter HIV-Stigma leiden?",
+    "Gibt es spezielle Programme, die mir helfen können, PrEP zu bekommen?",
+    "Was sind die häufigsten Ängste von Menschen in meiner Situation bezüglich PrEP?",
+    "Könnte ich bei der Einnahme von PrEP auf mögliche Nebenwirkungen stoßen?",
+    "Wie kann ich mit dem Gefühl der Stigmatisierung besser umgehen?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich sicherstellen, dass ich PrEP diskret erhalten kann?",
+    "welche Unterstützung gibt es für Menschen, die unter you know HIV-Stgima leiden?",
+    "Gibt es spezielle Programme, die mir helfen können, PrEP zu bekommen?",
+    "was 51nd d13 häufigsten Ängste von Menschen in meiner Situation bezüglich PrEP",
+    "Könnte ich bei der Einnahme von PrEP auf mögliche Nebenwirkungen stoßen?",
+    "Wue kann ich mit dem Gefühl der you know Stigmatisierung besser umg3h3n ✨"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wie kann ich sicherstellen, dass ich PrEP diskret erhalten kann?",
+  "starter_noisy": "Wie kann ich sicherstellen, dass ich PrEP diskret erhalten kann?",
+  "followup_index": 1,
+  "followup_clean": "Welche Unterstützung gibt es für Menschen, die unter HIV-Stigma leiden?",
+  "followup_noisy": "welche Unterstützung gibt es für Menschen, die unter you know HIV-Stgima leiden?",
+  "style_profile": {
+    "typo_rate": 0.052371473259737865,
+    "swap_rate": 0.02876144899513358,
+    "drop_rate": 0.034188602315678426,
+    "dup_rate": 0.011316982823953915,
+    "leet_rate": 0.08428951131140057,
+    "start_lower_prob": 0.6266700902426738,
+    "all_lower_prob": 0.2127356955401365,
+    "drop_punct_prob": 0.42216972501438255,
+    "double_space_prob": 0.2517858303265546,
+    "ellipsis_prob": 0.26461991636800536,
+    "runon_prob": 0.17232326657064262,
+    "filler_rate": 0.49279454181294874,
+    "emoji_rate": 0.25671641428157854,
+    "stutter_rate": 0.12760601765136576,
+    "repeat_last_rate": 0.10208689191330912
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"männlich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und Diskriminierung bei der Beschaffung von PrEP\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Der Benutzer lebt mit der ständigen Angst, von anderen aufgrund seiner HIV-Status diskriminiert zu werden. Diese Stigmatisierung führt zu einem Gefühl der Isolation und Unsicherheit, insbesondere wenn es um den Zugang zu Gesundheitsdienstleistungen wie PrEP geht. Der Benutzer sucht nach Informationen, um seine Optionen zu verstehen und möglicherweise die Hoffnung auf ein gesünderes Leben zu stärken.\",\n  \"example_questions\": [\n    \"Wie kann ich sicherstellen, dass ich PrEP diskret erhalten kann?\",\n    \"Welche Unterstützung gibt es für Menschen, die unter HIV-Stigma leiden?\",\n    \"Gibt es spezielle Programme, die mir helfen können, PrEP zu bekommen?\",\n    \"Was sind die häufigsten Ängste von Menschen in meiner Situation bezüglich PrEP?\",\n    \"Könnte ich bei der Einnahme von PrEP auf mögliche Nebenwirkungen stoßen?\",\n    \"Wie kann ich mit dem Gefühl der Stigmatisierung besser umgehen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "df51d556f514e62879a031d791fe9b3dc5085cdab2130fa54995ae941623843c",
+  "_starter_hash": "5922257cfb9fcc1d542c3d8357c9c19ebb846160578efd152ebb39f69d128631",
+  "_language": "German",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

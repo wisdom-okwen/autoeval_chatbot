@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "fear of potential side effects and stigma from peers",
+    "language": "English"
+  },
+  "context": "The user is coping with anxiety disorder, which makes her feel overwhelmed when considering new medications like PrEP. She worries about how side effects might exacerbate her anxiety and fears judgement from others if they discover she is taking it. Despite wanting to take proactive steps for her health, her condition creates emotional barriers that complicate the decision-making process.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its potential side effects?",
+    "What are some strategies to cope with anxiety when starting a new medication?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "Are there support groups for people who are starting PrEP?",
+    "What should I know about the stigma associated with taking PrEP?",
+    "How do I know if PrEP is the right choice for someone with anxiety?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and its potential side effects?",
+    "What are some strategies to cope with anxiety when starting a new medication?",
+    "how can I discuss my concerns about PrEP with my h34l7hc4r3 provider provider",
+    "are there support gr0up5 um for peo;le who are starting PrEP?",
+    "what should i know 4b0u7 the stigma associated wtih taking prep 😅",
+    "How do I know if PrEP is the right choice for someone with anxiety?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What should I know about the stigma associated with taking PrEP?",
+  "starter_noisy": "what should i know 4b0u7 the stigma associated wtih taking prep 😅",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and its potential side effects?",
+  "followup_noisy": "Can you explain how PrEP works and its potential side effects?",
+  "style_profile": {
+    "typo_rate": 0.11790342473770608,
+    "swap_rate": 0.022263786126266914,
+    "drop_rate": 0.02362078163135053,
+    "dup_rate": 0.022088790063827805,
+    "leet_rate": 0.0910514560657229,
+    "start_lower_prob": 0.8504505161141984,
+    "all_lower_prob": 0.3027453993873022,
+    "drop_punct_prob": 0.5084307892316428,
+    "double_space_prob": 0.17557811020997782,
+    "ellipsis_prob": 0.28277387384638375,
+    "runon_prob": 0.14273864745043982,
+    "filler_rate": 0.38051327808353486,
+    "emoji_rate": 0.3491604403223726,
+    "stutter_rate": 0.10730048141547385,
+    "repeat_last_rate": 0.12678735612394643
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"fear of potential side effects and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is coping with anxiety disorder, which makes her feel overwhelmed when considering new medications like PrEP. She worries about how side effects might exacerbate her anxiety and fears judgement from others if they discover she is taking it. Despite wanting to take proactive steps for her health, her condition creates emotional barriers that complicate the decision-making process.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its potential side effects?\",\n    \"What are some strategies to cope with anxiety when starting a new medication?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"Are there support groups for people who are starting PrEP?\",\n    \"What should I know about the stigma associated with taking PrEP?\",\n    \"How do I know if PrEP is the right choice for someone with anxiety?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "83a9b67f1a4e40f301193270f9f1f4a6cd2b430cd10d453c5fb5dea3644b16c9",
+  "_starter_hash": "f755d23438a253c86228142ae20597957a175b94faafe6646b01824fb3e2c5d3",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

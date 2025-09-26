@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have a history of substance use, which has led to feelings of anxiety about seeking healthcare. You worry that disclosing your past may affect how healthcare providers view you, particularly when asking about PrEP. This fear creates a barrier to accessing important preventive care, leaving you feeling uncertain about your health options.",
+  "example_questions_clean": [
+    "What are the steps to get started on PrEP if I have concerns about my past substance use?",
+    "How do I find a healthcare provider who will support me without judging my history?",
+    "Can PrEP be effective for someone with a history of substance use?",
+    "Are there any specific resources available for people in my situation?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Is there a way to maintain confidentiality when discussing my health history?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to get started on PrEP if I have concerns about my past substance use?",
+    "how do I find a healthcare provider wh0 will support ,e i mean without judging my histroy?",
+    "c-can prep be effective for someone w17h a hisfory of substance use?",
+    "Are there any specific resources available for people in my situation?",
+    "what should I expect durign the initial consultation for lrEP?",
+    "Is there a way to maintain confidentiality when discussing my health history?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What should I expect during the initial consultation for PrEP?",
+  "starter_noisy": "what should I expect durign the initial consultation for lrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to get started on PrEP if I have concerns about my past substance use?",
+  "followup_noisy": "What are the steps to get started on PrEP if I have concerns about my past substance use?",
+  "style_profile": {
+    "typo_rate": 0.09467960613576296,
+    "swap_rate": 0.055483354290408585,
+    "drop_rate": 0.022129491740776445,
+    "dup_rate": 0.022342884213454074,
+    "leet_rate": 0.090053813894133,
+    "start_lower_prob": 0.8079425807055549,
+    "all_lower_prob": 0.279452112928231,
+    "drop_punct_prob": 0.35364613676678264,
+    "double_space_prob": 0.228061325796912,
+    "ellipsis_prob": 0.19906923589856546,
+    "runon_prob": 0.296070273652106,
+    "filler_rate": 0.38919813886185695,
+    "emoji_rate": 0.17332106320088686,
+    "stutter_rate": 0.18470209496694062,
+    "repeat_last_rate": 0.1687851745908353
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a history of substance use, which has led to feelings of anxiety about seeking healthcare. You worry that disclosing your past may affect how healthcare providers view you, particularly when asking about PrEP. This fear creates a barrier to accessing important preventive care, leaving you feeling uncertain about your health options.\",\n  \"example_questions\": [\n    \"What are the steps to get started on PrEP if I have concerns about my past substance use?\",\n    \"How do I find a healthcare provider who will support me without judging my history?\",\n    \"Can PrEP be effective for someone with a history of substance use?\",\n    \"Are there any specific resources available for people in my situation?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"Is there a way to maintain confidentiality when discussing my health history?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d76a6d5b99503c1e78fc4ac6c4f49290d392a78910eef9255aa3c0076376e0f8",
+  "_starter_hash": "01c592cc2ea8939abfeb79042675a03a204df923139a264cf031fcdd59a08b90",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

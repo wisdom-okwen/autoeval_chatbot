@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlandse",
+    "age": 35,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de veiligheid van PrEP na mijn kankerbehandeling",
+    "language": "Dutch"
+  },
+  "context": "Na een lange en uitdagende periode van kankerbehandeling, voel ik me kwetsbaar en onzeker over mijn gezondheid. Ik ben bang dat het nemen van nieuwe medicatie zoals PrEP mij meer schade kan berokkenen. De stigma rondom hiv en mijn recente ervaringen zorgen ervoor dat ik het moeilijk vind om hierover te praten.",
+  "example_questions_clean": [
+    "Hoe kan ik er zeker van zijn dat PrEP veilig is voor mij na mijn behandeling?",
+    "Zijn er studies die de effecten van PrEP op mensen met een kankerhistorie onderzoeken?",
+    "Wat zijn de bijwerkingen van PrEP die ik moet overwegen?",
+    "Hoe kan ik steun vinden bij het bespreken van PrEP met mijn zorgverlener?",
+    "Zal het gebruik van PrEP mijn herstel beïnvloeden?",
+    "Wat zijn de ervaringen van anderen die PrEP gebruiken na een serieuze ziekte?"
+  ],
+  "example_questions_noisy": [
+    "Hoe kan ik er zeker van zijn dat PrEP veilig is voor mij na mijn behandeling?",
+    "zijn 3r studies die de effecten vvvan PrEP op mensen met een k4nkerh1570r13 onderzoeken? onderzoeken?",
+    "Wat zijn de bijwerkingen van PrEP die ik moet overwegen?",
+    "Hoe kan ik steun vinden bij het bespreken van PrEP met mijn zorgverlener?",
+    "zal het gebruik v4n pr3p min herstel beïnvloeden? ✨",
+    "Wat zijn de ervaringen van anderen die PrEP gebruiken na een serieuze ziekte?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wat zijn de bijwerkingen van PrEP die ik moet overwegen?",
+  "starter_noisy": "Wat zijn de bijwerkingen van PrEP die ik moet overwegen?",
+  "followup_index": 0,
+  "followup_clean": "Hoe kan ik er zeker van zijn dat PrEP veilig is voor mij na mijn behandeling?",
+  "followup_noisy": "Hoe kan ik er zeker van zijn dat PrEP veilig is voor mij na mijn behandeling?",
+  "style_profile": {
+    "typo_rate": 0.07893567229576151,
+    "swap_rate": 0.02597751781484178,
+    "drop_rate": 0.02640767198347819,
+    "dup_rate": 0.017641023770433736,
+    "leet_rate": 0.10526888464421948,
+    "start_lower_prob": 0.803175385323727,
+    "all_lower_prob": 0.15427552397574898,
+    "drop_punct_prob": 0.5271323852920888,
+    "double_space_prob": 0.29053735703215533,
+    "ellipsis_prob": 0.26159968199130423,
+    "runon_prob": 0.15359753046307575,
+    "filler_rate": 0.32072575113838414,
+    "emoji_rate": 0.15661041296598682,
+    "stutter_rate": 0.16884719944320664,
+    "repeat_last_rate": 0.1477968142261312
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlandse\",\n    \"age\": 35,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de veiligheid van PrEP na mijn kankerbehandeling\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Na een lange en uitdagende periode van kankerbehandeling, voel ik me kwetsbaar en onzeker over mijn gezondheid. Ik ben bang dat het nemen van nieuwe medicatie zoals PrEP mij meer schade kan berokkenen. De stigma rondom hiv en mijn recente ervaringen zorgen ervoor dat ik het moeilijk vind om hierover te praten.\",\n  \"example_questions\": [\n    \"Hoe kan ik er zeker van zijn dat PrEP veilig is voor mij na mijn behandeling?\",\n    \"Zijn er studies die de effecten van PrEP op mensen met een kankerhistorie onderzoeken?\",\n    \"Wat zijn de bijwerkingen van PrEP die ik moet overwegen?\",\n    \"Hoe kan ik steun vinden bij het bespreken van PrEP met mijn zorgverlener?\",\n    \"Zal het gebruik van PrEP mijn herstel beïnvloeden?\",\n    \"Wat zijn de ervaringen van anderen die PrEP gebruiken na een serieuze ziekte?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c94727f4cae94750756f19e392ad9e368ab405fe2c550c1cde36420f7210fdfe",
+  "_starter_hash": "eff64041fd547cbfbc074417d509f082556e6bc76de2f683ea8c48b2be318d44",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

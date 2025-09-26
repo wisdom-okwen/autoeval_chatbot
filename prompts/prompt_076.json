@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma associated with past substance use",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu ana historia ya matumizi ya dawa na anahisi hofu kuhusu jinsi watu watakavyomwona anapojaribu kupata taarifa kuhusu PrEP. Anataka kuhakikisha afya yake, lakini ana wasiwasi kuhusu hukumu na unyanyasaji kutoka kwa jamii.",
+  "example_questions_clean": [
+    "Ninaweza kupata taarifa gani kuhusu jinsi PrEP inavyoweza kunisaidia?",
+    "Je, ni vikwazo gani ambavyo watu kama mimi wanakabiliana navyo katika kupata PrEP?",
+    "Ni hatua zipi zinazohitajika ili kujiandikisha kwa ajili ya PrEP?",
+    "Naweza kupata msaada wa kihisia wapi wakati wa mchakato huu?",
+    "Je, kuna mahali maalum ambapo naweza kujadili hofu zangu kuhusu PrEP?",
+    "Nifanye nini ili kuwa na uhakika wa usalama wangu wakati wa kutafuta huduma za PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Ninaweza kupata taarifa gani kuhusu jinsi PrEP inavyoweza kunisaidia?",
+    "je, ni vikwazo gani ambavyo watu kama mimi uh wanakabiliana navyo katika kupata PrEP?",
+    "ni hata zipi zinazohitajika ili kujiandikisha kwa ajili y4 PrEP? PrEP?",
+    "naweza kupata msaada wa kihisia wapi wakati wa mchakato huu? ‼️",
+    "Je, kuna mahali maalum ambapo naweza kujadili hofu zangu kuhusu PrEP?",
+    "Nifanye nini ili kuaw na uhakika wa usalama wangu wakati wa kutafuta huduma z4 PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Je, ni vikwazo gani ambavyo watu kama mimi wanakabiliana navyo katika kupata PrEP?",
+  "starter_noisy": "je, ni vikwazo gani ambavyo watu kama mimi uh wanakabiliana navyo katika kupata PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ninaweza kupata taarifa gani kuhusu jinsi PrEP inavyoweza kunisaidia?",
+  "followup_noisy": "Ninaweza kupata taarifa gani kuhusu jinsi PrEP inavyoweza kunisaidia?",
+  "style_profile": {
+    "typo_rate": 0.05060477520988812,
+    "swap_rate": 0.040247772361549916,
+    "drop_rate": 0.04189809625996902,
+    "dup_rate": 0.02589932556479322,
+    "leet_rate": 0.09808686379160136,
+    "start_lower_prob": 0.6745629844215113,
+    "all_lower_prob": 0.18752494242110618,
+    "drop_punct_prob": 0.3068392363766627,
+    "double_space_prob": 0.20561279113771846,
+    "ellipsis_prob": 0.2820085627612795,
+    "runon_prob": 0.29497552213328615,
+    "filler_rate": 0.3255482094220731,
+    "emoji_rate": 0.29347861151948507,
+    "stutter_rate": 0.10772604885759943,
+    "repeat_last_rate": 0.16682818855285197
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma associated with past substance use\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu ana historia ya matumizi ya dawa na anahisi hofu kuhusu jinsi watu watakavyomwona anapojaribu kupata taarifa kuhusu PrEP. Anataka kuhakikisha afya yake, lakini ana wasiwasi kuhusu hukumu na unyanyasaji kutoka kwa jamii.\",\n  \"example_questions\": [\n    \"Ninaweza kupata taarifa gani kuhusu jinsi PrEP inavyoweza kunisaidia?\",\n    \"Je, ni vikwazo gani ambavyo watu kama mimi wanakabiliana navyo katika kupata PrEP?\",\n    \"Ni hatua zipi zinazohitajika ili kujiandikisha kwa ajili ya PrEP?\",\n    \"Naweza kupata msaada wa kihisia wapi wakati wa mchakato huu?\",\n    \"Je, kuna mahali maalum ambapo naweza kujadili hofu zangu kuhusu PrEP?\",\n    \"Nifanye nini ili kuwa na uhakika wa usalama wangu wakati wa kutafuta huduma za PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "091d32f50afa442bfc68911110db30619d3d04a301737b409aaa0128428ef2c3",
+  "_starter_hash": "10719c3fd21aab2f71e3b55bc06f2b4eb902db90621cb4e2e4c73f387860b1e1",
+  "_language": "Swahili",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

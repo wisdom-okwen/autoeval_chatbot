@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have been feeling socially isolated due to the impact of your personal challenges. This isolation makes it difficult for you to reach out for help, and you are worried about how others might perceive you, especially when seeking information about PrEP. You want to protect your health but are held back by anxiety around potential judgment and the complexities of accessing medication.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I find a doctor who understands my situation and won’t judge me?",
+    "Is it possible to get PrEP if I don’t have insurance?",
+    "What resources are available for someone feeling socially isolated like me?",
+    "Can you explain the process of getting a prescription for PrEP?",
+    "What should I do if I feel uncomfortable discussing PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I find a doctor who understands my situation and won’t judge me?",
+    "Is it possible to get PrEP if I don’t have insurance? 😬",
+    "What resources are available for someone feeling socially isolated like me?",
+    "c-cccan you explain the pr0c355 of getting a prescription for prep?",
+    "W-What shhhould 1 do if I feel uncomfortable discussing PrEP with my healthcare provider? ‼️"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What should I do if I feel uncomfortable discussing PrEP with my healthcare provider?",
+  "starter_noisy": "W-What shhhould 1 do if I feel uncomfortable discussing PrEP with my healthcare provider? ‼️",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the potential side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.11292496097543536,
+    "swap_rate": 0.05982106369665048,
+    "drop_rate": 0.021212469463155168,
+    "dup_rate": 0.015493892042627633,
+    "leet_rate": 0.062416499469771215,
+    "start_lower_prob": 0.6857539853859171,
+    "all_lower_prob": 0.2700208246112207,
+    "drop_punct_prob": 0.45334589124308244,
+    "double_space_prob": 0.293473879610758,
+    "ellipsis_prob": 0.20904338835870953,
+    "runon_prob": 0.19467179284205138,
+    "filler_rate": 0.4884669243161884,
+    "emoji_rate": 0.2117111691568445,
+    "stutter_rate": 0.1956966421415411,
+    "repeat_last_rate": 0.17116283548374894
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been feeling socially isolated due to the impact of your personal challenges. This isolation makes it difficult for you to reach out for help, and you are worried about how others might perceive you, especially when seeking information about PrEP. You want to protect your health but are held back by anxiety around potential judgment and the complexities of accessing medication.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I find a doctor who understands my situation and won’t judge me?\",\n    \"Is it possible to get PrEP if I don’t have insurance?\",\n    \"What resources are available for someone feeling socially isolated like me?\",\n    \"Can you explain the process of getting a prescription for PrEP?\",\n    \"What should I do if I feel uncomfortable discussing PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1d99b485c6b6a8707d04be98ffacf5f067df0f2f2da4d3b4fc00600f91fd1943",
+  "_starter_hash": "f7a16f06384d4c5e2a31e87b85b80187ea1e98b7ef19daee57265e1c97b6be77",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

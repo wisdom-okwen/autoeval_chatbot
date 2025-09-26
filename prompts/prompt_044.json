@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "toegang tot PrEP en stigma",
+    "language": "Dutch"
+  },
+  "context": "Je ervaart momenteel dakloosheid en voelt je onzeker over de toegang tot gezondheidszorg, inclusief PrEP. Je hebt zorgen over het stigma dat je kunt ervaren bij het zoeken naar medische hulp, wat je angstig maakt om vragen te stellen. Ondanks deze uitdagingen hoop je dat PrEP je kan helpen bij het beschermen tegen hiv.",
+  "example_questions_clean": [
+    "Wat zijn de stappen die ik moet volgen om PrEP te krijgen als ik geen vast adres heb?",
+    "Hoe kan ik mijn zorgen over stigma bespreken met zorgverleners?",
+    "Zijn er organisaties die me kunnen helpen bij het vinden van PrEP zonder dat ik me gediscrimineerd voel?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?",
+    "Hoe kan ik de kosten van PrEP dekken als ik financieel worstel?",
+    "Is er een plek waar ik anoniem informatie kan krijgen over PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de stappen die ik moet volgen om PrEP te krijgen als ik geen vast adres heb?",
+    "Hoe kan ik mijn zorgen over stigma bespreken met zorgverleners?",
+    "zijn er organisaties due me kunnen helpe bij het vinden van PrEP zond3r dat ik me gediscrimineerd voel?",
+    "wat zijn d3 mogelijke bijwerkingen like v4n prep die ik moey kennen?",
+    "Hoe kan ik de kosten van PrEP dekken als ik financieel worstel?",
+    "is er een pl3k waar ik anoniem informatie kan krijgen over PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Hoe kan ik mijn zorgen over stigma bespreken met zorgverleners?",
+  "starter_noisy": "Hoe kan ik mijn zorgen over stigma bespreken met zorgverleners?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de stappen die ik moet volgen om PrEP te krijgen als ik geen vast adres heb?",
+  "followup_noisy": "Wat zijn de stappen die ik moet volgen om PrEP te krijgen als ik geen vast adres heb?",
+  "style_profile": {
+    "typo_rate": 0.08143012819390952,
+    "swap_rate": 0.05220638583500878,
+    "drop_rate": 0.03361791760875674,
+    "dup_rate": 0.015576286512492815,
+    "leet_rate": 0.0748570514716883,
+    "start_lower_prob": 0.7181230308565472,
+    "all_lower_prob": 0.27739336652532415,
+    "drop_punct_prob": 0.36292750000110996,
+    "double_space_prob": 0.2879667191485443,
+    "ellipsis_prob": 0.31143258624426345,
+    "runon_prob": 0.10911230669613775,
+    "filler_rate": 0.3281071805422491,
+    "emoji_rate": 0.16341294976899887,
+    "stutter_rate": 0.15241563235850367,
+    "repeat_last_rate": 0.167671198114629
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"toegang tot PrEP en stigma\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je ervaart momenteel dakloosheid en voelt je onzeker over de toegang tot gezondheidszorg, inclusief PrEP. Je hebt zorgen over het stigma dat je kunt ervaren bij het zoeken naar medische hulp, wat je angstig maakt om vragen te stellen. Ondanks deze uitdagingen hoop je dat PrEP je kan helpen bij het beschermen tegen hiv.\",\n  \"example_questions\": [\n    \"Wat zijn de stappen die ik moet volgen om PrEP te krijgen als ik geen vast adres heb?\",\n    \"Hoe kan ik mijn zorgen over stigma bespreken met zorgverleners?\",\n    \"Zijn er organisaties die me kunnen helpen bij het vinden van PrEP zonder dat ik me gediscrimineerd voel?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet kennen?\",\n    \"Hoe kan ik de kosten van PrEP dekken als ik financieel worstel?\",\n    \"Is er een plek waar ik anoniem informatie kan krijgen over PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bb71651cca74ab9672a78341b2b79b84cb948575d821474dee98c48b6837f0ed",
+  "_starter_hash": "8c45915187ea47cd4570d7a6f404715c6ba841518d52a31b10914cd231c56d09",
+  "_language": "Dutch",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

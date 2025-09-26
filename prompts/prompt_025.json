@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 25,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP interacts with my medication for my neurodevelopmental disorder",
+    "language": "Spanish"
+  },
+  "context": "La usuaria enfrenta desafíos adicionales debido a su condición neurodesarrollo, lo que afecta su capacidad para comprender la información médica y su confianza en el sistema de salud. Hay una mezcla de esperanza por protegerse y miedo a ser estigmatizada al hablar sobre su situación de salud.",
+  "example_questions_clean": [
+    "¿Cómo puedo saber si PrEP es seguro para mí considerando mi medicación actual?",
+    "Me preocupa que mi condición afecte mi acceso a PrEP. ¿Qué opciones tengo?",
+    "¿Hay recursos disponibles para ayudarme a entender mejor el uso de PrEP?",
+    "¿Existen profesionales de la salud que sean sensibles a mis necesidades específicas?",
+    "¿Cómo puedo abordar mis preocupaciones sobre el estigma al hablar de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo saber si PrEP es seguro para mí considerando mi medicación actual?",
+    "Me preocupa que mi condición afecte mi acceso a PrEP. ¿Qué opciones tengo?",
+    "¿Hay recursos disponibles para ayudarme a entender mejor el uso de PrEP?",
+    "¿Existen profesionales de la salud que sean sensibles 4 mis necesidades específicas?",
+    "¿Cómo puedo abordar mis preocupaciones sobre el estigma al hablar de PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cómo puedo saber si PrEP es seguro para mí considerando mi medicación actual?",
+  "starter_noisy": "¿Cómo puedo saber si PrEP es seguro para mí considerando mi medicación actual?",
+  "followup_index": 1,
+  "followup_clean": "Me preocupa que mi condición afecte mi acceso a PrEP. ¿Qué opciones tengo?",
+  "followup_noisy": "Me preocupa que mi condición afecte mi acceso a PrEP. ¿Qué opciones tengo?",
+  "style_profile": {
+    "typo_rate": 0.09444601998280203,
+    "swap_rate": 0.05382655616957452,
+    "drop_rate": 0.023321202563691096,
+    "dup_rate": 0.019911170468432694,
+    "leet_rate": 0.09124522817849919,
+    "start_lower_prob": 0.8849721679192661,
+    "all_lower_prob": 0.30846059486010613,
+    "drop_punct_prob": 0.5190503685937985,
+    "double_space_prob": 0.3195678453160902,
+    "ellipsis_prob": 0.2891111949763798,
+    "runon_prob": 0.22319861513300096,
+    "filler_rate": 0.3321346926904013,
+    "emoji_rate": 0.3166010794421261,
+    "stutter_rate": 0.19346620315295734,
+    "repeat_last_rate": 0.1303841010575742
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 25,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP interacts with my medication for my neurodevelopmental disorder\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria enfrenta desafíos adicionales debido a su condición neurodesarrollo, lo que afecta su capacidad para comprender la información médica y su confianza en el sistema de salud. Hay una mezcla de esperanza por protegerse y miedo a ser estigmatizada al hablar sobre su situación de salud.\",\n  \"example_questions\": [\n    \"¿Cómo puedo saber si PrEP es seguro para mí considerando mi medicación actual?\",\n    \"Me preocupa que mi condición afecte mi acceso a PrEP. ¿Qué opciones tengo?\",\n    \"¿Hay recursos disponibles para ayudarme a entender mejor el uso de PrEP?\",\n    \"¿Existen profesionales de la salud que sean sensibles a mis necesidades específicas?\",\n    \"¿Cómo puedo abordar mis preocupaciones sobre el estigma al hablar de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c43711452bd62b863a8efb825f71c2dfbf8ace963ef488e5ac7c86e073f59476",
+  "_starter_hash": "7f1fff9ae0679a0474fb172b9c628351db1f3c13adc713a881abfcce5d1de1a3",
+  "_language": "Spanish",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "Non-binary",
+    "socio_economic_status": "Low-income",
+    "primary_concern": "Understanding how PrEP interacts with my neurodevelopmental disorder",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old non-binary individual from the United States, living with a neurodevelopmental disorder. This condition affects your ability to process health information, which adds anxiety and confusion when it comes to accessing medications like PrEP. You worry about how the side effects might impact your daily life, and the stigma surrounding both your identity and medical needs makes it difficult to ask for help.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it might affect someone with a neurodevelopmental disorder?",
+    "What should I consider when discussing PrEP with my healthcare provider given my unique situation?",
+    "Are there specific resources available to help individuals like me understand PrEP better?",
+    "How can I address my fears regarding potential side effects of PrEP?",
+    "What steps can I take to ensure I am making an informed decision about using PrEP?",
+    "How do I find a supportive healthcare provider who understands my challenges?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain what PrEP is and how it might affect someone with a neurodevelopmental disorder?",
+    "What should I consider when discussing PrEP with my healthcare provider given my unique situation?",
+    "Are there specific resources available to help individuals like me understand PrEP better?",
+    "How can I address my fears regarding potential side effects of PrEP?",
+    "What steps can I take to ensure I am making an informed decision about using PrEP?",
+    "uow like do I find 4 supportive healthcare provider who understands my ch4ll3nge5 ❓ ❓"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I address my fears regarding potential side effects of PrEP?",
+  "starter_noisy": "How can I address my fears regarding potential side effects of PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it might affect someone with a neurodevelopmental disorder?",
+  "followup_noisy": "Can you explain what PrEP is and how it might affect someone with a neurodevelopmental disorder?",
+  "style_profile": {
+    "typo_rate": 0.1072791211854919,
+    "swap_rate": 0.020264631528604863,
+    "drop_rate": 0.03527328623533049,
+    "dup_rate": 0.021846672040072714,
+    "leet_rate": 0.11026302243203281,
+    "start_lower_prob": 0.7026458886975582,
+    "all_lower_prob": 0.2447044786421418,
+    "drop_punct_prob": 0.5816406527353164,
+    "double_space_prob": 0.3317406077938593,
+    "ellipsis_prob": 0.19922145400637653,
+    "runon_prob": 0.24796613341733656,
+    "filler_rate": 0.4927578300122478,
+    "emoji_rate": 0.3059548211204834,
+    "stutter_rate": 0.15050351518402222,
+    "repeat_last_rate": 0.1547197684057168
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"Non-binary\",\n    \"socio_economic_status\": \"Low-income\",\n    \"primary_concern\": \"Understanding how PrEP interacts with my neurodevelopmental disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old non-binary individual from the United States, living with a neurodevelopmental disorder. This condition affects your ability to process health information, which adds anxiety and confusion when it comes to accessing medications like PrEP. You worry about how the side effects might impact your daily life, and the stigma surrounding both your identity and medical needs makes it difficult to ask for help.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it might affect someone with a neurodevelopmental disorder?\",\n    \"What should I consider when discussing PrEP with my healthcare provider given my unique situation?\",\n    \"Are there specific resources available to help individuals like me understand PrEP better?\",\n    \"How can I address my fears regarding potential side effects of PrEP?\",\n    \"What steps can I take to ensure I am making an informed decision about using PrEP?\",\n    \"How do I find a supportive healthcare provider who understands my challenges?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "be73292207b319908856a4f1c48374e75a8c8321c076a31197905a22293c59fc",
+  "_starter_hash": "dc6c65f5924e23d23f800978c5545f450a8f709aeaaaa61378b07bf4d9f4fb0c",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

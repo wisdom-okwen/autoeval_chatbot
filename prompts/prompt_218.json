@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "temor a los efectos secundarios y al estigma social",
+    "language": "Spanish"
+  },
+  "context": "El usuario está lidiando con un trastorno de ansiedad que le genera preocupación sobre su salud y su imagen social. Esta ansiedad le dificulta tomar decisiones sobre su cuidado personal, especialmente respecto a la prevención del VIH mediante el uso de PrEP. Se siente insegura sobre cómo sería percibida por los demás si decidiera iniciar este tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP?",
+    "Me preocupa el estigma asociado con el uso de PrEP, ¿cómo puedo manejar eso?",
+    "¿Existen recursos para personas con ansiedad que necesiten apoyo al comenzar PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?",
+    "¿Qué pasos debo seguir para acceder a PrEP en México?",
+    "¿Hay grupos de apoyo donde pueda conectar con otros que estén considerando PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP?",
+    "Me preocupa el estigma asociado con el uso de PrEP, ¿cómo puedo manejar eso?",
+    "¿Existen recursos para personas con ansiedad que necesiten apoyo al comenza PrEP 🤔",
+    "¿vómo puedo hablar con mu édico 50br3 mis preocupaciones sin sentttirme juzgada?",
+    "¿Qué pasos debo seguir para acceder a PrEP en México",
+    "g¿ay grupos de apyo donde pueda conectar con otrs qu3 357én considerando PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Qué pasos debo seguir para acceder a PrEP en México?",
+  "starter_noisy": "¿Qué pasos debo seguir para acceder a PrEP en México",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes del PrEP?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios más comunes del PrEP?",
+  "style_profile": {
+    "typo_rate": 0.1025476931799016,
+    "swap_rate": 0.026209568353476032,
+    "drop_rate": 0.02877061031794831,
+    "dup_rate": 0.02961475723350171,
+    "leet_rate": 0.07680694802631936,
+    "start_lower_prob": 0.8869376062759233,
+    "all_lower_prob": 0.16534435168600028,
+    "drop_punct_prob": 0.45361755849483665,
+    "double_space_prob": 0.31274950183672445,
+    "ellipsis_prob": 0.30285930511103154,
+    "runon_prob": 0.1256531744965062,
+    "filler_rate": 0.3818211148414901,
+    "emoji_rate": 0.28809175959880506,
+    "stutter_rate": 0.13499653919262863,
+    "repeat_last_rate": 0.12385651249267979
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"temor a los efectos secundarios y al estigma social\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"El usuario está lidiando con un trastorno de ansiedad que le genera preocupación sobre su salud y su imagen social. Esta ansiedad le dificulta tomar decisiones sobre su cuidado personal, especialmente respecto a la prevención del VIH mediante el uso de PrEP. Se siente insegura sobre cómo sería percibida por los demás si decidiera iniciar este tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes del PrEP?\",\n    \"Me preocupa el estigma asociado con el uso de PrEP, ¿cómo puedo manejar eso?\",\n    \"¿Existen recursos para personas con ansiedad que necesiten apoyo al comenzar PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme juzgada?\",\n    \"¿Qué pasos debo seguir para acceder a PrEP en México?\",\n    \"¿Hay grupos de apoyo donde pueda conectar con otros que estén considerando PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e3151c62c08a7edd73efae2cbd1fafca912d4c0efc5b0d94bd23f5ba20b55234",
+  "_starter_hash": "d98043530cc419765a7ff18fad9d70e59c60c7768d388b54a792d6f499736340",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

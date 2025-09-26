@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne classe",
+    "primary_concern": "Inquiétude concernant les effets du PrEP sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "En tant qu'homme vivant avec un trouble bipolaire, je m'inquiète des interactions possibles entre mes médicaments psychiatriques et le PrEP. Je ressens aussi une pression sociale et un stigma autour de l'utilisation de PrEP, ce qui me rend hésitant à en discuter avec mon médecin ou mes proches.",
+  "example_questions_clean": [
+    "Quelles sont les recommandations pour quelqu'un vivant avec un trouble bipolaire qui veut commencer le PrEP?",
+    "Y a-t-il des effets secondaires du PrEP qui pourraient affecter ma santé mentale?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin sans craindre d'être jugé?",
+    "Y a-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent le PrEP?",
+    "Le PrEP pourrait-il avoir un impact sur ma stabilité émotionnelle au quotidien?",
+    "Quelles précautions devrais-je prendre en prenant le PrEP avec mes médicaments actuels?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les recommandations pour quelqu'un vivant avec un trouble bipolaire qui veut commencer le PrEP?",
+    "y a-t-li des effets econdaires duuu PrEP qhi pourraient affecter ma santé you know mentale?",
+    "Comment puis-je aborder le sujet du PrEP aevc mon médecin sans craindre d'être jugé",
+    "Y a-t-il des ressources 0u des groupes de soutien pour les personnes comme moi qui envisagent l3 PrEP 😭",
+    "Le PrEP pourrait-il avoir un impact sur ma stabilité émo710nn3ll3 au qu071d13n?",
+    "quelles précautions devrais-je pr3ndr3 en prenant le prep avsc mes médicaments actuels"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Quelles précautions devrais-je prendre en prenant le PrEP avec mes médicaments actuels?",
+  "starter_noisy": "quelles précautions devrais-je pr3ndr3 en prenant le prep avsc mes médicaments actuels",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les recommandations pour quelqu'un vivant avec un trouble bipolaire qui veut commencer le PrEP?",
+  "followup_noisy": "Quelles sont les recommandations pour quelqu'un vivant avec un trouble bipolaire qui veut commencer le PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06617617924636685,
+    "swap_rate": 0.046371214163421326,
+    "drop_rate": 0.04753818971689745,
+    "dup_rate": 0.015702366635995564,
+    "leet_rate": 0.07468586002541254,
+    "start_lower_prob": 0.6884207094034757,
+    "all_lower_prob": 0.2915603310618679,
+    "drop_punct_prob": 0.4452463463348072,
+    "double_space_prob": 0.29527858995627165,
+    "ellipsis_prob": 0.27797410525566346,
+    "runon_prob": 0.1917948254616951,
+    "filler_rate": 0.3888365959698029,
+    "emoji_rate": 0.3265723912979488,
+    "stutter_rate": 0.19483277454768713,
+    "repeat_last_rate": 0.1266111452093419
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne classe\",\n    \"primary_concern\": \"Inquiétude concernant les effets du PrEP sur ma santé mentale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En tant qu'homme vivant avec un trouble bipolaire, je m'inquiète des interactions possibles entre mes médicaments psychiatriques et le PrEP. Je ressens aussi une pression sociale et un stigma autour de l'utilisation de PrEP, ce qui me rend hésitant à en discuter avec mon médecin ou mes proches.\",\n  \"example_questions\": [\n    \"Quelles sont les recommandations pour quelqu'un vivant avec un trouble bipolaire qui veut commencer le PrEP?\",\n    \"Y a-t-il des effets secondaires du PrEP qui pourraient affecter ma santé mentale?\",\n    \"Comment puis-je aborder le sujet du PrEP avec mon médecin sans craindre d'être jugé?\",\n    \"Y a-t-il des ressources ou des groupes de soutien pour les personnes comme moi qui envisagent le PrEP?\",\n    \"Le PrEP pourrait-il avoir un impact sur ma stabilité émotionnelle au quotidien?\",\n    \"Quelles précautions devrais-je prendre en prenant le PrEP avec mes médicaments actuels?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5e3390f272f4001d0d35f7055b880ed1714fd05538d869ba86fcd78579283317",
+  "_starter_hash": "9e5a483f6067c8a934fbb52a946f21af775d941c81e404e00aacd2a7716623d1",
+  "_language": "French",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessing healthcare resources while being homeless",
+    "language": "English"
+  },
+  "context": "As a young man experiencing homelessness, you may feel overwhelmed by daily survival challenges. Finding stable housing and basic needs often overshadows health concerns, making it difficult to prioritize or access PrEP. Stigma around your situation can also fuel fear and uncertainty about seeking help.",
+  "example_questions_clean": [
+    "What are the steps I can take to get PrEP while dealing with my current living situation?",
+    "Can you tell me if there are local resources that support people like me in accessing PrEP?",
+    "How does being homeless affect my eligibility for PrEP programs?",
+    "What are common misconceptions about PrEP that I should be aware of?",
+    "Is it possible to receive PrEP without a permanent address or insurance?",
+    "What emotional support options are available for someone like me considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are idk ttthe steps I caaan take to get PrEP while dealing with my current living situatin",
+    "Can you tell me if there are local resources that support people like me in accessing PrEP?",
+    "How does being homeless uh affect my eligibility for PrEP programs?",
+    "What are common misconceptions about PrEP that I should be aware of?",
+    "Is it possible to receive PrEP without a permanent address or insurance?",
+    "What emotionql support oltions are available for someone like me considering PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What emotional support options are available for someone like me considering PrEP?",
+  "starter_noisy": "What emotionql support oltions are available for someone like me considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I can take to get PrEP while dealing with my current living situation?",
+  "followup_noisy": "What are idk ttthe steps I caaan take to get PrEP while dealing with my current living situatin",
+  "style_profile": {
+    "typo_rate": 0.11078807451478428,
+    "swap_rate": 0.02383541784068754,
+    "drop_rate": 0.03839945633436242,
+    "dup_rate": 0.010141856419832694,
+    "leet_rate": 0.10246775468336312,
+    "start_lower_prob": 0.6537517373366662,
+    "all_lower_prob": 0.16846095178290973,
+    "drop_punct_prob": 0.411571394120668,
+    "double_space_prob": 0.18505307584498953,
+    "ellipsis_prob": 0.2065761155491236,
+    "runon_prob": 0.19077590068053382,
+    "filler_rate": 0.49715098692173076,
+    "emoji_rate": 0.34998565947765214,
+    "stutter_rate": 0.18916709110829272,
+    "repeat_last_rate": 0.1733635402133139
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessing healthcare resources while being homeless\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young man experiencing homelessness, you may feel overwhelmed by daily survival challenges. Finding stable housing and basic needs often overshadows health concerns, making it difficult to prioritize or access PrEP. Stigma around your situation can also fuel fear and uncertainty about seeking help.\",\n  \"example_questions\": [\n    \"What are the steps I can take to get PrEP while dealing with my current living situation?\",\n    \"Can you tell me if there are local resources that support people like me in accessing PrEP?\",\n    \"How does being homeless affect my eligibility for PrEP programs?\",\n    \"What are common misconceptions about PrEP that I should be aware of?\",\n    \"Is it possible to receive PrEP without a permanent address or insurance?\",\n    \"What emotional support options are available for someone like me considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "04dc077169a6dcf0634fb3e49d7a3e0349efd5b41c8e4dd33579d631ba8db178",
+  "_starter_hash": "ad743e4bdccf585365e6008ed7a688d2e7abd1828f2544a65ba8290ed79440ee",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

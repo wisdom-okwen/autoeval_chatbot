@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of being judged or stigmatized by healthcare providers",
+    "language": "English"
+  },
+  "context": "You are an American woman living with the fear of HIV-related stigma. This has made you anxious about seeking PrEP as you worry about being judged by healthcare providers and potentially facing discrimination. You feel a deep desire to protect your health but are struggling with the emotional burden of stigma.",
+  "example_questions_clean": [
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "What are the steps to get prescribed PrEP without feeling judged?",
+    "Are there support groups for individuals facing stigma when considering PrEP?",
+    "What resources are available to help me navigate my emotions about seeking PrEP?",
+    "Can you explain how PrEP works and its importance for someone in my situation?",
+    "How can I build confidence in discussing PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "what wre the steps to get prescribdd PrEP without feeling judged",
+    "Are there suport groups for individuals facing stigma when considering PrEP",
+    "what ersources are vailable to i mean help me navigate my emotions about seeikng PrEP",
+    "C-Can you explain how PrsP works and ... its miportance for someone in mg situation",
+    "how can i mean I build confidence ij discussing PrEP with mu healthcare provider"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support groups for individuals facing stigma when considering PrEP?",
+  "starter_noisy": "Are there suport groups for individuals facing stigma when considering PrEP",
+  "followup_index": 0,
+  "followup_clean": "How can I find a healthcare provider who understands my concerns about stigma?",
+  "followup_noisy": "How can I find a healthcare provider who understands my concerns about stigma?",
+  "style_profile": {
+    "typo_rate": 0.08832389975790622,
+    "swap_rate": 0.04791887619779414,
+    "drop_rate": 0.03781111960206199,
+    "dup_rate": 0.021106165288495897,
+    "leet_rate": 0.0527760051569509,
+    "start_lower_prob": 0.6877043281173837,
+    "all_lower_prob": 0.2765326854425017,
+    "drop_punct_prob": 0.3514415350435621,
+    "double_space_prob": 0.2987520930646781,
+    "ellipsis_prob": 0.3344979036164375,
+    "runon_prob": 0.16222677407334987,
+    "filler_rate": 0.3077336654778478,
+    "emoji_rate": 0.19402155141860106,
+    "stutter_rate": 0.15822863519687178,
+    "repeat_last_rate": 0.14297751239838558
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of being judged or stigmatized by healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are an American woman living with the fear of HIV-related stigma. This has made you anxious about seeking PrEP as you worry about being judged by healthcare providers and potentially facing discrimination. You feel a deep desire to protect your health but are struggling with the emotional burden of stigma.\",\n  \"example_questions\": [\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"What are the steps to get prescribed PrEP without feeling judged?\",\n    \"Are there support groups for individuals facing stigma when considering PrEP?\",\n    \"What resources are available to help me navigate my emotions about seeking PrEP?\",\n    \"Can you explain how PrEP works and its importance for someone in my situation?\",\n    \"How can I build confidence in discussing PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9fff101a6cf7c0d7c220689ea6e8f53f718c56becedef0bf1b4a877b8d29ffb0",
+  "_starter_hash": "8e358bcccbdfcea36f3cce7d417a92bdfe2ec765d9c8dd819a58bd3dd0c56a36",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

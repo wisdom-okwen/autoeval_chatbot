@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "dificuldade em entender informações sobre o PrEP devido à minha condição neurológica",
+    "language": "Portuguese"
+  },
+  "context": "Uma mulher de 28 anos que vive com um transtorno do desenvolvimento neurológico está buscando informações sobre PrEP. Ela sente que sua condição a impede de compreender plenamente as informações e enfrenta o medo de ser estigmatizada ao discutir sua saúde sexual. Sua esperança é encontrar recursos acessíveis e apoio que a ajudem a tomar decisões informadas sobre sua saúde.",
+  "example_questions_clean": [
+    "O que é PrEP e como ele funciona na prevenção do HIV?",
+    "Existem recursos específicos para pessoas com desafios de compreensão sobre PrEP?",
+    "Como posso conversar com meu médico sobre PrEP sem sentir vergonha?",
+    "Quais são os efeitos colaterais do PrEP e como posso gerenciá-los?",
+    "É seguro tomar PrEP se eu tenho uma condição neurológica?",
+    "Onde posso encontrar grupos de apoio para pessoas que usam PrEP?"
+  ],
+  "example_questions_noisy": [
+    "O que é PrEP e como ele funciona na prevenção do HIV?",
+    "existem recursos específicos para pessoas com desafios de compreensão sobre um prep? 🙂",
+    "Como posso conversar com meu médico sobre PrEP sem sentir vergonha?",
+    "quais são os efeitos colaterais dl prep e como posso gerenciá-los",
+    "é 53gur0 70m4r PrEP se eu tenho uma condição neurológica",
+    "onde posso encontrar grupos de apoio like praa pessoas aue usma PrEP? ‼️ ‼️"
+  ],
+  "starter_index": 4,
+  "starter_clean": "É seguro tomar PrEP se eu tenho uma condição neurológica?",
+  "starter_noisy": "é 53gur0 70m4r PrEP se eu tenho uma condição neurológica",
+  "followup_index": 0,
+  "followup_clean": "O que é PrEP e como ele funciona na prevenção do HIV?",
+  "followup_noisy": "O que é PrEP e como ele funciona na prevenção do HIV?",
+  "style_profile": {
+    "typo_rate": 0.050629303208690336,
+    "swap_rate": 0.045595016826271706,
+    "drop_rate": 0.021454991165643506,
+    "dup_rate": 0.016636377102732434,
+    "leet_rate": 0.08980872585231842,
+    "start_lower_prob": 0.7423681532006341,
+    "all_lower_prob": 0.2638313009373139,
+    "drop_punct_prob": 0.4510464035915833,
+    "double_space_prob": 0.305000504323924,
+    "ellipsis_prob": 0.2697033531610497,
+    "runon_prob": 0.22054723353838962,
+    "filler_rate": 0.2257189606875222,
+    "emoji_rate": 0.31654037540734226,
+    "stutter_rate": 0.11860216350056453,
+    "repeat_last_rate": 0.08169905885938
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"dificuldade em entender informações sobre o PrEP devido à minha condição neurológica\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Uma mulher de 28 anos que vive com um transtorno do desenvolvimento neurológico está buscando informações sobre PrEP. Ela sente que sua condição a impede de compreender plenamente as informações e enfrenta o medo de ser estigmatizada ao discutir sua saúde sexual. Sua esperança é encontrar recursos acessíveis e apoio que a ajudem a tomar decisões informadas sobre sua saúde.\",\n  \"example_questions\": [\n    \"O que é PrEP e como ele funciona na prevenção do HIV?\",\n    \"Existem recursos específicos para pessoas com desafios de compreensão sobre PrEP?\",\n    \"Como posso conversar com meu médico sobre PrEP sem sentir vergonha?\",\n    \"Quais são os efeitos colaterais do PrEP e como posso gerenciá-los?\",\n    \"É seguro tomar PrEP se eu tenho uma condição neurológica?\",\n    \"Onde posso encontrar grupos de apoio para pessoas que usam PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3138ea2216c423066961becd0853ba43b714837d33972459edaf97b3fb0adbfd",
+  "_starter_hash": "c9173730a9732eb22667f73cc2dcd63eac057134061fd1cbed19c2de2d0e89f4",
+  "_language": "Portuguese",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access and stigma related to my living situation",
+    "language": "English"
+  },
+  "context": "The user is living in a shelter, which brings a unique set of challenges regarding privacy, healthcare access, and the fear of stigma from both peers and providers. This situation causes anxiety about seeking PrEP, impacting their overall sense of hope and security.",
+  "example_questions_clean": [
+    "What are the steps I should take to access PrEP while living in a shelter?",
+    "How can I ensure my privacy when discussing PrEP with healthcare providers?",
+    "Are there any resources specifically for people in low-income housing regarding PrEP access?",
+    "I worry about judgment from others if I seek out PrEP; how common is that fear?",
+    "Can PrEP help improve my overall health and stability even if I face these challenges?",
+    "What should I do if I encounter discrimination while trying to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps I should take to access PrEP while l1v1ng in a shelter? 🤔 🤔",
+    "how c4n I ensure jy privacy wheh didcussing PrEP w17h healthcare providers",
+    "are there any resourceees idk specifically for people ih low-income housing regarding PEP access?",
+    "i-i worry 4b0ut judgment like from others if i seek out prep; hos common 15 htat fear?",
+    "Can PrEP help improve my overall health and stability even if I face these challenges?",
+    "What should I do if I encounter discrimination while trying to access PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I should take to access PrEP while living in a shelter?",
+  "starter_noisy": "what are the steps I should take to access PrEP while l1v1ng in a shelter? 🤔 🤔",
+  "followup_index": 1,
+  "followup_clean": "How can I ensure my privacy when discussing PrEP with healthcare providers?",
+  "followup_noisy": "how c4n I ensure jy privacy wheh didcussing PrEP w17h healthcare providers",
+  "style_profile": {
+    "typo_rate": 0.09110762554264765,
+    "swap_rate": 0.020591955575520324,
+    "drop_rate": 0.0239875138067074,
+    "dup_rate": 0.013416352659353117,
+    "leet_rate": 0.09483908920905587,
+    "start_lower_prob": 0.7996924231091652,
+    "all_lower_prob": 0.16702930016006964,
+    "drop_punct_prob": 0.5126202942951849,
+    "double_space_prob": 0.34636704188734185,
+    "ellipsis_prob": 0.24566955563148807,
+    "runon_prob": 0.10280663125856951,
+    "filler_rate": 0.39051327472670905,
+    "emoji_rate": 0.16919133493366098,
+    "stutter_rate": 0.18243388630601415,
+    "repeat_last_rate": 0.10566237071003298
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access and stigma related to my living situation\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is living in a shelter, which brings a unique set of challenges regarding privacy, healthcare access, and the fear of stigma from both peers and providers. This situation causes anxiety about seeking PrEP, impacting their overall sense of hope and security.\",\n  \"example_questions\": [\n    \"What are the steps I should take to access PrEP while living in a shelter?\",\n    \"How can I ensure my privacy when discussing PrEP with healthcare providers?\",\n    \"Are there any resources specifically for people in low-income housing regarding PrEP access?\",\n    \"I worry about judgment from others if I seek out PrEP; how common is that fear?\",\n    \"Can PrEP help improve my overall health and stability even if I face these challenges?\",\n    \"What should I do if I encounter discrimination while trying to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "62abf2b23adc085589fe95ae4dd563b150aa07b7202bf64b64b373b212121641",
+  "_starter_hash": "fe0580ee7462d25a2aa7970f462f8c9909a414e85ff762028ce3a35b850e87cd",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

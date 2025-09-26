@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 30,
+    "gender": "masculino",
+    "socio_economic_status": "médio",
+    "primary_concern": "preocupação sobre como o PrEP pode interagir com meu tratamento para transtorno bipolar",
+    "language": "Portuguese"
+  },
+  "context": "Você está vivendo com transtorno bipolar e tem preocupações sobre como isso pode afetar sua saúde mental e a eficácia do PrEP. Você se sente ansioso em relação à adesão ao tratamento e teme o estigma social que pode vir com o uso de PrEP, especialmente no contexto da sua condição de saúde mental.",
+  "example_questions_clean": [
+    "Como o PrEP pode afetar meu estado emocional devido ao transtorno bipolar?",
+    "Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?",
+    "É seguro usar PrEP enquanto estou em tratamento para minha condição?",
+    "Como posso lidar com a pressão social em relação ao uso de PrEP?",
+    "Onde posso encontrar apoio psicológico para discutir minha situação antes de começar o PrEP?",
+    "O que outras pessoas que têm transtorno bipolar estão dizendo sobre o uso de PrEP?"
+  ],
+  "example_questions_noisy": [
+    "como um 0 PrEP pode afetar meu e57ad0 3m0ci0n4l devido ai transtorno bipolar",
+    "quais são os efeitos colaterais do PrEP que eu deveria essstar ciente?",
+    "É seguro usar PrEP enquanto estou em tratamento para minha condição?",
+    "como posso lidar com a perssão socila like em relação ao uso de PrrP",
+    "onde posso encontrar apoio psicológico para uh discutir minha situação antes de começar o PrEP?",
+    "o que outras pessoas que têm transtorno bipolar estão dizendo sbore o uso de PrEP"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Como o PrEP pode afetar meu estado emocional devido ao transtorno bipolar?",
+  "starter_noisy": "como um 0 PrEP pode afetar meu e57ad0 3m0ci0n4l devido ai transtorno bipolar",
+  "followup_index": 1,
+  "followup_clean": "Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?",
+  "followup_noisy": "quais são os efeitos colaterais do PrEP que eu deveria essstar ciente?",
+  "style_profile": {
+    "typo_rate": 0.06176837031996688,
+    "swap_rate": 0.052515487686574644,
+    "drop_rate": 0.0349089532091265,
+    "dup_rate": 0.01617410474968208,
+    "leet_rate": 0.08617794759507669,
+    "start_lower_prob": 0.8357511905951701,
+    "all_lower_prob": 0.1684141469646101,
+    "drop_punct_prob": 0.4868532196506279,
+    "double_space_prob": 0.1740349491791339,
+    "ellipsis_prob": 0.1832393960098122,
+    "runon_prob": 0.12113700792439304,
+    "filler_rate": 0.3336996037582554,
+    "emoji_rate": 0.17243358583989207,
+    "stutter_rate": 0.1953898613880337,
+    "repeat_last_rate": 0.08119745182174117
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 30,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"preocupação sobre como o PrEP pode interagir com meu tratamento para transtorno bipolar\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está vivendo com transtorno bipolar e tem preocupações sobre como isso pode afetar sua saúde mental e a eficácia do PrEP. Você se sente ansioso em relação à adesão ao tratamento e teme o estigma social que pode vir com o uso de PrEP, especialmente no contexto da sua condição de saúde mental.\",\n  \"example_questions\": [\n    \"Como o PrEP pode afetar meu estado emocional devido ao transtorno bipolar?\",\n    \"Quais são os efeitos colaterais do PrEP que eu deveria estar ciente?\",\n    \"É seguro usar PrEP enquanto estou em tratamento para minha condição?\",\n    \"Como posso lidar com a pressão social em relação ao uso de PrEP?\",\n    \"Onde posso encontrar apoio psicológico para discutir minha situação antes de começar o PrEP?\",\n    \"O que outras pessoas que têm transtorno bipolar estão dizendo sobre o uso de PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5eed4186ef959fa3acdab174707203041b13ad282a8aed087ca3654cf3db6dae",
+  "_starter_hash": "a37127c201ae87b115ad9ac1e840262755e39108de8471542abbc8b199b0160b",
+  "_language": "Portuguese",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

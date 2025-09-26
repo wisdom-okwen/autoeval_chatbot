@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare and stigma",
+    "language": "English"
+  },
+  "context": "As a young woman experiencing homelessness, she feels overwhelmed by the barriers to accessing healthcare. The constant struggle for basic needs has left her anxious about seeking out PrEP, fearing judgment from healthcare providers and concerned about her ability to keep up with appointments and medication. Despite her fears, she holds onto hope for a healthier future and wants to learn more about her options.",
+  "example_questions_clean": [
+    "What are the steps I need to take to access PrEP while living on the streets?",
+    "How can I find a healthcare provider who is understanding and respectful of my situation?",
+    "Are there programs that can help with the costs of PrEP for someone without stable housing?",
+    "What should I know about the potential side effects of PrEP in my specific circumstances?",
+    "Can PrEP be delivered in a way that accommodates my lack of a permanent address?",
+    "How do I deal with the stigma I might face when trying to get PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to access PrEP while living on the streets?",
+    "how can I f1nd a healthcare provider who is understanding and respectful of my situation",
+    "Are there programs that can help with the costs of PrEP for someone without stable housing?",
+    "what should i know abkut the potential side fefects of prep in my specific circumstances",
+    "Can PrEP be delivered in a way that accommodates my lack of a permanent address?",
+    "how do I deal with the s71gm4 I might face when trying to get PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I need to take to access PrEP while living on the streets?",
+  "starter_noisy": "What are the steps I need to take to access PrEP while living on the streets?",
+  "followup_index": 1,
+  "followup_clean": "How can I find a healthcare provider who is understanding and respectful of my situation?",
+  "followup_noisy": "how can I f1nd a healthcare provider who is understanding and respectful of my situation",
+  "style_profile": {
+    "typo_rate": 0.08177047277741405,
+    "swap_rate": 0.029042264253537307,
+    "drop_rate": 0.02995742042441644,
+    "dup_rate": 0.010860206333790501,
+    "leet_rate": 0.05414266662793128,
+    "start_lower_prob": 0.8928521099231868,
+    "all_lower_prob": 0.2329062356996685,
+    "drop_punct_prob": 0.4804894577795538,
+    "double_space_prob": 0.2572748467097327,
+    "ellipsis_prob": 0.3341459153159254,
+    "runon_prob": 0.13837933289761814,
+    "filler_rate": 0.26034036893794427,
+    "emoji_rate": 0.24899416217476922,
+    "stutter_rate": 0.15740488547355228,
+    "repeat_last_rate": 0.08457122305493579
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman experiencing homelessness, she feels overwhelmed by the barriers to accessing healthcare. The constant struggle for basic needs has left her anxious about seeking out PrEP, fearing judgment from healthcare providers and concerned about her ability to keep up with appointments and medication. Despite her fears, she holds onto hope for a healthier future and wants to learn more about her options.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to access PrEP while living on the streets?\",\n    \"How can I find a healthcare provider who is understanding and respectful of my situation?\",\n    \"Are there programs that can help with the costs of PrEP for someone without stable housing?\",\n    \"What should I know about the potential side effects of PrEP in my specific circumstances?\",\n    \"Can PrEP be delivered in a way that accommodates my lack of a permanent address?\",\n    \"How do I deal with the stigma I might face when trying to get PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "86d56452ad87ed5cb04b5831a53bae3f129a914c984f41db4302e60ad0a9fd98",
+  "_starter_hash": "a50fa87df2f6bcbbd8bf31d6b34378b8179c1746761919d7bbc836822f23111e",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and potential side effects",
+    "language": "English"
+  },
+  "context": "The user is a 30-year-old American woman who has been experiencing PTSD after a traumatic event. Her condition often leads her to feel anxious and fearful about discussing sensitive topics such as sexual health. She worries that seeking PrEP may expose her to judgment and stigma, which is compounded by her anxiety about potential side effects. Despite her desire for protection, she feels overwhelmed and uncertain about the process of obtaining PrEP.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP and how might they affect someone with PTSD?",
+    "Can you share experiences of others who have faced stigma when seeking PrEP?",
+    "How can I discuss my need for PrEP with a healthcare provider without feeling judged?",
+    "Are there specific resources or support groups for individuals in my situation seeking PrEP?",
+    "What steps can I take to manage my anxiety when considering starting PrEP?",
+    "How does PrEP work to prevent HIV transmission, especially for someone with mental health challenges?"
+  ],
+  "example_questions_noisy": [
+    "What are the common side effectd of rEP and ... how mibht they 4ffec7 someone with PTS?",
+    "Can you share experiences of others who have faced stigma when seeking PrEP?",
+    "how c4n I uh discuss my need for PrEP with a hea;thcare provier without feeling judged? 😅",
+    "4-4r3 here specific resources or uh support groups for individuals in my situation seeking PrEP?",
+    "What steps can I take to manage my anxiety when considering starting PrEP?",
+    "How does PrEP work to prevent HIV trajsmission especially for someone with mental h34l7h challenges 🙂"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How does PrEP work to prevent HIV transmission, especially for someone with mental health challenges?",
+  "starter_noisy": "How does PrEP work to prevent HIV trajsmission especially for someone with mental h34l7h challenges 🙂",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP and how might they affect someone with PTSD?",
+  "followup_noisy": "What are the common side effectd of rEP and ... how mibht they 4ffec7 someone with PTS?",
+  "style_profile": {
+    "typo_rate": 0.08203619021554243,
+    "swap_rate": 0.03979088252488655,
+    "drop_rate": 0.04040262941421986,
+    "dup_rate": 0.013358004351372008,
+    "leet_rate": 0.05970751903222424,
+    "start_lower_prob": 0.7277844570178308,
+    "all_lower_prob": 0.25732785643767736,
+    "drop_punct_prob": 0.5987331647439538,
+    "double_space_prob": 0.1675573557611134,
+    "ellipsis_prob": 0.3071936398635552,
+    "runon_prob": 0.15496702218027067,
+    "filler_rate": 0.40248836210684213,
+    "emoji_rate": 0.2619507223407649,
+    "stutter_rate": 0.1551300084206057,
+    "repeat_last_rate": 0.09203523971787804
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and potential side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 30-year-old American woman who has been experiencing PTSD after a traumatic event. Her condition often leads her to feel anxious and fearful about discussing sensitive topics such as sexual health. She worries that seeking PrEP may expose her to judgment and stigma, which is compounded by her anxiety about potential side effects. Despite her desire for protection, she feels overwhelmed and uncertain about the process of obtaining PrEP.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP and how might they affect someone with PTSD?\",\n    \"Can you share experiences of others who have faced stigma when seeking PrEP?\",\n    \"How can I discuss my need for PrEP with a healthcare provider without feeling judged?\",\n    \"Are there specific resources or support groups for individuals in my situation seeking PrEP?\",\n    \"What steps can I take to manage my anxiety when considering starting PrEP?\",\n    \"How does PrEP work to prevent HIV transmission, especially for someone with mental health challenges?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "77929116199ed89713470cbb57152509ad582115e6aec059c9b8dae37d82d557",
+  "_starter_hash": "27e7316525ef56da1d4357350c86b722de785aa9d4231d9c62104894d16956a9",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

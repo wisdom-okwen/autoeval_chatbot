@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "the potential side effects of PrEP on my health after treatment",
+    "language": "Swahili"
+  },
+  "context": "Mwanamke huyu amerejelewa kutoka matibabu ya saratani na anajisikia wasiwasi kuhusu kuchukua PrEP. Anahisi kutokuwa na uhakika kuhusu athari za PrEP mwilini mwake na jinsi inaweza kuathiri afya yake, hasa baada ya mchakato mgumu wa matibabu. Pia anaweza kukabiliwa na unyanyapaa kutoka kwa jamii kuhusu kuchukua dawa hii.",
+  "example_questions_clean": [
+    "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyofanya kazi?",
+    "Ni athari zipi za kawaida za PrEP ambazo ninapaswa kujua?",
+    "Kuna aina gani za msaada wa kiakili zinazopatikana kwa watu kama mimi wanaofikiria PrEP?",
+    "Je, ni rahisi kupata PrEP kwa mtu anayeishi na historia ya saratani?",
+    "Ninaweza kupata wapi taarifa zaidi juu ya afya yangu na matumizi ya PrEP?",
+    "Ni hatua zipi ninazoweza kuchukua ili kupunguza wasiwasi wangu kuhusu PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyofanya kazi?",
+    "ni um athari zii zz kawaida za PrEP ambazo ninapaswa kujua? ❓",
+    "Kuna aina gani za msaada wa kiakili zinazopatikana kwa watu kama mimi wanaofikiria PrEP?",
+    "je ni rhaisi like kupaaata Pr3P kwa mtu anayeishi na historia ya saratani?",
+    "Ninaweza kupata wapi taarifa zaidi juu ya afya yangu na matumizi ya PrEP?",
+    "Ni hatua zipi ninazoweza kuchukua ili kupunguza wasiwasi wangu kuhusu PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Ni hatua zipi ninazoweza kuchukua ili kupunguza wasiwasi wangu kuhusu PrEP?",
+  "starter_noisy": "Ni hatua zipi ninazoweza kuchukua ili kupunguza wasiwasi wangu kuhusu PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyofanya kazi?",
+  "followup_noisy": "Ninaweza kupata habari gani kuhusu jinsi PrEP inavyofanya kazi?",
+  "style_profile": {
+    "typo_rate": 0.06045685781046417,
+    "swap_rate": 0.03459232609480608,
+    "drop_rate": 0.04699174616279475,
+    "dup_rate": 0.028066995556372452,
+    "leet_rate": 0.08708751732388226,
+    "start_lower_prob": 0.8319729093371895,
+    "all_lower_prob": 0.19453780289451716,
+    "drop_punct_prob": 0.46361269700830327,
+    "double_space_prob": 0.3432342385525766,
+    "ellipsis_prob": 0.17303029602042047,
+    "runon_prob": 0.2716088826622348,
+    "filler_rate": 0.40851979604327304,
+    "emoji_rate": 0.3065987865589067,
+    "stutter_rate": 0.1537561006971048,
+    "repeat_last_rate": 0.1341537101062859
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"the potential side effects of PrEP on my health after treatment\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Mwanamke huyu amerejelewa kutoka matibabu ya saratani na anajisikia wasiwasi kuhusu kuchukua PrEP. Anahisi kutokuwa na uhakika kuhusu athari za PrEP mwilini mwake na jinsi inaweza kuathiri afya yake, hasa baada ya mchakato mgumu wa matibabu. Pia anaweza kukabiliwa na unyanyapaa kutoka kwa jamii kuhusu kuchukua dawa hii.\",\n  \"example_questions\": [\n    \"Ninaweza kupata habari gani kuhusu jinsi PrEP inavyofanya kazi?\",\n    \"Ni athari zipi za kawaida za PrEP ambazo ninapaswa kujua?\",\n    \"Kuna aina gani za msaada wa kiakili zinazopatikana kwa watu kama mimi wanaofikiria PrEP?\",\n    \"Je, ni rahisi kupata PrEP kwa mtu anayeishi na historia ya saratani?\",\n    \"Ninaweza kupata wapi taarifa zaidi juu ya afya yangu na matumizi ya PrEP?\",\n    \"Ni hatua zipi ninazoweza kuchukua ili kupunguza wasiwasi wangu kuhusu PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "973df8b84acbfec65b7f0a62c607b46216d0ab975d8629a0e27135cdef95a79b",
+  "_starter_hash": "956f4309d8baecb1b15829ca6a28a780ee85b01a77611ee917899d8601520595",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

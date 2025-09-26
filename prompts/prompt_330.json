@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "média classe",
+    "primary_concern": "medos sobre a interação entre PrEP e meu tratamento para transtorno bipolar",
+    "language": "Portuguese"
+  },
+  "context": "Você está buscando informações sobre PrEP, enquanto vive com transtorno bipolar. A sua condição às vezes afeta a maneira como você percebe novas informações e toma decisões sobre a sua saúde. Você pode se sentir ansiosa sobre a possibilidade de interações medicamentosas e tem preocupações sobre o estigma que envolve o uso de PrEP em sua vida social e na busca por apoio. É importante para você entender melhor como a PrEP pode se encaixar na sua vida.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais mais comuns da PrEP e como eles podem interagir com meu tratamento atual?",
+    "Estou preocupada com o que as pessoas vão pensar se eu começar a usar PrEP.",
+    "A PrEP realmente é eficaz na prevenção do HIV em pessoas com condições de saúde mental?",
+    "Como posso encontrar um profissional de saúde que compreenda minha situação e me ajude com PrEP?",
+    "Existem recursos ou grupos de apoio que abordam a experiência de usar PrEP com transtorno bipolar?",
+    "Quais são os passos para iniciar a PrEP e o que devo esperar na consulta médica?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os efeitos colaterais mais comuns da PrEP e como eles podem interagir com meu tratamento atual?",
+    "estou preocupada com o que as pessoas vão pensar 53 eu cimeçar a usar prep. 😕",
+    "A PrEP realmente é eficaz na prevenção do HIV em pessoas com condições de saúde mental?",
+    "Como posso encontrar um profissional de saúde que compreenda minha situação e me ajude com PrEP?",
+    "existem r3cur5o5 ou grupoa de zpoio que 4b0rdam a experiência de usar PrEP com 7r4n570rno bipolar?",
+    "Quais são os passos para iniciar a PrEP e o que devo esperar na consulta médica? 🫠"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Existem recursos ou grupos de apoio que abordam a experiência de usar PrEP com transtorno bipolar?",
+  "starter_noisy": "existem r3cur5o5 ou grupoa de zpoio que 4b0rdam a experiência de usar PrEP com 7r4n570rno bipolar?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais mais comuns da PrEP e como eles podem interagir com meu tratamento atual?",
+  "followup_noisy": "Quais são os efeitos colaterais mais comuns da PrEP e como eles podem interagir com meu tratamento atual?",
+  "style_profile": {
+    "typo_rate": 0.0765044076285538,
+    "swap_rate": 0.03327913139867262,
+    "drop_rate": 0.02955276507827941,
+    "dup_rate": 0.021771706221194453,
+    "leet_rate": 0.10385080436194422,
+    "start_lower_prob": 0.8763798452874421,
+    "all_lower_prob": 0.3431617169490051,
+    "drop_punct_prob": 0.5341869871022594,
+    "double_space_prob": 0.3236949610117652,
+    "ellipsis_prob": 0.23218144522900783,
+    "runon_prob": 0.10306875852996288,
+    "filler_rate": 0.3349187861867437,
+    "emoji_rate": 0.30952831385890334,
+    "stutter_rate": 0.1825712433447586,
+    "repeat_last_rate": 0.13556500920440134
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"média classe\",\n    \"primary_concern\": \"medos sobre a interação entre PrEP e meu tratamento para transtorno bipolar\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você está buscando informações sobre PrEP, enquanto vive com transtorno bipolar. A sua condição às vezes afeta a maneira como você percebe novas informações e toma decisões sobre a sua saúde. Você pode se sentir ansiosa sobre a possibilidade de interações medicamentosas e tem preocupações sobre o estigma que envolve o uso de PrEP em sua vida social e na busca por apoio. É importante para você entender melhor como a PrEP pode se encaixar na sua vida.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais mais comuns da PrEP e como eles podem interagir com meu tratamento atual?\",\n    \"Estou preocupada com o que as pessoas vão pensar se eu começar a usar PrEP.\",\n    \"A PrEP realmente é eficaz na prevenção do HIV em pessoas com condições de saúde mental?\",\n    \"Como posso encontrar um profissional de saúde que compreenda minha situação e me ajude com PrEP?\",\n    \"Existem recursos ou grupos de apoio que abordam a experiência de usar PrEP com transtorno bipolar?\",\n    \"Quais são os passos para iniciar a PrEP e o que devo esperar na consulta médica?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0e2f6e9622a6f3c2c0ce709891450082e21760b3977baa07be99d0b9bbfa7540",
+  "_starter_hash": "4d4784a7611e1924eb2475d1e12f45dbcf88957638bb31d32a8dd6b4780bb87b",
+  "_language": "Portuguese",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

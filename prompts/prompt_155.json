@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la stigmatisation associée au PrEP et son impact sur ma santé mentale",
+    "language": "French"
+  },
+  "context": "Cette personne est en phase de rétablissement après un traumatisme. Elle ressent une anxiété accrue à l'idée d'accéder à des soins médicaux, notamment en ce qui concerne le PrEP, en raison de la peur du jugement et des préjugés. Son état émotionnel la rend plus vulnérable face aux stigmates liés au VIH et à la sexualité, ce qui l'inquiète dans son parcours de soin.",
+  "example_questions_clean": [
+    "Quels sont les avantages du PrEP pour quelqu'un comme moi ?",
+    "Comment puis-je surmonter ma peur du jugement lorsque je parle de PrEP ?",
+    "Y a-t-il des ressources de soutien pour les personnes qui ont vécu un traumatisme ?",
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?",
+    "Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les avantages du PrEP pour quelqu'un comme moi ?",
+    "c-comment puis-je surmonter ma peur du jugement lorsque je adle de prep 🙄",
+    "y a-t-il des ressources de soutien pouuur les p3r50nn35 qui ont vécu un traumatisme",
+    "comment le PrEP peut-il m'aider à me sentir plus en 5écur17é dans mes relations i mean ? 😭 😭",
+    "quels sont les effefs secondaires possibles du PrEP sur mz santé mentale"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?",
+  "starter_noisy": "quels sont les effefs secondaires possibles du PrEP sur mz santé mentale",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les avantages du PrEP pour quelqu'un comme moi ?",
+  "followup_noisy": "Quels sont les avantages du PrEP pour quelqu'un comme moi ?",
+  "style_profile": {
+    "typo_rate": 0.08287070355813414,
+    "swap_rate": 0.04164950865498565,
+    "drop_rate": 0.032150934476626834,
+    "dup_rate": 0.01675658926197375,
+    "leet_rate": 0.051371716223495956,
+    "start_lower_prob": 0.8734817746408929,
+    "all_lower_prob": 0.19303856183426643,
+    "drop_punct_prob": 0.529773665840058,
+    "double_space_prob": 0.23608040447176293,
+    "ellipsis_prob": 0.23018321740628617,
+    "runon_prob": 0.19181479758952663,
+    "filler_rate": 0.30811383689684857,
+    "emoji_rate": 0.25088566580462546,
+    "stutter_rate": 0.1868884528261266,
+    "repeat_last_rate": 0.1743615682231457
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la stigmatisation associée au PrEP et son impact sur ma santé mentale\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne est en phase de rétablissement après un traumatisme. Elle ressent une anxiété accrue à l'idée d'accéder à des soins médicaux, notamment en ce qui concerne le PrEP, en raison de la peur du jugement et des préjugés. Son état émotionnel la rend plus vulnérable face aux stigmates liés au VIH et à la sexualité, ce qui l'inquiète dans son parcours de soin.\",\n  \"example_questions\": [\n    \"Quels sont les avantages du PrEP pour quelqu'un comme moi ?\",\n    \"Comment puis-je surmonter ma peur du jugement lorsque je parle de PrEP ?\",\n    \"Y a-t-il des ressources de soutien pour les personnes qui ont vécu un traumatisme ?\",\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité dans mes relations ?\",\n    \"Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e9961279004950e2f7db5c74db69d49b480a8949edff61ad8bc7ba5a3c2a6392",
+  "_starter_hash": "20ddd35cbb4bae6ba4a0375d1adea462cd890029fc1537d61c5267dca9c72794",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

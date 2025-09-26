@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en afwijzing",
+    "language": "Dutch"
+  },
+  "context": "Je hebt moeite met je zelfvertrouwen en dit beïnvloedt je bereidheid om PrEP te bespreken. Je maakt je zorgen over wat anderen zullen denken als ze ontdekken dat je PrEP overweegt. Deze angst kan je tegenhouden om de juiste zorg en informatie te zoeken.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+    "Hoe kan ik mijn angsten over stigma overwinnen als ik PrEP wil gebruiken?",
+    "Wat moet ik verwachten tijdens een consultatie over PrEP?",
+    "Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?",
+    "Hoe kan ik met mijn partner praten over het gebruik van PrEP?",
+    "Wat zijn de kosten van PrEP en worden deze vergoed?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+    "hoe kan ik mijn angsten over stigma overwinnen zls ik Pr3P wil gebruiken?",
+    "Wat moet ik verwachten tijdens een consultatie over PrEP?",
+    "Z-Zijn er ondersteuningsgroepen voor mensen like die PrEP overwegen? overwegen?",
+    "Hoe kan ik met mijn partner praten over het gebruik van PrEP?",
+    "Wat zijn de kosten van PrEP en worden deze vedgoed 🙂"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Wat zijn de kosten van PrEP en worden deze vergoed?",
+  "starter_noisy": "Wat zijn de kosten van PrEP en worden deze vedgoed 🙂",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+  "followup_noisy": "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+  "style_profile": {
+    "typo_rate": 0.08499347729350376,
+    "swap_rate": 0.02823517082115936,
+    "drop_rate": 0.027989084133523003,
+    "dup_rate": 0.017114514618187266,
+    "leet_rate": 0.061204272153874174,
+    "start_lower_prob": 0.6806294686988299,
+    "all_lower_prob": 0.15219925038972476,
+    "drop_punct_prob": 0.36671632133959803,
+    "double_space_prob": 0.22121925307712698,
+    "ellipsis_prob": 0.19542193268102848,
+    "runon_prob": 0.10671006659613896,
+    "filler_rate": 0.3281294708516008,
+    "emoji_rate": 0.21645567099097984,
+    "stutter_rate": 0.1642952248415907,
+    "repeat_last_rate": 0.14837862377996136
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en afwijzing\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt moeite met je zelfvertrouwen en dit beïnvloedt je bereidheid om PrEP te bespreken. Je maakt je zorgen over wat anderen zullen denken als ze ontdekken dat je PrEP overweegt. Deze angst kan je tegenhouden om de juiste zorg en informatie te zoeken.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?\",\n    \"Hoe kan ik mijn angsten over stigma overwinnen als ik PrEP wil gebruiken?\",\n    \"Wat moet ik verwachten tijdens een consultatie over PrEP?\",\n    \"Zijn er ondersteuningsgroepen voor mensen die PrEP overwegen?\",\n    \"Hoe kan ik met mijn partner praten over het gebruik van PrEP?\",\n    \"Wat zijn de kosten van PrEP en worden deze vergoed?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "952aa2fef53accfeea84baa563c76d7ab3be024bb638467c227fb8d1ea051866",
+  "_starter_hash": "3f13f1273c88b0f6b663ba2e19f924400a7b688cf5fe545b29bcab9af9c86330",
+  "_language": "Dutch",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

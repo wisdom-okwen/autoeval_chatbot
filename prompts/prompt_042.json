@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worry about how PrEP may interact with my chronic pain medications",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old American woman living with chronic pain, which affects your daily life and often influences your decisions about health care. You feel anxious about starting PrEP due to concerns regarding potential interactions with your current medications and the stigma associated with HIV prevention. You hope for clarity on how PrEP can fit into your life without complicating your health management.",
+  "example_questions_clean": [
+    "What are the side effects of PrEP for someone already managing chronic pain?",
+    "Can you tell me how PrEP works and if it can affect my pain management?",
+    "How do I approach my doctor about starting PrEP given my situation?",
+    "Are there specific resources available for people with chronic conditions who want to start PrEP?",
+    "What should I know about the stigma surrounding PrEP and its impact on my mental health?",
+    "How can I balance my concerns about chronic pain while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wjat are thr side effects of PrEP for someone already manwging chronic pain? pain?",
+    "c4n you tell me how PrEP works and if it can affect my p41n management?",
+    "h-how do uh i approach my doctor 4b0u7 starting prep given my situation?",
+    "Are there specific resources available for people with chronic conditions who want to start PrEP?",
+    "w-what should I know abotu the stigma 5urr0und1ng PErP and ... its impact on my mental health ❓",
+    "how can I balance my concerns about chronic pain whilw considering PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How can I balance my concerns about chronic pain while considering PrEP?",
+  "starter_noisy": "how can I balance my concerns about chronic pain whilw considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the side effects of PrEP for someone already managing chronic pain?",
+  "followup_noisy": "Wjat are thr side effects of PrEP for someone already manwging chronic pain? pain?",
+  "style_profile": {
+    "typo_rate": 0.07923722096041251,
+    "swap_rate": 0.05784448666930801,
+    "drop_rate": 0.028260196626995228,
+    "dup_rate": 0.029315075500861133,
+    "leet_rate": 0.10849444242496961,
+    "start_lower_prob": 0.6788844258879431,
+    "all_lower_prob": 0.19667221174994046,
+    "drop_punct_prob": 0.579375827645252,
+    "double_space_prob": 0.2931624803406546,
+    "ellipsis_prob": 0.2082030300244755,
+    "runon_prob": 0.22057025231690552,
+    "filler_rate": 0.3096875092790888,
+    "emoji_rate": 0.24963895739023367,
+    "stutter_rate": 0.12808084928265218,
+    "repeat_last_rate": 0.10922472554073041
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worry about how PrEP may interact with my chronic pain medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old American woman living with chronic pain, which affects your daily life and often influences your decisions about health care. You feel anxious about starting PrEP due to concerns regarding potential interactions with your current medications and the stigma associated with HIV prevention. You hope for clarity on how PrEP can fit into your life without complicating your health management.\",\n  \"example_questions\": [\n    \"What are the side effects of PrEP for someone already managing chronic pain?\",\n    \"Can you tell me how PrEP works and if it can affect my pain management?\",\n    \"How do I approach my doctor about starting PrEP given my situation?\",\n    \"Are there specific resources available for people with chronic conditions who want to start PrEP?\",\n    \"What should I know about the stigma surrounding PrEP and its impact on my mental health?\",\n    \"How can I balance my concerns about chronic pain while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aa247993e722d7d378e54c4b3b156c03d779513fd039aa20dc802c29ab087897",
+  "_starter_hash": "b49bef5b5aa7a1170ac4efda4b8c9bd52a07e2af37e78fcd98b284fbe3c9a989",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

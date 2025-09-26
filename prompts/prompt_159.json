@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare while experiencing homelessness",
+    "language": "Spanish"
+  },
+  "context": "Un joven de 28 años se enfrenta a la falta de vivienda y a la inseguridad económica. Esto le genera ansiedad y preocupación sobre cómo acceder a PrEP, ya que no cuenta con un lugar estable donde recibir atención médica. Siente miedo por el estigma asociado al VIH y la dificultad de mantener una rutina de salud en su situación actual.",
+  "example_questions_clean": [
+    "¿Cómo puedo encontrar un lugar donde me ofrezcan PrEP sin tener un hogar fijo?",
+    "¿Existen programas específicos para personas sin hogar que faciliten el acceso a PrEP?",
+    "¿Qué debo hacer si me siento incómodo al hablar sobre mi situación en un centro de salud?",
+    "¿Es posible obtener PrEP sin tener que proporcionar información personal complicada?",
+    "¿Qué recursos hay disponibles para ayudarme a manejar mi salud mental mientras busco PrEP?",
+    "¿Cómo puedo enfrentar el miedo al juicio cuando busco información sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo puedo encontrar un lugar donde me ofrezcan Pr3P sin 73n3r un hogar fijo",
+    "¿exsten programas específicos para personas sin hgar que faciliten 3l acceso a prep?",
+    "¿qué debo hacer si me siento incómodo al bablar sobre mi situación en un centro de alud?",
+    "¿Es posible obtene rPEP sin tener que proporcionar información personal complicada?",
+    "¿Qué recursos hay disponibles para ayudarme a manejar mi salud mental mientras busco PrEP?",
+    "¿Cómo puedo enfrentar el miedo al juicio cuando busco información sobre PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Es posible obtener PrEP sin tener que proporcionar información personal complicada?",
+  "starter_noisy": "¿Es posible obtene rPEP sin tener que proporcionar información personal complicada?",
+  "followup_index": 0,
+  "followup_clean": "¿Cómo puedo encontrar un lugar donde me ofrezcan PrEP sin tener un hogar fijo?",
+  "followup_noisy": "¿Cómo puedo encontrar un lugar donde me ofrezcan Pr3P sin 73n3r un hogar fijo",
+  "style_profile": {
+    "typo_rate": 0.07371046724267133,
+    "swap_rate": 0.046397405020529706,
+    "drop_rate": 0.04722784510442113,
+    "dup_rate": 0.017680365806026256,
+    "leet_rate": 0.09614948260017343,
+    "start_lower_prob": 0.7970310893740888,
+    "all_lower_prob": 0.34141153323471296,
+    "drop_punct_prob": 0.33728562727475125,
+    "double_space_prob": 0.283331386109804,
+    "ellipsis_prob": 0.29635595603115295,
+    "runon_prob": 0.1585792373558238,
+    "filler_rate": 0.29068925039650145,
+    "emoji_rate": 0.19981588918415794,
+    "stutter_rate": 0.19816308202059885,
+    "repeat_last_rate": 0.1153347408504139
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare while experiencing homelessness\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Un joven de 28 años se enfrenta a la falta de vivienda y a la inseguridad económica. Esto le genera ansiedad y preocupación sobre cómo acceder a PrEP, ya que no cuenta con un lugar estable donde recibir atención médica. Siente miedo por el estigma asociado al VIH y la dificultad de mantener una rutina de salud en su situación actual.\",\n  \"example_questions\": [\n    \"¿Cómo puedo encontrar un lugar donde me ofrezcan PrEP sin tener un hogar fijo?\",\n    \"¿Existen programas específicos para personas sin hogar que faciliten el acceso a PrEP?\",\n    \"¿Qué debo hacer si me siento incómodo al hablar sobre mi situación en un centro de salud?\",\n    \"¿Es posible obtener PrEP sin tener que proporcionar información personal complicada?\",\n    \"¿Qué recursos hay disponibles para ayudarme a manejar mi salud mental mientras busco PrEP?\",\n    \"¿Cómo puedo enfrentar el miedo al juicio cuando busco información sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ceaa515b658273b72d1ed563fe11cc091adc2bc461c5d7b430a807f86993e030",
+  "_starter_hash": "1997ed56ac0f98322763796338b1bff280a25fd61876b78de6e8f0d40fe85ba5",
+  "_language": "Spanish",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

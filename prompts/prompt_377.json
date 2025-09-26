@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 30,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "angst voor stigmatisering en toegang tot zorg",
+    "language": "Dutch"
+  },
+  "context": "Je voelt je vaak sociaal geïsoleerd en het idee om PrEP te gebruiken kan overweldigend zijn. Je maakt je zorgen over hoe anderen je zullen zien en of je toegang kunt krijgen tot de juiste zorg zonder oordelen. Deze gevoelens kunnen je weerhouden van het zoeken naar informatie of ondersteuning, terwijl je hoopt op een veiligere toekomst.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen om PrEP te krijgen?",
+    "Hoe kan ik praten over PrEP zonder me ongemakkelijk te voelen?",
+    "Zijn er speciale programma's voor mensen met een laag inkomen die PrEP willen gebruiken?",
+    "Hoe kan ik ervoor zorgen dat ik discreet ben tijdens het aanvragen van PrEP?",
+    "Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?",
+    "Kan ik hulp vinden als ik me sociaal geïsoleerd voel terwijl ik PrEP overweeg?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de 33r573 stappen om prep te krijgen",
+    "Hoe kan ik praten over PrEP zonder me ongemakkelijk te voelen?",
+    "Zijn er speciale programma's voor mensen met een laag inkomen die PrEP willen gebruiken?",
+    "Hoe kan ik ervoor zorgen dat ik discreet ben tijdens het aanvragen van PrEP?",
+    "wat zijn de moeglijke bijwerkingen van PrEP die ik moet weten? ✨",
+    "kan ik hulp vinden als ik me you know ociaal g3ï50l33rd vole terwijl ik PrEP ov3rw33g? 🙄"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Hoe kan ik ervoor zorgen dat ik discreet ben tijdens het aanvragen van PrEP?",
+  "starter_noisy": "Hoe kan ik ervoor zorgen dat ik discreet ben tijdens het aanvragen van PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de eerste stappen om PrEP te krijgen?",
+  "followup_noisy": "wat zijn de 33r573 stappen om prep te krijgen",
+  "style_profile": {
+    "typo_rate": 0.0671585485279139,
+    "swap_rate": 0.0544102997272537,
+    "drop_rate": 0.04060340172783911,
+    "dup_rate": 0.01099063538235472,
+    "leet_rate": 0.06447837943265397,
+    "start_lower_prob": 0.8660827490836045,
+    "all_lower_prob": 0.2368747354283286,
+    "drop_punct_prob": 0.36804068401772033,
+    "double_space_prob": 0.3460865570405856,
+    "ellipsis_prob": 0.17608709373471856,
+    "runon_prob": 0.28115666182262433,
+    "filler_rate": 0.2514285972445696,
+    "emoji_rate": 0.24986494261090675,
+    "stutter_rate": 0.10162180726358169,
+    "repeat_last_rate": 0.15918480021952364
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 30,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"angst voor stigmatisering en toegang tot zorg\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je voelt je vaak sociaal geïsoleerd en het idee om PrEP te gebruiken kan overweldigend zijn. Je maakt je zorgen over hoe anderen je zullen zien en of je toegang kunt krijgen tot de juiste zorg zonder oordelen. Deze gevoelens kunnen je weerhouden van het zoeken naar informatie of ondersteuning, terwijl je hoopt op een veiligere toekomst.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen om PrEP te krijgen?\",\n    \"Hoe kan ik praten over PrEP zonder me ongemakkelijk te voelen?\",\n    \"Zijn er speciale programma's voor mensen met een laag inkomen die PrEP willen gebruiken?\",\n    \"Hoe kan ik ervoor zorgen dat ik discreet ben tijdens het aanvragen van PrEP?\",\n    \"Wat zijn de mogelijke bijwerkingen van PrEP die ik moet weten?\",\n    \"Kan ik hulp vinden als ik me sociaal geïsoleerd voel terwijl ik PrEP overweeg?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7031c39524a7dceb638b8bf29a47b290ad2f5a53aacad76e4a947c5c5cf624dd",
+  "_starter_hash": "5399c85332a7ad6b9ea7daa94710657d514e7bffb6f2e98af32af7eedc2ce161",
+  "_language": "Dutch",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

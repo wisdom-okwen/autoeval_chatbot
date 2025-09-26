@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and acceptance in her community",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old American woman who is recovering from trauma related to her past experiences with intimacy and relationships. She feels anxious about the social stigma surrounding PrEP and worries about how her decision to take it might be perceived by others. Her emotional state is a mix of hope for better health and fear of judgment, creating a barrier to accessing PrEP.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are some common concerns or misconceptions people have about using PrEP?",
+    "How can I talk to my healthcare provider about my interest in PrEP without feeling judged?",
+    "Are there support groups or resources for people considering PrEP that focus on emotional well-being?",
+    "What should I know about potential side effects of PrEP, especially concerning my mental health?",
+    "How can I find a community of individuals who are also using PrEP to share experiences and advice?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are some common concerns or misconceptions people have about using PrEP?",
+    "How can I talk to my healthcare provider about my interest in PrEP without feeling judged?",
+    "Are there support groups or resources for people considering PrEP that focus on emotional well-being?",
+    "What should I know about potential side effects of PrEP, especially concerning my mental health?",
+    "How can I find a community of individuals who are also using PrEP to share experiences and advice?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there support groups or resources for people considering PrEP that focus on emotional well-being?",
+  "starter_noisy": "Are there support groups or resources for people considering PrEP that focus on emotional well-being?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and who should consider taking it?",
+  "followup_noisy": "Can you explain how PrEP works and who should consider taking it?",
+  "style_profile": {
+    "typo_rate": 0.10265114550690972,
+    "swap_rate": 0.057481562158611305,
+    "drop_rate": 0.04215671289732578,
+    "dup_rate": 0.015262499094451576,
+    "leet_rate": 0.06472110391399138,
+    "start_lower_prob": 0.880367975597194,
+    "all_lower_prob": 0.21658264075986267,
+    "drop_punct_prob": 0.39257245678373837,
+    "double_space_prob": 0.16937327365080557,
+    "ellipsis_prob": 0.34268032461526726,
+    "runon_prob": 0.20142066663047709,
+    "filler_rate": 0.4457090459624755,
+    "emoji_rate": 0.2546549776197271,
+    "stutter_rate": 0.12983450084657788,
+    "repeat_last_rate": 0.15477038077708988
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and acceptance in her community\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old American woman who is recovering from trauma related to her past experiences with intimacy and relationships. She feels anxious about the social stigma surrounding PrEP and worries about how her decision to take it might be perceived by others. Her emotional state is a mix of hope for better health and fear of judgment, creating a barrier to accessing PrEP.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and who should consider taking it?\",\n    \"What are some common concerns or misconceptions people have about using PrEP?\",\n    \"How can I talk to my healthcare provider about my interest in PrEP without feeling judged?\",\n    \"Are there support groups or resources for people considering PrEP that focus on emotional well-being?\",\n    \"What should I know about potential side effects of PrEP, especially concerning my mental health?\",\n    \"How can I find a community of individuals who are also using PrEP to share experiences and advice?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d39ed080843eb2400ab30c903fb70765f54be2307e7ea877ae881e7c3b81110e",
+  "_starter_hash": "919d18e98992ba91073b02727ea99a948babef7272f028d0bd4016552e8d3aa8",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

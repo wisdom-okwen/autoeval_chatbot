@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of potential interactions with medication post-cancer treatment",
+    "language": "English"
+  },
+  "context": "The user is a 35-year-old woman who has recently completed cancer treatment. She feels uncertain about starting PrEP due to concerns about how it might interact with her current medications and the emotional weight of her recent health journey. The stigma around being on PrEP adds to her hesitance, as she worries about judgment from others and struggles with feelings of vulnerability.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and if it's safe for someone recovering from cancer?",
+    "What are the potential side effects of PrEP that I should be aware of, especially after my treatment?",
+    "Are there specific resources or support groups for people like me considering PrEP?",
+    "How can I approach my healthcare provider about starting PrEP without feeling embarrassed?",
+    "What should I do if I experience any adverse reactions while on PrEP?",
+    "Is there a stigma associated with taking PrEP that I should be concerned about?"
+  ],
+  "example_questions_noisy": [
+    "um can you explain how Pr3P wokrs and if it's safe for someone recovering from cancer? 😕",
+    "What are the potential side effects of PrEP that I should be aware of, especially after my treatment?",
+    "are 7h3r3 specific resources or support groups for people l1k3 me considering PrEP?",
+    "how can I approach my healthcare pr0v1d3r about starting PEP without feeling embarrassed? 🙄",
+    "What should I do if I experience any adverse reactions while on PrEP?",
+    "Is there a stigma associated with taking PrEP that I should be concerned about?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Can you explain how PrEP works and if it's safe for someone recovering from cancer?",
+  "starter_noisy": "um can you explain how Pr3P wokrs and if it's safe for someone recovering from cancer? 😕",
+  "followup_index": 1,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of, especially after my treatment?",
+  "followup_noisy": "What are the potential side effects of PrEP that I should be aware of, especially after my treatment?",
+  "style_profile": {
+    "typo_rate": 0.07438287906428147,
+    "swap_rate": 0.05709664630287849,
+    "drop_rate": 0.020544742854164303,
+    "dup_rate": 0.014211452429496459,
+    "leet_rate": 0.09350393951276831,
+    "start_lower_prob": 0.7865272505951155,
+    "all_lower_prob": 0.29387523736402066,
+    "drop_punct_prob": 0.33964311032504463,
+    "double_space_prob": 0.19979271733401882,
+    "ellipsis_prob": 0.3444787428284681,
+    "runon_prob": 0.17042096580973828,
+    "filler_rate": 0.37427633489308776,
+    "emoji_rate": 0.24008142704723018,
+    "stutter_rate": 0.13801851269088788,
+    "repeat_last_rate": 0.13209170553668348
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of potential interactions with medication post-cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 35-year-old woman who has recently completed cancer treatment. She feels uncertain about starting PrEP due to concerns about how it might interact with her current medications and the emotional weight of her recent health journey. The stigma around being on PrEP adds to her hesitance, as she worries about judgment from others and struggles with feelings of vulnerability.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and if it's safe for someone recovering from cancer?\",\n    \"What are the potential side effects of PrEP that I should be aware of, especially after my treatment?\",\n    \"Are there specific resources or support groups for people like me considering PrEP?\",\n    \"How can I approach my healthcare provider about starting PrEP without feeling embarrassed?\",\n    \"What should I do if I experience any adverse reactions while on PrEP?\",\n    \"Is there a stigma associated with taking PrEP that I should be concerned about?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0b742a1710f99f48c3e4935a294998a5d026250357adc4072f13784631ac6455",
+  "_starter_hash": "b69962ae44d6c58347aa420f9fb7055d1c1beea84da481b7f3695b277a11f278",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

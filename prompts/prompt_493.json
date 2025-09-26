@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 30,
+    "gender": "Masculino",
+    "socio_economic_status": "Baixa renda",
+    "primary_concern": "Estigma relacionado ao HIV",
+    "language": "Portuguese"
+  },
+  "context": "Você é um homem de 30 anos que vive no Brasil e se sente pressionado pelo estigma associado ao HIV. Isso faz com que você tenha medo de buscar informações sobre o PrEP, mesmo desejando proteger sua saúde e a de outras pessoas. Você sente que o julgamento social pode afetar sua vida pessoal e profissional, criando barreiras para o acesso ao tratamento.",
+  "example_questions_clean": [
+    "Quais são os benefícios do PrEP para alguém como eu que vive com o estigma do HIV?",
+    "Como posso superar o medo de procurar PrEP devido ao que os outros podem pensar?",
+    "Existem grupos de apoio onde eu possa conversar sobre minha situação e o uso do PrEP?",
+    "O que acontece se eu não tiver condições financeiras para pagar pelo PrEP?",
+    "Qual é a melhor forma de abordar a conversa sobre PrEP com meu médico?",
+    "Como posso lidar com o estigma enquanto busco informações sobre o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os benefícios do PrEP para alguém como eu que vive com o estigma do HIV?",
+    "Como posso superar o medo de procurar PrEP devido ao que os outros podem pensar?",
+    "Existem grupos de apoio onde eu possa conversar sobre minha situação e o uso do PrEP?",
+    "o que acccontece se eu não tevr condições financeiras praa pagar pelo PrEP? 🤔",
+    "qual é a melhor torma de abordar a conversa 50bre prep com meu idk médico?",
+    "como posso lidar com o estigma dnquanto busco infprmações sobre o PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Como posso lidar com o estigma enquanto busco informações sobre o PrEP?",
+  "starter_noisy": "como posso lidar com o estigma dnquanto busco infprmações sobre o PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os benefícios do PrEP para alguém como eu que vive com o estigma do HIV?",
+  "followup_noisy": "Quais são os benefícios do PrEP para alguém como eu que vive com o estigma do HIV?",
+  "style_profile": {
+    "typo_rate": 0.05408425199688624,
+    "swap_rate": 0.05718846048925334,
+    "drop_rate": 0.041291933345989726,
+    "dup_rate": 0.02415209054855122,
+    "leet_rate": 0.052155837469399315,
+    "start_lower_prob": 0.6732332339744118,
+    "all_lower_prob": 0.2593460390217547,
+    "drop_punct_prob": 0.46475338337068617,
+    "double_space_prob": 0.20896118783975542,
+    "ellipsis_prob": 0.2657878716222261,
+    "runon_prob": 0.2690593538496381,
+    "filler_rate": 0.2692986671004621,
+    "emoji_rate": 0.2723158590837186,
+    "stutter_rate": 0.15875588514703276,
+    "repeat_last_rate": 0.17114907239997212
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 30,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Baixa renda\",\n    \"primary_concern\": \"Estigma relacionado ao HIV\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você é um homem de 30 anos que vive no Brasil e se sente pressionado pelo estigma associado ao HIV. Isso faz com que você tenha medo de buscar informações sobre o PrEP, mesmo desejando proteger sua saúde e a de outras pessoas. Você sente que o julgamento social pode afetar sua vida pessoal e profissional, criando barreiras para o acesso ao tratamento.\",\n  \"example_questions\": [\n    \"Quais são os benefícios do PrEP para alguém como eu que vive com o estigma do HIV?\",\n    \"Como posso superar o medo de procurar PrEP devido ao que os outros podem pensar?\",\n    \"Existem grupos de apoio onde eu possa conversar sobre minha situação e o uso do PrEP?\",\n    \"O que acontece se eu não tiver condições financeiras para pagar pelo PrEP?\",\n    \"Qual é a melhor forma de abordar a conversa sobre PrEP com meu médico?\",\n    \"Como posso lidar com o estigma enquanto busco informações sobre o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fdbbb52df396775c79603326c3836ce8a8f22df4170640739cd4be7b4226dfd2",
+  "_starter_hash": "014c5d68686816432787f9fc02729cc77ed0de01b36c663336011f94706b6f7d",
+  "_language": "Portuguese",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

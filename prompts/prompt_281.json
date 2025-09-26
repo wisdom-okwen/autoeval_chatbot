@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "French",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "la stigmatisation liée à l'utilisation du PrEP après des traumatismes personnels",
+    "language": "French"
+  },
+  "context": "Vous êtes en train de vous remettre d'un traumatisme et vous êtes préoccupée par la manière dont cela pourrait affecter votre accès au PrEP. Vous avez des inquiétudes concernant le jugement que vous pourriez rencontrer et vous souhaitez comprendre comment naviguer dans ce processus tout en tenant compte de votre état émotionnel.",
+  "example_questions_clean": [
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité après ce que j'ai vécu ?",
+    "Quelles ressources sont disponibles pour les personnes qui ont subi un traumatisme et souhaitent accéder au PrEP ?",
+    "Y a-t-il des professionnels de santé qui comprennent les défis émotionnels liés à l'accès au PrEP ?",
+    "Comment puis-je aborder le sujet du PrEP avec un médecin sans craindre le jugement ?",
+    "Est-ce que le fait d'être dans une situation financière précaire complique l'accès au PrEP ?",
+    "Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?"
+  ],
+  "example_questions_noisy": [
+    "Comment le PrEP peut-il m'aider à me sentir plus en sécurité après ce que j'ai vécu ?",
+    "Quelles ressources sont disponibles pour les personnes qui ont subi un traumatisme et souhaitent accéder au PrEP ?",
+    "Y a-t-il des professionnels de santé qui comprennent les défis émotionnels liés à l'accès au PrEP ?",
+    "coment puis-je aborder le sujet du Pr3P avec un médecin san craindre um le jugement ?",
+    "Est-ce que le fait d'être dans une situation financière précaire complique l'accès au PrEP ?",
+    "Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment puis-je aborder le sujet du PrEP avec un médecin sans craindre le jugement ?",
+  "starter_noisy": "coment puis-je aborder le sujet du Pr3P avec un médecin san craindre um le jugement ?",
+  "followup_index": 0,
+  "followup_clean": "Comment le PrEP peut-il m'aider à me sentir plus en sécurité après ce que j'ai vécu ?",
+  "followup_noisy": "Comment le PrEP peut-il m'aider à me sentir plus en sécurité après ce que j'ai vécu ?",
+  "style_profile": {
+    "typo_rate": 0.06557961383915126,
+    "swap_rate": 0.039236400777448666,
+    "drop_rate": 0.04283145090291797,
+    "dup_rate": 0.024877157640148632,
+    "leet_rate": 0.0788549642919171,
+    "start_lower_prob": 0.8227831455100497,
+    "all_lower_prob": 0.21236104736331612,
+    "drop_punct_prob": 0.34016037876604355,
+    "double_space_prob": 0.2262484008236454,
+    "ellipsis_prob": 0.27652818254553485,
+    "runon_prob": 0.19660647556504884,
+    "filler_rate": 0.40300171229578347,
+    "emoji_rate": 0.23786950486721042,
+    "stutter_rate": 0.19306689892302387,
+    "repeat_last_rate": 0.16305191178620404
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"French\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"la stigmatisation liée à l'utilisation du PrEP après des traumatismes personnels\",\n    \"language\": \"French\"\n  },\n  \"context\": \"Vous êtes en train de vous remettre d'un traumatisme et vous êtes préoccupée par la manière dont cela pourrait affecter votre accès au PrEP. Vous avez des inquiétudes concernant le jugement que vous pourriez rencontrer et vous souhaitez comprendre comment naviguer dans ce processus tout en tenant compte de votre état émotionnel.\",\n  \"example_questions\": [\n    \"Comment le PrEP peut-il m'aider à me sentir plus en sécurité après ce que j'ai vécu ?\",\n    \"Quelles ressources sont disponibles pour les personnes qui ont subi un traumatisme et souhaitent accéder au PrEP ?\",\n    \"Y a-t-il des professionnels de santé qui comprennent les défis émotionnels liés à l'accès au PrEP ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec un médecin sans craindre le jugement ?\",\n    \"Est-ce que le fait d'être dans une situation financière précaire complique l'accès au PrEP ?\",\n    \"Quels sont les effets secondaires possibles du PrEP sur ma santé mentale ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5876b2c470895c637e3b691defc0b1b5a8c08b7999ec46c4f1606cc963b281d5",
+  "_starter_hash": "dbe3ed21af92f72a03e68d0b3a7f702e4014ba9d622fd5c2b7d19e26fe94107c",
+  "_language": "French",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

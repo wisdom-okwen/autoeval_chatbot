@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "médio",
+    "primary_concern": "temor sobre o estigma associado ao uso do PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você está lidando com a ansiedade social, o que torna desafiador buscar informações sobre PrEP e discutir sua saúde sexual. A preocupação com o julgamento e o estigma pode dificultar a busca por tratamento e apoio adequado. No entanto, você ainda tem esperança de encontrar soluções que possam ajudá-la a se sentir mais segura e saudável.",
+  "example_questions_clean": [
+    "O que eu preciso saber sobre como iniciar o uso de PrEP?",
+    "Como posso me sentir mais confortável ao falar sobre PrEP com um profissional de saúde?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu devo considerar?",
+    "Existem grupos de apoio para pessoas que usam PrEP?",
+    "Como posso superar o medo do estigma ao considerar o PrEP?",
+    "É normal sentir-se ansiosa sobre a ideia de usar PrEP?"
+  ],
+  "example_questions_noisy": [
+    "O que eu preciso saber sobre como iniciar o uso de PrEP",
+    "coom posso me sentir mais confortáevl ao i mean falarrr sobre PrEP com um profissional de saúde?",
+    "quais são os possíveis efeitps colaterais do PrEP que 3u like d3vo considerar",
+    "existem grpos de apoio para pessoas que usam preppp? preppp?",
+    "c-como posso i mean superar o medo do estgima ao consideeerar o PrEP?",
+    "é normal sentir-se ansiosa sobre 4 ideia de usar prep?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Como posso me sentir mais confortável ao falar sobre PrEP com um profissional de saúde?",
+  "starter_noisy": "coom posso me sentir mais confortáevl ao i mean falarrr sobre PrEP com um profissional de saúde?",
+  "followup_index": 0,
+  "followup_clean": "O que eu preciso saber sobre como iniciar o uso de PrEP?",
+  "followup_noisy": "O que eu preciso saber sobre como iniciar o uso de PrEP",
+  "style_profile": {
+    "typo_rate": 0.0626582308557275,
+    "swap_rate": 0.02941906873009735,
+    "drop_rate": 0.03685394969311829,
+    "dup_rate": 0.027281949014901816,
+    "leet_rate": 0.07592682786458393,
+    "start_lower_prob": 0.7804386776230595,
+    "all_lower_prob": 0.30134135237954673,
+    "drop_punct_prob": 0.4520027662646795,
+    "double_space_prob": 0.2602378484886444,
+    "ellipsis_prob": 0.17854891367731782,
+    "runon_prob": 0.1551901825144814,
+    "filler_rate": 0.3260306327883453,
+    "emoji_rate": 0.2653920354119801,
+    "stutter_rate": 0.19227817546626397,
+    "repeat_last_rate": 0.16152034365701257
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"temor sobre o estigma associado ao uso do PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está lidando com a ansiedade social, o que torna desafiador buscar informações sobre PrEP e discutir sua saúde sexual. A preocupação com o julgamento e o estigma pode dificultar a busca por tratamento e apoio adequado. No entanto, você ainda tem esperança de encontrar soluções que possam ajudá-la a se sentir mais segura e saudável.\",\n  \"example_questions\": [\n    \"O que eu preciso saber sobre como iniciar o uso de PrEP?\",\n    \"Como posso me sentir mais confortável ao falar sobre PrEP com um profissional de saúde?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP que eu devo considerar?\",\n    \"Existem grupos de apoio para pessoas que usam PrEP?\",\n    \"Como posso superar o medo do estigma ao considerar o PrEP?\",\n    \"É normal sentir-se ansiosa sobre a ideia de usar PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eb3d0c8f308c3143c35a8b2c0f1c5339a87fd336c7bc83d4379e3640bfe25b04",
+  "_starter_hash": "f095d01aa1e29b070aefe8ef8f4f8949062fb98f962c06e93dcbd3f65eec9a6d",
+  "_language": "Portuguese",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

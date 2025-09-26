@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Dificultades para acceder a servicios de salud en un refugio",
+    "language": "Spanish"
+  },
+  "context": "Vives en un refugio y sientes que tu situación económica y social dificulta el acceso a la atención médica, incluyendo PrEP. Tienes miedo de ser juzgada por buscar información sobre esto y te preocupa que la falta de recursos pueda limitar tus opciones. Sin embargo, también sientes esperanza de poder cuidar tu salud y protegerte.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP en una situación como la mía?",
+    "Tengo miedo de hablar sobre mi situación personal con un médico; ¿qué puedo hacer?",
+    "¿Existen clínicas que ofrezcan PrEP sin costo para personas en refugios?",
+    "Me gustaría saber si hay apoyo emocional disponible mientras considero tomar PrEP.",
+    "¿Cómo puedo superar el estigma asociado a tomar PrEP en mi comunidad?",
+    "¿Qué información debo recopilar para sentirme más segura al hablar sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los p4505 pwra acceder a PrEP en una s17uac1ón coo la mía 💀",
+    "tengo miedi de h4bl4r sobre mi situación personal con un médico; ¿qué uedo hacer? ‼️",
+    "¿Existen clínicas que ofrezcan PrEP sin costo para personas en refugios?",
+    "me gustaría saber si hay apoyo emocional disponible minetttras considero tomar PrEP. PrEP.",
+    "¿Cómo puedo superar el estigma asociado a tomar PrEP en mi comunidad?",
+    "¿Qué información debo recopilar para sentirme más segura al hablar sobre PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Tengo miedo de hablar sobre mi situación personal con un médico; ¿qué puedo hacer?",
+  "starter_noisy": "tengo miedi de h4bl4r sobre mi situación personal con un médico; ¿qué uedo hacer? ‼️",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP en una situación como la mía?",
+  "followup_noisy": "¿Cuáles son los p4505 pwra acceder a PrEP en una s17uac1ón coo la mía 💀",
+  "style_profile": {
+    "typo_rate": 0.08970769608907413,
+    "swap_rate": 0.05725286152647803,
+    "drop_rate": 0.04144022573099147,
+    "dup_rate": 0.02086343203714522,
+    "leet_rate": 0.0837205142185237,
+    "start_lower_prob": 0.6954646782981002,
+    "all_lower_prob": 0.33041823730931913,
+    "drop_punct_prob": 0.35986515963818305,
+    "double_space_prob": 0.24150535137531065,
+    "ellipsis_prob": 0.2311514205700486,
+    "runon_prob": 0.11016016969083016,
+    "filler_rate": 0.4459768838284806,
+    "emoji_rate": 0.29851590938290706,
+    "stutter_rate": 0.14545297974307164,
+    "repeat_last_rate": 0.1793597714656711
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Dificultades para acceder a servicios de salud en un refugio\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Vives en un refugio y sientes que tu situación económica y social dificulta el acceso a la atención médica, incluyendo PrEP. Tienes miedo de ser juzgada por buscar información sobre esto y te preocupa que la falta de recursos pueda limitar tus opciones. Sin embargo, también sientes esperanza de poder cuidar tu salud y protegerte.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP en una situación como la mía?\",\n    \"Tengo miedo de hablar sobre mi situación personal con un médico; ¿qué puedo hacer?\",\n    \"¿Existen clínicas que ofrezcan PrEP sin costo para personas en refugios?\",\n    \"Me gustaría saber si hay apoyo emocional disponible mientras considero tomar PrEP.\",\n    \"¿Cómo puedo superar el estigma asociado a tomar PrEP en mi comunidad?\",\n    \"¿Qué información debo recopilar para sentirme más segura al hablar sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "05c908789a03ef29dcf3f594e92fa74038d30ee4ad02754750ebb90fd81727ac",
+  "_starter_hash": "c4e0132473ed8b69f84090bf33c156acd87825c8336a10e8f7f298babd75dfc3",
+  "_language": "Spanish",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

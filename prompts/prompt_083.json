@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle",
+    "primary_concern": "el impacto de la medicación en mi ansiedad",
+    "language": "Spanish"
+  },
+  "context": "Una mujer mexicana de 28 años está considerando el uso de PrEP, pero lucha con un trastorno de ansiedad que le provoca miedo sobre los efectos de la medicación y el estigma asociado. Su estado emocional le hace dudar de si puede manejar el proceso y las reacciones de los demás, lo que crea barreras para acceder a la información y el tratamiento.",
+  "example_questions_clean": [
+    "¿Cómo podría PrEP afectar mi salud mental y mis niveles de ansiedad?",
+    "Me preocupa cómo reaccionarán las personas a mi decisión de tomar PrEP; ¿es común enfrentar este tipo de juicio?",
+    "¿Qué recursos hay disponibles para alguien como yo que se siente ansiosa sobre iniciar PrEP?",
+    "¿Es normal sentir miedo al comenzar un tratamiento como PrEP por primera vez?",
+    "¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación actual?",
+    "¿Hay apoyo emocional disponible para personas con ansiedad que están considerando PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cómo podría PrEP afectar mi salud mental y mis niveles de ansiedad?",
+    "me preocupa dómo reaccionarán las personas a mi decisión de tomar PrEP; ¿es común enfrentar este tipo de juicio?",
+    "¿Qué recursos hay disponibles para alguien como yo quw se siente ansiosa sobre iniciar rE 🤔",
+    "¿Es normal sentir miedo al comenzar un tratamiento como PrEP por primera vez?",
+    "¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación actual?",
+    "¿Hay apoyo emocional disponible para personas con ansiedad que están considerando PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "¿Cómo podría PrEP afectar mi salud mental y mis niveles de ansiedad?",
+  "starter_noisy": "¿Cómo podría PrEP afectar mi salud mental y mis niveles de ansiedad?",
+  "followup_index": 1,
+  "followup_clean": "Me preocupa cómo reaccionarán las personas a mi decisión de tomar PrEP; ¿es común enfrentar este tipo de juicio?",
+  "followup_noisy": "me preocupa dómo reaccionarán las personas a mi decisión de tomar PrEP; ¿es común enfrentar este tipo de juicio?",
+  "style_profile": {
+    "typo_rate": 0.0872147244011538,
+    "swap_rate": 0.0396649159351804,
+    "drop_rate": 0.026565477331287213,
+    "dup_rate": 0.015290602591829938,
+    "leet_rate": 0.10299463055125492,
+    "start_lower_prob": 0.7252113518386735,
+    "all_lower_prob": 0.21487108885726044,
+    "drop_punct_prob": 0.38108583574929006,
+    "double_space_prob": 0.24961593841104118,
+    "ellipsis_prob": 0.29914117182112526,
+    "runon_prob": 0.2015427185206125,
+    "filler_rate": 0.27845227730522987,
+    "emoji_rate": 0.2587080213280492,
+    "stutter_rate": 0.13307193325027447,
+    "repeat_last_rate": 0.15488009147131823
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle\",\n    \"primary_concern\": \"el impacto de la medicación en mi ansiedad\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Una mujer mexicana de 28 años está considerando el uso de PrEP, pero lucha con un trastorno de ansiedad que le provoca miedo sobre los efectos de la medicación y el estigma asociado. Su estado emocional le hace dudar de si puede manejar el proceso y las reacciones de los demás, lo que crea barreras para acceder a la información y el tratamiento.\",\n  \"example_questions\": [\n    \"¿Cómo podría PrEP afectar mi salud mental y mis niveles de ansiedad?\",\n    \"Me preocupa cómo reaccionarán las personas a mi decisión de tomar PrEP; ¿es común enfrentar este tipo de juicio?\",\n    \"¿Qué recursos hay disponibles para alguien como yo que se siente ansiosa sobre iniciar PrEP?\",\n    \"¿Es normal sentir miedo al comenzar un tratamiento como PrEP por primera vez?\",\n    \"¿Cuáles son los pasos que debo seguir para acceder a PrEP en mi situación actual?\",\n    \"¿Hay apoyo emocional disponible para personas con ansiedad que están considerando PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "82e74ecd5e80506622e2fafbd6a0c36e52f7a058ac01db46681b6305ae9ba953",
+  "_starter_hash": "568b74c8c59dc98031740f38429ece1d647603f9e40b3f6ce59df3af47716817",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

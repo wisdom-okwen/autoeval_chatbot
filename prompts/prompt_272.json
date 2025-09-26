@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "toegang tot medische zorg en stigma",
+    "language": "Dutch"
+  },
+  "context": "Je woont momenteel in een opvangcentrum en hebt zorgen over je gezondheid. De omgeving kan onvoorspelbaar zijn, en je maakt je zorgen over de stigma's rond hiv-preventie. Dit heeft invloed op hoe je je voelt over jezelf en je toekomst. Toegang tot PrEP lijkt moeilijk vanwege beperkte middelen en angst voor oordeel van anderen.",
+  "example_questions_clean": [
+    "Wat zijn de stappen om PrEP te verkrijgen als ik in een opvangcentrum woon?",
+    "Zijn er speciale programma's of ondersteuning voor mensen zoals ik die PrEP willen gebruiken?",
+    "Hoe kan ik mijn zorgverzekeraar overtuigen dat PrEP noodzakelijk voor me is?",
+    "Wat moet ik weten over mogelijke bijwerkingen van PrEP voordat ik begin?",
+    "Kunnen jullie me vertellen over de privacy rond het gebruik van PrEP in een opvangomgeving?",
+    "Wat zijn de ervaringen van anderen die PrEP gebruiken in vergelijkbare situaties?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de stappen 0m PrEP te verkrijgen als ik in een opvangcentrum woon 😭",
+    "zijn er speciale programma's 0f ondersteuning voorrr mensen zoas ik die PrEP wlilen gebruiken?",
+    "Hoe kan ik mijn zorgverzekeraar overtuigen dat PrEP noodzakelijk voor me is?",
+    "wat mpet ik weten over mogelijke bijwerkingen van rpep voodrat ik begin?",
+    "kunnen julli3 je vertellen over de privacy rond h37 gebruik van Pr3P in eeb opvangomgeving?",
+    "w-wat z1jn de ervaringen van andren die PrEP gebruiken in vergelijkbare situaties? situaties?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Wat moet ik weten over mogelijke bijwerkingen van PrEP voordat ik begin?",
+  "starter_noisy": "wat mpet ik weten over mogelijke bijwerkingen van rpep voodrat ik begin?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de stappen om PrEP te verkrijgen als ik in een opvangcentrum woon?",
+  "followup_noisy": "wat zijn de stappen 0m PrEP te verkrijgen als ik in een opvangcentrum woon 😭",
+  "style_profile": {
+    "typo_rate": 0.06848340374602277,
+    "swap_rate": 0.056421591795480924,
+    "drop_rate": 0.030581428500082868,
+    "dup_rate": 0.021014582384415816,
+    "leet_rate": 0.0886905396033831,
+    "start_lower_prob": 0.8532459703403481,
+    "all_lower_prob": 0.2485243901914577,
+    "drop_punct_prob": 0.35820029968323125,
+    "double_space_prob": 0.3149255946288394,
+    "ellipsis_prob": 0.23160671284688236,
+    "runon_prob": 0.27779227582406574,
+    "filler_rate": 0.35848109570361486,
+    "emoji_rate": 0.22031940682208212,
+    "stutter_rate": 0.13589114837395513,
+    "repeat_last_rate": 0.09871644917691431
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"toegang tot medische zorg en stigma\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je woont momenteel in een opvangcentrum en hebt zorgen over je gezondheid. De omgeving kan onvoorspelbaar zijn, en je maakt je zorgen over de stigma's rond hiv-preventie. Dit heeft invloed op hoe je je voelt over jezelf en je toekomst. Toegang tot PrEP lijkt moeilijk vanwege beperkte middelen en angst voor oordeel van anderen.\",\n  \"example_questions\": [\n    \"Wat zijn de stappen om PrEP te verkrijgen als ik in een opvangcentrum woon?\",\n    \"Zijn er speciale programma's of ondersteuning voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Hoe kan ik mijn zorgverzekeraar overtuigen dat PrEP noodzakelijk voor me is?\",\n    \"Wat moet ik weten over mogelijke bijwerkingen van PrEP voordat ik begin?\",\n    \"Kunnen jullie me vertellen over de privacy rond het gebruik van PrEP in een opvangomgeving?\",\n    \"Wat zijn de ervaringen van anderen die PrEP gebruiken in vergelijkbare situaties?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "761728f39c69bef587e8ed7fde13d19cf83967f86534132177bb5ae1d3d1f15c",
+  "_starter_hash": "eb8d7c063b3d7c87a7723a8763602128fa55e476729caa805c06ee06d99bedb5",
+  "_language": "Dutch",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

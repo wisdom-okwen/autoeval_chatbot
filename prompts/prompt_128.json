@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma and judgment from peers",
+    "language": "English"
+  },
+  "context": "The user is struggling with low self-esteem, which makes her anxious about discussing her sexual health and seeking preventive options like PrEP. She worries that her peers might judge her choices, leading to feelings of isolation and fear around accessing necessary healthcare.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work for individuals like me?",
+    "Are there any support groups for people considering PrEP who may feel anxious about it?",
+    "How can I approach the topic of PrEP with my healthcare provider without feeling embarrassed?",
+    "What are the side effects of PrEP that I should be aware of before starting treatment?",
+    "Is there a way to access PrEP discreetly if I'm worried about stigma in my community?"
+  ],
+  "example_questions_noisy": [
+    "what is PrEP and how does it work for individuals like me ✨",
+    "Are there any support groups for people considering PrEP who may feel anxious about it?",
+    "How can I approach the topic of PrEP with my healthcare provider without feeling embarrassed?",
+    "w-what are the side effects of PrEP that like I should be aware of before starting treatment 🙄",
+    "15 yhere a way 70 access PrP discreetly if I'm worried about stigma in my community"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is there a way to access PrEP discreetly if I'm worried about stigma in my community?",
+  "starter_noisy": "15 yhere a way 70 access PrP discreetly if I'm worried about stigma in my community",
+  "followup_index": 0,
+  "followup_clean": "What is PrEP and how does it work for individuals like me?",
+  "followup_noisy": "what is PrEP and how does it work for individuals like me ✨",
+  "style_profile": {
+    "typo_rate": 0.09082615776860191,
+    "swap_rate": 0.05383076507281677,
+    "drop_rate": 0.038386624530264146,
+    "dup_rate": 0.0281794956463274,
+    "leet_rate": 0.06894236288343894,
+    "start_lower_prob": 0.87474263193554,
+    "all_lower_prob": 0.2626223055692043,
+    "drop_punct_prob": 0.35895497943813204,
+    "double_space_prob": 0.19152708254317174,
+    "ellipsis_prob": 0.2415578665400604,
+    "runon_prob": 0.2833194116399954,
+    "filler_rate": 0.35830454434100023,
+    "emoji_rate": 0.1588421253600358,
+    "stutter_rate": 0.17218912206444567,
+    "repeat_last_rate": 0.1301318305106475
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is struggling with low self-esteem, which makes her anxious about discussing her sexual health and seeking preventive options like PrEP. She worries that her peers might judge her choices, leading to feelings of isolation and fear around accessing necessary healthcare.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work for individuals like me?\",\n    \"Are there any support groups for people considering PrEP who may feel anxious about it?\",\n    \"How can I approach the topic of PrEP with my healthcare provider without feeling embarrassed?\",\n    \"What are the side effects of PrEP that I should be aware of before starting treatment?\",\n    \"Is there a way to access PrEP discreetly if I'm worried about stigma in my community?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c5b4cd4e83c130b9c702d3237a44280b16fca43cff61c25adcbca1ad9daf9f36",
+  "_starter_hash": "9d4a1a34e4b6a2ac2dc1f567997308a3d968cce670df99446fef2bf5d5b09bd0",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

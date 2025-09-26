@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 29,
+    "gender": "feminino",
+    "socio_economic_status": "baixa renda",
+    "primary_concern": "a falta de informação sobre os efeitos do PrEP na saúde mental",
+    "language": "Portuguese"
+  },
+  "context": "Uma mulher de 29 anos no Brasil vive com esquizofrenia e enfrenta desafios emocionais que a tornam cautelosa sobre o uso do PrEP. Ela tem preocupações sobre como a medicação pode interagir com seus tratamentos atuais e teme o estigma associado a ter uma condição de saúde mental ao buscar informações sobre PrEP. Sua situação financeira limitada também representa uma barreira ao acesso a cuidados de saúde adequados.",
+  "example_questions_clean": [
+    "Quais são os possíveis efeitos colaterais do PrEP, especialmente para alguém com esquizofrenia?",
+    "Onde posso encontrar apoio psicológico ao iniciar o uso do PrEP?",
+    "O uso do PrEP pode afetar a minha medicação atual?",
+    "Como posso discutir minha condição de saúde mental com o médico ao considerar o PrEP?",
+    "Existem programas que ajudam pessoas com baixa renda a acessar o PrEP?",
+    "Quais são os sinais de que o PrEP está funcionando para mim?"
+  ],
+  "example_questions_noisy": [
+    "quais são os possíveis efeitos colaterais do PrEP espevialmente para alguuuém com esquizofrenia esquizofrenia",
+    "onde posso encontrar poio psicológico ao iniciar o uuuso do prep?",
+    "O uso do PrEP pode afetar a minha medicação atual?",
+    "Como posso discutir minha condição de saúde mental com o médico ao considerar o PrEP?",
+    "existem programas que ajudam pessoas com baixa renda a acessar o PrEP",
+    "qu415 são os sinaia de que o rPEP está funcionando p4r4 mim"
+  ],
+  "starter_index": 2,
+  "starter_clean": "O uso do PrEP pode afetar a minha medicação atual?",
+  "starter_noisy": "O uso do PrEP pode afetar a minha medicação atual?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os possíveis efeitos colaterais do PrEP, especialmente para alguém com esquizofrenia?",
+  "followup_noisy": "quais são os possíveis efeitos colaterais do PrEP espevialmente para alguuuém com esquizofrenia esquizofrenia",
+  "style_profile": {
+    "typo_rate": 0.05381535089924022,
+    "swap_rate": 0.057200876665758196,
+    "drop_rate": 0.030834398054477196,
+    "dup_rate": 0.02514568080388842,
+    "leet_rate": 0.10382014932104902,
+    "start_lower_prob": 0.6938700322322385,
+    "all_lower_prob": 0.31098112576385795,
+    "drop_punct_prob": 0.5739496794643713,
+    "double_space_prob": 0.19694651586138145,
+    "ellipsis_prob": 0.29274593243136937,
+    "runon_prob": 0.10466663307821261,
+    "filler_rate": 0.31670785569946863,
+    "emoji_rate": 0.186058628993642,
+    "stutter_rate": 0.12066409911769216,
+    "repeat_last_rate": 0.10187535305189155
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 29,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"baixa renda\",\n    \"primary_concern\": \"a falta de informação sobre os efeitos do PrEP na saúde mental\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Uma mulher de 29 anos no Brasil vive com esquizofrenia e enfrenta desafios emocionais que a tornam cautelosa sobre o uso do PrEP. Ela tem preocupações sobre como a medicação pode interagir com seus tratamentos atuais e teme o estigma associado a ter uma condição de saúde mental ao buscar informações sobre PrEP. Sua situação financeira limitada também representa uma barreira ao acesso a cuidados de saúde adequados.\",\n  \"example_questions\": [\n    \"Quais são os possíveis efeitos colaterais do PrEP, especialmente para alguém com esquizofrenia?\",\n    \"Onde posso encontrar apoio psicológico ao iniciar o uso do PrEP?\",\n    \"O uso do PrEP pode afetar a minha medicação atual?\",\n    \"Como posso discutir minha condição de saúde mental com o médico ao considerar o PrEP?\",\n    \"Existem programas que ajudam pessoas com baixa renda a acessar o PrEP?\",\n    \"Quais são os sinais de que o PrEP está funcionando para mim?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1a96515184e39a6c61b536f07ad5cb145ccc648beb4659564747ae07c1c3bf29",
+  "_starter_hash": "9b5cb72591cb15a7afba0c0fa9ed30a4e4c6238032e2574ce10ee033d38e7cdc",
+  "_language": "Portuguese",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brasileiro",
+    "age": 32,
+    "gender": "Masculino",
+    "socio_economic_status": "Baixa renda",
+    "primary_concern": "medo de estigmatização e falta de acesso",
+    "language": "Portuguese"
+  },
+  "context": "Você tem uma história de uso de substâncias e está preocupado com como isso pode afetar sua capacidade de acessar o PrEP. Apesar de querer se proteger e cuidar da sua saúde, a preocupação com o julgamento e a discriminação está pesando em sua mente. Você se sente esperançoso sobre o futuro, mas também apreensivo quanto à aceitação e ao suporte que pode receber.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+    "Como a minha história de uso de substâncias pode impactar o meu tratamento com PrEP?",
+    "Existem serviços que oferecem PrEP sem preconceito ou discriminação?",
+    "Como posso encontrar um médico que me entenda e respeite minha situação?",
+    "É possível ter apoio emocional durante o uso do PrEP considerando meu histórico?",
+    "Que informações devo levar em conta ao decidir começar a usar o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+    "Como a minha história de uso de substâncias pode impactar o meu tratamento com PrEP?",
+    "Existem serviços que oferecem PrEP sem preconceito ou discriminação?",
+    "como posso encontrar um méd1c0 que me entenda e respeite minha situação",
+    "É possível ter apoio emocional durante o uso do PrEP considerando meu histórico?",
+    "que 1nf0rm4çõ35 devo levar em conta ao decidir domçar a usar o prep"
+  ],
+  "starter_index": 4,
+  "starter_clean": "É possível ter apoio emocional durante o uso do PrEP considerando meu histórico?",
+  "starter_noisy": "É possível ter apoio emocional durante o uso do PrEP considerando meu histórico?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+  "followup_noisy": "Quais são os efeitos colaterais do PrEP que eu devo estar ciente?",
+  "style_profile": {
+    "typo_rate": 0.11349715119531711,
+    "swap_rate": 0.053353800757919914,
+    "drop_rate": 0.04134433439693029,
+    "dup_rate": 0.028105707962466385,
+    "leet_rate": 0.11140140390615282,
+    "start_lower_prob": 0.7769846486904364,
+    "all_lower_prob": 0.19177396824443374,
+    "drop_punct_prob": 0.460911713871414,
+    "double_space_prob": 0.3295317334998594,
+    "ellipsis_prob": 0.19191285128577007,
+    "runon_prob": 0.13275072370274002,
+    "filler_rate": 0.23862354607561656,
+    "emoji_rate": 0.15039355327359774,
+    "stutter_rate": 0.1059507853120286,
+    "repeat_last_rate": 0.08640866223901461
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brasileiro\",\n    \"age\": 32,\n    \"gender\": \"Masculino\",\n    \"socio_economic_status\": \"Baixa renda\",\n    \"primary_concern\": \"medo de estigmatização e falta de acesso\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você tem uma história de uso de substâncias e está preocupado com como isso pode afetar sua capacidade de acessar o PrEP. Apesar de querer se proteger e cuidar da sua saúde, a preocupação com o julgamento e a discriminação está pesando em sua mente. Você se sente esperançoso sobre o futuro, mas também apreensivo quanto à aceitação e ao suporte que pode receber.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais do PrEP que eu devo estar ciente?\",\n    \"Como a minha história de uso de substâncias pode impactar o meu tratamento com PrEP?\",\n    \"Existem serviços que oferecem PrEP sem preconceito ou discriminação?\",\n    \"Como posso encontrar um médico que me entenda e respeite minha situação?\",\n    \"É possível ter apoio emocional durante o uso do PrEP considerando meu histórico?\",\n    \"Que informações devo levar em conta ao decidir começar a usar o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c314e77c3b51426d234a9eccf8327be2e235f582c75abdd39e63aefbefe33a6e",
+  "_starter_hash": "1b7caddaee73e0b61980d92212ca38b5cb9c11ee7420ffe0542d85ff2669b874",
+  "_language": "Portuguese",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

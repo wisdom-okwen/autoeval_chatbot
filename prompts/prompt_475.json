@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "Male",
+    "socio_economic_status": "Low income",
+    "primary_concern": "Affordability and stigma related to past substance use",
+    "language": "English"
+  },
+  "context": "You are a 32-year-old American male who has a history of substance use. This experience has left you feeling anxious about seeking PrEP due to concerns about affordability and potential judgment from healthcare providers. You want to protect your health, but you are worried that your past will affect your ability to access necessary treatments.",
+  "example_questions_clean": [
+    "What financial assistance options are available for accessing PrEP?",
+    "How can I approach my doctor about PrEP given my history of substance use?",
+    "Are there specific clinics that are more understanding of my situation?",
+    "Can PrEP be accessed anonymously to avoid any potential stigma?",
+    "What are the side effects of PrEP, and how might they interact with any substances I may use?",
+    "How effective is PrEP in preventing HIV if I have additional health concerns?"
+  ],
+  "example_questions_noisy": [
+    "What financial assistance options are available for accessing PrEP?",
+    "How can I approach my doctor about PrEP given my history of substance use?",
+    "a-are there specific clinics that are m0re understanding of my situation 😬",
+    "Can PEP be accessed anonymously to avoid any potential stigma",
+    "What are the side effects of PrEP and how might they interact wit any substances I may ue",
+    "How effective is PrEP in preventing HIV if I have additional health concerns?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How effective is PrEP in preventing HIV if I have additional health concerns?",
+  "starter_noisy": "How effective is PrEP in preventing HIV if I have additional health concerns?",
+  "followup_index": 0,
+  "followup_clean": "What financial assistance options are available for accessing PrEP?",
+  "followup_noisy": "What financial assistance options are available for accessing PrEP?",
+  "style_profile": {
+    "typo_rate": 0.053181877307471453,
+    "swap_rate": 0.04735940997339682,
+    "drop_rate": 0.049313571158275574,
+    "dup_rate": 0.018348565698622362,
+    "leet_rate": 0.054381320001175064,
+    "start_lower_prob": 0.646195705974372,
+    "all_lower_prob": 0.15515021818161356,
+    "drop_punct_prob": 0.5737765042939988,
+    "double_space_prob": 0.2900322631108986,
+    "ellipsis_prob": 0.32755112747751464,
+    "runon_prob": 0.10359085952837149,
+    "filler_rate": 0.20181660400497628,
+    "emoji_rate": 0.34096200471325977,
+    "stutter_rate": 0.1801865988626106,
+    "repeat_last_rate": 0.17490622672988662
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"Male\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"Affordability and stigma related to past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 32-year-old American male who has a history of substance use. This experience has left you feeling anxious about seeking PrEP due to concerns about affordability and potential judgment from healthcare providers. You want to protect your health, but you are worried that your past will affect your ability to access necessary treatments.\",\n  \"example_questions\": [\n    \"What financial assistance options are available for accessing PrEP?\",\n    \"How can I approach my doctor about PrEP given my history of substance use?\",\n    \"Are there specific clinics that are more understanding of my situation?\",\n    \"Can PrEP be accessed anonymously to avoid any potential stigma?\",\n    \"What are the side effects of PrEP, and how might they interact with any substances I may use?\",\n    \"How effective is PrEP in preventing HIV if I have additional health concerns?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "78ccd5302b3363a7fc61173c005bd1808854eceb6c35701a25ab4fde311c357e",
+  "_starter_hash": "110b395e0f8e5ee49e789db50f19d20f232d4dd92032e2955ad9787a51b5d6d8",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "affordability and potential side effects of PrEP while managing chronic pain",
+    "language": "English"
+  },
+  "context": "The user has been living with chronic pain for several years, which often leads to feelings of anxiety and fear about taking new medications. She worries that starting PrEP might exacerbate her pain or create additional health complications. Accessing healthcare services has also been challenging due to her financial situation, which adds to her concern about affording PrEP. Despite these challenges, she is hopeful about finding a solution that allows her to protect her health.",
+  "example_questions_clean": [
+    "How can I find out if PrEP is affordable for someone in my financial situation?",
+    "What are the common side effects of PrEP, especially for individuals with chronic pain?",
+    "Is there support available for managing any potential side effects of PrEP?",
+    "Can I take PrEP alongside my current medications for chronic pain?",
+    "What steps should I take to talk to my doctor about starting PrEP?",
+    "Are there programs that help cover the costs of PrEP for people like me?"
+  ],
+  "example_questions_noisy": [
+    "How can I find out if PrEP is affordable for someone in my financial situation?",
+    "wh47 are the common side effects of PErP, especially for individuals like with chtonic pain?",
+    "Is there support available for managing any potential side effects of PrEP?",
+    "Can I take PrEP alongside my current medications for chronic pain?",
+    "What steps should I take to talk to my doctor about starting PrEP?",
+    "ar3 there programs tht hepl cover the costs of PrEP for people like me 🙂"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can I take PrEP alongside my current medications for chronic pain?",
+  "starter_noisy": "Can I take PrEP alongside my current medications for chronic pain?",
+  "followup_index": 0,
+  "followup_clean": "How can I find out if PrEP is affordable for someone in my financial situation?",
+  "followup_noisy": "How can I find out if PrEP is affordable for someone in my financial situation?",
+  "style_profile": {
+    "typo_rate": 0.09093067390812815,
+    "swap_rate": 0.03568500079323903,
+    "drop_rate": 0.04367662743440956,
+    "dup_rate": 0.022855055076204153,
+    "leet_rate": 0.10284211224118625,
+    "start_lower_prob": 0.8707514675174357,
+    "all_lower_prob": 0.23552705774202945,
+    "drop_punct_prob": 0.49021230843009944,
+    "double_space_prob": 0.22385396414804937,
+    "ellipsis_prob": 0.28986249556721316,
+    "runon_prob": 0.1135776648393359,
+    "filler_rate": 0.2841199465990156,
+    "emoji_rate": 0.3145438457520149,
+    "stutter_rate": 0.10707205208053287,
+    "repeat_last_rate": 0.17366358748465396
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"affordability and potential side effects of PrEP while managing chronic pain\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been living with chronic pain for several years, which often leads to feelings of anxiety and fear about taking new medications. She worries that starting PrEP might exacerbate her pain or create additional health complications. Accessing healthcare services has also been challenging due to her financial situation, which adds to her concern about affording PrEP. Despite these challenges, she is hopeful about finding a solution that allows her to protect her health.\",\n  \"example_questions\": [\n    \"How can I find out if PrEP is affordable for someone in my financial situation?\",\n    \"What are the common side effects of PrEP, especially for individuals with chronic pain?\",\n    \"Is there support available for managing any potential side effects of PrEP?\",\n    \"Can I take PrEP alongside my current medications for chronic pain?\",\n    \"What steps should I take to talk to my doctor about starting PrEP?\",\n    \"Are there programs that help cover the costs of PrEP for people like me?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d353a4818ed79cab192cf347623e15981f7f02c94118c12e68fea62b93b4f008",
+  "_starter_hash": "0c716fb7753657220f57684abaf64407f3343431df58c65b7e4577691d0905c0",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

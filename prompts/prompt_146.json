@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 35,
+    "gender": "feminino",
+    "socio_economic_status": "média",
+    "primary_concern": "preocupação com os efeitos colaterais da PrEP após o tratamento de câncer",
+    "language": "Portuguese"
+  },
+  "context": "Você é uma mulher de 35 anos que está se recuperando de um tratamento de câncer. A experiência deixou você mais consciente sobre a saúde, mas também trouxe inseguranças e medos, especialmente em relação a novos medicamentos como a PrEP. Você está buscando entender melhor como a PrEP pode se encaixar na sua vida, considerando sua recuperação e os efeitos que isso pode ter na sua saúde geral.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais da PrEP que eu devo estar ciente?",
+    "A PrEP pode interferir na minha recuperação após o tratamento de câncer?",
+    "É seguro para mim iniciar a PrEP neste momento da minha vida?",
+    "Como posso acessar a PrEP considerando minha condição atual?",
+    "Existem especialistas que podem me ajudar a tomar essa decisão?",
+    "A PrEP é recomendada para pessoas que estão se recuperando de doenças graves?"
+  ],
+  "example_questions_noisy": [
+    "quais são os efeitos colaterais da PrEP you know que eu devo estar ciente? 😅",
+    "a PrEP pode interfrir na minha recuperaçãp após o tratamento de câncer?",
+    "é seguro para mim 1n1c14r a PrrP i mean neste momento da imnha voda? voda?",
+    "Como posso acessar a PrEP considerando minha condição atual?",
+    "Existem especialistas que podem me ajudar a tomar essa decisão?",
+    "4 uh prep é recomendada para pessoas que estão se recuperando de d03nça5 graves? 🫠"
+  ],
+  "starter_index": 1,
+  "starter_clean": "A PrEP pode interferir na minha recuperação após o tratamento de câncer?",
+  "starter_noisy": "a PrEP pode interfrir na minha recuperaçãp após o tratamento de câncer?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais da PrEP que eu devo estar ciente?",
+  "followup_noisy": "quais são os efeitos colaterais da PrEP you know que eu devo estar ciente? 😅",
+  "style_profile": {
+    "typo_rate": 0.0858706559307212,
+    "swap_rate": 0.02257115672239165,
+    "drop_rate": 0.025698945472798156,
+    "dup_rate": 0.021026536846065754,
+    "leet_rate": 0.06576323317760038,
+    "start_lower_prob": 0.8246046078366349,
+    "all_lower_prob": 0.33606382607001517,
+    "drop_punct_prob": 0.34547686457882304,
+    "double_space_prob": 0.2716127977259089,
+    "ellipsis_prob": 0.2027981414679785,
+    "runon_prob": 0.29622153978727994,
+    "filler_rate": 0.4992334231538952,
+    "emoji_rate": 0.22745379399761156,
+    "stutter_rate": 0.1999549444785012,
+    "repeat_last_rate": 0.15747492076810188
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 35,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"média\",\n    \"primary_concern\": \"preocupação com os efeitos colaterais da PrEP após o tratamento de câncer\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é uma mulher de 35 anos que está se recuperando de um tratamento de câncer. A experiência deixou você mais consciente sobre a saúde, mas também trouxe inseguranças e medos, especialmente em relação a novos medicamentos como a PrEP. Você está buscando entender melhor como a PrEP pode se encaixar na sua vida, considerando sua recuperação e os efeitos que isso pode ter na sua saúde geral.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais da PrEP que eu devo estar ciente?\",\n    \"A PrEP pode interferir na minha recuperação após o tratamento de câncer?\",\n    \"É seguro para mim iniciar a PrEP neste momento da minha vida?\",\n    \"Como posso acessar a PrEP considerando minha condição atual?\",\n    \"Existem especialistas que podem me ajudar a tomar essa decisão?\",\n    \"A PrEP é recomendada para pessoas que estão se recuperando de doenças graves?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d1c2b4b7849fd7557f6340cfbd4e75b473325f0e8e3f7488cf60b9778f431869",
+  "_starter_hash": "38bee887a67dffa780543cbb69e635d450413bd5f8774153b3d0e09e0204fd42",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

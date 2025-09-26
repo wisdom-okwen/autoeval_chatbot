@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing medication consistently while managing mental health",
+    "language": "English"
+  },
+  "context": "As a woman living with schizophrenia, I often find it challenging to focus on my health needs, especially when it comes to accessing PrEP. The stigma around my condition makes me hesitant to discuss my sexual health, and I worry about how my medication might interact with PrEP. I'm also concerned about my ability to remember to take the medication regularly, given my mental health challenges.",
+  "example_questions_clean": [
+    "How can I ensure that I remember to take PrEP consistently given my mental health challenges?",
+    "What resources are available for someone in my situation to access PrEP without feeling stigmatized?",
+    "Are there specific side effects of PrEP that I should be aware of due to my condition?",
+    "Can you recommend support groups or communities that focus on sexual health for individuals with mental health issues?",
+    "What should I do if I experience anxiety about discussing PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that I remember to take PrEP consistently given my mental health challenges?",
+    "What resources are available for someone in my situation to access PrEP without feeling stigmatized?",
+    "4r3 there specific side effects of prep that i should be aware of dus to my condition 🫠",
+    "Can y0u recommend support groups or communities that fodus on sexual helth for individuals with mental health issues 😅",
+    "What should I do if I experience anxiety about discussing PrEP with my healthcare provider?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I ensure that I remember to take PrEP consistently given my mental health challenges?",
+  "starter_noisy": "How can I ensure that I remember to take PrEP consistently given my mental health challenges?",
+  "followup_index": 1,
+  "followup_clean": "What resources are available for someone in my situation to access PrEP without feeling stigmatized?",
+  "followup_noisy": "What resources are available for someone in my situation to access PrEP without feeling stigmatized?",
+  "style_profile": {
+    "typo_rate": 0.08361683562272658,
+    "swap_rate": 0.035663763851714825,
+    "drop_rate": 0.04551049908296195,
+    "dup_rate": 0.01817913396178406,
+    "leet_rate": 0.07335658022464282,
+    "start_lower_prob": 0.6841136177243788,
+    "all_lower_prob": 0.2068610482357804,
+    "drop_punct_prob": 0.5597624687201921,
+    "double_space_prob": 0.19088730862504527,
+    "ellipsis_prob": 0.1644706469817364,
+    "runon_prob": 0.2407232584290155,
+    "filler_rate": 0.43821719302174555,
+    "emoji_rate": 0.3406813154359774,
+    "stutter_rate": 0.14720678043908034,
+    "repeat_last_rate": 0.10522019949729039
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing medication consistently while managing mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with schizophrenia, I often find it challenging to focus on my health needs, especially when it comes to accessing PrEP. The stigma around my condition makes me hesitant to discuss my sexual health, and I worry about how my medication might interact with PrEP. I'm also concerned about my ability to remember to take the medication regularly, given my mental health challenges.\",\n  \"example_questions\": [\n    \"How can I ensure that I remember to take PrEP consistently given my mental health challenges?\",\n    \"What resources are available for someone in my situation to access PrEP without feeling stigmatized?\",\n    \"Are there specific side effects of PrEP that I should be aware of due to my condition?\",\n    \"Can you recommend support groups or communities that focus on sexual health for individuals with mental health issues?\",\n    \"What should I do if I experience anxiety about discussing PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e999530f1218333ec9141f03f3172c02d14f823e1675c5ddd8ad90de78f696d7",
+  "_starter_hash": "082736befb066e430bb17d14a3376d924c54b9489d0a370ccf9cdaf98425cf13",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

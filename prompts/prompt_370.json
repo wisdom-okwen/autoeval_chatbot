@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 29,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "L'accès à PrEP en raison de mon état de santé mentale.",
+    "language": "French"
+  },
+  "context": "Vous vivez avec un trouble bipolaire et vous vous sentez inquiet quant à l'impact que cela pourrait avoir sur votre capacité à prendre PrEP régulièrement. Vous avez des préoccupations sur la stigmatisation associée à votre état de santé mentale et son influence sur la manière dont les autres pourraient percevoir votre utilisation de PrEP. Cette situation pourrait rendre difficile la prise de décision en matière de santé, car vous souhaitez assurer votre sécurité tout en naviguant dans des émotions fluctuantes.",
+  "example_questions_clean": [
+    "Comment puis-je m'assurer que la PrEP est compatible avec mon traitement pour le trouble bipolaire ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des problèmes de santé mentale qui veulent accéder à PrEP ?",
+    "Quelles sont les effets secondaires possibles de la PrEP sur mon bien-être émotionnel ?",
+    "Comment puis-je parler de ma situation aux professionnels de santé sans craindre le jugement ?",
+    "La prise de PrEP pourrait-elle influencer mon état mental ?",
+    "Quels conseils donneriez-vous pour rester motivée à prendre la PrEP régulièrement ?"
+  ],
+  "example_questions_noisy": [
+    "comment pius-je m'ssurer que la PrEP est compatible avec mon traitement p0ur le trouble bipolaire 😬",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des problèmes de santé mentale qui veulent accéder à PrEP ?",
+    "quelles sont les 3ff375 secondiares p0s51bl35 de pa PrEP zur mon bien-être ém0710nnel",
+    "Comment puis-je parler de ma situation aux professionnels de santé sans craindre le jugement ?",
+    "La prise de PrEP pourrait-elle influencer mon état mental ?",
+    "Quels conseils donneriez-vous pour rester motivée à prendre la PrEP régulièrement ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment puis-je parler de ma situation aux professionnels de santé sans craindre le jugement ?",
+  "starter_noisy": "Comment puis-je parler de ma situation aux professionnels de santé sans craindre le jugement ?",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je m'assurer que la PrEP est compatible avec mon traitement pour le trouble bipolaire ?",
+  "followup_noisy": "comment pius-je m'ssurer que la PrEP est compatible avec mon traitement p0ur le trouble bipolaire 😬",
+  "style_profile": {
+    "typo_rate": 0.0842576013526351,
+    "swap_rate": 0.048444964798881704,
+    "drop_rate": 0.04108487936390501,
+    "dup_rate": 0.016719439335773405,
+    "leet_rate": 0.06603342995792617,
+    "start_lower_prob": 0.8302864880268009,
+    "all_lower_prob": 0.3055035456405727,
+    "drop_punct_prob": 0.4394928467179504,
+    "double_space_prob": 0.2072880339125277,
+    "ellipsis_prob": 0.2778140071940183,
+    "runon_prob": 0.2447796636650284,
+    "filler_rate": 0.2603428837164865,
+    "emoji_rate": 0.19003153146513133,
+    "stutter_rate": 0.19217171959761364,
+    "repeat_last_rate": 0.09427469739084589
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 29,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"L'accès à PrEP en raison de mon état de santé mentale.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous vivez avec un trouble bipolaire et vous vous sentez inquiet quant à l'impact que cela pourrait avoir sur votre capacité à prendre PrEP régulièrement. Vous avez des préoccupations sur la stigmatisation associée à votre état de santé mentale et son influence sur la manière dont les autres pourraient percevoir votre utilisation de PrEP. Cette situation pourrait rendre difficile la prise de décision en matière de santé, car vous souhaitez assurer votre sécurité tout en naviguant dans des émotions fluctuantes.\",\n  \"example_questions\": [\n    \"Comment puis-je m'assurer que la PrEP est compatible avec mon traitement pour le trouble bipolaire ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant des problèmes de santé mentale qui veulent accéder à PrEP ?\",\n    \"Quelles sont les effets secondaires possibles de la PrEP sur mon bien-être émotionnel ?\",\n    \"Comment puis-je parler de ma situation aux professionnels de santé sans craindre le jugement ?\",\n    \"La prise de PrEP pourrait-elle influencer mon état mental ?\",\n    \"Quels conseils donneriez-vous pour rester motivée à prendre la PrEP régulièrement ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c30c838f17edc7b067b5588fdd444514a20bb8de165cf8fc48e8a7bba218287b",
+  "_starter_hash": "5a7de23d70c8c8093c9112dd0c1bd92a163be80d89f4b5b2e20f0fdb004137b7",
+  "_language": "French",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

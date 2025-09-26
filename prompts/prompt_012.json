@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "facing discrimination when accessing PrEP due to HIV-related stigma",
+    "language": "English"
+  },
+  "context": "This user is seeking information about PrEP while navigating the challenges of living in a community where HIV-related stigma is prevalent. She often feels anxious about being judged or discriminated against when discussing her sexual health, which creates barriers to accessing preventive care. Her hope is to understand PrEP better without facing negative reactions.",
+  "example_questions_clean": [
+    "What are the eligibility requirements for starting PrEP?",
+    "How can I find a healthcare provider who respects my privacy and understands stigma?",
+    "What side effects should I be aware of before starting PrEP?",
+    "Is it common to experience anxiety about taking PrEP in a stigmatized environment?",
+    "Can PrEP help me feel more empowered in my sexual health decisions?",
+    "Are there support groups for people who feel stigmatized when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the eligibility requirements for starting PrEP?",
+    "How can I find a healthcare provider who respects my privacy and understands stigma?",
+    "what siddde effedttts shold 1 be aware of bf30r3 starting prep?",
+    "Is it common to experience anxiety about taking PrEP in a stigmatized environment?",
+    "cannn prep help me feel more empowered in my sexual health decisinos",
+    "are there support groups for peope who feel stigmatized when seeking perp?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find a healthcare provider who respects my privacy and understands stigma?",
+  "starter_noisy": "How can I find a healthcare provider who respects my privacy and understands stigma?",
+  "followup_index": 0,
+  "followup_clean": "What are the eligibility requirements for starting PrEP?",
+  "followup_noisy": "What are the eligibility requirements for starting PrEP?",
+  "style_profile": {
+    "typo_rate": 0.11770870203289638,
+    "swap_rate": 0.03767162227877893,
+    "drop_rate": 0.04240524303707341,
+    "dup_rate": 0.023407635781999555,
+    "leet_rate": 0.09378218240486379,
+    "start_lower_prob": 0.8887648469033872,
+    "all_lower_prob": 0.21048895986180988,
+    "drop_punct_prob": 0.3081889572367241,
+    "double_space_prob": 0.31152372281961344,
+    "ellipsis_prob": 0.15151095623193572,
+    "runon_prob": 0.19779213855932432,
+    "filler_rate": 0.41379619169303516,
+    "emoji_rate": 0.31315422778523355,
+    "stutter_rate": 0.15879217595493025,
+    "repeat_last_rate": 0.10847321574602271
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"facing discrimination when accessing PrEP due to HIV-related stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user is seeking information about PrEP while navigating the challenges of living in a community where HIV-related stigma is prevalent. She often feels anxious about being judged or discriminated against when discussing her sexual health, which creates barriers to accessing preventive care. Her hope is to understand PrEP better without facing negative reactions.\",\n  \"example_questions\": [\n    \"What are the eligibility requirements for starting PrEP?\",\n    \"How can I find a healthcare provider who respects my privacy and understands stigma?\",\n    \"What side effects should I be aware of before starting PrEP?\",\n    \"Is it common to experience anxiety about taking PrEP in a stigmatized environment?\",\n    \"Can PrEP help me feel more empowered in my sexual health decisions?\",\n    \"Are there support groups for people who feel stigmatized when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a3a3d185578aece7a6d3c9d76abe40a852d0eb046e0abd90a10d0f26c18f87b6",
+  "_starter_hash": "d3cea906b9268fd13f810ef35d5b7860a1c7ec0fe4b8dd399625e50aa5144283",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

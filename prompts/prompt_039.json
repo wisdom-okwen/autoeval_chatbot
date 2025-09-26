@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 30,
+    "gender": "Homme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "Les effets de l'usage de substances sur la prise de PrEP et la santé mentale",
+    "language": "French"
+  },
+  "context": "Vous avez un passé d'usage de substances qui vous préoccupe concernant votre capacité à prendre régulièrement la PrEP. Vous ressentez de l'anxiété face à des jugements possibles et vous vous demandez si votre situation pourrait compliquer l'accès à ce traitement préventif. Vous avez l'espoir de trouver des informations claires pour prendre une décision éclairée tout en naviguant dans ces défis personnels.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour commencer la PrEP, surtout avec mon historique d'usage de substances ?",
+    "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de dépendance qui envisagent la PrEP ?",
+    "Comment puis-je gérer mes préoccupations concernant la stigmatisation liée à mon passé ?",
+    "Est-ce que la prise de PrEP affecte différemment une personne ayant un historique d'usage de substances ?",
+    "Quels sont les effets secondaires potentiels de la PrEP que je devrais connaître ?",
+    "Où puis-je trouver un professionnel de santé qui comprend mes défis spécifiques ?"
+  ],
+  "example_questions_noisy": [
+    "quellesss sont les étapes pour commencer la PrEP surtout aveeec mon historique d'usage de substances",
+    "y a-t-il des ressources spécifiques p0ur les persooonnes ayant des antécédents de dépendance qui envisagent l4 PrEP ? ❓",
+    "cmoment puis-je gérer mes préoccupations conc3rn4nt la stigmatisatiom liée à mmmon pa55é",
+    "estc-e que la prise de prep affecte like différemment une personne ayant un h1st0r1qu3 d'usage de sbstances ? 🤔",
+    "Quels sont les effets secondaires potentiels de l4 PrEP que je devrais connaître",
+    "Où puis-je trouver un professionnel de santé qui comprend mes défis spécifiques ?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quelles sont les étapes pour commencer la PrEP, surtout avec mon historique d'usage de substances ?",
+  "starter_noisy": "quellesss sont les étapes pour commencer la PrEP surtout aveeec mon historique d'usage de substances",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de dépendance qui envisagent la PrEP ?",
+  "followup_noisy": "y a-t-il des ressources spécifiques p0ur les persooonnes ayant des antécédents de dépendance qui envisagent l4 PrEP ? ❓",
+  "style_profile": {
+    "typo_rate": 0.061753761165097,
+    "swap_rate": 0.03900724969579592,
+    "drop_rate": 0.021023089863448002,
+    "dup_rate": 0.020703879042088983,
+    "leet_rate": 0.06964171106157477,
+    "start_lower_prob": 0.6146496652175818,
+    "all_lower_prob": 0.3017114599180206,
+    "drop_punct_prob": 0.41473431486151674,
+    "double_space_prob": 0.3084238720457345,
+    "ellipsis_prob": 0.17297044327094516,
+    "runon_prob": 0.25866114529557294,
+    "filler_rate": 0.23791264829730788,
+    "emoji_rate": 0.20783421478920627,
+    "stutter_rate": 0.16053808556594706,
+    "repeat_last_rate": 0.08498251752949018
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 30,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"Les effets de l'usage de substances sur la prise de PrEP et la santé mentale\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Vous avez un passé d'usage de substances qui vous préoccupe concernant votre capacité à prendre régulièrement la PrEP. Vous ressentez de l'anxiété face à des jugements possibles et vous vous demandez si votre situation pourrait compliquer l'accès à ce traitement préventif. Vous avez l'espoir de trouver des informations claires pour prendre une décision éclairée tout en naviguant dans ces défis personnels.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour commencer la PrEP, surtout avec mon historique d'usage de substances ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes ayant des antécédents de dépendance qui envisagent la PrEP ?\",\n    \"Comment puis-je gérer mes préoccupations concernant la stigmatisation liée à mon passé ?\",\n    \"Est-ce que la prise de PrEP affecte différemment une personne ayant un historique d'usage de substances ?\",\n    \"Quels sont les effets secondaires potentiels de la PrEP que je devrais connaître ?\",\n    \"Où puis-je trouver un professionnel de santé qui comprend mes défis spécifiques ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1b6ca06715a7a612488f173f1c50439a29a24195d41629ea8da3ea5cfc8d8bcd",
+  "_starter_hash": "627667c148b2d9e5ee089f6952a4d4594af88f232280b9f19b823b590e4f2c70",
+  "_language": "French",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

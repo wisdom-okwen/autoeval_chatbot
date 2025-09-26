@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old woman living in the United States, dealing with social anxiety that makes it challenging for you to seek out medical help. You worry about how your anxiety might be perceived by healthcare providers and fear being judged for considering PrEP. This fear has created barriers in accessing the information you need about PrEP, leading to feelings of isolation and confusion.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP without feeling overwhelmed?",
+    "How can I find a healthcare provider who understands my anxiety and won't judge me?",
+    "Are there online resources where I can learn more about PrEP in a comfortable way?",
+    "Can you explain how PrEP works and why it might be a good option for me?",
+    "What should I expect during my first visit to discuss PrEP with a doctor?",
+    "How can I handle conversations about PrEP with friends or family if they are not supportive?"
+  ],
+  "example_questions_noisy": [
+    "what are thd steps I need to 74k3 to star7 PrEP without feeling overwhelmed?",
+    "how can i find a healthcare pr0vid3r um who udnerstands my anxiety and won't judge me",
+    "are like there onlien r350urce5 where I can lerah more about PrEP in a comfortable way 🤔",
+    "Can you explain how PrEP works and why it might be a good option for me?",
+    "What should I expect during my first visit to discuss PrEP with a doctor?",
+    "how can I handle cooonversations about PrEP with friends ir f4mily if they are not supportive?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find a healthcare provider who understands my anxiety and won't judge me?",
+  "starter_noisy": "how can i find a healthcare pr0vid3r um who udnerstands my anxiety and won't judge me",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to start PrEP without feeling overwhelmed?",
+  "followup_noisy": "what are thd steps I need to 74k3 to star7 PrEP without feeling overwhelmed?",
+  "style_profile": {
+    "typo_rate": 0.05037777928591558,
+    "swap_rate": 0.0466265140320416,
+    "drop_rate": 0.02322888019721573,
+    "dup_rate": 0.02889340536740659,
+    "leet_rate": 0.07662109527828491,
+    "start_lower_prob": 0.8635932607888359,
+    "all_lower_prob": 0.16746112798507848,
+    "drop_punct_prob": 0.45839175891971584,
+    "double_space_prob": 0.2294471770826271,
+    "ellipsis_prob": 0.20116354939826603,
+    "runon_prob": 0.27934883141292444,
+    "filler_rate": 0.45131314926025445,
+    "emoji_rate": 0.17074136874716525,
+    "stutter_rate": 0.1270457440780574,
+    "repeat_last_rate": 0.0943527719232784
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old woman living in the United States, dealing with social anxiety that makes it challenging for you to seek out medical help. You worry about how your anxiety might be perceived by healthcare providers and fear being judged for considering PrEP. This fear has created barriers in accessing the information you need about PrEP, leading to feelings of isolation and confusion.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP without feeling overwhelmed?\",\n    \"How can I find a healthcare provider who understands my anxiety and won't judge me?\",\n    \"Are there online resources where I can learn more about PrEP in a comfortable way?\",\n    \"Can you explain how PrEP works and why it might be a good option for me?\",\n    \"What should I expect during my first visit to discuss PrEP with a doctor?\",\n    \"How can I handle conversations about PrEP with friends or family if they are not supportive?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f2e2245f8a3a9dba8324cff3ba010f3f3b4cd07603d563d2befdd5af7f996a1f",
+  "_starter_hash": "3e8155ffb98dc068de42af40416b6a383f1520ae89c548838e06789e11acd2f7",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

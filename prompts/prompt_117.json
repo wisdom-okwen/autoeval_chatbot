@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mwananchi wa Kenya",
+    "age": 28,
+    "gender": "mwanamume",
+    "socio_economic_status": "mwanajamii masikini",
+    "primary_concern": "ufikiaji wa PrEP kwa sababu ya hali yangu ya maisha",
+    "language": "Swahili"
+  },
+  "context": "Kijana huyu anakabiliwa na changamoto ya kukosa makazi, ambayo inamfanya ajisikie kutengwa na jamii. Anapojaribu kupata taarifa kuhusu PrEP, anahisi hofu na wasiwasi kuhusu jinsi hali yake ya maisha itakavyoathiri ufikiaji wake wa huduma za afya na msaada. Tamaa yake ni kujikinga na HIV, lakini anahisi kuwa kuna vikwazo vingi vinavyomzuia kupata PrEP.",
+  "example_questions_clean": [
+    "Ninawezaje kupata huduma za PrEP ikiwa sina makazi?",
+    "Ni wapi naweza kupata taarifa sahihi kuhusu PrEP katika hali yangu?",
+    "Je, kuna programu za msaada kwa watu kama mimi wanaotafuta PrEP?",
+    "Nifanye nini ikiwa sina pesa za kununua dawa za PrEP?",
+    "Ni nini kingine ninachoweza kufanya ili kujilinda dhidi ya HIV wakati nikiwa katika hali yangu?",
+    "Je, kuna watu wengine ambao wanakabiliwa na changamoto kama hizi ambao wanapata msaada wa PrEP?"
+  ],
+  "example_questions_noisy": [
+    "ninawezaje kupata huduma you know zs prep ik1w4 sina makazi?",
+    "Ni wapi naweza kupata you know taarifa sahihi kuhusu Pr3P k471ka hali yangu?",
+    "Je, kuna programu za msaada kwa watu kama mimi wanaotafuta PrEP?",
+    "n1f4nye nini ikiea snia p354 za kununua daea za prep",
+    "Ni nini kingine ninachoweza kufanya ili kujilinda dhidi ya HIV wakati nikiwa katika hali yangu?",
+    "Je, kuna watu wengine ambao wanakabiliwa na changamoto kama hizi ambao wanapata msaada wa PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Ni nini kingine ninachoweza kufanya ili kujilinda dhidi ya HIV wakati nikiwa katika hali yangu?",
+  "starter_noisy": "Ni nini kingine ninachoweza kufanya ili kujilinda dhidi ya HIV wakati nikiwa katika hali yangu?",
+  "followup_index": 0,
+  "followup_clean": "Ninawezaje kupata huduma za PrEP ikiwa sina makazi?",
+  "followup_noisy": "ninawezaje kupata huduma you know zs prep ik1w4 sina makazi?",
+  "style_profile": {
+    "typo_rate": 0.08717484381935361,
+    "swap_rate": 0.03523554299891812,
+    "drop_rate": 0.04528626062360551,
+    "dup_rate": 0.01812898089759763,
+    "leet_rate": 0.06876292744049683,
+    "start_lower_prob": 0.6817899137316611,
+    "all_lower_prob": 0.18537884460475762,
+    "drop_punct_prob": 0.34006544567317515,
+    "double_space_prob": 0.3395473523926323,
+    "ellipsis_prob": 0.3048889094911931,
+    "runon_prob": 0.20338055923804216,
+    "filler_rate": 0.2331430260446074,
+    "emoji_rate": 0.2596888411145343,
+    "stutter_rate": 0.10097983574796396,
+    "repeat_last_rate": 0.17633394599547353
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mwananchi wa Kenya\",\n    \"age\": 28,\n    \"gender\": \"mwanamume\",\n    \"socio_economic_status\": \"mwanajamii masikini\",\n    \"primary_concern\": \"ufikiaji wa PrEP kwa sababu ya hali yangu ya maisha\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Kijana huyu anakabiliwa na changamoto ya kukosa makazi, ambayo inamfanya ajisikie kutengwa na jamii. Anapojaribu kupata taarifa kuhusu PrEP, anahisi hofu na wasiwasi kuhusu jinsi hali yake ya maisha itakavyoathiri ufikiaji wake wa huduma za afya na msaada. Tamaa yake ni kujikinga na HIV, lakini anahisi kuwa kuna vikwazo vingi vinavyomzuia kupata PrEP.\",\n  \"example_questions\": [\n    \"Ninawezaje kupata huduma za PrEP ikiwa sina makazi?\",\n    \"Ni wapi naweza kupata taarifa sahihi kuhusu PrEP katika hali yangu?\",\n    \"Je, kuna programu za msaada kwa watu kama mimi wanaotafuta PrEP?\",\n    \"Nifanye nini ikiwa sina pesa za kununua dawa za PrEP?\",\n    \"Ni nini kingine ninachoweza kufanya ili kujilinda dhidi ya HIV wakati nikiwa katika hali yangu?\",\n    \"Je, kuna watu wengine ambao wanakabiliwa na changamoto kama hizi ambao wanapata msaada wa PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3a4284803e55c4f08c08b04ac3a0cd15a0c194a57dbdf32d5e124953674fd90d",
+  "_starter_hash": "7fd2f3ffa43ef40defbdb3dd633bf4e7eff469941f07a0496b2b350d3770e6a2",
+  "_language": "Swahili",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

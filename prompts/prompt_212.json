@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 30,
+    "gender": "feminino",
+    "socio_economic_status": "média",
+    "primary_concern": "medo de estigmas relacionados ao uso do PrEP após trauma emocional",
+    "language": "Portuguese"
+  },
+  "context": "Você está se recuperando de uma experiência traumática e isso torna difícil a sua disposição para considerar o uso do PrEP. Você se preocupa com o que as pessoas vão pensar e como isso pode afetar sua autoestima, mas também deseja proteger sua saúde. É um momento delicado em que você busca informações claras e solidárias sobre como o PrEP pode ajudar.",
+  "example_questions_clean": [
+    "Quais são os principais benefícios do PrEP que eu deveria considerar?",
+    "Como posso lidar com o medo do estigma associado ao uso de PrEP?",
+    "O PrEP é acessível para pessoas na minha situação financeira?",
+    "Existem recursos ou grupos de apoio para pessoas que usam PrEP?",
+    "O que devo fazer se sentir ansiedade ao falar sobre meu uso de PrEP?",
+    "Como o PrEP pode me ajudar a me sentir mais segura nas minhas relações pessoais?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os principais benefícios do PrEP que eu deveria considerar?",
+    "c-como posso lidar com o medo do estigma associado aooo uso de PrEP? PrEP?",
+    "O PrEP é acessível para pessoas na minha situação financeira?",
+    "Existem recursos ou grupos de apoio para pessoas que usam PrEP?",
+    "O que devo fazer se sentir ansiedade ao falar sobre meu uso de PrEP?",
+    "como o prep pode me ajudar a me sentir mais segura mas minhas r3l4çõ35 pessoais"
+  ],
+  "starter_index": 2,
+  "starter_clean": "O PrEP é acessível para pessoas na minha situação financeira?",
+  "starter_noisy": "O PrEP é acessível para pessoas na minha situação financeira?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os principais benefícios do PrEP que eu deveria considerar?",
+  "followup_noisy": "Quais são os principais benefícios do PrEP que eu deveria considerar?",
+  "style_profile": {
+    "typo_rate": 0.06410988422350915,
+    "swap_rate": 0.03268669516639552,
+    "drop_rate": 0.021472700790289245,
+    "dup_rate": 0.02290851705010393,
+    "leet_rate": 0.08344121093362213,
+    "start_lower_prob": 0.700925126452766,
+    "all_lower_prob": 0.33937519185232573,
+    "drop_punct_prob": 0.30400360457608966,
+    "double_space_prob": 0.23000583208199052,
+    "ellipsis_prob": 0.17479612493945662,
+    "runon_prob": 0.2153789303313835,
+    "filler_rate": 0.2989995778792347,
+    "emoji_rate": 0.2444723270407289,
+    "stutter_rate": 0.1227267220365498,
+    "repeat_last_rate": 0.17586924118249922
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 30,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"média\",\n    \"primary_concern\": \"medo de estigmas relacionados ao uso do PrEP após trauma emocional\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está se recuperando de uma experiência traumática e isso torna difícil a sua disposição para considerar o uso do PrEP. Você se preocupa com o que as pessoas vão pensar e como isso pode afetar sua autoestima, mas também deseja proteger sua saúde. É um momento delicado em que você busca informações claras e solidárias sobre como o PrEP pode ajudar.\",\n  \"example_questions\": [\n    \"Quais são os principais benefícios do PrEP que eu deveria considerar?\",\n    \"Como posso lidar com o medo do estigma associado ao uso de PrEP?\",\n    \"O PrEP é acessível para pessoas na minha situação financeira?\",\n    \"Existem recursos ou grupos de apoio para pessoas que usam PrEP?\",\n    \"O que devo fazer se sentir ansiedade ao falar sobre meu uso de PrEP?\",\n    \"Como o PrEP pode me ajudar a me sentir mais segura nas minhas relações pessoais?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4c66fc5b0b0cb0af056f69085443162a2dba45609369d1de0fcda13b1c595543",
+  "_starter_hash": "e2a9977f258758dbddea80ce33b8d0aaae05f3f491b0a2adbb9c11a52d233c24",
+  "_language": "Portuguese",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

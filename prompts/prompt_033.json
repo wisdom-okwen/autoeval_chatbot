@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 30,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur du jugement et de la stigmatisation liée au VIH",
+    "language": "French"
+  },
+  "context": "Cette personne vit avec le poids de la stigmatisation liée au VIH dans sa communauté. Elle ressent une peur profonde d'être jugée par les autres, ce qui crée une barrière psychologique importante à l'accès à PrEP. Malgré l'espoir d'une protection, son esprit est souvent envahi par des pensées négatives et un sentiment d'isolement.",
+  "example_questions_clean": [
+    "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+    "Comment puis-je aborder le sujet de PrEP avec mon médecin sans craindre le jugement ?",
+    "Y a-t-il des ressources disponibles pour les personnes comme moi qui se sentent stigmatisées ?",
+    "Comment puis-je surmonter la peur d'être stigmatisée si je commence à prendre PrEP ?",
+    "PrEP est-il efficace pour réduire le risque de transmission du VIH ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+    "comment puis-je aborder you know le sujet de PrEP avec mon méd3c1n sans craindre le jugem3n7 ?",
+    "Y a-t-il des ressources d15p0nibles pour um le5 personnes comme moi qui se sentent stigmatisées ?",
+    "Comment puis-je surmonter la peur d'être stigmatisée si je commence à prendre PrEP ?",
+    "PrEP est-il efficace pour réduire le risque de transmission du VIH ?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Y a-t-il des ressources disponibles pour les personnes comme moi qui se sentent stigmatisées ?",
+  "starter_noisy": "Y a-t-il des ressources d15p0nibles pour um le5 personnes comme moi qui se sentent stigmatisées ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+  "followup_noisy": "Quelles sont les étapes à suivre pour accéder à PrEP en France ?",
+  "style_profile": {
+    "typo_rate": 0.10703317937198033,
+    "swap_rate": 0.026829160043455737,
+    "drop_rate": 0.04612681021770146,
+    "dup_rate": 0.011525943765005667,
+    "leet_rate": 0.09634488668638418,
+    "start_lower_prob": 0.6551339646295946,
+    "all_lower_prob": 0.23459517044588413,
+    "drop_punct_prob": 0.33686852407437945,
+    "double_space_prob": 0.24604919175044704,
+    "ellipsis_prob": 0.3132000962228848,
+    "runon_prob": 0.18893537402211966,
+    "filler_rate": 0.2721622247900845,
+    "emoji_rate": 0.18421396972283713,
+    "stutter_rate": 0.17159236291104177,
+    "repeat_last_rate": 0.11247374969677346
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 30,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur du jugement et de la stigmatisation liée au VIH\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne vit avec le poids de la stigmatisation liée au VIH dans sa communauté. Elle ressent une peur profonde d'être jugée par les autres, ce qui crée une barrière psychologique importante à l'accès à PrEP. Malgré l'espoir d'une protection, son esprit est souvent envahi par des pensées négatives et un sentiment d'isolement.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes à suivre pour accéder à PrEP en France ?\",\n    \"Comment puis-je aborder le sujet de PrEP avec mon médecin sans craindre le jugement ?\",\n    \"Y a-t-il des ressources disponibles pour les personnes comme moi qui se sentent stigmatisées ?\",\n    \"Comment puis-je surmonter la peur d'être stigmatisée si je commence à prendre PrEP ?\",\n    \"PrEP est-il efficace pour réduire le risque de transmission du VIH ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "570ed032c2b4312299c858298f3d41a2d334d2ac60a909333c987cbb1943028b",
+  "_starter_hash": "bb653607a62799b05ad25912c6a06bc5c410cc37e25a8bc961c6311fae4ef0b2",
+  "_language": "French",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

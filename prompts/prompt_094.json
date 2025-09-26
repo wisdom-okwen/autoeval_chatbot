@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 32,
+    "gender": "weiblich",
+    "socio_economic_status": "mittleres Einkommen",
+    "primary_concern": "Angst vor Stigmatisierung und Diskriminierung",
+    "language": "German"
+  },
+  "context": "Die Person fühlt sich durch die gesellschaftliche Stigmatisierung von HIV belastet, was ihre Gedanken und Gefühle über den Zugang zu PrEP beeinflusst. Sie hat Angst, dass die Einnahme von PrEP öffentlich gemacht wird und dass sie daraufhin negativ beurteilt wird.",
+  "example_questions_clean": [
+    "Wie kann ich sicherstellen, dass meine Privatsphäre bei der Einnahme von PrEP gewahrt bleibt?",
+    "Gibt es spezielle Unterstützungsgruppen für Menschen, die sich wegen HIV stigmatisiert fühlen?",
+    "Welche Nebenwirkungen von PrEP sollte ich beachten?",
+    "Wie kann ich mit Freunden oder Familie über meine Entscheidung zur Einnahme von PrEP sprechen?",
+    "Sind Arztbesuche für PrEP-Anpassungen vertraulich?",
+    "Was kann ich tun, um mich in meiner Gemeinschaft zu unterstützen?"
+  ],
+  "example_questions_noisy": [
+    "l-like wie kann ich sicherstellen, dass meine Privatsppphäre bei der Einnahme von PrEP egwahrt bleibt?",
+    "Gibt es spezielle Unterstützungsgruppen für Menschen, die sich wegen HIV stigmatisiert fühlen?",
+    "welche Nebenwirkungen uh von PrEP sollte ich beachten?",
+    "Wie kann ich mit Freunden oder Familie über meine Entscheidung zur Einnahme von PrEP sprechen?",
+    "Sind Arztbesuche für PrEP-Anpassungen vertraulich?",
+    "Was kann ich tun, um mich in meiner Gemeinschaft zu unterstützen?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Gibt es spezielle Unterstützungsgruppen für Menschen, die sich wegen HIV stigmatisiert fühlen?",
+  "starter_noisy": "Gibt es spezielle Unterstützungsgruppen für Menschen, die sich wegen HIV stigmatisiert fühlen?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich sicherstellen, dass meine Privatsphäre bei der Einnahme von PrEP gewahrt bleibt?",
+  "followup_noisy": "l-like wie kann ich sicherstellen, dass meine Privatsppphäre bei der Einnahme von PrEP egwahrt bleibt?",
+  "style_profile": {
+    "typo_rate": 0.06280818212189195,
+    "swap_rate": 0.056493452232758784,
+    "drop_rate": 0.03726562418134786,
+    "dup_rate": 0.022209783864015148,
+    "leet_rate": 0.07547789780233169,
+    "start_lower_prob": 0.7751155606356209,
+    "all_lower_prob": 0.2058573996921964,
+    "drop_punct_prob": 0.5534293055646997,
+    "double_space_prob": 0.24118701839963375,
+    "ellipsis_prob": 0.33784303972377805,
+    "runon_prob": 0.17432819830751725,
+    "filler_rate": 0.37621271144783863,
+    "emoji_rate": 0.16103220483793584,
+    "stutter_rate": 0.19670478422955517,
+    "repeat_last_rate": 0.08542174940097359
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 32,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittleres Einkommen\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und Diskriminierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person fühlt sich durch die gesellschaftliche Stigmatisierung von HIV belastet, was ihre Gedanken und Gefühle über den Zugang zu PrEP beeinflusst. Sie hat Angst, dass die Einnahme von PrEP öffentlich gemacht wird und dass sie daraufhin negativ beurteilt wird.\",\n  \"example_questions\": [\n    \"Wie kann ich sicherstellen, dass meine Privatsphäre bei der Einnahme von PrEP gewahrt bleibt?\",\n    \"Gibt es spezielle Unterstützungsgruppen für Menschen, die sich wegen HIV stigmatisiert fühlen?\",\n    \"Welche Nebenwirkungen von PrEP sollte ich beachten?\",\n    \"Wie kann ich mit Freunden oder Familie über meine Entscheidung zur Einnahme von PrEP sprechen?\",\n    \"Sind Arztbesuche für PrEP-Anpassungen vertraulich?\",\n    \"Was kann ich tun, um mich in meiner Gemeinschaft zu unterstützen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eaee0f5a12382fd45f19ce7bf83e7e9a7ab55e4c9323ba8a50ab75fa9b8b1364",
+  "_starter_hash": "60fd7d2b967c83799d9d0ac06c6455850bea09363d74626685f264b73284202b",
+  "_language": "German",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

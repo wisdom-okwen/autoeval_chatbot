@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how PrEP might affect my mental health and medication routine",
+    "language": "English"
+  },
+  "context": "You are a 30-year-old woman living in the United States with schizophrenia. Your mental health condition sometimes makes it difficult to manage medication schedules and you worry about how adding PrEP might complicate things. You also face stigma around your mental health, which adds to your anxiety about seeking information or help related to sexual health. Despite these challenges, you hope to find ways to protect your health without compromising your mental stability.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work in preventing HIV?",
+    "Can taking PrEP affect my current mental health medications?",
+    "Are there support resources available for someone with my condition seeking PrEP?",
+    "What should I consider when discussing PrEP with my healthcare provider?",
+    "How can I manage my concerns about stigma while seeking information on PrEP?",
+    "Is there a specific process for low-income individuals to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w-whta is PrEP and h0w odes it work in preventing HIV 💀",
+    "can taking PrEP 4ff3ct my cureent mental health medications?",
+    "Are there support resources available for someone with my condition seeking PrEP?",
+    "What should I consider when discussing PrEP with my healthcare provider?",
+    "h-how can i manag my concrens about stigma while seking information on prep?",
+    "Is there a specific process for low-income individuals to access PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support resources available for someone with my condition seeking PrEP?",
+  "starter_noisy": "Are there support resources available for someone with my condition seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What is PrEP and how does it work in preventing HIV?",
+  "followup_noisy": "w-whta is PrEP and h0w odes it work in preventing HIV 💀",
+  "style_profile": {
+    "typo_rate": 0.08515091987108031,
+    "swap_rate": 0.054656342491744,
+    "drop_rate": 0.049200280939252286,
+    "dup_rate": 0.012625672489672956,
+    "leet_rate": 0.11721479002468013,
+    "start_lower_prob": 0.8531409131025076,
+    "all_lower_prob": 0.3025992244714085,
+    "drop_punct_prob": 0.5482131526446952,
+    "double_space_prob": 0.2065170471535352,
+    "ellipsis_prob": 0.28277700532130745,
+    "runon_prob": 0.25408511287643687,
+    "filler_rate": 0.46870170965527413,
+    "emoji_rate": 0.31097192184914213,
+    "stutter_rate": 0.1348133629434806,
+    "repeat_last_rate": 0.17727414193498858
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how PrEP might affect my mental health and medication routine\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 30-year-old woman living in the United States with schizophrenia. Your mental health condition sometimes makes it difficult to manage medication schedules and you worry about how adding PrEP might complicate things. You also face stigma around your mental health, which adds to your anxiety about seeking information or help related to sexual health. Despite these challenges, you hope to find ways to protect your health without compromising your mental stability.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work in preventing HIV?\",\n    \"Can taking PrEP affect my current mental health medications?\",\n    \"Are there support resources available for someone with my condition seeking PrEP?\",\n    \"What should I consider when discussing PrEP with my healthcare provider?\",\n    \"How can I manage my concerns about stigma while seeking information on PrEP?\",\n    \"Is there a specific process for low-income individuals to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a28783dc66760038572fc045b5e0e9185d6ab9899c4ce0e9dde1af3c4516ed4d",
+  "_starter_hash": "a8e522566ef0a43bd9bc0489773e2cbfaa99a219b2fa28ccef4472299ed90357",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

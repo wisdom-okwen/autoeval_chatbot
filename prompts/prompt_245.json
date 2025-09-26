@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "el estigma asociado con el uso de PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años que se siente socialmente aislada debido a su estado de salud y tiene miedo de ser juzgada por considerar el uso de PrEP. Esto ha afectado tu autoestima y te sientes ansiosa acerca de hablar sobre tus opciones de prevención.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP si tengo miedo al estigma?",
+    "¿Cómo puedo acceder a PrEP sin que los demás lo sepan?",
+    "¿Es común que las personas se sientan solas al considerar el uso de PrEP?",
+    "¿Qué recursos hay disponibles para personas que enfrentan aislamiento social y quieren saber sobre PrEP?",
+    "¿Existen grupos de apoyo para quienes están considerando PrEP?",
+    "¿Cuál es el proceso para hablar con un médico sobre PrEP en un entorno seguro?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son uh los beneficios se tomar PrEP si tengo mied al estigma 🙄",
+    "¿cómo pued0 acc3der 4 pr3p sin que l05 demás lo idk sepan sepan",
+    "¿Es común que las personas se sientan solas al considerar el uso de PrEP?",
+    "¿Qué recursos hay disponibles para personas que enfrentan aislamiento social y quieren saber sobre PrEP?",
+    "¿Existen grupos de apoyo para quienes están considerando PrEP?",
+    "um ¿Cuál es el proceso para hablar con un médico sobre PrEP en un entorno seguro ✨ ✨"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Existen grupos de apoyo para quienes están considerando PrEP?",
+  "starter_noisy": "¿Existen grupos de apoyo para quienes están considerando PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP si tengo miedo al estigma?",
+  "followup_noisy": "¿Cuáles son uh los beneficios se tomar PrEP si tengo mied al estigma 🙄",
+  "style_profile": {
+    "typo_rate": 0.10542172102064815,
+    "swap_rate": 0.03654755410023476,
+    "drop_rate": 0.027169718830868123,
+    "dup_rate": 0.02276421412655682,
+    "leet_rate": 0.08618455667201151,
+    "start_lower_prob": 0.8382303666993302,
+    "all_lower_prob": 0.22113708511638522,
+    "drop_punct_prob": 0.424798094498003,
+    "double_space_prob": 0.1554676758340151,
+    "ellipsis_prob": 0.26904080632374827,
+    "runon_prob": 0.2948836994974148,
+    "filler_rate": 0.48269995442707947,
+    "emoji_rate": 0.32264283032613517,
+    "stutter_rate": 0.15147844398395874,
+    "repeat_last_rate": 0.14383705630384863
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"el estigma asociado con el uso de PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 28 años que se siente socialmente aislada debido a su estado de salud y tiene miedo de ser juzgada por considerar el uso de PrEP. Esto ha afectado tu autoestima y te sientes ansiosa acerca de hablar sobre tus opciones de prevención.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP si tengo miedo al estigma?\",\n    \"¿Cómo puedo acceder a PrEP sin que los demás lo sepan?\",\n    \"¿Es común que las personas se sientan solas al considerar el uso de PrEP?\",\n    \"¿Qué recursos hay disponibles para personas que enfrentan aislamiento social y quieren saber sobre PrEP?\",\n    \"¿Existen grupos de apoyo para quienes están considerando PrEP?\",\n    \"¿Cuál es el proceso para hablar con un médico sobre PrEP en un entorno seguro?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9e7e42539c774a0d52fd6df0eb242568172745f446c48ae8c2d7851e762b33cd",
+  "_starter_hash": "2f19749683effce44d368f2367d2d3a587ec48bade448b21a5c25c0a6d965ec0",
+  "_language": "Spanish",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

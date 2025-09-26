@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 28,
+    "gender": "Femenina",
+    "socio_economic_status": "Medio",
+    "primary_concern": "Miedo a los efectos secundarios y la aceptación social",
+    "language": "Spanish"
+  },
+  "context": "La usuaria está lidiando con un trastorno de ansiedad que hace que se sienta abrumada al pensar en comenzar PrEP. Su ansiedad la lleva a cuestionar la reacción de los demás y su capacidad para manejar los posibles efectos secundarios del medicamento, lo que crea una barrera emocional importante para acceder al tratamiento.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo se manejan?",
+    "¿Es normal sentirse ansiosa al considerar comenzar PrEP?",
+    "¿Cómo puedo encontrar un apoyo emocional mientras inicio este tratamiento?",
+    "¿Hay recursos en línea que puedan ayudarme a entender mejor el uso de PrEP?",
+    "¿Qué pasos debo seguir para obtener PrEP en mi comunidad?",
+    "¿Existen grupos de apoyo para personas que toman PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿cuáles son los efectos secundarios más comune de prep y cómo se manejan",
+    "¿Es normal sentirse ansiosa al considerar comenzar PrEP?",
+    "¿Cómo puedo encontrar un apoyo emocional mientras inicio este tratamiento?",
+    "¿Hay recursos en línea que puedan ayudarme a entender mejor el uso de PrEP?",
+    "¿Qué pasos debo seguir para obtener PrEP en mi comunidad?",
+    "¿existen grupos de apok para personas qu3 toman prep ❓"
+  ],
+  "starter_index": 1,
+  "starter_clean": "¿Es normal sentirse ansiosa al considerar comenzar PrEP?",
+  "starter_noisy": "¿Es normal sentirse ansiosa al considerar comenzar PrEP?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes de PrEP y cómo se manejan?",
+  "followup_noisy": "¿cuáles son los efectos secundarios más comune de prep y cómo se manejan",
+  "style_profile": {
+    "typo_rate": 0.05284359201426059,
+    "swap_rate": 0.02456925694944009,
+    "drop_rate": 0.04577668259276718,
+    "dup_rate": 0.01424783454101099,
+    "leet_rate": 0.08416806218957784,
+    "start_lower_prob": 0.8169376192773694,
+    "all_lower_prob": 0.3469984388121293,
+    "drop_punct_prob": 0.505431815294486,
+    "double_space_prob": 0.21046430397107646,
+    "ellipsis_prob": 0.3062234547030601,
+    "runon_prob": 0.1469985538315072,
+    "filler_rate": 0.29732054241928224,
+    "emoji_rate": 0.18880352920353075,
+    "stutter_rate": 0.1698532962469938,
+    "repeat_last_rate": 0.17944185850008937
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 28,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Medio\",\n    \"primary_concern\": \"Miedo a los efectos secundarios y la aceptación social\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"La usuaria está lidiando con un trastorno de ansiedad que hace que se sienta abrumada al pensar en comenzar PrEP. Su ansiedad la lleva a cuestionar la reacción de los demás y su capacidad para manejar los posibles efectos secundarios del medicamento, lo que crea una barrera emocional importante para acceder al tratamiento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes de PrEP y cómo se manejan?\",\n    \"¿Es normal sentirse ansiosa al considerar comenzar PrEP?\",\n    \"¿Cómo puedo encontrar un apoyo emocional mientras inicio este tratamiento?\",\n    \"¿Hay recursos en línea que puedan ayudarme a entender mejor el uso de PrEP?\",\n    \"¿Qué pasos debo seguir para obtener PrEP en mi comunidad?\",\n    \"¿Existen grupos de apoyo para personas que toman PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9599e1eecee484aa538656639574c950f6a65ba528a1d34813f3666453512a5f",
+  "_starter_hash": "3d983aced9dfbc679cd590fb7565eba46a9bc402504520d02a94758bff96df94",
+  "_language": "Spanish",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

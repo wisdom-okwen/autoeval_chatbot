@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare and stigma",
+    "language": "English"
+  },
+  "context": "The user is currently experiencing homelessness and is concerned about their health and access to PrEP. They feel isolated and are worried about the stigma surrounding both their living situation and their sexual health. This has created fear around seeking help and uncertainty about how to navigate the healthcare system.",
+  "example_questions_clean": [
+    "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+    "How can I find a healthcare provider who understands my situation and can help me with PrEP?",
+    "Are there any support groups or organizations that focus on helping people in my circumstances with PrEP access?",
+    "What should I expect during the process of getting prescribed PrEP, especially given my current living conditions?",
+    "How can I overcome the fear of being judged when seeking information about PrEP?",
+    "What are the side effects of PrEP that I should be aware of, especially given my unique situation?"
+  ],
+  "example_questions_noisy": [
+    "what resources are available for someone ilke me to access prep while experiencing homelessness?",
+    "h-how can i f1d a healthcare provider who undersyands my 517u4tion and caaan help me with pre?p",
+    "Are there any support groups or organizations that focus on helping people in my circumstances with PrEP access?",
+    "hWat should 1 expsct during the process 0f getting prescribed PrEP especially given my current living conditions? 🤔",
+    "How can I overcome the fear of being judged when seeking information about PrEP?",
+    "what are the sideee effects 0f prep thay i should be aware of especially given my un1qu3 situation"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any support groups or organizations that focus on helping people in my circumstances with PrEP access?",
+  "starter_noisy": "Are there any support groups or organizations that focus on helping people in my circumstances with PrEP access?",
+  "followup_index": 0,
+  "followup_clean": "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+  "followup_noisy": "what resources are available for someone ilke me to access prep while experiencing homelessness?",
+  "style_profile": {
+    "typo_rate": 0.11804495402129585,
+    "swap_rate": 0.046794320577041346,
+    "drop_rate": 0.02956961695636304,
+    "dup_rate": 0.01718316133830243,
+    "leet_rate": 0.09786767633908361,
+    "start_lower_prob": 0.6896299381788144,
+    "all_lower_prob": 0.15312260664082744,
+    "drop_punct_prob": 0.36587624067919944,
+    "double_space_prob": 0.17061345621931667,
+    "ellipsis_prob": 0.2172568227039527,
+    "runon_prob": 0.16440673338856043,
+    "filler_rate": 0.21997069694623345,
+    "emoji_rate": 0.2240232233827153,
+    "stutter_rate": 0.14728142081062806,
+    "repeat_last_rate": 0.13320524121955898
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is currently experiencing homelessness and is concerned about their health and access to PrEP. They feel isolated and are worried about the stigma surrounding both their living situation and their sexual health. This has created fear around seeking help and uncertainty about how to navigate the healthcare system.\",\n  \"example_questions\": [\n    \"What resources are available for someone like me to access PrEP while experiencing homelessness?\",\n    \"How can I find a healthcare provider who understands my situation and can help me with PrEP?\",\n    \"Are there any support groups or organizations that focus on helping people in my circumstances with PrEP access?\",\n    \"What should I expect during the process of getting prescribed PrEP, especially given my current living conditions?\",\n    \"How can I overcome the fear of being judged when seeking information about PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of, especially given my unique situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5a7b0112155ffdec79525a8e34186a7b819ed3a2442e45ebc5efe965ef216c37",
+  "_starter_hash": "7d3ed810d959bb39d5e95dc44c75203537e4c31e9e2371bcb19ce0a2ac9034d0",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 30,
+    "gender": "feminino",
+    "socio_economic_status": "médio",
+    "primary_concern": "receio de estigmas sociais relacionados ao uso do PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você se sente socialmente isolada e tem medo de como as pessoas podem reagir ao saber que você está considerando o uso do PrEP. Essa preocupação te impede de buscar informações e apoio, o que aumenta sua ansiedade sobre a saúde e as relações sociais.",
+  "example_questions_clean": [
+    "Quais são os benefícios do uso do PrEP para a saúde sexual?",
+    "Como posso abordar o tema do PrEP com um médico que não conhece minha situação?",
+    "O uso do PrEP pode realmente ajudar a prevenir a transmissão do HIV?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu deveria saber?",
+    "Onde posso encontrar grupos de apoio para pessoas que usam PrEP?",
+    "Como posso lidar com o medo do estigma enquanto busco informações sobre o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "quais uh são os benefícios do uso do PrEP para a saúde sexual?",
+    "c-como posso 4bordar o tema do PrEP com um médico que não conhece minha situação",
+    "O uso do PrEP pode realmente ajudar a prevenir a transmissão do HIV?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu deveria saber?",
+    "Onde posso encontrar grupos de apoio para pessoas que usam PrEP?",
+    "c0m0 posso luadr com o medo do you know e571gma enquanto busco informações sobre 0 Pr3P? Pr3P?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Quais são os benefícios do uso do PrEP para a saúde sexual?",
+  "starter_noisy": "quais uh são os benefícios do uso do PrEP para a saúde sexual?",
+  "followup_index": 1,
+  "followup_clean": "Como posso abordar o tema do PrEP com um médico que não conhece minha situação?",
+  "followup_noisy": "c-como posso 4bordar o tema do PrEP com um médico que não conhece minha situação",
+  "style_profile": {
+    "typo_rate": 0.10544792957386445,
+    "swap_rate": 0.050240820180894194,
+    "drop_rate": 0.028681617369762685,
+    "dup_rate": 0.01929784137876328,
+    "leet_rate": 0.10639223165449252,
+    "start_lower_prob": 0.6145271322919782,
+    "all_lower_prob": 0.3028972559039042,
+    "drop_punct_prob": 0.31982688551970934,
+    "double_space_prob": 0.2273442085236575,
+    "ellipsis_prob": 0.3340401458595875,
+    "runon_prob": 0.29354091729701,
+    "filler_rate": 0.2852193045250481,
+    "emoji_rate": 0.17403028368467724,
+    "stutter_rate": 0.1493690788264779,
+    "repeat_last_rate": 0.11911845152534727
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 30,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"receio de estigmas sociais relacionados ao uso do PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você se sente socialmente isolada e tem medo de como as pessoas podem reagir ao saber que você está considerando o uso do PrEP. Essa preocupação te impede de buscar informações e apoio, o que aumenta sua ansiedade sobre a saúde e as relações sociais.\",\n  \"example_questions\": [\n    \"Quais são os benefícios do uso do PrEP para a saúde sexual?\",\n    \"Como posso abordar o tema do PrEP com um médico que não conhece minha situação?\",\n    \"O uso do PrEP pode realmente ajudar a prevenir a transmissão do HIV?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP que eu deveria saber?\",\n    \"Onde posso encontrar grupos de apoio para pessoas que usam PrEP?\",\n    \"Como posso lidar com o medo do estigma enquanto busco informações sobre o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ae15e76201b3e8989659c5922f5e259f0ac9355875ee6f589dd5a60a114c33c2",
+  "_starter_hash": "a9f1b85ea9887aea7d2d12be40373e55b9e9d9aeb3cfcd969dfeac02ea4770eb",
+  "_language": "Portuguese",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of side effects and stigma associated with PrEP",
+    "language": "Spanish"
+  },
+  "context": "La usuaria está recuperándose de un tratamiento contra el cáncer y se siente vulnerable. A pesar de haber superado la enfermedad, enfrenta el miedo a nuevas condiciones de salud y se preocupa por cómo la PrEP podría afectar su cuerpo debilitado. Su experiencia con el estigma relacionado con su historia médica la hace dudar de buscar información sobre PrEP. Siente una mezcla de esperanza y miedo al futuro.",
+  "example_questions_clean": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP que debo considerar?",
+    "¿Es seguro tomar PrEP después de haber recibido tratamiento para el cáncer?",
+    "¿Cómo puedo acceder a la PrEP sin sentirme juzgada?",
+    "¿Hay alternativas al PrEP que sean adecuadas para mi situación?",
+    "¿Qué debo hacer si tengo preocupaciones sobre la salud mental al tomar PrEP?",
+    "¿Existen grupos de apoyo para personas como yo que están interesadas en la PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los efectos secundarios más comunes del PrEP que debo considerar?",
+    "¿Es seguro tomar Pr3P después de haber recibido tratamiento para el cáncer",
+    "¿Cómo puedo acceder a la PrEP sin sentirme juzgada? 😕",
+    "¿Hay alternativas al PrEP que sean adecuadas para mi situación?",
+    "¿Qué debo hacer si tengo preocupaciones 50b3 la salud kental al tomar PrwP",
+    "¿Existen grupos de 4poy0 para personas como yo que están interesadas en la PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Hay alternativas al PrEP que sean adecuadas para mi situación?",
+  "starter_noisy": "¿Hay alternativas al PrEP que sean adecuadas para mi situación?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los efectos secundarios más comunes del PrEP que debo considerar?",
+  "followup_noisy": "¿Cuáles son los efectos secundarios más comunes del PrEP que debo considerar?",
+  "style_profile": {
+    "typo_rate": 0.08820164351172827,
+    "swap_rate": 0.02194713724703309,
+    "drop_rate": 0.04291038642468127,
+    "dup_rate": 0.015883182719051613,
+    "leet_rate": 0.09230556434673987,
+    "start_lower_prob": 0.7005803950688511,
+    "all_lower_prob": 0.2819789244703883,
+    "drop_punct_prob": 0.5181578682618264,
+    "double_space_prob": 0.2875265463505525,
+    "ellipsis_prob": 0.34954169757685877,
+    "runon_prob": 0.2882656814671825,
+    "filler_rate": 0.31066275918863173,
+    "emoji_rate": 0.31042660097866037,
+    "stutter_rate": 0.18480391039439997,
+    "repeat_last_rate": 0.14818252149035985
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of side effects and stigma associated with PrEP\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"La usuaria está recuperándose de un tratamiento contra el cáncer y se siente vulnerable. A pesar de haber superado la enfermedad, enfrenta el miedo a nuevas condiciones de salud y se preocupa por cómo la PrEP podría afectar su cuerpo debilitado. Su experiencia con el estigma relacionado con su historia médica la hace dudar de buscar información sobre PrEP. Siente una mezcla de esperanza y miedo al futuro.\",\n  \"example_questions\": [\n    \"¿Cuáles son los efectos secundarios más comunes del PrEP que debo considerar?\",\n    \"¿Es seguro tomar PrEP después de haber recibido tratamiento para el cáncer?\",\n    \"¿Cómo puedo acceder a la PrEP sin sentirme juzgada?\",\n    \"¿Hay alternativas al PrEP que sean adecuadas para mi situación?\",\n    \"¿Qué debo hacer si tengo preocupaciones sobre la salud mental al tomar PrEP?\",\n    \"¿Existen grupos de apoyo para personas como yo que están interesadas en la PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9462544e6021b03db21624d4cea4c6bc3f995b05f7f43afb42872f87662b401a",
+  "_starter_hash": "40fd01e2e0d1c1077ab497c10fab3bc17369b1c51e51bcaa6caea644fa724f74",
+  "_language": "Spanish",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

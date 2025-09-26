@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 35,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "impact des médicaments sur ma récupération",
+    "language": "French"
+  },
+  "context": "Cette personne est en rémission après un traitement contre le cancer et s'inquiète de sa santé immunitaire avant de commencer PrEP. Elle ressent un mélange d'espoir et de crainte face à une nouvelle médication, se demandant si elle pourra la tolérer. Les stigmates associés au VIH et le stress émotionnel de sa récente expérience médicale compliquent son accès à l'information sur PrEP.",
+  "example_questions_clean": [
+    "Quels sont les effets secondaires possibles de PrEP pour quelqu'un qui se remet d'un cancer?",
+    "La PrEP peut-elle affecter ma récupération après le traitement?",
+    "Y a-t-il des recommandations spécifiques pour les personnes ayant un historique médical similaire au mien?",
+    "Comment puis-je trouver un professionnel de santé qui comprend mes préoccupations concernant PrEP?",
+    "La PrEP est-elle sûre à prendre avec d'autres médicaments que je prends actuellement?",
+    "Quels sont les tests nécessaires avant de commencer la PrEP dans ma situation?"
+  ],
+  "example_questions_noisy": [
+    "Quels sont les effets secondaires possibles d3 PrEP pour quelqu'un qui se rmrt d'un cancer?",
+    "La PrEP peut-elle affecter ma récupération après le traitement?",
+    "Y a-t-il des recommandations spécifiques pour les personnes ayant un historique médical similaire au mien?",
+    "Comment puis-je trouver un professionnel de santé qui comprend mes préoccupations concernant PrEP?",
+    "la PrEP est-elle sûer à perndre avec d'4u7re5 médddicaments que je prends actuellmen?t",
+    "Quels sont les tests nécessaires avant de commencer la PrEP dans ma situation?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Quels sont les tests nécessaires avant de commencer la PrEP dans ma situation?",
+  "starter_noisy": "Quels sont les tests nécessaires avant de commencer la PrEP dans ma situation?",
+  "followup_index": 0,
+  "followup_clean": "Quels sont les effets secondaires possibles de PrEP pour quelqu'un qui se remet d'un cancer?",
+  "followup_noisy": "Quels sont les effets secondaires possibles d3 PrEP pour quelqu'un qui se rmrt d'un cancer?",
+  "style_profile": {
+    "typo_rate": 0.05109619436784302,
+    "swap_rate": 0.05856767202027249,
+    "drop_rate": 0.032076099603707935,
+    "dup_rate": 0.019649957704402414,
+    "leet_rate": 0.1069830400656836,
+    "start_lower_prob": 0.6270318865470769,
+    "all_lower_prob": 0.15725544816110826,
+    "drop_punct_prob": 0.3759432554926603,
+    "double_space_prob": 0.3359666981890385,
+    "ellipsis_prob": 0.29722508393963315,
+    "runon_prob": 0.19695193496366004,
+    "filler_rate": 0.33063465647212276,
+    "emoji_rate": 0.17954983917515613,
+    "stutter_rate": 0.17606969291772084,
+    "repeat_last_rate": 0.09993211188205284
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 35,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"impact des médicaments sur ma récupération\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Cette personne est en rémission après un traitement contre le cancer et s'inquiète de sa santé immunitaire avant de commencer PrEP. Elle ressent un mélange d'espoir et de crainte face à une nouvelle médication, se demandant si elle pourra la tolérer. Les stigmates associés au VIH et le stress émotionnel de sa récente expérience médicale compliquent son accès à l'information sur PrEP.\",\n  \"example_questions\": [\n    \"Quels sont les effets secondaires possibles de PrEP pour quelqu'un qui se remet d'un cancer?\",\n    \"La PrEP peut-elle affecter ma récupération après le traitement?\",\n    \"Y a-t-il des recommandations spécifiques pour les personnes ayant un historique médical similaire au mien?\",\n    \"Comment puis-je trouver un professionnel de santé qui comprend mes préoccupations concernant PrEP?\",\n    \"La PrEP est-elle sûre à prendre avec d'autres médicaments que je prends actuellement?\",\n    \"Quels sont les tests nécessaires avant de commencer la PrEP dans ma situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ffb1d2869a5c3567fe77b99f5ec991549309c42c1403d5e916473e5b5a479d3f",
+  "_starter_hash": "9f746e132c927f9523adff3898c1f859b15be4e3a8619c5f0f20c72580717383",
+  "_language": "French",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

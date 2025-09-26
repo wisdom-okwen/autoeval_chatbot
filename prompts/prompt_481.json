@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "geringverdienend",
+    "primary_concern": "Zugang zu PrEP und Stigmatisierung",
+    "language": "German"
+  },
+  "context": "Die Person lebt in einem Obdachlosenheim und kämpft mit der Unsicherheit ihrer aktuellen Lebenssituation. Diese Umstände führen zu einer ständigen Angst vor Stigmatisierung und einem Mangel an Informationen über Gesundheitsressourcen wie PrEP. Sie sind besorgt, ob sie PrEP in ihrer gegenwärtigen Lage überhaupt bekommen können und welche Auswirkungen dies auf ihr Leben haben könnte.",
+  "example_questions_clean": [
+    "Was sind die Voraussetzungen, um PrEP zu erhalten, wenn ich im Obdachlosenheim lebe?",
+    "Wie kann ich sicherstellen, dass ich bei der Nutzung von PrEP nicht diskriminiert werde?",
+    "Gibt es spezielle Programme oder Ressourcen für Menschen in meiner Situation?",
+    "Wie kann ich mit meinem Arzt über meine Bedenken bezüglich PrEP sprechen?",
+    "Welche Nebenwirkungen von PrEP sollte ich im Hinterkopf behalten?",
+    "Könnte die Einnahme von PrEP mein Immunsystem beeinflussen?"
+  ],
+  "example_questions_noisy": [
+    "Was sijd die Vorausseztungen ummm PrEP zu 3rh4l73n wenn uh ich im Obdachlosenheim lebe",
+    "Wie kann 1ch scherstellen dass ich bei der Ntuzung von PrEP nicht diskriminiert werde",
+    "Gibt es spezielle Programme oder Ressourcen für Menschen in meiner Situation?",
+    "Wie kann ich mit meinem Arzt über meine Bedenken bezüglich PrEP sprechen?",
+    "Welche Nebenwirkungen von PrEP sollte ich im Hinterkopf behalten?",
+    "Könnte die Einnahme von PrEP mein Immunsystem beeinflussen?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Wie kann ich sicherstellen, dass ich bei der Nutzung von PrEP nicht diskriminiert werde?",
+  "starter_noisy": "Wie kann 1ch scherstellen dass ich bei der Ntuzung von PrEP nicht diskriminiert werde",
+  "followup_index": 0,
+  "followup_clean": "Was sind die Voraussetzungen, um PrEP zu erhalten, wenn ich im Obdachlosenheim lebe?",
+  "followup_noisy": "Was sijd die Vorausseztungen ummm PrEP zu 3rh4l73n wenn uh ich im Obdachlosenheim lebe",
+  "style_profile": {
+    "typo_rate": 0.08644106013217599,
+    "swap_rate": 0.048448305138270475,
+    "drop_rate": 0.048346611831965626,
+    "dup_rate": 0.023932979636251468,
+    "leet_rate": 0.06343797949585304,
+    "start_lower_prob": 0.6846802244690287,
+    "all_lower_prob": 0.20659845005581173,
+    "drop_punct_prob": 0.5047629225687599,
+    "double_space_prob": 0.32030295626442773,
+    "ellipsis_prob": 0.2753634112458311,
+    "runon_prob": 0.2549099984142569,
+    "filler_rate": 0.22827227814833534,
+    "emoji_rate": 0.2974139573355643,
+    "stutter_rate": 0.1318868990825138,
+    "repeat_last_rate": 0.10511583782044945
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"geringverdienend\",\n    \"primary_concern\": \"Zugang zu PrEP und Stigmatisierung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person lebt in einem Obdachlosenheim und kämpft mit der Unsicherheit ihrer aktuellen Lebenssituation. Diese Umstände führen zu einer ständigen Angst vor Stigmatisierung und einem Mangel an Informationen über Gesundheitsressourcen wie PrEP. Sie sind besorgt, ob sie PrEP in ihrer gegenwärtigen Lage überhaupt bekommen können und welche Auswirkungen dies auf ihr Leben haben könnte.\",\n  \"example_questions\": [\n    \"Was sind die Voraussetzungen, um PrEP zu erhalten, wenn ich im Obdachlosenheim lebe?\",\n    \"Wie kann ich sicherstellen, dass ich bei der Nutzung von PrEP nicht diskriminiert werde?\",\n    \"Gibt es spezielle Programme oder Ressourcen für Menschen in meiner Situation?\",\n    \"Wie kann ich mit meinem Arzt über meine Bedenken bezüglich PrEP sprechen?\",\n    \"Welche Nebenwirkungen von PrEP sollte ich im Hinterkopf behalten?\",\n    \"Könnte die Einnahme von PrEP mein Immunsystem beeinflussen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1e7a28c186b39e0890b53e4cca16e41dffeb00f0a5713124bea878e428d8c373",
+  "_starter_hash": "41d4fdd8f18b6c3630800ff199a79f2c5ee333bb78756e6b5450efafa2fe44eb",
+  "_language": "German",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

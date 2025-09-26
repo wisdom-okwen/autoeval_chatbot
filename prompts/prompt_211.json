@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of being judged for taking PrEP",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated due to their health condition, which makes them anxious about discussing PrEP. They worry about potential stigma and judgment from others regarding their choice to take this preventive medication. This fear affects their mindset, making them hesitant to seek out necessary information and support.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work?",
+    "Are there any side effects I should be aware of before starting PrEP?",
+    "How can I talk to my healthcare provider about PrEP without feeling judged?",
+    "Is there a way to access PrEP discreetly if I'm worried about what others might think?",
+    "What resources are available for people who feel socially isolated while considering PrEP?",
+    "Can you help me understand the importance of taking PrEP consistently?"
+  ],
+  "example_questions_noisy": [
+    "What exactly is PrEP and how does it work?",
+    "Are there any side effects I should be aware of before starting PrEP?",
+    "hlw can I talk to my healthcare pr0v1der about PEP without feeling judg3d? 😬",
+    "Is there a way to access PrEP discreetly if I'm worried about what others might think?",
+    "what resources are available for people who i mean feel socially isolated while considering prep?",
+    "can you h3lp me understand the importanec of taking prep consistently?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there any side effects I should be aware of before starting PrEP?",
+  "starter_noisy": "Are there any side effects I should be aware of before starting PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What exactly is PrEP and how does it work?",
+  "followup_noisy": "What exactly is PrEP and how does it work?",
+  "style_profile": {
+    "typo_rate": 0.09282306502311431,
+    "swap_rate": 0.054424687168716054,
+    "drop_rate": 0.029613949921838773,
+    "dup_rate": 0.016628144880759248,
+    "leet_rate": 0.08522936803186139,
+    "start_lower_prob": 0.6360609689927361,
+    "all_lower_prob": 0.3009254467490694,
+    "drop_punct_prob": 0.40856167577610186,
+    "double_space_prob": 0.29590958602881545,
+    "ellipsis_prob": 0.22862580300605173,
+    "runon_prob": 0.21938646911908977,
+    "filler_rate": 0.38328531640400565,
+    "emoji_rate": 0.24605228864712198,
+    "stutter_rate": 0.15506384196368705,
+    "repeat_last_rate": 0.09212050028396734
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of being judged for taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated due to their health condition, which makes them anxious about discussing PrEP. They worry about potential stigma and judgment from others regarding their choice to take this preventive medication. This fear affects their mindset, making them hesitant to seek out necessary information and support.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work?\",\n    \"Are there any side effects I should be aware of before starting PrEP?\",\n    \"How can I talk to my healthcare provider about PrEP without feeling judged?\",\n    \"Is there a way to access PrEP discreetly if I'm worried about what others might think?\",\n    \"What resources are available for people who feel socially isolated while considering PrEP?\",\n    \"Can you help me understand the importance of taking PrEP consistently?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "21f9c0a8cbf417626ccbda5c43455d8a78abe6568066a158ccfffad82b8455ac",
+  "_starter_hash": "62d757db6bc2e40361affc640a779d3649c6e6fb9b244a57441e5c8741f94242",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

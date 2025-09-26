@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 34,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact de la PrEP sur ma santé et mes médicaments pour la sclérose en plaques",
+    "language": "French"
+  },
+  "context": "Vous vivez avec la sclérose en plaques et cela vous rend anxieuse concernant les nouvelles options de prévention comme la PrEP. Vous vous inquiétez de la façon dont cela pourrait interagir avec vos traitements actuels et de la stigmatisation potentielle liée à votre statut de santé. Vous espérez obtenir des informations claires pour prendre une décision éclairée, tout en affrontant vos peurs sur les effets secondaires et l'accès aux soins.",
+  "example_questions_clean": [
+    "Quelles sont les interactions potentielles entre la PrEP et mes médicaments pour la sclérose en plaques ?",
+    "Est-ce que d'autres personnes vivant avec des conditions chroniques utilisent la PrEP ?",
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée ?",
+    "Quelles sont les ressources disponibles pour m'aider à naviguer dans l'accès à la PrEP ?",
+    "Y a-t-il des témoignages de personnes dans ma situation qui ont trouvé la PrEP bénéfique ?"
+  ],
+  "example_questions_noisy": [
+    "quelels sont le5 interactions potentielles ndtre ka PrEP et mex médicaments pppour ka like sclérose en plaques ?",
+    "Est-ce que d'autres personnes vivant avec des conditions chroniques utilisent la PrEP ?",
+    "commeng puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir juhée ?",
+    "Quelles sssont les ressources disponibles p0u7 m'aider à naviguer dans l'accès à la PrEP",
+    "y a-t-il dws témkignages de personnes dans ma situation um qui ont trouvé la PrEP bbbénéfique 😕"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Y a-t-il des témoignages de personnes dans ma situation qui ont trouvé la PrEP bénéfique ?",
+  "starter_noisy": "y a-t-il dws témkignages de personnes dans ma situation um qui ont trouvé la PrEP bbbénéfique 😕",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les interactions potentielles entre la PrEP et mes médicaments pour la sclérose en plaques ?",
+  "followup_noisy": "quelels sont le5 interactions potentielles ndtre ka PrEP et mex médicaments pppour ka like sclérose en plaques ?",
+  "style_profile": {
+    "typo_rate": 0.10830963428214833,
+    "swap_rate": 0.05608986406776567,
+    "drop_rate": 0.020841871641800045,
+    "dup_rate": 0.011419888959127449,
+    "leet_rate": 0.05644256400353435,
+    "start_lower_prob": 0.7667845899431649,
+    "all_lower_prob": 0.2414677270104724,
+    "drop_punct_prob": 0.3359417110116206,
+    "double_space_prob": 0.25070154616055423,
+    "ellipsis_prob": 0.2255991917689783,
+    "runon_prob": 0.2766434821883079,
+    "filler_rate": 0.47403447751556915,
+    "emoji_rate": 0.1547699440533943,
+    "stutter_rate": 0.16047492390057427,
+    "repeat_last_rate": 0.13030080119612292
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 34,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact de la PrEP sur ma santé et mes médicaments pour la sclérose en plaques\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez avec la sclérose en plaques et cela vous rend anxieuse concernant les nouvelles options de prévention comme la PrEP. Vous vous inquiétez de la façon dont cela pourrait interagir avec vos traitements actuels et de la stigmatisation potentielle liée à votre statut de santé. Vous espérez obtenir des informations claires pour prendre une décision éclairée, tout en affrontant vos peurs sur les effets secondaires et l'accès aux soins.\",\n  \"example_questions\": [\n    \"Quelles sont les interactions potentielles entre la PrEP et mes médicaments pour la sclérose en plaques ?\",\n    \"Est-ce que d'autres personnes vivant avec des conditions chroniques utilisent la PrEP ?\",\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée ?\",\n    \"Quelles sont les ressources disponibles pour m'aider à naviguer dans l'accès à la PrEP ?\",\n    \"Y a-t-il des témoignages de personnes dans ma situation qui ont trouvé la PrEP bénéfique ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2a7aecc1127a578c88432b5ac90ca1fd618adba37a357982a4f429a19454ace5",
+  "_starter_hash": "4643ee2a6ea2e5c1497860dc823beea75ae7db00ff6562bd24f828c320977b23",
+  "_language": "French",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

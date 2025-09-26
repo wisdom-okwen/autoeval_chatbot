@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "temor a la estigmatización y el acceso a servicios de salud debido a mi historial de uso de sustancias",
+    "language": "Spanish"
+  },
+  "context": "Un hombre de 32 años, originario de México, está considerando el uso de PrEP para prevenir la transmisión del VIH. Sin embargo, se siente ansioso debido a su historial de uso de sustancias y teme cómo esto podría afectar su acceso a la atención médica y la percepción que otros puedan tener de él. A menudo se siente estigmatizado y le preocupa que sus pasados hábitos influyan en su búsqueda de información y apoyo. A pesar de sus temores, tiene la esperanza de proteger su salud y mejorar su calidad de vida.",
+  "example_questions_clean": [
+    "¿Qué pasos debo seguir para acceder a PrEP sin enfrentar juicio por mi pasado?",
+    "¿Hay organizaciones que ofrezcan apoyo específico para personas con antecedentes de uso de sustancias que buscan PrEP?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme avergonzado?",
+    "¿Qué efectos secundarios debería esperar al empezar a tomar PrEP?",
+    "¿Existen recursos comunitarios que puedan ayudarme a entender mejor PrEP?",
+    "¿Cuál es la eficacia de PrEP para alguien en mi situación?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué pasos dddebo 53gu1r p44r acccceder a PrEP sin enfrentar juicio por mi pasado",
+    "¿Hay organizaciones que ofrezcan apoyo específico para personas con antecedentes de uso de sustancias que buscan PrEP?",
+    "¿Cómo puedo hablar c0n mi médico sbore mis preocupaciones sin sentirme avergonzado",
+    "¿Qué efectos secundarios debería esperar al empezar a tomar PrEP?",
+    "¿Exi573n r3cur5o5 comunitarios que puedan ayudarme a entender mejor orE?",
+    "¿Cuál es la eficacia de PrEP para alguien en mi situación?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Existen recursos comunitarios que puedan ayudarme a entender mejor PrEP?",
+  "starter_noisy": "¿Exi573n r3cur5o5 comunitarios que puedan ayudarme a entender mejor orE?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué pasos debo seguir para acceder a PrEP sin enfrentar juicio por mi pasado?",
+  "followup_noisy": "¿Qué pasos dddebo 53gu1r p44r acccceder a PrEP sin enfrentar juicio por mi pasado",
+  "style_profile": {
+    "typo_rate": 0.08415227775231891,
+    "swap_rate": 0.05575022528180058,
+    "drop_rate": 0.044203054343651654,
+    "dup_rate": 0.02068842084883365,
+    "leet_rate": 0.11908026450872235,
+    "start_lower_prob": 0.7987400775089571,
+    "all_lower_prob": 0.22187593464179525,
+    "drop_punct_prob": 0.5960958775370915,
+    "double_space_prob": 0.2298758045196776,
+    "ellipsis_prob": 0.23825524685357008,
+    "runon_prob": 0.21976638571612028,
+    "filler_rate": 0.20937987980311992,
+    "emoji_rate": 0.34583230544975607,
+    "stutter_rate": 0.12355447121683638,
+    "repeat_last_rate": 0.173194986209944
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"temor a la estigmatización y el acceso a servicios de salud debido a mi historial de uso de sustancias\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Un hombre de 32 años, originario de México, está considerando el uso de PrEP para prevenir la transmisión del VIH. Sin embargo, se siente ansioso debido a su historial de uso de sustancias y teme cómo esto podría afectar su acceso a la atención médica y la percepción que otros puedan tener de él. A menudo se siente estigmatizado y le preocupa que sus pasados hábitos influyan en su búsqueda de información y apoyo. A pesar de sus temores, tiene la esperanza de proteger su salud y mejorar su calidad de vida.\",\n  \"example_questions\": [\n    \"¿Qué pasos debo seguir para acceder a PrEP sin enfrentar juicio por mi pasado?\",\n    \"¿Hay organizaciones que ofrezcan apoyo específico para personas con antecedentes de uso de sustancias que buscan PrEP?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones sin sentirme avergonzado?\",\n    \"¿Qué efectos secundarios debería esperar al empezar a tomar PrEP?\",\n    \"¿Existen recursos comunitarios que puedan ayudarme a entender mejor PrEP?\",\n    \"¿Cuál es la eficacia de PrEP para alguien en mi situación?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8146a17a460e5c1987ce9f14578e712990eb89b2f9519f2bc3f2b0d0bd9b4f7d",
+  "_starter_hash": "162ba923e3a46c2b6dbb878f3aa7bee2cf7651488a371cf8319b0b3cf9988c41",
+  "_language": "Spanish",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

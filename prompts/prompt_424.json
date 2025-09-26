@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "navigating PrEP with my health condition",
+    "language": "Swahili"
+  },
+  "context": "As a 32-year-old woman living with multiple sclerosis in Tanzania, you face unique challenges when considering PrEP for HIV prevention. Your condition affects your physical health and brings about emotional stress, leading to fears about potential interactions with medications and the stigma associated with using PrEP. You are looking for reliable information to help you navigate these concerns and access the necessary resources.",
+  "example_questions_clean": [
+    "Je, PrEP inaweza kuathiri hali yangu ya afya kutokana na ugonjwa wa msongo?",
+    "Ninaweza kupata ushauri gani kuhusu matumizi ya PrEP nikihisi hofu kuhusu matokeo?",
+    "Ni hatua zipi za kwanza za kutafuta PrEP kama mtu mwenye hali hii?",
+    "Je, kuna maeneo maalum ya afya ambayo wanaweza kunipa taarifa zaidi kuhusu PrEP?",
+    "Ninaweza kupata msaada vipi ili kupunguza hofu yangu kuhusu unyanyapaa wa kutumia PrEP?",
+    "Ni rahisi vipi kwa mtu mwenye hali kama yangu kupata PrEP bila vikwazo?"
+  ],
+  "example_questions_noisy": [
+    "Je, PrEP inaweza kuathiri hali yangu ya afya kutokana na ugonjwa wa msongo?",
+    "Ninaweza kupata ushauri gani kuhusu matumizi ya PrEP nikihisi hofu kuhusu matokeo?",
+    "ni hatua zip1 za kw4nz4 za kutafuta PrEP kama mtu mwenye hali hii",
+    "Je kuna maeneo maalum ya afya ambayo wan4w3z4 kunip taarifa zaidi kuhusu PrEP ✨",
+    "ninaweza kpata msaada vipi 1l1 kupunguza hofu yahgu kuhusu unyanyapaa wa kutumia PrEP 😅",
+    "Ni rahisi vipi kwa mtu mwenye hali kama yangu kupata PrEP bila vikwazo?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Je, PrEP inaweza kuathiri hali yangu ya afya kutokana na ugonjwa wa msongo?",
+  "starter_noisy": "Je, PrEP inaweza kuathiri hali yangu ya afya kutokana na ugonjwa wa msongo?",
+  "followup_index": 1,
+  "followup_clean": "Ninaweza kupata ushauri gani kuhusu matumizi ya PrEP nikihisi hofu kuhusu matokeo?",
+  "followup_noisy": "Ninaweza kupata ushauri gani kuhusu matumizi ya PrEP nikihisi hofu kuhusu matokeo?",
+  "style_profile": {
+    "typo_rate": 0.06542886234328991,
+    "swap_rate": 0.04529086775873598,
+    "drop_rate": 0.04496337818343646,
+    "dup_rate": 0.016966176181611777,
+    "leet_rate": 0.10725771028583364,
+    "start_lower_prob": 0.8729475130567301,
+    "all_lower_prob": 0.18874646251370408,
+    "drop_punct_prob": 0.5120303589771142,
+    "double_space_prob": 0.2790833570683906,
+    "ellipsis_prob": 0.2611467269977936,
+    "runon_prob": 0.1953647235323001,
+    "filler_rate": 0.34182518910625914,
+    "emoji_rate": 0.20980763471287478,
+    "stutter_rate": 0.18361373170986098,
+    "repeat_last_rate": 0.09239912299231205
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"navigating PrEP with my health condition\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a 32-year-old woman living with multiple sclerosis in Tanzania, you face unique challenges when considering PrEP for HIV prevention. Your condition affects your physical health and brings about emotional stress, leading to fears about potential interactions with medications and the stigma associated with using PrEP. You are looking for reliable information to help you navigate these concerns and access the necessary resources.\",\n  \"example_questions\": [\n    \"Je, PrEP inaweza kuathiri hali yangu ya afya kutokana na ugonjwa wa msongo?\",\n    \"Ninaweza kupata ushauri gani kuhusu matumizi ya PrEP nikihisi hofu kuhusu matokeo?\",\n    \"Ni hatua zipi za kwanza za kutafuta PrEP kama mtu mwenye hali hii?\",\n    \"Je, kuna maeneo maalum ya afya ambayo wanaweza kunipa taarifa zaidi kuhusu PrEP?\",\n    \"Ninaweza kupata msaada vipi ili kupunguza hofu yangu kuhusu unyanyapaa wa kutumia PrEP?\",\n    \"Ni rahisi vipi kwa mtu mwenye hali kama yangu kupata PrEP bila vikwazo?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ffbca1f08bfe749a102872dc7bbc5cc864ef077b0546eada51eab0b9a10af390",
+  "_starter_hash": "3c5e4cd566737a1af3e5efaeb404ae543f3ba87de65ce2d5799cd16294a2b33e",
+  "_language": "Swahili",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

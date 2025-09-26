@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "accessibility and stigma related to past substance use",
+    "language": "English"
+  },
+  "context": "The user has a history of substance use and is currently working on recovery. They are concerned about how their past might affect their ability to access PrEP, and they feel a mix of hope for better health and fear of judgment from healthcare providers. This unique situation makes them hesitant to ask for help, as they worry about stigma and misunderstanding.",
+  "example_questions_clean": [
+    "What steps can I take to ensure I can access PrEP despite my past with substance use?",
+    "Are there specific support services available for individuals like me who want to start PrEP?",
+    "How do healthcare providers typically respond to patients with a history of substance use when discussing PrEP?",
+    "Is there a way to get PrEP discreetly without facing stigma in my community?",
+    "What resources exist for someone in recovery who wants to learn more about PrEP?",
+    "Can I expect confidentiality regarding my substance use history when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wh47 steps can I take to ensure I can 4cc3s5 PrEP despite my past with substance us?e",
+    "Are there specific support services available for individuals like me who want to start PrEP?",
+    "h-how d0 healthcare providers typically respond i mean to patients with a history of substance use when discussing PrEP?",
+    "Is there a way to get PrEP discreetly without facing stigma in my community?",
+    "what resources exist for someone on recovery who wants to learn more about prep?",
+    "Can I expect confidentiality regarding my substance use history when seeking PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources exist for someone in recovery who wants to learn more about PrEP?",
+  "starter_noisy": "what resources exist for someone on recovery who wants to learn more about prep?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to ensure I can access PrEP despite my past with substance use?",
+  "followup_noisy": "wh47 steps can I take to ensure I can 4cc3s5 PrEP despite my past with substance us?e",
+  "style_profile": {
+    "typo_rate": 0.08906632286412923,
+    "swap_rate": 0.03442355715724943,
+    "drop_rate": 0.021010760704441994,
+    "dup_rate": 0.017710594997150268,
+    "leet_rate": 0.06619225655697929,
+    "start_lower_prob": 0.8372787531363719,
+    "all_lower_prob": 0.276607534961438,
+    "drop_punct_prob": 0.36342047918043374,
+    "double_space_prob": 0.2680822044987701,
+    "ellipsis_prob": 0.19634474443245986,
+    "runon_prob": 0.2323517287439101,
+    "filler_rate": 0.30989856233796564,
+    "emoji_rate": 0.270446801072324,
+    "stutter_rate": 0.1315067554981875,
+    "repeat_last_rate": 0.11933670146351093
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"accessibility and stigma related to past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a history of substance use and is currently working on recovery. They are concerned about how their past might affect their ability to access PrEP, and they feel a mix of hope for better health and fear of judgment from healthcare providers. This unique situation makes them hesitant to ask for help, as they worry about stigma and misunderstanding.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure I can access PrEP despite my past with substance use?\",\n    \"Are there specific support services available for individuals like me who want to start PrEP?\",\n    \"How do healthcare providers typically respond to patients with a history of substance use when discussing PrEP?\",\n    \"Is there a way to get PrEP discreetly without facing stigma in my community?\",\n    \"What resources exist for someone in recovery who wants to learn more about PrEP?\",\n    \"Can I expect confidentiality regarding my substance use history when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d864d49c661c3a18959b93363e15ecefa093336a5fbe30b28f8513ca83695bca",
+  "_starter_hash": "bf6dcc38d8cbbad02b3325462aab60405ebfe690970e2f168852e91786825c06",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

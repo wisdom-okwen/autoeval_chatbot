@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "navigating mental health challenges while considering PrEP",
+    "language": "Swahili"
+  },
+  "context": "Unapojaribu kupata taarifa kuhusu PrEP, unakabiliwa na changamoto za akili kama vile kuishi na schizophrenia. Hii inaweza kuathiri mtazamo wako kuhusu dawa na hofu ya kubeba unyanyapaa. Ni muhimu kuelewa jinsi ya kukabiliana na hisia zako na kupata msaada unaohitajika.",
+  "example_questions_clean": [
+    "Ni aina gani za msaada zinapatikana kwa watu wanaoishi na schizophrenia wanaotaka kutumia PrEP?",
+    "Je, kuna uhusiano wowote kati ya madawa ninayochukua na PrEP?",
+    "Ninaweza vipi kushirikisha daktari wangu kuhusu PrEP bila kuogopa kutengwa?",
+    "Ni hatua gani nitazochukua ili kuhakikisha ninapata PrEP bila matatizo?",
+    "Je, kuna makundi ya msaada ambayo yanaweza kunisaidia kuelewa PrEP vizuri zaidi?",
+    "Ninahitaji kujua nini kuhusu madhara yanayoweza kutoka kwa matumizi ya PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Ni aina gani za msaada zinapatikana kwa watu wanaoishi na schizophrenia wanaotaka kutumia PrEP?",
+    "Je, kuna uhusiano wowote kati ya madawa ninayochukua na PrEP?",
+    "ninaweza v1pi kushirikisha daktari wangu kuhusu PrEP bil4 kuogopa kutengwa?",
+    "ni hatua gani nitazochukua ili you know kuhakikisha ninapata PrEP bila matatizo",
+    "je kuna makundi yq msaaad ambayo yanaweza kun1541d14 kuelewa [r3P vizuri zaidi? ‼️ ‼️",
+    "Ninahitaji kujua nini kuhusu madhara yanayoweza kutoka kwa matumizi ya PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Ninahitaji kujua nini kuhusu madhara yanayoweza kutoka kwa matumizi ya PrEP?",
+  "starter_noisy": "Ninahitaji kujua nini kuhusu madhara yanayoweza kutoka kwa matumizi ya PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ni aina gani za msaada zinapatikana kwa watu wanaoishi na schizophrenia wanaotaka kutumia PrEP?",
+  "followup_noisy": "Ni aina gani za msaada zinapatikana kwa watu wanaoishi na schizophrenia wanaotaka kutumia PrEP?",
+  "style_profile": {
+    "typo_rate": 0.11653077794784776,
+    "swap_rate": 0.029074072984919968,
+    "drop_rate": 0.04698131888094798,
+    "dup_rate": 0.013386381665808494,
+    "leet_rate": 0.1152672877971723,
+    "start_lower_prob": 0.8000766169736466,
+    "all_lower_prob": 0.3024157703532293,
+    "drop_punct_prob": 0.33951248731228506,
+    "double_space_prob": 0.3062878873514344,
+    "ellipsis_prob": 0.27974384309157935,
+    "runon_prob": 0.2728884475967377,
+    "filler_rate": 0.3503804569547371,
+    "emoji_rate": 0.24696380972431986,
+    "stutter_rate": 0.10722201634611522,
+    "repeat_last_rate": 0.13753010182136796
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"navigating mental health challenges while considering PrEP\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Unapojaribu kupata taarifa kuhusu PrEP, unakabiliwa na changamoto za akili kama vile kuishi na schizophrenia. Hii inaweza kuathiri mtazamo wako kuhusu dawa na hofu ya kubeba unyanyapaa. Ni muhimu kuelewa jinsi ya kukabiliana na hisia zako na kupata msaada unaohitajika.\",\n  \"example_questions\": [\n    \"Ni aina gani za msaada zinapatikana kwa watu wanaoishi na schizophrenia wanaotaka kutumia PrEP?\",\n    \"Je, kuna uhusiano wowote kati ya madawa ninayochukua na PrEP?\",\n    \"Ninaweza vipi kushirikisha daktari wangu kuhusu PrEP bila kuogopa kutengwa?\",\n    \"Ni hatua gani nitazochukua ili kuhakikisha ninapata PrEP bila matatizo?\",\n    \"Je, kuna makundi ya msaada ambayo yanaweza kunisaidia kuelewa PrEP vizuri zaidi?\",\n    \"Ninahitaji kujua nini kuhusu madhara yanayoweza kutoka kwa matumizi ya PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3e1b76df02a06444e050e37d8c4b0dac77b760258634650272bac17e2ef57694",
+  "_starter_hash": "f0f78da95988ee201eccb612324d0612d2a721d374fdf099ecba4c180a7dfce8",
+  "_language": "Swahili",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

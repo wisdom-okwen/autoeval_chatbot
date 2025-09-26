@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "entender cómo PrEP puede afectar mi salud y la información sobre la accesibilidad",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 28 años con una discapacidad de aprendizaje que siente ansiedad al buscar información sobre PrEP. A menudo te sientes abrumada por la terminología médica y temes que las personas no comprendan tu situación. La falta de acceso a recursos educativos claros agrava tus preocupaciones sobre tu salud y el estigma asociado con el uso de PrEP.",
+  "example_questions_clean": [
+    "¿Cuáles son los beneficios de tomar PrEP para alguien como yo?",
+    "¿Cómo puedo encontrar un lugar que ofrezca PrEP sin sentirme juzgada?",
+    "¿Existen materiales educativos sobre PrEP que sean fáciles de entender?",
+    "Tengo miedo de hablar sobre PrEP con mi médico, ¿qué debo hacer?",
+    "¿Cómo puedo saber si PrEP es adecuado para mi situación particular?",
+    "¿Qué pasos debo seguir para comenzar a tomar PrEP si decido hacerlo?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los beneficios de tomar PrEP para alguien como yo?",
+    "¿Cómo puedo encontrar un lugar que ofrezca PrEP sin sentirme juzgada?",
+    "¿Existen materiales educativos sobre PrEP que sean fáciles de entender?",
+    "Tengo miedo de hablar sobre PrEP con mi médico, ¿qué debo hacer?",
+    "¿-¿Cómo puedo saber si PrEP es 4d3cu4d0 pwra mi situación particular?",
+    "¿ué pasos debo seguir para comenzar 4 tomar PrEP si decido hacerlo?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "¿Qué pasos debo seguir para comenzar a tomar PrEP si decido hacerlo?",
+  "starter_noisy": "¿ué pasos debo seguir para comenzar 4 tomar PrEP si decido hacerlo?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los beneficios de tomar PrEP para alguien como yo?",
+  "followup_noisy": "¿Cuáles son los beneficios de tomar PrEP para alguien como yo?",
+  "style_profile": {
+    "typo_rate": 0.09300082868017082,
+    "swap_rate": 0.029604126404050305,
+    "drop_rate": 0.022553587606675668,
+    "dup_rate": 0.020602623701578643,
+    "leet_rate": 0.09557219285118547,
+    "start_lower_prob": 0.884714432966337,
+    "all_lower_prob": 0.15713299619840912,
+    "drop_punct_prob": 0.3406206760811352,
+    "double_space_prob": 0.20134636681449503,
+    "ellipsis_prob": 0.15726146718756184,
+    "runon_prob": 0.25655324021306614,
+    "filler_rate": 0.2704086956387228,
+    "emoji_rate": 0.3035971136335341,
+    "stutter_rate": 0.19418920809617476,
+    "repeat_last_rate": 0.14705638502659968
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"entender cómo PrEP puede afectar mi salud y la información sobre la accesibilidad\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Eres una mujer de 28 años con una discapacidad de aprendizaje que siente ansiedad al buscar información sobre PrEP. A menudo te sientes abrumada por la terminología médica y temes que las personas no comprendan tu situación. La falta de acceso a recursos educativos claros agrava tus preocupaciones sobre tu salud y el estigma asociado con el uso de PrEP.\",\n  \"example_questions\": [\n    \"¿Cuáles son los beneficios de tomar PrEP para alguien como yo?\",\n    \"¿Cómo puedo encontrar un lugar que ofrezca PrEP sin sentirme juzgada?\",\n    \"¿Existen materiales educativos sobre PrEP que sean fáciles de entender?\",\n    \"Tengo miedo de hablar sobre PrEP con mi médico, ¿qué debo hacer?\",\n    \"¿Cómo puedo saber si PrEP es adecuado para mi situación particular?\",\n    \"¿Qué pasos debo seguir para comenzar a tomar PrEP si decido hacerlo?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "421fcef71afada71f31ef9c2eff202ab52c72aeea58acf6ea51f1b3bd47f7807",
+  "_starter_hash": "4ec90d836ee44d030139fb641538e469e83ed47be02fada36d8c18b942d775a0",
+  "_language": "Spanish",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

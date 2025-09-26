@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Français",
+    "age": 28,
+    "gender": "Homme",
+    "socio_economic_status": "Moyen",
+    "primary_concern": "La crainte du jugement social concernant l'utilisation de PrEP",
+    "language": "French"
+  },
+  "context": "En tant que personne souffrant d'anxiété sociale, vous ressentez une peur intense de la stigmatisation liée à la prise de PrEP. Cela affecte votre confiance en vous et rend difficile la recherche d'informations ou le contact avec des professionnels de santé. Vous aspirez à vous protéger et à vivre sans crainte, mais l'angoisse vous freine.",
+  "example_questions_clean": [
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé?",
+    "Quelles sont les étapes pour obtenir PrEP en France si je suis inquiet de la réaction des autres?",
+    "Y a-t-il des ressources pour les personnes qui se sentent anxieuses à l'idée de prendre PrEP?",
+    "La PrEP est-elle vraiment efficace pour réduire le risque de VIH, même si je n'ai pas un partenaire régulier?",
+    "Comment gérer mes émotions autour du stigma lié à la prise de PrEP?",
+    "Quelles sont les expériences d'autres personnes qui ont surmonté leur anxiété sociale pour prendre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé?",
+    "quelles sont les étapes pour obtenir PrEP en France si je suis inquiet de la réaction deees autres autres",
+    "y 74-il des r3550urc3s pour les personnes qui se sentent anxieuses à l'idée de prendre Pr3P? ❓",
+    "l-la PrEP est-ele rvaiment efficace pour réduirs le uh risque de VIH mêm3 si je n'ai pas un partenaire régulier",
+    "c-cCComent gérer mes émotions 4u70ur du stigma you know lié à la prise de PrEP?",
+    "Quelles sont les expériences d'autres personnes qui ont surmonté leur anxiété sociale pour prendre PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Quelles sont les étapes pour obtenir PrEP en France si je suis inquiet de la réaction des autres?",
+  "starter_noisy": "quelles sont les étapes pour obtenir PrEP en France si je suis inquiet de la réaction deees autres autres",
+  "followup_index": 0,
+  "followup_clean": "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé?",
+  "followup_noisy": "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé?",
+  "style_profile": {
+    "typo_rate": 0.09354707237397662,
+    "swap_rate": 0.036255786363358064,
+    "drop_rate": 0.04966041609084765,
+    "dup_rate": 0.025125328940169805,
+    "leet_rate": 0.10254544722254591,
+    "start_lower_prob": 0.7742357481010969,
+    "all_lower_prob": 0.2549345161286923,
+    "drop_punct_prob": 0.4809507222277032,
+    "double_space_prob": 0.2992191574390637,
+    "ellipsis_prob": 0.3398451650198285,
+    "runon_prob": 0.16944246718905098,
+    "filler_rate": 0.2870854630579681,
+    "emoji_rate": 0.26827555336348435,
+    "stutter_rate": 0.15768270220270056,
+    "repeat_last_rate": 0.11438840884585982
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Français\",\n    \"age\": 28,\n    \"gender\": \"Homme\",\n    \"socio_economic_status\": \"Moyen\",\n    \"primary_concern\": \"La crainte du jugement social concernant l'utilisation de PrEP\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"En tant que personne souffrant d'anxiété sociale, vous ressentez une peur intense de la stigmatisation liée à la prise de PrEP. Cela affecte votre confiance en vous et rend difficile la recherche d'informations ou le contact avec des professionnels de santé. Vous aspirez à vous protéger et à vivre sans crainte, mais l'angoisse vous freine.\",\n  \"example_questions\": [\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugé?\",\n    \"Quelles sont les étapes pour obtenir PrEP en France si je suis inquiet de la réaction des autres?\",\n    \"Y a-t-il des ressources pour les personnes qui se sentent anxieuses à l'idée de prendre PrEP?\",\n    \"La PrEP est-elle vraiment efficace pour réduire le risque de VIH, même si je n'ai pas un partenaire régulier?\",\n    \"Comment gérer mes émotions autour du stigma lié à la prise de PrEP?\",\n    \"Quelles sont les expériences d'autres personnes qui ont surmonté leur anxiété sociale pour prendre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3fba9503887b968c72bd02e9f2c81a416856ffc6609b7f823418eca7a0b0e5f2",
+  "_starter_hash": "5878909f042f636e87b8f9f4d5130161b38de3ba8ad9e754412cee0bea3d25d9",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

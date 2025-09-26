@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 29,
+    "gender": "weiblich",
+    "socio_economic_status": "niedriges Einkommen",
+    "primary_concern": "Angst vor Nebenwirkungen und dem Umgang mit meiner psychischen Gesundheit",
+    "language": "German"
+  },
+  "context": "Die Nutzerin hat Schwierigkeiten, sich über PrEP zu informieren, da sie unter Depressionen leidet. Diese Herausforderung beeinflusst ihre Emotionen und ihren Zugang zu Gesundheitsdiensten. Sie fühlt sich oft überfordert und hat Bedenken, wie PrEP ihre Stimmung beeinflussen könnte.",
+  "example_questions_clean": [
+    "Was sind die möglichen Nebenwirkungen von PrEP, und wie könnten sie meine Stimmung beeinflussen?",
+    "Gibt es Unterstützung für Menschen mit psychischen Herausforderungen, die PrEP in Anspruch nehmen möchten?",
+    "Wie kann ich sicherstellen, dass ich die richtige Entscheidung für meine Gesundheit treffe?",
+    "Kann ich PrEP auch während einer Therapie gegen Depressionen einnehmen?",
+    "Gibt es spezielle Programme, die Menschen in meiner Situation helfen können?",
+    "Wie steht es um die Vertraulichkeit bei der Verschreibung von PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wzs sine die mögilchen Nebenwirkungen v0n PrEP und wie könnten sie meine Stimmung beeinflussssen 😬",
+    "Gibt es Unterstützung für Menschen mit psychischen Herausforderungen, die PrEP in Anspruch nehmen möchten?",
+    "Wie kann 1ch sicherstellen, dass ich d1e richtige Entscheidung für meine Gesundheit treffe? 🤔",
+    "k4nn iccch PrEP auch während einer Therapie gegen Depressionen i mean einnehmen? 🫠",
+    "Gibt es spezielle Programme, die Menschen in meiner Situation helfen können?",
+    "wie steht es um d13 Vertraulichkeit bei der Verschreibung von PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Was sind die möglichen Nebenwirkungen von PrEP, und wie könnten sie meine Stimmung beeinflussen?",
+  "starter_noisy": "Wzs sine die mögilchen Nebenwirkungen v0n PrEP und wie könnten sie meine Stimmung beeinflussssen 😬",
+  "followup_index": 1,
+  "followup_clean": "Gibt es Unterstützung für Menschen mit psychischen Herausforderungen, die PrEP in Anspruch nehmen möchten?",
+  "followup_noisy": "Gibt es Unterstützung für Menschen mit psychischen Herausforderungen, die PrEP in Anspruch nehmen möchten?",
+  "style_profile": {
+    "typo_rate": 0.06359895713538603,
+    "swap_rate": 0.025438791144752435,
+    "drop_rate": 0.026142904300890932,
+    "dup_rate": 0.02959433243085475,
+    "leet_rate": 0.09441844022573044,
+    "start_lower_prob": 0.6038935876768937,
+    "all_lower_prob": 0.25598650883893304,
+    "drop_punct_prob": 0.4324584331575415,
+    "double_space_prob": 0.3357859656827988,
+    "ellipsis_prob": 0.20406368720106297,
+    "runon_prob": 0.29797817619138844,
+    "filler_rate": 0.23802476338744857,
+    "emoji_rate": 0.2832739256336605,
+    "stutter_rate": 0.17318751193971355,
+    "repeat_last_rate": 0.09326135708417392
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 29,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"niedriges Einkommen\",\n    \"primary_concern\": \"Angst vor Nebenwirkungen und dem Umgang mit meiner psychischen Gesundheit\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin hat Schwierigkeiten, sich über PrEP zu informieren, da sie unter Depressionen leidet. Diese Herausforderung beeinflusst ihre Emotionen und ihren Zugang zu Gesundheitsdiensten. Sie fühlt sich oft überfordert und hat Bedenken, wie PrEP ihre Stimmung beeinflussen könnte.\",\n  \"example_questions\": [\n    \"Was sind die möglichen Nebenwirkungen von PrEP, und wie könnten sie meine Stimmung beeinflussen?\",\n    \"Gibt es Unterstützung für Menschen mit psychischen Herausforderungen, die PrEP in Anspruch nehmen möchten?\",\n    \"Wie kann ich sicherstellen, dass ich die richtige Entscheidung für meine Gesundheit treffe?\",\n    \"Kann ich PrEP auch während einer Therapie gegen Depressionen einnehmen?\",\n    \"Gibt es spezielle Programme, die Menschen in meiner Situation helfen können?\",\n    \"Wie steht es um die Vertraulichkeit bei der Verschreibung von PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b7f037ca624ad0f9444744cfe8a2a2809012a5830dce8e62e89b1176388cf6e7",
+  "_starter_hash": "10c94cc2e46063279ddb0383df2d32dd296b9b2901ea8e5541713f77a3daea42",
+  "_language": "German",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

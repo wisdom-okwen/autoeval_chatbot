@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "preocupación por el acceso y los efectos secundarios del PrEP debido a mi condición de salud mental",
+    "language": "Spanish"
+  },
+  "context": "Vives con esquizofrenia y has enfrentado desafíos en el manejo de tus medicamentos y el estigma asociado a tu condición. Te preocupa cómo el PrEP podría interactuar con tu salud mental y si podrías acceder a él sin complicaciones. Quieres obtener información clara y comprensible para poder tomar decisiones informadas sobre tu salud sexual.",
+  "example_questions_clean": [
+    "¿Qué información necesitas sobre el PrEP si estás viviendo con esquizofrenia?",
+    "¿Cuáles son los efectos secundarios del PrEP que podría experimentar debido a mi condición?",
+    "¿Cómo puedo asegurarme de que el PrEP sea adecuado para mí?",
+    "¿Existen recursos específicos para personas con problemas de salud mental que deseen acceder al PrEP?",
+    "¿Cuál es el proceso para hablar con un médico sobre el PrEP en mi situación?",
+    "¿El uso del PrEP puede afectar mi salud mental de alguna manera?"
+  ],
+  "example_questions_noisy": [
+    "¿Qué información necesitas sobre 5l PrEP si estás viviendo con esquizofrenia? 🙂 🙂",
+    "¿cuáles son los efectos secundarios del prep que podría experimentar debido a mi condición",
+    "¿Cómo puedo asegurarme de que el PrEP sea adecuado para mí?",
+    "¿existen recursos específicos para personas um con problemas de s4lud mental que deseen acceder al prep? 🫠",
+    "¿Cuál es el proceso para hablar con un médico sobre el PrEP en mi situación?",
+    "¿3l uso d3l PErP idk puede 4fec74r k1 salud mental de 4lgun5 m4n3r4"
+  ],
+  "starter_index": 2,
+  "starter_clean": "¿Cómo puedo asegurarme de que el PrEP sea adecuado para mí?",
+  "starter_noisy": "¿Cómo puedo asegurarme de que el PrEP sea adecuado para mí?",
+  "followup_index": 0,
+  "followup_clean": "¿Qué información necesitas sobre el PrEP si estás viviendo con esquizofrenia?",
+  "followup_noisy": "¿Qué información necesitas sobre 5l PrEP si estás viviendo con esquizofrenia? 🙂 🙂",
+  "style_profile": {
+    "typo_rate": 0.09149117283877536,
+    "swap_rate": 0.02895873657844745,
+    "drop_rate": 0.020769832296376894,
+    "dup_rate": 0.019420953153479657,
+    "leet_rate": 0.0747372823651789,
+    "start_lower_prob": 0.7703346368755761,
+    "all_lower_prob": 0.2722991213798002,
+    "drop_punct_prob": 0.4021949584650584,
+    "double_space_prob": 0.2537764624673376,
+    "ellipsis_prob": 0.27699208655993485,
+    "runon_prob": 0.23604463861356118,
+    "filler_rate": 0.47959957330349295,
+    "emoji_rate": 0.31293461804959144,
+    "stutter_rate": 0.11715195005827542,
+    "repeat_last_rate": 0.17011927974554863
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"preocupación por el acceso y los efectos secundarios del PrEP debido a mi condición de salud mental\",\n    \"language\": \"Spanish\"\n  },\n  \"context\": \"Vives con esquizofrenia y has enfrentado desafíos en el manejo de tus medicamentos y el estigma asociado a tu condición. Te preocupa cómo el PrEP podría interactuar con tu salud mental y si podrías acceder a él sin complicaciones. Quieres obtener información clara y comprensible para poder tomar decisiones informadas sobre tu salud sexual.\",\n  \"example_questions\": [\n    \"¿Qué información necesitas sobre el PrEP si estás viviendo con esquizofrenia?\",\n    \"¿Cuáles son los efectos secundarios del PrEP que podría experimentar debido a mi condición?\",\n    \"¿Cómo puedo asegurarme de que el PrEP sea adecuado para mí?\",\n    \"¿Existen recursos específicos para personas con problemas de salud mental que deseen acceder al PrEP?\",\n    \"¿Cuál es el proceso para hablar con un médico sobre el PrEP en mi situación?\",\n    \"¿El uso del PrEP puede afectar mi salud mental de alguna manera?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ceb8f009fc471b4ecf6e3425d1fbf35d775d2f1b5ab61469a5b5f59a1fb98e75",
+  "_starter_hash": "1e6f8ed6643f69bf0682e230d09531f9e2a6399d123d4a0aafff433b61eda393",
+  "_language": "Spanish",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

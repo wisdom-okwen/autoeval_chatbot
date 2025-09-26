@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 32,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Bedenken über mögliche Nebenwirkungen von PrEP in Kombination mit meiner chronischen Schmerzerkrankung",
+    "language": "German"
+  },
+  "context": "Die Benutzerin lebt mit chronischen Schmerzen, was ihre Wahrnehmung von Gesundheit und Behandlungen beeinflusst. Sie hat Ängste bezüglich der Wechselwirkungen von PrEP mit ihren Medikamenten und befürchtet, dass die Einnahme zusätzliche Schmerzen oder andere gesundheitliche Probleme verursachen könnte. Trotz ihrer Sorgen hofft sie, dass PrEP ihr helfen kann, ihre sexuelle Gesundheit zu schützen, und sucht nach verlässlichen Informationen.",
+  "example_questions_clean": [
+    "Welche Nebenwirkungen könnte PrEP in Kombination mit meinen Schmerzmitteln haben?",
+    "Wie kann ich sicherstellen, dass ich PrEP ohne Angst vor zusätzlichen Schmerzen einnehmen kann?",
+    "Gibt es spezielle Programme für Menschen mit chronischen Erkrankungen, die PrEP benötigen?",
+    "Könnten meine gesundheitlichen Herausforderungen meine Fähigkeit zur regelmäßigen Einnahme von PrEP beeinträchtigen?",
+    "Wo finde ich Unterstützung, wenn ich Bedenken oder Fragen zu PrEP habe?",
+    "Könnte es hilfreich sein, mit meinem Arzt über die möglichen Vorteile von PrEP zu sprechen?"
+  ],
+  "example_questions_noisy": [
+    "Welche Nebenwirkungen könnte PrEP in Kombination mit meinen Schmerzmitteln haben?",
+    "wie kann ich sicherstellen dass ich p3rp ohne wngst vvvor zusätzlichen schmerzen einnehmen kann",
+    "gibt es spezielle Pr0gr4mm3 für Menschen m17 chronischen Erkrankungen die PrEP benötigen",
+    "k-könnten meine gesundheitlichen uh Herausforderungen meine Fähigkeit zur regelmäßigen Einnahme von Pr3P beeinträchtigennn",
+    "Wo finde ich Unterstützung, wenn ich Bedenken oder Fragen zu PrEP habe?",
+    "Könnte es hilfreich sein mit meinem Aezt uh über die möglichen Vorteile vom PErP zu sprechen"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Welche Nebenwirkungen könnte PrEP in Kombination mit meinen Schmerzmitteln haben?",
+  "starter_noisy": "Welche Nebenwirkungen könnte PrEP in Kombination mit meinen Schmerzmitteln haben?",
+  "followup_index": 1,
+  "followup_clean": "Wie kann ich sicherstellen, dass ich PrEP ohne Angst vor zusätzlichen Schmerzen einnehmen kann?",
+  "followup_noisy": "wie kann ich sicherstellen dass ich p3rp ohne wngst vvvor zusätzlichen schmerzen einnehmen kann",
+  "style_profile": {
+    "typo_rate": 0.11702048450865861,
+    "swap_rate": 0.0555646630939866,
+    "drop_rate": 0.02747251340387508,
+    "dup_rate": 0.02792470965310838,
+    "leet_rate": 0.09051462067390215,
+    "start_lower_prob": 0.7852187703142139,
+    "all_lower_prob": 0.24652674296962332,
+    "drop_punct_prob": 0.511955343819193,
+    "double_space_prob": 0.2476679916250532,
+    "ellipsis_prob": 0.22795824881457752,
+    "runon_prob": 0.1698995699573871,
+    "filler_rate": 0.3342019530190705,
+    "emoji_rate": 0.24421364428411677,
+    "stutter_rate": 0.15028847666322273,
+    "repeat_last_rate": 0.12011053521785353
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 32,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Bedenken über mögliche Nebenwirkungen von PrEP in Kombination mit meiner chronischen Schmerzerkrankung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Benutzerin lebt mit chronischen Schmerzen, was ihre Wahrnehmung von Gesundheit und Behandlungen beeinflusst. Sie hat Ängste bezüglich der Wechselwirkungen von PrEP mit ihren Medikamenten und befürchtet, dass die Einnahme zusätzliche Schmerzen oder andere gesundheitliche Probleme verursachen könnte. Trotz ihrer Sorgen hofft sie, dass PrEP ihr helfen kann, ihre sexuelle Gesundheit zu schützen, und sucht nach verlässlichen Informationen.\",\n  \"example_questions\": [\n    \"Welche Nebenwirkungen könnte PrEP in Kombination mit meinen Schmerzmitteln haben?\",\n    \"Wie kann ich sicherstellen, dass ich PrEP ohne Angst vor zusätzlichen Schmerzen einnehmen kann?\",\n    \"Gibt es spezielle Programme für Menschen mit chronischen Erkrankungen, die PrEP benötigen?\",\n    \"Könnten meine gesundheitlichen Herausforderungen meine Fähigkeit zur regelmäßigen Einnahme von PrEP beeinträchtigen?\",\n    \"Wo finde ich Unterstützung, wenn ich Bedenken oder Fragen zu PrEP habe?\",\n    \"Könnte es hilfreich sein, mit meinem Arzt über die möglichen Vorteile von PrEP zu sprechen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "53340d3fde21784366b0460c9f250fa13e4fe3b4721502587bc6e4df19d30772",
+  "_starter_hash": "e3d4b8ab64f87627c5c62a2692eaba6f624e51ef034772db089950d40aa17a8d",
+  "_language": "German",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

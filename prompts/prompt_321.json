@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of side effects and managing anxiety",
+    "language": "English"
+  },
+  "context": "You are managing an anxiety disorder which makes it challenging to navigate new medical treatments like PrEP. You often find yourself overthinking potential side effects and how they might exacerbate your anxiety, creating a barrier to accessing this preventive measure. You hope to understand more about PrEP in a way that considers your mental health needs.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I approach my healthcare provider about starting PrEP while dealing with anxiety?",
+    "Can PrEP have any impact on my mental health or anxiety levels?",
+    "What support options are available for someone like me who is nervous about taking medication?",
+    "Is there a way to gradually ease into taking PrEP if I feel overwhelmed by the idea?",
+    "How does the process of getting PrEP work in terms of tests and follow-ups?"
+  ],
+  "example_questions_noisy": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I approach my healthcare provider about starting PrEP while dealing with anxiety?",
+    "Can PrEP have any impact on my mental health or anxiety levels?",
+    "whqt support options are available for i mean someoe oike ne who is nervous about taking medication?",
+    "is there a way to gr4du4lly ease into taking prep if i f33l overwhelmed by i mean the idea idea",
+    "How does the process of getting PrEP work in terms of tests and f0ll0w-up5 🙄"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What support options are available for someone like me who is nervous about taking medication?",
+  "starter_noisy": "whqt support options are available for i mean someoe oike ne who is nervous about taking medication?",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the common side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.10307312682780329,
+    "swap_rate": 0.025417472548032668,
+    "drop_rate": 0.03558610646363415,
+    "dup_rate": 0.012558567272842507,
+    "leet_rate": 0.11478152708881084,
+    "start_lower_prob": 0.735169909726214,
+    "all_lower_prob": 0.17795040597116007,
+    "drop_punct_prob": 0.535897854745935,
+    "double_space_prob": 0.19141025257192307,
+    "ellipsis_prob": 0.17596225793460188,
+    "runon_prob": 0.25283885683625384,
+    "filler_rate": 0.39131230611523604,
+    "emoji_rate": 0.263069246645796,
+    "stutter_rate": 0.19379291513619218,
+    "repeat_last_rate": 0.1258449382645581
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of side effects and managing anxiety\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are managing an anxiety disorder which makes it challenging to navigate new medical treatments like PrEP. You often find yourself overthinking potential side effects and how they might exacerbate your anxiety, creating a barrier to accessing this preventive measure. You hope to understand more about PrEP in a way that considers your mental health needs.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I approach my healthcare provider about starting PrEP while dealing with anxiety?\",\n    \"Can PrEP have any impact on my mental health or anxiety levels?\",\n    \"What support options are available for someone like me who is nervous about taking medication?\",\n    \"Is there a way to gradually ease into taking PrEP if I feel overwhelmed by the idea?\",\n    \"How does the process of getting PrEP work in terms of tests and follow-ups?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "278648fea89837faf54b685cedff4953c79f98ce3bae996df1aaa0c40515c4f0",
+  "_starter_hash": "76297d67915eb2030b2355a00369c0e134f281d2e251a1ff744eeec327823c20",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

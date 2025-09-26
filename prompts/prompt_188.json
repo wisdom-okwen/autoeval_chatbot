@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "faible revenu",
+    "primary_concern": "l'accès au traitement PrEP dans un environnement instable",
+    "language": "French"
+  },
+  "context": "Vous vivez actuellement dans un abri et vous êtes préoccupée par la façon dont votre situation précaire pourrait rendre difficile l'accès à la PrEP. Vous ressentez de l'anxiété face au stigmate associé au VIH et à la PrEP, tout en espérant une meilleure protection pour votre santé. Votre situation actuelle vous pousse à vous interroger sur les ressources disponibles et comment naviguer dans ce processus.",
+  "example_questions_clean": [
+    "Quelles sont les options pour obtenir la PrEP si je vis dans un abri?",
+    "Est-il possible d'avoir des consultations médicales discrètes pour discuter de la PrEP?",
+    "Comment puis-je trouver un soutien émotionnel tout en cherchant à accéder à la PrEP?",
+    "Y a-t-il des programmes spécifiques pour les personnes dans ma situation qui facilitent l'accès à la PrEP?",
+    "Comment éviter le jugement des autres lorsque je parle de ma santé sexuelle?",
+    "Quels sont les effets secondaires courants de la PrEP que je devrais connaître?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les options pour obtenir la PrEP si je vis dans un abri?",
+    "Est-il possible d'avoir des consultations médicales discrètes pour discuter de la PrEP?",
+    "cmment pu1s-j3 trouver un outieh émotionnel tout en cherchant à accéder à la PrEP?",
+    "Y a-t-il des programmes spécifiques pour les personnes dans ma situation qui facilitent l'accès à la PrEP?",
+    "comment éviter le jugement dez auuutres llrsque je p4rl3 de ma santé sexulle",
+    "quela sont les effets secondaires cournts de la PrEP que j3 devrais connaître? connaître?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Comment éviter le jugement des autres lorsque je parle de ma santé sexuelle?",
+  "starter_noisy": "comment éviter le jugement dez auuutres llrsque je p4rl3 de ma santé sexulle",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les options pour obtenir la PrEP si je vis dans un abri?",
+  "followup_noisy": "Quelles sont les options pour obtenir la PrEP si je vis dans un abri?",
+  "style_profile": {
+    "typo_rate": 0.10616645883334944,
+    "swap_rate": 0.02879645167256256,
+    "drop_rate": 0.04414740180394793,
+    "dup_rate": 0.0222664544609193,
+    "leet_rate": 0.0900150165237876,
+    "start_lower_prob": 0.6910089111369762,
+    "all_lower_prob": 0.15906362609863547,
+    "drop_punct_prob": 0.42364666160512904,
+    "double_space_prob": 0.2904943351433759,
+    "ellipsis_prob": 0.25648119399488467,
+    "runon_prob": 0.27380528550894545,
+    "filler_rate": 0.21791823862597826,
+    "emoji_rate": 0.18895949580236268,
+    "stutter_rate": 0.19796905122227795,
+    "repeat_last_rate": 0.08504916254844161
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"faible revenu\",\n    \"primary_concern\": \"l'accès au traitement PrEP dans un environnement instable\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous vivez actuellement dans un abri et vous êtes préoccupée par la façon dont votre situation précaire pourrait rendre difficile l'accès à la PrEP. Vous ressentez de l'anxiété face au stigmate associé au VIH et à la PrEP, tout en espérant une meilleure protection pour votre santé. Votre situation actuelle vous pousse à vous interroger sur les ressources disponibles et comment naviguer dans ce processus.\",\n  \"example_questions\": [\n    \"Quelles sont les options pour obtenir la PrEP si je vis dans un abri?\",\n    \"Est-il possible d'avoir des consultations médicales discrètes pour discuter de la PrEP?\",\n    \"Comment puis-je trouver un soutien émotionnel tout en cherchant à accéder à la PrEP?\",\n    \"Y a-t-il des programmes spécifiques pour les personnes dans ma situation qui facilitent l'accès à la PrEP?\",\n    \"Comment éviter le jugement des autres lorsque je parle de ma santé sexuelle?\",\n    \"Quels sont les effets secondaires courants de la PrEP que je devrais connaître?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f7eca3827df345750320a94235adc42a9493d4c5b575817c6b1844828e7d2bb0",
+  "_starter_hash": "0f866bfd5416d324bcbd524fa116b4a36716d5320c33539472c70946cdb9d68d",
+  "_language": "French",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

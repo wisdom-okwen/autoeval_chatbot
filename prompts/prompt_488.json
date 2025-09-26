@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment and misunderstanding from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is recovering from trauma related to past healthcare experiences, which makes them anxious about seeking out new medical options like PrEP. They often feel vulnerable and worry that they may not be understood or respected by providers, leading to hesitance in accessing necessary information and support.",
+  "example_questions_clean": [
+    "What are the main benefits of taking PrEP for someone like me?",
+    "How can I find a supportive healthcare provider who understands my background?",
+    "What are the potential side effects of PrEP, and how do I manage them?",
+    "Is it possible to access PrEP without feeling judged or stigmatized?",
+    "Can you help me understand how PrEP can fit into my personal health journey?"
+  ],
+  "example_questions_noisy": [
+    "wh4t are the main benefits of taking PrEP for someone like me",
+    "h-howww can i mean i f1nd a supportive healthcare provider who understands my background?",
+    "What are the potential side effects of PrEP, and how do I manage them?",
+    "iIIs you know it possible to access PrEP without feeling judged or stigmatized?",
+    "Can you help me understand how PrEP can fit into my personal health journey?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Is it possible to access PrEP without feeling judged or stigmatized?",
+  "starter_noisy": "iIIs you know it possible to access PrEP without feeling judged or stigmatized?",
+  "followup_index": 0,
+  "followup_clean": "What are the main benefits of taking PrEP for someone like me?",
+  "followup_noisy": "wh4t are the main benefits of taking PrEP for someone like me",
+  "style_profile": {
+    "typo_rate": 0.057226953521251615,
+    "swap_rate": 0.037945156788510966,
+    "drop_rate": 0.04941900248368775,
+    "dup_rate": 0.02895177799434085,
+    "leet_rate": 0.08515214985217902,
+    "start_lower_prob": 0.8886391643504319,
+    "all_lower_prob": 0.30553668753270957,
+    "drop_punct_prob": 0.3678979189192575,
+    "double_space_prob": 0.2308865441373313,
+    "ellipsis_prob": 0.3429694880478836,
+    "runon_prob": 0.10942259184731484,
+    "filler_rate": 0.3014719401154547,
+    "emoji_rate": 0.20072103889649434,
+    "stutter_rate": 0.16676340727982802,
+    "repeat_last_rate": 0.1699309411139976
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment and misunderstanding from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is recovering from trauma related to past healthcare experiences, which makes them anxious about seeking out new medical options like PrEP. They often feel vulnerable and worry that they may not be understood or respected by providers, leading to hesitance in accessing necessary information and support.\",\n  \"example_questions\": [\n    \"What are the main benefits of taking PrEP for someone like me?\",\n    \"How can I find a supportive healthcare provider who understands my background?\",\n    \"What are the potential side effects of PrEP, and how do I manage them?\",\n    \"Is it possible to access PrEP without feeling judged or stigmatized?\",\n    \"Can you help me understand how PrEP can fit into my personal health journey?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bba76bfe0480df486e20b336d652c9754b32c4378e9bcb1a496dee611195429d",
+  "_starter_hash": "49453b3e8467a7a6cf6a54e770a4afae000a46516ecde9295f5f93bc37d07784",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

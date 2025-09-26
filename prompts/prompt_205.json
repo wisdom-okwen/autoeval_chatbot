@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und Nebenwirkungen",
+    "language": "German"
+  },
+  "context": "Die Nutzerin hat mit einer Angststörung zu kämpfen, die es ihr erschwert, neue Behandlungen in Betracht zu ziehen. Sie sorgt sich um mögliche Nebenwirkungen von PrEP und hat Angst vor der Reaktion ihrer Freunde und Familie.",
+  "example_questions_clean": [
+    "Welche Nebenwirkungen sind bei der Einnahme von PrEP möglich?",
+    "Wie kann ich PrEP in einem freundlichen Umfeld ansprechen?",
+    "Was kann ich tun, um meine Angst vor Stigmatisierung zu überwinden?",
+    "Gibt es Unterstützung für Menschen, die PrEP einnehmen möchten?",
+    "Wie sicher ist PrEP für Menschen mit Angststörungen?",
+    "Wo finde ich eine vertrauenswürdige Informationsquelle über PrEP?"
+  ],
+  "example_questions_noisy": [
+    "w3lch3 Nebenwirkungen you know sind bei der Einnahme von PrEP möglich",
+    "w-wie kann ich PrEP in einem freundlichen Umfeld ansprechen?",
+    "was idk kann ich tun um meine Angs vor Stigmatisierung zu überwinden?",
+    "Gibt es Unterstützung für Menschen, die PrEP einnehmen möchten?",
+    "idk wie sicher ist prep für menschen mittt angststörungen",
+    "Wo finde ich eine vertrauenswürdige Informationsquelle über PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Wo finde ich eine vertrauenswürdige Informationsquelle über PrEP?",
+  "starter_noisy": "Wo finde ich eine vertrauenswürdige Informationsquelle über PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Welche Nebenwirkungen sind bei der Einnahme von PrEP möglich?",
+  "followup_noisy": "w3lch3 Nebenwirkungen you know sind bei der Einnahme von PrEP möglich",
+  "style_profile": {
+    "typo_rate": 0.101472759799557,
+    "swap_rate": 0.04869548548424796,
+    "drop_rate": 0.03303755616372259,
+    "dup_rate": 0.02884119142766229,
+    "leet_rate": 0.07134376174737309,
+    "start_lower_prob": 0.7270545211833163,
+    "all_lower_prob": 0.19782322359897353,
+    "drop_punct_prob": 0.5736968539505312,
+    "double_space_prob": 0.32298348302449226,
+    "ellipsis_prob": 0.18454760952530216,
+    "runon_prob": 0.29981831721620344,
+    "filler_rate": 0.43889252433020703,
+    "emoji_rate": 0.16264401787153773,
+    "stutter_rate": 0.17997202624162117,
+    "repeat_last_rate": 0.1537264760599288
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und Nebenwirkungen\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin hat mit einer Angststörung zu kämpfen, die es ihr erschwert, neue Behandlungen in Betracht zu ziehen. Sie sorgt sich um mögliche Nebenwirkungen von PrEP und hat Angst vor der Reaktion ihrer Freunde und Familie.\",\n  \"example_questions\": [\n    \"Welche Nebenwirkungen sind bei der Einnahme von PrEP möglich?\",\n    \"Wie kann ich PrEP in einem freundlichen Umfeld ansprechen?\",\n    \"Was kann ich tun, um meine Angst vor Stigmatisierung zu überwinden?\",\n    \"Gibt es Unterstützung für Menschen, die PrEP einnehmen möchten?\",\n    \"Wie sicher ist PrEP für Menschen mit Angststörungen?\",\n    \"Wo finde ich eine vertrauenswürdige Informationsquelle über PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0a9b648ee48127960c2da82c66e8b7e1273a79b2f6398fc7fde987b134961595",
+  "_starter_hash": "8b13c81eb51cbc250e35d83119e2e27d6cd73e4615b254504b4316a2ed656b86",
+  "_language": "German",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

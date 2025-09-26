@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 27,
+    "gender": "non-binair",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "de impact van PrEP op mijn genderidentiteit en de toegankelijkheid ervan",
+    "language": "Dutch"
+  },
+  "context": "Als iemand die worstelt met genderdysforie, voel ik me vaak onzeker over hoe anderen naar me kijken als ik PrEP overweeg. Ik wil me veilig voelen in mijn lichaam en mijn identiteit, maar maak me ook zorgen over stigma en hoe dat mijn toegang tot zorg kan beïnvloeden. Het is een uitdaging om mijn behoeften te verzoenen met het gebruik van medicatie die zo belangrijk is voor mijn gezondheid.",
+  "example_questions_clean": [
+    "Wat zijn de stappen om PrEP aan te vragen zonder dat het ongemak met mijn genderidentiteit naar voren komt?",
+    "Hoe kan ik praten over PrEP met mijn zorgverlener in een manier die veilig aanvoelt?",
+    "Zijn er speciale overwegingen voor mensen die genderdysforie ervaren bij het gebruik van PrEP?",
+    "Welke ondersteuning is beschikbaar voor mensen zoals ik die PrEP willen gebruiken?",
+    "Wat moet ik weten over de mogelijke bijwerkingen van PrEP in relatie tot mijn situatie?",
+    "Hoe kan ik ervoor zorgen dat ik niet gestigmatiseerd word bij het krijgen van PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de stappen om PrEP aan te vragen zonder dat het ongemak met mijn genderidentiteit naar voren komt?",
+    "hoe kan ik praten oer prep m37 mijn zorgverlener in een mziner die veilig aanvoelt?",
+    "Zijn er speciale overwegingen voor mensen die genderdysforie ervaren bij het gebruik van PrEP?",
+    "welke ondersteuning is beschikbaar v00r mensen zoals ik die prep willen gebruiken?",
+    "Wat moet ik w373n over de mogelijke bijwerkingen van PrEP in relatie tot mij situatie ✨",
+    "hoe kan ik ervoor zorgen dat ik niet g357igma71533rd w0rd like bij het krijgen van Pr3P"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Hoe kan ik ervoor zorgen dat ik niet gestigmatiseerd word bij het krijgen van PrEP?",
+  "starter_noisy": "hoe kan ik ervoor zorgen dat ik niet g357igma71533rd w0rd like bij het krijgen van Pr3P",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de stappen om PrEP aan te vragen zonder dat het ongemak met mijn genderidentiteit naar voren komt?",
+  "followup_noisy": "Wat zijn de stappen om PrEP aan te vragen zonder dat het ongemak met mijn genderidentiteit naar voren komt?",
+  "style_profile": {
+    "typo_rate": 0.09609655599494671,
+    "swap_rate": 0.028055638279277463,
+    "drop_rate": 0.04277677443461922,
+    "dup_rate": 0.026299449447274435,
+    "leet_rate": 0.053110855674114416,
+    "start_lower_prob": 0.6776340577036553,
+    "all_lower_prob": 0.2539930888531955,
+    "drop_punct_prob": 0.559788680900188,
+    "double_space_prob": 0.2657720222591168,
+    "ellipsis_prob": 0.2720703572739896,
+    "runon_prob": 0.17018931699723433,
+    "filler_rate": 0.27767250285075284,
+    "emoji_rate": 0.31725467466454405,
+    "stutter_rate": 0.135804063765672,
+    "repeat_last_rate": 0.1745180343271237
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 27,\n    \"gender\": \"non-binair\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"de impact van PrEP op mijn genderidentiteit en de toegankelijkheid ervan\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Als iemand die worstelt met genderdysforie, voel ik me vaak onzeker over hoe anderen naar me kijken als ik PrEP overweeg. Ik wil me veilig voelen in mijn lichaam en mijn identiteit, maar maak me ook zorgen over stigma en hoe dat mijn toegang tot zorg kan beïnvloeden. Het is een uitdaging om mijn behoeften te verzoenen met het gebruik van medicatie die zo belangrijk is voor mijn gezondheid.\",\n  \"example_questions\": [\n    \"Wat zijn de stappen om PrEP aan te vragen zonder dat het ongemak met mijn genderidentiteit naar voren komt?\",\n    \"Hoe kan ik praten over PrEP met mijn zorgverlener in een manier die veilig aanvoelt?\",\n    \"Zijn er speciale overwegingen voor mensen die genderdysforie ervaren bij het gebruik van PrEP?\",\n    \"Welke ondersteuning is beschikbaar voor mensen zoals ik die PrEP willen gebruiken?\",\n    \"Wat moet ik weten over de mogelijke bijwerkingen van PrEP in relatie tot mijn situatie?\",\n    \"Hoe kan ik ervoor zorgen dat ik niet gestigmatiseerd word bij het krijgen van PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "816999a1e2d430e71a341fb4c0810eb7ce37741e69f270fbe661f74670342271",
+  "_starter_hash": "e5e08bb6c4242252e6219f96294ca1563ad86dec529727e8ec035bda7c29ae2a",
+  "_language": "Dutch",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

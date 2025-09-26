@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "baixo",
+    "primary_concern": "dificuldade de acesso a medicamentos devido à situação de abrigo",
+    "language": "Portuguese"
+  },
+  "context": "Você está vivendo em um abrigo e se sente preocupado com a possibilidade de contrair HIV. A falta de estabilidade e o estigma associado à sua situação tornam o acesso a informações sobre PrEP ainda mais desafiador. Você tem esperança de encontrar apoio, mas também medo de ser julgado ao buscar ajuda.",
+  "example_questions_clean": [
+    "Quais são os passos para conseguir PrEP morando em um abrigo?",
+    "A PrEP é acessível para pessoas na minha situação financeira?",
+    "Como posso me sentir mais seguro ao conversar sobre PrEP com profissionais de saúde?",
+    "Existem organizações que ajudam pessoas que vivem em abrigos a acessar PrEP?",
+    "Quais são os efeitos colaterais da PrEP que eu devo estar ciente?",
+    "Posso receber orientação sobre PrEP sem enfrentar preconceitos?"
+  ],
+  "example_questions_noisy": [
+    "uh quais são 05 passos para consegir PrEP morando em um abrigo 🫠",
+    "a PrEP é acessível para pessoas na minha situação financeira?",
+    "Como posso me sentir mais seguro ao conversar sobre PrEP com profissionais de saúde?",
+    "Existem organizações que ajudam pessoas que vivem em abrigos a acessar PrEP?",
+    "Q-Quais são os efeitos dolaterais ra PrEEEP qu3 eu devo estar ciente",
+    "Posso receber orientação sobre PrEP sem enfrentar preconceitos?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quais são os efeitos colaterais da PrEP que eu devo estar ciente?",
+  "starter_noisy": "Q-Quais são os efeitos dolaterais ra PrEEEP qu3 eu devo estar ciente",
+  "followup_index": 0,
+  "followup_clean": "Quais são os passos para conseguir PrEP morando em um abrigo?",
+  "followup_noisy": "uh quais são 05 passos para consegir PrEP morando em um abrigo 🫠",
+  "style_profile": {
+    "typo_rate": 0.06473925828741933,
+    "swap_rate": 0.05860185847565365,
+    "drop_rate": 0.04349805290452987,
+    "dup_rate": 0.023020766519091636,
+    "leet_rate": 0.10061007317225791,
+    "start_lower_prob": 0.81101988124117,
+    "all_lower_prob": 0.19226509229516686,
+    "drop_punct_prob": 0.5988457458802225,
+    "double_space_prob": 0.2806838098885135,
+    "ellipsis_prob": 0.19761717290468375,
+    "runon_prob": 0.21635346434319191,
+    "filler_rate": 0.4032794895950217,
+    "emoji_rate": 0.2720754613587945,
+    "stutter_rate": 0.11534567620645364,
+    "repeat_last_rate": 0.1029063625837148
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"baixo\",\n    \"primary_concern\": \"dificuldade de acesso a medicamentos devido à situação de abrigo\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você está vivendo em um abrigo e se sente preocupado com a possibilidade de contrair HIV. A falta de estabilidade e o estigma associado à sua situação tornam o acesso a informações sobre PrEP ainda mais desafiador. Você tem esperança de encontrar apoio, mas também medo de ser julgado ao buscar ajuda.\",\n  \"example_questions\": [\n    \"Quais são os passos para conseguir PrEP morando em um abrigo?\",\n    \"A PrEP é acessível para pessoas na minha situação financeira?\",\n    \"Como posso me sentir mais seguro ao conversar sobre PrEP com profissionais de saúde?\",\n    \"Existem organizações que ajudam pessoas que vivem em abrigos a acessar PrEP?\",\n    \"Quais são os efeitos colaterais da PrEP que eu devo estar ciente?\",\n    \"Posso receber orientação sobre PrEP sem enfrentar preconceitos?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f7d26d589bad26d601ae7f3cfedb25d8c3898d183f4efee9f97fcccfc348124e",
+  "_starter_hash": "cb949554b10b4501486e9311d820f4148baa4601319a02c1ffd649736ad66fec",
+  "_language": "Portuguese",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

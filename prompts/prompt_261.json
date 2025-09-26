@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la compréhension des informations sur le PrEP",
+    "language": "French"
+  },
+  "context": "Vous avez un trouble d'apprentissage qui rend difficile la compréhension de nouvelles informations, y compris celles concernant la santé sexuelle. Cela peut engendrer des sentiments d'anxiété et de peur face à l'idée de prendre PrEP, surtout avec les stigmates associés au VIH. Vous souhaitez accéder à des informations claires et accessibles pour vous aider à prendre une décision éclairée.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir PrEP et comment puis-je les comprendre facilement ?",
+    "Est-ce que les informations sur le PrEP sont disponibles dans un format adapté aux personnes ayant des difficultés d'apprentissage ?",
+    "Quels sont les effets secondaires du PrEP et comment cela pourrait-il m'affecter ?",
+    "Comment puis-je parler à mon médecin de mes préoccupations concernant le PrEP ?",
+    "Y a-t-il des groupes de soutien ou des ressources pour aider les personnes comme moi avec des questions sur le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour obtenir PrEP et comment puis-je les comprendre facilement ?",
+    "est-ce que les inf0rm410ns sur le rEP sont disponibles dans un format adapté aux personnes ayant des difficultés d'apprentissage ?",
+    "Quels sont les effets secondaires du PrEP et comment cela pourrait-il m'affecter ?",
+    "Comment puis-je parler à mon médecin de mes préoccupations concernant le PrEP ?",
+    "y a-t-il des groupes de soutien ou des ressources pour aider l35 personnes comme moi avec des questions sur le Pr3P ?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Comment puis-je parler à mon médecin de mes préoccupations concernant le PrEP ?",
+  "starter_noisy": "Comment puis-je parler à mon médecin de mes préoccupations concernant le PrEP ?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir PrEP et comment puis-je les comprendre facilement ?",
+  "followup_noisy": "Quelles sont les étapes pour obtenir PrEP et comment puis-je les comprendre facilement ?",
+  "style_profile": {
+    "typo_rate": 0.054825085879579384,
+    "swap_rate": 0.04186245052685922,
+    "drop_rate": 0.041551664071107094,
+    "dup_rate": 0.027918987115544587,
+    "leet_rate": 0.06180310969889042,
+    "start_lower_prob": 0.8862932982323559,
+    "all_lower_prob": 0.3072979961792508,
+    "drop_punct_prob": 0.37979212260571626,
+    "double_space_prob": 0.192094834062858,
+    "ellipsis_prob": 0.22984828507936914,
+    "runon_prob": 0.20839456916866317,
+    "filler_rate": 0.21704324790489432,
+    "emoji_rate": 0.274840446249976,
+    "stutter_rate": 0.1953346142160377,
+    "repeat_last_rate": 0.1321923878738955
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la compréhension des informations sur le PrEP\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous avez un trouble d'apprentissage qui rend difficile la compréhension de nouvelles informations, y compris celles concernant la santé sexuelle. Cela peut engendrer des sentiments d'anxiété et de peur face à l'idée de prendre PrEP, surtout avec les stigmates associés au VIH. Vous souhaitez accéder à des informations claires et accessibles pour vous aider à prendre une décision éclairée.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir PrEP et comment puis-je les comprendre facilement ?\",\n    \"Est-ce que les informations sur le PrEP sont disponibles dans un format adapté aux personnes ayant des difficultés d'apprentissage ?\",\n    \"Quels sont les effets secondaires du PrEP et comment cela pourrait-il m'affecter ?\",\n    \"Comment puis-je parler à mon médecin de mes préoccupations concernant le PrEP ?\",\n    \"Y a-t-il des groupes de soutien ou des ressources pour aider les personnes comme moi avec des questions sur le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e88f62d5e26e5b6fa9ed880fca066f31a1d1d290155543667d62c849cc6b92e8",
+  "_starter_hash": "7ba422b6727a24b992785631d49b5673e492487916983669c974658c96068399",
+  "_language": "French",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

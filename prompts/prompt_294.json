@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 30,
+    "gender": "Femenina",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "El miedo a ser juzgada por otros al buscar PrEP.",
+    "language": "Spanish"
+  },
+  "context": "Vives en un entorno donde el estigma relacionado con el VIH es fuerte, lo que te causa ansiedad al considerar la opción de PrEP. Aunque deseas protegerte y cuidar de tu salud, el temor a la discriminación te hace dudar sobre cómo acceder a este medicamento sin ser vista de manera negativa por tu comunidad o familiares.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para obtener PrEP sin que mi situación personal sea evidente?",
+    "¿Qué puedo hacer para enfrentar el estigma que siento al buscar información sobre PrEP?",
+    "¿Es seguro que alguien sepa que estoy usando PrEP en caso de que lo necesite?",
+    "¿Qué alternativas existen si no me siento cómoda pidiendo PrEP en una clínica?",
+    "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin que se preocupe demasiado?",
+    "¿Hay grupos de apoyo donde puedo compartir mis inquietudes sobre el acceso a PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿-¿Cuál35 son los pasos para obtener PrEP sin que mi situación personal sea evidente? evidente?",
+    "¿Qué puedo hacer para you know enfrentar wl estigma que sienttto al buscar innnformación 50bbbe PrEP",
+    "¿Es seguro que alguien sepa que estoy usando PrEP en caso de que lo necesite?",
+    "¿Qué alternativas exisetn si no me siento cómoad pidiendo PrEP en un4 clínica",
+    "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin que se preocupe demasiado?",
+    "¿Hay grrrupos de apoyo donde puedo compartir mis inquietudes sobre el acceso a PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin que se preocupe demasiado?",
+  "starter_noisy": "¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin que se preocupe demasiado?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para obtener PrEP sin que mi situación personal sea evidente?",
+  "followup_noisy": "¿-¿Cuál35 son los pasos para obtener PrEP sin que mi situación personal sea evidente? evidente?",
+  "style_profile": {
+    "typo_rate": 0.05504918442549468,
+    "swap_rate": 0.034139837841923995,
+    "drop_rate": 0.02611784498619197,
+    "dup_rate": 0.02774807528561711,
+    "leet_rate": 0.07945782428631046,
+    "start_lower_prob": 0.8007708784701967,
+    "all_lower_prob": 0.15211190705782587,
+    "drop_punct_prob": 0.3244351927073265,
+    "double_space_prob": 0.31065532374489024,
+    "ellipsis_prob": 0.32527465624208984,
+    "runon_prob": 0.20174171982440411,
+    "filler_rate": 0.28381909044140885,
+    "emoji_rate": 0.1731976189585788,
+    "stutter_rate": 0.11838922254773593,
+    "repeat_last_rate": 0.14479140457298942
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 30,\n    \"gender\": \"Femenina\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"El miedo a ser juzgada por otros al buscar PrEP.\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Vives en un entorno donde el estigma relacionado con el VIH es fuerte, lo que te causa ansiedad al considerar la opción de PrEP. Aunque deseas protegerte y cuidar de tu salud, el temor a la discriminación te hace dudar sobre cómo acceder a este medicamento sin ser vista de manera negativa por tu comunidad o familiares.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para obtener PrEP sin que mi situación personal sea evidente?\",\n    \"¿Qué puedo hacer para enfrentar el estigma que siento al buscar información sobre PrEP?\",\n    \"¿Es seguro que alguien sepa que estoy usando PrEP en caso de que lo necesite?\",\n    \"¿Qué alternativas existen si no me siento cómoda pidiendo PrEP en una clínica?\",\n    \"¿Cómo puedo hablar con mi pareja sobre el uso de PrEP sin que se preocupe demasiado?\",\n    \"¿Hay grupos de apoyo donde puedo compartir mis inquietudes sobre el acceso a PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b08f756210e561acafb382e9b3acfd67bd877fe2c518c88a4a677cd56a05bb0b",
+  "_starter_hash": "70e9b08bafd77163496736a47ff8a5d097318898aa3609504f028e59c93276b8",
+  "_language": "Spanish",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

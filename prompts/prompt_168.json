@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Angst vor Stigmatisierung und Zugang zu medizinischer Unterstützung",
+    "language": "German"
+  },
+  "context": "Die Nutzerin hat in letzter Zeit mit Depressionen zu kämpfen, was ihre Fähigkeit beeinträchtigt, sich um ihre Gesundheit zu kümmern. Sie fühlt sich oft überwältigt und hat Angst, das Thema PrEP anzusprechen, da sie Bedenken hat, wie andere sie beurteilen könnten. Diese inneren Kämpfe erschweren es ihr, proaktive Schritte zur Prävention von HIV zu unternehmen.",
+  "example_questions_clean": [
+    "Wie kann ich sicherstellen, dass ich Zugang zu PrEP habe, ohne mich verurteilt zu fühlen?",
+    "Gibt es spezielle Programme für Menschen mit psychischen Erkrankungen, die PrEP in Anspruch nehmen möchten?",
+    "Was kann ich tun, um meine Ängste bezüglich der Einnahme von PrEP zu überwinden?",
+    "Könnte eine Therapie mir helfen, meine Sorgen über PrEP und die damit verbundene Stigmatisierung zu bewältigen?",
+    "Gibt es Unterstützungsgemeinschaften für Frauen, die über PrEP nachdenken?",
+    "Wie beeinflusst meine mentale Gesundheit meine Fähigkeit, PrEP regelmäßig einzunehmen?"
+  ],
+  "example_questions_noisy": [
+    "Wie kann ich sicherstellen, dass ich Zugang zu PrEP habe, ohne mich verurteilt zu fühlen?",
+    "Gibt es spezielle Programme für Menschen mit psychischen Erkrankungen, die PrEP in Anspruch nehmen möchten?",
+    "Was kann ich tun, um meine Ängste bezüglich der Einnahme von PrEP zu überwinden?",
+    "könnte eine Therapie mir helfen, meine Sorgen üb3r PrEP und die damit verbundene Stigmatisierung zu bewältigen?",
+    "Gibt es Unterstützungsgemeinschaften für Frauen, die über PrEP nachdenken?",
+    "Wie beeinflusst meine mentale Gesundheit meine Fähigkeit, PrEP regelmäßig einzunehmen?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Gibt es Unterstützungsgemeinschaften für Frauen, die über PrEP nachdenken?",
+  "starter_noisy": "Gibt es Unterstützungsgemeinschaften für Frauen, die über PrEP nachdenken?",
+  "followup_index": 0,
+  "followup_clean": "Wie kann ich sicherstellen, dass ich Zugang zu PrEP habe, ohne mich verurteilt zu fühlen?",
+  "followup_noisy": "Wie kann ich sicherstellen, dass ich Zugang zu PrEP habe, ohne mich verurteilt zu fühlen?",
+  "style_profile": {
+    "typo_rate": 0.08820118176308522,
+    "swap_rate": 0.05954989419312261,
+    "drop_rate": 0.03680047177697525,
+    "dup_rate": 0.016371724455956978,
+    "leet_rate": 0.11290219106167236,
+    "start_lower_prob": 0.61503774901412,
+    "all_lower_prob": 0.3097764772267484,
+    "drop_punct_prob": 0.38413846871603496,
+    "double_space_prob": 0.20977591754724983,
+    "ellipsis_prob": 0.23567618626216674,
+    "runon_prob": 0.1451679740420922,
+    "filler_rate": 0.20341366749385847,
+    "emoji_rate": 0.19770769608329963,
+    "stutter_rate": 0.11382460236325861,
+    "repeat_last_rate": 0.1524894031293112
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Angst vor Stigmatisierung und Zugang zu medizinischer Unterstützung\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Nutzerin hat in letzter Zeit mit Depressionen zu kämpfen, was ihre Fähigkeit beeinträchtigt, sich um ihre Gesundheit zu kümmern. Sie fühlt sich oft überwältigt und hat Angst, das Thema PrEP anzusprechen, da sie Bedenken hat, wie andere sie beurteilen könnten. Diese inneren Kämpfe erschweren es ihr, proaktive Schritte zur Prävention von HIV zu unternehmen.\",\n  \"example_questions\": [\n    \"Wie kann ich sicherstellen, dass ich Zugang zu PrEP habe, ohne mich verurteilt zu fühlen?\",\n    \"Gibt es spezielle Programme für Menschen mit psychischen Erkrankungen, die PrEP in Anspruch nehmen möchten?\",\n    \"Was kann ich tun, um meine Ängste bezüglich der Einnahme von PrEP zu überwinden?\",\n    \"Könnte eine Therapie mir helfen, meine Sorgen über PrEP und die damit verbundene Stigmatisierung zu bewältigen?\",\n    \"Gibt es Unterstützungsgemeinschaften für Frauen, die über PrEP nachdenken?\",\n    \"Wie beeinflusst meine mentale Gesundheit meine Fähigkeit, PrEP regelmäßig einzunehmen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "83d22e647b8781666d5d7106efe08a8128cec9f84fabcfc64922fc9684542430",
+  "_starter_hash": "6d2eb4151652c620a55ee6d8e81063f78b4dfd2aa1ac56d0870f4a109a4a241a",
+  "_language": "German",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

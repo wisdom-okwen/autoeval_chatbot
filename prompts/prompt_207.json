@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "española",
+    "age": 34,
+    "gender": "femenino",
+    "socio_economic_status": "medio",
+    "primary_concern": "la interacción de la PrEP con mi condición de esclerosis múltiple",
+    "language": "Spanish"
+  },
+  "context": "Soy una mujer de 34 años que vive en España y tengo esclerosis múltiple. A veces me siento ansiosa sobre cómo los medicamentos pueden afectar mi salud y si debo priorizar la prevención del VIH sobre mis otros tratamientos. Tengo miedo de los efectos secundarios y de que la PrEP pueda interferir con mi condición. Aunque quiero protegerme, me preocupa cómo gestionaría esta nueva medicación junto con lo que ya estoy tomando.",
+  "example_questions_clean": [
+    "¿La PrEP podría afectar negativamente mi esclerosis múltiple?",
+    "He oído que la PrEP tiene efectos secundarios, ¿cuáles son y son diferentes para alguien como yo?",
+    "¿Es seguro tomar PrEP si estoy recibiendo tratamiento para mi condición?",
+    "¿Existen recursos o grupos de apoyo para personas como yo que consideran la PrEP?",
+    "¿Qué pasos debo seguir para acceder a la PrEP en mi situación particular?",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a la PrEP?"
+  ],
+  "example_questions_noisy": [
+    "¿La PrEP podría afectar negativamente mi esclerosis múltiple?",
+    "he oííído que la you know PrEP tiene efectos s3cund4r105, ¿cuáles son y son diferentes p4r4 alguien c0m0 yo? 😅",
+    "¿Es seguro tomar PrEP si dstoy recibiendo tratamiento you know para m1 condición",
+    "¿existen recursos o grupos de apoyo para personas como yo que cons1d3r4n la prep?",
+    "¿qué pasos dbdo seguir para acceder a la prep 3n mi situavión partjcular? 🤔",
+    "¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a la PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "¿Existen recursos o grupos de apoyo para personas como yo que consideran la PrEP?",
+  "starter_noisy": "¿existen recursos o grupos de apoyo para personas como yo que cons1d3r4n la prep?",
+  "followup_index": 0,
+  "followup_clean": "¿La PrEP podría afectar negativamente mi esclerosis múltiple?",
+  "followup_noisy": "¿La PrEP podría afectar negativamente mi esclerosis múltiple?",
+  "style_profile": {
+    "typo_rate": 0.06287005970837867,
+    "swap_rate": 0.05016754773773932,
+    "drop_rate": 0.0208389842464498,
+    "dup_rate": 0.018424711107669835,
+    "leet_rate": 0.11664561815904226,
+    "start_lower_prob": 0.7859779488411769,
+    "all_lower_prob": 0.22742571145633306,
+    "drop_punct_prob": 0.5054503942404457,
+    "double_space_prob": 0.16730791835112047,
+    "ellipsis_prob": 0.33161210660369644,
+    "runon_prob": 0.1745039798122321,
+    "filler_rate": 0.4923061645251507,
+    "emoji_rate": 0.2594736640852149,
+    "stutter_rate": 0.12161986143753033,
+    "repeat_last_rate": 0.10738373333458354
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"española\",\n    \"age\": 34,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"la interacción de la PrEP con mi condición de esclerosis múltiple\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Soy una mujer de 34 años que vive en España y tengo esclerosis múltiple. A veces me siento ansiosa sobre cómo los medicamentos pueden afectar mi salud y si debo priorizar la prevención del VIH sobre mis otros tratamientos. Tengo miedo de los efectos secundarios y de que la PrEP pueda interferir con mi condición. Aunque quiero protegerme, me preocupa cómo gestionaría esta nueva medicación junto con lo que ya estoy tomando.\",\n  \"example_questions\": [\n    \"¿La PrEP podría afectar negativamente mi esclerosis múltiple?\",\n    \"He oído que la PrEP tiene efectos secundarios, ¿cuáles son y son diferentes para alguien como yo?\",\n    \"¿Es seguro tomar PrEP si estoy recibiendo tratamiento para mi condición?\",\n    \"¿Existen recursos o grupos de apoyo para personas como yo que consideran la PrEP?\",\n    \"¿Qué pasos debo seguir para acceder a la PrEP en mi situación particular?\",\n    \"¿Cómo puedo hablar con mi médico sobre mis preocupaciones respecto a la PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "beed6eed2244c1e3d8a0789ba0c012bb3d423a8fe37e9e2846e848afe9adb835",
+  "_starter_hash": "51ab68b06986f99dd9cb421e26aca1ccb6a4705710617066885b6a6faa938fb9",
+  "_language": "Spanish",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 30,
+    "gender": "Femme",
+    "socio_economic_status": "Moyenne",
+    "primary_concern": "La peur des effets secondaires et des stigmates associés à la prise de PrEP.",
+    "language": "French"
+  },
+  "context": "Cette personne a récemment été diagnostiquée avec un trouble de stress post-traumatique (TSPT) après une expérience traumatique. Elle ressent une anxiété accrue à propos des traitements médicaux et s'inquiète des réactions d'autrui face à sa décision de prendre PrEP. Elle craint que cela ne renforce les stigmates liés à son passé et lui cause un stress supplémentaire, rendant l'accès à PrEP encore plus difficile.",
+  "example_questions_clean": [
+    "Comment le PrEP pourrait-il affecter ma santé mentale en raison de mon TSPT ?",
+    "Y a-t-il des ressources spécifiques pour les personnes qui prennent PrEP et qui ont des antécédents de traumatisme ?",
+    "Quelles sont les étapes pour obtenir PrEP dans ma situation actuelle ?",
+    "Comment puis-je aborder le sujet du PrEP avec mon médecin sans craindre un jugement ?",
+    "Quels effets secondaires devrais-je surveiller si je commence à prendre PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "Comment le PrEP pourrait-il affecter ma santé mentale en raison de mon TSPT ?",
+    "Y a-t-il des ressources spécifiques pour les personnes qui prennent PrEP et qui ont des antécédents de traumatisme ?",
+    "quelles sont les étapes pour obtenir Pr3P dans ma situation actuelle ?",
+    "Comment puis-je aborder l3 sujet du PrEP avec mon médecin sas craindre un jugement ?",
+    "q-quels 3ff375 secondaires devrais-je xurveiller si je comence à prendre PrEP ? 🤔"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Quels effets secondaires devrais-je surveiller si je commence à prendre PrEP ?",
+  "starter_noisy": "q-quels 3ff375 secondaires devrais-je xurveiller si je comence à prendre PrEP ? 🤔",
+  "followup_index": 0,
+  "followup_clean": "Comment le PrEP pourrait-il affecter ma santé mentale en raison de mon TSPT ?",
+  "followup_noisy": "Comment le PrEP pourrait-il affecter ma santé mentale en raison de mon TSPT ?",
+  "style_profile": {
+    "typo_rate": 0.05895705475270302,
+    "swap_rate": 0.028563687814808354,
+    "drop_rate": 0.038983931497600474,
+    "dup_rate": 0.017659044042558764,
+    "leet_rate": 0.09678112950797899,
+    "start_lower_prob": 0.6659893429058169,
+    "all_lower_prob": 0.32669771731993036,
+    "drop_punct_prob": 0.35667801999447635,
+    "double_space_prob": 0.17135467362420911,
+    "ellipsis_prob": 0.21424083804318633,
+    "runon_prob": 0.14877254078485383,
+    "filler_rate": 0.2679409133317878,
+    "emoji_rate": 0.3459351141335458,
+    "stutter_rate": 0.1371960116409512,
+    "repeat_last_rate": 0.08926291951279225
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 30,\n    \"gender\": \"Femme\",\n    \"socio_economic_status\": \"Moyenne\",\n    \"primary_concern\": \"La peur des effets secondaires et des stigmates associés à la prise de PrEP.\",\n    \"language\": \"Français\"\n  },\n  \"context\": \"Cette personne a récemment été diagnostiquée avec un trouble de stress post-traumatique (TSPT) après une expérience traumatique. Elle ressent une anxiété accrue à propos des traitements médicaux et s'inquiète des réactions d'autrui face à sa décision de prendre PrEP. Elle craint que cela ne renforce les stigmates liés à son passé et lui cause un stress supplémentaire, rendant l'accès à PrEP encore plus difficile.\",\n  \"example_questions\": [\n    \"Comment le PrEP pourrait-il affecter ma santé mentale en raison de mon TSPT ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes qui prennent PrEP et qui ont des antécédents de traumatisme ?\",\n    \"Quelles sont les étapes pour obtenir PrEP dans ma situation actuelle ?\",\n    \"Comment puis-je aborder le sujet du PrEP avec mon médecin sans craindre un jugement ?\",\n    \"Quels effets secondaires devrais-je surveiller si je commence à prendre PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a1f8c4b81cb61f7f6cc469b04a827f2a962114caf138e0f206c4fbb62c33e57a",
+  "_starter_hash": "df5c04815fcde19e842d42444cfbca56bdbe6e8c69158580d498bab6f13711d5",
+  "_language": "French",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

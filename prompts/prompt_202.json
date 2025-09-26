@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 30,
+    "gender": "masculino",
+    "socio_economic_status": "baixa renda",
+    "primary_concern": "dificuldade de acesso a medicamentos em um abrigo",
+    "language": "Portuguese"
+  },
+  "context": "Você vive em um abrigo e enfrenta desafios diários que afetam sua saúde mental e emocional. A incerteza sobre o acesso a PrEP gera medo e ansiedade, especialmente ao lidar com o estigma em relação à sua situação.",
+  "example_questions_clean": [
+    "Como posso ter acesso à PrEP vivendo em um abrigo?",
+    "Quais são os recursos disponíveis para pessoas em minha situação?",
+    "Estou preocupado com o estigma que posso enfrentar ao buscar PrEP, como isso pode ser abordado?",
+    "É possível receber suporte psicológico ao mesmo tempo que busco tratamento para prevenção do HIV?",
+    "Quais passos posso seguir para garantir que estou tomando a medicação corretamente?",
+    "A quem posso me dirigir para obter informações sobre PrEP de forma confidencial?"
+  ],
+  "example_questions_noisy": [
+    "Como posso ter acesso à PrEP vivendo em um abrigo?",
+    "Quais são os recursos disponíveis para pessoas em minha situação?",
+    "estou preocupado com o estigma qu3 posso enfrentar like ao buscar PrEP, como i55o pode ser abordado?",
+    "é p055ív3l receber suporte idk psicológico ao mesmo tempo que busco 7ra7am3n7o para pr3vençã0 do HIV? HIV?",
+    "Quais passos posso seguir para garantir que estou tomando a medicação corretamente?",
+    "a quem posso me dirigir par4 obter informações sobre PrEP de forma confidencial 🙄"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Quais são os recursos disponíveis para pessoas em minha situação?",
+  "starter_noisy": "Quais são os recursos disponíveis para pessoas em minha situação?",
+  "followup_index": 0,
+  "followup_clean": "Como posso ter acesso à PrEP vivendo em um abrigo?",
+  "followup_noisy": "Como posso ter acesso à PrEP vivendo em um abrigo?",
+  "style_profile": {
+    "typo_rate": 0.06031720096682194,
+    "swap_rate": 0.03625542234471153,
+    "drop_rate": 0.030188856252576862,
+    "dup_rate": 0.02722090780127058,
+    "leet_rate": 0.11870143501109445,
+    "start_lower_prob": 0.6459582412461419,
+    "all_lower_prob": 0.276121324628844,
+    "drop_punct_prob": 0.3780880591309735,
+    "double_space_prob": 0.28421892009313343,
+    "ellipsis_prob": 0.20376575503723302,
+    "runon_prob": 0.17431878986800547,
+    "filler_rate": 0.3739239901389241,
+    "emoji_rate": 0.23400373653490647,
+    "stutter_rate": 0.12915409680048437,
+    "repeat_last_rate": 0.166904878059525
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 30,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"baixa renda\",\n    \"primary_concern\": \"dificuldade de acesso a medicamentos em um abrigo\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você vive em um abrigo e enfrenta desafios diários que afetam sua saúde mental e emocional. A incerteza sobre o acesso a PrEP gera medo e ansiedade, especialmente ao lidar com o estigma em relação à sua situação.\",\n  \"example_questions\": [\n    \"Como posso ter acesso à PrEP vivendo em um abrigo?\",\n    \"Quais são os recursos disponíveis para pessoas em minha situação?\",\n    \"Estou preocupado com o estigma que posso enfrentar ao buscar PrEP, como isso pode ser abordado?\",\n    \"É possível receber suporte psicológico ao mesmo tempo que busco tratamento para prevenção do HIV?\",\n    \"Quais passos posso seguir para garantir que estou tomando a medicação corretamente?\",\n    \"A quem posso me dirigir para obter informações sobre PrEP de forma confidencial?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d4ea1f051860f2568890f726a06b8d87fb005f7fe6252e11ad1b136cd2dd23ed",
+  "_starter_hash": "a378a133332bd72c873eaa47440059012062f8c78bf5eb82486d57184f9e374b",
+  "_language": "Portuguese",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

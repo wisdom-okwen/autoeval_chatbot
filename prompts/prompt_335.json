@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexicana",
+    "age": 30,
+    "gender": "Femenino",
+    "socio_economic_status": "Bajo",
+    "primary_concern": "Miedo a la violencia por parte de la pareja si se entera de que busco PrEP",
+    "language": "Spanish"
+  },
+  "context": "Eres una mujer de 30 años viviendo en un entorno de violencia de pareja, lo que genera un profundo temor y ansiedad sobre tu salud y seguridad. Tienes interés en conocer más sobre PrEP como una opción para protegerte, pero te preocupa cómo reaccionaría tu pareja si descubre tus intenciones. Este temor puede crear barreras emocionales y prácticas para acceder a la información y al medicamento.",
+  "example_questions_clean": [
+    "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Existen recursos en línea donde pueda aprender sobre PrEP de forma segura?",
+    "¿Qué debo hacer si siento que mi seguridad está en riesgo mientras busco información sobre PrEP?",
+    "¿Cómo puedo hablar con un profesional de la salud sobre PrEP sin temer una reacción negativa?",
+    "¿Es posible obtener PrEP de manera confidencial en mi comunidad?",
+    "¿Cuáles son los efectos secundarios del PrEP y cómo podrían afectarme?"
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+    "¿Existen r3cur505 en línea donde pueda aprender sobre rP3P deee forma segura? segura?",
+    "¿Qué debo hacer si siento que mi seguridad está en riesgo mientras busco información sobre PrEP?",
+    "¿Cómo puedo hablar con un profesional de la salud sobre PrEP sin temer una reacción negativa?",
+    "¿es posible 0b73ner prep de manera c000nf1d3nc14l en mi comunidad?",
+    "¿-¿cuáles son los efectos secundarios del prep y cómo podrían 444f3c7arm3? ‼️"
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Es posible obtener PrEP de manera confidencial en mi comunidad?",
+  "starter_noisy": "¿es posible 0b73ner prep de manera c000nf1d3nc14l en mi comunidad?",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+  "followup_noisy": "¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?",
+  "style_profile": {
+    "typo_rate": 0.08347994251949697,
+    "swap_rate": 0.03880964349648207,
+    "drop_rate": 0.0226558685244935,
+    "dup_rate": 0.028405963720911795,
+    "leet_rate": 0.10279847118598465,
+    "start_lower_prob": 0.6914636953993625,
+    "all_lower_prob": 0.19378996526905384,
+    "drop_punct_prob": 0.5191790623775429,
+    "double_space_prob": 0.16845745866113293,
+    "ellipsis_prob": 0.1538249723196016,
+    "runon_prob": 0.10340519390036354,
+    "filler_rate": 0.23201673043352133,
+    "emoji_rate": 0.3225089013140118,
+    "stutter_rate": 0.162147426617445,
+    "repeat_last_rate": 0.13882512577676137
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexicana\",\n    \"age\": 30,\n    \"gender\": \"Femenino\",\n    \"socio_economic_status\": \"Bajo\",\n    \"primary_concern\": \"Miedo a la violencia por parte de la pareja si se entera de que busco PrEP\",\n    \"language\": \"Español\"\n  },\n  \"context\": \"Eres una mujer de 30 años viviendo en un entorno de violencia de pareja, lo que genera un profundo temor y ansiedad sobre tu salud y seguridad. Tienes interés en conocer más sobre PrEP como una opción para protegerte, pero te preocupa cómo reaccionaría tu pareja si descubre tus intenciones. Este temor puede crear barreras emocionales y prácticas para acceder a la información y al medicamento.\",\n  \"example_questions\": [\n    \"¿Cuáles son los pasos para acceder a PrEP sin que mi pareja lo sepa?\",\n    \"¿Existen recursos en línea donde pueda aprender sobre PrEP de forma segura?\",\n    \"¿Qué debo hacer si siento que mi seguridad está en riesgo mientras busco información sobre PrEP?\",\n    \"¿Cómo puedo hablar con un profesional de la salud sobre PrEP sin temer una reacción negativa?\",\n    \"¿Es posible obtener PrEP de manera confidencial en mi comunidad?\",\n    \"¿Cuáles son los efectos secundarios del PrEP y cómo podrían afectarme?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "11e4c9069abdd65ee821f6c82920023e42339504e9a1596a6ea81a5898436404",
+  "_starter_hash": "b5762c8a9dd4554a219326599976c13df04449cd3a2aab6a3b04a2d55faa1de0",
+  "_language": "Spanish",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

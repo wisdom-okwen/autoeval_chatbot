@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma from community and potential side effects",
+    "language": "Swahili"
+  },
+  "context": "A 30-year-old Kenyan woman is recovering from past trauma related to a health crisis. This experience has made her anxious about accessing healthcare, particularly PrEP, as she fears stigma and judgment from her community. She feels hopeful about protecting her health but is also worried about the side effects and how others will perceive her use of PrEP.",
+  "example_questions_clean": [
+    "Ninafikiria kuhusu PrEP, na ningependa kujua ni nini muhimu kujua kabla ya kuanza.",
+    "Je, ni dalili zipi za kawaida za PrEP ambazo watu wanapaswa kuwa nazo akilini?",
+    "Naweza kupata wapi taarifa zaidi kuhusu vitu vyote vya PrEP?",
+    "Je, kuna njia za kufikia PrEP bila kukabiliwa na unyanyapaa katika jamii yangu?",
+    "Ninapohisi wasiwasi kuhusu kutumia PrEP, ni hatua gani ninazoweza kuchukua ili kujiimarisha kiakili?",
+    "Ni vipi PrEP inaweza kusaidia katika kuzuia maambukizi ya HIV baada ya tukio hatari?"
+  ],
+  "example_questions_noisy": [
+    "Ninafikiria kuhusu PrEP, na ningependa kujua ni nini muhimu kujua kabla ya kuanza.",
+    "Je, ni dalili zipi za kawaida za PrEP ambazo watu wanapaswa kuwa nazo akilini?",
+    "Naweza kupata wapi taarifa zaidi kuhusu vitu vyote vya PrEP?",
+    "je, kuna njia za kudikia Pr3P bila kukabiliwa na unyanyapaa katika jaimi yangu? 💀",
+    "Ninapohisi wasiwasi kuhusu kutumia PrEP, ni hatua gani ninazoweza kuchukua you know ili kujiimarisha kiakili?",
+    "ni vipi PrEP inaweza kusaidia katika ukzuia ma4mbuk1z1 ya HkV baada ya uh tukio h474r1"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Je, kuna njia za kufikia PrEP bila kukabiliwa na unyanyapaa katika jamii yangu?",
+  "starter_noisy": "je, kuna njia za kudikia Pr3P bila kukabiliwa na unyanyapaa katika jaimi yangu? 💀",
+  "followup_index": 0,
+  "followup_clean": "Ninafikiria kuhusu PrEP, na ningependa kujua ni nini muhimu kujua kabla ya kuanza.",
+  "followup_noisy": "Ninafikiria kuhusu PrEP, na ningependa kujua ni nini muhimu kujua kabla ya kuanza.",
+  "style_profile": {
+    "typo_rate": 0.06166929433260105,
+    "swap_rate": 0.04497874131429501,
+    "drop_rate": 0.03588674625101464,
+    "dup_rate": 0.026278591872790247,
+    "leet_rate": 0.07093940504903948,
+    "start_lower_prob": 0.6680537273544354,
+    "all_lower_prob": 0.15259821687209968,
+    "drop_punct_prob": 0.4659873943672854,
+    "double_space_prob": 0.19468014177424262,
+    "ellipsis_prob": 0.2610442551016773,
+    "runon_prob": 0.14958426071374595,
+    "filler_rate": 0.3286306410245325,
+    "emoji_rate": 0.33409180049805665,
+    "stutter_rate": 0.12545073097927012,
+    "repeat_last_rate": 0.10306247280483327
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma from community and potential side effects\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"A 30-year-old Kenyan woman is recovering from past trauma related to a health crisis. This experience has made her anxious about accessing healthcare, particularly PrEP, as she fears stigma and judgment from her community. She feels hopeful about protecting her health but is also worried about the side effects and how others will perceive her use of PrEP.\",\n  \"example_questions\": [\n    \"Ninafikiria kuhusu PrEP, na ningependa kujua ni nini muhimu kujua kabla ya kuanza.\",\n    \"Je, ni dalili zipi za kawaida za PrEP ambazo watu wanapaswa kuwa nazo akilini?\",\n    \"Naweza kupata wapi taarifa zaidi kuhusu vitu vyote vya PrEP?\",\n    \"Je, kuna njia za kufikia PrEP bila kukabiliwa na unyanyapaa katika jamii yangu?\",\n    \"Ninapohisi wasiwasi kuhusu kutumia PrEP, ni hatua gani ninazoweza kuchukua ili kujiimarisha kiakili?\",\n    \"Ni vipi PrEP inaweza kusaidia katika kuzuia maambukizi ya HIV baada ya tukio hatari?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "471625858be98abe864df635d4dc50ca34edc7c68ba1ab7db33913340cd5ab15",
+  "_starter_hash": "8fb62e6cd5fae5b323ba962d31a7b640e597f9f52151f364fba7f7b370d609b0",
+  "_language": "Swahili",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

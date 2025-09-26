@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 34,
+    "gender": "vrouw",
+    "socio_economic_status": "middelmatig",
+    "primary_concern": "onzekerheid over de interactie tussen PrEP en mijn gezondheid na kanker",
+    "language": "Dutch"
+  },
+  "context": "Je herstelt momenteel van een intensieve behandeling voor kanker en maakt je zorgen over je immuniteit en algehele gezondheid. Dit beïnvloedt je houding ten opzichte van nieuwe medicijnen zoals PrEP. Je wilt goed geïnformeerd zijn, maar er zijn veel zorgen over bijwerkingen en hoe dit jouw herstel kan beïnvloeden. De stigma's rond HIV-preventie geven je ook een gevoel van angst, maar je hebt hoop dat PrEP een veilige optie kan zijn.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstellende is van kanker?",
+    "Hoe kan PrEP mijn immuunsysteem beïnvloeden na mijn behandeling?",
+    "Zijn er specifieke richtlijnen voor mensen zoals ik als het gaat om het starten met PrEP?",
+    "Wat moet ik weten over de kosten en verzekering van PrEP in mijn situatie?",
+    "Is het veilig om PrEP te combineren met andere medicijnen die ik misschien neem?",
+    "Hoe kan ik mijn zorgen over stigma delen met mijn zorgverlener?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstellende is van kanker?",
+    "hoe kan PrEP mijn immuunsysteem beïnvloeden like nq mijn behandeling",
+    "Zijn er specifieke richtlijnen voor mensen zoals ik als het gaat om het starten met PrEP?",
+    "wat mmmoet ik weten iver de like kosten en verzekering van PrEP in mijn situatie? ❓",
+    "is het veilig om Pr3P te combineren i mean met andere medicijnen die ik misschien neem? 😭",
+    "Hoe kan ik mijn zorgen over stigma delen met mijn zorgverlener?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is het veilig om PrEP te combineren met andere medicijnen die ik misschien neem?",
+  "starter_noisy": "is het veilig om Pr3P te combineren i mean met andere medicijnen die ik misschien neem? 😭",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstellende is van kanker?",
+  "followup_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstellende is van kanker?",
+  "style_profile": {
+    "typo_rate": 0.08898512019802599,
+    "swap_rate": 0.024075969840823004,
+    "drop_rate": 0.032512857531840786,
+    "dup_rate": 0.026325953168433266,
+    "leet_rate": 0.10698637299419059,
+    "start_lower_prob": 0.7521396424536185,
+    "all_lower_prob": 0.22548179824102668,
+    "drop_punct_prob": 0.53545073126589,
+    "double_space_prob": 0.23473859544891817,
+    "ellipsis_prob": 0.311519672687088,
+    "runon_prob": 0.2689043948461882,
+    "filler_rate": 0.47555453168235245,
+    "emoji_rate": 0.15607040293889082,
+    "stutter_rate": 0.13615372351913918,
+    "repeat_last_rate": 0.1275762424086395
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 34,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middelmatig\",\n    \"primary_concern\": \"onzekerheid over de interactie tussen PrEP en mijn gezondheid na kanker\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je herstelt momenteel van een intensieve behandeling voor kanker en maakt je zorgen over je immuniteit en algehele gezondheid. Dit beïnvloedt je houding ten opzichte van nieuwe medicijnen zoals PrEP. Je wilt goed geïnformeerd zijn, maar er zijn veel zorgen over bijwerkingen en hoe dit jouw herstel kan beïnvloeden. De stigma's rond HIV-preventie geven je ook een gevoel van angst, maar je hebt hoop dat PrEP een veilige optie kan zijn.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand die herstellende is van kanker?\",\n    \"Hoe kan PrEP mijn immuunsysteem beïnvloeden na mijn behandeling?\",\n    \"Zijn er specifieke richtlijnen voor mensen zoals ik als het gaat om het starten met PrEP?\",\n    \"Wat moet ik weten over de kosten en verzekering van PrEP in mijn situatie?\",\n    \"Is het veilig om PrEP te combineren met andere medicijnen die ik misschien neem?\",\n    \"Hoe kan ik mijn zorgen over stigma delen met mijn zorgverlener?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fca455c10d871cd26e3d63428937563868264660ab9dea66d6872d79085cd235",
+  "_starter_hash": "679f0c337274c1528577abad763853b9d028436ceb589b53044ea85a532cddac",
+  "_language": "Dutch",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

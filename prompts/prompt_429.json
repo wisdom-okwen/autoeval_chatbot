@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "française",
+    "age": 34,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "l'impact de la douleur chronique sur ma capacité à suivre un traitement régulier",
+    "language": "French"
+  },
+  "context": "Une femme de 34 ans vivant avec une douleur chronique ressent souvent des inquiétudes quant à sa capacité à adhérer à un traitement préventif comme le PrEP. La douleur constante affecte sa motivation et engendre des craintes sur les effets secondaires, ainsi que sur les stigmatisations potentielles liées à son choix de prévention. Elle espère obtenir des informations fiables pour prendre une décision éclairée sur son utilisation du PrEP.",
+  "example_questions_clean": [
+    "Comment le PrEP pourrait-il interagir avec mes douleurs chroniques ?",
+    "Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions comme la mienne qui envisagent le PrEP ?",
+    "Quels sont les effets secondaires possibles du PrEP que je devrais surveiller en raison de ma condition ?",
+    "Quelles mesures puis-je prendre pour m'assurer que je ne ressente pas de stigma en prenant du PrEP ?",
+    "Y a-t-il des témoignages de personnes ayant des douleurs chroniques qui utilisent le PrEP ?"
+  ],
+  "example_questions_noisy": [
+    "comment l3 PrPE p0urr41t-1l interagir avec mes douleurs chroniques",
+    "y 4-7-1l d3s ressources spéckfiques pour les personnes vivant avec d35 cond17i0n5 comem la mienne qui envisagent le PrEP",
+    "quels sont les effets secondaires p0551bl3s du Pr3P que je devrais surveiller en raison de ma condition 😬",
+    "Quelles mesures puis-je prendre pour m'assurer que je ne ressente pas de stigma en prenant du PrEP ?",
+    "Y a-t-il des témoignages de personnes ayant des douleurs chroniques qui utilisent le PrEP ?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Comment le PrEP pourrait-il interagir avec mes douleurs chroniques ?",
+  "starter_noisy": "comment l3 PrPE p0urr41t-1l interagir avec mes douleurs chroniques",
+  "followup_index": 1,
+  "followup_clean": "Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions comme la mienne qui envisagent le PrEP ?",
+  "followup_noisy": "y 4-7-1l d3s ressources spéckfiques pour les personnes vivant avec d35 cond17i0n5 comem la mienne qui envisagent le PrEP",
+  "style_profile": {
+    "typo_rate": 0.05117197990736498,
+    "swap_rate": 0.03692680767376297,
+    "drop_rate": 0.02633640557783406,
+    "dup_rate": 0.025350833056662237,
+    "leet_rate": 0.09632850470161311,
+    "start_lower_prob": 0.8820225126783473,
+    "all_lower_prob": 0.24509410060145265,
+    "drop_punct_prob": 0.5046634627139699,
+    "double_space_prob": 0.3460888946510722,
+    "ellipsis_prob": 0.2810629512778886,
+    "runon_prob": 0.25504993725932285,
+    "filler_rate": 0.3105827032637402,
+    "emoji_rate": 0.18597651484109423,
+    "stutter_rate": 0.16361323046443177,
+    "repeat_last_rate": 0.1016321380008528
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"française\",\n    \"age\": 34,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"l'impact de la douleur chronique sur ma capacité à suivre un traitement régulier\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Une femme de 34 ans vivant avec une douleur chronique ressent souvent des inquiétudes quant à sa capacité à adhérer à un traitement préventif comme le PrEP. La douleur constante affecte sa motivation et engendre des craintes sur les effets secondaires, ainsi que sur les stigmatisations potentielles liées à son choix de prévention. Elle espère obtenir des informations fiables pour prendre une décision éclairée sur son utilisation du PrEP.\",\n  \"example_questions\": [\n    \"Comment le PrEP pourrait-il interagir avec mes douleurs chroniques ?\",\n    \"Y a-t-il des ressources spécifiques pour les personnes vivant avec des conditions comme la mienne qui envisagent le PrEP ?\",\n    \"Quels sont les effets secondaires possibles du PrEP que je devrais surveiller en raison de ma condition ?\",\n    \"Quelles mesures puis-je prendre pour m'assurer que je ne ressente pas de stigma en prenant du PrEP ?\",\n    \"Y a-t-il des témoignages de personnes ayant des douleurs chroniques qui utilisent le PrEP ?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "04135dedd527d1d40bad86475772906822fe0f639f52bdcc8d68416788687292",
+  "_starter_hash": "2731e0bb5fbca8fb1f05447c113f206c541f4cb7a3a910da73c191aef5619708",
+  "_language": "French",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

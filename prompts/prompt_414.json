@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and access due to past substance use",
+    "language": "English"
+  },
+  "context": "The user has a history of substance use which makes them wary of the stigma associated with seeking PrEP. They are feeling anxious about how their past may affect their ability to access the medication and are concerned about judgment from healthcare providers. Despite these fears, they are hopeful about the potential for PrEP to provide protection and improve their quality of life.",
+  "example_questions_clean": [
+    "What are the eligibility requirements for accessing PrEP if I have a history of substance use?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any programs that help low-income individuals get PrEP without discrimination?",
+    "Can PrEP help reduce my risk of HIV if I am worried about my past affecting my health choices?",
+    "What steps should I take to overcome my fears about seeking PrEP due to stigma?",
+    "How do I talk to a doctor about my interest in PrEP given my history?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the eligibility requirements for accessing pr3p if um i have a history of substance use? 😬 😬",
+    "how can I find a supprotive healthcare provider who um understands my situation?",
+    "Are ther zny programs that help low-income individuasl get PrEP wuthout discriminatoin?",
+    "Can PrEP help reduce my risk of HIV if I am worried about my past affecting my health choices?",
+    "w-what step should i take to overcome my fears about seeking prep due to stigma?",
+    "How do I talk to a doctor about my interest in PrEP given my history?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How do I talk to a doctor about my interest in PrEP given my history?",
+  "starter_noisy": "How do I talk to a doctor about my interest in PrEP given my history?",
+  "followup_index": 0,
+  "followup_clean": "What are the eligibility requirements for accessing PrEP if I have a history of substance use?",
+  "followup_noisy": "w-what are the eligibility requirements for accessing pr3p if um i have a history of substance use? 😬 😬",
+  "style_profile": {
+    "typo_rate": 0.06524373517011825,
+    "swap_rate": 0.05725317834160833,
+    "drop_rate": 0.04009279751878719,
+    "dup_rate": 0.02167589476117711,
+    "leet_rate": 0.054115261882930865,
+    "start_lower_prob": 0.6625488963783382,
+    "all_lower_prob": 0.2905222306649209,
+    "drop_punct_prob": 0.3320172297515879,
+    "double_space_prob": 0.21734468701228768,
+    "ellipsis_prob": 0.24667645180660452,
+    "runon_prob": 0.1887722179735449,
+    "filler_rate": 0.40448336180287825,
+    "emoji_rate": 0.16947481628794492,
+    "stutter_rate": 0.18370552776671784,
+    "repeat_last_rate": 0.135255001812395
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and access due to past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a history of substance use which makes them wary of the stigma associated with seeking PrEP. They are feeling anxious about how their past may affect their ability to access the medication and are concerned about judgment from healthcare providers. Despite these fears, they are hopeful about the potential for PrEP to provide protection and improve their quality of life.\",\n  \"example_questions\": [\n    \"What are the eligibility requirements for accessing PrEP if I have a history of substance use?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there any programs that help low-income individuals get PrEP without discrimination?\",\n    \"Can PrEP help reduce my risk of HIV if I am worried about my past affecting my health choices?\",\n    \"What steps should I take to overcome my fears about seeking PrEP due to stigma?\",\n    \"How do I talk to a doctor about my interest in PrEP given my history?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c4c02d0f824adf420c1ed306f43efddbc287fa26d58fdf6b16e06467bb2f7a67",
+  "_starter_hash": "f5e88ef5a74de8c17fdd4143f350f9f1fafa941af2552b0ae259b00dae588f79",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

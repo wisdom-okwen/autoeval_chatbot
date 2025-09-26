@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileira",
+    "age": 28,
+    "gender": "feminino",
+    "socio_economic_status": "classe média",
+    "primary_concern": "preocupação com o estigma social e aceitação",
+    "language": "Portuguese"
+  },
+  "context": "Você está lutando com a sua autoestima e isso está afetando sua disposição para buscar informações sobre o PrEP. Você tem medo do que os outros vão pensar e se sente insegura sobre a aceitação social, mesmo sabendo que essa medicação pode ser importante para a sua saúde. Esses sentimentos estão te impedindo de se informar e acessar o tratamento.",
+  "example_questions_clean": [
+    "Quais são os efeitos colaterais mais comuns do PrEP?",
+    "Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhada?",
+    "O uso de PrEP pode impactar minha vida social de alguma forma?",
+    "Existem grupos de apoio para pessoas que usam PrEP?",
+    "Como posso lidar com o medo do julgamento dos outros ao considerar o PrEP?",
+    "Quais informações posso encontrar online que sejam confiáveis sobre o PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quais são os efeitos colaterais mais comuns do PrEP?",
+    "como posso conversar com meu médico sobre o PrEP sem me ssntir envergonhada",
+    "O uso de PrEP pode impactar minha vida social de alguma forma?",
+    "existem grupos de apoiooo pra pessoas que uam PrEP?",
+    "Como posso lidar com o medo do julgamento dos outros ao considerar o PrEP?",
+    "quais informações posso encontrar onlinw que sejam confiáveis sobre o PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Existem grupos de apoio para pessoas que usam PrEP?",
+  "starter_noisy": "existem grupos de apoiooo pra pessoas que uam PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Quais são os efeitos colaterais mais comuns do PrEP?",
+  "followup_noisy": "Quais são os efeitos colaterais mais comuns do PrEP?",
+  "style_profile": {
+    "typo_rate": 0.10742080854040596,
+    "swap_rate": 0.04323150736168142,
+    "drop_rate": 0.03487033604530197,
+    "dup_rate": 0.024435178393708464,
+    "leet_rate": 0.057648550593706174,
+    "start_lower_prob": 0.8928292064660359,
+    "all_lower_prob": 0.34373406079650703,
+    "drop_punct_prob": 0.5082237374707116,
+    "double_space_prob": 0.20304579321215305,
+    "ellipsis_prob": 0.15411584759654123,
+    "runon_prob": 0.11956734909903298,
+    "filler_rate": 0.31236247005057943,
+    "emoji_rate": 0.17703402163727733,
+    "stutter_rate": 0.13194281288362555,
+    "repeat_last_rate": 0.10392342129946791
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileira\",\n    \"age\": 28,\n    \"gender\": \"feminino\",\n    \"socio_economic_status\": \"classe média\",\n    \"primary_concern\": \"preocupação com o estigma social e aceitação\",\n    \"language\": \"Portuguese\"\n  },\n  \"context\": \"Você está lutando com a sua autoestima e isso está afetando sua disposição para buscar informações sobre o PrEP. Você tem medo do que os outros vão pensar e se sente insegura sobre a aceitação social, mesmo sabendo que essa medicação pode ser importante para a sua saúde. Esses sentimentos estão te impedindo de se informar e acessar o tratamento.\",\n  \"example_questions\": [\n    \"Quais são os efeitos colaterais mais comuns do PrEP?\",\n    \"Como posso conversar com meu médico sobre o PrEP sem me sentir envergonhada?\",\n    \"O uso de PrEP pode impactar minha vida social de alguma forma?\",\n    \"Existem grupos de apoio para pessoas que usam PrEP?\",\n    \"Como posso lidar com o medo do julgamento dos outros ao considerar o PrEP?\",\n    \"Quais informações posso encontrar online que sejam confiáveis sobre o PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1351bab3ed552e200dafc4527e196574ece89a79053489fc1150ae7fe67e36b7",
+  "_starter_hash": "e4da9535d6874bdec8dc9d50aea31782fbd7918a5857f25a0d337e9f5223468f",
+  "_language": "Portuguese",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "Female",
+    "socio_economic_status": "Low-income",
+    "primary_concern": "I worry about how my chronic pain will affect my ability to take PrEP consistently.",
+    "language": "English"
+  },
+  "context": "As a woman living with chronic pain, I often find it challenging to manage my health needs. The discomfort and unpredictability of my condition make me feel overwhelmed and anxious about starting PrEP. I fear that the side effects of PrEP could worsen my pain or complicate my routine. Despite the hope for better protection against HIV, I am concerned about the stigma I might face and whether I can truly commit to a medication regimen while dealing with my chronic illness.",
+  "example_questions_clean": [
+    "What are the possible side effects of PrEP for someone with chronic pain?",
+    "Can you help me understand how to manage taking PrEP alongside my pain medication?",
+    "Is there support available for people like me who want to start PrEP?",
+    "How do healthcare providers address concerns about stigma when prescribing PrEP?",
+    "What steps can I take to ensure I remain consistent with taking PrEP despite my condition?"
+  ],
+  "example_questions_noisy": [
+    "what are the possible side effects 0f PrEP tor someone with chronic pani",
+    "Can you help me understand how to manage taking PrEP alongside my pain medication?",
+    "1s 7h33r support available uh for eople like me who wanr to start Pr3P Pr3P",
+    "hos do h3al7hc4r3 provisers address concerns about stigma wh3n prescribing PrP3",
+    "What stpes can 1 take to 3n5ur3 I remain consistent with taking Pr3P despite my c0nd1710n"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Is there support available for people like me who want to start PrEP?",
+  "starter_noisy": "1s 7h33r support available uh for eople like me who wanr to start Pr3P Pr3P",
+  "followup_index": 0,
+  "followup_clean": "What are the possible side effects of PrEP for someone with chronic pain?",
+  "followup_noisy": "what are the possible side effects 0f PrEP tor someone with chronic pani",
+  "style_profile": {
+    "typo_rate": 0.1148781935561681,
+    "swap_rate": 0.046219687620230474,
+    "drop_rate": 0.02815450407642825,
+    "dup_rate": 0.01974512828788147,
+    "leet_rate": 0.11463539571522421,
+    "start_lower_prob": 0.7626649327841101,
+    "all_lower_prob": 0.2006830120591651,
+    "drop_punct_prob": 0.589960176277206,
+    "double_space_prob": 0.348010645088889,
+    "ellipsis_prob": 0.20655536051417428,
+    "runon_prob": 0.1812765003378082,
+    "filler_rate": 0.2612234864563478,
+    "emoji_rate": 0.17961296300714316,
+    "stutter_rate": 0.11586646666258164,
+    "repeat_last_rate": 0.1476292206202585
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low-income\",\n    \"primary_concern\": \"I worry about how my chronic pain will affect my ability to take PrEP consistently.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with chronic pain, I often find it challenging to manage my health needs. The discomfort and unpredictability of my condition make me feel overwhelmed and anxious about starting PrEP. I fear that the side effects of PrEP could worsen my pain or complicate my routine. Despite the hope for better protection against HIV, I am concerned about the stigma I might face and whether I can truly commit to a medication regimen while dealing with my chronic illness.\",\n  \"example_questions\": [\n    \"What are the possible side effects of PrEP for someone with chronic pain?\",\n    \"Can you help me understand how to manage taking PrEP alongside my pain medication?\",\n    \"Is there support available for people like me who want to start PrEP?\",\n    \"How do healthcare providers address concerns about stigma when prescribing PrEP?\",\n    \"What steps can I take to ensure I remain consistent with taking PrEP despite my condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "588e1ec5f47f63bd1e972882cc15322c0a799828d04f0f7dac7299a466918dc0",
+  "_starter_hash": "9c1f226cb30329430959b99c919bf0c789de40bfb840fae65abff32f9ed3f91d",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

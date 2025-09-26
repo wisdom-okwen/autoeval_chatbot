@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "Female",
+    "socio_economic_status": "Low income",
+    "primary_concern": "How my chronic pain might affect my ability to take PrEP consistently.",
+    "language": "English"
+  },
+  "context": "You are managing chronic pain, which often leaves you feeling fatigued and anxious about new medications. You worry that side effects from PrEP could exacerbate your pain or complicate your current treatment regimen. Access to healthcare resources is limited for you due to financial constraints, adding to your stress about starting a new medication.",
+  "example_questions_clean": [
+    "Can PrEP be safely taken alongside medications for chronic pain?",
+    "How can I manage potential side effects of PrEP while dealing with my pain?",
+    "Are there financial assistance programs available for people like me needing PrEP?",
+    "What kind of support can I expect from healthcare providers when starting PrEP?",
+    "How do I find a doctor who understands my situation with chronic pain?",
+    "What are the first steps I should take if I decide to try PrEP?"
+  ],
+  "example_questions_noisy": [
+    "c-can PrEP be sfely taken alongside medications for chronic pain 🙄",
+    "How can I manage potential side effects of PrEP while dealing with my pain?",
+    "Are there financial assistance programs available for people like me needing PrEP?",
+    "what kind 0f support can I expect from healthcare providers when ztarting rP3P 💀",
+    "How do I find a doctor who understands my situation with chronic pain?",
+    "What are the first steps I should take if I decide to try PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What are the first steps I should take if I decide to try PrEP?",
+  "starter_noisy": "What are the first steps I should take if I decide to try PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can PrEP be safely taken alongside medications for chronic pain?",
+  "followup_noisy": "c-can PrEP be sfely taken alongside medications for chronic pain 🙄",
+  "style_profile": {
+    "typo_rate": 0.07702814318696537,
+    "swap_rate": 0.05404866002287989,
+    "drop_rate": 0.02350689517222817,
+    "dup_rate": 0.024816730083349302,
+    "leet_rate": 0.06758513915569113,
+    "start_lower_prob": 0.6039113633334412,
+    "all_lower_prob": 0.2942891561590363,
+    "drop_punct_prob": 0.3293695110457579,
+    "double_space_prob": 0.30954981586494773,
+    "ellipsis_prob": 0.29079719555079986,
+    "runon_prob": 0.17157926920393352,
+    "filler_rate": 0.3490261184006128,
+    "emoji_rate": 0.31918476511705884,
+    "stutter_rate": 0.16713595408178716,
+    "repeat_last_rate": 0.15082594790371698
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Low income\",\n    \"primary_concern\": \"How my chronic pain might affect my ability to take PrEP consistently.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are managing chronic pain, which often leaves you feeling fatigued and anxious about new medications. You worry that side effects from PrEP could exacerbate your pain or complicate your current treatment regimen. Access to healthcare resources is limited for you due to financial constraints, adding to your stress about starting a new medication.\",\n  \"example_questions\": [\n    \"Can PrEP be safely taken alongside medications for chronic pain?\",\n    \"How can I manage potential side effects of PrEP while dealing with my pain?\",\n    \"Are there financial assistance programs available for people like me needing PrEP?\",\n    \"What kind of support can I expect from healthcare providers when starting PrEP?\",\n    \"How do I find a doctor who understands my situation with chronic pain?\",\n    \"What are the first steps I should take if I decide to try PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a2cc06ae1fd2d9557930d9113703823713d3c599045241d743c251bfdbb73535",
+  "_starter_hash": "951b462a506e45a74a92ac81e27d6ae81715f096ab30db0c438400fec686d478",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

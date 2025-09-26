@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 35,
+    "gender": "vrouw",
+    "socio_economic_status": "laag inkomen",
+    "primary_concern": "Zal PrEP mijn pijn verergeren?",
+    "language": "Dutch"
+  },
+  "context": "De gebruiker leeft met chronische pijn, wat hun mentale en emotionele welzijn beïnvloedt. Ze maken zich zorgen over hoe medicatie zoals PrEP hun bestaande pijn kan beïnvloeden. De angst om nieuwe symptomen of verergering van hun toestand te ervaren vormt een belangrijke barrière voor het zoeken naar informatie over PrEP. Ze willen ook weten of er speciale overwegingen zijn voor mensen met chronische pijn bij het gebruik van PrEP.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+    "Zijn er specifieke richtlijnen voor het gebruik van PrEP in combinatie met pijnmedicatie?",
+    "Hoe kan ik ervoor zorgen dat PrEP geen negatieve invloed heeft op mijn gezondheidstoestand?",
+    "Zijn er ervaringsverhalen van anderen met chronische pijn die PrEP gebruiken?",
+    "Welke ondersteuning is beschikbaar voor mensen die geïnteresseerd zijn in PrEP maar zich zorgen maken over hun gezondheid?",
+    "Hoe kan ik mijn zorgen over het gebruik van PrEP het beste bespreken met mijn zorgverlener?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+    "Zijn er specifieke richtlijnen voor het gebruik van PrEP in combinatie met pijnmedicatie?",
+    "hoe kan ik ervoor zorgen dat PrEP geen neg47i3ve invloed heeft op mijn gezondheidstoestand?",
+    "zijn er ervar1ng5v3rh4l3n van anderen met chronische pijn die pr3p gebruiken",
+    "w-welke um 0nd3r57eun1ng is beschikbaar voof mensen die geïnteresseerd z1jn 1n rpep maar zich zorgen maken over hun gezondheid? ❓",
+    "Hoe kan ik mijn zorgen over het gebruik van PrEP het beste bespreken met mijn zorgverlener?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+  "starter_noisy": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+  "followup_index": 1,
+  "followup_clean": "Zijn er specifieke richtlijnen voor het gebruik van PrEP in combinatie met pijnmedicatie?",
+  "followup_noisy": "Zijn er specifieke richtlijnen voor het gebruik van PrEP in combinatie met pijnmedicatie?",
+  "style_profile": {
+    "typo_rate": 0.06436013881746429,
+    "swap_rate": 0.037043020987325107,
+    "drop_rate": 0.02509703085728722,
+    "dup_rate": 0.014957891190113324,
+    "leet_rate": 0.09228197062106162,
+    "start_lower_prob": 0.8441299828870545,
+    "all_lower_prob": 0.34167018213084505,
+    "drop_punct_prob": 0.562141807105383,
+    "double_space_prob": 0.20039836613300818,
+    "ellipsis_prob": 0.26443432967169966,
+    "runon_prob": 0.1114207882929196,
+    "filler_rate": 0.21598515196568574,
+    "emoji_rate": 0.2802994492373323,
+    "stutter_rate": 0.19413997918749282,
+    "repeat_last_rate": 0.08125842298844024
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 35,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"laag inkomen\",\n    \"primary_concern\": \"Zal PrEP mijn pijn verergeren?\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"De gebruiker leeft met chronische pijn, wat hun mentale en emotionele welzijn beïnvloedt. Ze maken zich zorgen over hoe medicatie zoals PrEP hun bestaande pijn kan beïnvloeden. De angst om nieuwe symptomen of verergering van hun toestand te ervaren vormt een belangrijke barrière voor het zoeken naar informatie over PrEP. Ze willen ook weten of er speciale overwegingen zijn voor mensen met chronische pijn bij het gebruik van PrEP.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?\",\n    \"Zijn er specifieke richtlijnen voor het gebruik van PrEP in combinatie met pijnmedicatie?\",\n    \"Hoe kan ik ervoor zorgen dat PrEP geen negatieve invloed heeft op mijn gezondheidstoestand?\",\n    \"Zijn er ervaringsverhalen van anderen met chronische pijn die PrEP gebruiken?\",\n    \"Welke ondersteuning is beschikbaar voor mensen die geïnteresseerd zijn in PrEP maar zich zorgen maken over hun gezondheid?\",\n    \"Hoe kan ik mijn zorgen over het gebruik van PrEP het beste bespreken met mijn zorgverlener?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "25d978828bb880a2679e92153e8f3370110936f8de6e515fa4d2275f3420baaf",
+  "_starter_hash": "5dd8568cef9c6f3e37526894617d01a1b1e66313a75f02381813cf4d0787bcf5",
+  "_language": "Dutch",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

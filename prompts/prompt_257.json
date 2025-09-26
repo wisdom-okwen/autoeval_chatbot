@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 27,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how PrEP works due to difficulty processing medical information",
+    "language": "Swahili"
+  },
+  "context": "The user has a learning disability that makes it challenging for her to understand medical terms and concepts. She feels anxious about discussing PrEP due to fear of stigma and concerns over her ability to remember important information. Her hope is to protect her health while navigating the complexities of the healthcare system.",
+  "example_questions_clean": [
+    "Ninaweza kupataje maelezo rahisi kuhusu jinsi PrEP inavyofanya kazi?",
+    "Je, kuna njia gani za kusaidia watu wenye changamoto za kujifunza kuelewa PrEP?",
+    "Naweza kupata msaada gani ili niweze kujua kama PrEP ni nzuri kwangu?",
+    "Ni hatua zipi za kwanza za kuchukua ili kuanza kutumia PrEP?",
+    "Je, kuna watu ambao wanakabiliwa na hali kama yangu ambao wamefaidika na PrEP?",
+    "Ninahitaji maelezo ya wazi zaidi kuhusu madhara ya PrEP."
+  ],
+  "example_questions_noisy": [
+    "ninaweza kupatttaje maelezo rahisi kuhuus jinsi PrEP inavyofanya kazi?",
+    "je kun4 njia gani za kusaidia w47u webye changamoto xa kujifunza kuelewa PrEP",
+    "naweza kuptaa msaada gnai like ili niweze kujua kama PrEP ni nzuri kw4ngu? kw4ngu?",
+    "Ni hatua zipi za kwanza za kuchukua ili kuanza kutumia PrEP?",
+    "je ukna watu ambao w4nak4b1l1w4 na h4l1 k4m4 ayngu ambao wamefaidika na PrEP?",
+    "Ninahitaji maelezo ya wazi zaidi kuhusu madhara ya PrEP."
+  ],
+  "starter_index": 3,
+  "starter_clean": "Ni hatua zipi za kwanza za kuchukua ili kuanza kutumia PrEP?",
+  "starter_noisy": "Ni hatua zipi za kwanza za kuchukua ili kuanza kutumia PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Ninaweza kupataje maelezo rahisi kuhusu jinsi PrEP inavyofanya kazi?",
+  "followup_noisy": "ninaweza kupatttaje maelezo rahisi kuhuus jinsi PrEP inavyofanya kazi?",
+  "style_profile": {
+    "typo_rate": 0.06934250006105311,
+    "swap_rate": 0.055013267465068655,
+    "drop_rate": 0.034409562267156524,
+    "dup_rate": 0.013760318406819037,
+    "leet_rate": 0.06621331363479425,
+    "start_lower_prob": 0.8375613696826592,
+    "all_lower_prob": 0.1597340037090834,
+    "drop_punct_prob": 0.5636382701696728,
+    "double_space_prob": 0.22394616833387881,
+    "ellipsis_prob": 0.30962433223671726,
+    "runon_prob": 0.2321433718564216,
+    "filler_rate": 0.4087229009707001,
+    "emoji_rate": 0.2592773999413882,
+    "stutter_rate": 0.16010334404355708,
+    "repeat_last_rate": 0.10391435144171364
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 27,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how PrEP works due to difficulty processing medical information\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user has a learning disability that makes it challenging for her to understand medical terms and concepts. She feels anxious about discussing PrEP due to fear of stigma and concerns over her ability to remember important information. Her hope is to protect her health while navigating the complexities of the healthcare system.\",\n  \"example_questions\": [\n    \"Ninaweza kupataje maelezo rahisi kuhusu jinsi PrEP inavyofanya kazi?\",\n    \"Je, kuna njia gani za kusaidia watu wenye changamoto za kujifunza kuelewa PrEP?\",\n    \"Naweza kupata msaada gani ili niweze kujua kama PrEP ni nzuri kwangu?\",\n    \"Ni hatua zipi za kwanza za kuchukua ili kuanza kutumia PrEP?\",\n    \"Je, kuna watu ambao wanakabiliwa na hali kama yangu ambao wamefaidika na PrEP?\",\n    \"Ninahitaji maelezo ya wazi zaidi kuhusu madhara ya PrEP.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2b38a6bf18d84a3fcacd27a3bcbb2be5c1fabeb1bdd82135e5ba61b2fba9ed4a",
+  "_starter_hash": "f195c46718ce9da7666ed5e524ba14cc78e41e18daf164659979ae17de8fe304",
+  "_language": "Swahili",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

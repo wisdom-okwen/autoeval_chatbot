@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "navigating the side effects of PrEP alongside my chronic pain condition",
+    "language": "Swahili"
+  },
+  "context": "Kama mwanamke mwenye maumivu ya muda mrefu, unajikuta katika changamoto ya kupata na kutumia PrEP. Unahisi wasiwasi kuhusu jinsi dawa hiyo itakavyoathiri hali yako ya maumivu na hali yako ya kihisia. Inawezekana unahisi stigma kutokana na wazo la kutumia dawa za kuzuia HIV, na unahitaji taarifa sahihi ili kujitunza vyema.",
+  "example_questions_clean": [
+    "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+    "Je, kuna athari zozote za PrEP ambazo zinaweza kuzidisha maumivu yangu ya muda mrefu?",
+    "Nifanye nini ikiwa nitapata athari mbaya kutoka kwa PrEP?",
+    "Naweza kuzungumza na daktari wangu juu ya PrEP bila kuhisi dhiki?",
+    "Je, kuna msaada wa kifedha kwa watu kama mimi wanaotaka kutumia PrEP?",
+    "Ninaweza kupata taarifa zaidi kuhusu PrEP na maumivu yangu wapi?"
+  ],
+  "example_questions_noisy": [
+    "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+    "je kuna athari zozote za PrEP ambazo zinaweza kuzidisha maumiuv yanu ya umda nrefu? ❓",
+    "Nifanye nini ikiwa nitapata athari mbaya kutoka kwa PrEP?",
+    "n-n4w3z4 kuzungumza na daktari wangu juu ya PrEP bila kuhisi dh1ki? 🤔",
+    "je, kuna m54ad4 wa kifedha kw4 like watu kama mimi wanaotaka kutumia prep? ‼️",
+    "ninaweza kupata 744r1f4 zaidu kuhusu um Pr3P na maumivu yangu wapi"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Naweza kuzungumza na daktari wangu juu ya PrEP bila kuhisi dhiki?",
+  "starter_noisy": "n-n4w3z4 kuzungumza na daktari wangu juu ya PrEP bila kuhisi dh1ki? 🤔",
+  "followup_index": 0,
+  "followup_clean": "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+  "followup_noisy": "Ninaweza kupata PrEP wapi bila kuhisi aibu?",
+  "style_profile": {
+    "typo_rate": 0.08083547211593843,
+    "swap_rate": 0.0418147711174353,
+    "drop_rate": 0.038922841172231215,
+    "dup_rate": 0.022133882654643396,
+    "leet_rate": 0.09033133709059321,
+    "start_lower_prob": 0.845589897209285,
+    "all_lower_prob": 0.2658666724529714,
+    "drop_punct_prob": 0.4810560615251297,
+    "double_space_prob": 0.2380870279084564,
+    "ellipsis_prob": 0.18242752918976698,
+    "runon_prob": 0.2967372940355363,
+    "filler_rate": 0.3181377057144826,
+    "emoji_rate": 0.17243250488648654,
+    "stutter_rate": 0.11912074346068245,
+    "repeat_last_rate": 0.08115934948841065
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"navigating the side effects of PrEP alongside my chronic pain condition\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"Kama mwanamke mwenye maumivu ya muda mrefu, unajikuta katika changamoto ya kupata na kutumia PrEP. Unahisi wasiwasi kuhusu jinsi dawa hiyo itakavyoathiri hali yako ya maumivu na hali yako ya kihisia. Inawezekana unahisi stigma kutokana na wazo la kutumia dawa za kuzuia HIV, na unahitaji taarifa sahihi ili kujitunza vyema.\",\n  \"example_questions\": [\n    \"Ninaweza kupata PrEP wapi bila kuhisi aibu?\",\n    \"Je, kuna athari zozote za PrEP ambazo zinaweza kuzidisha maumivu yangu ya muda mrefu?\",\n    \"Nifanye nini ikiwa nitapata athari mbaya kutoka kwa PrEP?\",\n    \"Naweza kuzungumza na daktari wangu juu ya PrEP bila kuhisi dhiki?\",\n    \"Je, kuna msaada wa kifedha kwa watu kama mimi wanaotaka kutumia PrEP?\",\n    \"Ninaweza kupata taarifa zaidi kuhusu PrEP na maumivu yangu wapi?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "526e4829ce0e5f21706d1dadd1149a4794bda2971bddc6c0d2dfc90efdf1a108",
+  "_starter_hash": "87316a12ead8792a950db0934213b850b43935c75a6e2908357b13fbd4027a56",
+  "_language": "Swahili",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

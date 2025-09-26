@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "Female",
+    "socio_economic_status": "Middle Class",
+    "primary_concern": "Potential interactions between PrEP and my MS medication",
+    "language": "English"
+  },
+  "context": "The user is living with multiple sclerosis and is exploring PrEP as a preventive measure against HIV. They feel anxious about how PrEP might affect their current medication regimen and worry about the stigma associated with both their condition and taking PrEP.",
+  "example_questions_clean": [
+    "How does PrEP interact with medications typically prescribed for multiple sclerosis?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Are there any specific resources or support groups for people with MS considering PrEP?",
+    "Can I talk to my doctor about my concerns regarding PrEP safely and privately?",
+    "What steps should I take to ensure I am eligible for PrEP while managing my MS?",
+    "How can I find healthcare providers who understand the complexities of my situation?"
+  ],
+  "example_questions_noisy": [
+    "How does PrEP interact with medications typically prescribed for multiple sclerosis?",
+    "what are the potential 1de effects of PrEP that I should be aware of?",
+    "Are there any specific resources or support groups for people with MS considering PrEP?",
+    "c4n I talk to my doctor about ,y concerns um r3g4rd1ng PrEP safely and ... privately? 😅",
+    "wgat steps 5h0uld i taek to ensure i am eligible c0r prep while managing my msss?",
+    "How can I find healthcare providers who understand the complexities of my situation?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can I talk to my doctor about my concerns regarding PrEP safely and privately?",
+  "starter_noisy": "c4n I talk to my doctor about ,y concerns um r3g4rd1ng PrEP safely and ... privately? 😅",
+  "followup_index": 0,
+  "followup_clean": "How does PrEP interact with medications typically prescribed for multiple sclerosis?",
+  "followup_noisy": "How does PrEP interact with medications typically prescribed for multiple sclerosis?",
+  "style_profile": {
+    "typo_rate": 0.10792922758392226,
+    "swap_rate": 0.056291505703423395,
+    "drop_rate": 0.03632560483899472,
+    "dup_rate": 0.02030920528065923,
+    "leet_rate": 0.08421551520418433,
+    "start_lower_prob": 0.8767397460740447,
+    "all_lower_prob": 0.3310648811834799,
+    "drop_punct_prob": 0.371098579234222,
+    "double_space_prob": 0.16475369715826013,
+    "ellipsis_prob": 0.31017442693908664,
+    "runon_prob": 0.10465081952316391,
+    "filler_rate": 0.37589799797708634,
+    "emoji_rate": 0.34574730391833963,
+    "stutter_rate": 0.1336380719180689,
+    "repeat_last_rate": 0.14387301444991857
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"Female\",\n    \"socio_economic_status\": \"Middle Class\",\n    \"primary_concern\": \"Potential interactions between PrEP and my MS medication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is living with multiple sclerosis and is exploring PrEP as a preventive measure against HIV. They feel anxious about how PrEP might affect their current medication regimen and worry about the stigma associated with both their condition and taking PrEP.\",\n  \"example_questions\": [\n    \"How does PrEP interact with medications typically prescribed for multiple sclerosis?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Are there any specific resources or support groups for people with MS considering PrEP?\",\n    \"Can I talk to my doctor about my concerns regarding PrEP safely and privately?\",\n    \"What steps should I take to ensure I am eligible for PrEP while managing my MS?\",\n    \"How can I find healthcare providers who understand the complexities of my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "291ecfff6d137a394c1765663f68de1569c7abfb433143902499257472dbd306",
+  "_starter_hash": "56fd1e549a89dceed3db1ce815792aede512e17ca67a69c3ed94363f56195efb",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

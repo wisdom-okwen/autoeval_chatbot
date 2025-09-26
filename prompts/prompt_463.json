@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 32,
+    "gender": "vrouw",
+    "socio_economic_status": "middelmatig",
+    "primary_concern": "de bijwerkingen van PrEP in combinatie met chronische pijn",
+    "language": "Dutch"
+  },
+  "context": "Als iemand die al een lange tijd met chronische pijn leeft, kan het moeilijk zijn om de juiste beslissingen te nemen over je gezondheid. De angst voor mogelijke bijwerkingen van PrEP in combinatie met mijn huidige medicatie houdt me tegen. Ik maak me ook zorgen dat ik niet de juiste ondersteuning vind als ik vragen heb over dit onderwerp.",
+  "example_questions_clean": [
+    "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+    "Hoe kan ik ervoor zorgen dat PrEP mijn huidige medicijnen niet negatief beïnvloedt?",
+    "Zijn er specifieke hulpbronnen voor mensen zoals ik die PrEP overwegen?",
+    "Is het mogelijk om PrEP te gebruiken zonder extra stress voor mijn lichaam?",
+    "Kunnen dokters rekening houden met mijn chronische pijn bij het adviseren over PrEP?",
+    "Hoe kan ik stigma's rondom PrEP en chronische pijn aanpakken?"
+  ],
+  "example_questions_noisy": [
+    "wat zijn de mogelijke bijwerkingen van PrEP um voor iemand met chronische pijn?",
+    "Hoe kan ik ervoor zorgen dat PrEP mijn huidige medicijnen niet negatief beïnvloedt?",
+    "Zijn er specifieke hulpbronnen voor mensen zoals ik die PrEP overwegen?",
+    "is het mogelijk om prep te gebruiken zonder i mean extra 75re55 voor mijn lichaam? 🤔",
+    "Kunnen dokters rekening houden met mijn chronische pijn bij het adviseren over PrEP?",
+    "h-hoe kan ik s71gm4'5 r0nd0m prep dn chronische pijn aanpakken? 😬 😬"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Zijn er specifieke hulpbronnen voor mensen zoals ik die PrEP overwegen?",
+  "starter_noisy": "Zijn er specifieke hulpbronnen voor mensen zoals ik die PrEP overwegen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?",
+  "followup_noisy": "wat zijn de mogelijke bijwerkingen van PrEP um voor iemand met chronische pijn?",
+  "style_profile": {
+    "typo_rate": 0.10629304628904249,
+    "swap_rate": 0.05289922605062483,
+    "drop_rate": 0.04811795022051743,
+    "dup_rate": 0.01994881149381848,
+    "leet_rate": 0.08131905718842727,
+    "start_lower_prob": 0.657666427276389,
+    "all_lower_prob": 0.2781758452146035,
+    "drop_punct_prob": 0.46129445222150045,
+    "double_space_prob": 0.2892632597924174,
+    "ellipsis_prob": 0.32032480703045707,
+    "runon_prob": 0.23985759981039526,
+    "filler_rate": 0.37444001790899917,
+    "emoji_rate": 0.33562218063833177,
+    "stutter_rate": 0.1418473903140206,
+    "repeat_last_rate": 0.09708038019193593
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 32,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middelmatig\",\n    \"primary_concern\": \"de bijwerkingen van PrEP in combinatie met chronische pijn\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Als iemand die al een lange tijd met chronische pijn leeft, kan het moeilijk zijn om de juiste beslissingen te nemen over je gezondheid. De angst voor mogelijke bijwerkingen van PrEP in combinatie met mijn huidige medicatie houdt me tegen. Ik maak me ook zorgen dat ik niet de juiste ondersteuning vind als ik vragen heb over dit onderwerp.\",\n  \"example_questions\": [\n    \"Wat zijn de mogelijke bijwerkingen van PrEP voor iemand met chronische pijn?\",\n    \"Hoe kan ik ervoor zorgen dat PrEP mijn huidige medicijnen niet negatief beïnvloedt?\",\n    \"Zijn er specifieke hulpbronnen voor mensen zoals ik die PrEP overwegen?\",\n    \"Is het mogelijk om PrEP te gebruiken zonder extra stress voor mijn lichaam?\",\n    \"Kunnen dokters rekening houden met mijn chronische pijn bij het adviseren over PrEP?\",\n    \"Hoe kan ik stigma's rondom PrEP en chronische pijn aanpakken?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2e8033f1a8e41314355d479b5522b2d7a8ead016d11c42036edb57a60b3766ca",
+  "_starter_hash": "e3fcc33296b669023d01c84bcff2be8cc1c0c78b7f1c06595286cecb079fe783",
+  "_language": "Dutch",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

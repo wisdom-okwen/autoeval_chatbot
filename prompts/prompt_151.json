@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Deutsch",
+    "age": 35,
+    "gender": "weiblich",
+    "socio_economic_status": "mittel",
+    "primary_concern": "Ich mache mir Sorgen um die Wechselwirkungen von PrEP mit meinen Medikamenten nach der Krebserkrankung.",
+    "language": "German"
+  },
+  "context": "Die Person hat sich kürzlich von einer Krebserkrankung erholt und hat jetzt Bedenken, PrEP zu nehmen. Sie ist optimistisch, aber auch besorgt über mögliche gesundheitliche Auswirkungen und wie ihre Vergangenheit sie in ihrer Entscheidungsfindung beeinflussen könnte.",
+  "example_questions_clean": [
+    "Welche Risiken und Vorteile hat die Einnahme von PrEP nach einer Krebsbehandlung?",
+    "Wie kann ich sicherstellen, dass PrEP mit meinen aktuellen Medikamenten kompatibel ist?",
+    "Gibt es spezielle Programme oder Unterstützung für Menschen in meiner Situation?",
+    "Könnten die psychischen Belastungen aus meiner Krankheit meine Erfahrungen mit PrEP beeinträchtigen?",
+    "Wo finde ich weitere Informationen, um meine Entscheidung über PrEP zu erleichtern?"
+  ],
+  "example_questions_noisy": [
+    "Welche Risiken und Vorteile hat die Einnahme von PrEP nach einer Krebsbehandlung?",
+    "Wie kann ich sicherstellen, dass PrEP mit meinen aktuellen Medikamenten kompatibel ist?",
+    "gibt es spezielle Prigramme oder Unterstützung like für M3nxchen in meienr Situation?",
+    "Könnten die psychischen Belastungen aus meiner Krankheit meine Erfahrungen mit PrEP beeinträchtigen?",
+    "wo finde ich weitere Informationen uuum meine Entscheidung über PrEP zu erleichtern ❓"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Welche Risiken und Vorteile hat die Einnahme von PrEP nach einer Krebsbehandlung?",
+  "starter_noisy": "Welche Risiken und Vorteile hat die Einnahme von PrEP nach einer Krebsbehandlung?",
+  "followup_index": 1,
+  "followup_clean": "Wie kann ich sicherstellen, dass PrEP mit meinen aktuellen Medikamenten kompatibel ist?",
+  "followup_noisy": "Wie kann ich sicherstellen, dass PrEP mit meinen aktuellen Medikamenten kompatibel ist?",
+  "style_profile": {
+    "typo_rate": 0.08216284213351706,
+    "swap_rate": 0.04668621815628049,
+    "drop_rate": 0.04900851480400748,
+    "dup_rate": 0.029586828089546803,
+    "leet_rate": 0.07254906828835915,
+    "start_lower_prob": 0.7646637172983819,
+    "all_lower_prob": 0.20223251466227293,
+    "drop_punct_prob": 0.5092434966861314,
+    "double_space_prob": 0.18426626233921822,
+    "ellipsis_prob": 0.18517697968691976,
+    "runon_prob": 0.26617617343574584,
+    "filler_rate": 0.49461966524369494,
+    "emoji_rate": 0.2225275825634877,
+    "stutter_rate": 0.15385341573924158,
+    "repeat_last_rate": 0.08829413617583765
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Deutsch\",\n    \"age\": 35,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"mittel\",\n    \"primary_concern\": \"Ich mache mir Sorgen um die Wechselwirkungen von PrEP mit meinen Medikamenten nach der Krebserkrankung.\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person hat sich kürzlich von einer Krebserkrankung erholt und hat jetzt Bedenken, PrEP zu nehmen. Sie ist optimistisch, aber auch besorgt über mögliche gesundheitliche Auswirkungen und wie ihre Vergangenheit sie in ihrer Entscheidungsfindung beeinflussen könnte.\",\n  \"example_questions\": [\n    \"Welche Risiken und Vorteile hat die Einnahme von PrEP nach einer Krebsbehandlung?\",\n    \"Wie kann ich sicherstellen, dass PrEP mit meinen aktuellen Medikamenten kompatibel ist?\",\n    \"Gibt es spezielle Programme oder Unterstützung für Menschen in meiner Situation?\",\n    \"Könnten die psychischen Belastungen aus meiner Krankheit meine Erfahrungen mit PrEP beeinträchtigen?\",\n    \"Wo finde ich weitere Informationen, um meine Entscheidung über PrEP zu erleichtern?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9d1bca964703d3fa05ede29e7db00b12c5ed89a04069f5e48d8b38a3941d08fb",
+  "_starter_hash": "3cef28b9c716d1daf822fde06f61a558340c465cb7870dee20f19f855f417f6c",
+  "_language": "German",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlander",
+    "age": 30,
+    "gender": "vrouw",
+    "socio_economic_status": "gemiddeld",
+    "primary_concern": "angst voor stigma en sociale interactie",
+    "language": "Dutch"
+  },
+  "context": "Je hebt moeite met sociale situaties en voelt je vaak angstig over het bespreken van gezondheidskwesties. Dit maakt het moeilijk om informatie over PrEP te zoeken, omdat je je zorgen maakt over hoe anderen zullen reageren of wat ze zullen denken. Ondanks deze angsten hoop je toch de juiste ondersteuning te vinden om jezelf te beschermen.",
+  "example_questions_clean": [
+    "Wat zijn de eerste stappen om PrEP te verkrijgen als ik sociaal onhandig ben?",
+    "Hoe kan ik het gesprek aangaan met mijn arts over PrEP zonder me ongemakkelijk te voelen?",
+    "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+    "Is er ondersteuning beschikbaar voor mensen met sociale angst die PrEP willen proberen?",
+    "Hoe kan ik meer leren over PrEP zonder me te veel bloot te stellen aan sociale druk?",
+    "Zijn er online bronnen waar ik anoniem informatie kan vinden over PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Wat zijn de eerste stappen om PrEP te verkrijgen als ik sociaal onhandig ben?",
+    "Hoe kan ik het gesprek aangaan met mijn arts over PrEP zonder me ongemakkelijk te voelen?",
+    "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+    "Is er ondersteuning beschikbaar voor mensen met sociale angst die PrEP willen proberen?",
+    "Hoe kan ik meer leren over PrEP zonder me te veel bloot te stellen aan sociale druk?",
+    "Zijn er online bronnen waar ik anoniem informatie kan vinden over PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+  "starter_noisy": "Wat zijn de bijwerkingen van PrEP die ik moet kennen?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de eerste stappen om PrEP te verkrijgen als ik sociaal onhandig ben?",
+  "followup_noisy": "Wat zijn de eerste stappen om PrEP te verkrijgen als ik sociaal onhandig ben?",
+  "style_profile": {
+    "typo_rate": 0.054719659826251495,
+    "swap_rate": 0.033077413306334354,
+    "drop_rate": 0.04605858819690839,
+    "dup_rate": 0.026047653172634883,
+    "leet_rate": 0.07773417890867587,
+    "start_lower_prob": 0.803354150231598,
+    "all_lower_prob": 0.2508093160696442,
+    "drop_punct_prob": 0.3288680606159326,
+    "double_space_prob": 0.2111997135697095,
+    "ellipsis_prob": 0.33790506572751433,
+    "runon_prob": 0.2748838591616235,
+    "filler_rate": 0.4839080749144205,
+    "emoji_rate": 0.30677531663997726,
+    "stutter_rate": 0.1345180708316696,
+    "repeat_last_rate": 0.12555887129591922
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlander\",\n    \"age\": 30,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"gemiddeld\",\n    \"primary_concern\": \"angst voor stigma en sociale interactie\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je hebt moeite met sociale situaties en voelt je vaak angstig over het bespreken van gezondheidskwesties. Dit maakt het moeilijk om informatie over PrEP te zoeken, omdat je je zorgen maakt over hoe anderen zullen reageren of wat ze zullen denken. Ondanks deze angsten hoop je toch de juiste ondersteuning te vinden om jezelf te beschermen.\",\n  \"example_questions\": [\n    \"Wat zijn de eerste stappen om PrEP te verkrijgen als ik sociaal onhandig ben?\",\n    \"Hoe kan ik het gesprek aangaan met mijn arts over PrEP zonder me ongemakkelijk te voelen?\",\n    \"Wat zijn de bijwerkingen van PrEP die ik moet kennen?\",\n    \"Is er ondersteuning beschikbaar voor mensen met sociale angst die PrEP willen proberen?\",\n    \"Hoe kan ik meer leren over PrEP zonder me te veel bloot te stellen aan sociale druk?\",\n    \"Zijn er online bronnen waar ik anoniem informatie kan vinden over PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "617e3a67bca915edec5fb25bafeb0b90dc535a8b77594797126fde78ce514f82",
+  "_starter_hash": "0683b348019f887bcadcf8fa4f0ae40946aaf4d47b25327a58cbbab07006899a",
+  "_language": "Dutch",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

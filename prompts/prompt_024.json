@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Kenyan",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "stigma and accessibility of PrEP in my community",
+    "language": "Swahili"
+  },
+  "context": "As a 32-year-old woman living in a low-income area of Nairobi, I often feel socially isolated due to the stigma surrounding HIV prevention methods like PrEP. This isolation makes me anxious about discussing my health options with others, and I worry that accessing PrEP might draw unwanted attention or judgment from my community. My hope is to understand how I can safely and discreetly access PrEP while overcoming these barriers.",
+  "example_questions_clean": [
+    "Nina wasiwasi kuhusu jinsi watu wataniona nikiwa na PrEP, je, kuna njia za kuficha hii?",
+    "Je, ni rahisi kupata PrEP katika maeneo ya kijijini kama nilipo?",
+    "Ni hatua gani ambazo naweza kuchukua ili nipate msaada wa kisaikolojia kuhusiana na matumizi ya PrEP?",
+    "Je, PrEP ina madhara yoyote ambayo ni muhimu kuyajua kabla ya kuanza kuitumia?",
+    "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kujiweka hatarini?",
+    "Ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuwa na hofu ya kufichuliwa?"
+  ],
+  "example_questions_noisy": [
+    "Nina wasiwasi kuhusu jinsi watu wataniona nikiwa na PrEP, je, kuna njia za kuficha hii?",
+    "J-Je, nk rahisi kupaya PrEP katikw maeneo yz kijijini kama n1l1po?",
+    "Ni hatua gani ambazo naweza kuchukua ili nipate msaada wa kisaikolojia kuhusiana na matumizi ya PrEP?",
+    "Je, PrEP ina madhara yoyote ambayo ni muhimu kuyajua kabla ya kuanza kuitumia?",
+    "Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kujiweka hatarini?",
+    "Ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuwa na hofu ya kufichuliwa?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuwa na hofu ya kufichuliwa?",
+  "starter_noisy": "Ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuwa na hofu ya kufichuliwa?",
+  "followup_index": 0,
+  "followup_clean": "Nina wasiwasi kuhusu jinsi watu wataniona nikiwa na PrEP, je, kuna njia za kuficha hii?",
+  "followup_noisy": "Nina wasiwasi kuhusu jinsi watu wataniona nikiwa na PrEP, je, kuna njia za kuficha hii?",
+  "style_profile": {
+    "typo_rate": 0.11330491738890497,
+    "swap_rate": 0.02451643056791978,
+    "drop_rate": 0.03259585589643682,
+    "dup_rate": 0.015990518312959088,
+    "leet_rate": 0.11003930967806366,
+    "start_lower_prob": 0.6242563188847907,
+    "all_lower_prob": 0.19116724386186743,
+    "drop_punct_prob": 0.30715146314717706,
+    "double_space_prob": 0.28353853672570484,
+    "ellipsis_prob": 0.18606531917422164,
+    "runon_prob": 0.11666366429922866,
+    "filler_rate": 0.3985188556363902,
+    "emoji_rate": 0.156441573418435,
+    "stutter_rate": 0.1981555478533489,
+    "repeat_last_rate": 0.11241404478429282
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Kenyan\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"stigma and accessibility of PrEP in my community\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"As a 32-year-old woman living in a low-income area of Nairobi, I often feel socially isolated due to the stigma surrounding HIV prevention methods like PrEP. This isolation makes me anxious about discussing my health options with others, and I worry that accessing PrEP might draw unwanted attention or judgment from my community. My hope is to understand how I can safely and discreetly access PrEP while overcoming these barriers.\",\n  \"example_questions\": [\n    \"Nina wasiwasi kuhusu jinsi watu wataniona nikiwa na PrEP, je, kuna njia za kuficha hii?\",\n    \"Je, ni rahisi kupata PrEP katika maeneo ya kijijini kama nilipo?\",\n    \"Ni hatua gani ambazo naweza kuchukua ili nipate msaada wa kisaikolojia kuhusiana na matumizi ya PrEP?\",\n    \"Je, PrEP ina madhara yoyote ambayo ni muhimu kuyajua kabla ya kuanza kuitumia?\",\n    \"Ninawezaje kuzungumza na daktari wangu kuhusu PrEP bila kujiweka hatarini?\",\n    \"Ni wapi naweza kupata taarifa zaidi kuhusu PrEP bila kuwa na hofu ya kufichuliwa?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a0e6b83c05dfaea98b058e419d5916e660df3e135eda37820a485748cd5076df",
+  "_starter_hash": "e404c80fd8a9f66426a04e40e1c8273cdf1bc0464479a29d1743a78bcda7f0d0",
+  "_language": "Swahili",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

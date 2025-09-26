@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Tanzanian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP while living in a shelter",
+    "language": "Swahili"
+  },
+  "context": "The user is currently living in a shelter and faces challenges related to accessing healthcare services. This situation creates feelings of vulnerability and fear regarding their health, especially concerning HIV prevention. The stigma associated with their living conditions adds to their hesitation to seek information about PrEP, despite a strong desire to take charge of their health.",
+  "example_questions_clean": [
+    "Je, naweza kupata PrEP katika makazi yangu ya sasa?",
+    "Ni hatua gani naweza kuchukua ili kujua kama PrEP inafaa kwangu?",
+    "Ninaweza kupata ushauri wa bure kuhusu PrEP wapi?",
+    "Je, kuna mtu yeyote anayeweza kunisaidia kuelewa mchakato wa kupata PrEP?",
+    "Kuna hatari gani zinazohusiana na kutumia PrEP katika mazingira kama yangu?",
+    "Ninapaswa kufikiria nini kabla ya kuanza kutumia PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Je, naweza kupata PrEP katika makazi yangu ya sasa?",
+    "Ni hatau gani nwaeza kuchuku4 1l1 kkkuju kama PrEP like inafaa kwangu?",
+    "Ninaweza kupata ushauri wa bure kuhusu PrEP wapi?",
+    "je kuna jtu yyyeyote anayeweza kun1saidi4 kueleaa mchakato wa kupata PrEP",
+    "k-kuna hatari gani zinazkhusiana na kutumia PrEP katika mazingira kama yangu",
+    "Ninapaswa kufikiria nini kabla ya kuanza kutumia PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "Je, naweza kupata PrEP katika makazi yangu ya sasa?",
+  "starter_noisy": "Je, naweza kupata PrEP katika makazi yangu ya sasa?",
+  "followup_index": 1,
+  "followup_clean": "Ni hatua gani naweza kuchukua ili kujua kama PrEP inafaa kwangu?",
+  "followup_noisy": "Ni hatau gani nwaeza kuchuku4 1l1 kkkuju kama PrEP like inafaa kwangu?",
+  "style_profile": {
+    "typo_rate": 0.07086559184610773,
+    "swap_rate": 0.04197078601008225,
+    "drop_rate": 0.04627231953482637,
+    "dup_rate": 0.028629941871701654,
+    "leet_rate": 0.10733707573609233,
+    "start_lower_prob": 0.7739668930792248,
+    "all_lower_prob": 0.2984706409413105,
+    "drop_punct_prob": 0.5912823323623184,
+    "double_space_prob": 0.27715608265037717,
+    "ellipsis_prob": 0.1797247983859675,
+    "runon_prob": 0.29321666562785653,
+    "filler_rate": 0.29405880094871995,
+    "emoji_rate": 0.2391887167594519,
+    "stutter_rate": 0.16294322003803652,
+    "repeat_last_rate": 0.1292232873289979
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Tanzanian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP while living in a shelter\",\n    \"language\": \"Swahili\"\n  },\n  \"context\": \"The user is currently living in a shelter and faces challenges related to accessing healthcare services. This situation creates feelings of vulnerability and fear regarding their health, especially concerning HIV prevention. The stigma associated with their living conditions adds to their hesitation to seek information about PrEP, despite a strong desire to take charge of their health.\",\n  \"example_questions\": [\n    \"Je, naweza kupata PrEP katika makazi yangu ya sasa?\",\n    \"Ni hatua gani naweza kuchukua ili kujua kama PrEP inafaa kwangu?\",\n    \"Ninaweza kupata ushauri wa bure kuhusu PrEP wapi?\",\n    \"Je, kuna mtu yeyote anayeweza kunisaidia kuelewa mchakato wa kupata PrEP?\",\n    \"Kuna hatari gani zinazohusiana na kutumia PrEP katika mazingira kama yangu?\",\n    \"Ninapaswa kufikiria nini kabla ya kuanza kutumia PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "565a47810956a5e1c6f4e5f37d16ba99728b106388387b65ae8b7cbef5d93deb",
+  "_starter_hash": "b7f72d5fee0a94caf72142a319ced3e34acb77a9dfcba81c09e9817983479f1f",
+  "_language": "Swahili",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

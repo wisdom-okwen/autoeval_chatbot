@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "managing chronic pain while starting PrEP",
+    "language": "English"
+  },
+  "context": "As a 32-year-old woman living with chronic pain, you often find it difficult to prioritize your health and navigate new medical options like PrEP. You worry that managing PrEP alongside your existing condition may increase your pain or complicate your treatment regimen. The fear of stigma around both your pain and PrEP creates an emotional barrier, leaving you hopeful yet anxious about taking this step.",
+  "example_questions_clean": [
+    "How can I start PrEP while managing my chronic pain effectively?",
+    "Are there any specific side effects of PrEP that might worsen my condition?",
+    "What support resources are available for someone like me considering PrEP?",
+    "Can I discuss my concerns about PrEP with my healthcare provider in a supportive environment?",
+    "What should I be aware of regarding the interactions between my pain medication and PrEP?",
+    "Is it common for people with chronic conditions to use PrEP successfully?"
+  ],
+  "example_questions_noisy": [
+    "how can 1 start PrEP while managing my chrnoic pain effectively? 🤔",
+    "are there any specific side effects of PrEP that might worsen my condition?",
+    "w-what support resources are available for someone like uh me considering prep? prep?",
+    "can I discuss mmmy concerns about PrEP with my healthcare provider in a supportive uh environment? environment?",
+    "What should I be aware of regarding the interactions between my pain medication and PrEP?",
+    "Is it common for people with chronic conditions to use PrEP successfully?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What support resources are available for someone like me considering PrEP?",
+  "starter_noisy": "w-what support resources are available for someone like uh me considering prep? prep?",
+  "followup_index": 0,
+  "followup_clean": "How can I start PrEP while managing my chronic pain effectively?",
+  "followup_noisy": "how can 1 start PrEP while managing my chrnoic pain effectively? 🤔",
+  "style_profile": {
+    "typo_rate": 0.05075071906137907,
+    "swap_rate": 0.03234859017969962,
+    "drop_rate": 0.033031323403201224,
+    "dup_rate": 0.010923169240450465,
+    "leet_rate": 0.08411443349983558,
+    "start_lower_prob": 0.6822010065622017,
+    "all_lower_prob": 0.31964104575143965,
+    "drop_punct_prob": 0.3433371730140147,
+    "double_space_prob": 0.2466068337244069,
+    "ellipsis_prob": 0.3480971920866883,
+    "runon_prob": 0.2115805470799282,
+    "filler_rate": 0.3359238499938136,
+    "emoji_rate": 0.3465744952796343,
+    "stutter_rate": 0.1618150387314537,
+    "repeat_last_rate": 0.1556455140662822
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"managing chronic pain while starting PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 32-year-old woman living with chronic pain, you often find it difficult to prioritize your health and navigate new medical options like PrEP. You worry that managing PrEP alongside your existing condition may increase your pain or complicate your treatment regimen. The fear of stigma around both your pain and PrEP creates an emotional barrier, leaving you hopeful yet anxious about taking this step.\",\n  \"example_questions\": [\n    \"How can I start PrEP while managing my chronic pain effectively?\",\n    \"Are there any specific side effects of PrEP that might worsen my condition?\",\n    \"What support resources are available for someone like me considering PrEP?\",\n    \"Can I discuss my concerns about PrEP with my healthcare provider in a supportive environment?\",\n    \"What should I be aware of regarding the interactions between my pain medication and PrEP?\",\n    \"Is it common for people with chronic conditions to use PrEP successfully?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "87b6ded895a730d50b0e5e706881eacad74208021a8319ed54a9d15743abd652",
+  "_starter_hash": "f23452f5e5bdcaabadd4b2dddebfbe0bd5c51447d10ecdbfa0c8721167ba63a4",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

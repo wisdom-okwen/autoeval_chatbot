@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "the stigma surrounding my past substance use affecting my ability to access PrEP",
+    "language": "English"
+  },
+  "context": "I have a history of substance use and I worry that my past will impact how healthcare providers view me when discussing PrEP. I am hopeful about protecting my health but feel hesitant due to potential judgment.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it can help me?",
+    "What should I expect during my first visit to discuss PrEP?",
+    "How do healthcare providers typically respond to patients with a history of substance use?",
+    "Are there support resources available for someone like me who is considering PrEP?",
+    "What are the potential side effects of taking PrEP?",
+    "How can I address my concerns about stigma when talking to my doctor?"
+  ],
+  "example_questions_noisy": [
+    "can you explain what PrEP is and how it can hepl me?",
+    "What should I expect during my first visit to discuss PrEP?",
+    "How do healthcare providers typically respond to patients with a history of substance use?",
+    "are there support resources available for someone like me qh0 is considering PrEP",
+    "w-what ard rhe potential like s1d3 effects 0f taking prep",
+    "h0w can i address myyy cnocerns baout stigma wh3n talking um to my doctor?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What should I expect during my first visit to discuss PrEP?",
+  "starter_noisy": "What should I expect during my first visit to discuss PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it can help me?",
+  "followup_noisy": "can you explain what PrEP is and how it can hepl me?",
+  "style_profile": {
+    "typo_rate": 0.05310397556917749,
+    "swap_rate": 0.035796536860723586,
+    "drop_rate": 0.03780018817878235,
+    "dup_rate": 0.016913624672520878,
+    "leet_rate": 0.061523666019586004,
+    "start_lower_prob": 0.6465154955207972,
+    "all_lower_prob": 0.33278487300703885,
+    "drop_punct_prob": 0.5257121240651643,
+    "double_space_prob": 0.2348719436204887,
+    "ellipsis_prob": 0.2492909857597968,
+    "runon_prob": 0.18450355455027173,
+    "filler_rate": 0.4887221660783458,
+    "emoji_rate": 0.22616735300152876,
+    "stutter_rate": 0.17630908853344107,
+    "repeat_last_rate": 0.1509760591527799
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"the stigma surrounding my past substance use affecting my ability to access PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"I have a history of substance use and I worry that my past will impact how healthcare providers view me when discussing PrEP. I am hopeful about protecting my health but feel hesitant due to potential judgment.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it can help me?\",\n    \"What should I expect during my first visit to discuss PrEP?\",\n    \"How do healthcare providers typically respond to patients with a history of substance use?\",\n    \"Are there support resources available for someone like me who is considering PrEP?\",\n    \"What are the potential side effects of taking PrEP?\",\n    \"How can I address my concerns about stigma when talking to my doctor?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b5023f90f0db76aaa0a9f1e64013e7e258476f9e258c4a71c9cff1024ac00e87",
+  "_starter_hash": "1ba684eee31e9e5159ea94330a27ba04235c48465c7981058e2731b4870b1e05",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

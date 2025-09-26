@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Egyptian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of judgment from peers and the potential side effects of PrEP",
+    "language": "Arabic"
+  },
+  "context": "The user is struggling with low self-esteem, which affects her confidence in seeking medical advice about PrEP. She feels anxious about being judged by others for considering preventive medication and worries about how it might impact her health. This fear makes her hesitant to approach healthcare providers.",
+  "example_questions_clean": [
+    "ما هو بروتوكول تناول دواء PrEP وكيف يؤثر على جسمي؟",
+    "كيف يمكنني التعامل مع مشاعر القلق حول استخدام PrEP في سياق حياتي الاجتماعية؟",
+    "هل هناك آثار جانبية شائعة يجب أن أكون على علم بها قبل البدء في استخدام PrEP؟",
+    "كيف يمكنني العثور على دعم نفسي خلال فترة استخدامي لـ PrEP؟",
+    "ما هي الخطوات التي يمكنني اتباعها للحصول على PrEP دون الشعور بالقلق من نظرات الآخرين؟"
+  ],
+  "example_questions_noisy": [
+    "ما هو بروتوكول تناول دواء PrEP وكيف يؤثر على جسمي؟",
+    "كككيف يمكنني التعامل مع مشاعر اللقق حول استخدام prep في سياق حياتي الاجتماعية؟",
+    "هل هناك آثار اجنبية شائعة يجب أن أكون على علم like بها قبل لابدء في استخدام PrEP؟",
+    "كيف يمكنني الثعور على دعم فنسي خلال فترة استخدامي لـ PrEP؟ PrEP؟",
+    "ما هي الخطوات التي يمكنني اتباعها للحصول على PrEP دون الشعور بالقلق من نظرات الآخرين؟"
+  ],
+  "starter_index": 0,
+  "starter_clean": "ما هو بروتوكول تناول دواء PrEP وكيف يؤثر على جسمي؟",
+  "starter_noisy": "ما هو بروتوكول تناول دواء PrEP وكيف يؤثر على جسمي؟",
+  "followup_index": 1,
+  "followup_clean": "كيف يمكنني التعامل مع مشاعر القلق حول استخدام PrEP في سياق حياتي الاجتماعية؟",
+  "followup_noisy": "كككيف يمكنني التعامل مع مشاعر اللقق حول استخدام prep في سياق حياتي الاجتماعية؟",
+  "style_profile": {
+    "typo_rate": 0.07728257938730665,
+    "swap_rate": 0.058921761253165755,
+    "drop_rate": 0.027222542237486772,
+    "dup_rate": 0.015444731115531875,
+    "leet_rate": 0.0764270771360683,
+    "start_lower_prob": 0.8304721711185109,
+    "all_lower_prob": 0.18595610464200862,
+    "drop_punct_prob": 0.4070019970138832,
+    "double_space_prob": 0.2807867582906779,
+    "ellipsis_prob": 0.19565794750755128,
+    "runon_prob": 0.1315967293561746,
+    "filler_rate": 0.2992834836183262,
+    "emoji_rate": 0.19575227679867435,
+    "stutter_rate": 0.17224111146710988,
+    "repeat_last_rate": 0.14448530197525045
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Egyptian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of judgment from peers and the potential side effects of PrEP\",\n    \"language\": \"Arabic\"\n  },\n  \"context\": \"The user is struggling with low self-esteem, which affects her confidence in seeking medical advice about PrEP. She feels anxious about being judged by others for considering preventive medication and worries about how it might impact her health. This fear makes her hesitant to approach healthcare providers.\",\n  \"example_questions\": [\n    \"ما هو بروتوكول تناول دواء PrEP وكيف يؤثر على جسمي؟\",\n    \"كيف يمكنني التعامل مع مشاعر القلق حول استخدام PrEP في سياق حياتي الاجتماعية؟\",\n    \"هل هناك آثار جانبية شائعة يجب أن أكون على علم بها قبل البدء في استخدام PrEP؟\",\n    \"كيف يمكنني العثور على دعم نفسي خلال فترة استخدامي لـ PrEP؟\",\n    \"ما هي الخطوات التي يمكنني اتباعها للحصول على PrEP دون الشعور بالقلق من نظرات الآخرين؟\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b14f994fa6c061173c50445ebd6df72f6bc98fed4438a8c7da8fecb631ddb41e",
+  "_starter_hash": "752660419ba08b29a32751f2e265545f730ddc1772b728be88b21e95682b8d1a",
+  "_language": "Arabic",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Nederlands",
+    "age": 28,
+    "gender": "vrouw",
+    "socio_economic_status": "middenklasse",
+    "primary_concern": "de angst voor stigma en discriminatie bij het gebruik van PrEP",
+    "language": "Dutch"
+  },
+  "context": "Je bent een jonge vrouw die zich zorgen maakt over het stigma rondom HIV en het gebruik van PrEP. Je wilt jezelf beschermen, maar de angst voor hoe anderen jou zullen beoordelen houdt je tegen. Je hoopt op informatie die je kan helpen om deze barrières te overwinnen.",
+  "example_questions_clean": [
+    "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+    "Hoe kan ik omgaan met de angst dat anderen mij zullen veroordelen als ik PrEP gebruik?",
+    "Zijn er specifieke bronnen of organisaties in Nederland die me kunnen ondersteunen?",
+    "Hoe verschilt het gebruik van PrEP tussen mensen met verschillende achtergronden?",
+    "Wat moet ik weten over de bijwerkingen van PrEP?",
+    "Kun je tips geven om te praten over mijn keuze voor PrEP met vrienden of familie?"
+  ],
+  "example_questions_noisy": [
+    "w-wat zijn de voordelen v4n het gebruik van pfep voor iemwnd zoals ik? 🤔",
+    "Hoe kan ik omgaan uh mettt de angst dat anderen mij zullen veroordelen als ik PrEP gebruik?",
+    "Zijn er specifieke bronnen of organisaties in Nederland die me kunnen ondersteunen?",
+    "hoe verschilt het gebruik van prep tussen mensen met verschillende achtergronden? 🙄",
+    "Wat moet ik weten over de bijwerkingen van PrEP?",
+    "Kun idk j3 tips geve om te praten over mijn keuze voor PrEP met vr13nd3n of familie?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Kun je tips geven om te praten over mijn keuze voor PrEP met vrienden of familie?",
+  "starter_noisy": "Kun idk j3 tips geve om te praten over mijn keuze voor PrEP met vr13nd3n of familie?",
+  "followup_index": 0,
+  "followup_clean": "Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?",
+  "followup_noisy": "w-wat zijn de voordelen v4n het gebruik van pfep voor iemwnd zoals ik? 🤔",
+  "style_profile": {
+    "typo_rate": 0.06129913832610423,
+    "swap_rate": 0.04019438858705665,
+    "drop_rate": 0.04168470675318014,
+    "dup_rate": 0.017246681262029565,
+    "leet_rate": 0.08490865143681096,
+    "start_lower_prob": 0.6971492096666524,
+    "all_lower_prob": 0.3474768136352906,
+    "drop_punct_prob": 0.4160812713439507,
+    "double_space_prob": 0.297412363369601,
+    "ellipsis_prob": 0.2750677268821765,
+    "runon_prob": 0.2899361613102563,
+    "filler_rate": 0.24476076367885244,
+    "emoji_rate": 0.27983008301340173,
+    "stutter_rate": 0.13104613032198675,
+    "repeat_last_rate": 0.12045265839633022
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Nederlands\",\n    \"age\": 28,\n    \"gender\": \"vrouw\",\n    \"socio_economic_status\": \"middenklasse\",\n    \"primary_concern\": \"de angst voor stigma en discriminatie bij het gebruik van PrEP\",\n    \"language\": \"Nederlands\"\n  },\n  \"context\": \"Je bent een jonge vrouw die zich zorgen maakt over het stigma rondom HIV en het gebruik van PrEP. Je wilt jezelf beschermen, maar de angst voor hoe anderen jou zullen beoordelen houdt je tegen. Je hoopt op informatie die je kan helpen om deze barrières te overwinnen.\",\n  \"example_questions\": [\n    \"Wat zijn de voordelen van het gebruik van PrEP voor iemand zoals ik?\",\n    \"Hoe kan ik omgaan met de angst dat anderen mij zullen veroordelen als ik PrEP gebruik?\",\n    \"Zijn er specifieke bronnen of organisaties in Nederland die me kunnen ondersteunen?\",\n    \"Hoe verschilt het gebruik van PrEP tussen mensen met verschillende achtergronden?\",\n    \"Wat moet ik weten over de bijwerkingen van PrEP?\",\n    \"Kun je tips geven om te praten over mijn keuze voor PrEP met vrienden of familie?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "916fa93e2142b38bac4cefdc9ab2c74a5581146a5dc76f05a4817bb591bd646f",
+  "_starter_hash": "57c793bedc8bb69b677b462b09f921445e7fe15f3bd57bd892ae5548e037588a",
+  "_language": "Dutch",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

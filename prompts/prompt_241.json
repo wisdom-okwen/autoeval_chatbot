@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Française",
+    "age": 28,
+    "gender": "féminin",
+    "socio_economic_status": "moyenne",
+    "primary_concern": "la peur du jugement social en prenant PrEP",
+    "language": "French"
+  },
+  "context": "Vous êtes une jeune femme vivant à Paris, luttant contre l'anxiété sociale qui rend difficile l'accès aux soins de santé. Vous vous inquiétez de la stigmatisation liée à la prise de PrEP et de l'effet que cela pourrait avoir sur vos interactions sociales. Votre condition vous fait craindre le jugement des autres et vous vous sentez souvent isolée dans votre recherche d'informations.",
+  "example_questions_clean": [
+    "Quelles sont les étapes pour obtenir une prescription de PrEP dans un cabinet médical?",
+    "Y a-t-il des ressources pour m'aider à surmonter mon anxiété sociale lorsque je parle de PrEP?",
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée?",
+    "Est-ce que d'autres personnes ressentent la même peur d'être stigmatisées en prenant PrEP?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître?",
+    "Où puis-je trouver un soutien communautaire pour discuter de mes préoccupations autour de la PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Quelles sont les étapes pour obtenir une prescription de PrEP dans un cabinet médical?",
+    "Y a-t-il des ressources pour m'aider à surmonter mon anxiété sociale lorsque je parle de PrEP?",
+    "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée?",
+    "est-ce que d'4tur35 personnes ressentent la même peur d'être stigmatisées en prrnant prep?",
+    "Quels sont les effets secondaires possibles de la PrEP que je devrais connaître?",
+    "Où puis-je trouver un soutien communautaire pour discuter de mes préoccupations autour de la PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée?",
+  "starter_noisy": "Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée?",
+  "followup_index": 0,
+  "followup_clean": "Quelles sont les étapes pour obtenir une prescription de PrEP dans un cabinet médical?",
+  "followup_noisy": "Quelles sont les étapes pour obtenir une prescription de PrEP dans un cabinet médical?",
+  "style_profile": {
+    "typo_rate": 0.09878163727342368,
+    "swap_rate": 0.05294009875828824,
+    "drop_rate": 0.034651416129253154,
+    "dup_rate": 0.01343200090588749,
+    "leet_rate": 0.09953231053880485,
+    "start_lower_prob": 0.8023124514589951,
+    "all_lower_prob": 0.19608035624958006,
+    "drop_punct_prob": 0.33612256127345636,
+    "double_space_prob": 0.2530429559365597,
+    "ellipsis_prob": 0.29609829945168337,
+    "runon_prob": 0.1133185554002551,
+    "filler_rate": 0.2916457828903617,
+    "emoji_rate": 0.2580096696809179,
+    "stutter_rate": 0.11445362860019502,
+    "repeat_last_rate": 0.15766093218029031
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Française\",\n    \"age\": 28,\n    \"gender\": \"féminin\",\n    \"socio_economic_status\": \"moyenne\",\n    \"primary_concern\": \"la peur du jugement social en prenant PrEP\",\n    \"language\": \"français\"\n  },\n  \"context\": \"Vous êtes une jeune femme vivant à Paris, luttant contre l'anxiété sociale qui rend difficile l'accès aux soins de santé. Vous vous inquiétez de la stigmatisation liée à la prise de PrEP et de l'effet que cela pourrait avoir sur vos interactions sociales. Votre condition vous fait craindre le jugement des autres et vous vous sentez souvent isolée dans votre recherche d'informations.\",\n  \"example_questions\": [\n    \"Quelles sont les étapes pour obtenir une prescription de PrEP dans un cabinet médical?\",\n    \"Y a-t-il des ressources pour m'aider à surmonter mon anxiété sociale lorsque je parle de PrEP?\",\n    \"Comment puis-je aborder le sujet de la PrEP avec mon médecin sans me sentir jugée?\",\n    \"Est-ce que d'autres personnes ressentent la même peur d'être stigmatisées en prenant PrEP?\",\n    \"Quels sont les effets secondaires possibles de la PrEP que je devrais connaître?\",\n    \"Où puis-je trouver un soutien communautaire pour discuter de mes préoccupations autour de la PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b6ea7d242dc59cc8e17d677abea6492acec46b967a44f1ed31fe6ccbbf634688",
+  "_starter_hash": "edc68df88ca58cfd7b27a31fe68e314ffdb3a5af4bcd98fbc45c31004ea5c6f2",
+  "_language": "French",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

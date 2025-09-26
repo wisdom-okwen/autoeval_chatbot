@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "deutsch",
+    "age": 28,
+    "gender": "weiblich",
+    "socio_economic_status": "gering",
+    "primary_concern": "Zugang zu PrEP in einer unsicheren Wohnsituation",
+    "language": "German"
+  },
+  "context": "Die Person lebt in einem Shelter und hat Bedenken, ob sie Zugang zu PrEP hat. Sie fühlt sich oft stigmatisiert und sorgt sich um ihre Gesundheit und die Möglichkeit, notwendige medizinische Unterstützung zu erhalten. Die Unsicherheit ihrer Wohnsituation belastet ihr emotionales Wohlbefinden und verstärkt ihre Ängste vor dem Zugang zu Gesundheitsdiensten.",
+  "example_questions_clean": [
+    "Was sind die Schritte, um PrEP zu erhalten, wenn ich in einem Shelter lebe?",
+    "Gibt es spezielle Programme, die Menschen in meiner Situation unterstützen?",
+    "Wie kann ich sicherstellen, dass meine Privatsphäre gewahrt bleibt, wenn ich PrEP anfrage?",
+    "Was sollte ich tun, wenn ich mich bei der Nutzung von PrEP unsicher fühle?",
+    "Gibt es eine Möglichkeit, die Kosten für PrEP zu reduzieren oder Unterstützung zu erhalten?",
+    "Kann ich Informationen über PrEP auch anonym erhalten?"
+  ],
+  "example_questions_noisy": [
+    "Was sind die Schritte, um PrEP zu erhalten, wenn ich in einem Shelter lebe?",
+    "Gibt es spezielle Programme, die Menschen in meiner Situation unterstützen?",
+    "wie kann 1ch sicherstellen dass meine privatsphäre gewahrt bleibt wenn ich prep um anfrageee",
+    "was sollte ifh tun, wenn ich mich bei der Nu7zung von PrEP unsicher fühle? 🙄",
+    "gibf es eine like Möglichkeit, die Ksoten für PrEP zu reduzieren oder Unterstütznug zu erhalten?",
+    "Kann ich Informationen über PrEP auch anonym erhalten?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Wie kann ich sicherstellen, dass meine Privatsphäre gewahrt bleibt, wenn ich PrEP anfrage?",
+  "starter_noisy": "wie kann 1ch sicherstellen dass meine privatsphäre gewahrt bleibt wenn ich prep um anfrageee",
+  "followup_index": 0,
+  "followup_clean": "Was sind die Schritte, um PrEP zu erhalten, wenn ich in einem Shelter lebe?",
+  "followup_noisy": "Was sind die Schritte, um PrEP zu erhalten, wenn ich in einem Shelter lebe?",
+  "style_profile": {
+    "typo_rate": 0.1145529410197741,
+    "swap_rate": 0.04652031236097387,
+    "drop_rate": 0.031298525847684874,
+    "dup_rate": 0.02840274573374036,
+    "leet_rate": 0.05690662901346165,
+    "start_lower_prob": 0.8691068395689132,
+    "all_lower_prob": 0.2663112442192984,
+    "drop_punct_prob": 0.3854672596301507,
+    "double_space_prob": 0.3252565768068444,
+    "ellipsis_prob": 0.27251019402536886,
+    "runon_prob": 0.1687344335647566,
+    "filler_rate": 0.4094659958661389,
+    "emoji_rate": 0.19434127651262767,
+    "stutter_rate": 0.11405456310706859,
+    "repeat_last_rate": 0.17133713968149866
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"deutsch\",\n    \"age\": 28,\n    \"gender\": \"weiblich\",\n    \"socio_economic_status\": \"gering\",\n    \"primary_concern\": \"Zugang zu PrEP in einer unsicheren Wohnsituation\",\n    \"language\": \"Deutsch\"\n  },\n  \"context\": \"Die Person lebt in einem Shelter und hat Bedenken, ob sie Zugang zu PrEP hat. Sie fühlt sich oft stigmatisiert und sorgt sich um ihre Gesundheit und die Möglichkeit, notwendige medizinische Unterstützung zu erhalten. Die Unsicherheit ihrer Wohnsituation belastet ihr emotionales Wohlbefinden und verstärkt ihre Ängste vor dem Zugang zu Gesundheitsdiensten.\",\n  \"example_questions\": [\n    \"Was sind die Schritte, um PrEP zu erhalten, wenn ich in einem Shelter lebe?\",\n    \"Gibt es spezielle Programme, die Menschen in meiner Situation unterstützen?\",\n    \"Wie kann ich sicherstellen, dass meine Privatsphäre gewahrt bleibt, wenn ich PrEP anfrage?\",\n    \"Was sollte ich tun, wenn ich mich bei der Nutzung von PrEP unsicher fühle?\",\n    \"Gibt es eine Möglichkeit, die Kosten für PrEP zu reduzieren oder Unterstützung zu erhalten?\",\n    \"Kann ich Informationen über PrEP auch anonym erhalten?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1bcfc6c3284ce4dbf90421b026c10bb483d93b47e2ce7cf73dd6f715c7ce5231",
+  "_starter_hash": "4fa58be076160dc5f7cf077fa541f51e218d9320bb5ba64afdcf0076cc99601e",
+  "_language": "German",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

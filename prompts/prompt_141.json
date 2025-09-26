@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 30,
+    "gender": "masculino",
+    "socio_economic_status": "médio",
+    "primary_concern": "medo do estigma relacionado ao uso de PrEP devido ao histórico de uso de substâncias",
+    "language": "Portuguese"
+  },
+  "context": "Você tem um histórico de uso de substâncias e está preocupado com como isso pode afetar sua capacidade de acessar e usar o PrEP. Sente-se ansioso sobre como as pessoas ao seu redor reagiriam se soubessem que você está considerando essa opção. Esse medo do estigma pode ser uma barreira significativa para você, mas também existe a esperança de que o PrEP possa oferecer uma nova oportunidade para proteger sua saúde.",
+  "example_questions_clean": [
+    "Como posso me sentir mais seguro ao considerar o uso do PrEP?",
+    "Quais são os possíveis efeitos colaterais do PrEP que eu deveria estar ciente?",
+    "O que posso fazer para lidar com o estigma relacionado ao uso de PrEP?",
+    "Existem recursos ou grupos de apoio que podem ajudar pessoas na minha situação?",
+    "Como a história de uso de substâncias pode impactar meu acesso ao PrEP?",
+    "Onde posso encontrar informações confiáveis sobre o PrEP e seu uso?"
+  ],
+  "example_questions_noisy": [
+    "como posso ne sentir mais seguro ao considerar o uso d0 prp?",
+    "quais são i mean 05 poxsíveis efeits colaterais do PrEP que 3u deveria estar viente? 🙂",
+    "O que posso fazer para lidar com o estigma relacionado ao uso de PrEP?",
+    "existem recursos ou grupos ee apoio que poddd3m ajudar pessoas na minha situação?",
+    "Como a história de uso de substâncias pode impactar meu acesso ao PrEP?",
+    "o-onde possi encontrar um informações confiáveis slbre o PrEP e seu u50?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "O que posso fazer para lidar com o estigma relacionado ao uso de PrEP?",
+  "starter_noisy": "O que posso fazer para lidar com o estigma relacionado ao uso de PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Como posso me sentir mais seguro ao considerar o uso do PrEP?",
+  "followup_noisy": "como posso ne sentir mais seguro ao considerar o uso d0 prp?",
+  "style_profile": {
+    "typo_rate": 0.05189285558263946,
+    "swap_rate": 0.022011074373259564,
+    "drop_rate": 0.048664717994334944,
+    "dup_rate": 0.017989082491858578,
+    "leet_rate": 0.07152825641891603,
+    "start_lower_prob": 0.6740922912168205,
+    "all_lower_prob": 0.21953112243676162,
+    "drop_punct_prob": 0.43359921554792413,
+    "double_space_prob": 0.3182796182320071,
+    "ellipsis_prob": 0.26497391140865884,
+    "runon_prob": 0.16672116963456202,
+    "filler_rate": 0.20643074796099134,
+    "emoji_rate": 0.24526146910622207,
+    "stutter_rate": 0.16353424767834185,
+    "repeat_last_rate": 0.13260805252200933
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 30,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"medo do estigma relacionado ao uso de PrEP devido ao histórico de uso de substâncias\",\n    \"language\": \"Português\"\n  },\n  \"context\": \"Você tem um histórico de uso de substâncias e está preocupado com como isso pode afetar sua capacidade de acessar e usar o PrEP. Sente-se ansioso sobre como as pessoas ao seu redor reagiriam se soubessem que você está considerando essa opção. Esse medo do estigma pode ser uma barreira significativa para você, mas também existe a esperança de que o PrEP possa oferecer uma nova oportunidade para proteger sua saúde.\",\n  \"example_questions\": [\n    \"Como posso me sentir mais seguro ao considerar o uso do PrEP?\",\n    \"Quais são os possíveis efeitos colaterais do PrEP que eu deveria estar ciente?\",\n    \"O que posso fazer para lidar com o estigma relacionado ao uso de PrEP?\",\n    \"Existem recursos ou grupos de apoio que podem ajudar pessoas na minha situação?\",\n    \"Como a história de uso de substâncias pode impactar meu acesso ao PrEP?\",\n    \"Onde posso encontrar informações confiáveis sobre o PrEP e seu uso?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d34d2e38334bf0206ebd65b5cb3b38de092b7acd122abf79491d55a88f1eee65",
+  "_starter_hash": "80861c165cfc3db8c33365bb726bf1eff6d2ee79a63db30057a516e4f963e56b",
+  "_language": "Portuguese",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

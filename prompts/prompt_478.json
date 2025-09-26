@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "the potential impact of PrEP on my mental health due to my bipolar disorder",
+    "language": "English"
+  },
+  "context": "You are living with bipolar disorder and have been feeling anxious about starting PrEP for HIV prevention. You worry about how it might affect your mood stability and whether it will interact with your current medication. The stigma surrounding both HIV and mental health challenges creates additional fear and uncertainty about discussing your needs with healthcare providers.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that could affect my mental health?",
+    "How can I discuss my bipolar disorder with my doctor when considering PrEP?",
+    "Are there specific support resources available for people like me who are starting PrEP?",
+    "Could my medication for bipolar disorder interact negatively with PrEP?",
+    "What steps can I take to monitor my mental health while on PrEP?",
+    "How can I find a healthcare provider who understands both mental health and PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of PrEP that could affect my mental health?",
+    "how can I discuss my b1p0lar dddisorder wty my doctor when considering PrEP",
+    "Are there specific support resources available for people like me who are starting PrEP?",
+    "c-cuold my medication for bipolar disorder interaxt negatively with PrEP?",
+    "what steps can 1 tae to monitor my mental helth while on prep",
+    "How can o find a healthcare provider who understands both mental health and PrEP 💀"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I discuss my bipolar disorder with my doctor when considering PrEP?",
+  "starter_noisy": "how can I discuss my b1p0lar dddisorder wty my doctor when considering PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP that could affect my mental health?",
+  "followup_noisy": "What are the potential side effects of PrEP that could affect my mental health?",
+  "style_profile": {
+    "typo_rate": 0.09461708345108097,
+    "swap_rate": 0.0565181321802181,
+    "drop_rate": 0.04355303086863527,
+    "dup_rate": 0.016514755964608812,
+    "leet_rate": 0.05963848299186068,
+    "start_lower_prob": 0.8637077758356563,
+    "all_lower_prob": 0.3231390871912347,
+    "drop_punct_prob": 0.48717098314573115,
+    "double_space_prob": 0.23878080037074692,
+    "ellipsis_prob": 0.17117024779842172,
+    "runon_prob": 0.17448893736773047,
+    "filler_rate": 0.24378888304355995,
+    "emoji_rate": 0.20815293586728342,
+    "stutter_rate": 0.10507378869061935,
+    "repeat_last_rate": 0.15423540394705304
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"the potential impact of PrEP on my mental health due to my bipolar disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are living with bipolar disorder and have been feeling anxious about starting PrEP for HIV prevention. You worry about how it might affect your mood stability and whether it will interact with your current medication. The stigma surrounding both HIV and mental health challenges creates additional fear and uncertainty about discussing your needs with healthcare providers.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that could affect my mental health?\",\n    \"How can I discuss my bipolar disorder with my doctor when considering PrEP?\",\n    \"Are there specific support resources available for people like me who are starting PrEP?\",\n    \"Could my medication for bipolar disorder interact negatively with PrEP?\",\n    \"What steps can I take to monitor my mental health while on PrEP?\",\n    \"How can I find a healthcare provider who understands both mental health and PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "be00bf55f03ac3182aaf17049447a7bdd454969f8a61935f44f1b3f8e9d47d1e",
+  "_starter_hash": "b972e519107b1a4e10899451fac2e239093d3e1df3a0ffe4e8b796e2c6c2528a",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

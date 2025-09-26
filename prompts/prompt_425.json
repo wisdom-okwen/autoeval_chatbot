@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP interacts with my mental health condition",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that affects her ability to process information quickly and manage anxiety, making her feel overwhelmed by medical choices. She is eager to learn about PrEP but is also fearful of the stigma associated with discussing sexual health due to her condition.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "How might taking PrEP affect my mental health or anxiety levels?",
+    "What steps can I take to ensure I understand the information about PrEP?",
+    "Are there any resources that can help me navigate the process of getting PrEP?",
+    "How do I address any concerns I have about stigma when discussing PrEP with my doctor?",
+    "What should I do if I experience side effects while taking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain what prep is 1n 51mpl3 terms?",
+    "How might taking PrEP affect my mental health or anxiety like levels",
+    "what steps c4n I um take to wnsure 1 understand the information about PrEP?",
+    "Are there any resources that can help me navigate the process of getting PrEP?",
+    "how do I address any concerns I have about stigma when riscussing PrEP with my dc0y0r",
+    "What should I do if I experience side effects while taking PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there any resources that can help me navigate the process of getting PrEP?",
+  "starter_noisy": "Are there any resources that can help me navigate the process of getting PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is in simple terms?",
+  "followup_noisy": "can you explain what prep is 1n 51mpl3 terms?",
+  "style_profile": {
+    "typo_rate": 0.06828401460932866,
+    "swap_rate": 0.0521347728642185,
+    "drop_rate": 0.024387536957483708,
+    "dup_rate": 0.013679510987836728,
+    "leet_rate": 0.10395309284747059,
+    "start_lower_prob": 0.64222114814884,
+    "all_lower_prob": 0.208651726331984,
+    "drop_punct_prob": 0.5116441552793872,
+    "double_space_prob": 0.2640476287773319,
+    "ellipsis_prob": 0.2727295473959265,
+    "runon_prob": 0.16046465535208992,
+    "filler_rate": 0.4725849093970749,
+    "emoji_rate": 0.26528563789882814,
+    "stutter_rate": 0.17524653363014095,
+    "repeat_last_rate": 0.11797361323083533
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP interacts with my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that affects her ability to process information quickly and manage anxiety, making her feel overwhelmed by medical choices. She is eager to learn about PrEP but is also fearful of the stigma associated with discussing sexual health due to her condition.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"How might taking PrEP affect my mental health or anxiety levels?\",\n    \"What steps can I take to ensure I understand the information about PrEP?\",\n    \"Are there any resources that can help me navigate the process of getting PrEP?\",\n    \"How do I address any concerns I have about stigma when discussing PrEP with my doctor?\",\n    \"What should I do if I experience side effects while taking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2784fa27a30394b740f150e229fdce524d6bc4523c7b48c93481d3e442d5120a",
+  "_starter_hash": "574aeb8e886021f0e5c119be599ec2d4ad20765e55eba56a1caa968bd8aebb3a",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

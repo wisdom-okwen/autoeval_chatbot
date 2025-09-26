@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "brasileiro",
+    "age": 28,
+    "gender": "masculino",
+    "socio_economic_status": "médio",
+    "primary_concern": "medo de ser julgado por buscar PrEP",
+    "language": "Portuguese"
+  },
+  "context": "Você é um jovem que luta com a auto-estima e isso tem dificultado sua busca por informações sobre PrEP. O medo do julgamento social e a preocupação com como os outros podem reagir a sua decisão de proteger sua saúde estão afetando sua confiança. Você quer entender melhor como o PrEP funciona e se é uma opção viável para você, mas sente-se inseguro em abordar o assunto.",
+  "example_questions_clean": [
+    "O que exatamente é PrEP e como funciona na prevenção do HIV?",
+    "Quais são os possíveis efeitos colaterais do uso de PrEP?",
+    "Como posso encontrar um médico que me ajude a iniciar o tratamento com PrEP?",
+    "Você pode me explicar como a confidencialidade é mantida ao solicitar PrEP?",
+    "Quais são os custos envolvidos na obtenção de PrEP no Brasil?",
+    "É comum sentir medo de ser julgado ao buscar informações sobre PrEP?"
+  ],
+  "example_questions_noisy": [
+    "O que exatamente é PrEP e como funciona na prevenção do HIV?",
+    "Quais são os possíveis efeitos olaterais do idk uso de PrEP? 😕",
+    "Como posso encontrar um médico que me ajude a iniciar o tratamento com PrEP",
+    "Você pode me explicar como a confidencialidade é mantida ao soliciyar PrEP? 🙂",
+    "Quais são os custos envolvidos na obtenção de PrEP no Brasil?",
+    "É-É comum sentir medo de ser julg4d0 ao buscar informações sobre PrEP 😬"
+  ],
+  "starter_index": 5,
+  "starter_clean": "É comum sentir medo de ser julgado ao buscar informações sobre PrEP?",
+  "starter_noisy": "É-É comum sentir medo de ser julg4d0 ao buscar informações sobre PrEP 😬",
+  "followup_index": 0,
+  "followup_clean": "O que exatamente é PrEP e como funciona na prevenção do HIV?",
+  "followup_noisy": "O que exatamente é PrEP e como funciona na prevenção do HIV?",
+  "style_profile": {
+    "typo_rate": 0.07212199047976627,
+    "swap_rate": 0.021105982474101843,
+    "drop_rate": 0.031716158129946305,
+    "dup_rate": 0.02082985460862878,
+    "leet_rate": 0.06248797475923905,
+    "start_lower_prob": 0.6421775821328313,
+    "all_lower_prob": 0.1689211429996008,
+    "drop_punct_prob": 0.3245267584629105,
+    "double_space_prob": 0.16222197634223515,
+    "ellipsis_prob": 0.26606387460462344,
+    "runon_prob": 0.21111722726112125,
+    "filler_rate": 0.43636227645945386,
+    "emoji_rate": 0.2007535597374551,
+    "stutter_rate": 0.16370309750216006,
+    "repeat_last_rate": 0.11463279674481958
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"brasileiro\",\n    \"age\": 28,\n    \"gender\": \"masculino\",\n    \"socio_economic_status\": \"médio\",\n    \"primary_concern\": \"medo de ser julgado por buscar PrEP\",\n    \"language\": \"português\"\n  },\n  \"context\": \"Você é um jovem que luta com a auto-estima e isso tem dificultado sua busca por informações sobre PrEP. O medo do julgamento social e a preocupação com como os outros podem reagir a sua decisão de proteger sua saúde estão afetando sua confiança. Você quer entender melhor como o PrEP funciona e se é uma opção viável para você, mas sente-se inseguro em abordar o assunto.\",\n  \"example_questions\": [\n    \"O que exatamente é PrEP e como funciona na prevenção do HIV?\",\n    \"Quais são os possíveis efeitos colaterais do uso de PrEP?\",\n    \"Como posso encontrar um médico que me ajude a iniciar o tratamento com PrEP?\",\n    \"Você pode me explicar como a confidencialidade é mantida ao solicitar PrEP?\",\n    \"Quais são os custos envolvidos na obtenção de PrEP no Brasil?\",\n    \"É comum sentir medo de ser julgado ao buscar informações sobre PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b7bc2bbcdc2f752112ddb94f414ab91654f1ef81ce7ca96e892edfe36e6732c4",
+  "_starter_hash": "4ed2071bb919218b8e980d1f2e961397549fe10383a93b4605c8721bea617ea9",
+  "_language": "Portuguese",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP might interact with my medications and mental health",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that affects her ability to process information and communicate effectively. She feels anxious about seeking medical advice due to past experiences of stigma and misunderstanding in healthcare settings. This has created barriers for her in accessing information about PrEP, leading to feelings of fear and uncertainty about her health options.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it works?",
+    "I am worried about the side effects of PrEP on my mental health; how should I address this with my doctor?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "How can I ensure that my healthcare provider understands my unique needs regarding PrEP?",
+    "Are there support groups or communities for people like me who are considering PrEP?",
+    "What steps can I take if I feel overwhelmed when discussing PrEP with a healthcare professional?"
+  ],
+  "example_questions_noisy": [
+    "can you explain what PrEP is and ... h0w 17 worls 😭",
+    "I am worried about the side effects of PrEP on my mental health; how should I address this with my doctor?",
+    "what resoirces are available for 50m30n3 in my situation to learn more about PrEP 🙄",
+    "How can I ensure that my healthcare provider understands my unique needs regarding PrEP?",
+    "are there support groups or communities for people like me who are considering pr3p",
+    "w-what steeeps caaan I 7ak3 if I feel overwhelmed when discussing PrEP with a healthcare professional? ‼️ ‼️"
+  ],
+  "starter_index": 1,
+  "starter_clean": "I am worried about the side effects of PrEP on my mental health; how should I address this with my doctor?",
+  "starter_noisy": "I am worried about the side effects of PrEP on my mental health; how should I address this with my doctor?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it works?",
+  "followup_noisy": "can you explain what PrEP is and ... h0w 17 worls 😭",
+  "style_profile": {
+    "typo_rate": 0.07260835731413805,
+    "swap_rate": 0.030520800539490252,
+    "drop_rate": 0.03614499627790592,
+    "dup_rate": 0.013668782250598026,
+    "leet_rate": 0.11169461191437449,
+    "start_lower_prob": 0.6453388246676519,
+    "all_lower_prob": 0.31059900252969885,
+    "drop_punct_prob": 0.5695372036947991,
+    "double_space_prob": 0.2168314237588689,
+    "ellipsis_prob": 0.257777204250744,
+    "runon_prob": 0.19417510362853393,
+    "filler_rate": 0.2878566395100356,
+    "emoji_rate": 0.32212050976639645,
+    "stutter_rate": 0.1370607123882603,
+    "repeat_last_rate": 0.1366212841098936
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP might interact with my medications and mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that affects her ability to process information and communicate effectively. She feels anxious about seeking medical advice due to past experiences of stigma and misunderstanding in healthcare settings. This has created barriers for her in accessing information about PrEP, leading to feelings of fear and uncertainty about her health options.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it works?\",\n    \"I am worried about the side effects of PrEP on my mental health; how should I address this with my doctor?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"How can I ensure that my healthcare provider understands my unique needs regarding PrEP?\",\n    \"Are there support groups or communities for people like me who are considering PrEP?\",\n    \"What steps can I take if I feel overwhelmed when discussing PrEP with a healthcare professional?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "000916a6f2594ff6a6b7935bc56a7a07d70d2d63c7896a0e782e6652da989636",
+  "_starter_hash": "08a42230b864cca70fe3a12fd2adb67a4336726f4897d88327cb00b7f216d598",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

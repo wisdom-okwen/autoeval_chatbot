@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and discrimination related to taking PrEP",
+    "language": "English"
+  },
+  "context": "You are a 30-year-old American woman who is concerned about the stigma associated with taking PrEP. You feel anxious about how others might perceive you if they find out you are taking medication to prevent HIV. This fear of judgment makes you hesitant to access PrEP, despite understanding its importance for your health and safety.",
+  "example_questions_clean": [
+    "What are the societal perceptions surrounding PrEP that I should be aware of?",
+    "How can I address my fears about stigma when considering PrEP?",
+    "Are there any support groups for people worried about the stigma of taking PrEP?",
+    "What steps can I take to discuss my PrEP concerns with my healthcare provider?",
+    "Can taking PrEP help alleviate my anxiety about potential HIV exposure?",
+    "What resources are available to educate others about the importance of PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the societal perecptions surrounding PrwP that I you know should be aware of",
+    "how c4n um I address my f34r5 4b0u7 tsigma when considering PrEP?",
+    "are there any support groups for people worried about the stigma of taking Pr3 ❓",
+    "What steps can I take to discuss my PrEP concerns with my healthcare provider?",
+    "can taking PrEP help alleviae my you know anxiety about poetntial HIV exposure 💀",
+    "w-what 3350urc35 are availwble 70 educate others about the importance of PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I address my fears about stigma when considering PrEP?",
+  "starter_noisy": "how c4n um I address my f34r5 4b0u7 tsigma when considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the societal perceptions surrounding PrEP that I should be aware of?",
+  "followup_noisy": "what are the societal perecptions surrounding PrwP that I you know should be aware of",
+  "style_profile": {
+    "typo_rate": 0.051875894078759685,
+    "swap_rate": 0.042229891312193735,
+    "drop_rate": 0.045219056294334314,
+    "dup_rate": 0.011111994631575363,
+    "leet_rate": 0.09068296615948207,
+    "start_lower_prob": 0.6493402030082922,
+    "all_lower_prob": 0.34236850474656866,
+    "drop_punct_prob": 0.503859215886113,
+    "double_space_prob": 0.19588738536248004,
+    "ellipsis_prob": 0.1869456569063841,
+    "runon_prob": 0.1866882941000167,
+    "filler_rate": 0.49619173150373747,
+    "emoji_rate": 0.2679744184661612,
+    "stutter_rate": 0.13330595066700718,
+    "repeat_last_rate": 0.17368955500460415
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and discrimination related to taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 30-year-old American woman who is concerned about the stigma associated with taking PrEP. You feel anxious about how others might perceive you if they find out you are taking medication to prevent HIV. This fear of judgment makes you hesitant to access PrEP, despite understanding its importance for your health and safety.\",\n  \"example_questions\": [\n    \"What are the societal perceptions surrounding PrEP that I should be aware of?\",\n    \"How can I address my fears about stigma when considering PrEP?\",\n    \"Are there any support groups for people worried about the stigma of taking PrEP?\",\n    \"What steps can I take to discuss my PrEP concerns with my healthcare provider?\",\n    \"Can taking PrEP help alleviate my anxiety about potential HIV exposure?\",\n    \"What resources are available to educate others about the importance of PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "283f766cc294abdafe2430597444247b8c1eb121d7ca7501379855e95910c99f",
+  "_starter_hash": "4ed1708ac36202459f92407d34a8bd1cd12949fb2100e1df70af639023e219ec",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

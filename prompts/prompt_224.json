@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "española",
+    "age": 32,
+    "gender": "femenino",
+    "socio_economic_status": "medio",
+    "primary_concern": "preocupación por los efectos secundarios en combinación con la esclerosis múltiple",
+    "language": "Spanish"
+  },
+  "context": "Una mujer de 32 años que vive con esclerosis múltiple está considerando PrEP para reducir el riesgo de VIH. Sin embargo, su condición de salud la hace dudar sobre la seguridad del medicamento y si podría interactuar negativamente con su tratamiento actual. Experimenta miedo e incertidumbre debido al estigma asociado tanto con su enfermedad como con el uso de PrEP.",
+  "example_questions_clean": [
+    "¿Cuáles son los posibles efectos secundarios de PrEP para alguien que tiene esclerosis múltiple?",
+    "Estoy preocupada por cómo PrEP podría afectar mi tratamiento actual para la esclerosis múltiple.",
+    "¿Es seguro tomar PrEP si ya estoy en medicación para la esclerosis múltiple?",
+    "He oído cosas negativas sobre PrEP, ¿hay razones para temer su uso en mi situación específica?",
+    "¿Dónde puedo encontrar apoyo o información adicional sobre PrEP y su compatibilidad con mi condición?",
+    "Me gustaría saber si hay otros pacientes con mi situación que hayan tomado PrEP."
+  ],
+  "example_questions_noisy": [
+    "¿Cuáles son los posibles efectos secundarios de PrEP para alguien que tiene esclerosis múltiple?",
+    "e-estoy preocupaaada [or cómo PrEP podría afectar mi tratamiento actual para la esclerosis múltiple. múltiple.",
+    "¿Es seguro tomar PrEP si ya estoy en medicación para la ezclerosis múltiple? 💀",
+    "h-he oído cosas negativas sobre PrEP ¿hay r4zon3x para temer su uso en mu situación específica ❓",
+    "¿Dónde puedo encontrar ap0yo o información adicional 50bre PrEP y su compatibilidad con mi condición? 😕",
+    "me gustaría uh saber si hag otos pacientes c0n ji situación que hayan tomado PrEP."
+  ],
+  "starter_index": 4,
+  "starter_clean": "¿Dónde puedo encontrar apoyo o información adicional sobre PrEP y su compatibilidad con mi condición?",
+  "starter_noisy": "¿Dónde puedo encontrar ap0yo o información adicional 50bre PrEP y su compatibilidad con mi condición? 😕",
+  "followup_index": 0,
+  "followup_clean": "¿Cuáles son los posibles efectos secundarios de PrEP para alguien que tiene esclerosis múltiple?",
+  "followup_noisy": "¿Cuáles son los posibles efectos secundarios de PrEP para alguien que tiene esclerosis múltiple?",
+  "style_profile": {
+    "typo_rate": 0.09832935183688543,
+    "swap_rate": 0.025185610993499714,
+    "drop_rate": 0.04214168981747517,
+    "dup_rate": 0.02269538855428714,
+    "leet_rate": 0.05055100640837232,
+    "start_lower_prob": 0.8488141668807392,
+    "all_lower_prob": 0.27920105314788995,
+    "drop_punct_prob": 0.45952751054306035,
+    "double_space_prob": 0.1865226201045347,
+    "ellipsis_prob": 0.3328383447982461,
+    "runon_prob": 0.21526383536447108,
+    "filler_rate": 0.22222503710738933,
+    "emoji_rate": 0.26051166155603583,
+    "stutter_rate": 0.1634108170063973,
+    "repeat_last_rate": 0.1322150392615748
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"española\",\n    \"age\": 32,\n    \"gender\": \"femenino\",\n    \"socio_economic_status\": \"medio\",\n    \"primary_concern\": \"preocupación por los efectos secundarios en combinación con la esclerosis múltiple\",\n    \"language\": \"español\"\n  },\n  \"context\": \"Una mujer de 32 años que vive con esclerosis múltiple está considerando PrEP para reducir el riesgo de VIH. Sin embargo, su condición de salud la hace dudar sobre la seguridad del medicamento y si podría interactuar negativamente con su tratamiento actual. Experimenta miedo e incertidumbre debido al estigma asociado tanto con su enfermedad como con el uso de PrEP.\",\n  \"example_questions\": [\n    \"¿Cuáles son los posibles efectos secundarios de PrEP para alguien que tiene esclerosis múltiple?\",\n    \"Estoy preocupada por cómo PrEP podría afectar mi tratamiento actual para la esclerosis múltiple.\",\n    \"¿Es seguro tomar PrEP si ya estoy en medicación para la esclerosis múltiple?\",\n    \"He oído cosas negativas sobre PrEP, ¿hay razones para temer su uso en mi situación específica?\",\n    \"¿Dónde puedo encontrar apoyo o información adicional sobre PrEP y su compatibilidad con mi condición?\",\n    \"Me gustaría saber si hay otros pacientes con mi situación que hayan tomado PrEP.\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0276cc3a6088672b115306ad8d0dca8a3d157cbe82818c6d6c46219be1f5280e",
+  "_starter_hash": "7687194c059fe436cde58db7842b99f9ce242412f34e8a5bc217918efb96a934",
+  "_language": "Spanish",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}
