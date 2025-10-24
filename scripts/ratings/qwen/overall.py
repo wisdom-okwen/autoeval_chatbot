@@ -157,69 +157,42 @@ def get_qwen_reasoner(model_name="Qwen/Qwen2.5-14B-Instruct", device="auto"):
         qwen_reasoner = QwenReasoner(model_name=model_name, device=device)
     return qwen_reasoner
 
-# Chain-of-Thought reasoning prompts (for Qwen)
+# Chain-of-Thought reasoning prompts (for Qwen) - Direct Objective Format
 COT_SELF_REASONING_PROMPT = """
-You are analyzing a conversation where you were the chatbot helping a user with HIV prevention and PrEP questions.
+Analyze the chatbot's performance in this HIV prevention and PrEP conversation.
 
-Please provide a detailed Chain-of-Thought analysis of your performance, considering:
+Write 2-3 direct sentences describing the chatbot's clarity of explanations, topic focus, tone appropriateness, question answering effectiveness, language matching, conciseness, jargon avoidance, consistency, and inclusivity. Be factual and objective.
 
-1. **Clarity and Communication**: How well did you explain complex medical concepts in simple terms?
-2. **Topic Relevance**: Did you stay focused on HIV prevention/PrEP or drift off-topic?
-3. **Tone and Support**: Was your tone appropriate, supportive, and non-judgmental?
-4. **Question Answering**: How effectively did you address the user's specific questions?
-5. **Language Adaptation**: Did you match the user's language level and style?
-6. **Conciseness**: Were your responses digestible without being overwhelming?
-7. **Technical Jargon**: Did you avoid unnecessary medical terminology?
-8. **Consistency**: Were there any contradictions or repetitive responses?
-9. **Inclusivity**: How respectful and inclusive were your responses?
-
-Based on these factors, provide your reasoning for what rating (1-10) you would give yourself and why.
+End with: "Rating: X/10"
 
 Conversation:
 {conversation}
 
-Analysis and Rating:"""
+Assessment:"""
 
 COT_USER_REASONING_PROMPT = """
-You are analyzing this conversation from the perspective of the user who sought HIV prevention and PrEP information.
+Evaluate this conversation from the user's perspective who sought HIV prevention and PrEP information.
 
-Please provide a detailed Chain-of-Thought analysis of the user's likely satisfaction, considering:
+Write 2-3 direct sentences describing the information helpfulness, response clarity, respectfulness, user support, empowerment level, and any confusion. Be factual and objective.
 
-1. **Helpfulness**: How useful and practical was the chatbot's information?
-2. **Clarity**: Were the chatbot's responses easy to understand and follow?
-3. **Respectfulness**: Did the chatbot respond respectfully without judgment?
-4. **Support**: Did the user feel supported and comfortable asking questions?
-5. **Empowerment**: Did the conversation make the user feel more informed and confident?
-6. **Confusion**: Were there any confusing, unhelpful, or off-topic responses?
-7. **Overall Experience**: How satisfied would the user be with this interaction?
-
-Based on these factors, provide your reasoning for what satisfaction rating (1-10) the user would likely give and why.
+End with: "Rating: X/10"
 
 Conversation:
 {conversation}
 
-Analysis and Rating:"""
+Assessment:"""
 
 COT_JUDGE_REASONING_PROMPT = """
-You are a third-party expert evaluating this conversation between a user and an HIV prevention chatbot.
+Evaluate the chatbot's performance as a third-party expert.
 
-Please provide a detailed Chain-of-Thought analysis of the chatbot's performance, considering:
+Write 2-3 direct sentences describing the accuracy and directness, language appropriateness, consistency, coherence, adaptability, health literacy alignment, and topic focus. Be factual and objective.
 
-1. **Accuracy and Directness**: Did the chatbot answer questions clearly, accurately, and directly?
-2. **Language Appropriateness**: Were responses free of jargon and matched to the user's level?
-3. **Consistency**: Was the chatbot consistent when handling similar topics?
-4. **Coherence**: Did the chatbot avoid contradictions and unnecessary repetition?
-5. **Adaptability**: How well did the chatbot adapt to changes in user tone or focus?
-6. **Health Literacy**: Was the tone inclusive, supportive, and aligned with health principles?
-7. **Topic Focus**: How well did the conversation stay focused on HIV prevention/PrEP?
-8. **Overall Quality**: What was the overall quality of the chatbot's performance?
-
-Based on these factors, provide your reasoning for what rating (1-10) you would give the chatbot and why.
+End with: "Rating: X/10"
 
 Conversation:
 {conversation}
 
-Analysis and Rating:"""
+Assessment:"""
 
 def save_incremental_csv(rating: Dict, output_path: Path, headers: List[str]):
     """Save a single rating to CSV file incrementally."""
@@ -241,14 +214,16 @@ def save_incremental_csv(rating: Dict, output_path: Path, headers: List[str]):
 def extract_rating_from_reasoning(reasoning: str) -> float:
     """Extract numerical rating from Qwen's reasoning text."""
     import re
-    # Look for patterns like "Rating: 8.5" or "I would rate: 7/10" or "Score: 9.0"
+    # Look for patterns like "Rating: 8.5" or "I would rate: 7/10" or "Score: 9.0" or just "8.5/10"
     patterns = [
-        r'[Rr]ating[:\s]+(\d+\.?\d*)',
-        r'[Ss]core[:\s]+(\d+\.?\d*)',
+        r'[Rr]ating[:\s]*(\d+\.?\d*)',
+        r'[Ss]core[:\s]*(\d+\.?\d*)',
         r'(\d+\.?\d*)\s*/\s*10',
-        r'give.*?(\d+\.?\d*)\s*out of',
+        r'(\d+\.?\d*)\s*out of',
         r'rate.*?(\d+\.?\d*)',
         r'(\d+\.?\d*)\s*points?',
+        r'\b(\d+\.?\d*)\s*$',  # Number at end of text
+        r'Overall:\s*(\d+\.?\d*)',
     ]
     
     for pattern in patterns:
@@ -256,7 +231,7 @@ def extract_rating_from_reasoning(reasoning: str) -> float:
         if matches:
             try:
                 rating = float(matches[-1])  # Take the last match
-                if 0 <= rating <= 10:
+                if 1 <= rating <= 10:
                     return rating
             except ValueError:
                 continue
@@ -269,7 +244,7 @@ def get_qwen_reasoning_and_rating(prompt_template: str, conversation: str, model
     try:
         reasoner = get_qwen_reasoner(model_name, device)
         prompt = prompt_template.format(conversation=conversation)
-        reasoning = reasoner.generate_reasoning(prompt, max_tokens=400)
+        reasoning = reasoner.generate_reasoning(prompt, max_tokens=200)  # Increased for complete sentences
         
         # Extract numerical rating from the reasoning
         rating = extract_rating_from_reasoning(reasoning)
