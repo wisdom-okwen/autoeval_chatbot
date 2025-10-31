@@ -1,0 +1,501 @@
+"conversation_id","helpfulness","clarity","accuracy","helpfulness_reasoning","clarity_reasoning","accuracy_reasoning","total_turns","avg_user_length","avg_bot_length","language","sensitive_score","sensitive_count"
+"conv_000",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,100.13333333333334,667.9,"English",0.0,0
+"conv_001",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,96.13333333333334,675.6,"English",0.0,0
+"conv_002",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,96.83333333333333,680.8666666666667,"English",0.0,0
+"conv_003",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chat","9 Justification: - O chatbot",60,96.56666666666666,633.4333333333333,"English",0.0,0
+"conv_004",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Reasoning: * The chat",60,93.26666666666667,604.9333333333333,"English",0.0,0
+"conv_005",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,116.8,753.5333333333333,"English",0.0,0
+"conv_006",8.0,9.0,8.0,"8 The chatbot provides helpful and actionable","9 Reasoning: The chatbot's","8 Reasoning: - The chatbot",60,78.9,474.3333333333333,"English",0.0,0
+"conv_007",9.0,8.0,9.0,"9 De chatbot biedt nutt","8 Reasoning: - The chatbot","9 De chatbot geeft over het",60,99.7,707.6333333333333,"English",0.0,0
+"conv_008",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,102.46666666666667,645.1666666666666,"English",0.0,0
+"conv_009",9.0,8.0,9.0,"9 Reasoning: - The chatbot","8 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,86.96666666666667,661.8666666666667,"English",0.0,0
+"conv_010",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 Le chatbot fournit des ré",60,106.6,656.2333333333333,"English",0.0,0
+"conv_011",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,111.63333333333334,689.3,"English",0.0,0
+"conv_012",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,100.7,720.6666666666666,"English",0.0,0
+"conv_013",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,106.86666666666666,702.6333333333333,"English",0.0,0
+"conv_014",10.0,9.0,10.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","10 The chatbot provides accurate, empath",60,99.16666666666667,716.3,"English",0.0,0
+"conv_015",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,109.06666666666666,706.7333333333333,"English",0.0,0
+"conv_016",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,97.96666666666667,688.7333333333333,"English",0.0,0
+"conv_017",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,102.03333333333333,628.2,"English",0.0,0
+"conv_018",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,103.76666666666667,684.3666666666667,"English",0.0,0
+"conv_019",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,122.8,705.2,"English",0.0,0
+"conv_020",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are generally","9 Le chatbot fournit des informations",60,123.83333333333333,678.7333333333333,"English",0.0,0
+"conv_021",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,97.33333333333333,691.2,"English",0.0,0
+"conv_022",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,130.06666666666666,705.9333333333333,"English",0.0,0
+"conv_023",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 Reasoning: * The chat",60,78.7,488.4,"English",0.0,0
+"conv_024",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,90.8,586.8666666666667,"English",0.0,0
+"conv_025",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are generally","9 The chatbot provided accurate and evidence",60,107.73333333333333,598.9333333333333,"English",0.0,0
+"conv_026",8.0,9.0,9.0,"8 The chatbot provides helpful and informative","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,98.53333333333333,573.8333333333334,"English",0.0,0
+"conv_027",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 The chatbot's responses are generally",60,94.76666666666667,634.1333333333333,"English",0.0,0
+"conv_028",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,108.66666666666667,629.4333333333333,"English",0.0,0
+"conv_029",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,94.73333333333333,682.7,"English",0.0,0
+"conv_030",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,99.4,655.7,"English",0.0,0
+"conv_031",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,83.83333333333333,485.96666666666664,"English",0.0,0
+"conv_032",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,105.56666666666666,634.7,"English",0.0,0
+"conv_033",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,105.56666666666666,676.2333333333333,"English",0.0,0
+"conv_034",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,101.93333333333334,682.4,"English",0.0,0
+"conv_035",10.0,10.0,10.0,"10 The chatbot provides extremely helpful and","10 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,117.4,727.4333333333333,"English",0.0,0
+"conv_036",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,100.83333333333333,661.1333333333333,"English",0.0,0
+"conv_037",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,100.7,672.3333333333334,"English",0.0,0
+"conv_038",9.0,9.0,9.0,"9 El chatbot proporciona información ú","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,109.16666666666667,629.0,"English",0.0,0
+"conv_039",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,110.0,682.5333333333333,"English",0.0,0
+"conv_040",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,117.53333333333333,719.9333333333333,"English",0.0,0
+"conv_041",9.0,8.0,9.0,"9 Reasoning: - O chatbot","8 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,95.96666666666667,653.2,"English",0.0,0
+"conv_042",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,107.1,658.1333333333333,"English",0.0,0
+"conv_043",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,118.0,690.5,"English",0.0,0
+"conv_044",9.0,9.0,9.0,"9 Reasoning: The chatbot provides","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,95.53333333333333,641.7,"English",0.0,0
+"conv_045",10.0,9.0,10.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,103.2,685.0,"English",0.0,0
+"conv_046",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,104.1,710.3333333333334,"English",0.0,0
+"conv_047",10.0,10.0,10.0,"10 The chatbot's responses are extremely","10 The chatbot's responses are clear","10 Reasoning: - The chatbot",60,107.46666666666667,689.8666666666667,"English",0.0,0
+"conv_048",9.0,10.0,10.0,"9 The chatbot provides helpful, actionable","10 Reasoning: - The chatbot","10 Reasoning: The chatbot consistently",60,90.06666666666666,689.1,"English",0.0,0
+"conv_049",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,95.33333333333333,694.8,"English",0.0,0
+"conv_050",9.0,9.0,9.0,"9 The chatbot provides helpful and supportive","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,117.46666666666667,684.1,"English",0.0,0
+"conv_051",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provided accurate and evidence",60,101.16666666666667,636.7333333333333,"English",0.0,0
+"conv_052",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,103.26666666666667,693.1,"English",0.0,0
+"conv_053",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,111.1,624.9666666666667,"English",0.0,0
+"conv_054",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,105.56666666666666,656.3,"English",0.0,0
+"conv_055",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,109.66666666666667,655.9,"English",0.0,0
+"conv_056",8.0,8.0,8.0,"8 Reasoning: The chatbot provides","8 Reasoning: - The chatbot","8 Reasoning: - La información proporcion",60,100.46666666666667,601.2,"English",0.0,0
+"conv_057",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,106.73333333333333,686.7,"English",0.0,0
+"conv_058",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 Reasoning: - O chatbot",60,108.8,635.3333333333334,"English",0.0,0
+"conv_059",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and helpful",60,101.4,635.9666666666667,"English",0.0,0
+"conv_060",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: * The chat","9 The chatbot's responses are generally",60,100.3,646.1,"English",0.0,0
+"conv_061",10.0,9.0,10.0,"10 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,90.03333333333333,710.2666666666667,"English",0.0,0
+"conv_062",4.0,8.0,8.0,"4 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 The chatbot's responses are generally",60,109.63333333333334,625.7666666666667,"English",0.0,0
+"conv_063",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,89.33333333333333,692.0,"English",0.0,0
+"conv_064",9.0,8.0,8.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 Le chatbot fournit des informations",60,98.5,681.8,"English",0.0,0
+"conv_065",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,91.4,575.0,"English",0.0,0
+"conv_066",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,76.03333333333333,465.56666666666666,"English",0.0,0
+"conv_067",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,110.83333333333333,571.7666666666667,"English",0.0,0
+"conv_068",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,116.8,704.7,"English",0.0,0
+"conv_069",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot generally provides accurate and",60,113.96666666666667,627.9333333333333,"English",0.0,0
+"conv_070",10.0,9.0,10.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","10 Reasoning: The chatbot consistently",60,113.5,678.2333333333333,"English",0.0,0
+"conv_071",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Explanation: The chatbot provided accurate",60,93.36666666666666,581.3333333333334,"English",0.0,0
+"conv_072",10.0,9.0,9.0,"10 The chatbot's responses are consistently","9 Reasoning: The chatbot's","9 The chatbot's responses are generally",60,109.13333333333334,675.8666666666667,"English",0.0,0
+"conv_073",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,113.9,718.6,"English",0.0,0
+"conv_074",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,108.4,679.7,"English",0.0,0
+"conv_075",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,97.8,543.1333333333333,"English",0.0,0
+"conv_076",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,106.6,566.1,"English",0.0,0
+"conv_077",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,117.3,700.5,"English",0.0,0
+"conv_078",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,100.3,699.3333333333334,"English",0.0,0
+"conv_079",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,112.46666666666667,739.7,"English",0.0,0
+"conv_080",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Justification: - O chatbot",60,99.53333333333333,632.5,"English",0.0,0
+"conv_081",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provides accurate and helpful",60,112.66666666666667,675.4333333333333,"English",0.0,0
+"conv_082",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","10 The chatbot's responses are accurate",60,97.16666666666667,691.9333333333333,"English",0.0,0
+"conv_083",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 Reasoning: * The chat",60,90.53333333333333,623.8,"English",0.0,0
+"conv_084",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,93.3,578.3,"English",0.0,0
+"conv_085",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,106.76666666666667,625.2666666666667,"English",0.0,0
+"conv_086",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,82.26666666666667,485.8,"English",0.0,0
+"conv_087",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,88.0,547.9333333333333,"English",0.0,0
+"conv_088",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 De chatbot geeft over het",60,108.53333333333333,636.1666666666666,"English",0.0,0
+"conv_089",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,106.33333333333333,721.7333333333333,"English",0.0,0
+"conv_090",9.0,9.0,8.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","8 The chatbot provides accurate and evidence",60,96.2,625.0666666666667,"English",0.0,0
+"conv_091",8.0,9.0,9.0,"8 Reasoning: The chatbot provides","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,91.33333333333333,647.6333333333333,"English",0.0,0
+"conv_092",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: The chatbot's","9 The chatbot provides accurate and evidence",60,102.1,673.7,"English",0.0,0
+"conv_093",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,114.73333333333333,707.1666666666666,"English",0.0,0
+"conv_094",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Die Antworten des Chatbots sind größ",60,113.7,686.2666666666667,"English",0.0,0
+"conv_095",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,92.73333333333333,696.2666666666667,"English",0.0,0
+"conv_096",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,100.33333333333333,556.4666666666667,"English",0.0,0
+"conv_097",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,114.56666666666666,661.1666666666666,"English",0.0,0
+"conv_098",10.0,9.0,10.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,104.06666666666666,696.6,"English",0.0,0
+"conv_099",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,106.86666666666666,637.9333333333333,"English",0.0,0
+"conv_100",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 Reasoning: - The chatbot",60,101.83333333333333,704.7,"English",0.0,0
+"conv_101",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 De chatbot geeft over het",60,87.06666666666666,638.6333333333333,"English",0.0,0
+"conv_102",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 The chatbot provides accurate and evidence",60,104.73333333333333,626.7666666666667,"English",0.0,0
+"conv_103",8.0,8.0,8.0,"8 Uchambuzi: Chat","8 The chatbot's responses are generally","8 Uchambuzi: Chat",60,102.8,563.5,"English",0.0,0
+"conv_104",8.0,9.0,8.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","8 The chatbot provides generally accurate and",60,90.5,504.3333333333333,"English",0.0,0
+"conv_105",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,107.2,618.7666666666667,"English",0.0,0
+"conv_106",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and helpful",60,110.5,577.5666666666667,"English",0.0,0
+"conv_107",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,114.26666666666667,673.2,"English",0.0,0
+"conv_108",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,95.36666666666666,639.2,"English",0.0,0
+"conv_109",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,103.13333333333334,676.6,"English",0.0,0
+"conv_110",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,104.0,698.0666666666667,"English",0.0,0
+"conv_111",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides accurate and evidence",60,100.76666666666667,670.1333333333333,"English",0.0,0
+"conv_112",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,112.46666666666667,719.1,"English",0.0,0
+"conv_113",9.0,9.0,9.0,"9 The chatbot's responses are consistently","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.96666666666667,690.8666666666667,"English",0.0,0
+"conv_114",9.0,9.0,9.0,"9 Le chatbot fournit des informations","9 The chatbot's responses are generally","9 Le chatbot fournit des informations",60,112.03333333333333,703.3666666666667,"English",0.0,0
+"conv_115",9.0,9.0,9.0,"9 Reasoning: - O chatbot","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,97.86666666666666,672.5666666666667,"English",0.0,0
+"conv_116",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: * The chatbot",60,97.46666666666667,572.0666666666667,"English",0.0,0
+"conv_117",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,102.4,567.7,"English",0.0,0
+"conv_118",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","8 Explanation: The chatbot provides accurate",60,93.9,564.9666666666667,"English",0.0,0
+"conv_119",9.0,9.0,9.0,"9 Reasoning: The chatbot provides","9 Reasoning: * The chatbot","9 The chatbot provides accurate and evidence",60,101.5,675.0666666666667,"English",0.0,0
+"conv_120",9.0,9.0,9.0,"9 Reasoning: The chatbot provides","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,86.7,616.1,"English",0.0,0
+"conv_121",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and supportive",60,102.86666666666666,728.6333333333333,"English",0.0,0
+"conv_122",9.0,8.0,8.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 Reasoning: * The chat",60,108.8,664.8333333333334,"English",0.0,0
+"conv_123",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,102.36666666666666,699.0333333333333,"English",0.0,0
+"conv_124",8.0,9.0,8.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","8 Reasoning: - The chatbot",60,104.66666666666667,631.3666666666667,"English",0.0,0
+"conv_125",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,106.9,662.8,"English",0.0,0
+"conv_126",9.0,9.0,9.0,"9 The chatbot's responses are consistently","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,96.66666666666667,615.7,"English",0.0,0
+"conv_127",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,108.13333333333334,714.4666666666667,"English",0.0,0
+"conv_128",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate, supportive",60,95.2,711.2666666666667,"English",0.0,0
+"conv_129",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 Die Antworten des Chatbots sind größ",60,94.96666666666667,671.4666666666667,"English",0.0,0
+"conv_130",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,111.36666666666666,696.5,"English",0.0,0
+"conv_131",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,98.73333333333333,619.5,"English",0.0,0
+"conv_132",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","8 Reasoning: - The chatbot",60,83.4,638.9666666666667,"English",0.0,0
+"conv_133",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft over het",60,102.16666666666667,665.4333333333333,"English",0.0,0
+"conv_134",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,107.03333333333333,669.7666666666667,"English",0.0,0
+"conv_135",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,99.33333333333333,698.7666666666667,"English",0.0,0
+"conv_136",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft over het",60,99.4,674.6666666666666,"English",0.0,0
+"conv_137",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,103.7,664.2333333333333,"English",0.0,0
+"conv_138",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,132.23333333333332,675.6,"English",0.0,0
+"conv_139",10.0,10.0,10.0,"10 The chatbot provides helpful, actionable","10 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,94.0,689.8666666666667,"English",0.0,0
+"conv_140",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Le chatbot fournit des informations",60,103.2,684.8333333333334,"English",0.0,0
+"conv_141",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,108.96666666666667,661.2666666666667,"English",0.0,0
+"conv_142",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,106.16666666666667,686.2666666666667,"English",0.0,0
+"conv_143",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provided accurate and evidence",60,92.7,663.2333333333333,"English",0.0,0
+"conv_144",8.0,8.0,9.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,95.9,617.5666666666667,"English",0.0,0
+"conv_145",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,110.9,609.0,"English",0.0,0
+"conv_146",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 The chatbot provided accurate and evidence",60,94.53333333333333,632.6,"English",0.0,0
+"conv_147",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,106.3,629.0333333333333,"English",0.0,0
+"conv_148",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,97.03333333333333,700.8,"English",0.0,0
+"conv_149",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,102.46666666666667,622.1333333333333,"English",0.0,0
+"conv_150",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,116.4,698.6666666666666,"English",0.0,0
+"conv_151",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides accurate and helpful",60,116.03333333333333,685.3,"English",0.0,0
+"conv_152",9.0,8.0,9.0,"9 The chatbot provided helpful and actionable","8 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,92.96666666666667,563.5,"English",0.0,0
+"conv_153",9.0,9.0,9.0,"9 Reasoning: * The chat","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,103.5,656.0333333333333,"English",0.0,0
+"conv_154",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,106.26666666666667,674.0333333333333,"English",0.0,0
+"conv_155",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,115.16666666666667,709.7333333333333,"English",0.0,0
+"conv_156",9.0,8.0,9.0,"9 De chatbot biedt nutt","8 Reasoning: - The chatbot","9 De chatbot geeft accurate informatie",60,90.73333333333333,628.1666666666666,"English",0.0,0
+"conv_157",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,121.9,675.7,"English",0.0,0
+"conv_158",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are generally","9 Reasoning: * The chat",60,140.13333333333333,712.2666666666667,"English",0.0,0
+"conv_159",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,98.7,623.0,"English",0.0,0
+"conv_160",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,112.46666666666667,702.9,"English",0.0,0
+"conv_161",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,98.96666666666667,692.2333333333333,"English",0.0,0
+"conv_162",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,109.6,733.4666666666667,"English",0.0,0
+"conv_163",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.83333333333333,701.0333333333333,"English",0.0,0
+"conv_164",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,92.43333333333334,604.9666666666667,"English",0.0,0
+"conv_165",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 Reasoning: The chatbot provides",60,111.86666666666666,678.7666666666667,"English",0.0,0
+"conv_166",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,114.93333333333334,719.1,"English",0.0,0
+"conv_167",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,91.23333333333333,572.2,"English",0.0,0
+"conv_168",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,116.0,684.2666666666667,"English",0.0,0
+"conv_169",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,98.3,645.2,"English",0.0,0
+"conv_170",9.0,9.0,9.0,"9 Uchambuzi: Chat","9 Uchambuzi: Chat","9 Uchambuzi: Chat",60,95.93333333333334,571.7,"English",0.0,0
+"conv_171",8.0,8.0,9.0,"8 De chatbot biedt nutt","8 Reasoning: - The chatbot","9 De chatbot geeft over het",60,85.7,640.6,"English",0.0,0
+"conv_172",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,93.16666666666667,605.7666666666667,"English",0.0,0
+"conv_173",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: The chatbot's","9 Reasoning: The chatbot provides",60,115.96666666666667,619.0666666666667,"English",0.0,0
+"conv_174",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,102.4,666.5666666666667,"English",0.0,0
+"conv_175",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,90.7,702.2,"English",0.0,0
+"conv_176",9.0,9.0,9.0,"9 The chatbot provides helpful and informative","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,104.53333333333333,664.7333333333333,"English",0.0,0
+"conv_177",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,103.66666666666667,646.8,"English",0.0,0
+"conv_178",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,102.3,618.4666666666667,"English",0.0,0
+"conv_179",10.0,9.0,9.0,"10 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,99.56666666666666,670.9666666666667,"English",0.0,0
+"conv_180",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,104.96666666666667,659.7666666666667,"English",0.0,0
+"conv_181",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,109.53333333333333,707.1666666666666,"English",0.0,0
+"conv_182",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,95.76666666666667,661.3,"English",0.0,0
+"conv_183",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,84.6,500.0,"English",0.0,0
+"conv_184",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides generally accurate and",60,114.73333333333333,688.1,"English",0.0,0
+"conv_185",8.0,8.0,8.0,"8 De chatbot biedt nutt","8 Reasoning: * The chatbot","8 De chatbot geeft over het",60,102.2,632.8,"English",0.0,0
+"conv_186",10.0,9.0,9.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,103.76666666666667,700.0666666666667,"English",0.0,0
+"conv_187",9.0,9.0,9.0,"9 The chatbot's responses are extremely","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.93333333333334,659.7333333333333,"English",0.0,0
+"conv_188",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 Reasoning: - The chatbot",60,103.93333333333334,684.2,"English",0.0,0
+"conv_189",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,93.8,634.5333333333333,"English",0.0,0
+"conv_190",8.0,8.0,9.0,"8 Reasoning: The chatbot provides","8 Reasoning: The chatbot's","9 Reasoning: De chatbot gee",60,85.1,625.0,"English",0.0,0
+"conv_191",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: - La información",60,100.83333333333333,613.4,"English",0.0,0
+"conv_192",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,110.26666666666667,680.4333333333333,"English",0.0,0
+"conv_193",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate informatie",60,107.23333333333333,677.5666666666667,"English",0.0,0
+"conv_194",8.0,8.0,8.0,"8 Reasoning: The chatbot provides","8 The chatbot's responses are clear","8 Reasoning: The chatbot provides",60,109.4,681.3333333333334,"English",0.0,0
+"conv_195",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,111.56666666666666,670.3,"English",0.0,0
+"conv_196",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,103.9,643.1333333333333,"English",0.0,0
+"conv_197",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 Reasoning: * The chatbot","8 De chatbot geeft over het",60,96.83333333333333,644.0,"English",0.0,0
+"conv_198",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,100.9,670.9,"English",0.0,0
+"conv_199",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Reasoning: - The chatbot",60,124.33333333333333,699.7333333333333,"English",0.0,0
+"conv_200",9.0,9.0,8.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","8 The chatbot provides accurate and helpful",60,103.66666666666667,555.4666666666667,"English",0.0,0
+"conv_201",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,112.0,547.6666666666666,"English",0.0,0
+"conv_202",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provided accurate and helpful",60,87.53333333333333,621.2333333333333,"English",0.0,0
+"conv_203",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,101.76666666666667,637.7,"English",0.0,0
+"conv_204",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,109.9,683.9,"English",0.0,0
+"conv_205",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,102.9,651.2,"English",0.0,0
+"conv_206",10.0,9.0,10.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,91.93333333333334,655.8,"English",0.0,0
+"conv_207",9.0,9.0,8.0,"9 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","8 Reasoning: * The chat",60,110.33333333333333,625.1666666666666,"English",0.0,0
+"conv_208",9.0,9.0,9.0,"**9** The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.9,684.2333333333333,"English",0.0,0
+"conv_209",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 Reasoning: The chatbot's","8 Reasoning: De chatbot gee",60,100.36666666666666,622.7,"English",0.0,0
+"conv_210",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,97.63333333333334,682.8333333333334,"English",0.0,0
+"conv_211",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","10 The chatbot's responses are accurate",60,84.0,665.1333333333333,"English",0.0,0
+"conv_212",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 Reasoning: - The chatbot","9 Justification: - The chatbot",60,91.26666666666667,623.4,"English",0.0,0
+"conv_213",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Uchambuzi: Chat",60,95.13333333333334,562.1,"English",0.0,0
+"conv_214",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 El chatbot proporciona información precisa",60,91.83333333333333,612.0,"English",0.0,0
+"conv_215",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and supportive",60,100.96666666666667,722.4333333333333,"English",0.0,0
+"conv_216",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,105.63333333333334,718.7,"English",0.0,0
+"conv_217",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,102.43333333333334,707.6666666666666,"English",0.0,0
+"conv_218",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 El chatbot proporciona información precisa",60,90.83333333333333,633.9,"English",0.0,0
+"conv_219",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 The chatbot provides generally accurate and",60,116.2,695.6,"English",0.0,0
+"conv_220",9.0,9.0,9.0,"9 Reasoning: * The chat","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,111.73333333333333,622.1333333333333,"English",0.0,0
+"conv_221",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,94.26666666666667,654.2,"English",0.0,0
+"conv_222",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 The chatbot's responses are clear","9 Le chatbot fournit des informations",60,111.53333333333333,731.2333333333333,"English",0.0,0
+"conv_223",9.0,9.0,9.0,"9 El chatbot proporciona información ú","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,113.56666666666666,626.7333333333333,"English",0.0,0
+"conv_224",8.0,9.0,8.0,"8 The chatbot provides helpful and relevant","9 Reasoning: - The chatbot","8 Reasoning: * The chat",60,105.53333333333333,615.8333333333334,"English",0.0,0
+"conv_225",8.0,9.0,9.0,"8 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,102.3,690.6333333333333,"English",0.0,0
+"conv_226",10.0,9.0,9.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,96.26666666666667,678.9,"English",0.0,0
+"conv_227",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,109.06666666666666,694.7666666666667,"English",0.0,0
+"conv_228",9.0,9.0,9.0,"9 The chatbot provides helpful and informative","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,98.8,657.8,"English",0.0,0
+"conv_229",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and helpful",60,109.4,639.8666666666667,"English",0.0,0
+"conv_230",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,106.16666666666667,705.9666666666667,"English",0.0,0
+"conv_231",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,85.83333333333333,470.43333333333334,"English",0.0,0
+"conv_232",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 Reasoning: The chatbot's","9 De chatbot geeft accurate informatie",60,93.66666666666667,628.8666666666667,"English",0.0,0
+"conv_233",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Uchambuzi: Chat",60,91.46666666666667,582.1,"English",0.0,0
+"conv_234",9.0,9.0,9.0,"9 The chatbot provides helpful and informative","9 Reasoning: - The chatbot","9 De chatbot geeft accurate informatie",60,93.8,658.0333333333333,"English",0.0,0
+"conv_235",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,73.43333333333334,631.3,"English",0.0,0
+"conv_236",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and sensitive",60,111.16666666666667,709.6,"English",0.0,0
+"conv_237",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,96.23333333333333,694.6666666666666,"English",0.0,0
+"conv_238",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,96.9,579.9666666666667,"English",0.0,0
+"conv_239",9.0,9.0,10.0,"9 The chatbot provides clear, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,87.66666666666667,656.6,"English",0.0,0
+"conv_240",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 El chatbot proporciona información precisa",60,102.03333333333333,633.5333333333333,"English",0.0,0
+"conv_241",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,103.4,687.2666666666667,"English",0.0,0
+"conv_242",10.0,9.0,9.0,"10 The chatbot provides extremely helpful responses","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,101.4,741.5333333333333,"English",0.0,0
+"conv_243",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides accurate and evidence",60,115.4,704.2333333333333,"English",0.0,0
+"conv_244",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: - De chatbot",60,103.06666666666666,644.9666666666667,"English",0.0,0
+"conv_245",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,101.76666666666667,623.5,"English",0.0,0
+"conv_246",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,103.1,752.0,"English",0.0,0
+"conv_247",10.0,9.0,9.0,"10 The chatbot's responses are extremely","9 Reasoning: - The chatbot","9 The chatbot provides accurate and supportive",60,120.33333333333333,740.9666666666667,"English",0.0,0
+"conv_248",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,115.13333333333334,722.8333333333334,"English",0.0,0
+"conv_249",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 The chatbot provides accurate and helpful",60,101.26666666666667,556.2333333333333,"English",0.0,0
+"conv_250",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,102.76666666666667,700.6666666666666,"English",0.0,0
+"conv_251",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 Reasoning: The chatbot's","9 El chatbot proporciona información precisa",60,97.9,631.7333333333333,"English",0.0,0
+"conv_252",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and helpful",60,118.46666666666667,688.4333333333333,"English",0.0,0
+"conv_253",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,109.66666666666667,700.8333333333334,"English",0.0,0
+"conv_254",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 The chatbot provided accurate and evidence",60,100.93333333333334,558.9333333333333,"English",0.0,0
+"conv_255",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 Reasoning: - The chatbot","9 The chatbot provides accurate and supportive",60,111.96666666666667,726.0333333333333,"English",0.0,0
+"conv_256",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,109.03333333333333,672.4,"English",0.0,0
+"conv_257",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,79.9,556.1333333333333,"English",0.0,0
+"conv_258",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,109.06666666666666,686.0666666666667,"English",0.0,0
+"conv_259",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Reasoning: The chatbot provides",60,89.76666666666667,520.4666666666667,"English",0.0,0
+"conv_260",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 El chatbot proporciona información general",60,110.36666666666666,645.4333333333333,"English",0.0,0
+"conv_261",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,99.96666666666667,685.0333333333333,"English",0.0,0
+"conv_262",8.0,8.0,9.0,"8 Reasoning: * The chatbot","8 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,86.23333333333333,646.3666666666667,"English",0.0,0
+"conv_263",9.0,9.0,9.0,"9 The chatbot provided helpful and relevant","9 The chatbot's responses are clear","9 Explanation: The chatbot's responses",60,93.4,565.8,"English",0.0,0
+"conv_264",10.0,9.0,9.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,96.93333333333334,694.6,"English",0.0,0
+"conv_265",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,86.26666666666667,652.7333333333333,"English",0.0,0
+"conv_266",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,106.4,683.4666666666667,"English",0.0,0
+"conv_267",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot's responses are generally",60,85.16666666666667,462.73333333333335,"English",0.0,0
+"conv_268",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,96.43333333333334,709.4,"English",0.0,0
+"conv_269",9.0,9.0,9.0,"9 Explanation: The chatbot provides helpful","9 The chatbot's responses are clear","9 Uchambuzi: Chat",60,99.53333333333333,583.3,"English",0.0,0
+"conv_270",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,113.83333333333333,712.6666666666666,"English",0.0,0
+"conv_271",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,93.53333333333333,650.7333333333333,"English",0.0,0
+"conv_272",9.0,9.0,9.0,"9 Reasoning: * The chatbot","9 Reasoning: - The chatbot","9 De chatbot geeft over het",60,93.13333333333334,678.5333333333333,"English",0.0,0
+"conv_273",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,107.4,694.9333333333333,"English",0.0,0
+"conv_274",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,112.06666666666666,723.9666666666667,"English",0.0,0
+"conv_275",8.0,8.0,9.0,"8 De chatbot biedt nutt","8 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,98.53333333333333,669.4666666666667,"English",0.0,0
+"conv_276",9.0,9.0,9.0,"9 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,105.46666666666667,701.4666666666667,"English",0.0,0
+"conv_277",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Le chatbot fournit des informations",60,105.06666666666666,708.8333333333334,"English",0.0,0
+"conv_278",9.0,9.0,9.0,"9 Reasoning: The chatbot provides","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,91.4,651.6,"English",0.0,0
+"conv_279",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,109.66666666666667,672.0,"English",0.0,0
+"conv_280",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and supportive",60,96.6,635.0333333333333,"English",0.0,0
+"conv_281",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,120.9,694.5,"English",0.0,0
+"conv_282",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,91.26666666666667,639.6333333333333,"English",0.0,0
+"conv_283",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,104.9,673.8666666666667,"English",0.0,0
+"conv_284",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 De chatbot geeft over het",60,101.73333333333333,655.9666666666667,"English",0.0,0
+"conv_285",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,105.36666666666666,594.3333333333334,"English",0.0,0
+"conv_286",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,100.4,687.6666666666666,"English",0.0,0
+"conv_287",8.0,9.0,9.0,"8 De chatbot biedt nutt","9 Reasoning: The chatbot's","9 De chatbot geeft accurate en",60,102.8,678.3666666666667,"English",0.0,0
+"conv_288",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 Reasoning: - The chatbot","9 Justification: - O chatbot",60,100.23333333333333,651.5333333333333,"English",0.0,0
+"conv_289",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,94.33333333333333,664.1333333333333,"English",0.0,0
+"conv_290",8.0,8.0,8.0,"8 Le chatbot fournit des informations","8 The chatbot's responses are generally","8 Le chatbot fournit des informations",60,102.26666666666667,677.4666666666667,"English",0.0,0
+"conv_291",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,98.63333333333334,687.4333333333333,"English",0.0,0
+"conv_292",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,105.03333333333333,706.2666666666667,"English",0.0,0
+"conv_293",8.0,8.0,9.0,"8 Reasoning: - The chatbot","8 The chatbot's responses are generally","9 Reasoning: - The chatbot",60,94.9,671.5,"English",0.0,0
+"conv_294",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: * The chat","9 The chatbot's responses are generally",60,91.73333333333333,609.9,"English",0.0,0
+"conv_295",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,102.73333333333333,679.3333333333334,"English",0.0,0
+"conv_296",9.0,9.0,9.0,"9 The chatbot provided helpful and relevant","9 Explanation: The chatbot's responses","9 Explanation: The chatbot's responses",60,97.63333333333334,545.5333333333333,"English",0.0,0
+"conv_297",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,95.76666666666667,593.1333333333333,"English",0.0,0
+"conv_298",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: * The chatbot","9 De chatbot geeft over het",60,115.5,712.7666666666667,"English",0.0,0
+"conv_299",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and helpful",60,101.33333333333333,598.3333333333334,"English",0.0,0
+"conv_300",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,96.93333333333334,661.1666666666666,"English",0.0,0
+"conv_301",8.0,8.0,9.0,"8 The chatbot provides helpful information about","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,110.6,698.3,"English",0.0,0
+"conv_302",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,108.7,680.4333333333333,"English",0.0,0
+"conv_303",9.0,8.0,8.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 The chatbot provides accurate and helpful",60,109.43333333333334,694.2333333333333,"English",0.0,0
+"conv_304",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,115.0,711.8333333333334,"English",0.0,0
+"conv_305",9.0,9.0,9.0,"9 Explanation: The chatbot provides helpful","9 The chatbot's responses are clear","9 Explanation: - The chatbot provides",60,110.46666666666667,571.8666666666667,"English",0.0,0
+"conv_306",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot's responses are generally",60,79.46666666666667,470.56666666666666,"English",0.0,0
+"conv_307",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 Reasoning: * The chat",60,97.26666666666667,645.4,"English",0.0,0
+"conv_308",10.0,9.0,10.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,106.03333333333333,705.0333333333333,"English",0.0,0
+"conv_309",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,99.4,649.6666666666666,"English",0.0,0
+"conv_310",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and supportive",60,92.03333333333333,669.3333333333334,"English",0.0,0
+"conv_311",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,108.86666666666666,721.7,"English",0.0,0
+"conv_312",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,108.76666666666667,668.9333333333333,"English",0.0,0
+"conv_313",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 Reasoning: - The chatbot","9 Le chatbot fournit des informations",60,108.3,657.0666666666667,"English",0.0,0
+"conv_314",9.0,9.0,8.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","8 The chatbot provides generally accurate and",60,110.13333333333334,698.0666666666667,"English",0.0,0
+"conv_315",9.0,9.0,9.0,"9 Explanation: The chatbot provides helpful","9 Explanation: The chatbot's responses","9 Uchambuzi: Chat",60,90.66666666666667,571.5333333333333,"English",0.0,0
+"conv_316",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,107.4,686.8,"English",0.0,0
+"conv_317",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","8 The chatbot provides generally accurate and",60,91.96666666666667,622.7,"English",0.0,0
+"conv_318",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,81.73333333333333,479.03333333333336,"English",0.0,0
+"conv_319",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,100.66666666666667,646.0333333333333,"English",0.0,0
+"conv_320",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,111.63333333333334,676.6333333333333,"English",0.0,0
+"conv_321",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,99.2,719.2666666666667,"English",0.0,0
+"conv_322",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,92.33333333333333,675.7,"English",0.0,0
+"conv_323",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,105.6,630.2333333333333,"English",0.0,0
+"conv_324",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 Reasoning: - The chatbot",60,97.36666666666666,686.7,"English",0.0,0
+"conv_325",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,94.66666666666667,668.6333333333333,"English",0.0,0
+"conv_326",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,101.23333333333333,624.4,"English",0.0,0
+"conv_327",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,91.96666666666667,623.3333333333334,"English",0.0,0
+"conv_328",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,109.06666666666666,727.3333333333334,"English",0.0,0
+"conv_329",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,92.33333333333333,635.2,"English",0.0,0
+"conv_330",9.0,9.0,9.0,"9 The chatbot provides helpful and relevant","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,104.5,654.1,"English",0.0,0
+"conv_331",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,104.36666666666666,648.5666666666667,"English",0.0,0
+"conv_332",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,101.5,619.4333333333333,"English",0.0,0
+"conv_333",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 Reasoning: - The chatbot","8 El chatbot proporciona información general",60,102.96666666666667,634.9333333333333,"English",0.0,0
+"conv_334",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 De chatbot geeft accurate informatie",60,93.93333333333334,661.3,"English",0.0,0
+"conv_335",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,98.46666666666667,625.5666666666667,"English",0.0,0
+"conv_336",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,102.5,707.9666666666667,"English",0.0,0
+"conv_337",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,91.23333333333333,649.9333333333333,"English",0.0,0
+"conv_338",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,106.73333333333333,622.1333333333333,"English",0.0,0
+"conv_339",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,114.93333333333334,625.1,"English",0.0,0
+"conv_340",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,106.23333333333333,674.2,"English",0.0,0
+"conv_341",10.0,9.0,9.0,"10 The chatbot provides clear, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate, evidence",60,99.9,754.1666666666666,"English",0.0,0
+"conv_342",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,109.73333333333333,686.8333333333334,"English",0.0,0
+"conv_343",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,99.13333333333334,621.6666666666666,"English",0.0,0
+"conv_344",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,101.63333333333334,623.5333333333333,"English",0.0,0
+"conv_345",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,104.16666666666667,628.0,"English",0.0,0
+"conv_346",9.0,8.0,9.0,"9 De chatbot biedt nutt","8 Reasoning: The chatbot's","9 De chatbot geeft accurate en",60,98.63333333333334,670.3,"English",0.0,0
+"conv_347",9.0,8.0,9.0,"9 De chatbot biedt over het","8 Reasoning: - The chatbot","9 Reasoning: * The chat",60,93.8,647.2,"English",0.0,0
+"conv_348",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 Reasoning: The chatbot provides",60,101.06666666666666,684.4,"English",0.0,0
+"conv_349",8.0,9.0,9.0,"8 The chatbot provides helpful and empath","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,105.93333333333334,676.7333333333333,"English",0.0,0
+"conv_350",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,105.5,729.0,"English",0.0,0
+"conv_351",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 The chatbot provides accurate and evidence",60,103.33333333333333,672.7666666666667,"English",0.0,0
+"conv_352",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,114.26666666666667,654.4666666666667,"English",0.0,0
+"conv_353",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 Reasoning: The chatbot's","9 The chatbot provided accurate and helpful",60,115.93333333333334,577.1333333333333,"English",0.0,0
+"conv_354",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,103.5,657.7,"English",0.0,0
+"conv_355",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: The chatbot's","9 Reasoning: The chatbot provides",60,91.36666666666666,628.8666666666667,"English",0.0,0
+"conv_356",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft over het",60,103.4,685.8333333333334,"English",0.0,0
+"conv_357",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,97.46666666666667,629.2,"English",0.0,0
+"conv_358",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 The chatbot provides generally accurate and",60,111.83333333333333,686.7,"English",0.0,0
+"conv_359",9.0,9.0,9.0,"9 The chatbot's responses are consistently","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,113.83333333333333,581.4,"English",0.0,0
+"conv_360",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,101.33333333333333,482.73333333333335,"English",0.0,0
+"conv_361",8.0,8.0,9.0,"8 Reasoning: * The chatbot","8 Reasoning: - The chatbot","9 De chatbot geeft over het",60,85.9,619.2333333333333,"English",0.0,0
+"conv_362",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 Explanation: The chatbot provides accurate",60,94.23333333333333,585.5,"English",0.0,0
+"conv_363",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,91.96666666666667,688.4,"English",0.0,0
+"conv_364",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides generally accurate and",60,108.9,684.3666666666667,"English",0.0,0
+"conv_365",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,87.4,673.6666666666666,"English",0.0,0
+"conv_366",9.0,9.0,8.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","8 The chatbot provides accurate and helpful",60,113.13333333333334,578.4333333333333,"English",0.0,0
+"conv_367",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,88.73333333333333,663.8,"English",0.0,0
+"conv_368",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provided accurate and supportive",60,101.33333333333333,671.9333333333333,"English",0.0,0
+"conv_369",8.0,9.0,9.0,"8 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,94.63333333333334,573.4666666666667,"English",0.0,0
+"conv_370",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,123.5,696.5,"English",0.0,0
+"conv_371",10.0,9.0,9.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,111.26666666666667,649.0666666666667,"English",0.0,0
+"conv_372",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,103.8,572.8666666666667,"English",0.0,0
+"conv_373",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,118.4,702.1666666666666,"English",0.0,0
+"conv_374",8.0,8.0,9.0,"8 Reasoning: The chatbot provides","8 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,88.2,642.8333333333334,"English",0.0,0
+"conv_375",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides generally accurate and",60,104.66666666666667,668.8,"English",0.0,0
+"conv_376",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,103.26666666666667,658.2666666666667,"English",0.0,0
+"conv_377",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: * The chatbot","9 De chatbot geeft accurate en",60,109.63333333333334,692.8333333333334,"English",0.0,0
+"conv_378",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,105.03333333333333,713.4,"English",0.0,0
+"conv_379",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,123.73333333333333,672.0666666666667,"English",0.0,0
+"conv_380",10.0,9.0,9.0,"10 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,110.66666666666667,706.0,"English",0.0,0
+"conv_381",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,82.23333333333333,469.6,"English",0.0,0
+"conv_382",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,104.16666666666667,618.3,"English",0.0,0
+"conv_383",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot provides accurate and evidence",60,76.56666666666666,644.7,"English",0.0,0
+"conv_384",8.0,8.0,9.0,"8 De chatbot biedt nutt","8 The chatbot's responses are generally","9 De chatbot geeft accurate en",60,102.13333333333334,678.1333333333333,"English",0.0,0
+"conv_385",10.0,9.0,10.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,97.83333333333333,677.5333333333333,"English",0.0,0
+"conv_386",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,115.53333333333333,677.2,"English",0.0,0
+"conv_387",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,96.33333333333333,687.9,"English",0.0,0
+"conv_388",8.0,8.0,8.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","8 The chatbot provides accurate and evidence",60,104.5,675.1666666666666,"English",0.0,0
+"conv_389",8.0,9.0,8.0,"8 Reasoning: - The chatbot","9 Reasoning: - The chatbot","8 Reasoning: * The chat",60,102.0,627.0,"English",0.0,0
+"conv_390",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,97.83333333333333,696.4666666666667,"English",0.0,0
+"conv_391",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,118.06666666666666,733.5666666666667,"English",0.0,0
+"conv_392",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,100.7,618.8333333333334,"English",0.0,0
+"conv_393",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,116.46666666666667,640.9,"English",0.0,0
+"conv_394",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,104.0,684.8666666666667,"English",0.0,0
+"conv_395",9.0,9.0,9.0,"9 The chatbot provides helpful and supportive","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,99.16666666666667,595.2333333333333,"English",0.0,0
+"conv_396",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 El chatbot proporciona información precisa",60,100.76666666666667,653.6,"English",0.0,0
+"conv_397",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,93.1,615.1,"English",0.0,0
+"conv_398",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,110.33333333333333,654.7333333333333,"English",0.0,0
+"conv_399",8.0,8.0,8.0,"8 Le chatbot fournit des informations","8 The chatbot's responses are generally","8 Le chatbot fournit des informations",60,100.63333333333334,664.6666666666666,"English",0.0,0
+"conv_400",10.0,9.0,9.0,"10 Reasoning: The chatbot consistently","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,100.36666666666666,691.6666666666666,"English",0.0,0
+"conv_401",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,96.36666666666666,731.4,"English",0.0,0
+"conv_402",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,107.03333333333333,696.7333333333333,"English",0.0,0
+"conv_403",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,92.3,572.5333333333333,"English",0.0,0
+"conv_404",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,86.46666666666667,663.5,"English",0.0,0
+"conv_405",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","8 Reasoning: De chatbot gee",60,91.03333333333333,628.1,"English",0.0,0
+"conv_406",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,101.5,707.2333333333333,"English",0.0,0
+"conv_407",10.0,9.0,9.0,"10 The chatbot's responses are consistently","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,114.8,716.5333333333333,"English",0.0,0
+"conv_408",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,92.93333333333334,637.6666666666666,"English",0.0,0
+"conv_409",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 The chatbot's responses are generally",60,109.33333333333333,676.4,"English",0.0,0
+"conv_410",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,109.76666666666667,611.1333333333333,"English",0.0,0
+"conv_411",8.0,8.0,8.0,"8 De chatbot biedt nutt","8 Reasoning: - The chatbot","8 De chatbot geeft over het",60,104.06666666666666,660.0333333333333,"English",0.0,0
+"conv_412",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,124.6,701.4333333333333,"English",0.0,0
+"conv_413",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,87.86666666666666,627.6666666666666,"English",0.0,0
+"conv_414",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,108.53333333333333,714.8,"English",0.0,0
+"conv_415",8.0,8.0,9.0,"8 Reasoning: - The chatbot","8 Reasoning: The chatbot's","9 Reasoning: * The chatbot",60,86.46666666666667,643.6666666666666,"English",0.0,0
+"conv_416",8.0,9.0,9.0,"8 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate en",60,127.36666666666666,695.5666666666667,"English",0.0,0
+"conv_417",9.0,9.0,9.0,"9 Reasoning: - The chatbot","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,82.86666666666666,624.5,"English",0.0,0
+"conv_418",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,95.33333333333333,571.3,"English",0.0,0
+"conv_419",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,102.13333333333334,564.7333333333333,"English",0.0,0
+"conv_420",9.0,9.0,9.0,"9 De chatbot biedt nutt","9 Reasoning: - The chatbot","9 De chatbot geeft accurate informatie",60,109.6,686.0666666666667,"English",0.0,0
+"conv_421",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,103.96666666666667,762.0666666666667,"English",0.0,0
+"conv_422",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,117.63333333333334,702.1333333333333,"English",0.0,0
+"conv_423",9.0,8.0,9.0,"9 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot's responses are generally",60,101.6,678.9666666666667,"English",0.0,0
+"conv_424",8.0,8.0,8.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 Explanation: The chatbot provides accurate",60,100.6,573.5333333333333,"English",0.0,0
+"conv_425",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,99.63333333333334,674.1,"English",0.0,0
+"conv_426",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,86.56666666666666,648.3666666666667,"English",0.0,0
+"conv_427",8.0,8.0,8.0,"8 Reasoning: The chatbot provides","8 Reasoning: * The chatbot","8 Reasoning: - The chatbot",60,106.13333333333334,628.1,"English",0.0,0
+"conv_428",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,100.1,685.2,"English",0.0,0
+"conv_429",8.0,9.0,9.0,"8 The chatbot provides helpful and relevant","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.0,676.7333333333333,"English",0.0,0
+"conv_430",8.0,8.0,8.0,"8 El chatbot proporciona información ú","8 Reasoning: - The chatbot","8 El chatbot proporciona información general",60,98.96666666666667,647.8333333333334,"English",0.0,0
+"conv_431",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,104.16666666666667,688.8,"English",0.0,0
+"conv_432",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,91.4,570.0666666666667,"English",0.0,0
+"conv_433",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,93.23333333333333,560.0,"English",0.0,0
+"conv_434",10.0,9.0,10.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,94.23333333333333,713.2,"English",0.0,0
+"conv_435",9.0,9.0,9.0,"9 The chatbot provides helpful and relevant","9 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,95.4,668.6333333333333,"English",0.0,0
+"conv_436",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","9 The chatbot's responses are generally",60,97.13333333333334,644.4333333333333,"English",0.0,0
+"conv_437",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,92.43333333333334,640.6666666666666,"English",0.0,0
+"conv_438",9.0,8.0,9.0,"9 The chatbot's responses are generally","8 The chatbot's responses are generally","9 Uchambuzi: Chat",60,100.73333333333333,562.9,"English",0.0,0
+"conv_439",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,102.16666666666667,624.3666666666667,"English",0.0,0
+"conv_440",8.0,8.0,9.0,"8 The chatbot provides helpful and relevant","8 Reasoning: * The chatbot","9 Explanation: The chatbot provides accurate",60,101.93333333333334,555.7333333333333,"English",0.0,0
+"conv_441",8.0,9.0,9.0,"8 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,80.26666666666667,473.96666666666664,"English",0.0,0
+"conv_442",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,97.03333333333333,698.6,"English",0.0,0
+"conv_443",9.0,9.0,9.0,"9 Le chatbot fournit des informations","9 The chatbot's responses are generally","9 Le chatbot fournit des informations",60,100.56666666666666,657.7,"English",0.0,0
+"conv_444",10.0,9.0,9.0,"10 The chatbot provides clear, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,103.93333333333334,714.5666666666667,"English",0.0,0
+"conv_445",9.0,8.0,8.0,"9 Reasoning: - The chatbot","8 Reasoning: - The chat","8 Reasoning: De chatbot gee",60,99.1,673.5333333333333,"English",0.0,0
+"conv_446",8.0,8.0,8.0,"8 Reasoning: - The chatbot","8 Reasoning: The chatbot's","8 Reasoning: - The chatbot",60,99.53333333333333,617.8,"English",0.0,0
+"conv_447",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,90.5,648.6333333333333,"English",0.0,0
+"conv_448",8.0,9.0,9.0,"8 The chatbot provides helpful and supportive","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,99.8,677.0666666666667,"English",0.0,0
+"conv_449",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Le chatbot fournit des informations",60,106.03333333333333,661.5666666666667,"English",0.0,0
+"conv_450",9.0,8.0,9.0,"9 The chatbot's responses are generally","8 Reasoning: * The chatbot","9 The chatbot provides accurate and helpful",60,106.23333333333333,582.2,"English",0.0,0
+"conv_451",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and supportive",60,93.56666666666666,689.3333333333334,"English",0.0,0
+"conv_452",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 De chatbot geeft accurate informatie",60,88.16666666666667,628.1666666666666,"English",0.0,0
+"conv_453",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,96.06666666666666,659.0666666666667,"English",0.0,0
+"conv_454",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,98.4,672.5666666666667,"English",0.0,0
+"conv_455",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provided accurate and helpful",60,89.1,627.6,"English",0.0,0
+"conv_456",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,83.0,474.1,"English",0.0,0
+"conv_457",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,108.36666666666666,697.5,"English",0.0,0
+"conv_458",9.0,9.0,9.0,"9 Le chatbot fournit des ré","9 The chatbot's responses are clear","9 Le chatbot fournit des informations",60,119.66666666666667,703.2666666666667,"English",0.0,0
+"conv_459",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,121.3,698.3333333333334,"English",0.0,0
+"conv_460",8.0,9.0,8.0,"8 Reasoning: The chatbot provides","9 The chatbot's responses are clear","8 Reasoning: * The chat",60,102.43333333333334,621.9333333333333,"English",0.0,0
+"conv_461",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: * The chatbot","9 The chatbot provides accurate and evidence",60,126.5,690.3333333333334,"English",0.0,0
+"conv_462",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,108.46666666666667,746.4333333333333,"English",0.0,0
+"conv_463",8.0,8.0,9.0,"8 De chatbot biedt nutt","8 The chatbot's responses are generally","9 Reasoning: - The chatbot",60,102.73333333333333,644.5333333333333,"English",0.0,0
+"conv_464",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,98.9,610.9,"English",0.0,0
+"conv_465",9.0,9.0,9.0,"9 Reasoning: The chatbot provides","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,88.3,654.8333333333334,"English",0.0,0
+"conv_466",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and supportive",60,96.16666666666667,711.6666666666666,"English",0.0,0
+"conv_467",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,110.2,644.5666666666667,"English",0.0,0
+"conv_468",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot provided accurate and evidence",60,92.43333333333334,571.5,"English",0.0,0
+"conv_469",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,110.96666666666667,661.4,"English",0.0,0
+"conv_470",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Reasoning: - The chatbot",60,101.66666666666667,668.4666666666667,"English",0.0,0
+"conv_471",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot provided accurate and helpful",60,109.26666666666667,559.2666666666667,"English",0.0,0
+"conv_472",10.0,9.0,9.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","9 The chatbot provides accurate and sensitive",60,108.93333333333334,720.7,"English",0.0,0
+"conv_473",9.0,9.0,9.0,"9 The chatbot provided helpful and actionable","9 The chatbot's responses are clear","9 Reasoning: * The chatbot",60,103.03333333333333,562.4666666666667,"English",0.0,0
+"conv_474",8.0,8.0,9.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","9 Reasoning: - The chatbot",60,101.26666666666667,641.9,"English",0.0,0
+"conv_475",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,99.5,690.7666666666667,"English",0.0,0
+"conv_476",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,81.7,479.2,"English",0.0,0
+"conv_477",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 El chatbot proporciona información precisa",60,107.1,665.6666666666666,"English",0.0,0
+"conv_478",10.0,9.0,10.0,"10 The chatbot's responses are extremely","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,108.7,681.6,"English",0.0,0
+"conv_479",10.0,9.0,9.0,"10 The chatbot provides extremely helpful and","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,103.96666666666667,687.5333333333333,"English",0.0,0
+"conv_480",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.4,680.5,"English",0.0,0
+"conv_481",9.0,9.0,9.0,"9 The chatbot's responses are generally","9 The chatbot's responses are clear","9 The chatbot's responses are generally",60,107.0,699.4,"English",0.0,0
+"conv_482",10.0,9.0,10.0,"10 The chatbot's responses are highly","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,105.73333333333333,723.6,"English",0.0,0
+"conv_483",10.0,10.0,10.0,"10 The chatbot provides extremely helpful and","10 Reasoning: - The chatbot","10 The chatbot's responses are fact",60,96.3,755.2333333333333,"English",0.0,0
+"conv_484",8.0,8.0,9.0,"8 Reasoning: - The chatbot","8 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,102.7,721.0666666666667,"English",0.0,0
+"conv_485",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 Explanation: The chatbot provides accurate",60,92.26666666666667,565.7,"English",0.0,0
+"conv_486",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,100.56666666666666,702.2333333333333,"English",0.0,0
+"conv_487",9.0,9.0,10.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,96.43333333333334,679.5,"English",0.0,0
+"conv_488",10.0,10.0,10.0,"10 The chatbot's responses are extremely","10 The chatbot's responses are clear","10 The chatbot's responses are accurate",60,104.16666666666667,719.5,"English",0.0,0
+"conv_489",9.0,9.0,9.0,"9 Reasoning: - De chat","9 Reasoning: - The chatbot","9 Reasoning: De chatbot gee",60,121.16666666666667,694.2333333333333,"English",0.0,0
+"conv_490",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,124.46666666666667,617.5,"English",0.0,0
+"conv_491",9.0,9.0,9.0,"9 The chatbot provides helpful, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and helpful",60,126.33333333333333,736.4,"English",0.0,0
+"conv_492",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and empath",60,107.6,693.0666666666667,"English",0.0,0
+"conv_493",9.0,9.0,9.0,"9 The chatbot's responses are highly","9 Reasoning: - The chatbot","9 The chatbot provided accurate and evidence",60,98.36666666666666,692.9333333333333,"English",0.0,0
+"conv_494",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 The chatbot's responses are clear","9 El chatbot proporciona información precisa",60,112.43333333333334,642.8666666666667,"English",0.0,0
+"conv_495",9.0,8.0,8.0,"9 The chatbot provides helpful and relevant","8 The chatbot's responses are generally","8 The chatbot provides accurate and helpful",60,110.76666666666667,665.1333333333333,"English",0.0,0
+"conv_496",10.0,9.0,9.0,"10 The chatbot provides clear, actionable","9 The chatbot's responses are clear","9 The chatbot provides accurate and evidence",60,109.33333333333333,731.5666666666667,"English",0.0,0
+"conv_497",9.0,9.0,9.0,"9 The chatbot provides helpful and actionable","9 Reasoning: - The chatbot","9 The chatbot provides accurate and evidence",60,101.56666666666666,623.6333333333333,"English",0.0,0
+"conv_498",8.0,8.0,9.0,"8 The chatbot provides helpful and actionable","8 The chatbot's responses are generally","9 The chatbot's responses are generally",60,82.03333333333333,474.3333333333333,"English",0.0,0
+"conv_499",9.0,8.0,9.0,"9 Le chatbot fournit des informations","8 The chatbot's responses are generally","9 Le chatbot fournit des informations",60,106.46666666666667,687.5666666666667,"English",0.0,0
