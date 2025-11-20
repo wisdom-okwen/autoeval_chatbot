@@ -1,0 +1,112 @@
+turn,user,bot,language,has_error
+1,Nitajisikiaje nikitumia PrEP katika jamii yangu?,"Nimeelewa unavyohisi. Ni kawaida kuwa na wasiwasi kuhusu maoni ya jamii. Je, unataka kujua kuhusu faida za PrEP? Au unafikiri kuhusu jinsi ya kuzungumza na watu karibu nawe? Unaweza kuuliza kuhusu njia tofauti za kupata PrEP bila kujulikana?",Swahili,0
+2,"Je, kuna nafasi ya kupata msaada wa kiakili wakati ninatumia PrEP na ninapohisi huzuni?","Ningependa kukusaidia, lakini umeuliza swali hili tayari. Je, ungependa kujua kuhusu: 
+
+1. Faida za kutumia PrEP?
+2. Madhara ya muda mrefu yanayohusiana na PrEP?
+3. Mahali pa kupata PrEP bila kujulikana?",Swahili,0
+3,"j3, ni nini kinaweza kunifanya nijisikie salama zaidi kuhusu kutumia prsp katika m4z1ng1r4 yangu?","Ningependa kujua, je, umewahi kuzungumza na mtu wa kuaminika kuhusu hisia zako? 
+
+Je, umejaribu kutafuta vikundi vya msaada katika jamii yako? 
+
+Je, unajua kuhusu huduma za afya zinazotoa ushauri wa faragha? 
+
+Unafikiri ni muhimu kupata taarifa zaidi kuhusu PrEP kabla ya kuamua? 
+
+Je, kuna watu katika maisha yako wanaweza kukusaidia kujisikia salama zaidi?",Swahili,0
+4,"Je, kuan nji za idk kuzuia unyanyasaji au dhihaka kuhusu kutuia PrEP katika jamii yangu?","Naelewa kwamba unahisi wasiwasi kuhusu unyanyasaji na dhihaka. Ni hali ngumu sana. 
+
+- Je, umewahi kuzungumza na mtu unayemwamini kuhusu hisia zako?
+- Je, unafikiri kuna watu katika jamii yako wanaweza kukusaidia?
+- Je, umewahi kufikiria kuhusu kupata msaada wa kitaalamu kuhusu hofu yako?
+- Ni vipi unavyoweza kujiandaa ili kujihisi salama unapozungumzia PrEP?
+
+Tafadhali nijulishe maswali mengine unayoweza kuwa nayo.",Swahili,0
+5,Ni vipi PrEP inaweza kuathiri hisia zangu kuhusu unyanyasaji na kujitenga katika jamii yangu?,"Ninaelewa kuwa unahisi hofu kuhusu hisia zako. Ni muhimu kuzungumza na mtaalamu wa afya au mshauri. Je, ungependa kujua kuhusu njia nyingine za kusaidia hisia zako? Au kuna jambo lolote lingine unataka kujadili kuhusu PrEP?",Swahili,0
+6,Madhara gani ya muda mfupi yanaweza kutokea nikianza kutumia PrEP na haya yanaweza kunifanya nijisikieje?,"Naelewa kuwa unahisi wasiwasi kuhusu madhara ya muda mfupi ya PrEP. 
+
+1. Je, umewahi kusikia kuhusu madhara kama maumivu ya tumbo au kichwa?
+2. Unafikiri madhara haya yanaweza kukufanya ujisikieje?
+3. Je, kuna jambo lolote unalotaka kujua kuhusu madhara haya?
+4. Unahitaji msaada wa kiakili ili kukabiliana na wasiwasi huu?
+5. Je, ungependa kujua zaidi kuhusu jinsi ya kujilinda na stigma?
+
+Tafadhali uliza maswali mengine.",Swahili,0
+7,"Je, kuna njia zozote za kujilinda na unyanyasaji wakati wa kutumia PrEP katika jamii yangu?","Ningependa kukusaidia, lakini umesema jambo hili tayari. Je, ungependa kujua kuhusu: 
+
+1. Faida za kutumia PrEP?
+2. Madhara ya muda mrefu yanayohusiana na PrEP?
+3. Vigezo vya kuanza kutumia PrEP?
+
+Tafadhali niambie swali lingine.",Swahili,0
+8,"je, kuna njia yoyote yyya kujifunza zaidi kuhusu prep bila watu wengine kujua?","Ningependa kuelewa zaidi. Je, unafikiri ni vyanzo gani vya habari unavyoweza kutafuta kwa faragha? 
+
+Au, je, unataka kujua kuhusu maktaba za mtandaoni au vituo vya afya vinavyotoa maelezo? 
+
+Tafadhali niambie, je, kuna jambo lingine unalotaka kujifunza kuhusu PrEP?",Swahili,0
+9,"like je, ouuuna hatari zozote za kiafya zinazoweza kutokea nikitumia prpe bila kujua?","Ninaelewa kuwa unajisikia wasiwasi kuhusu hatari za kiafya. Ni kawaida kuhofia. Je, umewahi kuzungumza na mtaalamu wa afya kuhusu maswali yako? Unaweza kupata maelezo zaidi kuhusu PrEP kwa kuangalia vituo vya afya karibu. Je, ungependa kujua jinsi ya kupata msaada wa kitaalamu?",Swahili,0
+10,ninaweza kupata msaada wa kifedha ilo kuweza i mean kuanza kutumia prep?,"Ningependa kusaidia. Je, umewahi kuzungumza na mtaalamu wa afya kuhusu msaada wa kifedha? Au, kuna mashirika ya msaada katika eneo lako yanayoweza kusaidia? Unaweza kutafuta taarifa kuhusu mipango ya msaada wa kifedha kwenye vituo vya afya? Ikiwa unahitaji msaada zaidi, unaweza kuwasiliana na huduma za msaada za kiakili?",Swahili,0
+11,"Je, kuna mtu yeyote katika jamii yangu ambaye anaweza kunisaidia kuelewa zadi kuhusu uzoefu like wa kutum1a PrEP?","Ningependa kukusaidia zaidi. Je, umeshawahi kuzungumza na mtaalamu wa afya kuhusu PrEP? Au, je, kuna shirika la afya linalotoa msaada katika eneo lako? Unaweza pia kuangalia vikundi vya msaada mtandaoni. Unafikiri kuna mtu unayemwamini ambaye unaweza kumwuliza maswali? Au, je, unajua kuhusu matukio ya kujadili afya katika jamii yako?",Swahili,0
+12,Ninaweza kuzungumza na daktari kuhusu wasiwasi wangu kuhusu madhara ya PrEP bila kuhisi aibu?,"Ndio, unaweza kuzungumza na daktari kuhusu wasiwasi wako. Daktari ni mtaalamu wa afya. Wanaelewa wasiwasi wa wagonjwa. Ni muhimu kuelezea hisia zako. Je, unataka kujua jinsi ya kutafuta daktari anayekufaa?",Swahili,0
+13,Ni vipi PrEP inaweza kubadilisha mtazamo wangu kuhusu afya yangu na niwezaje kujijenga kwa hiyo?,"Ningependa kuelewa zaidi kuhusu hisia zako. Je, unahisi vipi kuhusu afya yako sasa? Unataka kujijenga vipi ili uwe na mtazamo mzuri? Je, kuna watu wanaokusaidia katika safari yako hii?",Swahili,0
+14,"Je, kuna njia nyingine za kujifunza kuhusu madhara ya PrEP bila kukutana na watu wengi?","Ninaelewa wasiwasi wako kuhusu kukutana na watu wengi. Unaweza kujifunza kuhusu madhara ya PrEP kupitia:
+
+1. Tovuti za afya za kuaminika.
+2. Vitabu na makala kuhusu PrEP.
+3. Mikutano ya mtandaoni au webinars.
+4. Kutoa maswali kwenye majukwaa ya afya mtandaoni.
+
+Je, unafikiri njia hizi zitakusaidia? Au unataka kuuliza kitu kingine?",Swahili,0
+15,"je, kuna mmmtu anaweza kunielekeza jinsi y4 kuchagua daktari mzuri wa kunishauri kuhusi prpe bila kuhosi aibu?","Ninaelewa kuwa kuchagua daktari ni muhimu sana. Hata hivyo, umeshakutana na swali hili kabla. Je, unaweza kuuliza kuhusu kitu kingine? Labda kuhusu jinsi ya kuanza mazungumzo na daktari?",Swahili,0
+16,Ni v1p1 naweza kuzungumz4 na marafiki zangu um kuhusu PrEP bila kuhsi aibu au kuogopa majibu yao?,"Ningependa kusaidia, lakini tayari umeuliza kuhusu kuzungumza na marafiki kuhusu PrEP. Je, ungependa kujua kuhusu njia nyingine za kujifunza au kujadili PrEP?",Swahili,0
+17,"Je, PrEP inaweza kusaidia kuboresha hisia zangu kuhusu afya yangu na kujitenga?","Naelewa unavyohisi. Ni vigumu sana kukabiliana na hisia hizo. 
+
+Ungependa kujua:
+1. Je, kuna njia nyingine za kujenga hisia chanya kuhusu afya yako?
+2. Je, unaweza kuzungumza na mtaalamu wa afya kuhusu hisia zako?
+3. Je, unajua kuhusu vikundi vya msaada katika jamii yako?
+4. Je, kuna watu ambao unaweza kuzungumza nao kuhusu hisia zako?
+5. Je, unafikiri PrEP inaweza kusaidia katika kukabiliana na huzuni yako? 
+
+Niko hapa kukusaidia.",Swahili,0
+18,"Je, kuna wakati ambao PErP inaweza kuathiri vibaya hisia zanfu na kujitenga zaidi katika jamii yangu?","Ningependa kukusaidia, lakini umeuliza swali ambalo tayari tumepitia. Tafadhali jaribu kuuliza kitu kingine. Unaweza kuzungumzia wasiwasi wako kuhusu jamii au madhara ya PrEP?",Swahili,0
+19,Ni vipi nitaweza kujua kama PrEP inafanya kazi vizuri kwangu bila kuhisi shinikizo kutoka kwa jamii yangu?,"Ningependa kuelewa hisia zako. Unapojisikia shinikizo kutoka kwa jamii yako, ni vipi unavyoweza kushughulikia? Je, kuna watu wa kuaminika katika maisha yako wanaweza kukusaidia kuelewa maswali yako? Unaweza kufikiria kuzungumza na daktari kuhusu wasiwasi wako? Unafikiri kuna njia yoyote ya kujifunza zaidi bila kuhisi shinikizo? Je, kuna sababu unayoona ya kuwa na wasiwasi kuhusu PrEP? Je, watu katika jamii yako wana maoni gani kuhusu matumizi ya PrEP?",Swahili,0
+20,"Je, kuna jnia yoyote ya kujifunza kuhusu uzoefu wa wengie na PrEP bila kuhisi aibu au kuhatarisha usiri wangu?","Ninaelewa kuwa unataka kujifunza zaidi kuhusu uzoefu wa wengine na PrEP. Je, umewahi kuangalia rasilimali mtandaoni zinazotoa habari za siri? Au, je, ungependa kuzungumza na mtaalamu wa afya kwa usiri? Unaweza pia kufikiria kujiunga na vikundi vya msaada mtandaoni. Je, unafikiri kuna njia nyingine za kujifunza bila kuhisi aibu?",Swahili,0
+21,"Je, kunw watu 4mb4o wameweza kushinda unyanyasaji ku70k4n4 na kutumia PtEP ba wanaweza kushiriki hadithi zao?","Naelewa kuwa unajali kuhusu hadithi za wengine. Hata hivyo, umeuliza swali hili tayari. 
+
+Je, kuna njia nyingine unayoweza kufikiria kuhusu PrEP au uzoefu wa wengine?",Swahili,0
+22,"Je, kuna makundi aaau jumuiya aa m544d4 zinazoweza kunisaidia kujifunza kuhusu PrEP bila kuhisi aibu?","Ninaelewa kwamba unataka kujifunza kuhusu makundi na jumuiya. Unaweza kujaribu:
+
+1. Kituo cha afya cha karibu.
+2. Mashirika yasiyo ya kiserikali yanayoshughulikia afya.
+3. Vikundi vya mtandaoni vinavyohusiana na HIV na PrEP.
+
+Je, unahitaji msaada wa kuwasiliana na hizi jumuiya?",Swahili,0
+23,"Je, ni vipi PrEP inaweza kusaidia kuboresha hali yangu ya afya ya akili na kuondoa wasiwasi?","Nashukuru kwa swali lako. Kumbuka, ni muhimu kuzungumza na mtaalamu wa afya kuhusu wasiwasi wako. Unaweza pia kufikiria kuzungumza na mtaalamu wa afya ya akili. 
+
+Je, kuna mambo mengine unayopenda kujua kuhusu PrEP au jinsi inavyoweza kusaidia?",Swahili,0
+24,J3 kuna njia yoyote ta kujua kama PErP inafanya kazi kangu bila kuhusika na watu w3ng1?,"Naelewa wasiwasi wako kuhusu ushirikiano na watu wengine. 
+
+1. Je, umewahi kuzungumza na daktari kuhusu jinsi ya kufuatilia matokeo yako mwenyewe?
+2. Je, kuna njia za kujifunza kuhusu PrEP mtandaoni bila kuhusika na watu wengine?
+3. Je, umewahi kufikiria kuhusu kutumia simu au ujumbe wa maandiko kuzungumza na mtaalamu?
+4. Je, unafahamu kuhusu vituo vya afya ambavyo vinatoa maelezo ya faragha kuhusu PrEP?",Swahili,0
+25,"Je, kuna watu wenye uzoefu mzuri na PrEP wanaweza kunipa mwongozo kwa njia ya faragha?","Ningependa kuelewa zaidi. Je, unafikiria ni muhimu kupata mwongozo kutoka kwa watu wenye uzoefu? Au ungependa kujua jinsi ya kuwasiliana nao kwa faragha?",Swahili,0
+26,"Je, kuna njia za kujifunza kuhusu hisia za wengine wanapotumia PrEP bila kuhisi aibu au kuhatarisha usiri wangu?","Ningependa kukusaidia, lakini umeuliza swali hili tayari. Je, ungependa kujua kuhusu: 
+
+1. Njia nyingine za kujifunza kuhusu PrEP?
+2. Watu wanaweza kuzungumza vipi kuhusu hisia zao kwa kutumia PrEP?
+3. Msaada wa kiakili wakati wa kutumia PrEP? 
+
+Tafadhali niambie ni lipi ungependa kujadili zaidi.",Swahili,0
+27,ni vipi naweza kujisikia salama zzidi katika kutoa makni yangu kuhusu prep bila kuoopa hukumu kutoka kwa jamii yangu?,"Ningependa kusaidia, lakini hii ni swali ulilouliza tayari. Je, unaweza kuuliza kitu kingine? Labda kuhusu jinsi ya kupata msaada wa kiakili?",Swahili,0
+28,"Je, ni vipi naweza kuzungumza na familia yangu kuhusu PrEP bila kuogopa majibu yao?","Ninaelewa kuwa kuzungumza na familia kunaweza kuwa ngumu. Unaweza kujaribu:
+
+1. Kuanzisha mazungumzo kuhusu afya kwa ujumla.
+2. Kueleza faida za PrEP kwa njia rahisi.
+3. Kusikiliza wasiwasi wao na kujibu kwa huruma.
+4. Kutafuta msaada kutoka kwa mtu unayemwamini ili akuunge mkono.
+
+Je, kuna jambo lingine unalotaka kujua kuhusu PrEP?",Swahili,0
+29,"Je, kuna dalili za kudumu zinazoweza kutokea nikitumia PrEP ambavyo ningepaswa kujua kabla ya kuanza?","Nashukuru kwa kuuliza. Hata hivyo, tayari umepitia swali kuhusu dalili za kudumu. Je, kuna swali tofauti unalotaka kujua kuhusu PrEP?",Swahili,0
+30,"Je, kuna njia yoyote ya kubaini kama PrEP inafaa kwangu bila kuhisi aibu au shinikizo kutoka kwa wengine?","Nia yako ni nzuri. Tafadhali jaribu kuuliza swali tofauti kuhusu PrEP au hisia zako. Je, ungependa kujua kuhusu madhara ya PrEP au njia za kuzungumza na daktari?",Swahili,0
