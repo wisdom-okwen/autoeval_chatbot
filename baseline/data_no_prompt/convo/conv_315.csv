@@ -1,0 +1,31 @@
+turn,user,bot,language,has_error
+1,"Je, ni hatua zipi ambazo naweza kuchukua ili kupata PrEP bila kukutana na unyanyasaji?","Naelewa unavyohisi. Tafadhali jaribu kuuliza swali tofauti kuhusu PrEP. Je, unataka kujua kuhusu huduma za afya zinazotolewa?",Swahili,0
+2,"Je, naweza kuzungumza na watu wengine 4mb40 wameshawhi kutumia PrEP ili nipate uzoefu wao?","Ningependa kujua, ni wapi nitapata watu ambao wameshawahi kutumia PrEP ili kuzungumza nao? Je, kuna vikundi vya msaada ambavyo vinaweza kunisaidia?",Swahili,0
+3,Ni vipi n4w3za kujua kama kuna maeneo ya kupia HIV kwa faragh bila kuhisi aibu?,"Nimeona umeshawahi kuuliza kuhusu maeneo ya kupia HIV. Je, unaweza kuuliza kitu kingine?",Swahili,0
+4,"Je, kuna kaam vikundi au jumuiya zinazosaidia watu wanaotafuta PrEP bila kuhisi aibu au hukimu?","Nimejua umeshajiuliza kuhusu vikundi au jumuiya. Je, unaweza kuuliza kuhusu njia nyingine za kupata msaada?",Swahili,0
+5,Ninaweza kupata vyanzo vya ku4m1nik4 kuhusu PrPE wapi b1l4 kuhisi aibu?,"Samahani, lakini umeshakutana na swali kama hili. Je, unaweza kuuliza kitu kingine kuhusu PrEP?",Swahili,0
+6,"Je, ni vipi naweza kujenga uhu5i4n0 mzur1 na daktari wangu ili nijidikie salama you know kumw4mb1a kuhusu Pr3P?","Nimeona umeuliza kuhusu uhusiano na daktari. Je, kuna maswali mengine unayopenda kuuliza kuhusu PrEP?",Swahili,0
+7,Niii vipi n4w3z4 kujua ni kigezo gani daktari wang 4na7um1a kabla ta kunipa PrEP?,"Nimeona umeshawahi kuuliza kuhusu viwango vya daktari kabla ya PrEP. Je, kuna jambo jingine unataka kujua?",Swahili,0
+8,"Je, ni vipi naweza kujua kama kuna madaktari ambao hawatahukumu wakati wa kunipa PrEP?","Nimeona umesema kuhusu madaktari. Je, kuna njia nyingine za kujua kuhusu huduma za PrEP?",Swahili,0
+9,"Je, ni vipi naweza kueleza wasiwasi wangu kwa daktari bila kuhisi aibu au kutengwa?","Nimeona umeshauliza kuhusu kueleza wasiwasi kwa daktari. Je, unaweza kuuliza kitu kingine?",Swahili,0
+10,"Je, ni ipi njia bora ya kuanzisha mazungumzo na marafiki kuhusu PrEP bila kuhisi aibu?","Nimeona umesema kuhusu kuanzisha mazungumzo na marafiki. Je, unaweza kuuliza kuhusu njia nyingine?",Swahili,0
+11,Ninaweza kup447 masada wa khiemko wapi wakati ninajisikia kuogopa kuhusu kutafuta PrEP?,"Nimeona umeuliza kuhusu msaada wa kihemko. Je, unaweza kuuliza swali tofauti kuhusu PrEP?",Swahili,0
+12,"Je, ni vipi naweza kupata taarifa sahihi kuhusu mqdhara ya PrEP bila kuhisi aibu au kukosolewa?","Nimeona umeshiriki swali hili kabla. Je, unaweza kuuliza kitu kingine kuhusu PrEP?",Swahili,0
+13,"Je, ni vipi nawzea kujua kama kuna njia za faragha za kupata Pr3P bila kuhisi aibu au hukumu?","Nimeona umeshawahi kuuliza kuhusu njia za faragha za kupata PrEP. Je, kuna maswali mengine unayotaka kuuliza?",Swahili,0
+14,"Je, kuna njia gani za kupata msaada wa kiakili wakati wa kutafuta PrEP bila kuhisi aibu?",Nimeona umeniuliza kuhusu msaada wa kiakili. Tafadhali jaribu kuuliza swali tofauti. Unahitaji msaada wa aina gani?,Swahili,0
+15,Je ni vipi n4w3z4 kujua kama knua watu ambao wanaweza kunisaidia ufahamu mchakato wa kupata PrEP?,"Nimeona umeshawahi kuuliza kuhusu watu wanaoweza kusaidia kuelewa PrEP. Je, unaweza kuuliza kitu kingine?",Swahili,0
+16,Ninaweza kupata msaada wa kihemko wapi wakati nahisi huzuni kuhusu kutafuta PrEP?,"Nimeona umesema kuhusu msaada wa kihemko. Tafadhali jaribu kuuliza kitu kingine. Je, kuna jambo lingine unalotaka kujua kuhusu PrEP?",Swahili,0
+17,you know Ninaweza kuapta yabari gani kuhusu jinsi ya kuomba PrEP bila kuhisi abiu au kutengwa?,Nimeona umeshakutana na swali kama hili. Tafadhali uliza swali tofauti kuhusu PrEP.,Swahili,0
+18,ninaweza kujua ni vipi nitaweza kujandaa kiakili kabla ha kuanza kutumia prep?,"Samahani, lakini swali lako limeshaulizwa. Je, unaweza kuuliza kitu kingine?",Swahili,0
+19,Ninwweza kupata msaada wa kijamii wapi ili kukabiliana na hisia you know zangu kuhusu kutafuta PrEP bila kuhisi aibu?,"Nimeona umeshawahi kuuliza kuhusu msaada wa kijamii. Je, unaweza kuuliza kitu kingine?",Swahili,0
+20,ni vipi naw3z4 kujua uh ni viu gai vy4 kuzingatia kabla ya kuanza kutumia prep ili nisionekane tofauti?,"Nimeona umeshakutana na maswali haya. Je, unaweza kuuliza kitu kingine kuhusu PrEP?",Swahili,0
+21,Naweza kupata wapi msaada wa kifamilia ili kujadili hofu zangu kuhusu kutafuta PrEP bila kuhisi aibu?,"Naweza kukumbusha kuwa umeuliza kuhusu msaada wa kifamilia. Je, kuna maswali mengine unayotaka kuuliza?",Swahili,0
+22,"Je, kuna njia zinazoweza kunisaidia kukabiliana na aibu wakati wa kutafuta maelezo kuhusu PrEP?","Naona umeniuliza kuhusu kukabiliana na aibu. Je, unaweza kuuliza jambo tofauti kuhusu PrEP?",Swahili,0
+23,"je, ni vipi naweza kujua k4a4ma kun4 watu wenye uzoefu ambao wanaweza kun15a1d14 kuelewa vizuri mchakato wa kupata prep?","Samahani, lakini tayari umeuliza kuhusu watu wenye uzoefu wa PrEP. Je, unaweza kuuliza swali tofauti?",Swahili,0
+24,Ninaweza kupata msaada wa kisheria w4p1 ikiwa nitakutana na ubaguzi wakat wa kutafuta PrEP?,"Samahani, lakini umeshawahi kuuliza kuhusu msaada wa kisheria. Je, kuna njia nyingine unayotaka kujua kuhusu PrEP?",Swahili,0
+25,"Je, kun4 njia gani za kujiandaa kubadikisha mtazwmo wangu kuhu5 Pr3P ili niweze kutafuta msaada bila hofu?","Nimeona umeshakutana na swali kama hili. Je, unaweza kuuliza kuhusu njia nyingine za kupata msaada?",Swahili,0
+26,"Je, ni vipi naweza kupata msaada wa kisaikolojia ili niweze kukabiliana na aibu yangu wakati wa kutafuta PrEP?",Nimepata swali hili kabla. Tafadhali uliza kitu kingine kuhusu PrEP.,Swahili,0
+27,"Je, ni vipi naweza kujua kama kuna watoa huduma wa afya ambao wanaweza kunielewa bila kunihukumu?","Nimeona umeshawahi kuuliza kuhusu watoa huduma wa afya. Je, kuna maswali mengine unataka kuuliza?",Swahili,0
+28,"je, hi vipi nitaweza kujua kama kuuuna makundi ya mswada kwa watu wanaotafuta preeep?","Naona umeshakutana na swali hili. Je, kuna swali lingine unalotaka kuuliza kuhusu PrEP?",Swahili,0
+29,Ninaweza kupata njia gani za kuzungumza na watu ambao wanaweza kuelewa hofu zangu kuhusu kutafuta PrEP?,"Ningependa kusaidia, lakini swali hili tayari umelouliza. Tafadhali uliza swali tofauti.",Swahili,0
+30,Ninaweza kupata maelezo gani kuhusu jinsi ya kujikumbusha kuwa na ujasiri wakati wa kutafuta PrEP?,"Nimeelewa. Tafadhali jaribu kuuliza swali tofauti kuhusu PrEP. Je, kuna jambo lingine unalotaka kujua?",Swahili,0
