@@ -1,0 +1,530 @@
+🔍 Superjudge Comparative Evaluation
+  Sample size: 80
+  Random seed: 42
+  Output: superjudge_comparison.csv
+  Judge: GPT-4 Turbo
+
+Superjudge Comparative Evaluation
+  Sample size: 80
+  Random seed: 42
+  Output: superjudge_comparison.csv
+
+✅ Using gpt-4-turbo as expert judge
+
+Randomly sampled 80 conversations (seed: 42)
+Conversation IDs: [3, 12, 13, 15, 16, 22, 23, 35, 40, 44, 47, 49, 52, 57, 63, 71, 79, 81, 98, 101, 110, 111, 112, 114, 116, 119, 125, 135, 140, 142, 150, 172, 174, 176, 183, 185, 193, 194, 214, 216, 229, 235, 258, 274, 279, 282, 287, 295, 301, 302, 308, 309, 316, 321, 327, 332, 338, 346, 357, 359, 360, 366, 373, 377, 379, 388, 390, 395, 412, 413, 414, 424, 433, 441, 445, 453, 456, 472, 490, 498]
+
+
+Evaluating conversation set 003
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 012
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 013
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 015
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 016
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 5/80 conversations evaluated
+
+Evaluating conversation set 022
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 023
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 035
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 040
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 044
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 10/80 conversations evaluated
+
+Evaluating conversation set 047
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 049
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 052
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 057
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 063
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 15/80 conversations evaluated
+
+Evaluating conversation set 071
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 079
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 081
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 098
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 101
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 20/80 conversations evaluated
+
+Evaluating conversation set 110
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 111
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 112
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 114
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 116
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 25/80 conversations evaluated
+
+Evaluating conversation set 119
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 125
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 135
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 140
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 142
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 30/80 conversations evaluated
+
+Evaluating conversation set 150
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 172
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 174
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 176
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 183
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 35/80 conversations evaluated
+
+Evaluating conversation set 185
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 193
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 194
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 214
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 216
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 40/80 conversations evaluated
+
+Evaluating conversation set 229
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 235
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 258
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 274
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 279
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 45/80 conversations evaluated
+
+Evaluating conversation set 282
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 287
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 295
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 301
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 302
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 50/80 conversations evaluated
+
+Evaluating conversation set 308
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 309
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 316
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 321
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 327
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 55/80 conversations evaluated
+
+Evaluating conversation set 332
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 338
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 346
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 357
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 359
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 60/80 conversations evaluated
+
+Evaluating conversation set 360
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 366
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 373
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 377
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 379
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 65/80 conversations evaluated
+
+Evaluating conversation set 388
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 390
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 395
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 412
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 413
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 70/80 conversations evaluated
+
+Evaluating conversation set 414
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 424
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 433
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 441
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 445
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 75/80 conversations evaluated
+
+Evaluating conversation set 453
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 456
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 472
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 490
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+
+Evaluating conversation set 498
+  - Full system: 30 turns
+  - Prompt-only: 30 turns
+  - Data-only: 30 turns
+  ✅ Best system: A (Rating: 9.0/10)
+🎯 Progress: 80/80 conversations evaluated
+
+✅ Results saved to: /playpen-ssd/wokwen/projects/autoeval_chatbot/superjudge_eval/data/superjudge_comparison.csv
+
+==================================================
+SUMMARY STATISTICS
+==================================================
+Total conversations evaluated: 80
+
+Best system counts:
+  A (Full System): 80 (100.0%)
+  B (Prompt-Only): 0 (0.0%)
+  C (Data-Only): 0 (0.0%)
+
+Average rating of best systems: 9.00/10
+
+Detailed results saved to: /playpen-ssd/wokwen/projects/autoeval_chatbot/superjudge_eval/data/superjudge_comparison.csv
+
+✅ Superjudge evaluation complete!

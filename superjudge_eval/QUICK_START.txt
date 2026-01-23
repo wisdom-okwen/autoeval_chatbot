@@ -1,0 +1,73 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║               SUPERJUDGE COMPARATIVE EVALUATION - QUICK START              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+WHAT IS IT?
+-----------
+Expert system (GPT-4o) compares your 3 chatbot baselines across 500 conversation sets:
+  • System A: Full system (prompt + data)
+  • System B: Prompt-only (no data)
+  • System C: Data-only (no prompt)
+
+WHAT YOU NEED
+-----------
+1. OpenAI API key:
+   export OPENAI_API_KEY="sk-..."
+
+2. Python 3.8+
+3. All conversation files present (500 sets each):
+   - conversations/conv_*.csv
+   - baseline/prompt_no_data/convo/conv_*.csv
+   - baseline/data_no_prompt/convo/conv_*.csv
+
+GET STARTED
+-----------
+Option 1: Test with 5 conversations
+  cd /playpen-ssd/wokwen/projects/autoeval_chatbot
+  export OPENAI_API_KEY="sk-..."
+  python scripts/superjudge_comparison.py --sample-size 5 --seed 42
+
+Option 2: Run 50-conversation evaluation
+  ./scripts/run_superjudge.sh 50 42
+
+Option 3: Evaluate specific conversations
+  python scripts/superjudge_comparison.py --conversations "0,5,10,15,20"
+
+OUTPUT
+------
+Results saved to: superjudge_eval/data/superjudge_comparison.csv
+
+Columns:
+  • conversation_id: Which conversation (0-499)
+  • best_system: Winner (A/B/C)
+  • rating: Quality score (1-10)
+  • reasoning: Why GPT-4o chose this system
+  • num_turns_*: Turn counts for each system
+
+MONITOR PROGRESS
+----------------
+./scripts/monitor_all.sh
+
+EXPECTED RESULTS
+----------------
+System A usually wins ~60-70% (balanced approach superior)
+System B wins ~10-20% (when tone matters more than facts)
+System C wins ~10-20% (when facts critical, tone less important)
+
+TIME & COST
+-----------
+  5 conversations: ~30-60 seconds, ~$0.05
+  50 conversations: ~5-10 minutes, ~$0.50
+  500 conversations: ~50-100 minutes, ~$5-10
+
+DOCUMENTATION
+--------------
+Read full details: superjudge_eval/README.md
+
+═══════════════════════════════════════════════════════════════════════════════
+
+READY? Run:
+  export OPENAI_API_KEY="sk-..."
+  cd /playpen-ssd/wokwen/projects/autoeval_chatbot
+  ./scripts/run_superjudge.sh 5 42
+
