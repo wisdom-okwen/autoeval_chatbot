@@ -38,7 +38,7 @@ def call_api(api_base_url: str, prompt: str) -> str:
         response = requests.post(
             f"{api_base_url}/v1/chat/completions",
             json={
-                "model": "Qwen/Qwen2.5-7B-Instruct",
+                "model": "meta-llama/Llama-3.2-3B-Instruct",
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.7,
                 "max_tokens": 50,
