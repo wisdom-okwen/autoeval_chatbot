@@ -1,0 +1,9 @@
+level/criterion,mean_within_item_SD,median_SD,max_SD
+overall,0.000,0.000,0.000
+criterion: Clinical Accuracy & Safety,0.000,0.000,0.000
+criterion: Clarity & Understandability,0.354,0.354,0.707
+criterion: Actionability,0.354,0.354,0.707
+criterion: Empathy & Supportiveness,0.354,0.354,0.707
+criterion: Adaptability & Personalization,0.354,0.354,0.707
+criterion: Trustworthiness & Ethical Communication,0.000,0.000,0.000
+per_turn (temp 0.7),0.189,0.000,0.707

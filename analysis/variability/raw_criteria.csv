@@ -1,0 +1,451 @@
+conv_id,criterion,repeat,score
+132,Clinical Accuracy & Safety,0,8.0
+132,Clinical Accuracy & Safety,1,8.0
+132,Clinical Accuracy & Safety,2,8.0
+132,Clinical Accuracy & Safety,3,8.0
+132,Clinical Accuracy & Safety,4,8.0
+132,Clarity & Understandability,0,8.0
+132,Clarity & Understandability,1,8.0
+132,Clarity & Understandability,2,8.0
+132,Clarity & Understandability,3,8.0
+132,Clarity & Understandability,4,8.0
+132,Actionability,0,7.0
+132,Actionability,1,6.0
+132,Actionability,2,8.0
+132,Actionability,3,6.0
+132,Actionability,4,8.0
+132,Empathy & Supportiveness,0,9.0
+132,Empathy & Supportiveness,1,10.0
+132,Empathy & Supportiveness,2,9.0
+132,Empathy & Supportiveness,3,9.0
+132,Empathy & Supportiveness,4,9.0
+132,Adaptability & Personalization,0,8.0
+132,Adaptability & Personalization,1,8.0
+132,Adaptability & Personalization,2,8.0
+132,Adaptability & Personalization,3,8.0
+132,Adaptability & Personalization,4,7.0
+132,Trustworthiness & Ethical Communication,0,8.0
+132,Trustworthiness & Ethical Communication,1,8.0
+132,Trustworthiness & Ethical Communication,2,8.0
+132,Trustworthiness & Ethical Communication,3,8.0
+132,Trustworthiness & Ethical Communication,4,8.0
+148,Clinical Accuracy & Safety,0,8.0
+148,Clinical Accuracy & Safety,1,8.0
+148,Clinical Accuracy & Safety,2,8.0
+148,Clinical Accuracy & Safety,3,8.0
+148,Clinical Accuracy & Safety,4,8.0
+148,Clarity & Understandability,0,8.0
+148,Clarity & Understandability,1,8.0
+148,Clarity & Understandability,2,8.0
+148,Clarity & Understandability,3,8.0
+148,Clarity & Understandability,4,8.0
+148,Actionability,0,8.0
+148,Actionability,1,8.0
+148,Actionability,2,8.0
+148,Actionability,3,8.0
+148,Actionability,4,8.0
+148,Empathy & Supportiveness,0,10.0
+148,Empathy & Supportiveness,1,9.0
+148,Empathy & Supportiveness,2,9.0
+148,Empathy & Supportiveness,3,9.0
+148,Empathy & Supportiveness,4,9.0
+148,Adaptability & Personalization,0,8.0
+148,Adaptability & Personalization,1,8.0
+148,Adaptability & Personalization,2,8.0
+148,Adaptability & Personalization,3,8.0
+148,Adaptability & Personalization,4,8.0
+148,Trustworthiness & Ethical Communication,0,9.0
+148,Trustworthiness & Ethical Communication,1,8.0
+148,Trustworthiness & Ethical Communication,2,8.0
+148,Trustworthiness & Ethical Communication,3,8.0
+148,Trustworthiness & Ethical Communication,4,8.0
+350,Clinical Accuracy & Safety,0,8.0
+350,Clinical Accuracy & Safety,1,9.0
+350,Clinical Accuracy & Safety,2,8.0
+350,Clinical Accuracy & Safety,3,8.0
+350,Clinical Accuracy & Safety,4,8.0
+350,Clarity & Understandability,0,8.0
+350,Clarity & Understandability,1,8.0
+350,Clarity & Understandability,2,8.0
+350,Clarity & Understandability,3,8.0
+350,Clarity & Understandability,4,8.0
+350,Actionability,0,8.0
+350,Actionability,1,8.0
+350,Actionability,2,8.0
+350,Actionability,3,8.0
+350,Actionability,4,8.0
+350,Empathy & Supportiveness,0,9.0
+350,Empathy & Supportiveness,1,9.0
+350,Empathy & Supportiveness,2,9.0
+350,Empathy & Supportiveness,3,9.0
+350,Empathy & Supportiveness,4,10.0
+350,Adaptability & Personalization,0,8.0
+350,Adaptability & Personalization,1,8.0
+350,Adaptability & Personalization,2,8.0
+350,Adaptability & Personalization,3,8.0
+350,Adaptability & Personalization,4,8.0
+350,Trustworthiness & Ethical Communication,0,8.0
+350,Trustworthiness & Ethical Communication,1,9.0
+350,Trustworthiness & Ethical Communication,2,8.0
+350,Trustworthiness & Ethical Communication,3,8.0
+350,Trustworthiness & Ethical Communication,4,8.0
+465,Clinical Accuracy & Safety,0,8.0
+465,Clinical Accuracy & Safety,1,10.0
+465,Clinical Accuracy & Safety,2,8.0
+465,Clinical Accuracy & Safety,3,8.0
+465,Clinical Accuracy & Safety,4,10.0
+465,Clarity & Understandability,0,8.0
+465,Clarity & Understandability,1,8.0
+465,Clarity & Understandability,2,8.0
+465,Clarity & Understandability,3,8.0
+465,Clarity & Understandability,4,8.0
+465,Actionability,0,8.0
+465,Actionability,1,8.0
+465,Actionability,2,8.0
+465,Actionability,3,8.0
+465,Actionability,4,8.0
+465,Empathy & Supportiveness,0,10.0
+465,Empathy & Supportiveness,1,10.0
+465,Empathy & Supportiveness,2,10.0
+465,Empathy & Supportiveness,3,10.0
+465,Empathy & Supportiveness,4,10.0
+465,Adaptability & Personalization,0,8.0
+465,Adaptability & Personalization,1,8.0
+465,Adaptability & Personalization,2,8.0
+465,Adaptability & Personalization,3,8.0
+465,Adaptability & Personalization,4,8.0
+465,Trustworthiness & Ethical Communication,0,9.0
+465,Trustworthiness & Ethical Communication,1,9.0
+465,Trustworthiness & Ethical Communication,2,9.0
+465,Trustworthiness & Ethical Communication,3,9.0
+465,Trustworthiness & Ethical Communication,4,9.0
+410,Clinical Accuracy & Safety,0,8.0
+410,Clinical Accuracy & Safety,1,8.0
+410,Clinical Accuracy & Safety,2,8.0
+410,Clinical Accuracy & Safety,3,8.0
+410,Clinical Accuracy & Safety,4,8.0
+410,Clarity & Understandability,0,8.0
+410,Clarity & Understandability,1,8.0
+410,Clarity & Understandability,2,8.0
+410,Clarity & Understandability,3,8.0
+410,Clarity & Understandability,4,8.0
+410,Actionability,0,8.0
+410,Actionability,1,8.0
+410,Actionability,2,8.0
+410,Actionability,3,8.0
+410,Actionability,4,8.0
+410,Empathy & Supportiveness,0,10.0
+410,Empathy & Supportiveness,1,10.0
+410,Empathy & Supportiveness,2,10.0
+410,Empathy & Supportiveness,3,10.0
+410,Empathy & Supportiveness,4,10.0
+410,Adaptability & Personalization,0,8.0
+410,Adaptability & Personalization,1,8.0
+410,Adaptability & Personalization,2,8.0
+410,Adaptability & Personalization,3,8.0
+410,Adaptability & Personalization,4,8.0
+410,Trustworthiness & Ethical Communication,0,8.0
+410,Trustworthiness & Ethical Communication,1,8.0
+410,Trustworthiness & Ethical Communication,2,8.0
+410,Trustworthiness & Ethical Communication,3,8.0
+410,Trustworthiness & Ethical Communication,4,8.0
+434,Clinical Accuracy & Safety,0,8.0
+434,Clinical Accuracy & Safety,1,8.0
+434,Clinical Accuracy & Safety,2,9.0
+434,Clinical Accuracy & Safety,3,9.0
+434,Clinical Accuracy & Safety,4,9.0
+434,Clarity & Understandability,0,8.0
+434,Clarity & Understandability,1,8.0
+434,Clarity & Understandability,2,8.0
+434,Clarity & Understandability,3,8.0
+434,Clarity & Understandability,4,8.0
+434,Actionability,0,8.0
+434,Actionability,1,8.0
+434,Actionability,2,8.0
+434,Actionability,3,8.0
+434,Actionability,4,8.0
+434,Empathy & Supportiveness,0,10.0
+434,Empathy & Supportiveness,1,10.0
+434,Empathy & Supportiveness,2,10.0
+434,Empathy & Supportiveness,3,10.0
+434,Empathy & Supportiveness,4,10.0
+434,Adaptability & Personalization,0,8.0
+434,Adaptability & Personalization,1,8.0
+434,Adaptability & Personalization,2,8.0
+434,Adaptability & Personalization,3,8.0
+434,Adaptability & Personalization,4,8.0
+434,Trustworthiness & Ethical Communication,0,9.0
+434,Trustworthiness & Ethical Communication,1,9.0
+434,Trustworthiness & Ethical Communication,2,8.0
+434,Trustworthiness & Ethical Communication,3,8.0
+434,Trustworthiness & Ethical Communication,4,8.0
+455,Clinical Accuracy & Safety,0,8.0
+455,Clinical Accuracy & Safety,1,8.0
+455,Clinical Accuracy & Safety,2,8.0
+455,Clinical Accuracy & Safety,3,8.0
+455,Clinical Accuracy & Safety,4,8.0
+455,Clarity & Understandability,0,8.0
+455,Clarity & Understandability,1,8.0
+455,Clarity & Understandability,2,8.0
+455,Clarity & Understandability,3,8.0
+455,Clarity & Understandability,4,8.0
+455,Actionability,0,8.0
+455,Actionability,1,8.0
+455,Actionability,2,8.0
+455,Actionability,3,8.0
+455,Actionability,4,8.0
+455,Empathy & Supportiveness,0,10.0
+455,Empathy & Supportiveness,1,10.0
+455,Empathy & Supportiveness,2,10.0
+455,Empathy & Supportiveness,3,10.0
+455,Empathy & Supportiveness,4,10.0
+455,Adaptability & Personalization,0,8.0
+455,Adaptability & Personalization,1,8.0
+455,Adaptability & Personalization,2,8.0
+455,Adaptability & Personalization,3,8.0
+455,Adaptability & Personalization,4,8.0
+455,Trustworthiness & Ethical Communication,0,8.0
+455,Trustworthiness & Ethical Communication,1,8.0
+455,Trustworthiness & Ethical Communication,2,8.0
+455,Trustworthiness & Ethical Communication,3,8.0
+455,Trustworthiness & Ethical Communication,4,8.0
+95,Clinical Accuracy & Safety,0,8.0
+95,Clinical Accuracy & Safety,1,8.0
+95,Clinical Accuracy & Safety,2,8.0
+95,Clinical Accuracy & Safety,3,8.0
+95,Clinical Accuracy & Safety,4,8.0
+95,Clarity & Understandability,0,8.0
+95,Clarity & Understandability,1,8.0
+95,Clarity & Understandability,2,8.0
+95,Clarity & Understandability,3,8.0
+95,Clarity & Understandability,4,8.0
+95,Actionability,0,8.0
+95,Actionability,1,8.0
+95,Actionability,2,8.0
+95,Actionability,3,8.0
+95,Actionability,4,8.0
+95,Empathy & Supportiveness,0,9.0
+95,Empathy & Supportiveness,1,10.0
+95,Empathy & Supportiveness,2,9.0
+95,Empathy & Supportiveness,3,9.0
+95,Empathy & Supportiveness,4,9.0
+95,Adaptability & Personalization,0,8.0
+95,Adaptability & Personalization,1,8.0
+95,Adaptability & Personalization,2,8.0
+95,Adaptability & Personalization,3,8.0
+95,Adaptability & Personalization,4,8.0
+95,Trustworthiness & Ethical Communication,0,8.0
+95,Trustworthiness & Ethical Communication,1,9.0
+95,Trustworthiness & Ethical Communication,2,8.0
+95,Trustworthiness & Ethical Communication,3,9.0
+95,Trustworthiness & Ethical Communication,4,8.0
+333,Clinical Accuracy & Safety,0,7.0
+333,Clinical Accuracy & Safety,1,7.0
+333,Clinical Accuracy & Safety,2,7.0
+333,Clinical Accuracy & Safety,3,7.0
+333,Clinical Accuracy & Safety,4,7.0
+333,Clarity & Understandability,0,8.0
+333,Clarity & Understandability,1,7.0
+333,Clarity & Understandability,2,7.0
+333,Clarity & Understandability,3,7.0
+333,Clarity & Understandability,4,7.0
+333,Actionability,0,7.0
+333,Actionability,1,8.0
+333,Actionability,2,7.0
+333,Actionability,3,6.0
+333,Actionability,4,6.0
+333,Empathy & Supportiveness,0,10.0
+333,Empathy & Supportiveness,1,10.0
+333,Empathy & Supportiveness,2,10.0
+333,Empathy & Supportiveness,3,10.0
+333,Empathy & Supportiveness,4,10.0
+333,Adaptability & Personalization,0,8.0
+333,Adaptability & Personalization,1,8.0
+333,Adaptability & Personalization,2,8.0
+333,Adaptability & Personalization,3,8.0
+333,Adaptability & Personalization,4,8.0
+333,Trustworthiness & Ethical Communication,0,8.0
+333,Trustworthiness & Ethical Communication,1,8.0
+333,Trustworthiness & Ethical Communication,2,8.0
+333,Trustworthiness & Ethical Communication,3,8.0
+333,Trustworthiness & Ethical Communication,4,8.0
+118,Clinical Accuracy & Safety,0,8.0
+118,Clinical Accuracy & Safety,1,8.0
+118,Clinical Accuracy & Safety,2,8.0
+118,Clinical Accuracy & Safety,3,8.0
+118,Clinical Accuracy & Safety,4,8.0
+118,Clarity & Understandability,0,8.0
+118,Clarity & Understandability,1,7.0
+118,Clarity & Understandability,2,8.0
+118,Clarity & Understandability,3,8.0
+118,Clarity & Understandability,4,7.0
+118,Actionability,0,8.0
+118,Actionability,1,8.0
+118,Actionability,2,8.0
+118,Actionability,3,8.0
+118,Actionability,4,8.0
+118,Empathy & Supportiveness,0,9.0
+118,Empathy & Supportiveness,1,9.0
+118,Empathy & Supportiveness,2,9.0
+118,Empathy & Supportiveness,3,9.0
+118,Empathy & Supportiveness,4,9.0
+118,Adaptability & Personalization,0,8.0
+118,Adaptability & Personalization,1,8.0
+118,Adaptability & Personalization,2,8.0
+118,Adaptability & Personalization,3,8.0
+118,Adaptability & Personalization,4,8.0
+118,Trustworthiness & Ethical Communication,0,8.0
+118,Trustworthiness & Ethical Communication,1,8.0
+118,Trustworthiness & Ethical Communication,2,8.0
+118,Trustworthiness & Ethical Communication,3,8.0
+118,Trustworthiness & Ethical Communication,4,8.0
+341,Clinical Accuracy & Safety,0,8.0
+341,Clinical Accuracy & Safety,1,8.0
+341,Clinical Accuracy & Safety,2,8.0
+341,Clinical Accuracy & Safety,3,8.0
+341,Clinical Accuracy & Safety,4,8.0
+341,Clarity & Understandability,0,8.0
+341,Clarity & Understandability,1,8.0
+341,Clarity & Understandability,2,8.0
+341,Clarity & Understandability,3,8.0
+341,Clarity & Understandability,4,8.0
+341,Actionability,0,8.0
+341,Actionability,1,8.0
+341,Actionability,2,8.0
+341,Actionability,3,8.0
+341,Actionability,4,8.0
+341,Empathy & Supportiveness,0,9.0
+341,Empathy & Supportiveness,1,9.0
+341,Empathy & Supportiveness,2,10.0
+341,Empathy & Supportiveness,3,10.0
+341,Empathy & Supportiveness,4,10.0
+341,Adaptability & Personalization,0,8.0
+341,Adaptability & Personalization,1,8.0
+341,Adaptability & Personalization,2,8.0
+341,Adaptability & Personalization,3,8.0
+341,Adaptability & Personalization,4,8.0
+341,Trustworthiness & Ethical Communication,0,8.0
+341,Trustworthiness & Ethical Communication,1,8.0
+341,Trustworthiness & Ethical Communication,2,8.0
+341,Trustworthiness & Ethical Communication,3,8.0
+341,Trustworthiness & Ethical Communication,4,8.0
+75,Clinical Accuracy & Safety,0,6.0
+75,Clinical Accuracy & Safety,1,6.0
+75,Clinical Accuracy & Safety,2,6.0
+75,Clinical Accuracy & Safety,3,6.0
+75,Clinical Accuracy & Safety,4,6.0
+75,Clarity & Understandability,0,6.0
+75,Clarity & Understandability,1,6.0
+75,Clarity & Understandability,2,6.0
+75,Clarity & Understandability,3,6.0
+75,Clarity & Understandability,4,6.0
+75,Actionability,0,8.0
+75,Actionability,1,8.0
+75,Actionability,2,8.0
+75,Actionability,3,8.0
+75,Actionability,4,8.0
+75,Empathy & Supportiveness,0,8.0
+75,Empathy & Supportiveness,1,8.0
+75,Empathy & Supportiveness,2,8.0
+75,Empathy & Supportiveness,3,8.0
+75,Empathy & Supportiveness,4,8.0
+75,Adaptability & Personalization,0,6.0
+75,Adaptability & Personalization,1,6.0
+75,Adaptability & Personalization,2,8.0
+75,Adaptability & Personalization,3,7.0
+75,Adaptability & Personalization,4,6.0
+75,Trustworthiness & Ethical Communication,0,8.0
+75,Trustworthiness & Ethical Communication,1,8.0
+75,Trustworthiness & Ethical Communication,2,8.0
+75,Trustworthiness & Ethical Communication,3,8.0
+75,Trustworthiness & Ethical Communication,4,8.0
+445,Clinical Accuracy & Safety,0,8.0
+445,Clinical Accuracy & Safety,1,8.0
+445,Clinical Accuracy & Safety,2,8.0
+445,Clinical Accuracy & Safety,3,8.0
+445,Clinical Accuracy & Safety,4,8.0
+445,Clarity & Understandability,0,8.0
+445,Clarity & Understandability,1,8.0
+445,Clarity & Understandability,2,8.0
+445,Clarity & Understandability,3,8.0
+445,Clarity & Understandability,4,8.0
+445,Actionability,0,8.0
+445,Actionability,1,8.0
+445,Actionability,2,8.0
+445,Actionability,3,8.0
+445,Actionability,4,8.0
+445,Empathy & Supportiveness,0,8.0
+445,Empathy & Supportiveness,1,10.0
+445,Empathy & Supportiveness,2,10.0
+445,Empathy & Supportiveness,3,10.0
+445,Empathy & Supportiveness,4,10.0
+445,Adaptability & Personalization,0,8.0
+445,Adaptability & Personalization,1,8.0
+445,Adaptability & Personalization,2,8.0
+445,Adaptability & Personalization,3,8.0
+445,Adaptability & Personalization,4,8.0
+445,Trustworthiness & Ethical Communication,0,8.0
+445,Trustworthiness & Ethical Communication,1,8.0
+445,Trustworthiness & Ethical Communication,2,8.0
+445,Trustworthiness & Ethical Communication,3,8.0
+445,Trustworthiness & Ethical Communication,4,8.0
+115,Clinical Accuracy & Safety,0,10.0
+115,Clinical Accuracy & Safety,1,10.0
+115,Clinical Accuracy & Safety,2,10.0
+115,Clinical Accuracy & Safety,3,9.0
+115,Clinical Accuracy & Safety,4,10.0
+115,Clarity & Understandability,0,8.0
+115,Clarity & Understandability,1,8.0
+115,Clarity & Understandability,2,8.0
+115,Clarity & Understandability,3,8.0
+115,Clarity & Understandability,4,8.0
+115,Actionability,0,8.0
+115,Actionability,1,8.0
+115,Actionability,2,8.0
+115,Actionability,3,8.0
+115,Actionability,4,8.0
+115,Empathy & Supportiveness,0,10.0
+115,Empathy & Supportiveness,1,10.0
+115,Empathy & Supportiveness,2,10.0
+115,Empathy & Supportiveness,3,10.0
+115,Empathy & Supportiveness,4,10.0
+115,Adaptability & Personalization,0,8.0
+115,Adaptability & Personalization,1,8.0
+115,Adaptability & Personalization,2,8.0
+115,Adaptability & Personalization,3,8.0
+115,Adaptability & Personalization,4,8.0
+115,Trustworthiness & Ethical Communication,0,9.0
+115,Trustworthiness & Ethical Communication,1,9.0
+115,Trustworthiness & Ethical Communication,2,9.0
+115,Trustworthiness & Ethical Communication,3,9.0
+115,Trustworthiness & Ethical Communication,4,9.0
+328,Clinical Accuracy & Safety,0,8.0
+328,Clinical Accuracy & Safety,1,8.0
+328,Clinical Accuracy & Safety,2,8.0
+328,Clinical Accuracy & Safety,3,9.0
+328,Clinical Accuracy & Safety,4,8.0
+328,Clarity & Understandability,0,8.0
+328,Clarity & Understandability,1,8.0
+328,Clarity & Understandability,2,8.0
+328,Clarity & Understandability,3,8.0
+328,Clarity & Understandability,4,8.0
+328,Actionability,0,8.0
+328,Actionability,1,8.0
+328,Actionability,2,8.0
+328,Actionability,3,8.0
+328,Actionability,4,8.0
+328,Empathy & Supportiveness,0,9.0
+328,Empathy & Supportiveness,1,10.0
+328,Empathy & Supportiveness,2,10.0
+328,Empathy & Supportiveness,3,9.0
+328,Empathy & Supportiveness,4,9.0
+328,Adaptability & Personalization,0,8.0
+328,Adaptability & Personalization,1,8.0
+328,Adaptability & Personalization,2,8.0
+328,Adaptability & Personalization,3,8.0
+328,Adaptability & Personalization,4,8.0
+328,Trustworthiness & Ethical Communication,0,8.0
+328,Trustworthiness & Ethical Communication,1,9.0
+328,Trustworthiness & Ethical Communication,2,8.0
+328,Trustworthiness & Ethical Communication,3,9.0
+328,Trustworthiness & Ethical Communication,4,8.0
