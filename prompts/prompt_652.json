@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare while experiencing homelessness",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness, which has made it difficult to access healthcare services, including PrEP. You worry about stigma and whether you can find a healthcare provider who understands your situation. The lack of a permanent address complicates your ability to get prescriptions and regular check-ups, causing feelings of fear and uncertainty about your sexual health.",
+  "example_questions_clean": [
+    "How can I get PrEP without a permanent address?",
+    "Are there clinics that offer free or low-cost PrEP for people facing homelessness?",
+    "What should I do if I feel embarrassed talking about my situation when seeking PrEP?",
+    "Is it possible to get PrEP delivered to a shelter or a friend's place?",
+    "What resources are available specifically for individuals like me who want to access PrEP?",
+    "Can I trust that healthcare providers will respect my privacy when I seek information about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I get PrEP without a permanent address?",
+    "Are there clinics that offer free or low-cost PrEP for people facing homelessness?",
+    "What should I do if I feel embarrassed talking about my situation when seeking PrEP?",
+    "Is it possible to get PrEP delivered to a shelter or a friend's place?",
+    "What resources are available specifically for individuals like me who want to access PrEP?",
+    "Can I trust that healthcare providers will respect my privacy when I seek information about PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What should I do if I feel embarrassed talking about my situation when seeking PrEP?",
+  "starter_noisy": "What should I do if I feel embarrassed talking about my situation when seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I get PrEP without a permanent address?",
+  "followup_noisy": "How can I get PrEP without a permanent address?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare while experiencing homelessness\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness, which has made it difficult to access healthcare services, including PrEP. You worry about stigma and whether you can find a healthcare provider who understands your situation. The lack of a permanent address complicates your ability to get prescriptions and regular check-ups, causing feelings of fear and uncertainty about your sexual health.\",\n  \"example_questions\": [\n    \"How can I get PrEP without a permanent address?\",\n    \"Are there clinics that offer free or low-cost PrEP for people facing homelessness?\",\n    \"What should I do if I feel embarrassed talking about my situation when seeking PrEP?\",\n    \"Is it possible to get PrEP delivered to a shelter or a friend's place?\",\n    \"What resources are available specifically for individuals like me who want to access PrEP?\",\n    \"Can I trust that healthcare providers will respect my privacy when I seek information about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cfe3478abf363c33db42a53fae0150c3864dc09f709a430593fb510fb42f62cc",
+  "_starter_hash": "16dde12340a97e7e51f5969599ca478790a5c863bec767fcaeed892817c9e3d3",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

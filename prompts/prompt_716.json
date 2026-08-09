@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding the medication and its implications due to a learning disability",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of accessing PrEP while managing a learning disability that affects your ability to process information. This creates feelings of anxiety and confusion about medical terminology and the importance of adherence. You worry about stigma from healthcare providers and the potential misunderstanding of your condition, which adds to your apprehension about starting PrEP.",
+  "example_questions_clean": [
+    "What are the key benefits of taking PrEP for someone like me?",
+    "How can I talk to my doctor about my learning disability and my need for PrEP?",
+    "Are there resources available that explain PrEP in simpler terms?",
+    "What should I do if I feel overwhelmed by the information about PrEP?",
+    "How can I find support groups for people in my situation?",
+    "What steps can I take to ensure I'm comfortable with my PrEP regimen?"
+  ],
+  "example_questions_noisy": [
+    "What are the key benefits of taking PrEP for someone like me?",
+    "How can I talk to my doctor about my learning disability and my need for PrEP?",
+    "Are there resources available that explain PrEP in simpler terms?",
+    "What should I do if I feel overwhelmed by the information about PrEP?",
+    "How can I find support groups for people in my situation?",
+    "What steps can I take to ensure I'm comfortable with my PrEP regimen?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I do if I feel overwhelmed by the information about PrEP?",
+  "starter_noisy": "What should I do if I feel overwhelmed by the information about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the key benefits of taking PrEP for someone like me?",
+  "followup_noisy": "What are the key benefits of taking PrEP for someone like me?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding the medication and its implications due to a learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of accessing PrEP while managing a learning disability that affects your ability to process information. This creates feelings of anxiety and confusion about medical terminology and the importance of adherence. You worry about stigma from healthcare providers and the potential misunderstanding of your condition, which adds to your apprehension about starting PrEP.\",\n  \"example_questions\": [\n    \"What are the key benefits of taking PrEP for someone like me?\",\n    \"How can I talk to my doctor about my learning disability and my need for PrEP?\",\n    \"Are there resources available that explain PrEP in simpler terms?\",\n    \"What should I do if I feel overwhelmed by the information about PrEP?\",\n    \"How can I find support groups for people in my situation?\",\n    \"What steps can I take to ensure I'm comfortable with my PrEP regimen?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "300aa2cba24a0e950f07b568e8110c74acb2c56d4ad9061e5bbd24a8d53b2543",
+  "_starter_hash": "f50f3bed7f6affd3b142e36d9b6c074508bde4cec6ddad3fa33f748735a0f37a",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

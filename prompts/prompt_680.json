@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "feeling overwhelmed by medication management due to mental health challenges",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman living in a low-income neighborhood in the United States and managing schizophrenia. You often feel anxious about taking medications consistently, fearing that the added responsibility of PrEP might exacerbate your existing challenges. The stigma surrounding both mental health and HIV prevention weighs heavily on you, but you are hopeful about finding a path that prioritizes your health and safety.",
+  "example_questions_clean": [
+    "How can I integrate PrEP into my current medication routine without feeling overwhelmed?",
+    "What support resources are available for someone with schizophrenia considering PrEP?",
+    "Are there specific mental health considerations I should discuss with my healthcare provider regarding PrEP?",
+    "Can taking PrEP cause any side effects that might interfere with my mental health management?",
+    "What strategies can help me overcome the fear of stigma when discussing PrEP with others?",
+    "Is there a way to access PrEP that takes into account financial barriers I may face?"
+  ],
+  "example_questions_noisy": [
+    "How can I integrate PrEP into my current medication routine without feeling overwhelmed?",
+    "What support resources are available for someone with schizophrenia considering PrEP?",
+    "Are there specific mental health considerations I should discuss with my healthcare provider regarding PrEP?",
+    "Can taking PrEP cause any side effects that might interfere with my mental health management?",
+    "What strategies can help me overcome the fear of stigma when discussing PrEP with others?",
+    "Is there a way to access PrEP that takes into account financial barriers I may face?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What support resources are available for someone with schizophrenia considering PrEP?",
+  "starter_noisy": "What support resources are available for someone with schizophrenia considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I integrate PrEP into my current medication routine without feeling overwhelmed?",
+  "followup_noisy": "How can I integrate PrEP into my current medication routine without feeling overwhelmed?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"feeling overwhelmed by medication management due to mental health challenges\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman living in a low-income neighborhood in the United States and managing schizophrenia. You often feel anxious about taking medications consistently, fearing that the added responsibility of PrEP might exacerbate your existing challenges. The stigma surrounding both mental health and HIV prevention weighs heavily on you, but you are hopeful about finding a path that prioritizes your health and safety.\",\n  \"example_questions\": [\n    \"How can I integrate PrEP into my current medication routine without feeling overwhelmed?\",\n    \"What support resources are available for someone with schizophrenia considering PrEP?\",\n    \"Are there specific mental health considerations I should discuss with my healthcare provider regarding PrEP?\",\n    \"Can taking PrEP cause any side effects that might interfere with my mental health management?\",\n    \"What strategies can help me overcome the fear of stigma when discussing PrEP with others?\",\n    \"Is there a way to access PrEP that takes into account financial barriers I may face?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b2329cd236a3d0c39d7bbe65c35c6f56c5f4619b06ffa57b8212886d41c132c6",
+  "_starter_hash": "a4df3532512c88c6419cc067d30e4acc48a51809ea1dc6ace4975b21943e90ff",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

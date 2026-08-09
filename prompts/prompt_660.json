@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare and affordability of PrEP",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness and struggling with the day-to-day challenges of securing basic needs. This situation causes heightened anxiety about your health, particularly regarding HIV prevention and access to PrEP. You feel overwhelmed by your circumstances, which makes it difficult to focus on taking proactive steps for your health.",
+  "example_questions_clean": [
+    "What are the steps I need to take to access PrEP while living in a shelter?",
+    "Are there any programs that provide PrEP for free or at a low cost?",
+    "How can I discuss my PrEP needs with healthcare providers given my housing situation?",
+    "I’m worried about how stigma might affect my ability to get PrEP; what can I do?",
+    "Can I get support from local organizations to help with PrEP access?",
+    "What should I know about the side effects of PrEP before starting it?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to access PrEP while living in a shelter?",
+    "Are there any programs that provide PrEP for free or at a low cost?",
+    "How can I discuss my PrEP needs with healthcare providers given my housing situation?",
+    "I’m worried about how stigma might affect my ability to get PrEP; what can I do?",
+    "Can I get support from local organizations to help with PrEP access?",
+    "What should I know about the side effects of PrEP before starting it?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there any programs that provide PrEP for free or at a low cost?",
+  "starter_noisy": "Are there any programs that provide PrEP for free or at a low cost?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to access PrEP while living in a shelter?",
+  "followup_noisy": "What are the steps I need to take to access PrEP while living in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare and affordability of PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness and struggling with the day-to-day challenges of securing basic needs. This situation causes heightened anxiety about your health, particularly regarding HIV prevention and access to PrEP. You feel overwhelmed by your circumstances, which makes it difficult to focus on taking proactive steps for your health.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to access PrEP while living in a shelter?\",\n    \"Are there any programs that provide PrEP for free or at a low cost?\",\n    \"How can I discuss my PrEP needs with healthcare providers given my housing situation?\",\n    \"I’m worried about how stigma might affect my ability to get PrEP; what can I do?\",\n    \"Can I get support from local organizations to help with PrEP access?\",\n    \"What should I know about the side effects of PrEP before starting it?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "17add8e6ab90aeb3e557e979d4a4c59f2de270fc2f49739aef2e587149d6ab8d",
+  "_starter_hash": "e4081b9655a8fc62af8ae4d84bf0e9e3dda834f81a7bf5b8a6b8097810445461",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

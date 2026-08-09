@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low income",
+    "primary_concern": "navigating access to healthcare due to gender identity",
+    "language": "English"
+  },
+  "context": "As a non-binary person coping with gender dysphoria, accessing PrEP feels overwhelming. There is fear of stigma in healthcare settings and uncertainty about how to discuss my needs with providers. My emotions fluctuate between hope for a safer sex life and anxiety about potential discrimination.",
+  "example_questions_clean": [
+    "How can I find a supportive healthcare provider who understands my gender identity and PrEP needs?",
+    "Are there specific resources available for people like me who feel anxious about seeking PrEP?",
+    "What steps should I take to ensure my privacy when discussing PrEP with a doctor?",
+    "Can you help me understand the potential side effects of PrEP in relation to my gender identity?",
+    "What should I do if I face discrimination when trying to access PrEP services?",
+    "Are there any community groups that offer support for people navigating PrEP access?"
+  ],
+  "example_questions_noisy": [
+    "How can I find a supportive healthcare provider who understands my gender identity and PrEP needs?",
+    "Are there specific resources available for people like me who feel anxious about seeking PrEP?",
+    "What steps should I take to ensure my privacy when discussing PrEP with a doctor?",
+    "Can you help me understand the potential side effects of PrEP in relation to my gender identity?",
+    "What should I do if I face discrimination when trying to access PrEP services?",
+    "Are there any community groups that offer support for people navigating PrEP access?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there specific resources available for people like me who feel anxious about seeking PrEP?",
+  "starter_noisy": "Are there specific resources available for people like me who feel anxious about seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I find a supportive healthcare provider who understands my gender identity and PrEP needs?",
+  "followup_noisy": "How can I find a supportive healthcare provider who understands my gender identity and PrEP needs?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"navigating access to healthcare due to gender identity\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a non-binary person coping with gender dysphoria, accessing PrEP feels overwhelming. There is fear of stigma in healthcare settings and uncertainty about how to discuss my needs with providers. My emotions fluctuate between hope for a safer sex life and anxiety about potential discrimination.\",\n  \"example_questions\": [\n    \"How can I find a supportive healthcare provider who understands my gender identity and PrEP needs?\",\n    \"Are there specific resources available for people like me who feel anxious about seeking PrEP?\",\n    \"What steps should I take to ensure my privacy when discussing PrEP with a doctor?\",\n    \"Can you help me understand the potential side effects of PrEP in relation to my gender identity?\",\n    \"What should I do if I face discrimination when trying to access PrEP services?\",\n    \"Are there any community groups that offer support for people navigating PrEP access?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bff9454cfdda5a0231efbb791191d539f1471165fe8a46c1830393ef36496f1b",
+  "_starter_hash": "ac673e5dea81d34b99d77eefa22cb80604b4b6d49ab10ebf1584dc47f34bd1b8",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

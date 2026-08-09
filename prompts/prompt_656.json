@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and lack of access due to financial constraints",
+    "language": "English"
+  },
+  "context": "As a non-binary individual coping with gender dysphoria, you might feel vulnerable when approaching healthcare providers about PrEP. The fear of being misunderstood or judged could make it challenging to seek out the information you need. Additionally, financial barriers may further complicate your ability to access this preventive treatment. Your desire for safety and health is overshadowed by concerns about societal acceptance and affordability.",
+  "example_questions_clean": [
+    "What steps can I take to find a healthcare provider who understands my unique situation and can discuss PrEP with me?",
+    "Are there financial assistance programs available for someone in my socio-economic status to help afford PrEP?",
+    "How can I cope with the fear of stigma while trying to access PrEP?",
+    "What should I know about the side effects of PrEP that might be relevant to my situation?",
+    "Can you recommend any resources or support groups that focus on LGBTQ+ individuals considering PrEP?",
+    "Is it common for people like me to face challenges when trying to access PrEP, and how can I navigate those?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to find a healthcare provider who understands my unique situation and can discuss PrEP with me?",
+    "Are there financial assistance programs available for someone in my socio-economic status to help afford PrEP?",
+    "How can I cope with the fear of stigma while trying to access PrEP?",
+    "What should I know about the side effects of PrEP that might be relevant to my situation?",
+    "Can you recommend any resources or support groups that focus on LGBTQ+ individuals considering PrEP?",
+    "Is it common for people like me to face challenges when trying to access PrEP, and how can I navigate those?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is it common for people like me to face challenges when trying to access PrEP, and how can I navigate those?",
+  "starter_noisy": "Is it common for people like me to face challenges when trying to access PrEP, and how can I navigate those?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to find a healthcare provider who understands my unique situation and can discuss PrEP with me?",
+  "followup_noisy": "What steps can I take to find a healthcare provider who understands my unique situation and can discuss PrEP with me?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and lack of access due to financial constraints\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a non-binary individual coping with gender dysphoria, you might feel vulnerable when approaching healthcare providers about PrEP. The fear of being misunderstood or judged could make it challenging to seek out the information you need. Additionally, financial barriers may further complicate your ability to access this preventive treatment. Your desire for safety and health is overshadowed by concerns about societal acceptance and affordability.\",\n  \"example_questions\": [\n    \"What steps can I take to find a healthcare provider who understands my unique situation and can discuss PrEP with me?\",\n    \"Are there financial assistance programs available for someone in my socio-economic status to help afford PrEP?\",\n    \"How can I cope with the fear of stigma while trying to access PrEP?\",\n    \"What should I know about the side effects of PrEP that might be relevant to my situation?\",\n    \"Can you recommend any resources or support groups that focus on LGBTQ+ individuals considering PrEP?\",\n    \"Is it common for people like me to face challenges when trying to access PrEP, and how can I navigate those?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4266e5b023e18a1e6221b323ed71ef61cafdcf04c11592bbf4f9b1a729fd994b",
+  "_starter_hash": "461dedbcb2c131e9e7a32802fdb3e52de432f851e4f337f867534b81ac47b5c0",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

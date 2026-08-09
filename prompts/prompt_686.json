@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "how PrEP might interact with my mental health condition",
+    "language": "English"
+  },
+  "context": "You are a 32-year-old woman living with bipolar disorder and are interested in learning about PrEP. You have concerns about how your mental health might affect your adherence to the medication and whether it could trigger any mood changes. Stigma surrounding both HIV prevention and mental health has made you hesitant to seek information openly, but you hope to understand more about the benefits and risks of PrEP for someone in your situation.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works in preventing HIV transmission?",
+    "What should I consider regarding my bipolar disorder when thinking about starting PrEP?",
+    "Are there any specific side effects of PrEP that I should be aware of given my mental health condition?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "What resources are available for someone like me to learn more about PrEP?",
+    "Is there a support network for individuals on PrEP who also manage mental health challenges?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works in preventing HIV transmission?",
+    "What should I consider regarding my bipolar disorder when thinking about starting PrEP?",
+    "Are there any specific side effects of PrEP that I should be aware of given my mental health condition?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "What resources are available for someone like me to learn more about PrEP?",
+    "Is there a support network for individuals on PrEP who also manage mental health challenges?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there a support network for individuals on PrEP who also manage mental health challenges?",
+  "starter_noisy": "Is there a support network for individuals on PrEP who also manage mental health challenges?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works in preventing HIV transmission?",
+  "followup_noisy": "Can you explain how PrEP works in preventing HIV transmission?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"how PrEP might interact with my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 32-year-old woman living with bipolar disorder and are interested in learning about PrEP. You have concerns about how your mental health might affect your adherence to the medication and whether it could trigger any mood changes. Stigma surrounding both HIV prevention and mental health has made you hesitant to seek information openly, but you hope to understand more about the benefits and risks of PrEP for someone in your situation.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works in preventing HIV transmission?\",\n    \"What should I consider regarding my bipolar disorder when thinking about starting PrEP?\",\n    \"Are there any specific side effects of PrEP that I should be aware of given my mental health condition?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"What resources are available for someone like me to learn more about PrEP?\",\n    \"Is there a support network for individuals on PrEP who also manage mental health challenges?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "d7d13974568be7c795ecd7cc566bfd5497e55777c23ecea5cde48d861c6b8092",
+  "_starter_hash": "bf1e86a340d8997418b28cdd8a2dc775585e0f69b287823ea6fe5b7963574cc4",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

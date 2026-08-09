@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare services and stigma",
+    "language": "English"
+  },
+  "context": "The user is experiencing homelessness and feels overwhelmed by the challenges of finding stable housing, which complicates their ability to access healthcare. They have heard about PrEP but feel a mix of hope and fear regarding the stigma they might face while seeking it.",
+  "example_questions_clean": [
+    "What are the steps to get PrEP if I don’t have a permanent address?",
+    "Can you help me understand how I can talk to a healthcare provider about PrEP without feeling judged?",
+    "Is there a way to receive PrEP at little or no cost if I am struggling financially?",
+    "How can I find clinics that provide PrEP services in a safe environment?",
+    "What support resources are available for someone in my situation looking to start PrEP?",
+    "Are there any community programs that assist people experiencing homelessness with accessing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to get PrEP if I don’t have a permanent address?",
+    "Can you help me understand how I can talk to a healthcare provider about PrEP without feeling judged?",
+    "Is there a way to receive PrEP at little or no cost if I am struggling financially?",
+    "How can I find clinics that provide PrEP services in a safe environment?",
+    "What support resources are available for someone in my situation looking to start PrEP?",
+    "Are there any community programs that assist people experiencing homelessness with accessing PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What support resources are available for someone in my situation looking to start PrEP?",
+  "starter_noisy": "What support resources are available for someone in my situation looking to start PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to get PrEP if I don’t have a permanent address?",
+  "followup_noisy": "What are the steps to get PrEP if I don’t have a permanent address?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare services and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is experiencing homelessness and feels overwhelmed by the challenges of finding stable housing, which complicates their ability to access healthcare. They have heard about PrEP but feel a mix of hope and fear regarding the stigma they might face while seeking it.\",\n  \"example_questions\": [\n    \"What are the steps to get PrEP if I don’t have a permanent address?\",\n    \"Can you help me understand how I can talk to a healthcare provider about PrEP without feeling judged?\",\n    \"Is there a way to receive PrEP at little or no cost if I am struggling financially?\",\n    \"How can I find clinics that provide PrEP services in a safe environment?\",\n    \"What support resources are available for someone in my situation looking to start PrEP?\",\n    \"Are there any community programs that assist people experiencing homelessness with accessing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "478f6dbbd2b64ad3dbeddbc8951c84e64ab13357d21b0a7ab236535601f5062d",
+  "_starter_hash": "fe778cfdb67d63993c394ed5a5e1d4dec939a1cf1140ab7f77e3b5341f0d36b8",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

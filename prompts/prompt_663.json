@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "fear of side effects and stigma from peers",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman who has recently begun recovering from trauma related to a previous relationship. This personal journey has left you feeling vulnerable and anxious about seeking medical assistance, particularly for PrEP. You are worried about potential side effects and how others might perceive your choice to take PrEP. These concerns weigh heavily on your mind, causing doubt and fear about being open with healthcare providers.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I overcome the fear of stigma associated with taking PrEP?",
+    "What steps can I take to discuss my situation openly with a healthcare provider?",
+    "Are there support groups available for people starting PrEP?",
+    "How effective is PrEP in preventing HIV transmission in different scenarios?",
+    "What resources can help me navigate my emotional concerns about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I overcome the fear of stigma associated with taking PrEP?",
+    "What steps can I take to discuss my situation openly with a healthcare provider?",
+    "Are there support groups available for people starting PrEP?",
+    "How effective is PrEP in preventing HIV transmission in different scenarios?",
+    "What resources can help me navigate my emotional concerns about starting PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there support groups available for people starting PrEP?",
+  "starter_noisy": "Are there support groups available for people starting PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the common side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"fear of side effects and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman who has recently begun recovering from trauma related to a previous relationship. This personal journey has left you feeling vulnerable and anxious about seeking medical assistance, particularly for PrEP. You are worried about potential side effects and how others might perceive your choice to take PrEP. These concerns weigh heavily on your mind, causing doubt and fear about being open with healthcare providers.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I overcome the fear of stigma associated with taking PrEP?\",\n    \"What steps can I take to discuss my situation openly with a healthcare provider?\",\n    \"Are there support groups available for people starting PrEP?\",\n    \"How effective is PrEP in preventing HIV transmission in different scenarios?\",\n    \"What resources can help me navigate my emotional concerns about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ba514c2ff5cf8473f7bb784a0fad278d0c3e43254c8c63827e57feeb1b50578b",
+  "_starter_hash": "3ddea3f73ed641f75518dc39977f6221bb70c25793a9829ae2a3121509aaa0fc",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

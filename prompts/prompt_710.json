@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of potential side effects and interactions with ongoing medications",
+    "language": "English"
+  },
+  "context": "The user is a 35-year-old American woman who is recovering from cancer treatment. She has been through a difficult journey and is currently managing both physical and emotional challenges. The prospect of starting PrEP brings about feelings of fear regarding side effects, especially in relation to her ongoing medications. She hopes to protect her health but is concerned about how it might complicate her recovery and overall wellbeing.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+    "How can I ensure that PrEP won't interfere with my current medications?",
+    "Are there specific support resources for people in similar health situations considering PrEP?",
+    "What steps should I take to discuss my concerns about PrEP with my healthcare provider?",
+    "Can you help me understand how PrEP could impact my recovery process?",
+    "Is there a community of individuals like me who are navigating similar choices regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+    "How can I ensure that PrEP won't interfere with my current medications?",
+    "Are there specific support resources for people in similar health situations considering PrEP?",
+    "What steps should I take to discuss my concerns about PrEP with my healthcare provider?",
+    "Can you help me understand how PrEP could impact my recovery process?",
+    "Is there a community of individuals like me who are navigating similar choices regarding PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I ensure that PrEP won't interfere with my current medications?",
+  "starter_noisy": "How can I ensure that PrEP won't interfere with my current medications?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+  "followup_noisy": "What are the potential side effects of PrEP, especially for someone recovering from cancer?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of potential side effects and interactions with ongoing medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 35-year-old American woman who is recovering from cancer treatment. She has been through a difficult journey and is currently managing both physical and emotional challenges. The prospect of starting PrEP brings about feelings of fear regarding side effects, especially in relation to her ongoing medications. She hopes to protect her health but is concerned about how it might complicate her recovery and overall wellbeing.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP, especially for someone recovering from cancer?\",\n    \"How can I ensure that PrEP won't interfere with my current medications?\",\n    \"Are there specific support resources for people in similar health situations considering PrEP?\",\n    \"What steps should I take to discuss my concerns about PrEP with my healthcare provider?\",\n    \"Can you help me understand how PrEP could impact my recovery process?\",\n    \"Is there a community of individuals like me who are navigating similar choices regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "31b0ebd91d593082c53845e30dad2da97dbf97c37a058b8062f37272ead410b7",
+  "_starter_hash": "9542a524f4ac154ff03b9d725a903de67d8fa1f117c09c2f0530e2b844ac6f77",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

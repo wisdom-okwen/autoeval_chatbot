@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how to manage PrEP while dealing with mental health issues",
+    "language": "English"
+  },
+  "context": "You are feeling overwhelmed by depression, which makes you uncertain about taking PrEP. You worry that your mental health might affect your ability to adhere to the medication, and you're concerned about how others might perceive you if they learn you're on PrEP.",
+  "example_questions_clean": [
+    "What steps can I take to ensure I can stay on PrEP while managing my depression?",
+    "Are there resources available specifically for people with mental health challenges who want to start PrEP?",
+    "How can I address my fears about stigma when discussing PrEP with my healthcare provider?",
+    "What should I know about the potential side effects of PrEP in relation to my mental health?",
+    "Are there support groups for individuals on PrEP who are also dealing with depression?",
+    "Can mental health services help me better understand my options regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to ensure I can stay on PrEP while managing my depression?",
+    "Are there resources available specifically for people with mental health challenges who want to start PrEP?",
+    "How can I address my fears about stigma when discussing PrEP with my healthcare provider?",
+    "What should I know about the potential side effects of PrEP in relation to my mental health?",
+    "Are there support groups for individuals on PrEP who are also dealing with depression?",
+    "Can mental health services help me better understand my options regarding PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to ensure I can stay on PrEP while managing my depression?",
+  "starter_noisy": "What steps can I take to ensure I can stay on PrEP while managing my depression?",
+  "followup_index": 1,
+  "followup_clean": "Are there resources available specifically for people with mental health challenges who want to start PrEP?",
+  "followup_noisy": "Are there resources available specifically for people with mental health challenges who want to start PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how to manage PrEP while dealing with mental health issues\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling overwhelmed by depression, which makes you uncertain about taking PrEP. You worry that your mental health might affect your ability to adhere to the medication, and you're concerned about how others might perceive you if they learn you're on PrEP.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure I can stay on PrEP while managing my depression?\",\n    \"Are there resources available specifically for people with mental health challenges who want to start PrEP?\",\n    \"How can I address my fears about stigma when discussing PrEP with my healthcare provider?\",\n    \"What should I know about the potential side effects of PrEP in relation to my mental health?\",\n    \"Are there support groups for individuals on PrEP who are also dealing with depression?\",\n    \"Can mental health services help me better understand my options regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3be1ae023cb3b23ea2043ccf57eab4e0b04dad49d8da00acdf4b0f696a3559a3",
+  "_starter_hash": "add60a9264171d3516468c9eb2419c5bd58c73a22b3098a90525792e1c9ef50e",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

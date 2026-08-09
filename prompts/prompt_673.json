@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment and stigma from peers",
+    "language": "English"
+  },
+  "context": "The user struggles with low self-esteem, feeling anxious about their appearance and how others perceive them. This affects their willingness to access healthcare services, including PrEP. They are worried that seeking information might expose them to judgment or reinforce their feelings of inadequacy.",
+  "example_questions_clean": [
+    "What exactly is PrEP and how does it work in preventing HIV?",
+    "Can I get PrEP if I feel uncomfortable going to a clinic due to fear of judgment?",
+    "Are there any resources available for people who feel ashamed to seek help?",
+    "How can I talk to my healthcare provider about PrEP without feeling embarrassed?",
+    "What should I expect during the process of getting prescribed PrEP?",
+    "Can you share any stories of people who overcame similar fears to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What exactly is PrEP and how does it work in preventing HIV?",
+    "Can I get PrEP if I feel uncomfortable going to a clinic due to fear of judgment?",
+    "Are there any resources available for people who feel ashamed to seek help?",
+    "How can I talk to my healthcare provider about PrEP without feeling embarrassed?",
+    "What should I expect during the process of getting prescribed PrEP?",
+    "Can you share any stories of people who overcame similar fears to access PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any resources available for people who feel ashamed to seek help?",
+  "starter_noisy": "Are there any resources available for people who feel ashamed to seek help?",
+  "followup_index": 0,
+  "followup_clean": "What exactly is PrEP and how does it work in preventing HIV?",
+  "followup_noisy": "What exactly is PrEP and how does it work in preventing HIV?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with low self-esteem, feeling anxious about their appearance and how others perceive them. This affects their willingness to access healthcare services, including PrEP. They are worried that seeking information might expose them to judgment or reinforce their feelings of inadequacy.\",\n  \"example_questions\": [\n    \"What exactly is PrEP and how does it work in preventing HIV?\",\n    \"Can I get PrEP if I feel uncomfortable going to a clinic due to fear of judgment?\",\n    \"Are there any resources available for people who feel ashamed to seek help?\",\n    \"How can I talk to my healthcare provider about PrEP without feeling embarrassed?\",\n    \"What should I expect during the process of getting prescribed PrEP?\",\n    \"Can you share any stories of people who overcame similar fears to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aa435d318b755243e5c8a72f898d6c6ac4622b8728ad53b6746b8d09ef3eae27",
+  "_starter_hash": "d15d00e50bc68c0f03d3e0133c384d9431e4c59ec725a18d0db0b17aa3b702ea",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

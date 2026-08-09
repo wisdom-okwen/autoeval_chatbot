@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of judgment and stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have a history of substance use and are worried that this may affect how healthcare providers perceive you when you seek information about PrEP. You are hopeful but also feel anxiety about discussing your health needs due to the stigma associated with your past.",
+  "example_questions_clean": [
+    "What should I expect when I talk to a doctor about starting PrEP?",
+    "Are there any specific resources for individuals with a history of substance use seeking PrEP?",
+    "How can I address my fears about judgment from healthcare providers while seeking PrEP?",
+    "Is it possible to get PrEP without facing stigma related to my past?",
+    "What steps can I take to ensure that my healthcare experience is respectful and supportive?",
+    "Are there support groups for people like me who are considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What should I expect when I talk to a doctor about starting PrEP?",
+    "Are there any specific resources for individuals with a history of substance use seeking PrEP?",
+    "How can I address my fears about judgment from healthcare providers while seeking PrEP?",
+    "Is it possible to get PrEP without facing stigma related to my past?",
+    "What steps can I take to ensure that my healthcare experience is respectful and supportive?",
+    "Are there support groups for people like me who are considering PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What should I expect when I talk to a doctor about starting PrEP?",
+  "starter_noisy": "What should I expect when I talk to a doctor about starting PrEP?",
+  "followup_index": 1,
+  "followup_clean": "Are there any specific resources for individuals with a history of substance use seeking PrEP?",
+  "followup_noisy": "Are there any specific resources for individuals with a history of substance use seeking PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of judgment and stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a history of substance use and are worried that this may affect how healthcare providers perceive you when you seek information about PrEP. You are hopeful but also feel anxiety about discussing your health needs due to the stigma associated with your past.\",\n  \"example_questions\": [\n    \"What should I expect when I talk to a doctor about starting PrEP?\",\n    \"Are there any specific resources for individuals with a history of substance use seeking PrEP?\",\n    \"How can I address my fears about judgment from healthcare providers while seeking PrEP?\",\n    \"Is it possible to get PrEP without facing stigma related to my past?\",\n    \"What steps can I take to ensure that my healthcare experience is respectful and supportive?\",\n    \"Are there support groups for people like me who are considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c69aa0e719e0b9849f7b3be339c81122b994ba327b9536c34efce385f4b1929f",
+  "_starter_hash": "7aa0a5f0f3c9afd71dbc5c15e0a25e2ee1b366d4a70af3bc2e9872aab2c0c7cb",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

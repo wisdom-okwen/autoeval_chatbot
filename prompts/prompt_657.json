@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare resources while facing housing instability",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman living in a temporary shelter. The uncertainty of your living situation makes you anxious about accessing PrEP. You worry that stigma around your housing status could affect how healthcare providers treat you, and you're concerned about how to obtain PrEP consistently without a stable address or insurance.",
+  "example_questions_clean": [
+    "How can I access PrEP if I don't have a permanent home?",
+    "Are there clinics that provide PrEP for people experiencing homelessness?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Can I receive PrEP without having health insurance?",
+    "What support services are available for people like me who want to start PrEP?",
+    "Is there a way to keep my personal information confidential when seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I access PrEP if I don't have a permanent home?",
+    "Are there clinics that provide PrEP for people experiencing homelessness?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Can I receive PrEP without having health insurance?",
+    "What support services are available for people like me who want to start PrEP?",
+    "Is there a way to keep my personal information confidential when seeking PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there a way to keep my personal information confidential when seeking PrEP?",
+  "starter_noisy": "Is there a way to keep my personal information confidential when seeking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I access PrEP if I don't have a permanent home?",
+  "followup_noisy": "How can I access PrEP if I don't have a permanent home?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare resources while facing housing instability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman living in a temporary shelter. The uncertainty of your living situation makes you anxious about accessing PrEP. You worry that stigma around your housing status could affect how healthcare providers treat you, and you're concerned about how to obtain PrEP consistently without a stable address or insurance.\",\n  \"example_questions\": [\n    \"How can I access PrEP if I don't have a permanent home?\",\n    \"Are there clinics that provide PrEP for people experiencing homelessness?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Can I receive PrEP without having health insurance?\",\n    \"What support services are available for people like me who want to start PrEP?\",\n    \"Is there a way to keep my personal information confidential when seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e0efc5d882dafafcc6b81b5aeb9ac0ae07691a66e365d58520a6102fd3cee22c",
+  "_starter_hash": "501047e848dade5a0245600452e8eabe0ba92c1e2007bc8505cf0202a7e279ba",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

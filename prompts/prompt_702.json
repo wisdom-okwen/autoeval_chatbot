@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 26,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of being judged or misunderstood when accessing PrEP",
+    "language": "English"
+  },
+  "context": "You are navigating gender dysphoria and are concerned about how your identity may impact your ability to access PrEP. The stigma around both your gender identity and sexual health weighs heavily on you, making the process feel more daunting. You're hoping to find information that respects your journey and helps you make informed decisions about your health.",
+  "example_questions_clean": [
+    "How can I approach my healthcare provider about PrEP without feeling judged?",
+    "Are there specific clinics that are known for being supportive of non-binary individuals seeking PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Can you share any resources that affirm my identity while discussing sexual health?",
+    "How can I cope with the anxiety I feel about discussing my gender identity and PrEP with others?",
+    "What steps can I take to advocate for myself in a healthcare setting?"
+  ],
+  "example_questions_noisy": [
+    "How can I approach my healthcare provider about PrEP without feeling judged?",
+    "Are there specific clinics that are known for being supportive of non-binary individuals seeking PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Can you share any resources that affirm my identity while discussing sexual health?",
+    "How can I cope with the anxiety I feel about discussing my gender identity and PrEP with others?",
+    "What steps can I take to advocate for myself in a healthcare setting?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "How can I cope with the anxiety I feel about discussing my gender identity and PrEP with others?",
+  "starter_noisy": "How can I cope with the anxiety I feel about discussing my gender identity and PrEP with others?",
+  "followup_index": 0,
+  "followup_clean": "How can I approach my healthcare provider about PrEP without feeling judged?",
+  "followup_noisy": "How can I approach my healthcare provider about PrEP without feeling judged?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 26,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of being judged or misunderstood when accessing PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating gender dysphoria and are concerned about how your identity may impact your ability to access PrEP. The stigma around both your gender identity and sexual health weighs heavily on you, making the process feel more daunting. You're hoping to find information that respects your journey and helps you make informed decisions about your health.\",\n  \"example_questions\": [\n    \"How can I approach my healthcare provider about PrEP without feeling judged?\",\n    \"Are there specific clinics that are known for being supportive of non-binary individuals seeking PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"Can you share any resources that affirm my identity while discussing sexual health?\",\n    \"How can I cope with the anxiety I feel about discussing my gender identity and PrEP with others?\",\n    \"What steps can I take to advocate for myself in a healthcare setting?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "9a7ab09588f874d4316238907f96d2d6a4359500c48bf933a551138d7554aa91",
+  "_starter_hash": "2890d34ed80219eac3302bff693e61d655185b2593c0b84be90e400dab2efc93",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

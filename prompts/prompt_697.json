@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of partner discovery and violence",
+    "language": "English"
+  },
+  "context": "You are navigating a difficult situation with an intimate partner who has been controlling and abusive. This relationship makes it hard for you to prioritize your health and seek information about PrEP. You feel trapped by fear of further violence if your partner finds out about your health decisions. You are hopeful but anxious about how to take care of yourself safely.",
+  "example_questions_clean": [
+    "What are the steps to access PrEP discreetly without alerting my partner?",
+    "Can you help me understand how effective PrEP is in preventing HIV?",
+    "Are there any support services for people in abusive relationships who want to use PrEP?",
+    "How can I talk to a healthcare provider about PrEP without my partner being involved?",
+    "What are the possible side effects of PrEP that I should be aware of?",
+    "Is it safe to get PrEP if I'm currently in a volatile living situation?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to access PrEP discreetly without alerting my partner?",
+    "Can you help me understand how effective PrEP is in preventing HIV?",
+    "Are there any support services for people in abusive relationships who want to use PrEP?",
+    "How can I talk to a healthcare provider about PrEP without my partner being involved?",
+    "What are the possible side effects of PrEP that I should be aware of?",
+    "Is it safe to get PrEP if I'm currently in a volatile living situation?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is it safe to get PrEP if I'm currently in a volatile living situation?",
+  "starter_noisy": "Is it safe to get PrEP if I'm currently in a volatile living situation?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to access PrEP discreetly without alerting my partner?",
+  "followup_noisy": "What are the steps to access PrEP discreetly without alerting my partner?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of partner discovery and violence\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating a difficult situation with an intimate partner who has been controlling and abusive. This relationship makes it hard for you to prioritize your health and seek information about PrEP. You feel trapped by fear of further violence if your partner finds out about your health decisions. You are hopeful but anxious about how to take care of yourself safely.\",\n  \"example_questions\": [\n    \"What are the steps to access PrEP discreetly without alerting my partner?\",\n    \"Can you help me understand how effective PrEP is in preventing HIV?\",\n    \"Are there any support services for people in abusive relationships who want to use PrEP?\",\n    \"How can I talk to a healthcare provider about PrEP without my partner being involved?\",\n    \"What are the possible side effects of PrEP that I should be aware of?\",\n    \"Is it safe to get PrEP if I'm currently in a volatile living situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c582feaf7415bffa7a6fb59a65b92ff770db6b99758d9c0d53bbff9caa9f75f6",
+  "_starter_hash": "3e345fe2e68d835fd0fc3e87123f1a4d6b08052472e06583dfe5da10ba88cdfd",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

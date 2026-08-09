@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment and misunderstanding when accessing PrEP",
+    "language": "English"
+  },
+  "context": "The user is navigating their journey with gender dysphoria and is concerned about how seeking PrEP may expose them to stigma in medical settings. They often feel anxious about being judged or misunderstood by healthcare providers, which complicates their desire to protect their health.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get access to PrEP?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any resources specifically for non-binary individuals regarding PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Could you share any tips for discussing my gender identity with my healthcare provider?",
+    "Are there financial assistance programs available for people in my economic situation?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to get access to PrEP?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any resources specifically for non-binary individuals regarding PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Could you share any tips for discussing my gender identity with my healthcare provider?",
+    "Are there financial assistance programs available for people in my economic situation?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I need to take to get access to PrEP?",
+  "starter_noisy": "What are the steps I need to take to get access to PrEP?",
+  "followup_index": 1,
+  "followup_clean": "How can I find a supportive healthcare provider who understands my situation?",
+  "followup_noisy": "How can I find a supportive healthcare provider who understands my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment and misunderstanding when accessing PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is navigating their journey with gender dysphoria and is concerned about how seeking PrEP may expose them to stigma in medical settings. They often feel anxious about being judged or misunderstood by healthcare providers, which complicates their desire to protect their health.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get access to PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there any resources specifically for non-binary individuals regarding PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"Could you share any tips for discussing my gender identity with my healthcare provider?\",\n    \"Are there financial assistance programs available for people in my economic situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "52d50069ced84bf2d32030a547674a4c9bb90f785d09d5c95d3c8816f0100aac",
+  "_starter_hash": "9988e320aea0a19ff5d8c90a3e85ab6adce3dd3ff938629f7bbd4eba00c5fce3",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

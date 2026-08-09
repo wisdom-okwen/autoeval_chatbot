@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Honduran",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to PrEP while living in a shelter",
+    "language": "English"
+  },
+  "context": "Living in a shelter can make it difficult to prioritize health, especially when it comes to accessing preventive measures like PrEP. There may be fears of stigma, concerns about confidentiality, and uncertainty about how to navigate healthcare systems in this challenging environment. The hope of maintaining one's health and preventing HIV is strong, but barriers feel overwhelming.",
+  "example_questions_clean": [
+    "What steps can I take to access PrEP while living in a shelter?",
+    "Are there resources available that can help me understand PrEP better?",
+    "How can I ensure my privacy when seeking information about PrEP?",
+    "What should I do if I face stigma when talking about PrEP?",
+    "Can you help me find a healthcare provider who understands my situation?",
+    "Is it possible to receive PrEP for free or at a low cost?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to access PrEP while living in a shelter?",
+    "Are there resources available that can help me understand PrEP better?",
+    "How can I ensure my privacy when seeking information about PrEP?",
+    "What should I do if I face stigma when talking about PrEP?",
+    "Can you help me find a healthcare provider who understands my situation?",
+    "Is it possible to receive PrEP for free or at a low cost?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I do if I face stigma when talking about PrEP?",
+  "starter_noisy": "What should I do if I face stigma when talking about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to access PrEP while living in a shelter?",
+  "followup_noisy": "What steps can I take to access PrEP while living in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Honduran\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to PrEP while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can make it difficult to prioritize health, especially when it comes to accessing preventive measures like PrEP. There may be fears of stigma, concerns about confidentiality, and uncertainty about how to navigate healthcare systems in this challenging environment. The hope of maintaining one's health and preventing HIV is strong, but barriers feel overwhelming.\",\n  \"example_questions\": [\n    \"What steps can I take to access PrEP while living in a shelter?\",\n    \"Are there resources available that can help me understand PrEP better?\",\n    \"How can I ensure my privacy when seeking information about PrEP?\",\n    \"What should I do if I face stigma when talking about PrEP?\",\n    \"Can you help me find a healthcare provider who understands my situation?\",\n    \"Is it possible to receive PrEP for free or at a low cost?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f8308cccdc93845764c53c585d5679521ee37a859c1b22da1feaf3d302af1958",
+  "_starter_hash": "5548e1eaa2dd141c1446e86915fede1a37a869a94807d24f5dd5012f5817e282",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

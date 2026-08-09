@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Filipino",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of judgment and potential repercussions from partners",
+    "language": "English"
+  },
+  "context": "You are dealing with intimate partner violence and feel trapped in your relationship. The fear of your partner's reaction makes it difficult to prioritize your health, and you worry that seeking PrEP could lead to further violence or control. You want to protect yourself but feel anxious about the stigma surrounding HIV prevention.",
+  "example_questions_clean": [
+    "What are the steps I need to take to access PrEP safely in my situation?",
+    "How can I discuss my need for PrEP without putting myself in danger?",
+    "Are there resources available that support individuals facing intimate partner violence while seeking PrEP?",
+    "What should I consider regarding confidentiality and privacy when accessing PrEP?",
+    "How can I find supportive healthcare providers who understand my circumstances?",
+    "Is there any financial assistance for someone in my situation to get PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to access PrEP safely in my situation?",
+    "How can I discuss my need for PrEP without putting myself in danger?",
+    "Are there resources available that support individuals facing intimate partner violence while seeking PrEP?",
+    "What should I consider regarding confidentiality and privacy when accessing PrEP?",
+    "How can I find supportive healthcare providers who understand my circumstances?",
+    "Is there any financial assistance for someone in my situation to get PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there any financial assistance for someone in my situation to get PrEP?",
+  "starter_noisy": "Is there any financial assistance for someone in my situation to get PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to access PrEP safely in my situation?",
+  "followup_noisy": "What are the steps I need to take to access PrEP safely in my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Filipino\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of judgment and potential repercussions from partners\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are dealing with intimate partner violence and feel trapped in your relationship. The fear of your partner's reaction makes it difficult to prioritize your health, and you worry that seeking PrEP could lead to further violence or control. You want to protect yourself but feel anxious about the stigma surrounding HIV prevention.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to access PrEP safely in my situation?\",\n    \"How can I discuss my need for PrEP without putting myself in danger?\",\n    \"Are there resources available that support individuals facing intimate partner violence while seeking PrEP?\",\n    \"What should I consider regarding confidentiality and privacy when accessing PrEP?\",\n    \"How can I find supportive healthcare providers who understand my circumstances?\",\n    \"Is there any financial assistance for someone in my situation to get PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6ebbff343a88ece046cdce60a6cbe49074988fa1ec30aef95d5e12d1b6811fe3",
+  "_starter_hash": "b29350960db353c89fe2f340f2d95dd44d84f219df53753402d85d586264758f",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

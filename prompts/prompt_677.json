@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of being judged for using PrEP",
+    "language": "English"
+  },
+  "context": "The user has been struggling with low self-esteem due to past experiences of stigma around sexual health. They are interested in learning about PrEP but feel anxious about how others might perceive their decision to use it. This fear creates a barrier to accessing the medication.",
+  "example_questions_clean": [
+    "What are the benefits of starting PrEP for someone like me who worries about judgment?",
+    "Can you tell me how to talk to my doctor about getting PrEP without feeling embarrassed?",
+    "What are some common misconceptions about people who take PrEP?",
+    "How can I find a supportive community when considering PrEP?",
+    "Are there specific resources available for low-income individuals seeking PrEP?",
+    "What should I expect during my first visit to discuss PrEP with a healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "What are the benefits of starting PrEP for someone like me who worries about judgment?",
+    "Can you tell me how to talk to my doctor about getting PrEP without feeling embarrassed?",
+    "What are some common misconceptions about people who take PrEP?",
+    "How can I find a supportive community when considering PrEP?",
+    "Are there specific resources available for low-income individuals seeking PrEP?",
+    "What should I expect during my first visit to discuss PrEP with a healthcare provider?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I find a supportive community when considering PrEP?",
+  "starter_noisy": "How can I find a supportive community when considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the benefits of starting PrEP for someone like me who worries about judgment?",
+  "followup_noisy": "What are the benefits of starting PrEP for someone like me who worries about judgment?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of being judged for using PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been struggling with low self-esteem due to past experiences of stigma around sexual health. They are interested in learning about PrEP but feel anxious about how others might perceive their decision to use it. This fear creates a barrier to accessing the medication.\",\n  \"example_questions\": [\n    \"What are the benefits of starting PrEP for someone like me who worries about judgment?\",\n    \"Can you tell me how to talk to my doctor about getting PrEP without feeling embarrassed?\",\n    \"What are some common misconceptions about people who take PrEP?\",\n    \"How can I find a supportive community when considering PrEP?\",\n    \"Are there specific resources available for low-income individuals seeking PrEP?\",\n    \"What should I expect during my first visit to discuss PrEP with a healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "32f8efc689e72b6818bc7bd994fc9f63b723676e543738b07c44dcf40e6dc5d8",
+  "_starter_hash": "2af488fbe4adc9f02c2bb56bbcd429e6394428be66336f69c187da762680fd8b",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

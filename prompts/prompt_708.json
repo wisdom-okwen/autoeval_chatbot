@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP interacts with my multiple sclerosis medication",
+    "language": "English"
+  },
+  "context": "Living with multiple sclerosis can create unique challenges when considering PrEP for HIV prevention. The user feels anxious about managing their condition alongside a new medication and fears potential side effects. They are hopeful yet apprehensive about accessing PrEP, concerned about stigma and the reactions of healthcare providers.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and if it could affect my MS treatment?",
+    "What should I consider before starting PrEP given my health condition?",
+    "Are there any specific side effects of PrEP that might interact with my medication?",
+    "How can I find a doctor who understands both PrEP and multiple sclerosis?",
+    "What resources are available to help me navigate stigma when discussing PrEP?",
+    "Is it possible to manage my mental health while on PrEP considering my challenges?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and if it could affect my MS treatment?",
+    "What should I consider before starting PrEP given my health condition?",
+    "Are there any specific side effects of PrEP that might interact with my medication?",
+    "How can I find a doctor who understands both PrEP and multiple sclerosis?",
+    "What resources are available to help me navigate stigma when discussing PrEP?",
+    "Is it possible to manage my mental health while on PrEP considering my challenges?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources are available to help me navigate stigma when discussing PrEP?",
+  "starter_noisy": "What resources are available to help me navigate stigma when discussing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and if it could affect my MS treatment?",
+  "followup_noisy": "Can you explain how PrEP works and if it could affect my MS treatment?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP interacts with my multiple sclerosis medication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with multiple sclerosis can create unique challenges when considering PrEP for HIV prevention. The user feels anxious about managing their condition alongside a new medication and fears potential side effects. They are hopeful yet apprehensive about accessing PrEP, concerned about stigma and the reactions of healthcare providers.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and if it could affect my MS treatment?\",\n    \"What should I consider before starting PrEP given my health condition?\",\n    \"Are there any specific side effects of PrEP that might interact with my medication?\",\n    \"How can I find a doctor who understands both PrEP and multiple sclerosis?\",\n    \"What resources are available to help me navigate stigma when discussing PrEP?\",\n    \"Is it possible to manage my mental health while on PrEP considering my challenges?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5c0d5a65de0dcf9b08772dae31ac5420ec8d915064ef713a834821e3f3598a59",
+  "_starter_hash": "50dbd2fa04c9952c7694e9ef69dd795f1ded1892de48c1b74ef6e877db7590f1",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

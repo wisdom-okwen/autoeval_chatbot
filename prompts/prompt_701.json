@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma from peers and lack of access to healthcare resources",
+    "language": "English"
+  },
+  "context": "As a 29-year-old woman living in a small Canadian town, you often feel socially isolated due to the stigma surrounding sexual health discussions. You worry that seeking information about PrEP might expose you to judgment from those around you. Your financial situation limits your access to healthcare, making you anxious about how to obtain PrEP discreetly and affordably.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get PrEP without feeling judged?",
+    "Can you tell me how effective PrEP is for someone in my situation?",
+    "Are there any support groups or resources available for people like me?",
+    "How can I have a conversation with my doctor about PrEP without feeling embarrassed?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there any way to get help with the costs associated with PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to get PrEP without feeling judged?",
+    "Can you tell me how effective PrEP is for someone in my situation?",
+    "Are there any support groups or resources available for people like me?",
+    "How can I have a conversation with my doctor about PrEP without feeling embarrassed?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there any way to get help with the costs associated with PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I have a conversation with my doctor about PrEP without feeling embarrassed?",
+  "starter_noisy": "How can I have a conversation with my doctor about PrEP without feeling embarrassed?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get PrEP without feeling judged?",
+  "followup_noisy": "What are the steps I need to take to get PrEP without feeling judged?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma from peers and lack of access to healthcare resources\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 29-year-old woman living in a small Canadian town, you often feel socially isolated due to the stigma surrounding sexual health discussions. You worry that seeking information about PrEP might expose you to judgment from those around you. Your financial situation limits your access to healthcare, making you anxious about how to obtain PrEP discreetly and affordably.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get PrEP without feeling judged?\",\n    \"Can you tell me how effective PrEP is for someone in my situation?\",\n    \"Are there any support groups or resources available for people like me?\",\n    \"How can I have a conversation with my doctor about PrEP without feeling embarrassed?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Is there any way to get help with the costs associated with PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b170047c3c456ab0b366c781d8edcaf25c5ec75d5bb09a608f158c5b1a6bfd8e",
+  "_starter_hash": "1964caaea67fe1690df3e9f6143da6775bdcf266ce46208001d8e64c0c77900f",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

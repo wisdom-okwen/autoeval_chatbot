@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of judgment from peers regarding my decision to use PrEP",
+    "language": "English"
+  },
+  "context": "The user is struggling with self-esteem, which affects her confidence in discussing personal health matters. She feels anxious about how others may perceive her choice to seek PrEP, fearing stigma and judgment from friends and family. This emotional barrier complicates her access to information and support.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works in preventing HIV transmission?",
+    "What should I consider before talking to my doctor about starting PrEP?",
+    "Are there any support groups for people like me who are concerned about stigma when using PrEP?",
+    "How can I address my fears about judgment while seeking information on PrEP?",
+    "What are the steps to access PrEP discreetly if I'm worried about my privacy?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works in preventing HIV transmission?",
+    "What should I consider before talking to my doctor about starting PrEP?",
+    "Are there any support groups for people like me who are concerned about stigma when using PrEP?",
+    "How can I address my fears about judgment while seeking information on PrEP?",
+    "What are the steps to access PrEP discreetly if I'm worried about my privacy?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What are the steps to access PrEP discreetly if I'm worried about my privacy?",
+  "starter_noisy": "What are the steps to access PrEP discreetly if I'm worried about my privacy?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works in preventing HIV transmission?",
+  "followup_noisy": "Can you explain how PrEP works in preventing HIV transmission?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of judgment from peers regarding my decision to use PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is struggling with self-esteem, which affects her confidence in discussing personal health matters. She feels anxious about how others may perceive her choice to seek PrEP, fearing stigma and judgment from friends and family. This emotional barrier complicates her access to information and support.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works in preventing HIV transmission?\",\n    \"What should I consider before talking to my doctor about starting PrEP?\",\n    \"Are there any support groups for people like me who are concerned about stigma when using PrEP?\",\n    \"How can I address my fears about judgment while seeking information on PrEP?\",\n    \"What are the steps to access PrEP discreetly if I'm worried about my privacy?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "54808e5108feebef0bf42480f319180ba5b7d392cd3506e0120f2fed8449a3fc",
+  "_starter_hash": "89d147f8b136cfa8f65e12e37ca7dc44af841e3eef50da58ede1adcfa7481425",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

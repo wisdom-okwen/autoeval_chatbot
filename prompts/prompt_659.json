@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessing clear information due to difficulty processing complex medical details",
+    "language": "English"
+  },
+  "context": "You have a learning disability that makes it challenging to understand detailed medical information. This affects your emotions and creates fear about managing your health. You worry about not being able to access accurate information about PrEP, which is important for your safety.",
+  "example_questions_clean": [
+    "What are the main benefits of taking PrEP for someone like me?",
+    "How can I find resources that explain PrEP in simpler terms?",
+    "Are there support groups for people who want to learn about PrEP?",
+    "What should I do if I have trouble understanding the instructions for PrEP?",
+    "Can my doctor help me better understand how to use PrEP effectively?",
+    "What are the side effects of PrEP and how can I prepare for them?"
+  ],
+  "example_questions_noisy": [
+    "What are the main benefits of taking PrEP for someone like me?",
+    "How can I find resources that explain PrEP in simpler terms?",
+    "Are there support groups for people who want to learn about PrEP?",
+    "What should I do if I have trouble understanding the instructions for PrEP?",
+    "Can my doctor help me better understand how to use PrEP effectively?",
+    "What are the side effects of PrEP and how can I prepare for them?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What are the side effects of PrEP and how can I prepare for them?",
+  "starter_noisy": "What are the side effects of PrEP and how can I prepare for them?",
+  "followup_index": 0,
+  "followup_clean": "What are the main benefits of taking PrEP for someone like me?",
+  "followup_noisy": "What are the main benefits of taking PrEP for someone like me?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessing clear information due to difficulty processing complex medical details\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a learning disability that makes it challenging to understand detailed medical information. This affects your emotions and creates fear about managing your health. You worry about not being able to access accurate information about PrEP, which is important for your safety.\",\n  \"example_questions\": [\n    \"What are the main benefits of taking PrEP for someone like me?\",\n    \"How can I find resources that explain PrEP in simpler terms?\",\n    \"Are there support groups for people who want to learn about PrEP?\",\n    \"What should I do if I have trouble understanding the instructions for PrEP?\",\n    \"Can my doctor help me better understand how to use PrEP effectively?\",\n    \"What are the side effects of PrEP and how can I prepare for them?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6275551582d3cf7fe6de60fbafbef10e441dc1a4943512a5380e95573707d9db",
+  "_starter_hash": "58bd54c67863937e949921faa46a77977203e1493369913b9e2e7a00cff2dd2e",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

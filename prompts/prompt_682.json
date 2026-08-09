@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Honduran",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of disclosing my situation to healthcare providers",
+    "language": "English"
+  },
+  "context": "You are currently experiencing intimate partner violence, which makes you feel vulnerable and hesitant to seek medical help. You are aware of PrEP but worry that discussing your situation with healthcare professionals may put you at greater risk or lead to judgment. Your emotional state is conflicted; while you want to protect your health, the fear of stigma and exposure weighs heavily on your mind.",
+  "example_questions_clean": [
+    "How can I discreetly find information about PrEP without compromising my safety?",
+    "What should I know about accessing PrEP if I am concerned about my partner's reaction?",
+    "Are there healthcare providers who specialize in supporting individuals in domestic violence situations?",
+    "Can I access PrEP confidentially if I am worried about privacy?",
+    "What resources are available for people like me who face both health and safety challenges?",
+    "Is it possible to get support for using PrEP while dealing with the emotional impact of my situation?"
+  ],
+  "example_questions_noisy": [
+    "How can I discreetly find information about PrEP without compromising my safety?",
+    "What should I know about accessing PrEP if I am concerned about my partner's reaction?",
+    "Are there healthcare providers who specialize in supporting individuals in domestic violence situations?",
+    "Can I access PrEP confidentially if I am worried about privacy?",
+    "What resources are available for people like me who face both health and safety challenges?",
+    "Is it possible to get support for using PrEP while dealing with the emotional impact of my situation?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can I access PrEP confidentially if I am worried about privacy?",
+  "starter_noisy": "Can I access PrEP confidentially if I am worried about privacy?",
+  "followup_index": 0,
+  "followup_clean": "How can I discreetly find information about PrEP without compromising my safety?",
+  "followup_noisy": "How can I discreetly find information about PrEP without compromising my safety?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Honduran\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of disclosing my situation to healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing intimate partner violence, which makes you feel vulnerable and hesitant to seek medical help. You are aware of PrEP but worry that discussing your situation with healthcare professionals may put you at greater risk or lead to judgment. Your emotional state is conflicted; while you want to protect your health, the fear of stigma and exposure weighs heavily on your mind.\",\n  \"example_questions\": [\n    \"How can I discreetly find information about PrEP without compromising my safety?\",\n    \"What should I know about accessing PrEP if I am concerned about my partner's reaction?\",\n    \"Are there healthcare providers who specialize in supporting individuals in domestic violence situations?\",\n    \"Can I access PrEP confidentially if I am worried about privacy?\",\n    \"What resources are available for people like me who face both health and safety challenges?\",\n    \"Is it possible to get support for using PrEP while dealing with the emotional impact of my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "05572a4c1d5aedeb75932cab9fc10d278e47fe925385210a54358f30a9ffc371",
+  "_starter_hash": "03f62b27b2fb7cfa558815a9f9eb036855066654c7df404c43554cabfb77af1d",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

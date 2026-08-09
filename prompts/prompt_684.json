@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare and stigma",
+    "language": "English"
+  },
+  "context": "As a woman experiencing homelessness, you often feel overwhelmed by the daily challenges of securing food and shelter. The thought of accessing PrEP feels daunting, as you worry about healthcare providers judging your situation or not taking you seriously. You hope to stay safe and healthy but feel uncertain about where to turn for help and whether you can afford the medication.",
+  "example_questions_clean": [
+    "What steps can I take to access PrEP while dealing with my current living situation?",
+    "Are there resources available specifically for people like me who are experiencing homelessness?",
+    "How do I find a healthcare provider who understands my challenges and will treat me with respect?",
+    "Is it possible to get PrEP for free or at a reduced cost if I don't have insurance?",
+    "What can I do to manage the fear of stigma when discussing my health needs?",
+    "Are there support groups for individuals facing similar challenges in accessing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to access PrEP while dealing with my current living situation?",
+    "Are there resources available specifically for people like me who are experiencing homelessness?",
+    "How do I find a healthcare provider who understands my challenges and will treat me with respect?",
+    "Is it possible to get PrEP for free or at a reduced cost if I don't have insurance?",
+    "What can I do to manage the fear of stigma when discussing my health needs?",
+    "Are there support groups for individuals facing similar challenges in accessing PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Is it possible to get PrEP for free or at a reduced cost if I don't have insurance?",
+  "starter_noisy": "Is it possible to get PrEP for free or at a reduced cost if I don't have insurance?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to access PrEP while dealing with my current living situation?",
+  "followup_noisy": "What steps can I take to access PrEP while dealing with my current living situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare and stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman experiencing homelessness, you often feel overwhelmed by the daily challenges of securing food and shelter. The thought of accessing PrEP feels daunting, as you worry about healthcare providers judging your situation or not taking you seriously. You hope to stay safe and healthy but feel uncertain about where to turn for help and whether you can afford the medication.\",\n  \"example_questions\": [\n    \"What steps can I take to access PrEP while dealing with my current living situation?\",\n    \"Are there resources available specifically for people like me who are experiencing homelessness?\",\n    \"How do I find a healthcare provider who understands my challenges and will treat me with respect?\",\n    \"Is it possible to get PrEP for free or at a reduced cost if I don't have insurance?\",\n    \"What can I do to manage the fear of stigma when discussing my health needs?\",\n    \"Are there support groups for individuals facing similar challenges in accessing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f16466fe26ca42b80b55bde2799816bf370f8e025c91820fda79caa4f48cc86f",
+  "_starter_hash": "d51496ca22511a7acd7e58247777fda171a9460df0dba9f112f31c2a1eabbc3e",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "low income",
+    "primary_concern": "feeling accepted and understood by healthcare providers",
+    "language": "English"
+  },
+  "context": "You are navigating gender dysphoria while trying to learn more about PrEP, and you feel anxious about how healthcare professionals may perceive your identity when discussing sexual health. This affects your willingness to seek out information and support.",
+  "example_questions_clean": [
+    "What should I consider when approaching a healthcare provider about PrEP?",
+    "Are there specific resources for non-binary individuals seeking PrEP?",
+    "How can I ensure my concerns about gender identity are respected in these discussions?",
+    "What experiences have others had in accessing PrEP while managing gender dysphoria?",
+    "Can you suggest ways to build confidence when talking to doctors about PrEP?",
+    "Is there a support network I can turn to for advice on PrEP access?"
+  ],
+  "example_questions_noisy": [
+    "What should I consider when approaching a healthcare provider about PrEP?",
+    "Are there specific resources for non-binary individuals seeking PrEP?",
+    "How can I ensure my concerns about gender identity are respected in these discussions?",
+    "What experiences have others had in accessing PrEP while managing gender dysphoria?",
+    "Can you suggest ways to build confidence when talking to doctors about PrEP?",
+    "Is there a support network I can turn to for advice on PrEP access?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I ensure my concerns about gender identity are respected in these discussions?",
+  "starter_noisy": "How can I ensure my concerns about gender identity are respected in these discussions?",
+  "followup_index": 0,
+  "followup_clean": "What should I consider when approaching a healthcare provider about PrEP?",
+  "followup_noisy": "What should I consider when approaching a healthcare provider about PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"feeling accepted and understood by healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating gender dysphoria while trying to learn more about PrEP, and you feel anxious about how healthcare professionals may perceive your identity when discussing sexual health. This affects your willingness to seek out information and support.\",\n  \"example_questions\": [\n    \"What should I consider when approaching a healthcare provider about PrEP?\",\n    \"Are there specific resources for non-binary individuals seeking PrEP?\",\n    \"How can I ensure my concerns about gender identity are respected in these discussions?\",\n    \"What experiences have others had in accessing PrEP while managing gender dysphoria?\",\n    \"Can you suggest ways to build confidence when talking to doctors about PrEP?\",\n    \"Is there a support network I can turn to for advice on PrEP access?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7f1912ed45238b56683715e91eff22941c9633abf1e6f4ddb22f777ef2888ac9",
+  "_starter_hash": "fa18df342259d03df04445a730858a0fd68cbb53ddf934ebd5b977e903f2d5b9",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

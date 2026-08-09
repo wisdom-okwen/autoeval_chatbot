@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "managing my mental health while considering PrEP",
+    "language": "English"
+  },
+  "context": "The user is a young woman living with bipolar disorder. She has experienced fluctuations in mood and energy levels, which sometimes make it difficult to stay consistent with medication routines. She feels uncertain about adding PrEP to her regimen, fearing it may interact with her mental health medications or exacerbate her condition. Stigma surrounding both her mental health and sexual health leads to anxiety about discussing PrEP with healthcare providers.",
+  "example_questions_clean": [
+    "How can I ensure that PrEP is safe to take alongside my bipolar medication?",
+    "What should I discuss with my doctor regarding my mental health before starting PrEP?",
+    "Are there any support resources available for people like me who are considering PrEP?",
+    "How do I navigate conversations about my mental health when asking about PrEP?",
+    "Can taking PrEP affect my mood or stability in any way?",
+    "What are the potential side effects of PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that PrEP is safe to take alongside my bipolar medication?",
+    "What should I discuss with my doctor regarding my mental health before starting PrEP?",
+    "Are there any support resources available for people like me who are considering PrEP?",
+    "How do I navigate conversations about my mental health when asking about PrEP?",
+    "Can taking PrEP affect my mood or stability in any way?",
+    "What are the potential side effects of PrEP that I should be aware of?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How do I navigate conversations about my mental health when asking about PrEP?",
+  "starter_noisy": "How do I navigate conversations about my mental health when asking about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that PrEP is safe to take alongside my bipolar medication?",
+  "followup_noisy": "How can I ensure that PrEP is safe to take alongside my bipolar medication?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"managing my mental health while considering PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a young woman living with bipolar disorder. She has experienced fluctuations in mood and energy levels, which sometimes make it difficult to stay consistent with medication routines. She feels uncertain about adding PrEP to her regimen, fearing it may interact with her mental health medications or exacerbate her condition. Stigma surrounding both her mental health and sexual health leads to anxiety about discussing PrEP with healthcare providers.\",\n  \"example_questions\": [\n    \"How can I ensure that PrEP is safe to take alongside my bipolar medication?\",\n    \"What should I discuss with my doctor regarding my mental health before starting PrEP?\",\n    \"Are there any support resources available for people like me who are considering PrEP?\",\n    \"How do I navigate conversations about my mental health when asking about PrEP?\",\n    \"Can taking PrEP affect my mood or stability in any way?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1a506c44065727617d7945fa44187923370f30793e12dd870fbd1771828f470a",
+  "_starter_hash": "4dc1b9620a9d2ea8ed4a6dd4b4e9df89f83482f930c5a6bf06d049ed12c235f8",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

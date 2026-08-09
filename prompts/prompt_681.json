@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how my bipolar disorder may affect my ability to take PrEP consistently",
+    "language": "English"
+  },
+  "context": "As someone living with bipolar disorder, I often experience mood fluctuations that can impact my daily routine and medication adherence. This makes me worry about my capacity to consistently take PrEP as prescribed and how mental health stigma may affect my access to healthcare resources.",
+  "example_questions_clean": [
+    "What should I consider before starting PrEP given my bipolar disorder?",
+    "How can I ensure that my mental health doesn't interfere with taking PrEP regularly?",
+    "Are there support resources available for people like me who are concerned about managing both PrEP and mental health?",
+    "How do healthcare providers address the needs of patients with mental health conditions when discussing PrEP?",
+    "Is it common for individuals with bipolar disorder to take PrEP successfully?",
+    "What steps can I take to build a routine that includes both PrEP and my mental health management?"
+  ],
+  "example_questions_noisy": [
+    "What should I consider before starting PrEP given my bipolar disorder?",
+    "How can I ensure that my mental health doesn't interfere with taking PrEP regularly?",
+    "Are there support resources available for people like me who are concerned about managing both PrEP and mental health?",
+    "How do healthcare providers address the needs of patients with mental health conditions when discussing PrEP?",
+    "Is it common for individuals with bipolar disorder to take PrEP successfully?",
+    "What steps can I take to build a routine that includes both PrEP and my mental health management?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support resources available for people like me who are concerned about managing both PrEP and mental health?",
+  "starter_noisy": "Are there support resources available for people like me who are concerned about managing both PrEP and mental health?",
+  "followup_index": 0,
+  "followup_clean": "What should I consider before starting PrEP given my bipolar disorder?",
+  "followup_noisy": "What should I consider before starting PrEP given my bipolar disorder?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how my bipolar disorder may affect my ability to take PrEP consistently\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone living with bipolar disorder, I often experience mood fluctuations that can impact my daily routine and medication adherence. This makes me worry about my capacity to consistently take PrEP as prescribed and how mental health stigma may affect my access to healthcare resources.\",\n  \"example_questions\": [\n    \"What should I consider before starting PrEP given my bipolar disorder?\",\n    \"How can I ensure that my mental health doesn't interfere with taking PrEP regularly?\",\n    \"Are there support resources available for people like me who are concerned about managing both PrEP and mental health?\",\n    \"How do healthcare providers address the needs of patients with mental health conditions when discussing PrEP?\",\n    \"Is it common for individuals with bipolar disorder to take PrEP successfully?\",\n    \"What steps can I take to build a routine that includes both PrEP and my mental health management?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "81dd086900fbff94002312f26088ca801c70478f487d8e044a42f7dfc5b12a0d",
+  "_starter_hash": "290f43af235077602f01a94094d2c6358ec340b2b71fec8782aed938b3a7ecc4",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

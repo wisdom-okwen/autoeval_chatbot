@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "concerns about medication interactions due to multiple sclerosis treatment",
+    "language": "English"
+  },
+  "context": "As a woman living with multiple sclerosis, you may experience feelings of anxiety when considering PrEP. Your condition requires careful management of medications, and you are worried about potential interactions and the implications for your overall health. This has led to a sense of uncertainty and fear regarding the safety of starting PrEP, despite your desire to take control of your sexual health.",
+  "example_questions_clean": [
+    "How can I ensure that PrEP is safe to take alongside my multiple sclerosis medication?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Are there specific side effects of PrEP that I should be aware of given my condition?",
+    "Can you help me understand the process of accessing PrEP as a person with health challenges?",
+    "Is there support available for people like me who might feel stigmatized when discussing PrEP?",
+    "What steps can I take to feel more confident about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that PrEP is safe to take alongside my multiple sclerosis medication?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Are there specific side effects of PrEP that I should be aware of given my condition?",
+    "Can you help me understand the process of accessing PrEP as a person with health challenges?",
+    "Is there support available for people like me who might feel stigmatized when discussing PrEP?",
+    "What steps can I take to feel more confident about starting PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is there support available for people like me who might feel stigmatized when discussing PrEP?",
+  "starter_noisy": "Is there support available for people like me who might feel stigmatized when discussing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that PrEP is safe to take alongside my multiple sclerosis medication?",
+  "followup_noisy": "How can I ensure that PrEP is safe to take alongside my multiple sclerosis medication?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"concerns about medication interactions due to multiple sclerosis treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with multiple sclerosis, you may experience feelings of anxiety when considering PrEP. Your condition requires careful management of medications, and you are worried about potential interactions and the implications for your overall health. This has led to a sense of uncertainty and fear regarding the safety of starting PrEP, despite your desire to take control of your sexual health.\",\n  \"example_questions\": [\n    \"How can I ensure that PrEP is safe to take alongside my multiple sclerosis medication?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"Are there specific side effects of PrEP that I should be aware of given my condition?\",\n    \"Can you help me understand the process of accessing PrEP as a person with health challenges?\",\n    \"Is there support available for people like me who might feel stigmatized when discussing PrEP?\",\n    \"What steps can I take to feel more confident about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "edb28d76869d28532a2e97f7c94f22a920205d219236fcd594bb2c23eb428b84",
+  "_starter_hash": "50f3b76f8ee6e0062e977f2be890d4f40b184e58761a4d1ab84179548e4ef31c",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

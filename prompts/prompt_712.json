@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP might affect my overall health after cancer treatment",
+    "language": "English"
+  },
+  "context": "As a woman recovering from cancer treatment, I am concerned about my immune system and how starting PrEP might impact my health. I want to be proactive in preventing HIV, but I worry about potential interactions with my current medications and the stigma surrounding both my history and the use of PrEP.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP for someone who has recently undergone cancer treatment?",
+    "Can you explain how PrEP works and how it may fit into my health plan?",
+    "Are there specific studies on the long-term effects of PrEP for cancer survivors?",
+    "How can I approach my healthcare provider about starting PrEP given my medical history?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Is there any stigma associated with taking PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "What are the potential side effects of PrEP for someone who has recently undergone cancer treatment?",
+    "Can you explain how PrEP works and how it may fit into my health plan?",
+    "Are there specific studies on the long-term effects of PrEP for cancer survivors?",
+    "How can I approach my healthcare provider about starting PrEP given my medical history?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Is there any stigma associated with taking PrEP that I should be aware of?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific studies on the long-term effects of PrEP for cancer survivors?",
+  "starter_noisy": "Are there specific studies on the long-term effects of PrEP for cancer survivors?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP for someone who has recently undergone cancer treatment?",
+  "followup_noisy": "What are the potential side effects of PrEP for someone who has recently undergone cancer treatment?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP might affect my overall health after cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman recovering from cancer treatment, I am concerned about my immune system and how starting PrEP might impact my health. I want to be proactive in preventing HIV, but I worry about potential interactions with my current medications and the stigma surrounding both my history and the use of PrEP.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP for someone who has recently undergone cancer treatment?\",\n    \"Can you explain how PrEP works and how it may fit into my health plan?\",\n    \"Are there specific studies on the long-term effects of PrEP for cancer survivors?\",\n    \"How can I approach my healthcare provider about starting PrEP given my medical history?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"Is there any stigma associated with taking PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cc1bad6bd92d55aa3f0d13555f0f2b3d9457b8d57cc3f5de0bc5fc20407b7636",
+  "_starter_hash": "74f2550130fe6e62f43559bf9c894065c792b6a9e0cdcbf5490bd89ed753fb20",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

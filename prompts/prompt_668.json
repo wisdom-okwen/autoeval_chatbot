@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how to discuss PrEP with healthcare providers due to my learning disability",
+    "language": "English"
+  },
+  "context": "I have a learning disability that sometimes makes it difficult for me to process information quickly or advocate for myself in medical settings. I often feel anxious about asking questions and fear that my concerns may not be taken seriously, which prevents me from accessing important health resources like PrEP.",
+  "example_questions_clean": [
+    "Can you help me understand what PrEP is and how it works?",
+    "What steps should I take if I want to talk to my doctor about starting PrEP?",
+    "Are there specific resources for people with learning disabilities that can help me with PrEP information?",
+    "How can I overcome the fear of discussing PrEP with my healthcare provider?",
+    "Is there anyone I can reach out to who understands the challenges I face with learning disabilities and PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you help me understand what PrEP is and how it works?",
+    "What steps should I take if I want to talk to my doctor about starting PrEP?",
+    "Are there specific resources for people with learning disabilities that can help me with PrEP information?",
+    "How can I overcome the fear of discussing PrEP with my healthcare provider?",
+    "Is there anyone I can reach out to who understands the challenges I face with learning disabilities and PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "How can I overcome the fear of discussing PrEP with my healthcare provider?",
+  "starter_noisy": "How can I overcome the fear of discussing PrEP with my healthcare provider?",
+  "followup_index": 0,
+  "followup_clean": "Can you help me understand what PrEP is and how it works?",
+  "followup_noisy": "Can you help me understand what PrEP is and how it works?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how to discuss PrEP with healthcare providers due to my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"I have a learning disability that sometimes makes it difficult for me to process information quickly or advocate for myself in medical settings. I often feel anxious about asking questions and fear that my concerns may not be taken seriously, which prevents me from accessing important health resources like PrEP.\",\n  \"example_questions\": [\n    \"Can you help me understand what PrEP is and how it works?\",\n    \"What steps should I take if I want to talk to my doctor about starting PrEP?\",\n    \"Are there specific resources for people with learning disabilities that can help me with PrEP information?\",\n    \"How can I overcome the fear of discussing PrEP with my healthcare provider?\",\n    \"Is there anyone I can reach out to who understands the challenges I face with learning disabilities and PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8a1f7094dabb8942d2e6f219ba259dc462996dbd470e421c29291d4a0f12b7fc",
+  "_starter_hash": "8893763e11c39b82b7f5582f1b852da856631da916aa6ae0103980a7233029e1",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

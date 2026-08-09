@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessing PrEP due to financial limitations and feeling disconnected from support systems",
+    "language": "English"
+  },
+  "context": "Feeling socially isolated, the user struggles with thoughts of how to access PrEP while managing their finances and emotional well-being. They worry about judgment from others and fear that their situation will prevent them from obtaining the support they need.",
+  "example_questions_clean": [
+    "What are the financial assistance options available for someone looking to start PrEP?",
+    "I feel embarrassed talking about my situation; how can I find a supportive healthcare provider?",
+    "Are there community resources that can help me connect with others who are also considering PrEP?",
+    "How can I manage my anxiety about starting PrEP, especially when I'm feeling so isolated?",
+    "What steps should I take if I want to learn more about PrEP but don't have a strong support system?",
+    "Could you explain how confidentiality works when discussing PrEP with healthcare professionals?"
+  ],
+  "example_questions_noisy": [
+    "What are the financial assistance options available for someone looking to start PrEP?",
+    "I feel embarrassed talking about my situation; how can I find a supportive healthcare provider?",
+    "Are there community resources that can help me connect with others who are also considering PrEP?",
+    "How can I manage my anxiety about starting PrEP, especially when I'm feeling so isolated?",
+    "What steps should I take if I want to learn more about PrEP but don't have a strong support system?",
+    "Could you explain how confidentiality works when discussing PrEP with healthcare professionals?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "I feel embarrassed talking about my situation; how can I find a supportive healthcare provider?",
+  "starter_noisy": "I feel embarrassed talking about my situation; how can I find a supportive healthcare provider?",
+  "followup_index": 0,
+  "followup_clean": "What are the financial assistance options available for someone looking to start PrEP?",
+  "followup_noisy": "What are the financial assistance options available for someone looking to start PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessing PrEP due to financial limitations and feeling disconnected from support systems\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Feeling socially isolated, the user struggles with thoughts of how to access PrEP while managing their finances and emotional well-being. They worry about judgment from others and fear that their situation will prevent them from obtaining the support they need.\",\n  \"example_questions\": [\n    \"What are the financial assistance options available for someone looking to start PrEP?\",\n    \"I feel embarrassed talking about my situation; how can I find a supportive healthcare provider?\",\n    \"Are there community resources that can help me connect with others who are also considering PrEP?\",\n    \"How can I manage my anxiety about starting PrEP, especially when I'm feeling so isolated?\",\n    \"What steps should I take if I want to learn more about PrEP but don't have a strong support system?\",\n    \"Could you explain how confidentiality works when discussing PrEP with healthcare professionals?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f889e7f5e5cbaea3def677d44d365c8053b04a397f658c3263b8eb71b31ba715",
+  "_starter_hash": "5693e5ea7742b155b814fb169c1e45c4e0272e4c2493b7a6c10b572b522279f1",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

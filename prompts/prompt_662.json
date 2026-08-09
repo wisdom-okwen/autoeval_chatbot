@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "non-binary",
+    "socio_economic_status": "middle class",
+    "primary_concern": "feeling comfortable accessing PrEP given the stigma in my community",
+    "language": "English"
+  },
+  "context": "Navigating the complexities of gender dysphoria has made me more aware of how I present myself and how others perceive me. This adds a layer of anxiety to accessing PrEP, as I worry about judgment or misunderstanding from healthcare providers and peers. The hope for better health and prevention is present, but the fear of stigma often holds me back.",
+  "example_questions_clean": [
+    "What are the steps to get prescribed PrEP in Canada?",
+    "Can you tell me how other non-binary individuals have navigated their PrEP journey?",
+    "What should I expect during my first appointment regarding PrEP?",
+    "How can I ensure my privacy and confidentiality when discussing PrEP with my doctor?",
+    "Are there support groups or resources that specifically address the needs of non-binary individuals seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps to get prescribed PrEP in Canada?",
+    "Can you tell me how other non-binary individuals have navigated their PrEP journey?",
+    "What should I expect during my first appointment regarding PrEP?",
+    "How can I ensure my privacy and confidentiality when discussing PrEP with my doctor?",
+    "Are there support groups or resources that specifically address the needs of non-binary individuals seeking PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps to get prescribed PrEP in Canada?",
+  "starter_noisy": "What are the steps to get prescribed PrEP in Canada?",
+  "followup_index": 1,
+  "followup_clean": "Can you tell me how other non-binary individuals have navigated their PrEP journey?",
+  "followup_noisy": "Can you tell me how other non-binary individuals have navigated their PrEP journey?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"feeling comfortable accessing PrEP given the stigma in my community\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Navigating the complexities of gender dysphoria has made me more aware of how I present myself and how others perceive me. This adds a layer of anxiety to accessing PrEP, as I worry about judgment or misunderstanding from healthcare providers and peers. The hope for better health and prevention is present, but the fear of stigma often holds me back.\",\n  \"example_questions\": [\n    \"What are the steps to get prescribed PrEP in Canada?\",\n    \"Can you tell me how other non-binary individuals have navigated their PrEP journey?\",\n    \"What should I expect during my first appointment regarding PrEP?\",\n    \"How can I ensure my privacy and confidentiality when discussing PrEP with my doctor?\",\n    \"Are there support groups or resources that specifically address the needs of non-binary individuals seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2bafff08197bd7a29a1f94674226f9df6414e7b0d564b1e281518153af1e326f",
+  "_starter_hash": "90876c5c07f920a69b14880e9b87edccf909c9bdef32bef23b28a95827edcc6d",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}
