@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "concerns about stigma and mental health management",
+    "language": "English"
+  },
+  "context": "The user is a young woman living with schizophrenia, which sometimes makes it challenging for her to focus and feel confident in making health decisions. She worries about how others might perceive her condition if she seeks PrEP, fearing stigma and misunderstanding regarding both her mental health and sexual health. She wants to know how to navigate these challenges while considering her options for PrEP.",
+  "example_questions_clean": [
+    "What should I consider before starting PrEP given my mental health condition?",
+    "How can I find a healthcare provider who understands the challenges I face?",
+    "Are there support groups or resources for people like me who are considering PrEP?",
+    "What are the potential side effects of PrEP, especially for someone with schizophrenia?",
+    "Can PrEP affect my mental health in any way?",
+    "How do I approach the topic of PrEP with my doctor without feeling judged?"
+  ],
+  "example_questions_noisy": [
+    "what sould i consider before 57art1ng prep given you know my mental health condition ‼️",
+    "how can I find a healthcare provider who uh und3rs74nd5 the challenges 1 face 🫠",
+    "are there support groups or resources for peo;le l1ke k3 who are uh considering pr3p?",
+    "w-what are the potential side effects of you know rPEP, especially for omeone with schizophrenia?",
+    "can PrEP affect my mental health in any way?",
+    "How do I aproach ttthe 70p1c of PrEP wih my doctor without f33l1ng jidged"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What are the potential side effects of PrEP, especially for someone with schizophrenia?",
+  "starter_noisy": "w-what are the potential side effects of you know rPEP, especially for omeone with schizophrenia?",
+  "followup_index": 0,
+  "followup_clean": "What should I consider before starting PrEP given my mental health condition?",
+  "followup_noisy": "what sould i consider before 57art1ng prep given you know my mental health condition ‼️",
+  "style_profile": {
+    "typo_rate": 0.09788672720096753,
+    "swap_rate": 0.058075802764446266,
+    "drop_rate": 0.045649512487037275,
+    "dup_rate": 0.01509083838327832,
+    "leet_rate": 0.10577266348087178,
+    "start_lower_prob": 0.7708867252270888,
+    "all_lower_prob": 0.34981736899851845,
+    "drop_punct_prob": 0.5084953935001577,
+    "double_space_prob": 0.24014444684293018,
+    "ellipsis_prob": 0.2740303768844164,
+    "runon_prob": 0.19556748674003363,
+    "filler_rate": 0.3969166159980372,
+    "emoji_rate": 0.3147207457484902,
+    "stutter_rate": 0.19686790097007043,
+    "repeat_last_rate": 0.12681172723007378
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"concerns about stigma and mental health management\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a young woman living with schizophrenia, which sometimes makes it challenging for her to focus and feel confident in making health decisions. She worries about how others might perceive her condition if she seeks PrEP, fearing stigma and misunderstanding regarding both her mental health and sexual health. She wants to know how to navigate these challenges while considering her options for PrEP.\",\n  \"example_questions\": [\n    \"What should I consider before starting PrEP given my mental health condition?\",\n    \"How can I find a healthcare provider who understands the challenges I face?\",\n    \"Are there support groups or resources for people like me who are considering PrEP?\",\n    \"What are the potential side effects of PrEP, especially for someone with schizophrenia?\",\n    \"Can PrEP affect my mental health in any way?\",\n    \"How do I approach the topic of PrEP with my doctor without feeling judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8c4281892012c9a51f276ed4d5ab80869f1f05812c5c6395471e0bdc52f7b137",
+  "_starter_hash": "a48ea9f2c703e295caee5721efa298c70591cc2989fee66d1e3fa992fa5cce8d",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

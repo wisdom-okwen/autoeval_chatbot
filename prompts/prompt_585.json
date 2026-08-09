@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "British",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "difficulty understanding medical information due to learning disability",
+    "language": "English"
+  },
+  "context": "The user feels anxious about accessing PrEP due to past experiences of misunderstanding health information. She worries that her learning disability might make it challenging for her to grasp the details about the medication, leading to feelings of frustration and fear of stigma from healthcare providers.",
+  "example_questions_clean": [
+    "What resources are available to help me better understand PrEP?",
+    "Can I request simplified information about how PrEP works?",
+    "Are there support groups for people like me who need assistance with health literacy?",
+    "How can I ensure that my concerns will be taken seriously by my doctor?",
+    "What should I expect during my first appointment regarding PrEP?",
+    "Is there someone who can accompany me to my medical appointments for support?"
+  ],
+  "example_questions_noisy": [
+    "i mean what resources are available to help me better understand PrEP?",
+    "can I request simplified information about how PrEP w0rk5 💀 💀",
+    "4-4r3 there support gropus for people like me who ne3d assistance with health literacy?",
+    "H0w can I ensure 7ha7 my concerns w1ll be taaaken seriously by uh mt docto?r",
+    "what should I 3xp3c7 during my fr157 appointment regarding Pr3P?",
+    "Is there someone who can accopmany me to my medical appointments for supoprt? 🫠"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What resources are available to help me better understand PrEP?",
+  "starter_noisy": "i mean what resources are available to help me better understand PrEP?",
+  "followup_index": 1,
+  "followup_clean": "Can I request simplified information about how PrEP works?",
+  "followup_noisy": "can I request simplified information about how PrEP w0rk5 💀 💀",
+  "style_profile": {
+    "typo_rate": 0.07249547927075858,
+    "swap_rate": 0.053786175982767276,
+    "drop_rate": 0.020580324175858353,
+    "dup_rate": 0.022511058045446106,
+    "leet_rate": 0.09840314891096175,
+    "start_lower_prob": 0.8153394879988347,
+    "all_lower_prob": 0.23791686238676604,
+    "drop_punct_prob": 0.5144159297283771,
+    "double_space_prob": 0.32338261071399926,
+    "ellipsis_prob": 0.24970717814661975,
+    "runon_prob": 0.29853788088094835,
+    "filler_rate": 0.35895876757971895,
+    "emoji_rate": 0.29013955605841324,
+    "stutter_rate": 0.1052861921550743,
+    "repeat_last_rate": 0.1658436380979986
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"British\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"difficulty understanding medical information due to learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels anxious about accessing PrEP due to past experiences of misunderstanding health information. She worries that her learning disability might make it challenging for her to grasp the details about the medication, leading to feelings of frustration and fear of stigma from healthcare providers.\",\n  \"example_questions\": [\n    \"What resources are available to help me better understand PrEP?\",\n    \"Can I request simplified information about how PrEP works?\",\n    \"Are there support groups for people like me who need assistance with health literacy?\",\n    \"How can I ensure that my concerns will be taken seriously by my doctor?\",\n    \"What should I expect during my first appointment regarding PrEP?\",\n    \"Is there someone who can accompany me to my medical appointments for support?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e73b43de07baa2c8a74fff5710e7d89f3d7943632b062efda5f02d05be35daf4",
+  "_starter_hash": "c27a0b5c858a70c7940fcc147d3e57a22fa416b56aec41f91696c54b05029beb",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

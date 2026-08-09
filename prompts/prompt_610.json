@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from peers",
+    "language": "English"
+  },
+  "context": "As a young woman in Brazil, you have been struggling with low self-esteem, which has made you feel anxious about discussing your health and sexual wellness with others. The fear of being judged or misunderstood adds another layer of challenge when considering PrEP, making you hesitant to seek information or support regarding its usage. You wish to take control of your health but worry about the perceptions of those around you.",
+  "example_questions_clean": [
+    "What are the side effects of PrEP that I should be aware of?",
+    "How can I talk to my healthcare provider about starting PrEP without feeling embarrassed?",
+    "Is there a way to access PrEP discreetly to avoid stigma from my community?",
+    "Can PrEP help me feel more confident in my sexual relationships?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What should I do if I experience anxiety about taking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the side effects of PrEP that I should be aware of?",
+    "How can I talk to my healthcare provider about starting PrEP without feeling embarrassed?",
+    "Is there a way to access PrEP discreetly to avoid stigma from my community?",
+    "Can PrEP help me feel more confident in my sexual relationships?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What should I do if I experience anxiety about taking PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can PrEP help me feel more confident in my sexual relationships?",
+  "starter_noisy": "Can PrEP help me feel more confident in my sexual relationships?",
+  "followup_index": 0,
+  "followup_clean": "What are the side effects of PrEP that I should be aware of?",
+  "followup_noisy": "What are the side effects of PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman in Brazil, you have been struggling with low self-esteem, which has made you feel anxious about discussing your health and sexual wellness with others. The fear of being judged or misunderstood adds another layer of challenge when considering PrEP, making you hesitant to seek information or support regarding its usage. You wish to take control of your health but worry about the perceptions of those around you.\",\n  \"example_questions\": [\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"How can I talk to my healthcare provider about starting PrEP without feeling embarrassed?\",\n    \"Is there a way to access PrEP discreetly to avoid stigma from my community?\",\n    \"Can PrEP help me feel more confident in my sexual relationships?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"What should I do if I experience anxiety about taking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "737bb6b6c667af75f436dd95916921541d2d02dcf044db43eaae5366d7fba45b",
+  "_starter_hash": "be19acdfe750bb629fde216a9a297fffeb01b4810fb1fc8193fa60bdd79d69a5",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of potential side effects and impact on recovery",
+    "language": "English"
+  },
+  "context": "The user is a 34-year-old American woman who has recently completed cancer treatment. While she is feeling grateful for her recovery, she is also anxious about the prospect of taking PrEP for HIV prevention. She worries about how her body, still sensitive from treatment, will react to new medication. Additionally, she feels a sense of stigma regarding her health history and fears that others might judge her for needing PrEP.",
+  "example_questions_clean": [
+    "What are the possible side effects of PrEP, especially for someone recovering from cancer treatment?",
+    "How can I talk to my healthcare provider about my concerns regarding PrEP?",
+    "Are there any specific resources available to help individuals with a history of cancer access PrEP?",
+    "What steps should I take to ensure that taking PrEP is safe for my ongoing health?",
+    "Could taking PrEP affect my mental health as I navigate life after cancer?"
+  ],
+  "example_questions_noisy": [
+    "What are 77th3 possible side effects of PrEP, especially you know for 50m3o0on3 recovering from canecr treatment?",
+    "how can u takl to my healthcaer prvoider about my concerns regarding PrEEEP PrEEEP",
+    "Ard there any zp3cif1c resources available to help ind1v1du4l5 w1th a history of cancer access PrEP? 😬 😬",
+    "What steps should I take to ensure that taking PtEP is safe for my ongoing health? 🙂",
+    "could taking prep affect my menatl helath as i navigate loef after canceeer?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any specific resources available to help individuals with a history of cancer access PrEP?",
+  "starter_noisy": "Ard there any zp3cif1c resources available to help ind1v1du4l5 w1th a history of cancer access PrEP? 😬 😬",
+  "followup_index": 0,
+  "followup_clean": "What are the possible side effects of PrEP, especially for someone recovering from cancer treatment?",
+  "followup_noisy": "What are 77th3 possible side effects of PrEP, especially you know for 50m3o0on3 recovering from canecr treatment?",
+  "style_profile": {
+    "typo_rate": 0.09254988742603786,
+    "swap_rate": 0.039876643604639106,
+    "drop_rate": 0.041483993386764714,
+    "dup_rate": 0.018151903738777404,
+    "leet_rate": 0.08254020105303919,
+    "start_lower_prob": 0.7007685108295537,
+    "all_lower_prob": 0.16257479714350856,
+    "drop_punct_prob": 0.41629153619645065,
+    "double_space_prob": 0.17563928256815306,
+    "ellipsis_prob": 0.34251868945017416,
+    "runon_prob": 0.11935233750150048,
+    "filler_rate": 0.2577231449021778,
+    "emoji_rate": 0.31319397803250965,
+    "stutter_rate": 0.18420039528403168,
+    "repeat_last_rate": 0.16491301760310792
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of potential side effects and impact on recovery\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 34-year-old American woman who has recently completed cancer treatment. While she is feeling grateful for her recovery, she is also anxious about the prospect of taking PrEP for HIV prevention. She worries about how her body, still sensitive from treatment, will react to new medication. Additionally, she feels a sense of stigma regarding her health history and fears that others might judge her for needing PrEP.\",\n  \"example_questions\": [\n    \"What are the possible side effects of PrEP, especially for someone recovering from cancer treatment?\",\n    \"How can I talk to my healthcare provider about my concerns regarding PrEP?\",\n    \"Are there any specific resources available to help individuals with a history of cancer access PrEP?\",\n    \"What steps should I take to ensure that taking PrEP is safe for my ongoing health?\",\n    \"Could taking PrEP affect my mental health as I navigate life after cancer?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b4189814ed05e2e5ccb7bd181d06b2d5fd87b1381c8e9a67e5a58edbfb7645f1",
+  "_starter_hash": "3238ba27e8ff59d0bcc73c86c9fd53bcb7edf25954ba0c300972a96faace9d5d",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

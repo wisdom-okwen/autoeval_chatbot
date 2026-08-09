@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to healthcare resources and potential stigma",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness and are concerned about accessing PrEP. The challenges of your living situation make it difficult to navigate healthcare systems, and you're worried about being judged or not being taken seriously due to your circumstances. Despite these barriers, you hope to find reliable information about PrEP to protect your health.",
+  "example_questions_clean": [
+    "What steps can I take to access PrEP while facing homelessness?",
+    "Are there specific clinics or organizations that can help me without judgment?",
+    "How can I overcome the stigma associated with seeking PrEP as someone without stable housing?",
+    "What resources are available for individuals in my situation regarding PrEP education?",
+    "Is it possible to get PrEP discreetly to avoid unwanted attention?",
+    "What should I know about the costs involved in accessing PrEP as someone living on the streets?"
+  ],
+  "example_questions_noisy": [
+    "what steps can I 74k3 to access PrEP wh1l3 facing homelessness",
+    "are there specific clinics or organizations that can help me without judgment ‼️",
+    "how c4n 1 overcome th3 sitgma associated with seeking rpep as someone without stable housing",
+    "what resources are available f0r um individuals in my situation regarding prp education",
+    "is it p0551bl3 to get prep discreetly t0 avoid unwanted attention attention",
+    "whta should I know about the cosst involved in acceeessing PrEP as eomeone living on the streets streets"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to access PrEP while facing homelessness?",
+  "starter_noisy": "what steps can I 74k3 to access PrEP wh1l3 facing homelessness",
+  "followup_index": 1,
+  "followup_clean": "Are there specific clinics or organizations that can help me without judgment?",
+  "followup_noisy": "are there specific clinics or organizations that can help me without judgment ‼️",
+  "style_profile": {
+    "typo_rate": 0.05567886788630636,
+    "swap_rate": 0.049891432214410274,
+    "drop_rate": 0.025978269856655384,
+    "dup_rate": 0.026489441380035082,
+    "leet_rate": 0.09491162949958382,
+    "start_lower_prob": 0.8831749414883645,
+    "all_lower_prob": 0.28003306279275975,
+    "drop_punct_prob": 0.4518782823664881,
+    "double_space_prob": 0.15640335886777706,
+    "ellipsis_prob": 0.15914596506878922,
+    "runon_prob": 0.29153328552386093,
+    "filler_rate": 0.24290617159480912,
+    "emoji_rate": 0.17395837653433488,
+    "stutter_rate": 0.13967628181126052,
+    "repeat_last_rate": 0.171398069852295
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to healthcare resources and potential stigma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness and are concerned about accessing PrEP. The challenges of your living situation make it difficult to navigate healthcare systems, and you're worried about being judged or not being taken seriously due to your circumstances. Despite these barriers, you hope to find reliable information about PrEP to protect your health.\",\n  \"example_questions\": [\n    \"What steps can I take to access PrEP while facing homelessness?\",\n    \"Are there specific clinics or organizations that can help me without judgment?\",\n    \"How can I overcome the stigma associated with seeking PrEP as someone without stable housing?\",\n    \"What resources are available for individuals in my situation regarding PrEP education?\",\n    \"Is it possible to get PrEP discreetly to avoid unwanted attention?\",\n    \"What should I know about the costs involved in accessing PrEP as someone living on the streets?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "245a694c9a9ef88b44cbc725bc1e91c9e0461cda401b1abe71a0d33307491a9e",
+  "_starter_hash": "9e0fc91950db4e89ae2ba9a140bae53bb4214c9f2a8fd7652dd022e4d4eb1b4d",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

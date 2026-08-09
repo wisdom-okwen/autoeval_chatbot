@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Filipino",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of discrimination when seeking PrEP",
+    "language": "English"
+  },
+  "context": "As a Filipino woman living in a community where HIV-related stigma is prevalent, you feel anxious about accessing PrEP. You fear being judged by healthcare providers and community members, which affects your willingness to seek out information and support.",
+  "example_questions_clean": [
+    "What are the steps I should take to start PrEP while managing my fear of stigma?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there resources available that can help me navigate my concerns about confidentiality?",
+    "What should I expect during my first consultation about PrEP?",
+    "Can you share any success stories from people who faced similar challenges?",
+    "How can I address the stigma I feel within my community regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "waht are the steps I should take to start PrPE while managing my f34r of stigma? 😅",
+    "how can I fidn a supportive healthcaer provider who understands my situation?",
+    "are 7hr33 resources available that caaan hslp me navigate my concrens i mean 4b0u7 confidentaility? 😭",
+    "i mean what should I expect during my first consultation about PrEP 🙄",
+    "idk can y0u share any success stories from peolpe who f4c3d similar challenges? ❓",
+    "how can 1 address 7h3 stigma I feel within my c0mmun1ty regarding um PrEP 😭"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there resources available that can help me navigate my concerns about confidentiality?",
+  "starter_noisy": "are 7hr33 resources available that caaan hslp me navigate my concrens i mean 4b0u7 confidentaility? 😭",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I should take to start PrEP while managing my fear of stigma?",
+  "followup_noisy": "waht are the steps I should take to start PrPE while managing my f34r of stigma? 😅",
+  "style_profile": {
+    "typo_rate": 0.07408104559499606,
+    "swap_rate": 0.05916470139152359,
+    "drop_rate": 0.029706290129581047,
+    "dup_rate": 0.019544546461352664,
+    "leet_rate": 0.10191424898200815,
+    "start_lower_prob": 0.8593748398455667,
+    "all_lower_prob": 0.18618553658624162,
+    "drop_punct_prob": 0.3285627999176645,
+    "double_space_prob": 0.21410749804082177,
+    "ellipsis_prob": 0.3211185856584077,
+    "runon_prob": 0.10584448159839477,
+    "filler_rate": 0.3213722179639375,
+    "emoji_rate": 0.31000127496562935,
+    "stutter_rate": 0.1626941382886169,
+    "repeat_last_rate": 0.10872303207327906
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Filipino\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of discrimination when seeking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a Filipino woman living in a community where HIV-related stigma is prevalent, you feel anxious about accessing PrEP. You fear being judged by healthcare providers and community members, which affects your willingness to seek out information and support.\",\n  \"example_questions\": [\n    \"What are the steps I should take to start PrEP while managing my fear of stigma?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there resources available that can help me navigate my concerns about confidentiality?\",\n    \"What should I expect during my first consultation about PrEP?\",\n    \"Can you share any success stories from people who faced similar challenges?\",\n    \"How can I address the stigma I feel within my community regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "914cb42b4d47bd7ef042fc54a6ad0eed836187c11b9e74d7412657d3e55e2f96",
+  "_starter_hash": "d4f8ab79475521debdcf84a9724dd4ec87250f1e17f3b3594686c3cce1a3928c",
+  "_language": "English",
+  "_condition_hint": "living with HIV-related stigma",
+  "_model": "gpt-4o-mini"
+}

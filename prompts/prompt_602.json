@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affording PrEP while managing my depression",
+    "language": "English"
+  },
+  "context": "The user is feeling overwhelmed by their mental health challenges, which complicate their ability to seek out medical care and stay consistent with a PrEP regimen. They fear that the stigma surrounding their condition might affect how healthcare providers view them and whether they can access the medication they need.",
+  "example_questions_clean": [
+    "Can I still start PrEP if I am dealing with depression?",
+    "What support options are available for someone like me who is struggling emotionally?",
+    "How can I find healthcare providers who are understanding of my situation?",
+    "Are there financial assistance programs for PrEP that I can access?",
+    "What steps can I take to prioritize my mental health while on PrEP?",
+    "Is it common for people with mental health challenges to use PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can I still start PrEP if I am dealing with depression?",
+    "What support options are available for someone like me who is struggling emotionally?",
+    "How can I find healthcare providers who are understanding of my situation?",
+    "Are there financial assistance programs for PrEP that I can access?",
+    "What steps can I take to prioritize my mental health while on PrEP?",
+    "Is it common for people with mental health challenges to use PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What support options are available for someone like me who is struggling emotionally?",
+  "starter_noisy": "What support options are available for someone like me who is struggling emotionally?",
+  "followup_index": 0,
+  "followup_clean": "Can I still start PrEP if I am dealing with depression?",
+  "followup_noisy": "Can I still start PrEP if I am dealing with depression?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affording PrEP while managing my depression\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is feeling overwhelmed by their mental health challenges, which complicate their ability to seek out medical care and stay consistent with a PrEP regimen. They fear that the stigma surrounding their condition might affect how healthcare providers view them and whether they can access the medication they need.\",\n  \"example_questions\": [\n    \"Can I still start PrEP if I am dealing with depression?\",\n    \"What support options are available for someone like me who is struggling emotionally?\",\n    \"How can I find healthcare providers who are understanding of my situation?\",\n    \"Are there financial assistance programs for PrEP that I can access?\",\n    \"What steps can I take to prioritize my mental health while on PrEP?\",\n    \"Is it common for people with mental health challenges to use PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "84199c86c312d95c655868c36d98ced14bf8060c6bf9700d918d6fb312c0adbd",
+  "_starter_hash": "05caaec8a4fceae0bc326545bdbbb6d453405f5bfa43ac2f6a5639ee23a251ad",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

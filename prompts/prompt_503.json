@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and side effects",
+    "language": "English"
+  },
+  "context": "As a woman living with schizophrenia, navigating mental health challenges can make seeking information about PrEP difficult. The fear of potential side effects and how they might impact her mental health, combined with concerns about stigma in her community, create significant barriers to accessing this preventive medication.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I talk to my healthcare provider about PrEP without feeling judged?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "Can PrEP interact with medications I take for my mental health?",
+    "What steps can I take to ensure my privacy when accessing PrEP?",
+    "Is there financial assistance available for low-income individuals seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are tue potential side effectsss of idk Pr3P that I 5h0uld be aware of",
+    "how can I talk to my healthcare provicer 4bou7 Pr3P wihtout feeling judg3d",
+    "4r3 like there support groups for epople l1ke me who are considering prep",
+    "c-can prep itneract with m3d1cati0n5 um i take fffor mu mental health?",
+    "what steps can I tae to ensure my privacy when accessing PrEP PrEP",
+    "ia theeee finacnial assistance available for low-income individuals like seeking prep?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What steps can I take to ensure my privacy when accessing PrEP?",
+  "starter_noisy": "what steps can I tae to ensure my privacy when accessing PrEP PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_noisy": "what are tue potential side effectsss of idk Pr3P that I 5h0uld be aware of",
+  "style_profile": {
+    "typo_rate": 0.08338746807948828,
+    "swap_rate": 0.03431193565005738,
+    "drop_rate": 0.036776994317804124,
+    "dup_rate": 0.02006904643597806,
+    "leet_rate": 0.10063189735802103,
+    "start_lower_prob": 0.7490186030793745,
+    "all_lower_prob": 0.2919562632156327,
+    "drop_punct_prob": 0.5936833348029402,
+    "double_space_prob": 0.33636499840743156,
+    "ellipsis_prob": 0.23393665561603916,
+    "runon_prob": 0.23999019866898497,
+    "filler_rate": 0.48053772221031504,
+    "emoji_rate": 0.25294964013196597,
+    "stutter_rate": 0.1565965430721635,
+    "repeat_last_rate": 0.09643836858064952
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and side effects\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with schizophrenia, navigating mental health challenges can make seeking information about PrEP difficult. The fear of potential side effects and how they might impact her mental health, combined with concerns about stigma in her community, create significant barriers to accessing this preventive medication.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I talk to my healthcare provider about PrEP without feeling judged?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"Can PrEP interact with medications I take for my mental health?\",\n    \"What steps can I take to ensure my privacy when accessing PrEP?\",\n    \"Is there financial assistance available for low-income individuals seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "eda214159da145fe1c398e9ae72c49b528aa17c1704cfe5c0e92a37ebdaa7503",
+  "_starter_hash": "e8225df6f7d6a002cc1c97d782de43ad8778e1650e3fd69ab045b87dc5c07169",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

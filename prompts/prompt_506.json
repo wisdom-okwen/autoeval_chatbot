@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how PrEP can fit into my life given my learning disability",
+    "language": "English"
+  },
+  "context": "The user has a learning disability that makes it difficult for her to process information quickly. She often feels overwhelmed by medical terms and may fear being judged when seeking help. Despite her challenges, she is hopeful about finding ways to protect herself from HIV but worries about the stigma around her condition affecting her access to PrEP.",
+  "example_questions_clean": [
+    "What is the basic information I need to know about PrEP?",
+    "How can I talk to my doctor about getting prescribed PrEP without feeling intimidated?",
+    "Are there resources available that present PrEP information in an easier way for someone like me?",
+    "What should I do if I feel confused about the instructions related to taking PrEP?",
+    "Is there any support for people with learning disabilities who want to access PrEP?",
+    "How can I find a community that understands my situation and can help me navigate PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wha7 is the basic information i neeeed to know about prep?",
+    "how can I 74lk ttto my dlctor about g3771ng prescribed PrEP without feeling intimidated intimidated",
+    "are there resources available that present like PEP information in an easier way for omeone like me",
+    "what 5h0uld I do if 1 feel confused about 7h3 instructions related to taking PrEP? 🤔 🤔",
+    "i-is there any support for people with l34rn1ng disabilities who want to access PrEP?",
+    "h0w can I find a commuhity that understands my situation and can help m3 navigate Pr3P?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there resources available that present PrEP information in an easier way for someone like me?",
+  "starter_noisy": "are there resources available that present like PEP information in an easier way for omeone like me",
+  "followup_index": 0,
+  "followup_clean": "What is the basic information I need to know about PrEP?",
+  "followup_noisy": "wha7 is the basic information i neeeed to know about prep?",
+  "style_profile": {
+    "typo_rate": 0.07783282027140587,
+    "swap_rate": 0.027976107080866536,
+    "drop_rate": 0.04701657398918185,
+    "dup_rate": 0.018450775125106386,
+    "leet_rate": 0.11598540900178739,
+    "start_lower_prob": 0.8767691385951113,
+    "all_lower_prob": 0.18463121086834275,
+    "drop_punct_prob": 0.3704493651767826,
+    "double_space_prob": 0.20200003547195508,
+    "ellipsis_prob": 0.17337237512346443,
+    "runon_prob": 0.18580560550077774,
+    "filler_rate": 0.3102239950853318,
+    "emoji_rate": 0.2941331312778976,
+    "stutter_rate": 0.13983139839235167,
+    "repeat_last_rate": 0.16578995758857218
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my life given my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a learning disability that makes it difficult for her to process information quickly. She often feels overwhelmed by medical terms and may fear being judged when seeking help. Despite her challenges, she is hopeful about finding ways to protect herself from HIV but worries about the stigma around her condition affecting her access to PrEP.\",\n  \"example_questions\": [\n    \"What is the basic information I need to know about PrEP?\",\n    \"How can I talk to my doctor about getting prescribed PrEP without feeling intimidated?\",\n    \"Are there resources available that present PrEP information in an easier way for someone like me?\",\n    \"What should I do if I feel confused about the instructions related to taking PrEP?\",\n    \"Is there any support for people with learning disabilities who want to access PrEP?\",\n    \"How can I find a community that understands my situation and can help me navigate PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6ba9c8ea50ca98c1a473b6b81178283174fd0567b7499eee77392cda3e07364c",
+  "_starter_hash": "d3c60e5a06dc25ad9c48b58c633ef1dd5b4ffb1470c135b36dd4e6d7027c922c",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

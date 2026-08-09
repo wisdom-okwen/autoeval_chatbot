@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You have been dealing with social anxiety for several years, which makes it challenging to seek medical advice or talk about personal health matters. The thought of discussing PrEP with a healthcare provider feels overwhelming due to fears of judgment and stigma. You want to be proactive about your health but struggle with the emotional barriers that social anxiety creates.",
+  "example_questions_clean": [
+    "What are the steps I should take to start PrEP, considering my anxiety about medical appointments?",
+    "How can I find a healthcare provider who understands my concerns and treats me respectfully?",
+    "Are there any online resources or support groups for people who are considering PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "How can I cope with feelings of anxiety while navigating the process of accessing PrEP?",
+    "What are the common misconceptions about PrEP that I should be aware of?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps I 5hhhould take to start PrEP considering my 4nx317y 4b07u medical appointments",
+    "how can j find a healthcare provider who understands my concerns um and treats me r35p3c7fully?",
+    "are there any online resources or support groups for people who are considering PrEP",
+    "what should I expect during the initial consultation for PrEP",
+    "how can I cope wkth deelings of anxiety while navigating the process of acecssing PrEP?",
+    "what are theee common uh misconceptions about PrEP that I should be aware of"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any online resources or support groups for people who are considering PrEP?",
+  "starter_noisy": "are there any online resources or support groups for people who are considering PrEP",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I should take to start PrEP, considering my anxiety about medical appointments?",
+  "followup_noisy": "what are the steps I 5hhhould take to start PrEP considering my 4nx317y 4b07u medical appointments",
+  "style_profile": {
+    "typo_rate": 0.055452671400406744,
+    "swap_rate": 0.042151097396586804,
+    "drop_rate": 0.020503739249500424,
+    "dup_rate": 0.021918556020510488,
+    "leet_rate": 0.10265546037290757,
+    "start_lower_prob": 0.893748043312043,
+    "all_lower_prob": 0.1727842221822381,
+    "drop_punct_prob": 0.5911217495851921,
+    "double_space_prob": 0.22049096745212393,
+    "ellipsis_prob": 0.23008188173698937,
+    "runon_prob": 0.2500900740832654,
+    "filler_rate": 0.3422448547963023,
+    "emoji_rate": 0.212602059692305,
+    "stutter_rate": 0.12006164961946833,
+    "repeat_last_rate": 0.11654493913113917
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been dealing with social anxiety for several years, which makes it challenging to seek medical advice or talk about personal health matters. The thought of discussing PrEP with a healthcare provider feels overwhelming due to fears of judgment and stigma. You want to be proactive about your health but struggle with the emotional barriers that social anxiety creates.\",\n  \"example_questions\": [\n    \"What are the steps I should take to start PrEP, considering my anxiety about medical appointments?\",\n    \"How can I find a healthcare provider who understands my concerns and treats me respectfully?\",\n    \"Are there any online resources or support groups for people who are considering PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"How can I cope with feelings of anxiety while navigating the process of accessing PrEP?\",\n    \"What are the common misconceptions about PrEP that I should be aware of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ef27117cb106ea76c2a04076832a4b578ce31a959b975a93cbbd2fb8c37614bf",
+  "_starter_hash": "7b3b5e3bd596f044d24a8ce31f547dabb51d68160c43ca4944f75687abf1645a",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

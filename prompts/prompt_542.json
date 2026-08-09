@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old American woman who is recovering from trauma related to previous healthcare experiences. She feels anxious about discussing her sexual health and accessing PrEP due to fear of being judged or misunderstood by medical professionals. This emotional barrier complicates her desire for preventative health measures.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP?",
+    "How do I find a healthcare provider who understands my concerns about stigma?",
+    "What side effects should I be aware of while taking PrEP?",
+    "Can PrEP provide me with peace of mind after my traumatic experiences?",
+    "Are there support groups or resources for people starting PrEP?",
+    "What can I do if I feel uncomfortable discussing PrEP with my doctor?"
+  ],
+  "example_questions_noisy": [
+    "what are you know the steps I need to takr to start PrEP 😕",
+    "h-how do k find a hewlthcare provider who understands my concerns about 57igm4 57igm4",
+    "what side effects should I be aware of while taking PrEP 😬",
+    "can PrEP pr0v1d3 me idk with peace of mind after my traumatic experiences? ❓ ❓",
+    "ade there support grlups or resources for people starting PrEP? ‼️ ‼️",
+    "What can I do if I feel unc0mf0rt4bl3 discuswing PrEP w17h my doctor?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can PrEP provide me with peace of mind after my traumatic experiences?",
+  "starter_noisy": "can PrEP pr0v1d3 me idk with peace of mind after my traumatic experiences? ❓ ❓",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to start PrEP?",
+  "followup_noisy": "what are you know the steps I need to takr to start PrEP 😕",
+  "style_profile": {
+    "typo_rate": 0.11479995722804637,
+    "swap_rate": 0.039450599549944995,
+    "drop_rate": 0.02079928170712485,
+    "dup_rate": 0.013618995589144289,
+    "leet_rate": 0.05689540768036122,
+    "start_lower_prob": 0.606710780977085,
+    "all_lower_prob": 0.17458673974266087,
+    "drop_punct_prob": 0.5410851833363901,
+    "double_space_prob": 0.2622233952572641,
+    "ellipsis_prob": 0.20560022837839118,
+    "runon_prob": 0.2965616371301436,
+    "filler_rate": 0.41875127004879176,
+    "emoji_rate": 0.28594398698380913,
+    "stutter_rate": 0.10382383010665089,
+    "repeat_last_rate": 0.17726514793194073
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old American woman who is recovering from trauma related to previous healthcare experiences. She feels anxious about discussing her sexual health and accessing PrEP due to fear of being judged or misunderstood by medical professionals. This emotional barrier complicates her desire for preventative health measures.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP?\",\n    \"How do I find a healthcare provider who understands my concerns about stigma?\",\n    \"What side effects should I be aware of while taking PrEP?\",\n    \"Can PrEP provide me with peace of mind after my traumatic experiences?\",\n    \"Are there support groups or resources for people starting PrEP?\",\n    \"What can I do if I feel uncomfortable discussing PrEP with my doctor?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e22a474920adcf94d6d11e17b53d9214b0919dd8d4e03724b78c9d05150258d2",
+  "_starter_hash": "c52f657366e9a985b8c881c62e32d7eb53b8432ccbbf8d306e4375a0122dc582",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

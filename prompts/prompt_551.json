@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "worry about the stigma associated with taking PrEP due to past trauma",
+    "language": "English"
+  },
+  "context": "This user is a 30-year-old American woman who has experienced PTSD due to past trauma. She feels anxious about seeking PrEP because she fears the stigma that may come with being on medication for HIV prevention. Her experiences have left her sensitive to judgment and she is unsure how to navigate discussions about her health, especially regarding sexual health.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I find a healthcare provider who is sensitive to my mental health history?",
+    "Is there a way to access PrEP discreetly to avoid any stigma?",
+    "What should I do if I feel overwhelmed during my appointment about discussing PrEP?",
+    "Can PrEP have an impact on my mental health or PTSD symptoms?"
+  ],
+  "example_questions_noisy": [
+    "what are the pitential side effects of PrEP that I should be aware of of",
+    "how can i find 4 healthcare provider whl is sensitive to my mental ealth histry? 🤔 🤔",
+    "Is there a way to access um PrEP discreetly to avoid any stigma?",
+    "wha7 should i do if i feel overwhelmed during my appointment about um discussing prep?",
+    "can P3rP have an impact oh ,y mental health or PTSD 5ympt0m5?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find a healthcare provider who is sensitive to my mental health history?",
+  "starter_noisy": "how can i find 4 healthcare provider whl is sensitive to my mental ealth histry? 🤔 🤔",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP that I should be aware of?",
+  "followup_noisy": "what are the pitential side effects of PrEP that I should be aware of of",
+  "style_profile": {
+    "typo_rate": 0.07274475145563902,
+    "swap_rate": 0.041879276488586956,
+    "drop_rate": 0.04482183617843058,
+    "dup_rate": 0.016359570819598584,
+    "leet_rate": 0.10009245666203057,
+    "start_lower_prob": 0.7289071032617302,
+    "all_lower_prob": 0.24375965923980386,
+    "drop_punct_prob": 0.35462998163914267,
+    "double_space_prob": 0.2986395112126466,
+    "ellipsis_prob": 0.254731689124542,
+    "runon_prob": 0.2975116846924635,
+    "filler_rate": 0.31525385294027997,
+    "emoji_rate": 0.25890327406819164,
+    "stutter_rate": 0.14981905300153892,
+    "repeat_last_rate": 0.1514549403977407
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"worry about the stigma associated with taking PrEP due to past trauma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user is a 30-year-old American woman who has experienced PTSD due to past trauma. She feels anxious about seeking PrEP because she fears the stigma that may come with being on medication for HIV prevention. Her experiences have left her sensitive to judgment and she is unsure how to navigate discussions about her health, especially regarding sexual health.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who is sensitive to my mental health history?\",\n    \"Is there a way to access PrEP discreetly to avoid any stigma?\",\n    \"What should I do if I feel overwhelmed during my appointment about discussing PrEP?\",\n    \"Can PrEP have an impact on my mental health or PTSD symptoms?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "2c0c627cd727e838e869ae9e4cdbafb65ea1801732329af3dc92c29d6983fac9",
+  "_starter_hash": "c969cec0465e9ab4f9a35b6733b2ba470a86e874a7e6114acffc89ca528477ca",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

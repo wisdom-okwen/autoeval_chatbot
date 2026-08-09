@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old American woman dealing with PTSD. She struggles with feelings of anxiety and vulnerability, making the idea of discussing her health status and PrEP access particularly daunting. Her past experiences have instilled a fear of judgment from healthcare providers and peers, which heightens her apprehension about seeking help.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP safely?",
+    "How can I manage my anxiety when discussing PrEP with my doctor?",
+    "Are there support groups for people who want to start PrEP and may have similar challenges?",
+    "How does PrEP interact with mental health medications that I might be taking?",
+    "Can you provide information on finding a healthcare provider who understands my concerns?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to start PrEP safely?",
+    "How can I manage my anxiety when discussing PrEP with my doctor?",
+    "Are there support groups for people who want to start PrEP and may have similar challenges?",
+    "How does PrEP interact with mental health medications that I might be taking?",
+    "Can you provide information on finding a healthcare provider who understands my concerns?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Can you provide information on finding a healthcare provider who understands my concerns?",
+  "starter_noisy": "Can you provide information on finding a healthcare provider who understands my concerns?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to start PrEP safely?",
+  "followup_noisy": "What are the steps I need to take to start PrEP safely?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old American woman dealing with PTSD. She struggles with feelings of anxiety and vulnerability, making the idea of discussing her health status and PrEP access particularly daunting. Her past experiences have instilled a fear of judgment from healthcare providers and peers, which heightens her apprehension about seeking help.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP safely?\",\n    \"How can I manage my anxiety when discussing PrEP with my doctor?\",\n    \"Are there support groups for people who want to start PrEP and may have similar challenges?\",\n    \"How does PrEP interact with mental health medications that I might be taking?\",\n    \"Can you provide information on finding a healthcare provider who understands my concerns?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "5bd09ce383e8cec8698940b892b676d6ac323189cc9dd0db12d1d4094cc06bd9",
+  "_starter_hash": "2b7a00637ae631126e4f6e6a4500afff4a016b5ea9d5a26e0d61d30ea29e4006",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

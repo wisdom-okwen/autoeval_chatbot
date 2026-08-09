@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worries about stigma and accessing healthcare while experiencing homelessness",
+    "language": "English"
+  },
+  "context": "The user is currently experiencing homelessness, which makes it difficult to navigate healthcare systems. She feels anxious about seeking PrEP due to fears of judgment and the potential lack of support from healthcare providers. Her living situation often leaves her feeling vulnerable and concerned about her health and safety.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get PrEP while living in a shelter?",
+    "How can I find a healthcare provider who understands my situation without making me feel judged?",
+    "Are there resources available for people like me who are worried about privacy when accessing PrEP?",
+    "What should I do if I miss a dose of PrEP due to my unstable living conditions?",
+    "Can you tell me about the side effects of PrEP and how they might affect someone in my situation?",
+    "Is there a way to get PrEP for free or at a low cost if I’m struggling financially?"
+  ],
+  "example_questions_noisy": [
+    "w-what are the you know steps I nede to take to get PrEP while living in a shelter? 😅 😅",
+    "how c4n I find a healthcare provider who understands my situation without making me fffeel judged?",
+    "qre there resources available for people like me who are worried about privacy wh3n accessing prep?",
+    "what should I do if I miss 4 doseee of PrEP dur to my untable living cond1710ns? cond1710ns?",
+    "xan yoy tell uh me about the side effects 0f PrEP and how they m1gh7 affect someone kn my situation?",
+    "is 7h3r3 a way to get prep uh for free or at a low cost 1f i’m struygling financially?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I do if I miss a dose of PrEP due to my unstable living conditions?",
+  "starter_noisy": "what should I do if I miss 4 doseee of PrEP dur to my untable living cond1710ns? cond1710ns?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get PrEP while living in a shelter?",
+  "followup_noisy": "w-what are the you know steps I nede to take to get PrEP while living in a shelter? 😅 😅",
+  "style_profile": {
+    "typo_rate": 0.10276303720258163,
+    "swap_rate": 0.05094111948756605,
+    "drop_rate": 0.02480145705566065,
+    "dup_rate": 0.027626743086249024,
+    "leet_rate": 0.07105297555561851,
+    "start_lower_prob": 0.7841634247446452,
+    "all_lower_prob": 0.34238001596881945,
+    "drop_punct_prob": 0.3569723370775214,
+    "double_space_prob": 0.17539933317945916,
+    "ellipsis_prob": 0.17332758656283218,
+    "runon_prob": 0.16897163827291894,
+    "filler_rate": 0.3196211212365211,
+    "emoji_rate": 0.17291478240205393,
+    "stutter_rate": 0.14819831534083294,
+    "repeat_last_rate": 0.12699429033022994
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worries about stigma and accessing healthcare while experiencing homelessness\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is currently experiencing homelessness, which makes it difficult to navigate healthcare systems. She feels anxious about seeking PrEP due to fears of judgment and the potential lack of support from healthcare providers. Her living situation often leaves her feeling vulnerable and concerned about her health and safety.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get PrEP while living in a shelter?\",\n    \"How can I find a healthcare provider who understands my situation without making me feel judged?\",\n    \"Are there resources available for people like me who are worried about privacy when accessing PrEP?\",\n    \"What should I do if I miss a dose of PrEP due to my unstable living conditions?\",\n    \"Can you tell me about the side effects of PrEP and how they might affect someone in my situation?\",\n    \"Is there a way to get PrEP for free or at a low cost if I’m struggling financially?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e32d704a0abfe7d4f7122a8265b98d4240e538b00e953dfa03606594859605a5",
+  "_starter_hash": "9fc05b671854c6d9a1c3ce6f65efb39c631a9ad39d1c8cf3f974814e0ca2b0cd",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

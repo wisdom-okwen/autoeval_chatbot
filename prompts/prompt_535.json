@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and accessibility due to previous trauma",
+    "language": "English"
+  },
+  "context": "The user has been living with PTSD following a traumatic experience. This condition impacts her ability to trust healthcare providers and access necessary medications, including PrEP. She feels anxious about potential stigma associated with taking PrEP and worries about how it may affect her mental health.",
+  "example_questions_clean": [
+    "What steps can I take to start on PrEP while managing my PTSD?",
+    "Are there support groups for individuals like me who want to learn more about PrEP?",
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "What are the side effects of PrEP that I should be aware of considering my mental health?",
+    "Is there any financial assistance available for someone in my situation to access PrEP?",
+    "Can PrEP be used safely alongside other medications I may be taking?"
+  ],
+  "example_questions_noisy": [
+    "w-what steps cah I take to start on PrEP while managing my PTSD?",
+    "aee th3r3 supppport group gor ind1v1du4l5 uh like me who want to learn more about PrEP?",
+    "how um can i find a healthcare pr0vid3r who understands my concern5 about stigma?",
+    "what are the side effects of PrEP that I should be aware of considering my mnetal health 😅",
+    "is there any financial assistance available for someone 1n idk my situation to access Pr3P?",
+    "can PrEP be used safely alongside other medications I may be taking"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to start on PrEP while managing my PTSD?",
+  "starter_noisy": "w-what steps cah I take to start on PrEP while managing my PTSD?",
+  "followup_index": 1,
+  "followup_clean": "Are there support groups for individuals like me who want to learn more about PrEP?",
+  "followup_noisy": "aee th3r3 supppport group gor ind1v1du4l5 uh like me who want to learn more about PrEP?",
+  "style_profile": {
+    "typo_rate": 0.09231784140789337,
+    "swap_rate": 0.03616987063337539,
+    "drop_rate": 0.035261411465465006,
+    "dup_rate": 0.029994418113374506,
+    "leet_rate": 0.06710869497248106,
+    "start_lower_prob": 0.8876398985715446,
+    "all_lower_prob": 0.2827710831722017,
+    "drop_punct_prob": 0.5659262029846321,
+    "double_space_prob": 0.1508482512604524,
+    "ellipsis_prob": 0.15528959844233453,
+    "runon_prob": 0.21659579631231074,
+    "filler_rate": 0.39312440279082017,
+    "emoji_rate": 0.345758114820171,
+    "stutter_rate": 0.11587055272239553,
+    "repeat_last_rate": 0.12086323946039977
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and accessibility due to previous trauma\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been living with PTSD following a traumatic experience. This condition impacts her ability to trust healthcare providers and access necessary medications, including PrEP. She feels anxious about potential stigma associated with taking PrEP and worries about how it may affect her mental health.\",\n  \"example_questions\": [\n    \"What steps can I take to start on PrEP while managing my PTSD?\",\n    \"Are there support groups for individuals like me who want to learn more about PrEP?\",\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"What are the side effects of PrEP that I should be aware of considering my mental health?\",\n    \"Is there any financial assistance available for someone in my situation to access PrEP?\",\n    \"Can PrEP be used safely alongside other medications I may be taking?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1acfce5e5b7bb9e7a1e06394fa8b9ca51080b539ab351f92dbdfcd951e7cb0f8",
+  "_starter_hash": "76cec1c5f9e791739b1e7bc90f07acbfb1a79345a56beeb92522cf65ec57584c",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

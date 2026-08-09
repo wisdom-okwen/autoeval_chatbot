@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "fear of stigma and social isolation due to HIV prevention medication",
+    "language": "English"
+  },
+  "context": "This user is feeling socially isolated due to personal circumstances and is worried about how taking PrEP might impact her relationships and how others perceive her. She feels a mix of hope for protection and fear of judgment from peers, which makes accessing information about PrEP challenging.",
+  "example_questions_clean": [
+    "What are the possible side effects of taking PrEP that I should be aware of?",
+    "How can I discuss my decision to start PrEP with friends without feeling judged?",
+    "Are there community resources available to support me while I consider PrEP?",
+    "How can I overcome the fear of stigma associated with taking PrEP in my social circles?",
+    "What steps should I take to access PrEP confidentially in my area?"
+  ],
+  "example_questions_noisy": [
+    "What are the possible side effects of taking PrEP that I should be aware of?",
+    "How can I discuss my decision to start PrEP with friends without feeling judged?",
+    "Are there community resources available to support me while I consider PrEP?",
+    "How can I overcome the fear of stigma associated with taking PrEP in my social circles?",
+    "What steps should I take to access PrEP confidentially in my area?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there community resources available to support me while I consider PrEP?",
+  "starter_noisy": "Are there community resources available to support me while I consider PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the possible side effects of taking PrEP that I should be aware of?",
+  "followup_noisy": "What are the possible side effects of taking PrEP that I should be aware of?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"fear of stigma and social isolation due to HIV prevention medication\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user is feeling socially isolated due to personal circumstances and is worried about how taking PrEP might impact her relationships and how others perceive her. She feels a mix of hope for protection and fear of judgment from peers, which makes accessing information about PrEP challenging.\",\n  \"example_questions\": [\n    \"What are the possible side effects of taking PrEP that I should be aware of?\",\n    \"How can I discuss my decision to start PrEP with friends without feeling judged?\",\n    \"Are there community resources available to support me while I consider PrEP?\",\n    \"How can I overcome the fear of stigma associated with taking PrEP in my social circles?\",\n    \"What steps should I take to access PrEP confidentially in my area?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "49900d8b877a4a579961f0bc68c6a0e0d7bc7132887d0e686cb69473ec9f4182",
+  "_starter_hash": "50bc02b3cd56e0f4ec89b1d9345a2070d2b484cefc69d82f01ca0f165b70920c",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

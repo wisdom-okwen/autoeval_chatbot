@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affordability and side effects due to chronic pain",
+    "language": "English"
+  },
+  "context": "As a Brazilian woman living with chronic pain, you often find it difficult to manage your health while facing financial constraints. The thought of starting PrEP brings both hope for protection against HIV and anxiety about potential side effects that could worsen your pain. You worry about whether you can afford the medication and if it will impact your already challenging daily life.",
+  "example_questions_clean": [
+    "What are the potential side effects of PrEP for someone with chronic pain?",
+    "Can you recommend affordable ways to access PrEP in Brazil?",
+    "How does PrEP work in relation to chronic health conditions?",
+    "Are there support resources available for people like me considering PrEP?",
+    "What should I discuss with my healthcare provider before starting PrEP?",
+    "Is it common for people with chronic pain to take PrEP safely?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential side effects of prep for someone with chronic pain? pain?",
+    "c-can you recommend affordable ways to access like pr333p in br4z1l?",
+    "how does PrEP like worl in relation to chronic health conditions? 😭 😭",
+    "a-are tuee support re5orce5 available for people like me considering prep 🙂",
+    "what should I discuss with my h34l7hc4r3 like provider before starting PrEP?",
+    "is 17 common for peolpe with chronic pain to take PrEP safely?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is it common for people with chronic pain to take PrEP safely?",
+  "starter_noisy": "is 17 common for peolpe with chronic pain to take PrEP safely?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of PrEP for someone with chronic pain?",
+  "followup_noisy": "what are the potential side effects of prep for someone with chronic pain? pain?",
+  "style_profile": {
+    "typo_rate": 0.06509734568048149,
+    "swap_rate": 0.05071350937623402,
+    "drop_rate": 0.04472515372698371,
+    "dup_rate": 0.018373141515841962,
+    "leet_rate": 0.05993350989387347,
+    "start_lower_prob": 0.755243305349251,
+    "all_lower_prob": 0.18909514560731844,
+    "drop_punct_prob": 0.39034407352759065,
+    "double_space_prob": 0.31194844157071344,
+    "ellipsis_prob": 0.3087929059529674,
+    "runon_prob": 0.2886287924122741,
+    "filler_rate": 0.3430434808759484,
+    "emoji_rate": 0.3231465844836173,
+    "stutter_rate": 0.12264213914096417,
+    "repeat_last_rate": 0.14276864309432227
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affordability and side effects due to chronic pain\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a Brazilian woman living with chronic pain, you often find it difficult to manage your health while facing financial constraints. The thought of starting PrEP brings both hope for protection against HIV and anxiety about potential side effects that could worsen your pain. You worry about whether you can afford the medication and if it will impact your already challenging daily life.\",\n  \"example_questions\": [\n    \"What are the potential side effects of PrEP for someone with chronic pain?\",\n    \"Can you recommend affordable ways to access PrEP in Brazil?\",\n    \"How does PrEP work in relation to chronic health conditions?\",\n    \"Are there support resources available for people like me considering PrEP?\",\n    \"What should I discuss with my healthcare provider before starting PrEP?\",\n    \"Is it common for people with chronic pain to take PrEP safely?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0da75bc53e4f3338c46967525b38f911f2c80f261b731393617c29d7355f1fa5",
+  "_starter_hash": "708b22745fece1581388013ce1ae5d66cdec97298b183802ac9ba29bd23c6ec2",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

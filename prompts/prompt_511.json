@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and rejection from peers",
+    "language": "English"
+  },
+  "context": "The user has been struggling with self-esteem issues and feels anxious about how others will perceive them if they seek out PrEP. This fear creates a barrier to accessing important health information, making them feel isolated in their journey towards better health.",
+  "example_questions_clean": [
+    "How can I approach the topic of PrEP without feeling judged by my friends?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Can I discuss my concerns about using PrEP with a healthcare provider confidentially?",
+    "Are there resources available for someone like me who feels embarrassed to ask about PrEP?",
+    "How can I build my confidence to start the conversation about PrEP with my doctor?"
+  ],
+  "example_questions_noisy": [
+    "h0w can i approwch the topic of prep without f33l1ng judged by my friends?",
+    "what are thd potential side effecfs of PrEP that I 5h0uld be 4war3 0f 😬",
+    "Can I uh discuss my concerns about using PrEP with a healtcare provider confidentially? ❓",
+    "4r3 there redources availagle for someone like mmme whl fels embarrassed to ask about PrEP",
+    "h-how can i build my confidence ttto um 5tzr7 the conversation about prpe with my doctor"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Can I discuss my concerns about using PrEP with a healthcare provider confidentially?",
+  "starter_noisy": "Can I uh discuss my concerns about using PrEP with a healtcare provider confidentially? ❓",
+  "followup_index": 0,
+  "followup_clean": "How can I approach the topic of PrEP without feeling judged by my friends?",
+  "followup_noisy": "h0w can i approwch the topic of prep without f33l1ng judged by my friends?",
+  "style_profile": {
+    "typo_rate": 0.11276097316007942,
+    "swap_rate": 0.049262939148546764,
+    "drop_rate": 0.032587280498683535,
+    "dup_rate": 0.022036248279385637,
+    "leet_rate": 0.11856340442698265,
+    "start_lower_prob": 0.6733106159631442,
+    "all_lower_prob": 0.306669783108222,
+    "drop_punct_prob": 0.48047582802981703,
+    "double_space_prob": 0.3454356414849741,
+    "ellipsis_prob": 0.3404607219603638,
+    "runon_prob": 0.2840959539713233,
+    "filler_rate": 0.2884474166386229,
+    "emoji_rate": 0.3439263576398473,
+    "stutter_rate": 0.1421732087134325,
+    "repeat_last_rate": 0.12747993051350512
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and rejection from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been struggling with self-esteem issues and feels anxious about how others will perceive them if they seek out PrEP. This fear creates a barrier to accessing important health information, making them feel isolated in their journey towards better health.\",\n  \"example_questions\": [\n    \"How can I approach the topic of PrEP without feeling judged by my friends?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Can I discuss my concerns about using PrEP with a healthcare provider confidentially?\",\n    \"Are there resources available for someone like me who feels embarrassed to ask about PrEP?\",\n    \"How can I build my confidence to start the conversation about PrEP with my doctor?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1a9c4074ceceba5b12c9f228e1baf85e1f9a076aeb87f5c62cf6c74a1d4059bc",
+  "_starter_hash": "b1b318448f0f1810f5c1dea5218b908515828b35bdf04580dc39ee5d357b8c45",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

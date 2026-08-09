@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "understanding how my neurodevelopmental disorder may affect my ability to adhere to PrEP",
+    "language": "English"
+  },
+  "context": "As a young woman navigating the challenges of a neurodevelopmental disorder, you often face difficulties with organization and routine, which can impact your ability to consistently take medication like PrEP. You feel a mix of hope and anxiety about managing your health and want to understand how this medication can fit into your life, especially considering societal stigma and misconceptions surrounding both HIV prevention and your condition.",
+  "example_questions_clean": [
+    "How can I ensure that I remember to take PrEP every day given my challenges with organization?",
+    "What support resources are available for someone with a neurodevelopmental disorder who is considering PrEP?",
+    "Are there specific side effects of PrEP that I should be aware of in relation to my condition?",
+    "Can healthcare providers help me find ways to integrate PrEP into my daily routine effectively?",
+    "What are some common concerns people have about using PrEP that I should be mindful of?"
+  ],
+  "example_questions_noisy": [
+    "how can I ensure th47 I rememer to take PrEP every day given my challenges w17h organization 😕 😕",
+    "what 5upp0rt resources are available fffor someone with 4 neurodevelopmengal disorder who is considering prep ‼️",
+    "are there specific side effects 0f PrEP that I should be aware of in relation 70 my condition",
+    "can healthcare providers help me find waus to integrate PrEP into my daily orutine effectively",
+    "what are you know some common concerns pepole have about using PrEP that u should be mindful offf? offf?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can healthcare providers help me find ways to integrate PrEP into my daily routine effectively?",
+  "starter_noisy": "can healthcare providers help me find waus to integrate PrEP into my daily orutine effectively",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that I remember to take PrEP every day given my challenges with organization?",
+  "followup_noisy": "how can I ensure th47 I rememer to take PrEP every day given my challenges w17h organization 😕 😕",
+  "style_profile": {
+    "typo_rate": 0.07918187859135165,
+    "swap_rate": 0.038444191826603205,
+    "drop_rate": 0.02985707081337726,
+    "dup_rate": 0.017895050569041365,
+    "leet_rate": 0.09165303497118174,
+    "start_lower_prob": 0.685390163423843,
+    "all_lower_prob": 0.18177393148392731,
+    "drop_punct_prob": 0.5892098836578024,
+    "double_space_prob": 0.21131751509442198,
+    "ellipsis_prob": 0.28955031136346193,
+    "runon_prob": 0.18254442606893378,
+    "filler_rate": 0.21841274931590143,
+    "emoji_rate": 0.2904722121671225,
+    "stutter_rate": 0.19392288527097784,
+    "repeat_last_rate": 0.13733081358866578
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"understanding how my neurodevelopmental disorder may affect my ability to adhere to PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman navigating the challenges of a neurodevelopmental disorder, you often face difficulties with organization and routine, which can impact your ability to consistently take medication like PrEP. You feel a mix of hope and anxiety about managing your health and want to understand how this medication can fit into your life, especially considering societal stigma and misconceptions surrounding both HIV prevention and your condition.\",\n  \"example_questions\": [\n    \"How can I ensure that I remember to take PrEP every day given my challenges with organization?\",\n    \"What support resources are available for someone with a neurodevelopmental disorder who is considering PrEP?\",\n    \"Are there specific side effects of PrEP that I should be aware of in relation to my condition?\",\n    \"Can healthcare providers help me find ways to integrate PrEP into my daily routine effectively?\",\n    \"What are some common concerns people have about using PrEP that I should be mindful of?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b5fbd6d66a6e45827d04ac7477d169c3eb51f3d51250f35ea4395544400a719c",
+  "_starter_hash": "b25560c8d4bcec8af5553beec98cb17b2123c6d5a609e0a6aee65831d6e091ea",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

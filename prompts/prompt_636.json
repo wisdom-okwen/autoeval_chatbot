@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP may interact with my mental health condition",
+    "language": "English"
+  },
+  "context": "The user is living with bipolar disorder and is concerned about how starting PrEP might affect their mood stability. They feel a mix of hope and anxiety about the possibility of preventing HIV, but worry about the stigma associated with both their mental health and sexual health choices.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP won't destabilize my mood due to my bipolar disorder?",
+    "Are there specific side effects of PrEP that I should be aware of in relation to my mental health?",
+    "What resources are available for individuals like me who face challenges accessing PrEP?",
+    "Can you help me understand the importance of adherence to PrEP when considering my unique situation?",
+    "How do healthcare providers typically address concerns related to mental health when prescribing PrEP?",
+    "What support options exist for someone managing both their mental health and sexual health needs?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that taking PrEP won't destabilize my mood due to my bipolar disorder?",
+    "Are there specific side effects of PrEP that I should be aware of in relation to my mental health?",
+    "What resources are available for individuals like me who face challenges accessing PrEP?",
+    "Can you help me understand the importance of adherence to PrEP when considering my unique situation?",
+    "How do healthcare providers typically address concerns related to mental health when prescribing PrEP?",
+    "What support options exist for someone managing both their mental health and sexual health needs?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What resources are available for individuals like me who face challenges accessing PrEP?",
+  "starter_noisy": "What resources are available for individuals like me who face challenges accessing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that taking PrEP won't destabilize my mood due to my bipolar disorder?",
+  "followup_noisy": "How can I ensure that taking PrEP won't destabilize my mood due to my bipolar disorder?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP may interact with my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is living with bipolar disorder and is concerned about how starting PrEP might affect their mood stability. They feel a mix of hope and anxiety about the possibility of preventing HIV, but worry about the stigma associated with both their mental health and sexual health choices.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP won't destabilize my mood due to my bipolar disorder?\",\n    \"Are there specific side effects of PrEP that I should be aware of in relation to my mental health?\",\n    \"What resources are available for individuals like me who face challenges accessing PrEP?\",\n    \"Can you help me understand the importance of adherence to PrEP when considering my unique situation?\",\n    \"How do healthcare providers typically address concerns related to mental health when prescribing PrEP?\",\n    \"What support options exist for someone managing both their mental health and sexual health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "06309d5628a8099e6665b06a06d02a02e67f0703e0e78c8644abe5be7c28712b",
+  "_starter_hash": "56dbc74cf4032a73f6adcdefe45544e7ebcea6028af6f5fac9b435e6a3bb7723",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

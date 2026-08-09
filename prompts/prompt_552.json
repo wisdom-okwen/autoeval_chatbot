@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner's reaction and safety",
+    "language": "English"
+  },
+  "context": "You are navigating a difficult situation due to experiencing intimate partner violence. This has created a sense of fear about discussing your health needs, including the possibility of accessing PrEP. You worry about your partner's potential reaction if they find out you're considering it, and this affects your ability to prioritize your health and safety.",
+  "example_questions_clean": [
+    "What are the steps I can take to access PrEP discreetly while feeling safe?",
+    "How can I address my concerns about discussing PrEP with my partner?",
+    "Are there specific resources for women like me who are dealing with intimate partner violence?",
+    "What support systems are available for individuals in my situation who want to start PrEP?",
+    "Can you explain how PrEP works in terms of preventing HIV transmission?",
+    "What should I consider when thinking about my safety and health while using PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what like are the steps i can take to accews orep discreetly while f3el1ng sfae???",
+    "H-How can I adxress my concerns about discussing PrEP with ky partner",
+    "are there specific resources for women like um me who areee dealing with 1n7ima73 partner c10l3nc3?",
+    "What support system are avsilable forrr individuale in uh ,y situqtion who wqnt to start PrEP? 🫠 🫠",
+    "C-Can you explain how PrEP works in terms idk lf preventing HIV tranmission",
+    "what should I consider when thinking abbbout my safty and health while uh using PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps I can take to access PrEP discreetly while feeling safe?",
+  "starter_noisy": "what like are the steps i can take to accews orep discreetly while f3el1ng sfae???",
+  "followup_index": 1,
+  "followup_clean": "How can I address my concerns about discussing PrEP with my partner?",
+  "followup_noisy": "H-How can I adxress my concerns about discussing PrEP with ky partner",
+  "style_profile": {
+    "typo_rate": 0.11623745450056108,
+    "swap_rate": 0.020901105217880356,
+    "drop_rate": 0.027892647054083446,
+    "dup_rate": 0.025112819378993317,
+    "leet_rate": 0.061874965109638164,
+    "start_lower_prob": 0.6869181752012541,
+    "all_lower_prob": 0.15122310175970036,
+    "drop_punct_prob": 0.36060101902901204,
+    "double_space_prob": 0.18455853557061624,
+    "ellipsis_prob": 0.3312493850461204,
+    "runon_prob": 0.25954230420296476,
+    "filler_rate": 0.4615114234364584,
+    "emoji_rate": 0.3397768237927513,
+    "stutter_rate": 0.1315011635074851,
+    "repeat_last_rate": 0.08786368978544415
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner's reaction and safety\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating a difficult situation due to experiencing intimate partner violence. This has created a sense of fear about discussing your health needs, including the possibility of accessing PrEP. You worry about your partner's potential reaction if they find out you're considering it, and this affects your ability to prioritize your health and safety.\",\n  \"example_questions\": [\n    \"What are the steps I can take to access PrEP discreetly while feeling safe?\",\n    \"How can I address my concerns about discussing PrEP with my partner?\",\n    \"Are there specific resources for women like me who are dealing with intimate partner violence?\",\n    \"What support systems are available for individuals in my situation who want to start PrEP?\",\n    \"Can you explain how PrEP works in terms of preventing HIV transmission?\",\n    \"What should I consider when thinking about my safety and health while using PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "982bd67bf9039a799a51e144f7fa6a8cad067cb155e08a4cca4a069e5664abb4",
+  "_starter_hash": "bb3f31a0945e628de0425dc39ea721c41a29cad68740201cea82540d53f70a53",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

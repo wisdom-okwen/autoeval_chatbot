@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "affordability and access to medication while living in a shelter",
+    "language": "English"
+  },
+  "context": "Living in a shelter can make it difficult to prioritize health needs, especially when it comes to accessing medications like PrEP. The uncertainty of stable housing can create fear and anxiety about the future, making it hard to focus on personal health. There is also concern about judgment from others and the stigma associated with seeking help for sexual health.",
+  "example_questions_clean": [
+    "How can I access PrEP if I don't have a permanent address?",
+    "What are the costs associated with getting PrEP for someone in my situation?",
+    "Are there resources specifically for individuals living in shelters who need PrEP?",
+    "How can I talk to a healthcare provider about my need for PrEP without feeling judged?",
+    "What support networks exist for people like me regarding HIV prevention?",
+    "Is there a way to get PrEP discreetly if I'm concerned about privacy?"
+  ],
+  "example_questions_noisy": [
+    "h0w can i access prep iiif i don'y have a permanent 4ddre5s? 😭",
+    "wha7 are the xosts aswociated with you know gggetting PrEP for someone in my situation? 😅",
+    "are tere resources 5pec1fic4lly f0r individuals living in shelters who need prep",
+    "How can I talk ro a healthcare provider about my need for like PrEP without feeking judged?",
+    "w-wh47 5upp0r7 networks exist for people like me regarding HIV prevention?",
+    "is there w way to get prdp discreetly if i'm concerned about privacy"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there resources specifically for individuals living in shelters who need PrEP?",
+  "starter_noisy": "are tere resources 5pec1fic4lly f0r individuals living in shelters who need prep",
+  "followup_index": 0,
+  "followup_clean": "How can I access PrEP if I don't have a permanent address?",
+  "followup_noisy": "h0w can i access prep iiif i don'y have a permanent 4ddre5s? 😭",
+  "style_profile": {
+    "typo_rate": 0.11801117602193978,
+    "swap_rate": 0.02610517954546055,
+    "drop_rate": 0.028539666606925716,
+    "dup_rate": 0.016072506077573274,
+    "leet_rate": 0.09714037108346071,
+    "start_lower_prob": 0.6611609276815239,
+    "all_lower_prob": 0.2582326961695616,
+    "drop_punct_prob": 0.47371794774008913,
+    "double_space_prob": 0.33405710628611324,
+    "ellipsis_prob": 0.16622746478935402,
+    "runon_prob": 0.1885943322666021,
+    "filler_rate": 0.3088332256257886,
+    "emoji_rate": 0.26476985108686313,
+    "stutter_rate": 0.19952838803470874,
+    "repeat_last_rate": 0.13744896022429712
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"affordability and access to medication while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can make it difficult to prioritize health needs, especially when it comes to accessing medications like PrEP. The uncertainty of stable housing can create fear and anxiety about the future, making it hard to focus on personal health. There is also concern about judgment from others and the stigma associated with seeking help for sexual health.\",\n  \"example_questions\": [\n    \"How can I access PrEP if I don't have a permanent address?\",\n    \"What are the costs associated with getting PrEP for someone in my situation?\",\n    \"Are there resources specifically for individuals living in shelters who need PrEP?\",\n    \"How can I talk to a healthcare provider about my need for PrEP without feeling judged?\",\n    \"What support networks exist for people like me regarding HIV prevention?\",\n    \"Is there a way to get PrEP discreetly if I'm concerned about privacy?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "80f5388acba2c71b38e93bc326801bc675ce9c5d079223613a80001572f753df",
+  "_starter_hash": "953d0a4e5f911650d042e0c65e3507c80222bdb9876c5c3cd806a9f69a78f55c",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

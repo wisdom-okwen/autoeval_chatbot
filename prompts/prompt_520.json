@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "uncertainty about the interactions between PrEP and my recovery process",
+    "language": "English"
+  },
+  "context": "You are a 34-year-old woman from the United States who has recently finished cancer treatment. While you feel hopeful about your health, you are grappling with concerns about starting PrEP for HIV prevention. You worry about how it may affect your body after treatment and whether it’s a safe option for you. The fear of stigma around both your health history and PrEP adds to your anxiety.",
+  "example_questions_clean": [
+    "How can I ensure that PrEP is safe for someone in recovery from cancer treatment?",
+    "What potential side effects of PrEP should I be aware of considering my medical history?",
+    "Are there any support resources specifically for individuals like me who are considering PrEP?",
+    "How do I talk to my healthcare provider about my unique situation regarding PrEP?",
+    "What does the latest research say about the effectiveness of PrEP for people with previous health challenges?",
+    "Is there a community or group I can connect with to share experiences related to PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can 1 ensure that you know PrEP is 54f3 for someone in recovery fom cancer treatmet?",
+    "what potsntial side effects oc PrEP 5h0uld I uh be awre of c0n51d3ring my medical history?",
+    "are there anyyy 51pp0r7 resources specifically for individuals like me who are considering you know PrEP?",
+    "how do 1 talk to my healthcare pr0vid3r about my uniqqque idk situation regarding PrEP?",
+    "w-what does the latest research say about the effectiveness of PrEP ror people with previous health challenges?",
+    "Is there a community or group I c4n connect with to share experiences related to PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I ensure that PrEP is safe for someone in recovery from cancer treatment?",
+  "starter_noisy": "how can 1 ensure that you know PrEP is 54f3 for someone in recovery fom cancer treatmet?",
+  "followup_index": 1,
+  "followup_clean": "What potential side effects of PrEP should I be aware of considering my medical history?",
+  "followup_noisy": "what potsntial side effects oc PrEP 5h0uld I uh be awre of c0n51d3ring my medical history?",
+  "style_profile": {
+    "typo_rate": 0.08384393754739584,
+    "swap_rate": 0.043179494019950436,
+    "drop_rate": 0.042696391831374525,
+    "dup_rate": 0.011312041527359677,
+    "leet_rate": 0.09720445775130623,
+    "start_lower_prob": 0.7677128375444519,
+    "all_lower_prob": 0.1918923595136567,
+    "drop_punct_prob": 0.3255986766012698,
+    "double_space_prob": 0.2382068353369015,
+    "ellipsis_prob": 0.27850884414024046,
+    "runon_prob": 0.27284780916755796,
+    "filler_rate": 0.465372421516303,
+    "emoji_rate": 0.2262324869912274,
+    "stutter_rate": 0.15932877891877428,
+    "repeat_last_rate": 0.14245744277946298
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"uncertainty about the interactions between PrEP and my recovery process\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 34-year-old woman from the United States who has recently finished cancer treatment. While you feel hopeful about your health, you are grappling with concerns about starting PrEP for HIV prevention. You worry about how it may affect your body after treatment and whether it’s a safe option for you. The fear of stigma around both your health history and PrEP adds to your anxiety.\",\n  \"example_questions\": [\n    \"How can I ensure that PrEP is safe for someone in recovery from cancer treatment?\",\n    \"What potential side effects of PrEP should I be aware of considering my medical history?\",\n    \"Are there any support resources specifically for individuals like me who are considering PrEP?\",\n    \"How do I talk to my healthcare provider about my unique situation regarding PrEP?\",\n    \"What does the latest research say about the effectiveness of PrEP for people with previous health challenges?\",\n    \"Is there a community or group I can connect with to share experiences related to PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fd78f3240608523d37d16ce42976761e8ca909406c86b6ecd7b41eb5188c1cb6",
+  "_starter_hash": "1b6d09cd5d262ffa8a10dded6fbc8573a9a39a51ef54b785ff3865b2db3c4c8e",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

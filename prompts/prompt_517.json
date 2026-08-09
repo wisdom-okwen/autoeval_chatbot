@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "managing my mental health while considering PrEP",
+    "language": "English"
+  },
+  "context": "As someone living with bipolar disorder, I often worry about how medication changes might impact my mood stability. The stigma around both my mental health and PrEP makes it hard for me to reach out for support. I fear that taking PrEP could lead to side effects that affect my mental well-being, making it difficult to stick to a routine. I want to understand more about PrEP and how it may interact with my condition.",
+  "example_questions_clean": [
+    "What should I know about PrEP if I have bipolar disorder?",
+    "Are there any specific side effects of PrEP that could affect my mental health?",
+    "How can I find healthcare professionals who understand both PrEP and mental health issues?",
+    "Is it common for people with mood disorders to take PrEP successfully?",
+    "What support resources are available for individuals like me considering PrEP?",
+    "How do I manage the fear of stigma when discussing my need for PrEP?"
+  ],
+  "example_questions_noisy": [
+    "ehat should I know about PrEP if I h4ve bipolar disorder? 🫠",
+    "A-Are you know there any specific side effects 0f PrEP that could affect my mental health? 💀",
+    "How c4n I find healthcare professionals who und3r574nd bofh idk PrEP and mental healtj iwsues ‼️",
+    "Is i7 common flr people with moof disorders to take orEP successfully",
+    "hWat support r3sourc3s are available for individuals you know like me cojsidering PrEP?",
+    "how do I manage the fear of stigma when discussing my need for PrEP"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Is it common for people with mood disorders to take PrEP successfully?",
+  "starter_noisy": "Is i7 common flr people with moof disorders to take orEP successfully",
+  "followup_index": 0,
+  "followup_clean": "What should I know about PrEP if I have bipolar disorder?",
+  "followup_noisy": "ehat should I know about PrEP if I h4ve bipolar disorder? 🫠",
+  "style_profile": {
+    "typo_rate": 0.11877852774133688,
+    "swap_rate": 0.0318326589432173,
+    "drop_rate": 0.02184789735436383,
+    "dup_rate": 0.0181452175768798,
+    "leet_rate": 0.11215246533449169,
+    "start_lower_prob": 0.6205494983660037,
+    "all_lower_prob": 0.29260275512904843,
+    "drop_punct_prob": 0.4616704777452365,
+    "double_space_prob": 0.3491756027081295,
+    "ellipsis_prob": 0.3253334151077963,
+    "runon_prob": 0.1653755583877061,
+    "filler_rate": 0.2806773691302151,
+    "emoji_rate": 0.18496933971122265,
+    "stutter_rate": 0.15842809403671673,
+    "repeat_last_rate": 0.1209263073282828
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"managing my mental health while considering PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone living with bipolar disorder, I often worry about how medication changes might impact my mood stability. The stigma around both my mental health and PrEP makes it hard for me to reach out for support. I fear that taking PrEP could lead to side effects that affect my mental well-being, making it difficult to stick to a routine. I want to understand more about PrEP and how it may interact with my condition.\",\n  \"example_questions\": [\n    \"What should I know about PrEP if I have bipolar disorder?\",\n    \"Are there any specific side effects of PrEP that could affect my mental health?\",\n    \"How can I find healthcare professionals who understand both PrEP and mental health issues?\",\n    \"Is it common for people with mood disorders to take PrEP successfully?\",\n    \"What support resources are available for individuals like me considering PrEP?\",\n    \"How do I manage the fear of stigma when discussing my need for PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "32dc4c2d564667e3004c41a7a4bfe7eae8f9ddac284231adf9ba142f9bc44ebb",
+  "_starter_hash": "f6a347822e235d468d14db8cf54a35e9dfab05ed53e813ee60138f71719542cd",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

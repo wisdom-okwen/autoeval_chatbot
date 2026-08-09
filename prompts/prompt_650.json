@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "stigma and mental health management",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of living with schizophrenia while considering PrEP as a preventive measure against HIV. The challenges of managing your mental health condition create additional barriers to accessing healthcare and discussing preventive options like PrEP. You worry about how others might perceive you if they knew about your condition, and you feel anxious about potential side effects and medication adherence.",
+  "example_questions_clean": [
+    "How can I approach my doctor about starting PrEP given my mental health challenges?",
+    "Are there any support groups for people in my situation who are considering PrEP?",
+    "What are the side effects of PrEP that I should be aware of, especially regarding my schizophrenia?",
+    "Could taking PrEP affect my mental health in any way?",
+    "What resources exist to help individuals like me access PrEP discreetly?",
+    "How can I overcome the stigma associated with using PrEP while living with a mental illness?"
+  ],
+  "example_questions_noisy": [
+    "How can I approach my doctor about starting PrEP given my mental health challenges?",
+    "Are there any support groups for people in my situation who are considering PrEP?",
+    "What are the side effects of PrEP that I should be aware of, especially regarding my schizophrenia?",
+    "Could taking PrEP affect my mental health in any way?",
+    "What resources exist to help individuals like me access PrEP discreetly?",
+    "How can I overcome the stigma associated with using PrEP while living with a mental illness?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What are the side effects of PrEP that I should be aware of, especially regarding my schizophrenia?",
+  "starter_noisy": "What are the side effects of PrEP that I should be aware of, especially regarding my schizophrenia?",
+  "followup_index": 0,
+  "followup_clean": "How can I approach my doctor about starting PrEP given my mental health challenges?",
+  "followup_noisy": "How can I approach my doctor about starting PrEP given my mental health challenges?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"stigma and mental health management\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of living with schizophrenia while considering PrEP as a preventive measure against HIV. The challenges of managing your mental health condition create additional barriers to accessing healthcare and discussing preventive options like PrEP. You worry about how others might perceive you if they knew about your condition, and you feel anxious about potential side effects and medication adherence.\",\n  \"example_questions\": [\n    \"How can I approach my doctor about starting PrEP given my mental health challenges?\",\n    \"Are there any support groups for people in my situation who are considering PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of, especially regarding my schizophrenia?\",\n    \"Could taking PrEP affect my mental health in any way?\",\n    \"What resources exist to help individuals like me access PrEP discreetly?\",\n    \"How can I overcome the stigma associated with using PrEP while living with a mental illness?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aca7ba4bfbb5453765fd1609f036b920258de256a1a6eb1f5781e970070967e1",
+  "_starter_hash": "f664b693f8dc1673496d5f3f246ba32df861e6c55d5d6c7e601ffc837756a7c4",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

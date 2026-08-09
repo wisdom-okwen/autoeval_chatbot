@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "access to healthcare resources and stigma around seeking help",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness, which makes it difficult to access consistent healthcare and find safe spaces to discuss your sexual health. You may feel isolated and anxious about the stigma associated with your living situation and your desire to prevent HIV transmission with PrEP. These feelings complicate your ability to seek out information and support.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get prescribed PrEP without a stable home?",
+    "Are there any clinics that offer PrEP specifically for people experiencing homelessness?",
+    "How can I find out if PrEP is right for me while managing my current living situation?",
+    "What should I know about the potential side effects of PrEP?",
+    "Is there any financial assistance available for those who want to start PrEP?",
+    "How can I ensure my privacy when discussing my health needs?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I need to take to get prescribed PrEP without a stable home?",
+    "Are there any clinics that offer PrEP specifically for people experiencing homelessness?",
+    "How can I find out if PrEP is right for me while managing my current living situation?",
+    "What should I know about the potential side effects of PrEP?",
+    "Is there any financial assistance available for those who want to start PrEP?",
+    "How can I ensure my privacy when discussing my health needs?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How can I ensure my privacy when discussing my health needs?",
+  "starter_noisy": "How can I ensure my privacy when discussing my health needs?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get prescribed PrEP without a stable home?",
+  "followup_noisy": "What are the steps I need to take to get prescribed PrEP without a stable home?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"access to healthcare resources and stigma around seeking help\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness, which makes it difficult to access consistent healthcare and find safe spaces to discuss your sexual health. You may feel isolated and anxious about the stigma associated with your living situation and your desire to prevent HIV transmission with PrEP. These feelings complicate your ability to seek out information and support.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get prescribed PrEP without a stable home?\",\n    \"Are there any clinics that offer PrEP specifically for people experiencing homelessness?\",\n    \"How can I find out if PrEP is right for me while managing my current living situation?\",\n    \"What should I know about the potential side effects of PrEP?\",\n    \"Is there any financial assistance available for those who want to start PrEP?\",\n    \"How can I ensure my privacy when discussing my health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7b026a1590c38bb2874e976f0533252af33aa11805b7eed1018fec2b1999fd22",
+  "_starter_hash": "0063a79f35fdfdf4b3e45ef262885f4bfa733f0b5237deed0d1b3618a6d22d4c",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

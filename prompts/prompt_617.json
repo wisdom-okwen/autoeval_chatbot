@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and lack of support",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old woman recovering from trauma related to a past relationship. This experience has left her feeling vulnerable and anxious about seeking medical assistance. She worries about being judged for her choices, particularly regarding her sexual health. While she is hopeful about the benefits of PrEP in preventing HIV, the fear of stigma from healthcare providers and peers creates a significant barrier for her in accessing this preventive medication.",
+  "example_questions_clean": [
+    "What should I know about PrEP if I'm feeling anxious about discussing it with my doctor?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any resources for low-income individuals seeking PrEP?",
+    "What are the common side effects of PrEP, and how might they affect someone recovering from trauma?",
+    "Is it safe to start PrEP while I'm still processing my past experiences?",
+    "Can you help me understand how to address stigma when talking about PrEP with friends?"
+  ],
+  "example_questions_noisy": [
+    "What should I know about PrEP if I'm feeling anxious about discussing it with my doctor?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Are there any resources for low-income individuals seeking PrEP?",
+    "What are the common side effects of PrEP, and how might they affect someone recovering from trauma?",
+    "Is it safe to start PrEP while I'm still processing my past experiences?",
+    "Can you help me understand how to address stigma when talking about PrEP with friends?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What should I know about PrEP if I'm feeling anxious about discussing it with my doctor?",
+  "starter_noisy": "What should I know about PrEP if I'm feeling anxious about discussing it with my doctor?",
+  "followup_index": 1,
+  "followup_clean": "How can I find a supportive healthcare provider who understands my situation?",
+  "followup_noisy": "How can I find a supportive healthcare provider who understands my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and lack of support\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old woman recovering from trauma related to a past relationship. This experience has left her feeling vulnerable and anxious about seeking medical assistance. She worries about being judged for her choices, particularly regarding her sexual health. While she is hopeful about the benefits of PrEP in preventing HIV, the fear of stigma from healthcare providers and peers creates a significant barrier for her in accessing this preventive medication.\",\n  \"example_questions\": [\n    \"What should I know about PrEP if I'm feeling anxious about discussing it with my doctor?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Are there any resources for low-income individuals seeking PrEP?\",\n    \"What are the common side effects of PrEP, and how might they affect someone recovering from trauma?\",\n    \"Is it safe to start PrEP while I'm still processing my past experiences?\",\n    \"Can you help me understand how to address stigma when talking about PrEP with friends?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3e7054ab28c01ee8d72796efd51f81dafa2c45ad5061d0899ba1491b6e8bd189",
+  "_starter_hash": "0f86c5d133aa7e1a34cb5141591fe6bfe46b47208dbdf6a83ca54c01cafaf6ab",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

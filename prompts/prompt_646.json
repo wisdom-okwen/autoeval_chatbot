@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and judgement related to past substance use",
+    "language": "English"
+  },
+  "context": "You are a 32-year-old American woman with a history of substance use. This experience has left you feeling hesitant about seeking information on PrEP, as you worry about being judged by healthcare providers and your community. You hope to protect your health but feel that your past may complicate access and acceptance of preventive measures.",
+  "example_questions_clean": [
+    "What are the eligibility criteria for PrEP, especially for someone with a past history of substance use?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "Are there specific support groups for individuals like me who are interested in PrEP?",
+    "What resources are available to help someone with my background access PrEP discreetly?",
+    "Can you provide information on how PrEP can impact my mental health, especially given my history?",
+    "What should I consider when choosing a healthcare provider for PrEP, considering my concerns?"
+  ],
+  "example_questions_noisy": [
+    "What are the eligibility criteria for PrEP, especially for someone with a past history of substance use?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "Are there specific support groups for individuals like me who are interested in PrEP?",
+    "What resources are available to help someone with my background access PrEP discreetly?",
+    "Can you provide information on how PrEP can impact my mental health, especially given my history?",
+    "What should I consider when choosing a healthcare provider for PrEP, considering my concerns?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What resources are available to help someone with my background access PrEP discreetly?",
+  "starter_noisy": "What resources are available to help someone with my background access PrEP discreetly?",
+  "followup_index": 0,
+  "followup_clean": "What are the eligibility criteria for PrEP, especially for someone with a past history of substance use?",
+  "followup_noisy": "What are the eligibility criteria for PrEP, especially for someone with a past history of substance use?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and judgement related to past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 32-year-old American woman with a history of substance use. This experience has left you feeling hesitant about seeking information on PrEP, as you worry about being judged by healthcare providers and your community. You hope to protect your health but feel that your past may complicate access and acceptance of preventive measures.\",\n  \"example_questions\": [\n    \"What are the eligibility criteria for PrEP, especially for someone with a past history of substance use?\",\n    \"How can I approach my healthcare provider about starting PrEP without feeling judged?\",\n    \"Are there specific support groups for individuals like me who are interested in PrEP?\",\n    \"What resources are available to help someone with my background access PrEP discreetly?\",\n    \"Can you provide information on how PrEP can impact my mental health, especially given my history?\",\n    \"What should I consider when choosing a healthcare provider for PrEP, considering my concerns?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6effa86eeee106ebe5b3473ea7ccf28dad27c0cd1dbeb829daa0669a37f46442",
+  "_starter_hash": "72973e61be0abf09c9ba6731900523a909d84bbfdce66153ab7c6393b6de18e1",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

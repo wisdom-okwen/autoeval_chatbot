@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "fear of side effects and managing anxiety",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old woman from a middle-class background in the United States. She has been coping with an anxiety disorder that affects her ability to make decisions about her health. She is worried about the potential side effects of PrEP and how they might exacerbate her anxiety. The fear of stigma surrounding her choices also weighs heavily on her mind, making her hesitant to seek out information or support.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP, and how can they impact someone with anxiety?",
+    "Can you share how PrEP might affect my mental health given my existing anxiety disorder?",
+    "Are there support systems in place for people like me who are considering PrEP?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "What steps can I take to alleviate my fears about taking PrEP?",
+    "Is there any research on the relationship between PrEP and anxiety management?"
+  ],
+  "example_questions_noisy": [
+    "What are the common side effects of PrEP, and how can they impact someone with anxiety?",
+    "Can you share how PrEP might affect my mental health given my existing anxiety disorder?",
+    "Are there support systems in place for people like me who are considering PrEP?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "What steps can I take to alleviate my fears about taking PrEP?",
+    "Is there any research on the relationship between PrEP and anxiety management?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What steps can I take to alleviate my fears about taking PrEP?",
+  "starter_noisy": "What steps can I take to alleviate my fears about taking PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP, and how can they impact someone with anxiety?",
+  "followup_noisy": "What are the common side effects of PrEP, and how can they impact someone with anxiety?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"fear of side effects and managing anxiety\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old woman from a middle-class background in the United States. She has been coping with an anxiety disorder that affects her ability to make decisions about her health. She is worried about the potential side effects of PrEP and how they might exacerbate her anxiety. The fear of stigma surrounding her choices also weighs heavily on her mind, making her hesitant to seek out information or support.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP, and how can they impact someone with anxiety?\",\n    \"Can you share how PrEP might affect my mental health given my existing anxiety disorder?\",\n    \"Are there support systems in place for people like me who are considering PrEP?\",\n    \"How can I approach my healthcare provider about starting PrEP without feeling judged?\",\n    \"What steps can I take to alleviate my fears about taking PrEP?\",\n    \"Is there any research on the relationship between PrEP and anxiety management?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4a72f82a2b1be9f5871e940c6f0d855b142b55a4d355f20107869e96532359a0",
+  "_starter_hash": "f7a8ea5162467a9d4e23dc6983a99aa6c3d0aa2bde97200000c909bf69e6ade5",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

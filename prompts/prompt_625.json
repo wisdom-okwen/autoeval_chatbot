@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how PrEP can fit into my life given my neurodevelopmental disorder",
+    "language": "English"
+  },
+  "context": "As a young woman with a neurodevelopmental disorder, you often feel overwhelmed by the complexities of healthcare. You have concerns about how your condition might affect your ability to understand medication instructions and the stigma surrounding PrEP use in your community. While you want to take control of your health, fear of judgment and uncertainty about potential side effects weigh heavily on your mind.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works in simple terms?",
+    "What should I do if I have trouble understanding the instructions for taking PrEP?",
+    "How can I find a supportive healthcare provider who understands my unique situation?",
+    "Are there any resources available for individuals with neurodevelopmental disorders who want to learn more about PrEP?",
+    "What should I consider if I worry about the stigma associated with taking PrEP in my community?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works in simple terms?",
+    "What should I do if I have trouble understanding the instructions for taking PrEP?",
+    "How can I find a supportive healthcare provider who understands my unique situation?",
+    "Are there any resources available for individuals with neurodevelopmental disorders who want to learn more about PrEP?",
+    "What should I consider if I worry about the stigma associated with taking PrEP in my community?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there any resources available for individuals with neurodevelopmental disorders who want to learn more about PrEP?",
+  "starter_noisy": "Are there any resources available for individuals with neurodevelopmental disorders who want to learn more about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works in simple terms?",
+  "followup_noisy": "Can you explain how PrEP works in simple terms?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my life given my neurodevelopmental disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman with a neurodevelopmental disorder, you often feel overwhelmed by the complexities of healthcare. You have concerns about how your condition might affect your ability to understand medication instructions and the stigma surrounding PrEP use in your community. While you want to take control of your health, fear of judgment and uncertainty about potential side effects weigh heavily on your mind.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works in simple terms?\",\n    \"What should I do if I have trouble understanding the instructions for taking PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my unique situation?\",\n    \"Are there any resources available for individuals with neurodevelopmental disorders who want to learn more about PrEP?\",\n    \"What should I consider if I worry about the stigma associated with taking PrEP in my community?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8cc20a29d54fa6a7ba9300cf2104d159dbf6009477fbd5adc8a583bb9a636589",
+  "_starter_hash": "777a812efb8924487735e29901dbc2108e2bbd9d7558d01c9d9b72e59b4b2ba1",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

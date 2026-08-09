@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how PrEP might interact with my past substance use issues",
+    "language": "English"
+  },
+  "context": "The user has a history of substance use which makes them fearful about starting PrEP. They worry that their past may affect how healthcare providers perceive them and whether they will face stigma when seeking this preventive treatment. They feel hopeful but anxious about accessing PrEP due to the potential barriers related to their personal history.",
+  "example_questions_clean": [
+    "What should I tell my doctor about my history with substance use when discussing PrEP?",
+    "Are there support groups for people in similar situations who are considering PrEP?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "What are the possible side effects of taking PrEP that I should be aware of?",
+    "How can I find a healthcare provider who understands my concerns and background?",
+    "What steps can I take to ensure I feel safe and respected while seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what should I tell my doctor about my history with substance use when discusing PrEP? PrEP?",
+    "4r3 there support groups for p3ople in similar 517u4ti0n5 who are considering PrEP? 😕",
+    "c-cam you explain how PrEP works and ... its effectiveness in preventing HIV?",
+    "what are the possible side effects of takinb PrEP that I should be aware of",
+    "how can 1 find a you know h34l7hc4re provider who understands my concerns and background? 😕",
+    "what steps can I take to ensure I feel safe and respected while seeking PrE"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What are the possible side effects of taking PrEP that I should be aware of?",
+  "starter_noisy": "what are the possible side effects of takinb PrEP that I should be aware of",
+  "followup_index": 0,
+  "followup_clean": "What should I tell my doctor about my history with substance use when discussing PrEP?",
+  "followup_noisy": "what should I tell my doctor about my history with substance use when discusing PrEP? PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06446091494941467,
+    "swap_rate": 0.020424250187344135,
+    "drop_rate": 0.049427488227751504,
+    "dup_rate": 0.013869933544497821,
+    "leet_rate": 0.06916004267088247,
+    "start_lower_prob": 0.8611004595230517,
+    "all_lower_prob": 0.34585925702313397,
+    "drop_punct_prob": 0.4005323955787339,
+    "double_space_prob": 0.15221367038631997,
+    "ellipsis_prob": 0.2534513214405627,
+    "runon_prob": 0.14792386048849177,
+    "filler_rate": 0.36283303343032003,
+    "emoji_rate": 0.3264850472037165,
+    "stutter_rate": 0.1803487683055695,
+    "repeat_last_rate": 0.09891519234973647
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how PrEP might interact with my past substance use issues\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a history of substance use which makes them fearful about starting PrEP. They worry that their past may affect how healthcare providers perceive them and whether they will face stigma when seeking this preventive treatment. They feel hopeful but anxious about accessing PrEP due to the potential barriers related to their personal history.\",\n  \"example_questions\": [\n    \"What should I tell my doctor about my history with substance use when discussing PrEP?\",\n    \"Are there support groups for people in similar situations who are considering PrEP?\",\n    \"Can you explain how PrEP works and its effectiveness in preventing HIV?\",\n    \"What are the possible side effects of taking PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who understands my concerns and background?\",\n    \"What steps can I take to ensure I feel safe and respected while seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "69f29dc5243b3f307f765bcb94e452abc3e453b269de4e5026db0f34ece8b60a",
+  "_starter_hash": "b5c7b2b389fea947ef1714dec2c1591158e959d0e5f6adca23cfd6f9e6be9818",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

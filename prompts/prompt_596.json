@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP might interact with my mental health condition",
+    "language": "English"
+  },
+  "context": "You are a young woman navigating life with a neurodevelopmental disorder that affects your ability to process information and manage anxiety. The prospect of starting PrEP brings up fears about potential side effects and how it may affect your mental health stability. You seek to understand how to safely incorporate PrEP into your life while managing these challenges and overcoming barriers to access.",
+  "example_questions_clean": [
+    "What specific side effects of PrEP should I be aware of considering my mental health condition?",
+    "Are there any resources for low-income individuals like me who need help accessing PrEP?",
+    "How can I talk to my doctor about my concerns related to PrEP?",
+    "What are the experiences of others with neurodevelopmental disorders who have taken PrEP?",
+    "Is there any stigma associated with taking PrEP that I should be prepared for?",
+    "Can you provide information on how PrEP could affect my anxiety levels?"
+  ],
+  "example_questions_noisy": [
+    "What specific side effects of PrEP should I be aware of considering my mental health condition?",
+    "Are there any resources for low-income individuals like me who need help accessing PrEP?",
+    "How can I talk to my doctor about my concerns related to PrEP?",
+    "What are the experiences of others with neurodevelopmental disorders who have taken PrEP?",
+    "Is there any stigma associated with taking PrEP that I should be prepared for?",
+    "Can you provide information on how PrEP could affect my anxiety levels?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I talk to my doctor about my concerns related to PrEP?",
+  "starter_noisy": "How can I talk to my doctor about my concerns related to PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What specific side effects of PrEP should I be aware of considering my mental health condition?",
+  "followup_noisy": "What specific side effects of PrEP should I be aware of considering my mental health condition?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP might interact with my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a young woman navigating life with a neurodevelopmental disorder that affects your ability to process information and manage anxiety. The prospect of starting PrEP brings up fears about potential side effects and how it may affect your mental health stability. You seek to understand how to safely incorporate PrEP into your life while managing these challenges and overcoming barriers to access.\",\n  \"example_questions\": [\n    \"What specific side effects of PrEP should I be aware of considering my mental health condition?\",\n    \"Are there any resources for low-income individuals like me who need help accessing PrEP?\",\n    \"How can I talk to my doctor about my concerns related to PrEP?\",\n    \"What are the experiences of others with neurodevelopmental disorders who have taken PrEP?\",\n    \"Is there any stigma associated with taking PrEP that I should be prepared for?\",\n    \"Can you provide information on how PrEP could affect my anxiety levels?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c0bbc9f3e8531f8322709648d7441ac437cc0c5cb431f5e9bfeda93de823277a",
+  "_starter_hash": "703ec81a41ca85f6d134fd4e5e15464b3f7624f9d9fea7658cc91debe38a59a8",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

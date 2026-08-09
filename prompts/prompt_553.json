@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding the medication and its effects due to difficulties in processing information",
+    "language": "English"
+  },
+  "context": "You are feeling anxious about starting PrEP because you have a learning disability that makes it hard for you to understand medical terms and navigate health resources. This causes you to feel overwhelmed and worried about making the right choices regarding your health, especially in a society that can be stigmatizing about HIV prevention. You hope to find clear and supportive information to help you feel more confident in your decision.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "What should I expect when I visit a healthcare provider to discuss PrEP?",
+    "How can I make sure I understand the instructions for taking PrEP?",
+    "Are there resources available that cater specifically to people with learning disabilities?",
+    "What are some common side effects of PrEP that I should be aware of?",
+    "Is there support available for someone like me who is nervous about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "c-can yoy explain what PrEP i mean is in simple terms",
+    "w-what should i expect when i visit a healthcare orovider to discuss prep?",
+    "how can i make sure i understand uh the instructttions for taking prep? prep?",
+    "are there resources available that cater specifically to people with learning disabilities?",
+    "what are 50m3 common side effects pf PrEP that 1 should be idk aware of?",
+    "is 7h3r3 5upp0r7 av41l4bl3 f0r aomeone like me who is nervous about staritng prep? 🫠"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there resources available that cater specifically to people with learning disabilities?",
+  "starter_noisy": "are there resources available that cater specifically to people with learning disabilities?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is in simple terms?",
+  "followup_noisy": "c-can yoy explain what PrEP i mean is in simple terms",
+  "style_profile": {
+    "typo_rate": 0.10975628175704899,
+    "swap_rate": 0.029603121798986637,
+    "drop_rate": 0.028431279363584108,
+    "dup_rate": 0.02797132183014188,
+    "leet_rate": 0.09626361578180587,
+    "start_lower_prob": 0.832958928061219,
+    "all_lower_prob": 0.3115445500638002,
+    "drop_punct_prob": 0.4206818684992766,
+    "double_space_prob": 0.23087097835091494,
+    "ellipsis_prob": 0.2403847475370195,
+    "runon_prob": 0.13345764446661068,
+    "filler_rate": 0.3765058489048092,
+    "emoji_rate": 0.3355939705790144,
+    "stutter_rate": 0.15470499301459212,
+    "repeat_last_rate": 0.14934974802152717
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding the medication and its effects due to difficulties in processing information\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling anxious about starting PrEP because you have a learning disability that makes it hard for you to understand medical terms and navigate health resources. This causes you to feel overwhelmed and worried about making the right choices regarding your health, especially in a society that can be stigmatizing about HIV prevention. You hope to find clear and supportive information to help you feel more confident in your decision.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"What should I expect when I visit a healthcare provider to discuss PrEP?\",\n    \"How can I make sure I understand the instructions for taking PrEP?\",\n    \"Are there resources available that cater specifically to people with learning disabilities?\",\n    \"What are some common side effects of PrEP that I should be aware of?\",\n    \"Is there support available for someone like me who is nervous about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c232fc4bf6986410afd6025f71cf24c8aab3b3ab2d61162bcbf6a622df44c91c",
+  "_starter_hash": "026fe90bc26c3b8dbaad2d8f59c6be02943586de50e67d423652d0104e2a3d2e",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

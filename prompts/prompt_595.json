@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "The user struggles with low self-esteem, which makes it challenging for her to consider preventive health measures like PrEP. She often feels anxious about how others might perceive her choices, fearing that seeking PrEP might lead to judgment or further damage her self-image. This emotional barrier contributes to her hesitation in accessing the medication, even though she knows it could help protect her health.",
+  "example_questions_clean": [
+    "What are the benefits of taking PrEP for someone like me?",
+    "How can I talk to my doctor about getting PrEP without feeling embarrassed?",
+    "Are there support groups for people who are considering PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Is there a way to access PrEP discreetly to avoid any stigma?",
+    "How can I address my fears about being judged while seeking PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the benefits of taking PrEP for someone like me?",
+    "How can I talk to my doctor about getting PrEP without feeling embarrassed?",
+    "Are there support groups for people who are considering PrEP?",
+    "What should I expect during the initial consultation for PrEP?",
+    "Is there a way to access PrEP discreetly to avoid any stigma?",
+    "How can I address my fears about being judged while seeking PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support groups for people who are considering PrEP?",
+  "starter_noisy": "Are there support groups for people who are considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the benefits of taking PrEP for someone like me?",
+  "followup_noisy": "What are the benefits of taking PrEP for someone like me?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with low self-esteem, which makes it challenging for her to consider preventive health measures like PrEP. She often feels anxious about how others might perceive her choices, fearing that seeking PrEP might lead to judgment or further damage her self-image. This emotional barrier contributes to her hesitation in accessing the medication, even though she knows it could help protect her health.\",\n  \"example_questions\": [\n    \"What are the benefits of taking PrEP for someone like me?\",\n    \"How can I talk to my doctor about getting PrEP without feeling embarrassed?\",\n    \"Are there support groups for people who are considering PrEP?\",\n    \"What should I expect during the initial consultation for PrEP?\",\n    \"Is there a way to access PrEP discreetly to avoid any stigma?\",\n    \"How can I address my fears about being judged while seeking PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7ebb1d8ec3ada1ae0bafd1c8564da23a1a826724815fad1583f44426218c7035",
+  "_starter_hash": "0b9ff0d51244d269be25412f149a1b8fbb21355fc294684bd1b9699c68f01b78",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

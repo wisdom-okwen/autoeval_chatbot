@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how to access PrEP and its effects on my mental health",
+    "language": "English"
+  },
+  "context": "As a young woman with a learning disability, I often struggle to process complex information quickly. This makes me anxious about accessing healthcare resources, especially when it comes to something as important as PrEP. I worry that I may not fully understand how PrEP works, leading to feelings of fear and confusion. My low income also adds pressure, as I'm uncertain about costs and what help is available.",
+  "example_questions_clean": [
+    "What are the steps I need to take to get PrEP?",
+    "Can you explain how PrEP might impact my mental health?",
+    "Are there support services that can help me understand PrEP better?",
+    "How do I talk to my doctor about starting PrEP without feeling overwhelmed?",
+    "What options are there for someone in my financial situation to access PrEP?",
+    "Is there a simpler way to learn about the benefits of using PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps I need to take uh to get PrEP",
+    "c4n idk you 3xpl41n how Pr3P might impact my mental health",
+    "are there suppor services that can help me understand Pr3P better",
+    "how do 1 t4lk to my doctor about starting PrEP without f33l1ng overwhelmed",
+    "ehat optons aaare there for someone in my finacial situation to access prep",
+    "is there a 51mpl3r way to laern baout 7h3 benefits pf using you know PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there a simpler way to learn about the benefits of using PrEP?",
+  "starter_noisy": "is there a 51mpl3r way to laern baout 7h3 benefits pf using you know PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to get PrEP?",
+  "followup_noisy": "what are the steps I need to take uh to get PrEP",
+  "style_profile": {
+    "typo_rate": 0.05430553174337433,
+    "swap_rate": 0.040120296785630005,
+    "drop_rate": 0.037946486482748884,
+    "dup_rate": 0.02880350098517928,
+    "leet_rate": 0.09495388831650839,
+    "start_lower_prob": 0.8810977540073255,
+    "all_lower_prob": 0.3363269740783486,
+    "drop_punct_prob": 0.5806568464138105,
+    "double_space_prob": 0.22858146509944485,
+    "ellipsis_prob": 0.20099086135007843,
+    "runon_prob": 0.13113986523730986,
+    "filler_rate": 0.31542139749090986,
+    "emoji_rate": 0.21056224891887496,
+    "stutter_rate": 0.10537698184609912,
+    "repeat_last_rate": 0.14861555927251685
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how to access PrEP and its effects on my mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman with a learning disability, I often struggle to process complex information quickly. This makes me anxious about accessing healthcare resources, especially when it comes to something as important as PrEP. I worry that I may not fully understand how PrEP works, leading to feelings of fear and confusion. My low income also adds pressure, as I'm uncertain about costs and what help is available.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to get PrEP?\",\n    \"Can you explain how PrEP might impact my mental health?\",\n    \"Are there support services that can help me understand PrEP better?\",\n    \"How do I talk to my doctor about starting PrEP without feeling overwhelmed?\",\n    \"What options are there for someone in my financial situation to access PrEP?\",\n    \"Is there a simpler way to learn about the benefits of using PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8b84b21139a9eefd31ce3941fb56bedcb66bef9d1cc316ecfabc219144af1294",
+  "_starter_hash": "1c70b9db96e3838ff0d6c371c55d172b124b1f9450ca9fe0d3d9288d3804a768",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

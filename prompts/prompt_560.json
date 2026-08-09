@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and misunderstanding from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old Mexican woman recovering from trauma related to a past relationship. She feels anxious about discussing her health needs, particularly concerning PrEP, due to fears of being judged or misunderstood by healthcare providers. This background influences her emotional state, creating barriers to seeking necessary information and support for her sexual health.",
+  "example_questions_clean": [
+    "What steps can I take to find a supportive healthcare provider for PrEP?",
+    "How can I address my fears about stigma when discussing PrEP with doctors?",
+    "Are there resources that provide information about PrEP in a safe and understanding environment?",
+    "What should I expect during the process of getting prescribed PrEP?",
+    "Can you explain the benefits of PrEP for someone like me who has experienced trauma?",
+    "Is it possible to access PrEP without facing judgment from medical staff?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to find a supportive healthcare you know provide for PrEP",
+    "h-how can I address my fears baout stigma when discussing PrEP with doctors 😬",
+    "are there desources that provide information about pr3p in a safe annnd understanding environment?",
+    "What hould u expect during the process of getting prescribed PrEP PrEP",
+    "cah you 3xpl41n the benefits of PrEP for someone l1k3 me wh0 h45 experienced trauma 😅",
+    "i-is it i mean possible tk access prep without f4cng judgment from medical staff ✨"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Can you explain the benefits of PrEP for someone like me who has experienced trauma?",
+  "starter_noisy": "cah you 3xpl41n the benefits of PrEP for someone l1k3 me wh0 h45 experienced trauma 😅",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to find a supportive healthcare provider for PrEP?",
+  "followup_noisy": "What steps can I take to find a supportive healthcare you know provide for PrEP",
+  "style_profile": {
+    "typo_rate": 0.09378009788809971,
+    "swap_rate": 0.05355496339615355,
+    "drop_rate": 0.04097679444541771,
+    "dup_rate": 0.010540656452751077,
+    "leet_rate": 0.1187086018534466,
+    "start_lower_prob": 0.7002610913717218,
+    "all_lower_prob": 0.2586414543142098,
+    "drop_punct_prob": 0.4969144811022441,
+    "double_space_prob": 0.23208254868607592,
+    "ellipsis_prob": 0.23086404934200472,
+    "runon_prob": 0.13067061784894998,
+    "filler_rate": 0.4038935421725478,
+    "emoji_rate": 0.23177810181694958,
+    "stutter_rate": 0.19428175201183762,
+    "repeat_last_rate": 0.17385895281649721
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and misunderstanding from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old Mexican woman recovering from trauma related to a past relationship. She feels anxious about discussing her health needs, particularly concerning PrEP, due to fears of being judged or misunderstood by healthcare providers. This background influences her emotional state, creating barriers to seeking necessary information and support for her sexual health.\",\n  \"example_questions\": [\n    \"What steps can I take to find a supportive healthcare provider for PrEP?\",\n    \"How can I address my fears about stigma when discussing PrEP with doctors?\",\n    \"Are there resources that provide information about PrEP in a safe and understanding environment?\",\n    \"What should I expect during the process of getting prescribed PrEP?\",\n    \"Can you explain the benefits of PrEP for someone like me who has experienced trauma?\",\n    \"Is it possible to access PrEP without facing judgment from medical staff?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "697242c665b8cae18d780c830a0b60624e8a67b6e7e9cb6cafe93736b7d6a610",
+  "_starter_hash": "6fb20c1fdf44fa90a558477bd25dfdfb790da3b2f9b1d708539666696a7a800d",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

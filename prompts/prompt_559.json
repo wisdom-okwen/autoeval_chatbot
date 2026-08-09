@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 25,
+    "gender": "non-binary",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "Navigating the process of accessing PrEP while coping with gender dysphoria can be particularly challenging. This individual may feel anxious about how they will be perceived by healthcare providers and whether their needs will be understood and respected. Their emotional state may be influenced by past experiences of stigma, leading to fear and uncertainty about seeking preventive care.",
+  "example_questions_clean": [
+    "How can I find a healthcare provider who is sensitive to my experiences with gender dysphoria?",
+    "What steps should I take to discuss PrEP with my doctor without feeling judged?",
+    "Are there specific clinics that cater to the LGBTQ+ community for PrEP access?",
+    "What support resources are available for someone like me who fears stigma in healthcare settings?",
+    "Can you explain how PrEP works and its effectiveness in preventing HIV?",
+    "What should I do if I feel uncomfortable during my PrEP consultation?"
+  ],
+  "example_questions_noisy": [
+    "how can I find a healthcare provider who is sesnitive to my 3xp3r13nce5 w17h gender dysphoria?",
+    "What stps sh0uld I take to discuss PrEP with my doctor without feeling judged?",
+    "are there specific clinics that cated to the LGBfQ+ community ror PrEP access?",
+    "Wh4t support resources are aavilable for someone like meee who fears stigma 1n healthcare settings?",
+    "C-C4n you xeplain how PrEP w0rks and its effectiveness in preventing idk H1V? H1V?",
+    "um hwat should 1 do if i feel uncomfortable dring my prep consultation"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What support resources are available for someone like me who fears stigma in healthcare settings?",
+  "starter_noisy": "Wh4t support resources are aavilable for someone like meee who fears stigma 1n healthcare settings?",
+  "followup_index": 0,
+  "followup_clean": "How can I find a healthcare provider who is sensitive to my experiences with gender dysphoria?",
+  "followup_noisy": "how can I find a healthcare provider who is sesnitive to my 3xp3r13nce5 w17h gender dysphoria?",
+  "style_profile": {
+    "typo_rate": 0.07572256116312387,
+    "swap_rate": 0.05732760253603282,
+    "drop_rate": 0.04138951682248911,
+    "dup_rate": 0.024084420128269078,
+    "leet_rate": 0.11700441444726951,
+    "start_lower_prob": 0.6868337090062228,
+    "all_lower_prob": 0.2287742810212004,
+    "drop_punct_prob": 0.36104565108254527,
+    "double_space_prob": 0.3180168419578181,
+    "ellipsis_prob": 0.3184143712338903,
+    "runon_prob": 0.28316975109320963,
+    "filler_rate": 0.42213910601568816,
+    "emoji_rate": 0.16172902512288448,
+    "stutter_rate": 0.11386268732748375,
+    "repeat_last_rate": 0.16614372585250436
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 25,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Navigating the process of accessing PrEP while coping with gender dysphoria can be particularly challenging. This individual may feel anxious about how they will be perceived by healthcare providers and whether their needs will be understood and respected. Their emotional state may be influenced by past experiences of stigma, leading to fear and uncertainty about seeking preventive care.\",\n  \"example_questions\": [\n    \"How can I find a healthcare provider who is sensitive to my experiences with gender dysphoria?\",\n    \"What steps should I take to discuss PrEP with my doctor without feeling judged?\",\n    \"Are there specific clinics that cater to the LGBTQ+ community for PrEP access?\",\n    \"What support resources are available for someone like me who fears stigma in healthcare settings?\",\n    \"Can you explain how PrEP works and its effectiveness in preventing HIV?\",\n    \"What should I do if I feel uncomfortable during my PrEP consultation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "433189af60d6acc000d74f99948c541eecf42f5d52074cf7191dea97222e75c8",
+  "_starter_hash": "3ff526f773c0ad600e11d6652684d8c061023565c70eceb968500187ca6027ce",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower-middle-class",
+    "primary_concern": "fear of stigma and judgment from peers",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman who has recently been recovering from trauma related to past relationships. This experience has made you hesitant about seeking preventive healthcare options like PrEP due to fears of judgment and stigma. You want to ensure that you are making informed decisions about your health while also navigating the emotional barriers that come from your past.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work in preventing HIV?",
+    "Are there any specific support groups for individuals recovering from trauma who are considering PrEP?",
+    "How can I approach my healthcare provider about starting PrEP without feeling judged?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Is there a stigma associated with taking PrEP that I should be aware of?",
+    "How does one typically find the right healthcare provider for PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what is PrEP 4nd like how does it work in preventing HIV? ✨",
+    "are there any specific support groups for individuals recovering from trauma who are considering PrEP? PrEP?",
+    "h0w can I approach mmmy healthcare provider i mean about 5tar7ing PrEP without feeling judged",
+    "w-what resources are available i mean forrr womeone in my situation to le4rn more 4b0u7 PrEP",
+    "I-Is there a stigma 45soc14ted w7h taking PrEP that I should i mean be aware of?",
+    "how doe one typically find the right healthcare provider for prep???"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there any specific support groups for individuals recovering from trauma who are considering PrEP?",
+  "starter_noisy": "are there any specific support groups for individuals recovering from trauma who are considering PrEP? PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What is PrEP and how does it work in preventing HIV?",
+  "followup_noisy": "what is PrEP 4nd like how does it work in preventing HIV? ✨",
+  "style_profile": {
+    "typo_rate": 0.050559674415991095,
+    "swap_rate": 0.04884321416971064,
+    "drop_rate": 0.04065251208980644,
+    "dup_rate": 0.016471112169879537,
+    "leet_rate": 0.08758998273997057,
+    "start_lower_prob": 0.6104133576564515,
+    "all_lower_prob": 0.3068932938567114,
+    "drop_punct_prob": 0.40820162485722244,
+    "double_space_prob": 0.2604102397920158,
+    "ellipsis_prob": 0.3405204654094717,
+    "runon_prob": 0.2139149084812842,
+    "filler_rate": 0.3447909255985012,
+    "emoji_rate": 0.20853373455220486,
+    "stutter_rate": 0.1150426104765708,
+    "repeat_last_rate": 0.12810273968928262
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle-class\",\n    \"primary_concern\": \"fear of stigma and judgment from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman who has recently been recovering from trauma related to past relationships. This experience has made you hesitant about seeking preventive healthcare options like PrEP due to fears of judgment and stigma. You want to ensure that you are making informed decisions about your health while also navigating the emotional barriers that come from your past.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work in preventing HIV?\",\n    \"Are there any specific support groups for individuals recovering from trauma who are considering PrEP?\",\n    \"How can I approach my healthcare provider about starting PrEP without feeling judged?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"Is there a stigma associated with taking PrEP that I should be aware of?\",\n    \"How does one typically find the right healthcare provider for PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "64f245d22f858f3fcc661451fe7fe3e31f6c1f6a215e3ad8f1f0100437f58c7f",
+  "_starter_hash": "d2d49dc344ca2b5e347e2fbf9b2c885fad3c1616f74dc5ecbf3f0fe0a429d4be",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

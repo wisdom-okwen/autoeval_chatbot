@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "accessing PrEP due to cognitive challenges related to my condition",
+    "language": "English"
+  },
+  "context": "You are a 29-year-old woman from Canada living with a neurodevelopmental disorder that affects your memory and decision-making skills. You feel overwhelmed by the information surrounding PrEP and are concerned about the stigma associated with using it. Your condition makes you anxious about managing the process of obtaining PrEP, as you worry that you might forget important steps or not fully understand the implications of the medication.",
+  "example_questions_clean": [
+    "How can I remember the necessary steps to access PrEP given my cognitive challenges?",
+    "What support resources are available for someone like me who wants to start PrEP?",
+    "Are there specific healthcare professionals who understand neurodevelopmental disorders in relation to PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there a way to discuss my concerns about stigma when seeking PrEP?",
+    "How can I ensure I am taking PrEP correctly every day despite my condition?"
+  ],
+  "example_questions_noisy": [
+    "How can I remember the necessary steps to access PrEP given my cognitive challenges?",
+    "What support resources are available for someone like me who wants to start PrEP?",
+    "Are there specific healthcare professionals who understand neurodevelopmental disorders in relation to PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there a way to discuss my concerns about stigma when seeking PrEP?",
+    "How can I ensure I am taking PrEP correctly every day despite my condition?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific healthcare professionals who understand neurodevelopmental disorders in relation to PrEP?",
+  "starter_noisy": "Are there specific healthcare professionals who understand neurodevelopmental disorders in relation to PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I remember the necessary steps to access PrEP given my cognitive challenges?",
+  "followup_noisy": "How can I remember the necessary steps to access PrEP given my cognitive challenges?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"accessing PrEP due to cognitive challenges related to my condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 29-year-old woman from Canada living with a neurodevelopmental disorder that affects your memory and decision-making skills. You feel overwhelmed by the information surrounding PrEP and are concerned about the stigma associated with using it. Your condition makes you anxious about managing the process of obtaining PrEP, as you worry that you might forget important steps or not fully understand the implications of the medication.\",\n  \"example_questions\": [\n    \"How can I remember the necessary steps to access PrEP given my cognitive challenges?\",\n    \"What support resources are available for someone like me who wants to start PrEP?\",\n    \"Are there specific healthcare professionals who understand neurodevelopmental disorders in relation to PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Is there a way to discuss my concerns about stigma when seeking PrEP?\",\n    \"How can I ensure I am taking PrEP correctly every day despite my condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "784e9b5a82645b02db351358fffa810feca3305aa21a45c050fd3fcd79c4ab85",
+  "_starter_hash": "31d9c9a0e88e192d3f419d4124c1fb3b8c3faa01fd9d48251730da30299d59b1",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

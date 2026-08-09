@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "accessibility and understanding of PrEP due to my neurodevelopmental disorder",
+    "language": "English"
+  },
+  "context": "As a young woman with a neurodevelopmental disorder, I face challenges in processing information and understanding complex health topics. My condition makes me anxious about discussing sexual health and accessing preventive care like PrEP, especially with the stigma surrounding it. I worry that my disability could prevent me from receiving appropriate care or that I may not be taken seriously by healthcare providers.",
+  "example_questions_clean": [
+    "What steps can I take to ensure I understand how PrEP works?",
+    "Are there any support resources specifically for people with disabilities who want to access PrEP?",
+    "How can I discuss my need for PrEP with my doctor without feeling overwhelmed?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there a way to get financial assistance for PrEP if I have a low income?",
+    "How can I cope with the fear of stigma when seeking information about PrEP?"
+  ],
+  "example_questions_noisy": [
+    "hWag steps can I take tk 3n5ur3 I understand how PrEP works? works?",
+    "Are there any support resources specifically for peple with di54b1l1t13s who want to access Pr3P?",
+    "how can i discuss my need for prep with my doctor without feeling idk ovsrwhelmed",
+    "w-what are the like potential side effects of PrEP 7ha7 I should b3 aware of",
+    "15 there a way t0 ger finacial assistance for PrEP 1f k have 4 low income?",
+    "how c4n I coep with the fear you know of stigggma when seeking information about ;rEP? 🙄"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is there a way to get financial assistance for PrEP if I have a low income?",
+  "starter_noisy": "15 there a way t0 ger finacial assistance for PrEP 1f k have 4 low income?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to ensure I understand how PrEP works?",
+  "followup_noisy": "hWag steps can I take tk 3n5ur3 I understand how PrEP works? works?",
+  "style_profile": {
+    "typo_rate": 0.06039445623952038,
+    "swap_rate": 0.03475547471461565,
+    "drop_rate": 0.021961651816224774,
+    "dup_rate": 0.011425172210524099,
+    "leet_rate": 0.11475600242499645,
+    "start_lower_prob": 0.810482052951788,
+    "all_lower_prob": 0.22807044549560324,
+    "drop_punct_prob": 0.3571154105860126,
+    "double_space_prob": 0.2190913157848845,
+    "ellipsis_prob": 0.24657880777446642,
+    "runon_prob": 0.14171247640058132,
+    "filler_rate": 0.4369873190200785,
+    "emoji_rate": 0.2508940937215691,
+    "stutter_rate": 0.11976775964710257,
+    "repeat_last_rate": 0.16723921501054506
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"accessibility and understanding of PrEP due to my neurodevelopmental disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman with a neurodevelopmental disorder, I face challenges in processing information and understanding complex health topics. My condition makes me anxious about discussing sexual health and accessing preventive care like PrEP, especially with the stigma surrounding it. I worry that my disability could prevent me from receiving appropriate care or that I may not be taken seriously by healthcare providers.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure I understand how PrEP works?\",\n    \"Are there any support resources specifically for people with disabilities who want to access PrEP?\",\n    \"How can I discuss my need for PrEP with my doctor without feeling overwhelmed?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Is there a way to get financial assistance for PrEP if I have a low income?\",\n    \"How can I cope with the fear of stigma when seeking information about PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "988b7c79b312a75be3cab5240e57e8924622ab7e1ee41a6772771649c11688a6",
+  "_starter_hash": "99db14872bcba4a95a1ba2898806cca3dc2cf71ad4f7706e3238344bd7b41f01",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

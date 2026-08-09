@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and rejection from peers",
+    "language": "English"
+  },
+  "context": "You are feeling socially isolated due to your personal circumstances, which makes you anxious about discussing PrEP with others. You worry that seeking information might expose you to judgment and deepen your sense of isolation.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "How can I find a healthcare provider who is understanding and supportive?",
+    "What steps can I take to feel more confident in discussing PrEP with my friends?",
+    "Are there resources available for people like me who feel alone in this process?",
+    "What should I do if I face stigma when trying to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can you explain h0w prep works and who should cpnsider taking it",
+    "What are the side 3ff3ct5 of PrEP that I should be aware of 😬",
+    "how can I find a healthcare pr0v1d3r who is under5t4nd1ng anddd supportive? 🫠",
+    "whta steps can 1 take to efeeel you know more c0nf1demt in discussing PrEP with kyyy friends? friends?",
+    "are there resources available for people like me who feel alone ij this process? process?",
+    "w-what shoule 1 do if I face stigma when trying to access PrPE"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Are there resources available for people like me who feel alone in this process?",
+  "starter_noisy": "are there resources available for people like me who feel alone ij this process? process?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and who should consider taking it?",
+  "followup_noisy": "can you explain h0w prep works and who should cpnsider taking it",
+  "style_profile": {
+    "typo_rate": 0.09522776190967742,
+    "swap_rate": 0.04727996292019146,
+    "drop_rate": 0.04044698998120619,
+    "dup_rate": 0.019338871918764065,
+    "leet_rate": 0.06203490801088485,
+    "start_lower_prob": 0.6168174455372467,
+    "all_lower_prob": 0.30235143280203425,
+    "drop_punct_prob": 0.4257002982319671,
+    "double_space_prob": 0.3070245356899811,
+    "ellipsis_prob": 0.176398563979606,
+    "runon_prob": 0.12766877448120534,
+    "filler_rate": 0.3436054347984384,
+    "emoji_rate": 0.32899923005411985,
+    "stutter_rate": 0.17544652204374234,
+    "repeat_last_rate": 0.09269562387689015
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and rejection from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling socially isolated due to your personal circumstances, which makes you anxious about discussing PrEP with others. You worry that seeking information might expose you to judgment and deepen your sense of isolation.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and who should consider taking it?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who is understanding and supportive?\",\n    \"What steps can I take to feel more confident in discussing PrEP with my friends?\",\n    \"Are there resources available for people like me who feel alone in this process?\",\n    \"What should I do if I face stigma when trying to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "520eb69e98b2682b1bdedfaad23830934df55ba23a88359d29422655770589ad",
+  "_starter_hash": "8704b206afabf8d6c6678021350995961584818da65b960c291f6bc7a8650614",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

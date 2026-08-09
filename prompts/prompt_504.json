@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Mexican",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of judgment and potential exposure to partner's violence",
+    "language": "English"
+  },
+  "context": "You are in a difficult situation as you deal with intimate partner violence. This has made you feel trapped and fearful about seeking out information regarding PrEP. The fear of your partner's reaction adds to your anxiety, making it hard to prioritize your health. You want to protect yourself but worry about the stigma and potential for conflict.",
+  "example_questions_clean": [
+    "What steps can I take to access PrEP safely without my partner knowing?",
+    "Are there resources available for someone in my situation dealing with intimate partner violence?",
+    "How can I manage my fears about discussing PrEP with a healthcare provider?",
+    "What should I know about the effectiveness of PrEP in preventing HIV?",
+    "Is there a way to find support for both my health needs and my safety?",
+    "Can PrEP help me feel more secure in my sexual health despite my current situation?"
+  ],
+  "example_questions_noisy": [
+    "what steps can I take to access PrEP safely qithout my partner knowiiing? knowiiing?",
+    "Aee there resources av41l4bl3 for i mean someone in my situation dealing with 1n71m473 partner violemce",
+    "How can I manage mu fears about discussing PrrP with a healthcare provider",
+    "What should I kn0w about the effcetiveness of rEP in preventkng HIV?",
+    "is there a way 70 find support for both my h34lth needs and my safety?",
+    "c-cannn PrEP ehlp me feel more secure in my sexual health de5p173 my current situation situation"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Can PrEP help me feel more secure in my sexual health despite my current situation?",
+  "starter_noisy": "c-cannn PrEP ehlp me feel more secure in my sexual health de5p173 my current situation situation",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to access PrEP safely without my partner knowing?",
+  "followup_noisy": "what steps can I take to access PrEP safely qithout my partner knowiiing? knowiiing?",
+  "style_profile": {
+    "typo_rate": 0.08379524689349598,
+    "swap_rate": 0.0463706427507818,
+    "drop_rate": 0.041293433904389,
+    "dup_rate": 0.014888329276649478,
+    "leet_rate": 0.09460708706519497,
+    "start_lower_prob": 0.7101934029784687,
+    "all_lower_prob": 0.23210608658069698,
+    "drop_punct_prob": 0.3131489346228591,
+    "double_space_prob": 0.2744061082631334,
+    "ellipsis_prob": 0.25691304178855023,
+    "runon_prob": 0.11740335967833254,
+    "filler_rate": 0.33698035336352694,
+    "emoji_rate": 0.27296321214779745,
+    "stutter_rate": 0.13322040614340536,
+    "repeat_last_rate": 0.14206739122678497
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Mexican\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of judgment and potential exposure to partner's violence\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are in a difficult situation as you deal with intimate partner violence. This has made you feel trapped and fearful about seeking out information regarding PrEP. The fear of your partner's reaction adds to your anxiety, making it hard to prioritize your health. You want to protect yourself but worry about the stigma and potential for conflict.\",\n  \"example_questions\": [\n    \"What steps can I take to access PrEP safely without my partner knowing?\",\n    \"Are there resources available for someone in my situation dealing with intimate partner violence?\",\n    \"How can I manage my fears about discussing PrEP with a healthcare provider?\",\n    \"What should I know about the effectiveness of PrEP in preventing HIV?\",\n    \"Is there a way to find support for both my health needs and my safety?\",\n    \"Can PrEP help me feel more secure in my sexual health despite my current situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c48a843727eed76f0df0aecd9a1ad508263dc7137a48908f11608745e7a5991e",
+  "_starter_hash": "6073c0cb2b6f9fa49e5b95de1499aafd345dfe5c6f8a6eab3ef7fe286920e548",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

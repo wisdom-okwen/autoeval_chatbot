@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user struggles with social anxiety, which makes it difficult for her to discuss health matters openly. She feels overwhelmed by the idea of seeking PrEP, fearing that she might be judged or misunderstood by healthcare professionals. This situation heightens her anxiety and creates a barrier to accessing vital information and support.",
+  "example_questions_clean": [
+    "What steps should I take to start the conversation about PrEP with my doctor?",
+    "How can I find a healthcare provider who is understanding and supportive of my concerns?",
+    "Are there resources available for individuals with social anxiety to help them access PrEP?",
+    "What should I expect during my first appointment if I decide to discuss PrEP?",
+    "How can I cope with my feelings of anxiety while seeking information about PrEP?",
+    "Is there a way to get information about PrEP online without having to visit a clinic?"
+  ],
+  "example_questions_noisy": [
+    "w-wha steps should I take ttto start the cojversation about PrEP with mmmy doctor",
+    "how can I find a healthcare providerrr who like is understanding and supportive of my concerns",
+    "are there resources available for individuals w17h social anxiety to help 7h3m access PrEP?",
+    "what sholud i wxpect during my first appointment if i decide to di5cu5s prep? 😭",
+    "how can I cope with my feelings ooof anxiety while seeking information about PrEP?",
+    "is ther a i mean way to g3t information about prep online without h4vig to isit a clinic"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps should I take to start the conversation about PrEP with my doctor?",
+  "starter_noisy": "w-wha steps should I take ttto start the cojversation about PrEP with mmmy doctor",
+  "followup_index": 1,
+  "followup_clean": "How can I find a healthcare provider who is understanding and supportive of my concerns?",
+  "followup_noisy": "how can I find a healthcare providerrr who like is understanding and supportive of my concerns",
+  "style_profile": {
+    "typo_rate": 0.06613826668611121,
+    "swap_rate": 0.028744052282541503,
+    "drop_rate": 0.04057659402272801,
+    "dup_rate": 0.026895090153957302,
+    "leet_rate": 0.06476440126636285,
+    "start_lower_prob": 0.7484242094383516,
+    "all_lower_prob": 0.27395915984472324,
+    "drop_punct_prob": 0.34188951817919827,
+    "double_space_prob": 0.2658484869642759,
+    "ellipsis_prob": 0.29986401141876695,
+    "runon_prob": 0.21672348363899585,
+    "filler_rate": 0.39810810694840504,
+    "emoji_rate": 0.1781200033498439,
+    "stutter_rate": 0.17937553994241537,
+    "repeat_last_rate": 0.1415202466607475
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with social anxiety, which makes it difficult for her to discuss health matters openly. She feels overwhelmed by the idea of seeking PrEP, fearing that she might be judged or misunderstood by healthcare professionals. This situation heightens her anxiety and creates a barrier to accessing vital information and support.\",\n  \"example_questions\": [\n    \"What steps should I take to start the conversation about PrEP with my doctor?\",\n    \"How can I find a healthcare provider who is understanding and supportive of my concerns?\",\n    \"Are there resources available for individuals with social anxiety to help them access PrEP?\",\n    \"What should I expect during my first appointment if I decide to discuss PrEP?\",\n    \"How can I cope with my feelings of anxiety while seeking information about PrEP?\",\n    \"Is there a way to get information about PrEP online without having to visit a clinic?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4c05d357520590d317d73c82341d71778c3c25cdb1e9c4268d440f22f712b19c",
+  "_starter_hash": "f4a595c01a43745fb333e8242c0b172cc538f98ae5c13bc3b275595c0f58bb2a",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

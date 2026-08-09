@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma and rejection from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user struggles with social anxiety, which makes it difficult for her to seek medical advice and support. She feels apprehensive about discussing her sexual health due to fears of judgment and rejection, leading to a sense of isolation regarding her health choices.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work for preventing HIV?",
+    "Can I access PrEP confidentially without feeling embarrassed?",
+    "What should I expect during the consultation for PrEP?",
+    "Are there any specific side effects I should be aware of before starting PrEP?",
+    "How can I find supportive healthcare providers who understand my situation?",
+    "What are the costs associated with PrEP and are there financial assistance programs available?"
+  ],
+  "example_questions_noisy": [
+    "W-What is PrEP and ... how you know does it work f0r preventing HIV? ✨",
+    "can I um access PrEP confidentially without feeing embarrassed",
+    "What should I 3xxxpec7 during the consultation for PrEP 😅",
+    "are 7h3re any specific sdie effects 1 should like be aware ooof b3f0r3 starting PrEP",
+    "how c4n i find supportive healthcare pr0vid3r5 who und3r574bd my situation",
+    "what are the costs associated with PrEP and are there financial assistance programs available"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Are there any specific side effects I should be aware of before starting PrEP?",
+  "starter_noisy": "are 7h3re any specific sdie effects 1 should like be aware ooof b3f0r3 starting PrEP",
+  "followup_index": 0,
+  "followup_clean": "What is PrEP and how does it work for preventing HIV?",
+  "followup_noisy": "W-What is PrEP and ... how you know does it work f0r preventing HIV? ✨",
+  "style_profile": {
+    "typo_rate": 0.10689450928875474,
+    "swap_rate": 0.04300771876749036,
+    "drop_rate": 0.0377916805164329,
+    "dup_rate": 0.022537978321271992,
+    "leet_rate": 0.10986713126652303,
+    "start_lower_prob": 0.7050466750398231,
+    "all_lower_prob": 0.26826369410226847,
+    "drop_punct_prob": 0.5794631143518086,
+    "double_space_prob": 0.21279044052511065,
+    "ellipsis_prob": 0.18880186812788963,
+    "runon_prob": 0.18880128273711044,
+    "filler_rate": 0.4310131016347257,
+    "emoji_rate": 0.20769934497392148,
+    "stutter_rate": 0.1050405422243061,
+    "repeat_last_rate": 0.1411503971181043
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma and rejection from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user struggles with social anxiety, which makes it difficult for her to seek medical advice and support. She feels apprehensive about discussing her sexual health due to fears of judgment and rejection, leading to a sense of isolation regarding her health choices.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work for preventing HIV?\",\n    \"Can I access PrEP confidentially without feeling embarrassed?\",\n    \"What should I expect during the consultation for PrEP?\",\n    \"Are there any specific side effects I should be aware of before starting PrEP?\",\n    \"How can I find supportive healthcare providers who understand my situation?\",\n    \"What are the costs associated with PrEP and are there financial assistance programs available?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "35604f3985177f2ef37efcd6d4b03e0613a59b2b0385f4e2adb94d50789353b5",
+  "_starter_hash": "479d82d10361ec56244b2d066df697b98841bb71649208ced7c02733975a4cf6",
+  "_language": "English",
+  "_condition_hint": "struggling with social anxiety",
+  "_model": "gpt-4o-mini"
+}

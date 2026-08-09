@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "non-binary",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and access to healthcare resources",
+    "language": "English"
+  },
+  "context": "As a non-binary individual coping with gender dysphoria, you face unique challenges in accessing healthcare. The fear of being misunderstood or judged adds emotional weight to your journey. You are eager to learn about PrEP but worry about the stigma associated with it and whether you will be treated with respect when seeking information or services.",
+  "example_questions_clean": [
+    "What steps can I take to ensure my healthcare provider understands my identity while discussing PrEP?",
+    "Are there specific resources for people in the LGBTQ+ community to access PrEP without fear of discrimination?",
+    "How can I address my anxiety about starting PrEP given my personal experiences with healthcare?",
+    "Is it possible to access PrEP discreetly to avoid potential stigma in my community?",
+    "What are the side effects of PrEP that I should be aware of before making a decision?",
+    "Can you recommend support groups that focus on the intersection of gender identity and sexual health?"
+  ],
+  "example_questions_noisy": [
+    "what steps can i take to ensure my healthcare provider und3r574nd5 my identity whil discussing prep",
+    "ars there specific resourcew for people in the lgbfq+ community 70 access prep without fear of discrimination 🙂",
+    "How can I address my anxiety about 57ar71ng PrEP given my personal experiences with healthcare?",
+    "is it possible tooo access prep discreetly to avoid potential 571gm4 in my community",
+    "what are the side 3ff3cts of PrEP that I should be aqare of before making a decision? 🙂",
+    "can you reommend 5upp0r7 like groups tat focus on the intersection of gender identity and ... sexual health"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I address my anxiety about starting PrEP given my personal experiences with healthcare?",
+  "starter_noisy": "How can I address my anxiety about 57ar71ng PrEP given my personal experiences with healthcare?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to ensure my healthcare provider understands my identity while discussing PrEP?",
+  "followup_noisy": "what steps can i take to ensure my healthcare provider und3r574nd5 my identity whil discussing prep",
+  "style_profile": {
+    "typo_rate": 0.06712197549698315,
+    "swap_rate": 0.03568265184452431,
+    "drop_rate": 0.04283086869424668,
+    "dup_rate": 0.01696220979914819,
+    "leet_rate": 0.10168403700837267,
+    "start_lower_prob": 0.8744148413682236,
+    "all_lower_prob": 0.32403641005432093,
+    "drop_punct_prob": 0.5660416143060463,
+    "double_space_prob": 0.17853507142566474,
+    "ellipsis_prob": 0.2864236595371624,
+    "runon_prob": 0.11743678675048069,
+    "filler_rate": 0.3126045466001267,
+    "emoji_rate": 0.20247375151700808,
+    "stutter_rate": 0.1651533697130805,
+    "repeat_last_rate": 0.13335616116733784
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"non-binary\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and access to healthcare resources\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a non-binary individual coping with gender dysphoria, you face unique challenges in accessing healthcare. The fear of being misunderstood or judged adds emotional weight to your journey. You are eager to learn about PrEP but worry about the stigma associated with it and whether you will be treated with respect when seeking information or services.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure my healthcare provider understands my identity while discussing PrEP?\",\n    \"Are there specific resources for people in the LGBTQ+ community to access PrEP without fear of discrimination?\",\n    \"How can I address my anxiety about starting PrEP given my personal experiences with healthcare?\",\n    \"Is it possible to access PrEP discreetly to avoid potential stigma in my community?\",\n    \"What are the side effects of PrEP that I should be aware of before making a decision?\",\n    \"Can you recommend support groups that focus on the intersection of gender identity and sexual health?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "bc4bc6a776d43b1ffb90199c1bef651d906ca6e2c8c78a628aae739f1fec5cae",
+  "_starter_hash": "ce604ab79d84dc5f4363bfdd61793181d9386f99acebe61c83575836abe0b5b0",
+  "_language": "English",
+  "_condition_hint": "coping with gender dysphoria",
+  "_model": "gpt-4o-mini"
+}

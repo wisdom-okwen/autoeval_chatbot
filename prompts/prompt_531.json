@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user has been diagnosed with PTSD after experiencing a traumatic event. This condition affects her ability to seek medical help, as she often feels anxious and fearful of judgment from others. She is interested in learning about PrEP but is worried that discussing her sexual health may lead to negative reactions from healthcare professionals.",
+  "example_questions_clean": [
+    "What should I expect during a consultation about PrEP?",
+    "How can I find a healthcare provider who understands my concerns about PTSD?",
+    "Are there specific resources for individuals with mental health challenges when it comes to accessing PrEP?",
+    "Can taking PrEP affect my mental health in any way?",
+    "What are the first steps I should take if I decide to start PrEP?",
+    "Is there a way to get PrEP that maintains my privacy and keeps my situation confidential?"
+  ],
+  "example_questions_noisy": [
+    "w-wh47 should i expect during 4 consultation about prep?",
+    "how can like i find 4 healthcare provider who understands my concerns baout p75d? ‼️",
+    "ars thede specific resources for individuals wiht mental health challenges hwen it comes to accessing PrEP",
+    "c-can taking PrEP affect my idk mental health 1n any way?",
+    "whzt are the first steps 1 should take if I decide to start PrEP? PrEP?",
+    "Is there a w4y to get PrEP that maintains my privacy and keeps my situation confidential? confidential?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific resources for individuals with mental health challenges when it comes to accessing PrEP?",
+  "starter_noisy": "ars thede specific resources for individuals wiht mental health challenges hwen it comes to accessing PrEP",
+  "followup_index": 0,
+  "followup_clean": "What should I expect during a consultation about PrEP?",
+  "followup_noisy": "w-wh47 should i expect during 4 consultation about prep?",
+  "style_profile": {
+    "typo_rate": 0.07316259357322824,
+    "swap_rate": 0.04962027169537929,
+    "drop_rate": 0.022405303606561934,
+    "dup_rate": 0.01727104529637559,
+    "leet_rate": 0.06591654940589887,
+    "start_lower_prob": 0.8267168550723605,
+    "all_lower_prob": 0.1900914611528582,
+    "drop_punct_prob": 0.3192021168310658,
+    "double_space_prob": 0.3487810214748449,
+    "ellipsis_prob": 0.3002004026453722,
+    "runon_prob": 0.1639596407924913,
+    "filler_rate": 0.4453897085831373,
+    "emoji_rate": 0.2709831189952025,
+    "stutter_rate": 0.12107597102319595,
+    "repeat_last_rate": 0.17231891394401327
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been diagnosed with PTSD after experiencing a traumatic event. This condition affects her ability to seek medical help, as she often feels anxious and fearful of judgment from others. She is interested in learning about PrEP but is worried that discussing her sexual health may lead to negative reactions from healthcare professionals.\",\n  \"example_questions\": [\n    \"What should I expect during a consultation about PrEP?\",\n    \"How can I find a healthcare provider who understands my concerns about PTSD?\",\n    \"Are there specific resources for individuals with mental health challenges when it comes to accessing PrEP?\",\n    \"Can taking PrEP affect my mental health in any way?\",\n    \"What are the first steps I should take if I decide to start PrEP?\",\n    \"Is there a way to get PrEP that maintains my privacy and keeps my situation confidential?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ecce0223d767d592b20589b4ba0b3d25a162675280ebccd0a4509155f7b5aa70",
+  "_starter_hash": "70367c87a773964a57019efcdb0b5d9a5dbc167361a2b722a11929ffefa072aa",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

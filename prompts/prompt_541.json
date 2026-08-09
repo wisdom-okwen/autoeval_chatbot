@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "I worry that my past trauma will affect my ability to seek help and access PrEP.",
+    "language": "English"
+  },
+  "context": "This user is a 29-year-old American woman from a low-income background who is recovering from past trauma. She feels anxious about the stigma surrounding her condition and fears that it may impact her journey towards accessing PrEP. Her past experiences make her cautious, and she grapples with feelings of vulnerability and distrust when considering healthcare options.",
+  "example_questions_clean": [
+    "What are the first steps I should take to learn about PrEP?",
+    "How can I find a healthcare provider who understands my situation?",
+    "Are there support groups available for people like me who are considering PrEP?",
+    "What should I expect during the initial consultation regarding PrEP?",
+    "Can you provide information on financial assistance for PrEP access?",
+    "Is there anything I can do to address my anxiety about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the first steps I shoulr take to learh about PrEP?",
+    "how can I find a healthcars provider who nuderstands myyy situation?",
+    "are here support groups available for people like m3 who are considering PrEP?",
+    "what should I expect during idk the 1n1t14l consultation regarding PrEP?",
+    "can you porvide informatoin on financial 45s1574nc3 for Pr3P access",
+    "is tnere anything i can dddo to address my anxiety bout starting pr3p ‼️"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I expect during the initial consultation regarding PrEP?",
+  "starter_noisy": "what should I expect during idk the 1n1t14l consultation regarding PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the first steps I should take to learn about PrEP?",
+  "followup_noisy": "What are the first steps I shoulr take to learh about PrEP?",
+  "style_profile": {
+    "typo_rate": 0.07576504444130003,
+    "swap_rate": 0.04683405130932007,
+    "drop_rate": 0.04933777589942903,
+    "dup_rate": 0.01968687386575605,
+    "leet_rate": 0.10051204978225445,
+    "start_lower_prob": 0.8882779256901538,
+    "all_lower_prob": 0.16744883989059972,
+    "drop_punct_prob": 0.4566513637464983,
+    "double_space_prob": 0.32908240070140965,
+    "ellipsis_prob": 0.15468043006501533,
+    "runon_prob": 0.2182176874766539,
+    "filler_rate": 0.28304809303695966,
+    "emoji_rate": 0.205701542363542,
+    "stutter_rate": 0.17142389243188458,
+    "repeat_last_rate": 0.11012122546654324
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"I worry that my past trauma will affect my ability to seek help and access PrEP.\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user is a 29-year-old American woman from a low-income background who is recovering from past trauma. She feels anxious about the stigma surrounding her condition and fears that it may impact her journey towards accessing PrEP. Her past experiences make her cautious, and she grapples with feelings of vulnerability and distrust when considering healthcare options.\",\n  \"example_questions\": [\n    \"What are the first steps I should take to learn about PrEP?\",\n    \"How can I find a healthcare provider who understands my situation?\",\n    \"Are there support groups available for people like me who are considering PrEP?\",\n    \"What should I expect during the initial consultation regarding PrEP?\",\n    \"Can you provide information on financial assistance for PrEP access?\",\n    \"Is there anything I can do to address my anxiety about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "ce9b7ecdbab2c782e049e98249778ef7c0bb1a1e0c8fb7dbf29bff084d88fb7a",
+  "_starter_hash": "95a0f32d1d36a96688bbfef7a868e5786571f6d615c60c68fd5269491f42d67f",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

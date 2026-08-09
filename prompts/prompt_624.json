@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma from family and community",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old Brazilian woman living in a low-income neighborhood. She has been struggling with self-esteem issues which make her feel vulnerable about seeking help regarding her sexual health. Her fear of stigma from family and community creates a significant barrier to accessing PrEP. Despite the hope it brings for protection, she worries about what others might think of her decision to use it.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are some strategies to address the stigma associated with using PrEP?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Are there any resources available for individuals struggling with self-esteem while considering PrEP?",
+    "How can I talk to my family about my decision to use PrEP without facing backlash?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and who should consider taking it?",
+    "What are some strategies to address the stigma associated with using PrEP?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Are there any resources available for individuals struggling with self-esteem while considering PrEP?",
+    "How can I talk to my family about my decision to use PrEP without facing backlash?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Are there any resources available for individuals struggling with self-esteem while considering PrEP?",
+  "starter_noisy": "Are there any resources available for individuals struggling with self-esteem while considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and who should consider taking it?",
+  "followup_noisy": "Can you explain how PrEP works and who should consider taking it?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma from family and community\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old Brazilian woman living in a low-income neighborhood. She has been struggling with self-esteem issues which make her feel vulnerable about seeking help regarding her sexual health. Her fear of stigma from family and community creates a significant barrier to accessing PrEP. Despite the hope it brings for protection, she worries about what others might think of her decision to use it.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and who should consider taking it?\",\n    \"What are some strategies to address the stigma associated with using PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Are there any resources available for individuals struggling with self-esteem while considering PrEP?\",\n    \"How can I talk to my family about my decision to use PrEP without facing backlash?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e4fbd76c7b4cdc44bbafe9931f3d365cf122525880015360827d882d39dc4510",
+  "_starter_hash": "dffcb7e89e686b880b98f642586e514353599e8f8ae504b8e6922573fe73b40f",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

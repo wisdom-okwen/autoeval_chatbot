@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "worrying about the stigma associated with my past substance use",
+    "language": "English"
+  },
+  "context": "You are a 32-year-old woman from the United States who has a history of substance use. This experience has left you feeling apprehensive about seeking medical advice, especially regarding PrEP. You fear judgment and are unsure how your past might impact healthcare providers' perceptions. Despite your desire to protect yourself and others, the stigma surrounding both substance use and HIV prevention creates emotional barriers that make it difficult to approach the topic openly.",
+  "example_questions_clean": [
+    "How can I talk to my doctor about PrEP without feeling judged for my past substance use?",
+    "What steps can I take to ensure that I receive compassionate care when inquiring about PrEP?",
+    "Are there specific resources available for individuals like me who have faced challenges related to substance use?",
+    "Can you help me understand what the process of getting prescribed PrEP looks like for someone with my background?",
+    "What should I know about potential side effects of PrEP and how they might affect my overall health?",
+    "Is there a way to find support groups for people considering PrEP who have similar experiences?"
+  ],
+  "example_questions_noisy": [
+    "how can I talk to my doftor about PrEP without feelig judg3d f0r my past substance use 😕 😕",
+    "what steps cab I take to ensure you know that I receiiive compassiiionate care when inquiring about Pr3P? ❓ ❓",
+    "a-are there specific resources available for individuals like me who have faced challenges elated to substance use?",
+    "can you h3lp m3 und3r574nd what the porcess of getting [rescribed PrEP looks like for someone with my background",
+    "w-what should i know like abou potential 51d3 effects of prep and .. h0w yhey might affect my ovetlal health 🫠",
+    "is there a way to find supporf groups for people considerng PrEP who have similar experienes"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there a way to find support groups for people considering PrEP who have similar experiences?",
+  "starter_noisy": "is there a way to find supporf groups for people considerng PrEP who have similar experienes",
+  "followup_index": 0,
+  "followup_clean": "How can I talk to my doctor about PrEP without feeling judged for my past substance use?",
+  "followup_noisy": "how can I talk to my doftor about PrEP without feelig judg3d f0r my past substance use 😕 😕",
+  "style_profile": {
+    "typo_rate": 0.09593304638546926,
+    "swap_rate": 0.05395334779404358,
+    "drop_rate": 0.034663162713402015,
+    "dup_rate": 0.024954940335602138,
+    "leet_rate": 0.051649676883847494,
+    "start_lower_prob": 0.8787510180412635,
+    "all_lower_prob": 0.16944428817684598,
+    "drop_punct_prob": 0.45336846826828403,
+    "double_space_prob": 0.2574103938461184,
+    "ellipsis_prob": 0.29881029116371083,
+    "runon_prob": 0.17130015037119342,
+    "filler_rate": 0.48269310526571985,
+    "emoji_rate": 0.26997878986451423,
+    "stutter_rate": 0.10961664419380546,
+    "repeat_last_rate": 0.12978651800916716
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"worrying about the stigma associated with my past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 32-year-old woman from the United States who has a history of substance use. This experience has left you feeling apprehensive about seeking medical advice, especially regarding PrEP. You fear judgment and are unsure how your past might impact healthcare providers' perceptions. Despite your desire to protect yourself and others, the stigma surrounding both substance use and HIV prevention creates emotional barriers that make it difficult to approach the topic openly.\",\n  \"example_questions\": [\n    \"How can I talk to my doctor about PrEP without feeling judged for my past substance use?\",\n    \"What steps can I take to ensure that I receive compassionate care when inquiring about PrEP?\",\n    \"Are there specific resources available for individuals like me who have faced challenges related to substance use?\",\n    \"Can you help me understand what the process of getting prescribed PrEP looks like for someone with my background?\",\n    \"What should I know about potential side effects of PrEP and how they might affect my overall health?\",\n    \"Is there a way to find support groups for people considering PrEP who have similar experiences?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "237fc452160164aec71219776ffd40bd1815765e7d11766be53a9b438ec64823",
+  "_starter_hash": "fcdcc19e8b29f61ca000497a391e9fd2495ee4271c8f6e0bd0296c8ed4b7909b",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

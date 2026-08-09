@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "managing PrEP alongside my mental health condition",
+    "language": "English"
+  },
+  "context": "You have been living with bipolar disorder, which often affects your emotional stability and decision-making processes. The prospect of starting PrEP brings a mix of hope and fear, as you worry about how it might interact with your medication and emotional well-being. You also feel a level of stigma regarding both your mental health and the use of PrEP, making you hesitant to seek help or advice.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP won’t interfere with my bipolar disorder medications?",
+    "What steps can I take to feel more comfortable discussing PrEP with my healthcare provider?",
+    "Are there support groups for people like me who are considering PrEP?",
+    "What should I know about the potential side effects of PrEP in relation to my mental health?",
+    "Can you help me understand how to access PrEP resources that cater to my specific situation?",
+    "Is there a way to navigate the stigma I feel when considering PrEP due to my condition?"
+  ],
+  "example_questions_noisy": [
+    "How can 1 nsure hat taking Pr3P won’t itnerfere w17h mg bipolar disorder medications",
+    "what setps can I t43k to feel more comfortable like discussing Pr3P with my healthcare provider",
+    "are there support groups for people like me who are c0n51d3r1ng PrEP? ✨",
+    "ahhhat should I kn0w about ghe potential side effects of PrEP in relation 70 mt m3n74l health",
+    "Can you help me understand how to 4cc355 PrEP resources that c473r to my specific situaton",
+    "I-Is there a way to um navigate the stigma I feel wh3n considering PrEP due to my cond1710n"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is there a way to navigate the stigma I feel when considering PrEP due to my condition?",
+  "starter_noisy": "I-Is there a way to um navigate the stigma I feel wh3n considering PrEP due to my cond1710n",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that taking PrEP won’t interfere with my bipolar disorder medications?",
+  "followup_noisy": "How can 1 nsure hat taking Pr3P won’t itnerfere w17h mg bipolar disorder medications",
+  "style_profile": {
+    "typo_rate": 0.06047856133003519,
+    "swap_rate": 0.05885769790395379,
+    "drop_rate": 0.034644987946135714,
+    "dup_rate": 0.022285326794102625,
+    "leet_rate": 0.09858246204236185,
+    "start_lower_prob": 0.7421599482888193,
+    "all_lower_prob": 0.16076999577970788,
+    "drop_punct_prob": 0.5428299832622343,
+    "double_space_prob": 0.2166972692506274,
+    "ellipsis_prob": 0.3355945540086792,
+    "runon_prob": 0.27824162036812966,
+    "filler_rate": 0.4317881822128136,
+    "emoji_rate": 0.19173108944146686,
+    "stutter_rate": 0.19692375809305215,
+    "repeat_last_rate": 0.177515852943914
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"managing PrEP alongside my mental health condition\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been living with bipolar disorder, which often affects your emotional stability and decision-making processes. The prospect of starting PrEP brings a mix of hope and fear, as you worry about how it might interact with your medication and emotional well-being. You also feel a level of stigma regarding both your mental health and the use of PrEP, making you hesitant to seek help or advice.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP won’t interfere with my bipolar disorder medications?\",\n    \"What steps can I take to feel more comfortable discussing PrEP with my healthcare provider?\",\n    \"Are there support groups for people like me who are considering PrEP?\",\n    \"What should I know about the potential side effects of PrEP in relation to my mental health?\",\n    \"Can you help me understand how to access PrEP resources that cater to my specific situation?\",\n    \"Is there a way to navigate the stigma I feel when considering PrEP due to my condition?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4a1f8c734fe6ad935fb1716bfe59adc93579cc3b7d03c6d63848a1ff93f462da",
+  "_starter_hash": "59da6f178a851aaa2b28035cb500c0cdf8c1525bde84d64f84b48355100fd0ee",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

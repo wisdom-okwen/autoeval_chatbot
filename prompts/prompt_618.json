@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding the process and potential side effects of PrEP",
+    "language": "English"
+  },
+  "context": "You have a learning disability that makes it challenging to process complex medical information. This affects your confidence when seeking out healthcare resources, and you often feel overwhelmed by the amount of information available about PrEP. You worry about how this might impact your ability to take control of your health and prevent HIV.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is and how it works in simple terms?",
+    "What should I consider before starting PrEP, especially regarding its side effects?",
+    "How do I find a doctor who can help me with PrEP if I feel anxious about talking to them?",
+    "Are there support groups or resources for people like me who are learning about PrEP?",
+    "What happens if I miss a dose of PrEP, and how will it affect my protection against HIV?",
+    "Is there a way to make getting PrEP less stressful for someone who finds medical information confusing?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain what PrEP is and how it works in simple terms?",
+    "What should I consider before starting PrEP, especially regarding its side effects?",
+    "How do I find a doctor who can help me with PrEP if I feel anxious about talking to them?",
+    "Are there support groups or resources for people like me who are learning about PrEP?",
+    "What happens if I miss a dose of PrEP, and how will it affect my protection against HIV?",
+    "Is there a way to make getting PrEP less stressful for someone who finds medical information confusing?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What happens if I miss a dose of PrEP, and how will it affect my protection against HIV?",
+  "starter_noisy": "What happens if I miss a dose of PrEP, and how will it affect my protection against HIV?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is and how it works in simple terms?",
+  "followup_noisy": "Can you explain what PrEP is and how it works in simple terms?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding the process and potential side effects of PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a learning disability that makes it challenging to process complex medical information. This affects your confidence when seeking out healthcare resources, and you often feel overwhelmed by the amount of information available about PrEP. You worry about how this might impact your ability to take control of your health and prevent HIV.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is and how it works in simple terms?\",\n    \"What should I consider before starting PrEP, especially regarding its side effects?\",\n    \"How do I find a doctor who can help me with PrEP if I feel anxious about talking to them?\",\n    \"Are there support groups or resources for people like me who are learning about PrEP?\",\n    \"What happens if I miss a dose of PrEP, and how will it affect my protection against HIV?\",\n    \"Is there a way to make getting PrEP less stressful for someone who finds medical information confusing?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "94986d143ce3f978f06879c64beb3e4ab2d12da3969eb77393ff1aaac234f18d",
+  "_starter_hash": "326a5f60665000b2f1b0b9822e0fe9c28978ae96d1831644de2f5a12c232948f",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

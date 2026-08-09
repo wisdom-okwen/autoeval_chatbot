@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "worrying about potential side effects while recovering from treatment",
+    "language": "English"
+  },
+  "context": "After completing cancer treatment, you are feeling hopeful but anxious about starting PrEP. The emotional toll of your recent health struggles makes you concerned about the additional medications you might need. You are aware that PrEP can help reduce the risk of HIV, but you are also worried about how it may impact your recovery and overall health.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP, especially for someone recovering from a serious illness?",
+    "How can I discuss my concerns about PrEP with my healthcare provider in a way that feels safe?",
+    "Are there support groups for individuals like me who are considering PrEP after serious health challenges?",
+    "What should I know about the process of accessing PrEP as someone who has recently undergone cancer treatment?",
+    "Is it possible to take PrEP alongside other medications I am currently prescribed?",
+    "How can I manage my anxiety about starting a new medication while focusing on my recovery?"
+  ],
+  "example_questions_noisy": [
+    "what are ths comon side efects 0f Pr3P especially for someone recovering from a um serious illness",
+    "how can i discuss my concerns aout prep with my healghcare provider in a like way that feels safe",
+    "4r3 there support groyps for individuals like me who are considering PrEP after serious health challenges? ❓",
+    "ahta should I know about the process of you know 4cce551ng PrEP as someone who has recently undergone cancer 7retm3n7",
+    "id it possible to idk take PrEP alongside other medications I am currently prescribed?",
+    "how can I like manage my anxiety about starting a new medication hwile f0cu51ng on my recovery"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support groups for individuals like me who are considering PrEP after serious health challenges?",
+  "starter_noisy": "4r3 there support groyps for individuals like me who are considering PrEP after serious health challenges? ❓",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP, especially for someone recovering from a serious illness?",
+  "followup_noisy": "what are ths comon side efects 0f Pr3P especially for someone recovering from a um serious illness",
+  "style_profile": {
+    "typo_rate": 0.06996743433616087,
+    "swap_rate": 0.03323748852467833,
+    "drop_rate": 0.04045822619362412,
+    "dup_rate": 0.021043375844304955,
+    "leet_rate": 0.06930559925410393,
+    "start_lower_prob": 0.7635356182599906,
+    "all_lower_prob": 0.2691979451997147,
+    "drop_punct_prob": 0.47126496995273215,
+    "double_space_prob": 0.153331162320036,
+    "ellipsis_prob": 0.300327839027393,
+    "runon_prob": 0.17643776614677856,
+    "filler_rate": 0.41217709872602315,
+    "emoji_rate": 0.27694752104054343,
+    "stutter_rate": 0.19433569639365658,
+    "repeat_last_rate": 0.10747321713319609
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"worrying about potential side effects while recovering from treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"After completing cancer treatment, you are feeling hopeful but anxious about starting PrEP. The emotional toll of your recent health struggles makes you concerned about the additional medications you might need. You are aware that PrEP can help reduce the risk of HIV, but you are also worried about how it may impact your recovery and overall health.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP, especially for someone recovering from a serious illness?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider in a way that feels safe?\",\n    \"Are there support groups for individuals like me who are considering PrEP after serious health challenges?\",\n    \"What should I know about the process of accessing PrEP as someone who has recently undergone cancer treatment?\",\n    \"Is it possible to take PrEP alongside other medications I am currently prescribed?\",\n    \"How can I manage my anxiety about starting a new medication while focusing on my recovery?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "23cdafca849a634bbae698ce3ccb8333135472b1ed032eda54eea9efbdc3221b",
+  "_starter_hash": "fcb028648143d2db5086f74381ce9b5122fb540738e6d31be657b0d5e66f947f",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "how PrEP may interact with my medication for multiple sclerosis",
+    "language": "English"
+  },
+  "context": "The user is living with multiple sclerosis, which has made her cautious about new medications. She feels hopeful but also apprehensive about the potential interactions between PrEP and her existing treatments. This concern weighs heavily on her mind, as she desires to protect herself from HIV but worries about the overall impact on her health and well-being.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and if it has any side effects that could affect my condition?",
+    "What should I consider when discussing PrEP with my healthcare provider given my current medications?",
+    "Is there any research on the safety of taking PrEP alongside treatments for multiple sclerosis?",
+    "How can I ensure that I have access to PrEP without facing stigma or discrimination?",
+    "What support resources are available for someone in my situation who wants to start PrEP?",
+    "Are there specific clinics that specialize in providing PrEP for people with chronic conditions?"
+  ],
+  "example_questions_noisy": [
+    "can you explain how Pr3P works anf if it has any 5id3 effects that could affect my condition",
+    "W-What shluld I consider when dissscussing PrEP with my healthcare provider given my current medications? medications?",
+    "Is i mean there any ressseadch on rhe safety of taking PrEP aolngside treatments for multiple sclerosiiis",
+    "how idk can j ensure that I have access to PrEP without facing stgma or discrimination? 🙄",
+    "what support resources are available for someone in my situation who wants to strat PrP?",
+    "are there specific clinics that specialize in providing Pr3P for people with chronic conditions? conditions?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Are there specific clinics that specialize in providing PrEP for people with chronic conditions?",
+  "starter_noisy": "are there specific clinics that specialize in providing Pr3P for people with chronic conditions? conditions?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and if it has any side effects that could affect my condition?",
+  "followup_noisy": "can you explain how Pr3P works anf if it has any 5id3 effects that could affect my condition",
+  "style_profile": {
+    "typo_rate": 0.10019309848394975,
+    "swap_rate": 0.043031120410747734,
+    "drop_rate": 0.03996747215077584,
+    "dup_rate": 0.020495760936706724,
+    "leet_rate": 0.056458298271487815,
+    "start_lower_prob": 0.6623066523312415,
+    "all_lower_prob": 0.19709251199851016,
+    "drop_punct_prob": 0.5035172038235826,
+    "double_space_prob": 0.23012571661560588,
+    "ellipsis_prob": 0.34645361610898884,
+    "runon_prob": 0.17465422535813305,
+    "filler_rate": 0.35728061186680565,
+    "emoji_rate": 0.1881668514779768,
+    "stutter_rate": 0.18615893904633285,
+    "repeat_last_rate": 0.1295232737018674
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"how PrEP may interact with my medication for multiple sclerosis\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is living with multiple sclerosis, which has made her cautious about new medications. She feels hopeful but also apprehensive about the potential interactions between PrEP and her existing treatments. This concern weighs heavily on her mind, as she desires to protect herself from HIV but worries about the overall impact on her health and well-being.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and if it has any side effects that could affect my condition?\",\n    \"What should I consider when discussing PrEP with my healthcare provider given my current medications?\",\n    \"Is there any research on the safety of taking PrEP alongside treatments for multiple sclerosis?\",\n    \"How can I ensure that I have access to PrEP without facing stigma or discrimination?\",\n    \"What support resources are available for someone in my situation who wants to start PrEP?\",\n    \"Are there specific clinics that specialize in providing PrEP for people with chronic conditions?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "0b7f541e2d85eff5e623bc625c810c26f3eedb4d99b4fad0118ca700be2fc6da",
+  "_starter_hash": "d5cc4ca357a2f6bffa20547cbe879d6f9ffe26da1ebf468f44bc2c6be5afe5af",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}

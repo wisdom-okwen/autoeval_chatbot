@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "affordability of PrEP with limited healthcare access",
+    "language": "English"
+  },
+  "context": "As a woman living with chronic pain, I often find it difficult to manage my health concerns while also worrying about the financial burden of medications like PrEP. The stigma around discussing sexual health adds to my anxiety, and I fear that my pain condition may limit my options for care.",
+  "example_questions_clean": [
+    "What are the costs associated with PrEP for someone in my financial situation?",
+    "How can I find a healthcare provider who understands the challenges of living with chronic pain when discussing PrEP?",
+    "Are there programs available to help people afford PrEP, especially for those with chronic conditions?",
+    "What should I know about the potential side effects of PrEP in relation to my pain management?",
+    "How can I approach discussions about PrEP with my healthcare provider without feeling judged?",
+    "Is it common for people with chronic illnesses to take PrEP, and what have their experiences been?"
+  ],
+  "example_questions_noisy": [
+    "What are the costs associated with PrEP for someone in my financial situation?",
+    "How can I find a healthcare provider who understands the challenges of living with chronic pain when discussing PrEP?",
+    "Are there programs available to help people afford PrEP, especially for those with chronic conditions?",
+    "What should I know about the potential side effects of PrEP in relation to my pain management?",
+    "How can I approach discussions about PrEP with my healthcare provider without feeling judged?",
+    "Is it common for people with chronic illnesses to take PrEP, and what have their experiences been?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find a healthcare provider who understands the challenges of living with chronic pain when discussing PrEP?",
+  "starter_noisy": "How can I find a healthcare provider who understands the challenges of living with chronic pain when discussing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the costs associated with PrEP for someone in my financial situation?",
+  "followup_noisy": "What are the costs associated with PrEP for someone in my financial situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"affordability of PrEP with limited healthcare access\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with chronic pain, I often find it difficult to manage my health concerns while also worrying about the financial burden of medications like PrEP. The stigma around discussing sexual health adds to my anxiety, and I fear that my pain condition may limit my options for care.\",\n  \"example_questions\": [\n    \"What are the costs associated with PrEP for someone in my financial situation?\",\n    \"How can I find a healthcare provider who understands the challenges of living with chronic pain when discussing PrEP?\",\n    \"Are there programs available to help people afford PrEP, especially for those with chronic conditions?\",\n    \"What should I know about the potential side effects of PrEP in relation to my pain management?\",\n    \"How can I approach discussions about PrEP with my healthcare provider without feeling judged?\",\n    \"Is it common for people with chronic illnesses to take PrEP, and what have their experiences been?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6ada31649f56ea8a4d65f67e76236356be1d2bd0f110db7f326562e197de2436",
+  "_starter_hash": "4b2e6389dcd180f98feb40a64397713a4786186c5d20500fd623933c4641f89e",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "potential interactions with medications post-cancer treatment",
+    "language": "English"
+  },
+  "context": "The user is recovering from cancer treatment and is feeling uncertain about their health and the safety of starting PrEP. They are worried about how PrEP might affect their recovery and whether it could interfere with other medications they are taking. The emotional weight of their recent experience with cancer makes them hesitant but hopeful about protecting their health moving forward.",
+  "example_questions_clean": [
+    "What should I consider regarding PrEP and my current medications after cancer treatment?",
+    "How can I discuss my concerns about starting PrEP with my healthcare provider?",
+    "Are there specific health checks I need to undergo before beginning PrEP?",
+    "Can someone in my situation safely take PrEP without risking their recovery?",
+    "What resources are available to help me understand PrEP better?",
+    "How does PrEP impact overall health, especially for someone in recovery?"
+  ],
+  "example_questions_noisy": [
+    "w-what should o consider regarding PrEP and ... my current medications after cancer treatment",
+    "how can I uh dicsuss my concerns about 5tart1ng PrEP with my healthcare provider? 😬",
+    "are there 5p3c1f1c health checks I need to undergo before beginning PrEP?",
+    "can somene in my situation safely take PrPE without risking their recovery recovery",
+    "w-wh4t resources are available to help me nderstand prep better",
+    "how does prep impact overall health especailly for sokeone jn revovery revovery"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources are available to help me understand PrEP better?",
+  "starter_noisy": "w-wh4t resources are available to help me nderstand prep better",
+  "followup_index": 0,
+  "followup_clean": "What should I consider regarding PrEP and my current medications after cancer treatment?",
+  "followup_noisy": "w-what should o consider regarding PrEP and ... my current medications after cancer treatment",
+  "style_profile": {
+    "typo_rate": 0.10018790925703942,
+    "swap_rate": 0.042641804515198334,
+    "drop_rate": 0.043692584431530915,
+    "dup_rate": 0.012979626637204159,
+    "leet_rate": 0.06859004046617198,
+    "start_lower_prob": 0.8633191260256217,
+    "all_lower_prob": 0.3449198952963362,
+    "drop_punct_prob": 0.5540874912870942,
+    "double_space_prob": 0.2003031086423641,
+    "ellipsis_prob": 0.19142985447531558,
+    "runon_prob": 0.19003249862637256,
+    "filler_rate": 0.3826978605526469,
+    "emoji_rate": 0.21440976609168033,
+    "stutter_rate": 0.17176194247857596,
+    "repeat_last_rate": 0.13375653717683975
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"potential interactions with medications post-cancer treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is recovering from cancer treatment and is feeling uncertain about their health and the safety of starting PrEP. They are worried about how PrEP might affect their recovery and whether it could interfere with other medications they are taking. The emotional weight of their recent experience with cancer makes them hesitant but hopeful about protecting their health moving forward.\",\n  \"example_questions\": [\n    \"What should I consider regarding PrEP and my current medications after cancer treatment?\",\n    \"How can I discuss my concerns about starting PrEP with my healthcare provider?\",\n    \"Are there specific health checks I need to undergo before beginning PrEP?\",\n    \"Can someone in my situation safely take PrEP without risking their recovery?\",\n    \"What resources are available to help me understand PrEP better?\",\n    \"How does PrEP impact overall health, especially for someone in recovery?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1858fea1623647bbf0ae32d24f779b7afcc00ebb834a4e04582cddb7388cd24a",
+  "_starter_hash": "e626351c2a378c1bd004a3ff5257dc70250927e728639ec0cfd9850a746e717f",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

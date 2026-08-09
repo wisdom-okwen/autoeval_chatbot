@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of how PrEP might interact with my mental health treatment",
+    "language": "English"
+  },
+  "context": "The user is a 28-year-old woman living with schizophrenia. She has been managing her condition with medication but is anxious about starting PrEP due to concerns about potential interactions with her mental health treatment and the stigma around her condition. This fear creates barriers to accessing important health information.",
+  "example_questions_clean": [
+    "What are the possible side effects of PrEP for someone with a mental health condition?",
+    "Can I take PrEP while on medication for schizophrenia, or should I consult my doctor first?",
+    "Are there support services available for people like me who want to start PrEP?",
+    "How can I address my fears about taking PrEP in relation to my mental health?",
+    "What do I need to know about discussing PrEP with my healthcare provider given my situation?"
+  ],
+  "example_questions_noisy": [
+    "What are the possible side effects of PrEP for someone with a mental health condition?",
+    "Can I take PrEP while on medication for schizophrenia, or should I consult my doctor first?",
+    "Are there support services available for people like me who want to start PrEP?",
+    "How can I address my fears about taking PrEP in relation to my mental health?",
+    "What do I need to know about discussing PrEP with my healthcare provider given my situation?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the possible side effects of PrEP for someone with a mental health condition?",
+  "starter_noisy": "What are the possible side effects of PrEP for someone with a mental health condition?",
+  "followup_index": 1,
+  "followup_clean": "Can I take PrEP while on medication for schizophrenia, or should I consult my doctor first?",
+  "followup_noisy": "Can I take PrEP while on medication for schizophrenia, or should I consult my doctor first?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of how PrEP might interact with my mental health treatment\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 28-year-old woman living with schizophrenia. She has been managing her condition with medication but is anxious about starting PrEP due to concerns about potential interactions with her mental health treatment and the stigma around her condition. This fear creates barriers to accessing important health information.\",\n  \"example_questions\": [\n    \"What are the possible side effects of PrEP for someone with a mental health condition?\",\n    \"Can I take PrEP while on medication for schizophrenia, or should I consult my doctor first?\",\n    \"Are there support services available for people like me who want to start PrEP?\",\n    \"How can I address my fears about taking PrEP in relation to my mental health?\",\n    \"What do I need to know about discussing PrEP with my healthcare provider given my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "781405b9a892b815c823bd8dbdbf36a0232b35dd93b1cd265d9a8f0acc5e8729",
+  "_starter_hash": "c1d78a9f7dea7cbad13b43c2241f0904b96e2d81dc5bf94d689690a2e0ef5f1c",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

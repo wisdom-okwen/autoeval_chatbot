@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "worried about how my mental health might affect my ability to consistently take PrEP",
+    "language": "English"
+  },
+  "context": "You are a 28-year-old woman living with schizophrenia. Your condition sometimes makes it challenging to manage daily routines and medications. You fear that your mental health may interfere with your adherence to PrEP, which you believe is essential for your safety and well-being. The stigma around both PrEP and mental health adds to your anxiety about accessing this preventive measure.",
+  "example_questions_clean": [
+    "How can I ensure that I take PrEP consistently given my mental health challenges?",
+    "Are there any support services available specifically for individuals with mental health conditions who want to start PrEP?",
+    "What should I do if I experience side effects from PrEP while managing my schizophrenia?",
+    "Can my healthcare provider help me create a plan that fits my unique situation with schizophrenia?",
+    "How does the stigma surrounding PrEP and mental health affect access to necessary medications?",
+    "Are there resources for people like me who want to learn more about the relationship between mental health and PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can I ensure that I ake Pr3P consistently given my mental health challengse? challengse?",
+    "are there sny support 53rv1c35 available specifically for individuals with mental uh health conditions whooo want to start prep 😭",
+    "what should I do if I experience side effects from PrEP while managing my schizophrenia ‼️",
+    "can um my healthcare pr0v1der help me create a plan that fits my unique situation w1th schizophrenia",
+    "h-how does the stigma 5urround1ng uh Pr3P 4nd mental health affect access to necessary medications? 😭",
+    "Are there reosurces for people like me who want to learn mmmore about 7he relationship bewteen mental health and PrEP? 🙂"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there any support services available specifically for individuals with mental health conditions who want to start PrEP?",
+  "starter_noisy": "are there sny support 53rv1c35 available specifically for individuals with mental uh health conditions whooo want to start prep 😭",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that I take PrEP consistently given my mental health challenges?",
+  "followup_noisy": "how can I ensure that I ake Pr3P consistently given my mental health challengse? challengse?",
+  "style_profile": {
+    "typo_rate": 0.05737341493207049,
+    "swap_rate": 0.05059049496732776,
+    "drop_rate": 0.03722314643075199,
+    "dup_rate": 0.02787377076565397,
+    "leet_rate": 0.10468859775401956,
+    "start_lower_prob": 0.6320734797149437,
+    "all_lower_prob": 0.21855136196775754,
+    "drop_punct_prob": 0.49575338508231837,
+    "double_space_prob": 0.228944762869287,
+    "ellipsis_prob": 0.22887842177821352,
+    "runon_prob": 0.25303006655045074,
+    "filler_rate": 0.45957933816897273,
+    "emoji_rate": 0.30889919540285027,
+    "stutter_rate": 0.14275392366927375,
+    "repeat_last_rate": 0.09424250392320445
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"worried about how my mental health might affect my ability to consistently take PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 28-year-old woman living with schizophrenia. Your condition sometimes makes it challenging to manage daily routines and medications. You fear that your mental health may interfere with your adherence to PrEP, which you believe is essential for your safety and well-being. The stigma around both PrEP and mental health adds to your anxiety about accessing this preventive measure.\",\n  \"example_questions\": [\n    \"How can I ensure that I take PrEP consistently given my mental health challenges?\",\n    \"Are there any support services available specifically for individuals with mental health conditions who want to start PrEP?\",\n    \"What should I do if I experience side effects from PrEP while managing my schizophrenia?\",\n    \"Can my healthcare provider help me create a plan that fits my unique situation with schizophrenia?\",\n    \"How does the stigma surrounding PrEP and mental health affect access to necessary medications?\",\n    \"Are there resources for people like me who want to learn more about the relationship between mental health and PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a23027bf52d713d0188108d5451f8b4edb721e13333dceb47446374f0dc07ae4",
+  "_starter_hash": "7bb4bc7402f978903b6ed02bb71d279e7ccbbac08ed60cd87e6031e7b2234a42",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

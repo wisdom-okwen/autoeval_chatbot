@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old woman from a low-income background, recovering from past trauma related to a health condition. She feels anxious about discussing her health needs, especially PrEP, due to fear of being judged by healthcare professionals. This fear makes her hesitant to seek information and support regarding her sexual health, even though she wants to protect herself and feel empowered in her choices.",
+  "example_questions_clean": [
+    "What are the steps I need to take to start PrEP safely?",
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "What should I know about the potential side effects of PrEP?",
+    "Are there any support groups for people like me who are considering PrEP?",
+    "How often do I need to get tested while on PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps j need to um tale to start PrEEEP safely",
+    "how can I find a healthcare provider who undwrstands my concerns about stigma",
+    "wbat should like I know 4bou7 the potwntial side effects of PrEP PrEP",
+    "are there any 5upp0r7 groups for peoplr like me who are considering [rEP? 😬 😬",
+    "how often do I need to get tested while on PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "How often do I need to get tested while on PrEP?",
+  "starter_noisy": "how often do I need to get tested while on PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I need to take to start PrEP safely?",
+  "followup_noisy": "what are the steps j need to um tale to start PrEEEP safely",
+  "style_profile": {
+    "typo_rate": 0.10676148852178755,
+    "swap_rate": 0.025693522393188728,
+    "drop_rate": 0.049238271996533474,
+    "dup_rate": 0.01968429012755068,
+    "leet_rate": 0.09022285740058433,
+    "start_lower_prob": 0.8976007059315919,
+    "all_lower_prob": 0.24111760959293738,
+    "drop_punct_prob": 0.493539611921672,
+    "double_space_prob": 0.29927217720407173,
+    "ellipsis_prob": 0.25169200770972294,
+    "runon_prob": 0.23602222585713248,
+    "filler_rate": 0.3986148449461018,
+    "emoji_rate": 0.22594337416191412,
+    "stutter_rate": 0.10209265114663924,
+    "repeat_last_rate": 0.15872918491624616
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old woman from a low-income background, recovering from past trauma related to a health condition. She feels anxious about discussing her health needs, especially PrEP, due to fear of being judged by healthcare professionals. This fear makes her hesitant to seek information and support regarding her sexual health, even though she wants to protect herself and feel empowered in her choices.\",\n  \"example_questions\": [\n    \"What are the steps I need to take to start PrEP safely?\",\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"What should I know about the potential side effects of PrEP?\",\n    \"Are there any support groups for people like me who are considering PrEP?\",\n    \"How often do I need to get tested while on PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "91e3a55018438c47b8de50097e822cdc34bdf2c8cf06b6cb6ee701ced568705f",
+  "_starter_hash": "02820625da54c7c8e41c6e45fdab7ffd153a91475db2050a241c3d552bf96f35",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

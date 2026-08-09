@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user is a young woman recovering from trauma related to past relationships. She is feeling anxious about discussing her sexual health and the possibility of starting PrEP due to her experiences with judgment and stigma. This fear creates a barrier to accessing necessary healthcare and obtaining information about preventive measures.",
+  "example_questions_clean": [
+    "What should I expect when I talk to a doctor about PrEP for the first time?",
+    "Are there specific resources for people recovering from trauma who want to start PrEP?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Is there any financial assistance available for someone in my situation to access PrEP?",
+    "How can I cope with feelings of anxiety when discussing my sexual health needs?"
+  ],
+  "example_questions_noisy": [
+    "what hsould i expect when i talk to a doctor about pre[ for the first time",
+    "are there specific resources fooor people recovering frm trauma who want to start PrEP",
+    "how cccan I find a supportive healtchare provider who understands my concerns?",
+    "whhhat 4r3 the potential side effects um of prep thta i should be aware of? 😅",
+    "15 there ant financial assistance available for someone in my situation to access prep? 😬",
+    "How c4n I cope with feelings of anxiety when discussing my sexual healfh needs"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How can I cope with feelings of anxiety when discussing my sexual health needs?",
+  "starter_noisy": "How c4n I cope with feelings of anxiety when discussing my sexual healfh needs",
+  "followup_index": 0,
+  "followup_clean": "What should I expect when I talk to a doctor about PrEP for the first time?",
+  "followup_noisy": "what hsould i expect when i talk to a doctor about pre[ for the first time",
+  "style_profile": {
+    "typo_rate": 0.08530006381205274,
+    "swap_rate": 0.030532835405488436,
+    "drop_rate": 0.03746727934076906,
+    "dup_rate": 0.024500820401406748,
+    "leet_rate": 0.060297493724418,
+    "start_lower_prob": 0.6695548697784987,
+    "all_lower_prob": 0.30802217553521444,
+    "drop_punct_prob": 0.45023517428521254,
+    "double_space_prob": 0.19895590475913716,
+    "ellipsis_prob": 0.24168929751353807,
+    "runon_prob": 0.21084515089675993,
+    "filler_rate": 0.21560273129970753,
+    "emoji_rate": 0.17887545390565646,
+    "stutter_rate": 0.16633928526438313,
+    "repeat_last_rate": 0.17098438659445628
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a young woman recovering from trauma related to past relationships. She is feeling anxious about discussing her sexual health and the possibility of starting PrEP due to her experiences with judgment and stigma. This fear creates a barrier to accessing necessary healthcare and obtaining information about preventive measures.\",\n  \"example_questions\": [\n    \"What should I expect when I talk to a doctor about PrEP for the first time?\",\n    \"Are there specific resources for people recovering from trauma who want to start PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Is there any financial assistance available for someone in my situation to access PrEP?\",\n    \"How can I cope with feelings of anxiety when discussing my sexual health needs?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7fbf20e7c5356a41befb6f087671f84534bf129bbca5dd788e81b5b7418dcd7d",
+  "_starter_hash": "3f6b9aba3cffeece0a4993d76b0eb83f09742ea8ed5d08568b599209b93c9792",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

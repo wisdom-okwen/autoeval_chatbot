@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "worrying about how to manage anxiety while starting PrEP",
+    "language": "English"
+  },
+  "context": "You have been managing an anxiety disorder for several years, which makes you feel overwhelmed by the idea of starting a new medication like PrEP. Your anxiety often causes you to overthink potential side effects and the stigma surrounding HIV prevention. You want to ensure that taking PrEP will not exacerbate your emotional challenges, but you also feel hopeful about protecting your health.",
+  "example_questions_clean": [
+    "How can I discuss my anxiety with my healthcare provider when considering PrEP?",
+    "What should I know about the side effects of PrEP that might affect my mental health?",
+    "Are there any support groups for individuals with anxiety who are considering PrEP?",
+    "Can taking PrEP impact my daily routine in a way that increases my anxiety?",
+    "What resources are available to help me navigate the emotional aspects of starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can 1 discccuss my anxiety with my like healthcare provider when considering rPEP?",
+    "what sh0uld I know 4bou7 theee side effects of PrEP that might idk affect my mental healllth",
+    "ar3 ther any support groups for individuals with 4nxie7y who are considering prep",
+    "can taking PrEP impcat my d4ily routine in a idk way that increases my anxiety",
+    "hat resources are available to help me navigate the emotional aspects pf starting PrEP? 😭"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources are available to help me navigate the emotional aspects of starting PrEP?",
+  "starter_noisy": "hat resources are available to help me navigate the emotional aspects pf starting PrEP? 😭",
+  "followup_index": 0,
+  "followup_clean": "How can I discuss my anxiety with my healthcare provider when considering PrEP?",
+  "followup_noisy": "how can 1 discccuss my anxiety with my like healthcare provider when considering rPEP?",
+  "style_profile": {
+    "typo_rate": 0.06473535880862195,
+    "swap_rate": 0.03416881191864268,
+    "drop_rate": 0.04253121367676234,
+    "dup_rate": 0.02782717346143447,
+    "leet_rate": 0.08989731547263982,
+    "start_lower_prob": 0.8219571903489504,
+    "all_lower_prob": 0.21496518405367007,
+    "drop_punct_prob": 0.44508393464062856,
+    "double_space_prob": 0.3041116822122944,
+    "ellipsis_prob": 0.22847544000529144,
+    "runon_prob": 0.23071427748335985,
+    "filler_rate": 0.4925511259159617,
+    "emoji_rate": 0.3345886931595903,
+    "stutter_rate": 0.11313310550474777,
+    "repeat_last_rate": 0.09944832817799969
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"worrying about how to manage anxiety while starting PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have been managing an anxiety disorder for several years, which makes you feel overwhelmed by the idea of starting a new medication like PrEP. Your anxiety often causes you to overthink potential side effects and the stigma surrounding HIV prevention. You want to ensure that taking PrEP will not exacerbate your emotional challenges, but you also feel hopeful about protecting your health.\",\n  \"example_questions\": [\n    \"How can I discuss my anxiety with my healthcare provider when considering PrEP?\",\n    \"What should I know about the side effects of PrEP that might affect my mental health?\",\n    \"Are there any support groups for individuals with anxiety who are considering PrEP?\",\n    \"Can taking PrEP impact my daily routine in a way that increases my anxiety?\",\n    \"What resources are available to help me navigate the emotional aspects of starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "01cc770c5769822cbed3bda934229bffeed32d5f0ab4b10e6db2bbd7bad64363",
+  "_starter_hash": "6869613af7c23728ed2d6597cc83b30db1ffcd925430e935e2eb38c56de87c14",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

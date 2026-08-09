@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "how chronic pain might affect my ability to take PrEP consistently",
+    "language": "English"
+  },
+  "context": "Living with chronic pain has made it challenging for me to maintain a routine, and I'm worried that this might impact my ability to take PrEP as prescribed. I often feel overwhelmed and anxious about managing both my health conditions, which leads me to hesitate in considering preventive measures for HIV.",
+  "example_questions_clean": [
+    "Can PrEP be taken safely alongside medication I use for chronic pain?",
+    "What are the side effects of PrEP that I should be aware of given my condition?",
+    "How can I create a routine that helps me remember to take PrEP despite my pain?",
+    "Are there resources available for people with chronic pain looking to start PrEP?",
+    "What should I discuss with my healthcare provider regarding my situation and PrEP?",
+    "Is there support available for individuals with chronic conditions who are considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "can PrEP be taken safely al0ng51d3 medication I use for chornic pain",
+    "W-Whar 4re the side 37fec75 of PrEP that I should be aware of given my like condition",
+    "how can I create a routine that helps me remekber to take PrEP despite my pain",
+    "Are there resources available for people with chronic pain looking idk to start PrEP?",
+    "what should i discyss with my healthhhcare provider regarding my situation and prep",
+    "is there support available for 1ndiv1du4l5 with chronjc onditions aho are connnsidering prep?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What should I discuss with my healthcare provider regarding my situation and PrEP?",
+  "starter_noisy": "what should i discyss with my healthhhcare provider regarding my situation and prep",
+  "followup_index": 0,
+  "followup_clean": "Can PrEP be taken safely alongside medication I use for chronic pain?",
+  "followup_noisy": "can PrEP be taken safely al0ng51d3 medication I use for chornic pain",
+  "style_profile": {
+    "typo_rate": 0.11227133050916864,
+    "swap_rate": 0.051449884069128954,
+    "drop_rate": 0.02716077918480654,
+    "dup_rate": 0.020555260541545398,
+    "leet_rate": 0.10700814217951213,
+    "start_lower_prob": 0.6292205853489686,
+    "all_lower_prob": 0.19806588264768232,
+    "drop_punct_prob": 0.5414624944064684,
+    "double_space_prob": 0.2812967834141186,
+    "ellipsis_prob": 0.20423282815938515,
+    "runon_prob": 0.1376716803137366,
+    "filler_rate": 0.39676017196352087,
+    "emoji_rate": 0.3399986971854066,
+    "stutter_rate": 0.19934365562611778,
+    "repeat_last_rate": 0.15537346323290302
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"how chronic pain might affect my ability to take PrEP consistently\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with chronic pain has made it challenging for me to maintain a routine, and I'm worried that this might impact my ability to take PrEP as prescribed. I often feel overwhelmed and anxious about managing both my health conditions, which leads me to hesitate in considering preventive measures for HIV.\",\n  \"example_questions\": [\n    \"Can PrEP be taken safely alongside medication I use for chronic pain?\",\n    \"What are the side effects of PrEP that I should be aware of given my condition?\",\n    \"How can I create a routine that helps me remember to take PrEP despite my pain?\",\n    \"Are there resources available for people with chronic pain looking to start PrEP?\",\n    \"What should I discuss with my healthcare provider regarding my situation and PrEP?\",\n    \"Is there support available for individuals with chronic conditions who are considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "23b03492014fc9ef018cb1903f4a4822c5ff49bd03d4e6d3a31165ea953c9aa8",
+  "_starter_hash": "bd2716f0385c8bf3140fdd0221ba51d52446fce517c51cc97d5ec363c6608c65",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

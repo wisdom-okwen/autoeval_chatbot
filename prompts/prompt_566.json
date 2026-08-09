@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "accessing PrEP while living in a shelter",
+    "language": "English"
+  },
+  "context": "You are currently living in a shelter and are concerned about how your situation might affect your ability to access PrEP. The stigma around your housing situation makes you feel anxious about discussing your sexual health. You want to protect yourself but face barriers related to privacy and healthcare access.",
+  "example_questions_clean": [
+    "How can I find a clinic that offers PrEP for individuals in shelters?",
+    "What are the steps I need to take to confidentially access PrEP?",
+    "Are there support services available for people like me who want to use PrEP?",
+    "What should I know about the costs associated with PrEP if I have limited resources?",
+    "Can I talk to someone about PrEP without feeling judged due to my living situation?"
+  ],
+  "example_questions_noisy": [
+    "how idk can I find a clinic tnat offers PrEP for individuals in shelters?",
+    "wht ar3 the s73p5 idk i need to take ti confidentoally access rpep",
+    "Are there support services available for people likeee me who w4n7 to ussse PrEP",
+    "w-what should I jnow about the costs associated with PrEP if I have lmiited resoruces",
+    "i mean Can I talk to someone about PrEP wthout feeling judged due to my piving situation 😭"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How can I find a clinic that offers PrEP for individuals in shelters?",
+  "starter_noisy": "how idk can I find a clinic tnat offers PrEP for individuals in shelters?",
+  "followup_index": 1,
+  "followup_clean": "What are the steps I need to take to confidentially access PrEP?",
+  "followup_noisy": "wht ar3 the s73p5 idk i need to take ti confidentoally access rpep",
+  "style_profile": {
+    "typo_rate": 0.08116879139707922,
+    "swap_rate": 0.052883303443944485,
+    "drop_rate": 0.028444681922626232,
+    "dup_rate": 0.02743788937920426,
+    "leet_rate": 0.07640614967426142,
+    "start_lower_prob": 0.625135621782182,
+    "all_lower_prob": 0.2612486860180354,
+    "drop_punct_prob": 0.48465263165284855,
+    "double_space_prob": 0.31947230323277487,
+    "ellipsis_prob": 0.23895101035929991,
+    "runon_prob": 0.14230169014092373,
+    "filler_rate": 0.40627932803002714,
+    "emoji_rate": 0.22317910657046122,
+    "stutter_rate": 0.10569528104666588,
+    "repeat_last_rate": 0.15967405389362213
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"accessing PrEP while living in a shelter\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently living in a shelter and are concerned about how your situation might affect your ability to access PrEP. The stigma around your housing situation makes you feel anxious about discussing your sexual health. You want to protect yourself but face barriers related to privacy and healthcare access.\",\n  \"example_questions\": [\n    \"How can I find a clinic that offers PrEP for individuals in shelters?\",\n    \"What are the steps I need to take to confidentially access PrEP?\",\n    \"Are there support services available for people like me who want to use PrEP?\",\n    \"What should I know about the costs associated with PrEP if I have limited resources?\",\n    \"Can I talk to someone about PrEP without feeling judged due to my living situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8506465357b694dcbbc2a411a575fc660fa12857559776aeb7e25d45acad1c83",
+  "_starter_hash": "1a91aa9c7963254c93dc318f739a4970be067b1a699904c01f130ecf60528fc7",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

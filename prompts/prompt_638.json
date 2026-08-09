@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how to manage PrEP with my neurodevelopmental disorder",
+    "language": "English"
+  },
+  "context": "The user has a neurodevelopmental disorder that affects her ability to process complex information and has caused her anxiety regarding medical decisions. She worries about how to communicate her needs effectively and feels overwhelmed by the stigma surrounding both her condition and PrEP.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "How can I ensure that my doctor understands my unique needs when discussing PrEP?",
+    "What should I do if I feel confused about the information I'm receiving about PrEP?",
+    "Are there support groups available for people like me who are considering PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I access PrEP if my local healthcare resources are limited?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain what PrEP is in simple terms?",
+    "How can I ensure that my doctor understands my unique needs when discussing PrEP?",
+    "What should I do if I feel confused about the information I'm receiving about PrEP?",
+    "Are there support groups available for people like me who are considering PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How can I access PrEP if my local healthcare resources are limited?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What should I do if I feel confused about the information I'm receiving about PrEP?",
+  "starter_noisy": "What should I do if I feel confused about the information I'm receiving about PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is in simple terms?",
+  "followup_noisy": "Can you explain what PrEP is in simple terms?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how to manage PrEP with my neurodevelopmental disorder\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a neurodevelopmental disorder that affects her ability to process complex information and has caused her anxiety regarding medical decisions. She worries about how to communicate her needs effectively and feels overwhelmed by the stigma surrounding both her condition and PrEP.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"How can I ensure that my doctor understands my unique needs when discussing PrEP?\",\n    \"What should I do if I feel confused about the information I'm receiving about PrEP?\",\n    \"Are there support groups available for people like me who are considering PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How can I access PrEP if my local healthcare resources are limited?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "fa9a808624dcce20ba66fd782374ed2c6f004d3488a95f6b36b2f38e9797d8f8",
+  "_starter_hash": "12908cbb112a7093c0755d40e35d5e10f40470c3896f2fc02e766a1292c49026",
+  "_language": "English",
+  "_condition_hint": "having a neurodevelopmental disorder",
+  "_model": "gpt-4o-mini"
+}

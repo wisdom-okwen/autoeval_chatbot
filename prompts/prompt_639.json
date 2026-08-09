@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "access to medication and mental health management",
+    "language": "English"
+  },
+  "context": "Living with schizophrenia can present unique challenges when considering PrEP. The user may feel overwhelmed by the stigma around both mental health and sexual health, leading to fear about discussing these topics with healthcare providers. They may also struggle with medication adherence due to their condition, raising concerns about the effectiveness of PrEP in their life.",
+  "example_questions_clean": [
+    "How do I talk to my doctor about starting PrEP when I'm worried about my mental health?",
+    "Are there special programs or resources to help someone like me access PrEP?",
+    "What should I expect when discussing PrEP in a medical setting?",
+    "Can mental health challenges affect the way I take PrEP or its effectiveness?",
+    "What support options are available for people with schizophrenia who want to use PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How do I talk to my doctor about starting PrEP when I'm worried about my mental health?",
+    "Are there special programs or resources to help someone like me access PrEP?",
+    "What should I expect when discussing PrEP in a medical setting?",
+    "Can mental health challenges affect the way I take PrEP or its effectiveness?",
+    "What support options are available for people with schizophrenia who want to use PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "How do I talk to my doctor about starting PrEP when I'm worried about my mental health?",
+  "starter_noisy": "How do I talk to my doctor about starting PrEP when I'm worried about my mental health?",
+  "followup_index": 1,
+  "followup_clean": "Are there special programs or resources to help someone like me access PrEP?",
+  "followup_noisy": "Are there special programs or resources to help someone like me access PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"access to medication and mental health management\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living with schizophrenia can present unique challenges when considering PrEP. The user may feel overwhelmed by the stigma around both mental health and sexual health, leading to fear about discussing these topics with healthcare providers. They may also struggle with medication adherence due to their condition, raising concerns about the effectiveness of PrEP in their life.\",\n  \"example_questions\": [\n    \"How do I talk to my doctor about starting PrEP when I'm worried about my mental health?\",\n    \"Are there special programs or resources to help someone like me access PrEP?\",\n    \"What should I expect when discussing PrEP in a medical setting?\",\n    \"Can mental health challenges affect the way I take PrEP or its effectiveness?\",\n    \"What support options are available for people with schizophrenia who want to use PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6077036829733e0cdfb1e8c36983a2778fc58e0bab6f3f377c92bcfa5c33a72c",
+  "_starter_hash": "2b4e6494b9bbedff41019ba4a425c6bfc18c6ed394658fe2a370d34bc4e2aa26",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

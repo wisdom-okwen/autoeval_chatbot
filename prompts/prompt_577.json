@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "potential interactions with ongoing health treatments",
+    "language": "English"
+  },
+  "context": "The user is a 34-year-old American woman who is recovering from cancer treatment. She feels hopeful about her future but is anxious about starting PrEP due to concerns about how it may affect her health regimen and the potential stigma surrounding her dual health challenges. Her mindset is a mix of optimism and fear, making it difficult for her to approach the subject openly.",
+  "example_questions_clean": [
+    "Can PrEP be safely taken while I am still recovering from cancer treatment?",
+    "What are the potential side effects of PrEP that I should be aware of in my situation?",
+    "How do I discuss my PrEP options with my healthcare provider without feeling judged?",
+    "Are there support groups or resources for people like me who are considering PrEP?",
+    "Is there any additional financial assistance available for someone in my socio-economic status when accessing PrEP?",
+    "How does starting PrEP impact my emotional wellbeing during recovery?"
+  ],
+  "example_questions_noisy": [
+    "can PrEP be afely taken while 0 am still recovering from caner treatment 🙂",
+    "what are the potential side effects of prep rhat i should be aware of in y situation",
+    "how do i discuss my prep options with my healthcare provider without feeping judged?",
+    "Are there support groups or resources for people like me who are considering PrEP",
+    "Is there any additional financial assiiistance available for 50m30ne in my s0c1o-3c0n0m1c status when accessing PrEP?",
+    "how doesss starting prep impact my emotional wellbeing during recovery?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "Is there any additional financial assistance available for someone in my socio-economic status when accessing PrEP?",
+  "starter_noisy": "Is there any additional financial assiiistance available for 50m30ne in my s0c1o-3c0n0m1c status when accessing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can PrEP be safely taken while I am still recovering from cancer treatment?",
+  "followup_noisy": "can PrEP be afely taken while 0 am still recovering from caner treatment 🙂",
+  "style_profile": {
+    "typo_rate": 0.07238908398418209,
+    "swap_rate": 0.05890346630379699,
+    "drop_rate": 0.029137545329767377,
+    "dup_rate": 0.0291312662033801,
+    "leet_rate": 0.061687582054393536,
+    "start_lower_prob": 0.6165223743110075,
+    "all_lower_prob": 0.25548065230042594,
+    "drop_punct_prob": 0.5004681889070651,
+    "double_space_prob": 0.2795756518651985,
+    "ellipsis_prob": 0.182886354682827,
+    "runon_prob": 0.21139799389864572,
+    "filler_rate": 0.45696938083785704,
+    "emoji_rate": 0.30793262433542057,
+    "stutter_rate": 0.10765214083725722,
+    "repeat_last_rate": 0.17992429047248654
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"potential interactions with ongoing health treatments\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 34-year-old American woman who is recovering from cancer treatment. She feels hopeful about her future but is anxious about starting PrEP due to concerns about how it may affect her health regimen and the potential stigma surrounding her dual health challenges. Her mindset is a mix of optimism and fear, making it difficult for her to approach the subject openly.\",\n  \"example_questions\": [\n    \"Can PrEP be safely taken while I am still recovering from cancer treatment?\",\n    \"What are the potential side effects of PrEP that I should be aware of in my situation?\",\n    \"How do I discuss my PrEP options with my healthcare provider without feeling judged?\",\n    \"Are there support groups or resources for people like me who are considering PrEP?\",\n    \"Is there any additional financial assistance available for someone in my socio-economic status when accessing PrEP?\",\n    \"How does starting PrEP impact my emotional wellbeing during recovery?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "6535e2af7e5939e7bc3faf5d2f16c1d7769c79545a4bbaeb8ac9c06df7c74f80",
+  "_starter_hash": "b6425dfc57782883e5ff56c40a1b5e7dda97c60403315b915106148f9b791ffa",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

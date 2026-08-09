@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "fear of side effects and stigma associated with taking PrEP",
+    "language": "English"
+  },
+  "context": "You are dealing with an anxiety disorder that makes you apprehensive about new medications and the potential reactions of others around you. This condition heightens your fears about starting PrEP, as you worry about the possible side effects and how others might perceive your choice to take it.",
+  "example_questions_clean": [
+    "What are the common side effects of PrEP that I should be aware of?",
+    "How can I cope with the anxiety I feel about starting a new medication like PrEP?",
+    "Are there resources available that support people with anxiety who want to start PrEP?",
+    "Can you share any stories of others who faced similar challenges when considering PrEP?",
+    "What steps can I take to feel more confident in discussing PrEP with my healthcare provider?"
+  ],
+  "example_questions_noisy": [
+    "what are the common side effects of prep that 1 should be um aware of?",
+    "how can i cope ittth the uh anxiety i feel about starttting a new medication like prep 🙄",
+    "Are htere resouuurces available that support pople with anxiety who want to start PrEP?",
+    "can you share any stories of others who faced sijilar challenges when cosnidering PrEP?",
+    "what 57ep5 c4n 1 take um to feel more confient in discussing PrEP wth my healthacre provider"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What steps can I take to feel more confident in discussing PrEP with my healthcare provider?",
+  "starter_noisy": "what 57ep5 c4n 1 take um to feel more confient in discussing PrEP wth my healthacre provider",
+  "followup_index": 0,
+  "followup_clean": "What are the common side effects of PrEP that I should be aware of?",
+  "followup_noisy": "what are the common side effects of prep that 1 should be um aware of?",
+  "style_profile": {
+    "typo_rate": 0.05603176152362315,
+    "swap_rate": 0.025482848935948894,
+    "drop_rate": 0.033944378752369664,
+    "dup_rate": 0.025932717505485564,
+    "leet_rate": 0.07639261507689261,
+    "start_lower_prob": 0.6436739386652519,
+    "all_lower_prob": 0.23136595707822188,
+    "drop_punct_prob": 0.49396991435227655,
+    "double_space_prob": 0.30886903563825857,
+    "ellipsis_prob": 0.20777514874582204,
+    "runon_prob": 0.29883242659867104,
+    "filler_rate": 0.3738707556224468,
+    "emoji_rate": 0.20361076074985635,
+    "stutter_rate": 0.18790838950456712,
+    "repeat_last_rate": 0.12363656856769648
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"fear of side effects and stigma associated with taking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are dealing with an anxiety disorder that makes you apprehensive about new medications and the potential reactions of others around you. This condition heightens your fears about starting PrEP, as you worry about the possible side effects and how others might perceive your choice to take it.\",\n  \"example_questions\": [\n    \"What are the common side effects of PrEP that I should be aware of?\",\n    \"How can I cope with the anxiety I feel about starting a new medication like PrEP?\",\n    \"Are there resources available that support people with anxiety who want to start PrEP?\",\n    \"Can you share any stories of others who faced similar challenges when considering PrEP?\",\n    \"What steps can I take to feel more confident in discussing PrEP with my healthcare provider?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "c6eda87ead94d73f3d43952c54c0532c26e97935c2df57be508d4326b110e928",
+  "_starter_hash": "6cc9c3e9ae90d62c2831a01902a7039b64ae7d10b132e60bdda4973ff5868357",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

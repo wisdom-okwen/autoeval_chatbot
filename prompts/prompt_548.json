@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "the interaction of PrEP with chronic pain medications",
+    "language": "English"
+  },
+  "context": "As a woman living with chronic pain, you often face physical and emotional challenges that make managing your health more complicated. You worry about how starting PrEP might affect your current medication regimen and your overall well-being. Additionally, you feel uncertain about accessing healthcare services that may not be accommodating to your condition, which increases your feelings of fear and stigma around seeking out this preventive treatment.",
+  "example_questions_clean": [
+    "Can you tell me if there are specific concerns about taking PrEP alongside chronic pain medication?",
+    "How does PrEP fit into a holistic approach to my health considering my ongoing pain issues?",
+    "What should I discuss with my doctor before starting PrEP given my health situation?",
+    "Are there support resources available for people like me who want to start PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of considering my condition?",
+    "Is it common for people with chronic pain to seek out PrEP, and what can I learn from their experiences?"
+  ],
+  "example_questions_noisy": [
+    "c-can you tell me jf there are 5p3cif1c concerns i mean about taking prep alongside chronic pian medication? 😕",
+    "how does like PrEP fit into s holisti aproach to my health considering my ongoing pain issues",
+    "wat should I d1scus5 with my doctor before starting PrEP given my health you know situation?",
+    "are tnere support resources available tor people kik me who wnt like to start PrEP?",
+    "what are the potential side effects oc PrEP that I should be aware of considering my condition?",
+    "is it common for uh people with chronic pain tp seek out PrEP, 4nd what can I learn from their experiences?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How does PrEP fit into a holistic approach to my health considering my ongoing pain issues?",
+  "starter_noisy": "how does like PrEP fit into s holisti aproach to my health considering my ongoing pain issues",
+  "followup_index": 0,
+  "followup_clean": "Can you tell me if there are specific concerns about taking PrEP alongside chronic pain medication?",
+  "followup_noisy": "c-can you tell me jf there are 5p3cif1c concerns i mean about taking prep alongside chronic pian medication? 😕",
+  "style_profile": {
+    "typo_rate": 0.08360726866135884,
+    "swap_rate": 0.05223755903989977,
+    "drop_rate": 0.0409537224681745,
+    "dup_rate": 0.02240564775084425,
+    "leet_rate": 0.09313030462782762,
+    "start_lower_prob": 0.8611185859530036,
+    "all_lower_prob": 0.24798090197520306,
+    "drop_punct_prob": 0.4464173958759091,
+    "double_space_prob": 0.2707282741027551,
+    "ellipsis_prob": 0.2743850927433133,
+    "runon_prob": 0.10259338474410025,
+    "filler_rate": 0.4777635118931317,
+    "emoji_rate": 0.1708381336413979,
+    "stutter_rate": 0.16974539327927418,
+    "repeat_last_rate": 0.1594815967486285
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"the interaction of PrEP with chronic pain medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a woman living with chronic pain, you often face physical and emotional challenges that make managing your health more complicated. You worry about how starting PrEP might affect your current medication regimen and your overall well-being. Additionally, you feel uncertain about accessing healthcare services that may not be accommodating to your condition, which increases your feelings of fear and stigma around seeking out this preventive treatment.\",\n  \"example_questions\": [\n    \"Can you tell me if there are specific concerns about taking PrEP alongside chronic pain medication?\",\n    \"How does PrEP fit into a holistic approach to my health considering my ongoing pain issues?\",\n    \"What should I discuss with my doctor before starting PrEP given my health situation?\",\n    \"Are there support resources available for people like me who want to start PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of considering my condition?\",\n    \"Is it common for people with chronic pain to seek out PrEP, and what can I learn from their experiences?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "418631b5e57ea1015d53e1de9e95d12f6707a5f9fb72aa9e85c38d677863bc54",
+  "_starter_hash": "6e2d4965ae8bd99a2b49def4204676637087671926f31697d3c9229a712feeaa",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

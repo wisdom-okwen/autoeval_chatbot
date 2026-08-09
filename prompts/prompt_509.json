@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "British",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how to take PrEP effectively due to difficulty with complex information",
+    "language": "English"
+  },
+  "context": "The user has a learning disability that makes it challenging for her to process complex medical information. She feels anxious about accessing PrEP and fears that her difficulties with reading and comprehension might prevent her from using it correctly. Despite these challenges, she is hopeful about finding a way to protect her health.",
+  "example_questions_clean": [
+    "Can you explain what PrEP is in simple terms?",
+    "What should I do if I have trouble understanding the instructions for taking PrEP?",
+    "Are there resources available that can help me learn more about using PrEP?",
+    "How often do I need to see a doctor while on PrEP?",
+    "What are the side effects of PrEP that I should be aware of?",
+    "Is there someone I can talk to who specializes in helping people like me with medical information?"
+  ],
+  "example_questions_noisy": [
+    "can you idk explain what perp is 1n simple terms? 🤔",
+    "W-What should I do if I haveee trouble understanding the instructions f0r taking PrEP",
+    "4-4r3 there resources available rhat can um help me learn mpre about u51ng PrEP 😭",
+    "how often do I need to see a uh dotcor while ob PrEP",
+    "what arw the side effects of PrEP uh that I 5h0uld be awaer of?",
+    "is there someone i cwn talk to who specializes in helping people like me with m3dic4l information?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there resources available that can help me learn more about using PrEP?",
+  "starter_noisy": "4-4r3 there resources available rhat can um help me learn mpre about u51ng PrEP 😭",
+  "followup_index": 0,
+  "followup_clean": "Can you explain what PrEP is in simple terms?",
+  "followup_noisy": "can you idk explain what perp is 1n simple terms? 🤔",
+  "style_profile": {
+    "typo_rate": 0.08257634928567746,
+    "swap_rate": 0.04943654278997189,
+    "drop_rate": 0.03070249213823246,
+    "dup_rate": 0.018029120198762787,
+    "leet_rate": 0.10381841660509676,
+    "start_lower_prob": 0.6788517189903142,
+    "all_lower_prob": 0.20169500059252488,
+    "drop_punct_prob": 0.5568405614542531,
+    "double_space_prob": 0.1574320451258973,
+    "ellipsis_prob": 0.18167665167985608,
+    "runon_prob": 0.157741515938273,
+    "filler_rate": 0.42572477588629265,
+    "emoji_rate": 0.31051052866362894,
+    "stutter_rate": 0.10337036494717669,
+    "repeat_last_rate": 0.08264454427493455
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"British\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how to take PrEP effectively due to difficulty with complex information\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a learning disability that makes it challenging for her to process complex medical information. She feels anxious about accessing PrEP and fears that her difficulties with reading and comprehension might prevent her from using it correctly. Despite these challenges, she is hopeful about finding a way to protect her health.\",\n  \"example_questions\": [\n    \"Can you explain what PrEP is in simple terms?\",\n    \"What should I do if I have trouble understanding the instructions for taking PrEP?\",\n    \"Are there resources available that can help me learn more about using PrEP?\",\n    \"How often do I need to see a doctor while on PrEP?\",\n    \"What are the side effects of PrEP that I should be aware of?\",\n    \"Is there someone I can talk to who specializes in helping people like me with medical information?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "4e06236bbf7349629c50fc9b013ab9800ae126caf6c55d7a97f00bc027edde4c",
+  "_starter_hash": "39734cabfd656ee4dbde0a1ab3b67ece20301923f25d74c0470cec88da27e666",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

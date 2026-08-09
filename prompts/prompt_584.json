@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "male",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user has a history of substance use, which affects their mindset and creates anxiety about seeking medical help. They are apprehensive about how their past might influence the care they receive and are concerned about being judged for both their substance use and the decision to pursue PrEP. Despite these fears, they hold onto hope that PrEP could provide them with protection and a sense of control over their health.",
+  "example_questions_clean": [
+    "How can I approach my doctor about getting prescribed PrEP without feeling judged?",
+    "What resources are available for someone with a history of substance use to learn about PrEP?",
+    "Are there support groups for individuals like me who are considering PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "How often do I need to be tested while on PrEP?",
+    "Can I discuss my substance use history with a healthcare provider confidentially?"
+  ],
+  "example_questions_noisy": [
+    "h-how can I approach my doctor about getting prescribed PrEP without feleing judged",
+    "what resources are availalbe ror someone with a historh of substance use tooo learn about Pr3P?",
+    "are there supp0r7 groups for uh individuals like me sho are considering PrEP",
+    "w-whta are the potential side fefects of PrEP that I should be aware of? ❓",
+    "how often cooo i newd to bw tested while i mean on prep",
+    "can I discuss my substance ussse history with um a healthcare provider confidentiall? 🤔"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support groups for individuals like me who are considering PrEP?",
+  "starter_noisy": "are there supp0r7 groups for uh individuals like me sho are considering PrEP",
+  "followup_index": 0,
+  "followup_clean": "How can I approach my doctor about getting prescribed PrEP without feeling judged?",
+  "followup_noisy": "h-how can I approach my doctor about getting prescribed PrEP without feleing judged",
+  "style_profile": {
+    "typo_rate": 0.09499824346459512,
+    "swap_rate": 0.05960113377253366,
+    "drop_rate": 0.04210467059576302,
+    "dup_rate": 0.029471549214777064,
+    "leet_rate": 0.07221484543642621,
+    "start_lower_prob": 0.8251472409821192,
+    "all_lower_prob": 0.24694486927841003,
+    "drop_punct_prob": 0.3571903802239011,
+    "double_space_prob": 0.2045952271794091,
+    "ellipsis_prob": 0.18708639798796936,
+    "runon_prob": 0.25915318900519735,
+    "filler_rate": 0.3286736769816237,
+    "emoji_rate": 0.2791572314999694,
+    "stutter_rate": 0.14152103790924736,
+    "repeat_last_rate": 0.11585806523781311
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a history of substance use, which affects their mindset and creates anxiety about seeking medical help. They are apprehensive about how their past might influence the care they receive and are concerned about being judged for both their substance use and the decision to pursue PrEP. Despite these fears, they hold onto hope that PrEP could provide them with protection and a sense of control over their health.\",\n  \"example_questions\": [\n    \"How can I approach my doctor about getting prescribed PrEP without feeling judged?\",\n    \"What resources are available for someone with a history of substance use to learn about PrEP?\",\n    \"Are there support groups for individuals like me who are considering PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"How often do I need to be tested while on PrEP?\",\n    \"Can I discuss my substance use history with a healthcare provider confidentially?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e353262d7d43277a2b5b56966cde2789f06b787846fbce71c3e717c0e09beca3",
+  "_starter_hash": "a269751d5ff0b4a0e08b1c3269e672219718a9174afad67243d6a24339618e5a",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

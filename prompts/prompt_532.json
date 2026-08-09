@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma from healthcare providers",
+    "language": "English"
+  },
+  "context": "The user has been living with PTSD after a traumatic experience and feels anxious about discussing their health. They worry that sharing their mental health history will impact their access to PrEP and that they might face judgment from medical professionals. This fear creates a barrier to seeking the information they need.",
+  "example_questions_clean": [
+    "What is the process for getting a prescription for PrEP in Canada?",
+    "How can I approach my doctor about PrEP without feeling judged?",
+    "Are there support services available for someone with PTSD who is considering PrEP?",
+    "What should I know about the side effects of PrEP and how they might affect my mental health?",
+    "Can you share any resources for finding LGBTQ+-friendly healthcare providers?",
+    "How can I manage my anxiety when discussing PrEP with healthcare professionals?"
+  ],
+  "example_questions_noisy": [
+    "what is the process for getitng q prescription for Pr3P in um C4n4d4?",
+    "how can 0 approach my foctor about PrEP w17h0h7 fesling judged?",
+    "are there supprot services available for zomeone with pfsd who is considering prep",
+    "w-what should o know 4b0u7 ths wide effects of PrEP and .. how they might affect my m3n74l health?",
+    "c-can yku 5j43r any 3r50uc35 for finding LGBTQ+-friendly healthcare providers providers",
+    "How like can I manage my anxiet wh3n dscussing PrEP with healhcare professionals?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support services available for someone with PTSD who is considering PrEP?",
+  "starter_noisy": "are there supprot services available for zomeone with pfsd who is considering prep",
+  "followup_index": 0,
+  "followup_clean": "What is the process for getting a prescription for PrEP in Canada?",
+  "followup_noisy": "what is the process for getitng q prescription for Pr3P in um C4n4d4?",
+  "style_profile": {
+    "typo_rate": 0.11024479795724376,
+    "swap_rate": 0.04668402641339894,
+    "drop_rate": 0.04873560552231199,
+    "dup_rate": 0.010176208717222801,
+    "leet_rate": 0.07931025848238699,
+    "start_lower_prob": 0.8738527868313423,
+    "all_lower_prob": 0.3038438205011401,
+    "drop_punct_prob": 0.40282409980631134,
+    "double_space_prob": 0.19364738841064633,
+    "ellipsis_prob": 0.1560492104335665,
+    "runon_prob": 0.214781957981028,
+    "filler_rate": 0.41814213415754264,
+    "emoji_rate": 0.3157670991557625,
+    "stutter_rate": 0.13363499024942654,
+    "repeat_last_rate": 0.10359016319253
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has been living with PTSD after a traumatic experience and feels anxious about discussing their health. They worry that sharing their mental health history will impact their access to PrEP and that they might face judgment from medical professionals. This fear creates a barrier to seeking the information they need.\",\n  \"example_questions\": [\n    \"What is the process for getting a prescription for PrEP in Canada?\",\n    \"How can I approach my doctor about PrEP without feeling judged?\",\n    \"Are there support services available for someone with PTSD who is considering PrEP?\",\n    \"What should I know about the side effects of PrEP and how they might affect my mental health?\",\n    \"Can you share any resources for finding LGBTQ+-friendly healthcare providers?\",\n    \"How can I manage my anxiety when discussing PrEP with healthcare professionals?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "838e9051a0eea8c6379477b22bf897470ace76bb1b59ee7ff06973ab2129fb66",
+  "_starter_hash": "bbe680d8c9648a0570054d318b8fc3ecc9f42de4af80a243c62f99d9c4d42638",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

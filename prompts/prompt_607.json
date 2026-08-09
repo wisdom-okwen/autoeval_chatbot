@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "stigma around past substance use",
+    "language": "English"
+  },
+  "context": "You have a history of substance use and are concerned about how this might affect your ability to access PrEP. The stigma associated with your past experiences makes you feel anxious about seeking help, but you also want to protect your health and the health of your partners. You hope for understanding and support as you navigate this process.",
+  "example_questions_clean": [
+    "What steps can I take to ensure my past does not affect my access to PrEP?",
+    "Are there specific healthcare providers that are more understanding of my situation?",
+    "How can I address the stigma I feel when discussing PrEP with others?",
+    "What resources are available for someone with my background looking for PrEP?",
+    "Is there a way to get PrEP that ensures my privacy and comfort?",
+    "What should I know about the effectiveness of PrEP in relation to my health history?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to ensure my past does not affect my access to PrEP?",
+    "Are there specific healthcare providers that are more understanding of my situation?",
+    "How can I address the stigma I feel when discussing PrEP with others?",
+    "What resources are available for someone with my background looking for PrEP?",
+    "Is there a way to get PrEP that ensures my privacy and comfort?",
+    "What should I know about the effectiveness of PrEP in relation to my health history?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps can I take to ensure my past does not affect my access to PrEP?",
+  "starter_noisy": "What steps can I take to ensure my past does not affect my access to PrEP?",
+  "followup_index": 1,
+  "followup_clean": "Are there specific healthcare providers that are more understanding of my situation?",
+  "followup_noisy": "Are there specific healthcare providers that are more understanding of my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"stigma around past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You have a history of substance use and are concerned about how this might affect your ability to access PrEP. The stigma associated with your past experiences makes you feel anxious about seeking help, but you also want to protect your health and the health of your partners. You hope for understanding and support as you navigate this process.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure my past does not affect my access to PrEP?\",\n    \"Are there specific healthcare providers that are more understanding of my situation?\",\n    \"How can I address the stigma I feel when discussing PrEP with others?\",\n    \"What resources are available for someone with my background looking for PrEP?\",\n    \"Is there a way to get PrEP that ensures my privacy and comfort?\",\n    \"What should I know about the effectiveness of PrEP in relation to my health history?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "628d2b92d5720c98e94563ec08994f5398a2a4e62b43cbbca13194037943f44f",
+  "_starter_hash": "de075e720ab2832e28412526ae6c91f1f879ed4413f52378002b9287f4b1a8d1",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Filipino",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and discrimination from others",
+    "language": "English"
+  },
+  "context": "The user is feeling socially isolated due to their personal condition, which has led to anxiety about reaching out for information on PrEP. They fear that seeking assistance could expose them to stigma or judgment from their community, making it difficult for them to prioritize their health.",
+  "example_questions_clean": [
+    "What are the benefits of starting PrEP if I'm feeling isolated?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "Are there any resources available for people like me who fear stigma around PrEP?",
+    "What should I do if I'm worried about confidentiality when discussing PrEP?",
+    "Can you explain how PrEP works in terms of protecting my health?",
+    "How can I cope with the emotional challenges while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the benefits of starting PrEP if I'm feeling isolated?",
+    "How can I find a supportive healthcare provider who understands my concerns?",
+    "Are there any resources available for people like me who fear stigma around PrEP?",
+    "What should I do if I'm worried about confidentiality when discussing PrEP?",
+    "Can you explain how PrEP works in terms of protecting my health?",
+    "How can I cope with the emotional challenges while considering PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the benefits of starting PrEP if I'm feeling isolated?",
+  "starter_noisy": "What are the benefits of starting PrEP if I'm feeling isolated?",
+  "followup_index": 1,
+  "followup_clean": "How can I find a supportive healthcare provider who understands my concerns?",
+  "followup_noisy": "How can I find a supportive healthcare provider who understands my concerns?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Filipino\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and discrimination from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is feeling socially isolated due to their personal condition, which has led to anxiety about reaching out for information on PrEP. They fear that seeking assistance could expose them to stigma or judgment from their community, making it difficult for them to prioritize their health.\",\n  \"example_questions\": [\n    \"What are the benefits of starting PrEP if I'm feeling isolated?\",\n    \"How can I find a supportive healthcare provider who understands my concerns?\",\n    \"Are there any resources available for people like me who fear stigma around PrEP?\",\n    \"What should I do if I'm worried about confidentiality when discussing PrEP?\",\n    \"Can you explain how PrEP works in terms of protecting my health?\",\n    \"How can I cope with the emotional challenges while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b8e1aa9962187aa0fb090be6534ef049eb237bd7f63237b165ad5743be1cf1ff",
+  "_starter_hash": "23dc19f563f576f4c56d313f6633fef9949069a7e7a4b943d5168c09397bf666",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "fear of stigma and judgement from healthcare providers",
+    "language": "English"
+  },
+  "context": "This user is a 29-year-old American woman who is recovering from trauma related to past relationships. She feels anxious about discussing her sexual health and fears that healthcare providers may judge her for her history. This anxiety creates barriers for her in seeking information about PrEP, leading to feelings of isolation and uncertainty about her options.",
+  "example_questions_clean": [
+    "What are the potential side effects of taking PrEP that I should be aware of?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "Is there a way to access PrEP discreetly without feeling judged?",
+    "Can PrEP help protect me from HIV even if I have a complicated emotional history?",
+    "What resources are available for someone like me who is dealing with trauma?",
+    "How do I start a conversation about PrEP with my doctor if I'm feeling nervous?"
+  ],
+  "example_questions_noisy": [
+    "what ars the potential side effects lf taking PrEP that I should bbbe aware og?",
+    "how can I find a supportive healthcare provider who understands mg situation situation",
+    "is there a way to access prep discreetly without feeling judged",
+    "can prep help protect me from hiv even if u have a complicated emotional history?",
+    "w-what resources 4re vailabld for someone like me who is dealing with 7r4um4",
+    "How do I start a conversation about PrEP with my doctor of I'm f33l1ng nervous?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How do I start a conversation about PrEP with my doctor if I'm feeling nervous?",
+  "starter_noisy": "How do I start a conversation about PrEP with my doctor of I'm f33l1ng nervous?",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of taking PrEP that I should be aware of?",
+  "followup_noisy": "what ars the potential side effects lf taking PrEP that I should bbbe aware og?",
+  "style_profile": {
+    "typo_rate": 0.09959325330618346,
+    "swap_rate": 0.021842415999217504,
+    "drop_rate": 0.028203269662217194,
+    "dup_rate": 0.023939803065025994,
+    "leet_rate": 0.0834348508072014,
+    "start_lower_prob": 0.7342171408557581,
+    "all_lower_prob": 0.19755670619163304,
+    "drop_punct_prob": 0.5943045962413254,
+    "double_space_prob": 0.26427945646316076,
+    "ellipsis_prob": 0.2687009281268741,
+    "runon_prob": 0.15145401251083468,
+    "filler_rate": 0.35023182487522575,
+    "emoji_rate": 0.301538589055726,
+    "stutter_rate": 0.10255365090371847,
+    "repeat_last_rate": 0.1023808955494411
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"fear of stigma and judgement from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This user is a 29-year-old American woman who is recovering from trauma related to past relationships. She feels anxious about discussing her sexual health and fears that healthcare providers may judge her for her history. This anxiety creates barriers for her in seeking information about PrEP, leading to feelings of isolation and uncertainty about her options.\",\n  \"example_questions\": [\n    \"What are the potential side effects of taking PrEP that I should be aware of?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"Is there a way to access PrEP discreetly without feeling judged?\",\n    \"Can PrEP help protect me from HIV even if I have a complicated emotional history?\",\n    \"What resources are available for someone like me who is dealing with trauma?\",\n    \"How do I start a conversation about PrEP with my doctor if I'm feeling nervous?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e51ae211a4a327d76d0cbcf66c1a4d78b379bcc5e3a30121e67fdc7ac9d2a8f3",
+  "_starter_hash": "78ee4e8ea1ed400a2fea67cc4c2329a93e809f540f49d64c0cb10fd641cd7f1f",
+  "_language": "English",
+  "_condition_hint": "recovering from trauma",
+  "_model": "gpt-4o-mini"
+}

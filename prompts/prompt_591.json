@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income, experiencing homelessness",
+    "primary_concern": "concerns about affordability and access to healthcare services",
+    "language": "English"
+  },
+  "context": "The user is a 29-year-old woman experiencing homelessness in the United States. She faces significant barriers in accessing healthcare, including a lack of stable housing and fear of discrimination from medical providers. Her current situation makes her feel vulnerable and anxious about her health, particularly regarding HIV prevention and accessing PrEP.",
+  "example_questions_clean": [
+    "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+    "How can I find support groups or services that understand my unique challenges in accessing PrEP?",
+    "Are there any clinics that provide PrEP for free or at a lower cost for people in my situation?",
+    "What should I know about the side effects of PrEP, especially since I have limited access to medical follow-up?",
+    "How can I discuss my need for PrEP with a healthcare provider if I'm worried about being judged?",
+    "What are my options if I can't commit to regular doctor visits while trying to start PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+    "How can I find support groups or services that understand my unique challenges in accessing PrEP?",
+    "Are there any clinics that provide PrEP for free or at a lower cost for people in my situation?",
+    "What should I know about the side effects of PrEP, especially since I have limited access to medical follow-up?",
+    "How can I discuss my need for PrEP with a healthcare provider if I'm worried about being judged?",
+    "What are my options if I can't commit to regular doctor visits while trying to start PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I find support groups or services that understand my unique challenges in accessing PrEP?",
+  "starter_noisy": "How can I find support groups or services that understand my unique challenges in accessing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+  "followup_noisy": "What resources are available for someone like me to access PrEP while experiencing homelessness?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income, experiencing homelessness\",\n    \"primary_concern\": \"concerns about affordability and access to healthcare services\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 29-year-old woman experiencing homelessness in the United States. She faces significant barriers in accessing healthcare, including a lack of stable housing and fear of discrimination from medical providers. Her current situation makes her feel vulnerable and anxious about her health, particularly regarding HIV prevention and accessing PrEP.\",\n  \"example_questions\": [\n    \"What resources are available for someone like me to access PrEP while experiencing homelessness?\",\n    \"How can I find support groups or services that understand my unique challenges in accessing PrEP?\",\n    \"Are there any clinics that provide PrEP for free or at a lower cost for people in my situation?\",\n    \"What should I know about the side effects of PrEP, especially since I have limited access to medical follow-up?\",\n    \"How can I discuss my need for PrEP with a healthcare provider if I'm worried about being judged?\",\n    \"What are my options if I can't commit to regular doctor visits while trying to start PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "a06972959a6bcb057768cfdf93a36ae7d6d8ccf4c2337d765d4698d597f36cc5",
+  "_starter_hash": "1631495a1704dc5cc38f54e49e0f2bd9f07e62271e341f85abb3e898b0b402d3",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

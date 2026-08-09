@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and lack of access",
+    "language": "English"
+  },
+  "context": "Living in a shelter can create significant barriers to accessing healthcare, including PrEP. The individual may feel anxious about judgment from healthcare providers or fear that they won't have privacy when discussing their health needs. This situation may also lead to feelings of hopelessness and uncertainty regarding their ability to obtain PrEP consistently.",
+  "example_questions_clean": [
+    "What are the steps to get PrEP while living in a shelter?",
+    "How can I talk to a doctor about PrEP without feeling judged?",
+    "Are there specific clinics that cater to individuals in my situation?",
+    "What should I do if I face discrimination when seeking PrEP?",
+    "How can I manage my emotions if I’m feeling overwhelmed by the process?",
+    "Is there support available for people like me trying to access PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps 7o get prep wh1e living in a shelter",
+    "H-How can I talk 70 a doctor about rPEP without feeling idk judged?",
+    "i-idk are htere sp3c1f1c clinics that cater to individuals in my siuation siuation",
+    "what should I do if 1 face d15cr1m1na7i0n when seeking PrEP?",
+    "how can uh i manage my 3mo710n5 if i’m feeling overwhelmed by the process?",
+    "i-is therw support available for people like me trying to avcess prep"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I talk to a doctor about PrEP without feeling judged?",
+  "starter_noisy": "H-How can I talk 70 a doctor about rPEP without feeling idk judged?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to get PrEP while living in a shelter?",
+  "followup_noisy": "what are the steps 7o get prep wh1e living in a shelter",
+  "style_profile": {
+    "typo_rate": 0.07873520545439938,
+    "swap_rate": 0.026282357910984384,
+    "drop_rate": 0.032478459369193226,
+    "dup_rate": 0.02910859526100997,
+    "leet_rate": 0.10393108106485982,
+    "start_lower_prob": 0.8046296120703456,
+    "all_lower_prob": 0.25787105335222954,
+    "drop_punct_prob": 0.5456685637950552,
+    "double_space_prob": 0.3266304701088625,
+    "ellipsis_prob": 0.16660211325295912,
+    "runon_prob": 0.15599548176449365,
+    "filler_rate": 0.39669638752062686,
+    "emoji_rate": 0.2941105259643335,
+    "stutter_rate": 0.15424703943895623,
+    "repeat_last_rate": 0.0959674906184736
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and lack of access\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Living in a shelter can create significant barriers to accessing healthcare, including PrEP. The individual may feel anxious about judgment from healthcare providers or fear that they won't have privacy when discussing their health needs. This situation may also lead to feelings of hopelessness and uncertainty regarding their ability to obtain PrEP consistently.\",\n  \"example_questions\": [\n    \"What are the steps to get PrEP while living in a shelter?\",\n    \"How can I talk to a doctor about PrEP without feeling judged?\",\n    \"Are there specific clinics that cater to individuals in my situation?\",\n    \"What should I do if I face discrimination when seeking PrEP?\",\n    \"How can I manage my emotions if I’m feeling overwhelmed by the process?\",\n    \"Is there support available for people like me trying to access PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1d2230ec11995b70272970e6361a0198fd0bcd0e0a7dab21885c1dc75f02729d",
+  "_starter_hash": "e00d9015b3958c22d1e5b2cf800cf2d1a7809b96428bda7c6dff92301de3eaff",
+  "_language": "English",
+  "_condition_hint": "living in a shelter",
+  "_model": "gpt-4o-mini"
+}

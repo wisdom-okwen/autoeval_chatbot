@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from others when seeking PrEP",
+    "language": "English"
+  },
+  "context": "You are feeling overwhelmed due to your ongoing struggle with depression, which makes it difficult to focus on your health and well-being. You want to consider PrEP but worry about what others might think if they find out. This fear is compounded by your low-income situation, making you feel even more isolated in your decision-making process.",
+  "example_questions_clean": [
+    "What are the most important factors to consider before starting PrEP?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "What resources are available for someone like me who is concerned about stigma?",
+    "Can you explain the potential side effects of PrEP and how they might affect my mental health?",
+    "Are there any financial assistance programs that could help me access PrEP?",
+    "How do I talk to my partner about my interest in starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What are the most important factors to consider before starting PrEP?",
+    "How can I find a supportive healthcare provider who understands my situation?",
+    "What resources are available for someone like me who is concerned about stigma?",
+    "Can you explain the potential side effects of PrEP and how they might affect my mental health?",
+    "Are there any financial assistance programs that could help me access PrEP?",
+    "How do I talk to my partner about my interest in starting PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Can you explain the potential side effects of PrEP and how they might affect my mental health?",
+  "starter_noisy": "Can you explain the potential side effects of PrEP and how they might affect my mental health?",
+  "followup_index": 0,
+  "followup_clean": "What are the most important factors to consider before starting PrEP?",
+  "followup_noisy": "What are the most important factors to consider before starting PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from others when seeking PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling overwhelmed due to your ongoing struggle with depression, which makes it difficult to focus on your health and well-being. You want to consider PrEP but worry about what others might think if they find out. This fear is compounded by your low-income situation, making you feel even more isolated in your decision-making process.\",\n  \"example_questions\": [\n    \"What are the most important factors to consider before starting PrEP?\",\n    \"How can I find a supportive healthcare provider who understands my situation?\",\n    \"What resources are available for someone like me who is concerned about stigma?\",\n    \"Can you explain the potential side effects of PrEP and how they might affect my mental health?\",\n    \"Are there any financial assistance programs that could help me access PrEP?\",\n    \"How do I talk to my partner about my interest in starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "85cef3ff629ef0d35ff702febd61e28d1760be1fb58a5f64b67b38570c12aed7",
+  "_starter_hash": "3ddd28950ba7568495a1e99ee593630fb60bec8ce196d2b6884c21621b18a551",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of judgment and stigma from peers",
+    "language": "English"
+  },
+  "context": "You are feeling socially isolated and worried about how your peers might react to you taking PrEP. This fear makes it difficult for you to seek out information or support, as you worry about being judged or misunderstood. Despite your concerns, you are hopeful that PrEP could be a positive step for your health and well-being.",
+  "example_questions_clean": [
+    "What are the potential side effects of taking PrEP that I should be aware of?",
+    "How can I find a healthcare provider who understands my concerns about stigma?",
+    "Are there any resources available to help me connect with others who are also considering PrEP?",
+    "What steps can I take to feel more comfortable discussing PrEP with my friends?",
+    "How can I manage my anxiety about being open about my health choices?",
+    "Is there a way to access PrEP discreetly if I’m worried about my privacy?"
+  ],
+  "example_questions_noisy": [
+    "what are the potential side effects of taking prep that i 5h0ukd be aware of?",
+    "how czn I find a healthcare provider who understands my foncerns about stigma stigma",
+    "are there any resources availsble to uh help me connect with othrrs who arr qlso considering PrEP",
+    "what steps can I take to feel more comfortable discussing PrEP with my like friends",
+    "how can i manage my anxiety about being open about my health hcoices?",
+    "1s there a w44ay to access PrEP discreetly if uh I’m worried about my orivacy"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What steps can I take to feel more comfortable discussing PrEP with my friends?",
+  "starter_noisy": "what steps can I take to feel more comfortable discussing PrEP with my like friends",
+  "followup_index": 0,
+  "followup_clean": "What are the potential side effects of taking PrEP that I should be aware of?",
+  "followup_noisy": "what are the potential side effects of taking prep that i 5h0ukd be aware of?",
+  "style_profile": {
+    "typo_rate": 0.07958755242408622,
+    "swap_rate": 0.04776256097058804,
+    "drop_rate": 0.033243450767006286,
+    "dup_rate": 0.016501387634007072,
+    "leet_rate": 0.08868728619665936,
+    "start_lower_prob": 0.8806832688134562,
+    "all_lower_prob": 0.16636305843528976,
+    "drop_punct_prob": 0.49268014963081874,
+    "double_space_prob": 0.15151898914883724,
+    "ellipsis_prob": 0.33109489568477063,
+    "runon_prob": 0.15455845966322765,
+    "filler_rate": 0.46124166851852777,
+    "emoji_rate": 0.1626312451645396,
+    "stutter_rate": 0.15707804718034163,
+    "repeat_last_rate": 0.13557778612358126
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of judgment and stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are feeling socially isolated and worried about how your peers might react to you taking PrEP. This fear makes it difficult for you to seek out information or support, as you worry about being judged or misunderstood. Despite your concerns, you are hopeful that PrEP could be a positive step for your health and well-being.\",\n  \"example_questions\": [\n    \"What are the potential side effects of taking PrEP that I should be aware of?\",\n    \"How can I find a healthcare provider who understands my concerns about stigma?\",\n    \"Are there any resources available to help me connect with others who are also considering PrEP?\",\n    \"What steps can I take to feel more comfortable discussing PrEP with my friends?\",\n    \"How can I manage my anxiety about being open about my health choices?\",\n    \"Is there a way to access PrEP discreetly if I’m worried about my privacy?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3bba8dfe1b240cad6dd8b5e55510516dbf9ce81beb8e4dc4c82a31cc1339e7da",
+  "_starter_hash": "ce066f7f65e3c0369504f91874ef785d141353e4241e7f4ce75796dc2079627f",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

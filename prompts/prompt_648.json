@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "male",
+    "socio_economic_status": "low-income",
+    "primary_concern": "how my mental health condition might affect my ability to take PrEP regularly",
+    "language": "English"
+  },
+  "context": "You are a young man living with schizophrenia and are concerned about your mental health impacting your adherence to PrEP. Stigma around both your condition and HIV prevention is a significant worry for you, which adds to your anxiety about starting this medication.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its importance for someone in my situation?",
+    "What support resources are available for people with mental health issues taking PrEP?",
+    "How can I manage the potential side effects of PrEP while living with schizophrenia?",
+    "What should I discuss with my healthcare provider regarding my unique challenges?",
+    "Are there specific programs that can help low-income individuals access PrEP?",
+    "How can I overcome the fear of stigma when considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and its importance for someone in my situation?",
+    "What support resources are available for people with mental health issues taking PrEP?",
+    "How can I manage the potential side effects of PrEP while living with schizophrenia?",
+    "What should I discuss with my healthcare provider regarding my unique challenges?",
+    "Are there specific programs that can help low-income individuals access PrEP?",
+    "How can I overcome the fear of stigma when considering PrEP?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "What should I discuss with my healthcare provider regarding my unique challenges?",
+  "starter_noisy": "What should I discuss with my healthcare provider regarding my unique challenges?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "followup_noisy": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"male\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"how my mental health condition might affect my ability to take PrEP regularly\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a young man living with schizophrenia and are concerned about your mental health impacting your adherence to PrEP. Stigma around both your condition and HIV prevention is a significant worry for you, which adds to your anxiety about starting this medication.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its importance for someone in my situation?\",\n    \"What support resources are available for people with mental health issues taking PrEP?\",\n    \"How can I manage the potential side effects of PrEP while living with schizophrenia?\",\n    \"What should I discuss with my healthcare provider regarding my unique challenges?\",\n    \"Are there specific programs that can help low-income individuals access PrEP?\",\n    \"How can I overcome the fear of stigma when considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "90c4484dd6c159cc7b672340f6e65ec4bf0f4702f72dd728d0d4cf4555bebbb3",
+  "_starter_hash": "87d8f085703fcf64c26862e4eae3e2760b56349401b172707a227a24ce49b7e7",
+  "_language": "English",
+  "_condition_hint": "living with schizophrenia",
+  "_model": "gpt-4o-mini"
+}

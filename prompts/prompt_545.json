@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle class",
+    "primary_concern": "navigating PrEP while managing mental health",
+    "language": "English"
+  },
+  "context": "As someone living with bipolar disorder, I often face challenges related to my mental health that make it hard to stay consistent with medication. I'm worried about how starting PrEP might affect my mood swings or if it will feel overwhelming. The stigma around both my mental health and HIV prevention makes it even more difficult to talk about.",
+  "example_questions_clean": [
+    "How can I manage my mental health while starting PrEP?",
+    "Are there specific side effects of PrEP that might interact with bipolar disorder?",
+    "What support systems are available for someone like me considering PrEP?",
+    "How do I talk to my healthcare provider about my concerns regarding PrEP?",
+    "Is there any stigma I should be aware of when discussing PrEP with others?",
+    "What resources can help me understand the benefits and risks of PrEP?"
+  ],
+  "example_questions_noisy": [
+    "how can I idk manage my m3n74l health while starting PrEP?",
+    "um Are there specific side effects of PrPE that might itneract with bipolar disorder?",
+    "what support systems are availabl for 50me0n3 liks me considering PrEP",
+    "hos co o 74lk to my healthcare provider about my concerns regarding rPEP",
+    "is there any idk stigma I should be aware 0f whne discussing PrEP with others?",
+    "what resouces can help me understand the uh benefits and risks of PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "What resources can help me understand the benefits and risks of PrEP?",
+  "starter_noisy": "what resouces can help me understand the uh benefits and risks of PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How can I manage my mental health while starting PrEP?",
+  "followup_noisy": "how can I idk manage my m3n74l health while starting PrEP?",
+  "style_profile": {
+    "typo_rate": 0.06072498610255505,
+    "swap_rate": 0.04122693118436117,
+    "drop_rate": 0.03193991712906505,
+    "dup_rate": 0.014474693203872466,
+    "leet_rate": 0.07304795149292262,
+    "start_lower_prob": 0.8703084313561167,
+    "all_lower_prob": 0.33907207916544513,
+    "drop_punct_prob": 0.5528173136098142,
+    "double_space_prob": 0.16637539592396325,
+    "ellipsis_prob": 0.17539873126938466,
+    "runon_prob": 0.13655473211859342,
+    "filler_rate": 0.4753547148404046,
+    "emoji_rate": 0.18165905890510436,
+    "stutter_rate": 0.14316005603047055,
+    "repeat_last_rate": 0.09122255376050405
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle class\",\n    \"primary_concern\": \"navigating PrEP while managing mental health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As someone living with bipolar disorder, I often face challenges related to my mental health that make it hard to stay consistent with medication. I'm worried about how starting PrEP might affect my mood swings or if it will feel overwhelming. The stigma around both my mental health and HIV prevention makes it even more difficult to talk about.\",\n  \"example_questions\": [\n    \"How can I manage my mental health while starting PrEP?\",\n    \"Are there specific side effects of PrEP that might interact with bipolar disorder?\",\n    \"What support systems are available for someone like me considering PrEP?\",\n    \"How do I talk to my healthcare provider about my concerns regarding PrEP?\",\n    \"Is there any stigma I should be aware of when discussing PrEP with others?\",\n    \"What resources can help me understand the benefits and risks of PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "1224518eb4dd76b65ad794168389fd4afd7aa80ccc27b24231e617445d0e66b0",
+  "_starter_hash": "011b37d26e2e7c1030d34652843319784782fab6e4fccff9de7cdd6395eb9154",
+  "_language": "English",
+  "_condition_hint": "living with bipolar disorder",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 30,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "how to access PrEP given my past history with substance use",
+    "language": "English"
+  },
+  "context": "Navigating the healthcare system can feel overwhelming, especially with a past history of substance use. This can lead to fears about stigma and the potential judgment from healthcare providers. It's important to find clear information about PrEP and how it might fit into your life while considering the challenges you face.",
+  "example_questions_clean": [
+    "What steps can I take to talk to my doctor about starting PrEP?",
+    "Are there support groups for people with a history of substance use who are considering PrEP?",
+    "How can I address my concerns about stigma when seeking PrEP?",
+    "What resources are available to help low-income individuals access PrEP?",
+    "Can you explain how PrEP interacts with substances I may still be using?",
+    "What should I expect during my first appointment if I want to discuss PrEP?"
+  ],
+  "example_questions_noisy": [
+    "i-idk what steps can I taaake to talk to my d0c70r about starting rEP",
+    "are there support groups for people with 4 history of substance use who are considering PrEP?",
+    "h0w can I address my concerns about stigma when sreking um PrEP? 💀 💀",
+    "w-what resources 444re available 70 help low-income individuals um access PrEP",
+    "can you 3xpl41n how PrEP interacts with substances j may still be using?",
+    "What should I 3xpec7 during my irst 4ppo1n7men7 if I want to discuss PrEP?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "Are there support groups for people with a history of substance use who are considering PrEP?",
+  "starter_noisy": "are there support groups for people with 4 history of substance use who are considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to talk to my doctor about starting PrEP?",
+  "followup_noisy": "i-idk what steps can I taaake to talk to my d0c70r about starting rEP",
+  "style_profile": {
+    "typo_rate": 0.08698162286602176,
+    "swap_rate": 0.02373501327364587,
+    "drop_rate": 0.037515499407027905,
+    "dup_rate": 0.029418143205275873,
+    "leet_rate": 0.11127139299459515,
+    "start_lower_prob": 0.6567493468705752,
+    "all_lower_prob": 0.17988092409880016,
+    "drop_punct_prob": 0.32350625096618646,
+    "double_space_prob": 0.3470193789310284,
+    "ellipsis_prob": 0.2499482220554708,
+    "runon_prob": 0.24227828900880496,
+    "filler_rate": 0.271041405002766,
+    "emoji_rate": 0.3144863049729638,
+    "stutter_rate": 0.17299165413717837,
+    "repeat_last_rate": 0.08297499999486163
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 30,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"how to access PrEP given my past history with substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"Navigating the healthcare system can feel overwhelming, especially with a past history of substance use. This can lead to fears about stigma and the potential judgment from healthcare providers. It's important to find clear information about PrEP and how it might fit into your life while considering the challenges you face.\",\n  \"example_questions\": [\n    \"What steps can I take to talk to my doctor about starting PrEP?\",\n    \"Are there support groups for people with a history of substance use who are considering PrEP?\",\n    \"How can I address my concerns about stigma when seeking PrEP?\",\n    \"What resources are available to help low-income individuals access PrEP?\",\n    \"Can you explain how PrEP interacts with substances I may still be using?\",\n    \"What should I expect during my first appointment if I want to discuss PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "27537e95013bf15b803390d26215e3e4e04e39aa93aff26ee299b241530110dc",
+  "_starter_hash": "6ac6c3492fe9302589290e9e0c9d3f8d2086f3acc2f856cddd0cf6a192197bd0",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

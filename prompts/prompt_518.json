@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "understanding how PrEP can fit into my healthcare needs due to my learning disability",
+    "language": "English"
+  },
+  "context": "As a young woman living with a learning disability, accessing information about PrEP feels overwhelming and complicated. I often struggle to process medical information quickly, which makes me anxious about making decisions regarding my health. There is a fear of being judged for my learning disability when seeking help. I hope to find clear and simple answers about how PrEP works and how it could benefit me.",
+  "example_questions_clean": [
+    "What steps should I take to start PrEP if I have a learning disability?",
+    "Can you explain the benefits of PrEP in a way that's easy to understand?",
+    "Are there any resources available that cater to individuals with learning disabilities when it comes to PrEP?",
+    "How can I address my fears about talking to healthcare providers about PrEP?",
+    "What should I do if I feel confused or overwhelmed during the process of getting PrEP?",
+    "Is there a support system for people like me who are considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What steps 5h0uld I t4k3 uh to 5747r PrEP if I have a learning disability?",
+    "can you xplain the beenfits of Pr3P in a way that's easy tp understand",
+    "are 7her3 any resources available that cater 70 like individuals with learning disabilities when it comes to prep? 🤔 🤔",
+    "How can I address my fears about talking to healthcare providers about Pr3P? 😅",
+    "wat should I do if I feel confused or overwhelmed during i mean the process of getting PrEP?",
+    "is there a support systrm for people like me who are cojsidering prep"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What steps should I take to start PrEP if I have a learning disability?",
+  "starter_noisy": "What steps 5h0uld I t4k3 uh to 5747r PrEP if I have a learning disability?",
+  "followup_index": 1,
+  "followup_clean": "Can you explain the benefits of PrEP in a way that's easy to understand?",
+  "followup_noisy": "can you xplain the beenfits of Pr3P in a way that's easy tp understand",
+  "style_profile": {
+    "typo_rate": 0.09370033908484957,
+    "swap_rate": 0.05459108790265314,
+    "drop_rate": 0.04506960062444791,
+    "dup_rate": 0.02241364170445067,
+    "leet_rate": 0.081597534438453,
+    "start_lower_prob": 0.602295359940643,
+    "all_lower_prob": 0.1687067049339594,
+    "drop_punct_prob": 0.3775852788179372,
+    "double_space_prob": 0.3382910766892223,
+    "ellipsis_prob": 0.34122526363280564,
+    "runon_prob": 0.13221208525006736,
+    "filler_rate": 0.3891163316112216,
+    "emoji_rate": 0.24631578054466674,
+    "stutter_rate": 0.14523831302417756,
+    "repeat_last_rate": 0.13258779726498898
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"understanding how PrEP can fit into my healthcare needs due to my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman living with a learning disability, accessing information about PrEP feels overwhelming and complicated. I often struggle to process medical information quickly, which makes me anxious about making decisions regarding my health. There is a fear of being judged for my learning disability when seeking help. I hope to find clear and simple answers about how PrEP works and how it could benefit me.\",\n  \"example_questions\": [\n    \"What steps should I take to start PrEP if I have a learning disability?\",\n    \"Can you explain the benefits of PrEP in a way that's easy to understand?\",\n    \"Are there any resources available that cater to individuals with learning disabilities when it comes to PrEP?\",\n    \"How can I address my fears about talking to healthcare providers about PrEP?\",\n    \"What should I do if I feel confused or overwhelmed during the process of getting PrEP?\",\n    \"Is there a support system for people like me who are considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "7a072909f06694fe09b76271f7ba3788ccd35dca42e51f939b2c7717b6e756ff",
+  "_starter_hash": "0cd87308a1cf7fe629c4039435f49106f84731f4d96fe675458ff722e626d3de",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "managing depression while maintaining health",
+    "language": "English"
+  },
+  "context": "This individual is feeling overwhelmed due to their ongoing battle with depression, which makes it challenging to focus on their health and consider PrEP as a preventive measure. They are worried about how the stigma around their mental health might affect their access to healthcare services, including PrEP. They hope to gather information on how to prioritize their mental well-being alongside their sexual health, as they fear that starting PrEP could be an added stressor.",
+  "example_questions_clean": [
+    "How can I find a supportive healthcare provider who understands both my mental health and my interest in PrEP?",
+    "What are the potential side effects of PrEP, and could they impact my mental health?",
+    "Are there resources available specifically for individuals dealing with depression who are considering PrEP?",
+    "What steps can I take to ease my anxiety about starting PrEP while managing my current emotional challenges?",
+    "Can you share any success stories of people who have navigated similar situations with PrEP and mental health?",
+    "How does starting PrEP affect people emotionally, particularly those with a history of depression?"
+  ],
+  "example_questions_noisy": [
+    "How can I find a supportive healthcare pr0v1d3r who understands both my mental h34l7h and you know my interest in Pr3P? 🙂",
+    "what are 7hr potential side 3ff3ct5 of PrEP and ... cold they impact my mental health",
+    "4r3 there resources available specifically for indviduals dealinf with depression whk are considering PrEP?",
+    "w-what steps can I taks to ease my anxiety about starting PrEP while managinb my current emotional challenges?",
+    "can you share any 5ucc35s s70r135 of peeeople who hafe navigated similar situations with PrEP and m3n74l healgh ‼️",
+    "h0w dos starring prep affect uh pe0pl3 emotionally particularly those w1th a history of depression"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How does starting PrEP affect people emotionally, particularly those with a history of depression?",
+  "starter_noisy": "h0w dos starring prep affect uh pe0pl3 emotionally particularly those w1th a history of depression",
+  "followup_index": 0,
+  "followup_clean": "How can I find a supportive healthcare provider who understands both my mental health and my interest in PrEP?",
+  "followup_noisy": "How can I find a supportive healthcare pr0v1d3r who understands both my mental h34l7h and you know my interest in Pr3P? 🙂",
+  "style_profile": {
+    "typo_rate": 0.1166983721015727,
+    "swap_rate": 0.024413637107377276,
+    "drop_rate": 0.045872666296965695,
+    "dup_rate": 0.027470079691233586,
+    "leet_rate": 0.11710854325255897,
+    "start_lower_prob": 0.7716960823770975,
+    "all_lower_prob": 0.16984435456304195,
+    "drop_punct_prob": 0.528125493500484,
+    "double_space_prob": 0.16875493097378108,
+    "ellipsis_prob": 0.27864453810477596,
+    "runon_prob": 0.28586194415331545,
+    "filler_rate": 0.29363484178826466,
+    "emoji_rate": 0.3083687024327228,
+    "stutter_rate": 0.10533612330318337,
+    "repeat_last_rate": 0.16892326348785144
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"managing depression while maintaining health\",\n    \"language\": \"English\"\n  },\n  \"context\": \"This individual is feeling overwhelmed due to their ongoing battle with depression, which makes it challenging to focus on their health and consider PrEP as a preventive measure. They are worried about how the stigma around their mental health might affect their access to healthcare services, including PrEP. They hope to gather information on how to prioritize their mental well-being alongside their sexual health, as they fear that starting PrEP could be an added stressor.\",\n  \"example_questions\": [\n    \"How can I find a supportive healthcare provider who understands both my mental health and my interest in PrEP?\",\n    \"What are the potential side effects of PrEP, and could they impact my mental health?\",\n    \"Are there resources available specifically for individuals dealing with depression who are considering PrEP?\",\n    \"What steps can I take to ease my anxiety about starting PrEP while managing my current emotional challenges?\",\n    \"Can you share any success stories of people who have navigated similar situations with PrEP and mental health?\",\n    \"How does starting PrEP affect people emotionally, particularly those with a history of depression?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "8122a4efe8e531766967a1830db7e7f720f317e3b9f5b0f7dbbd3b7554aaa377",
+  "_starter_hash": "308d6c03947e4bdd352cf5cde7d97c13e44574bc0215f6c5a64fa4b01eb160cf",
+  "_language": "English",
+  "_condition_hint": "experiencing depression",
+  "_model": "gpt-4o-mini"
+}

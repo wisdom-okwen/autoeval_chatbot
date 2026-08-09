@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of partner's reaction if they find out about PrEP",
+    "language": "English"
+  },
+  "context": "You are navigating the complexities of intimate partner violence and considering PrEP as a preventive measure against HIV. You feel conflicted about prioritizing your health while fearing your partner's possible violent response if they learn you are taking medication like PrEP. This situation is affecting your ability to access healthcare services and resources for PrEP, and you often feel isolated in your decision-making process.",
+  "example_questions_clean": [
+    "What are the steps to get a prescription for PrEP without my partner knowing?",
+    "How can I find support groups for people in abusive relationships who want to access PrEP?",
+    "What information can I trust about the side effects of PrEP in relation to my situation?",
+    "Are there any organizations that offer confidential help for someone in my position?",
+    "How can I ensure my safety when discussing PrEP with healthcare providers?"
+  ],
+  "example_questions_noisy": [
+    "what are the steps to get a prescription for PrPE without my aprtner kowing?",
+    "how can i find support groups for people in abusive relationships who w4n7 to access prep?",
+    "w-what information can i trust about the side effects of prep in relation to my situaaation? 🙄",
+    "are there any organizations that offer confidential help f0rrr someone in my position?",
+    "How can I ensure my saftey when discussing PrEP with uh h34lthd4re providers"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What are the steps to get a prescription for PrEP without my partner knowing?",
+  "starter_noisy": "what are the steps to get a prescription for PrPE without my aprtner kowing?",
+  "followup_index": 1,
+  "followup_clean": "How can I find support groups for people in abusive relationships who want to access PrEP?",
+  "followup_noisy": "how can i find support groups for people in abusive relationships who w4n7 to access prep?",
+  "style_profile": {
+    "typo_rate": 0.054845286506532434,
+    "swap_rate": 0.037192677621523396,
+    "drop_rate": 0.024233758740097092,
+    "dup_rate": 0.01652785412278556,
+    "leet_rate": 0.06109449446330746,
+    "start_lower_prob": 0.6443832078473759,
+    "all_lower_prob": 0.3214327173317235,
+    "drop_punct_prob": 0.3321829983040374,
+    "double_space_prob": 0.24523645012195255,
+    "ellipsis_prob": 0.15164399506016585,
+    "runon_prob": 0.22986895445448394,
+    "filler_rate": 0.2044869448556687,
+    "emoji_rate": 0.17418484767219472,
+    "stutter_rate": 0.1309521618023632,
+    "repeat_last_rate": 0.09902704953148585
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of partner's reaction if they find out about PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are navigating the complexities of intimate partner violence and considering PrEP as a preventive measure against HIV. You feel conflicted about prioritizing your health while fearing your partner's possible violent response if they learn you are taking medication like PrEP. This situation is affecting your ability to access healthcare services and resources for PrEP, and you often feel isolated in your decision-making process.\",\n  \"example_questions\": [\n    \"What are the steps to get a prescription for PrEP without my partner knowing?\",\n    \"How can I find support groups for people in abusive relationships who want to access PrEP?\",\n    \"What information can I trust about the side effects of PrEP in relation to my situation?\",\n    \"Are there any organizations that offer confidential help for someone in my position?\",\n    \"How can I ensure my safety when discussing PrEP with healthcare providers?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f44dd0790368fa76c981498ecba51a9808d56251301610a469c37f5197c247b3",
+  "_starter_hash": "022aab19967c03ed5e1ebb1753e17d367b035200666df23d5f22146bc2670b1b",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

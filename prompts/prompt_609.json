@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and access barriers due to past substance use",
+    "language": "English"
+  },
+  "context": "The user has a history of substance use, which has led to feelings of shame and fear regarding their health. They are worried that disclosing their history may lead to stigma from healthcare providers and impact their ability to access PrEP. This fear is compounded by their low-income status, making them concerned about the affordability and availability of PrEP in their area.",
+  "example_questions_clean": [
+    "What steps can I take to ensure I receive PrEP without facing judgment?",
+    "How do I discuss my past substance use with a healthcare provider when seeking PrEP?",
+    "Are there specific resources for low-income individuals looking for PrEP?",
+    "Can you explain how PrEP works and its importance for someone like me?",
+    "What should I do if I feel uncomfortable with the provider I initially see?",
+    "How can I build confidence in accessing PrEP given my past experiences?"
+  ],
+  "example_questions_noisy": [
+    "What steps can I take to ensure I receive PrEP without facing judgment?",
+    "How do I discuss my past substance use with a healthcare provider when seeking PrEP?",
+    "Are there specific resources for low-income individuals looking for PrEP?",
+    "Can you explain how PrEP works and its importance for someone like me?",
+    "What should I do if I feel uncomfortable with the provider I initially see?",
+    "How can I build confidence in accessing PrEP given my past experiences?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific resources for low-income individuals looking for PrEP?",
+  "starter_noisy": "Are there specific resources for low-income individuals looking for PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What steps can I take to ensure I receive PrEP without facing judgment?",
+  "followup_noisy": "What steps can I take to ensure I receive PrEP without facing judgment?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and access barriers due to past substance use\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a history of substance use, which has led to feelings of shame and fear regarding their health. They are worried that disclosing their history may lead to stigma from healthcare providers and impact their ability to access PrEP. This fear is compounded by their low-income status, making them concerned about the affordability and availability of PrEP in their area.\",\n  \"example_questions\": [\n    \"What steps can I take to ensure I receive PrEP without facing judgment?\",\n    \"How do I discuss my past substance use with a healthcare provider when seeking PrEP?\",\n    \"Are there specific resources for low-income individuals looking for PrEP?\",\n    \"Can you explain how PrEP works and its importance for someone like me?\",\n    \"What should I do if I feel uncomfortable with the provider I initially see?\",\n    \"How can I build confidence in accessing PrEP given my past experiences?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "e29e39f7a6f232d6f885183c73b7a30ea31b8106624fc7a565396fbf500c34f0",
+  "_starter_hash": "bf53b5814b51269b6b1076539af4cfcb27546944a3838f77bdece012a70f8cca",
+  "_language": "English",
+  "_condition_hint": "having a history of substance use",
+  "_model": "gpt-4o-mini"
+}

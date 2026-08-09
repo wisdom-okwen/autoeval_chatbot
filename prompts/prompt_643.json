@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Filipino",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "how to access PrEP without my partner knowing",
+    "language": "English"
+  },
+  "context": "You are currently experiencing intimate partner violence, which makes it challenging to prioritize your health and seek medical help. The fear of your partner's reaction adds to your stress and anxiety about accessing PrEP, and you are worried about the stigma associated with discussing your needs.",
+  "example_questions_clean": [
+    "What are the steps I can take to discreetly obtain PrEP?",
+    "Are there resources available specifically for individuals in abusive relationships seeking PrEP?",
+    "How can I address my fears about discussing my health with a healthcare provider?",
+    "Is there a way to get support for my situation while considering PrEP?",
+    "What if I need help but am afraid of my partner's reaction?",
+    "Can you help me understand what PrEP involves before I make a decision?"
+  ],
+  "example_questions_noisy": [
+    "What are the steps I can take to discreetly obtain PrEP?",
+    "Are there resources available specifically for individuals in abusive relationships seeking PrEP?",
+    "How can I address my fears about discussing my health with a healthcare provider?",
+    "Is there a way to get support for my situation while considering PrEP?",
+    "What if I need help but am afraid of my partner's reaction?",
+    "Can you help me understand what PrEP involves before I make a decision?"
+  ],
+  "starter_index": 3,
+  "starter_clean": "Is there a way to get support for my situation while considering PrEP?",
+  "starter_noisy": "Is there a way to get support for my situation while considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps I can take to discreetly obtain PrEP?",
+  "followup_noisy": "What are the steps I can take to discreetly obtain PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Filipino\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"how to access PrEP without my partner knowing\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing intimate partner violence, which makes it challenging to prioritize your health and seek medical help. The fear of your partner's reaction adds to your stress and anxiety about accessing PrEP, and you are worried about the stigma associated with discussing your needs.\",\n  \"example_questions\": [\n    \"What are the steps I can take to discreetly obtain PrEP?\",\n    \"Are there resources available specifically for individuals in abusive relationships seeking PrEP?\",\n    \"How can I address my fears about discussing my health with a healthcare provider?\",\n    \"Is there a way to get support for my situation while considering PrEP?\",\n    \"What if I need help but am afraid of my partner's reaction?\",\n    \"Can you help me understand what PrEP involves before I make a decision?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "70e0b2305185af12b6129760e8d75af33dd9b40169782fa25bd55ce05c9ead67",
+  "_starter_hash": "d887a6af62bcb0b9e9db74101c130564a26393c705445f80f53456af97afaf8e",
+  "_language": "English",
+  "_condition_hint": "dealing with intimate partner violence",
+  "_model": "gpt-4o-mini"
+}

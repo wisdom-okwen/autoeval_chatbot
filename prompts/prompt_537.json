@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 24,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "understanding how to take PrEP effectively with my learning disability",
+    "language": "English"
+  },
+  "context": "The user has a learning disability that makes processing medical information more challenging. She often feels anxious about understanding the instructions for taking PrEP, fearing that she might forget important steps or details. This anxiety is compounded by her low income, which makes accessing healthcare support more difficult. She hopes to find clear and straightforward information to help her manage her health effectively.",
+  "example_questions_clean": [
+    "What are the key points I should remember when taking PrEP?",
+    "How can I make sure I don't miss a dose of PrEP?",
+    "Are there resources available specifically for people with learning disabilities regarding PrEP?",
+    "How can I discuss my concerns about PrEP with my healthcare provider?",
+    "What should I do if I have trouble understanding the information given to me about PrEP?",
+    "Can you recommend any support groups for people like me who are considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "what are the k3y points I should remember when taking PrEPPP? PrEPPP?",
+    "How can I make sure I don't miss a dose of PrEP?",
+    "4re 7h3r3 resources available specifically for p30pl3 with learning disabilities regarding PrEP 😕",
+    "h-how can I discuss my concerns idk abkut PrEP with my healthcare provider?",
+    "what should I do if I have trouble understanding the information idk g1vn to me about PrEP?",
+    "can you recommend any support groups for people liek me who are considering PrEP"
+  ],
+  "starter_index": 1,
+  "starter_clean": "How can I make sure I don't miss a dose of PrEP?",
+  "starter_noisy": "How can I make sure I don't miss a dose of PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the key points I should remember when taking PrEP?",
+  "followup_noisy": "what are the k3y points I should remember when taking PrEPPP? PrEPPP?",
+  "style_profile": {
+    "typo_rate": 0.059875773867134045,
+    "swap_rate": 0.024915340893008328,
+    "drop_rate": 0.04074566277534022,
+    "dup_rate": 0.02920711359947266,
+    "leet_rate": 0.06394909010840938,
+    "start_lower_prob": 0.8072018251632482,
+    "all_lower_prob": 0.302008734685426,
+    "drop_punct_prob": 0.5367775203074003,
+    "double_space_prob": 0.34696155624686575,
+    "ellipsis_prob": 0.26430623139033793,
+    "runon_prob": 0.22265855134973422,
+    "filler_rate": 0.2648564664031722,
+    "emoji_rate": 0.17287906655098872,
+    "stutter_rate": 0.14272901868541588,
+    "repeat_last_rate": 0.148959928773562
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 24,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"understanding how to take PrEP effectively with my learning disability\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user has a learning disability that makes processing medical information more challenging. She often feels anxious about understanding the instructions for taking PrEP, fearing that she might forget important steps or details. This anxiety is compounded by her low income, which makes accessing healthcare support more difficult. She hopes to find clear and straightforward information to help her manage her health effectively.\",\n  \"example_questions\": [\n    \"What are the key points I should remember when taking PrEP?\",\n    \"How can I make sure I don't miss a dose of PrEP?\",\n    \"Are there resources available specifically for people with learning disabilities regarding PrEP?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider?\",\n    \"What should I do if I have trouble understanding the information given to me about PrEP?\",\n    \"Can you recommend any support groups for people like me who are considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "be18b1ae680e09120258a2180cc04e4d97256ee29762d33fefede2cedaa4f76b",
+  "_starter_hash": "457586f8a43a34d9e5fb32ad8627b60e2e40fa9110c45eb8a07e70c184115997",
+  "_language": "English",
+  "_condition_hint": "having a learning disability",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and judgment from healthcare providers",
+    "language": "English"
+  },
+  "context": "You are living with PTSD and are worried that discussing your mental health will affect your ability to access PrEP. You fear being judged by healthcare providers and struggle with feelings of shame, which make it hard to seek help. You want to know how to approach this sensitive topic without feeling vulnerable or stigmatized.",
+  "example_questions_clean": [
+    "How can I talk to my doctor about PrEP without feeling judged because of my PTSD?",
+    "What resources are available for someone like me who fears stigma when seeking PrEP?",
+    "Are there specific healthcare providers who are more understanding of mental health challenges?",
+    "How can I overcome my fears about accessing PrEP given my past experiences?",
+    "Is it common for people with PTSD to have concerns about accessing medications like PrEP?",
+    "What should I do if I feel uncomfortable discussing my PTSD in a medical setting?"
+  ],
+  "example_questions_noisy": [
+    "how can I talk to my doctor about PrPE without feeling judged because of my i mean PTSD",
+    "what resources zre aailable for osmeone like me who fears stigma whn seeking PrEP",
+    "are there uh specific healthcare pr0v1d3r5 who are more understanding of mental health challenges? 😭",
+    "how can i ov3rc0me my fears about accessing prep given my past experiences?",
+    "15 1t c0mm0n for people with PTSD to have c0nc3rn5 idk about accessing medications like PrEP",
+    "what should 1 do if i feel unc0mf0r74bl3 discussing my ptsd in a medical like estting?"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What resources are available for someone like me who fears stigma when seeking PrEP?",
+  "starter_noisy": "what resources zre aailable for osmeone like me who fears stigma whn seeking PrEP",
+  "followup_index": 0,
+  "followup_clean": "How can I talk to my doctor about PrEP without feeling judged because of my PTSD?",
+  "followup_noisy": "how can I talk to my doctor about PrPE without feeling judged because of my i mean PTSD",
+  "style_profile": {
+    "typo_rate": 0.06853675620593357,
+    "swap_rate": 0.02929058584658442,
+    "drop_rate": 0.04530597453846112,
+    "dup_rate": 0.01132999429507633,
+    "leet_rate": 0.0927928404561885,
+    "start_lower_prob": 0.8271647190522985,
+    "all_lower_prob": 0.21068952550279532,
+    "drop_punct_prob": 0.38038163463778424,
+    "double_space_prob": 0.2963137522443894,
+    "ellipsis_prob": 0.15449812635719207,
+    "runon_prob": 0.2500208011844228,
+    "filler_rate": 0.4366879223364217,
+    "emoji_rate": 0.23862673365286852,
+    "stutter_rate": 0.16837217105234098,
+    "repeat_last_rate": 0.1614792858314197
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and judgment from healthcare providers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are living with PTSD and are worried that discussing your mental health will affect your ability to access PrEP. You fear being judged by healthcare providers and struggle with feelings of shame, which make it hard to seek help. You want to know how to approach this sensitive topic without feeling vulnerable or stigmatized.\",\n  \"example_questions\": [\n    \"How can I talk to my doctor about PrEP without feeling judged because of my PTSD?\",\n    \"What resources are available for someone like me who fears stigma when seeking PrEP?\",\n    \"Are there specific healthcare providers who are more understanding of mental health challenges?\",\n    \"How can I overcome my fears about accessing PrEP given my past experiences?\",\n    \"Is it common for people with PTSD to have concerns about accessing medications like PrEP?\",\n    \"What should I do if I feel uncomfortable discussing my PTSD in a medical setting?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "cce03768c569b1ffc5b2035e5d56cf363aaa8c8ff201dd00901c8e2471ffcc17",
+  "_starter_hash": "c946e442c19dd58fcf1c69bcb03c80c857b81d47a28dbe7c333247b0b0545d85",
+  "_language": "English",
+  "_condition_hint": "experiencing PTSD",
+  "_model": "gpt-4o-mini"
+}

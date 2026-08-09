@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "fear of side effects and interactions with ongoing medications",
+    "language": "English"
+  },
+  "context": "The user is a 34-year-old American woman who is recovering from cancer treatment. She is navigating the emotional challenges of her recovery, including fear of new medications that might interfere with her health. The stigma surrounding her past illness makes her hesitant to discuss sexual health openly. She feels hopeful about the future but is wary of the potential implications of starting PrEP, especially concerning side effects and interactions with her current medications.",
+  "example_questions_clean": [
+    "What should I consider before starting PrEP given my recent cancer treatment?",
+    "Are there any specific side effects of PrEP that I should be worried about?",
+    "How can I address my concerns about taking PrEP with my healthcare provider?",
+    "Is it safe to use PrEP along with the medications I am currently taking?",
+    "What resources are available for someone in my situation to learn more about PrEP?",
+    "Can you help me understand how to navigate conversations about sexual health after treatment?"
+  ],
+  "example_questions_noisy": [
+    "Wh47 should 1 consider before starting PrEP give my recent ancer treatment?",
+    "Are there any specific sied effects of PrEP that I should be worried about? 😬 😬",
+    "how can I address my concerns about taking PrEP w17h ny healthcare pr0v1d3r 🙄",
+    "is it safe to use PdEP along with the medications I an curr3n7ly taking?",
+    "What resohrces are available for someone in my situation to learn moee about PrEP 😕",
+    "c-can you help me understand how to navigate conversations about sexual health after treatment?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Can you help me understand how to navigate conversations about sexual health after treatment?",
+  "starter_noisy": "c-can you help me understand how to navigate conversations about sexual health after treatment?",
+  "followup_index": 0,
+  "followup_clean": "What should I consider before starting PrEP given my recent cancer treatment?",
+  "followup_noisy": "Wh47 should 1 consider before starting PrEP give my recent ancer treatment?",
+  "style_profile": {
+    "typo_rate": 0.10891571956262697,
+    "swap_rate": 0.023032091322575818,
+    "drop_rate": 0.03694152741525131,
+    "dup_rate": 0.02113872469266987,
+    "leet_rate": 0.1027391748461566,
+    "start_lower_prob": 0.6690737353351758,
+    "all_lower_prob": 0.21646963888044238,
+    "drop_punct_prob": 0.31469334515152547,
+    "double_space_prob": 0.15945992831053113,
+    "ellipsis_prob": 0.31186224242480165,
+    "runon_prob": 0.22672550398111171,
+    "filler_rate": 0.2413890573047617,
+    "emoji_rate": 0.2563374367926284,
+    "stutter_rate": 0.19946885512399912,
+    "repeat_last_rate": 0.14187491266672586
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"fear of side effects and interactions with ongoing medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a 34-year-old American woman who is recovering from cancer treatment. She is navigating the emotional challenges of her recovery, including fear of new medications that might interfere with her health. The stigma surrounding her past illness makes her hesitant to discuss sexual health openly. She feels hopeful about the future but is wary of the potential implications of starting PrEP, especially concerning side effects and interactions with her current medications.\",\n  \"example_questions\": [\n    \"What should I consider before starting PrEP given my recent cancer treatment?\",\n    \"Are there any specific side effects of PrEP that I should be worried about?\",\n    \"How can I address my concerns about taking PrEP with my healthcare provider?\",\n    \"Is it safe to use PrEP along with the medications I am currently taking?\",\n    \"What resources are available for someone in my situation to learn more about PrEP?\",\n    \"Can you help me understand how to navigate conversations about sexual health after treatment?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "f979ec190e1c7c048bf8badf1b33d00561cc685954d697a424d79ee0e3051f35",
+  "_starter_hash": "9598248bb8ea5f379a72398b692df2430cca98cd7b24ca726acbabee5e8187a4",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Brazilian",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "lower middle class",
+    "primary_concern": "fear of stigma and judgment from others",
+    "language": "English"
+  },
+  "context": "The user is a young woman living in Brazil who struggles with low self-esteem. She worries that seeking PrEP could expose her to judgment from her peers, making her feel more vulnerable. This fear affects her willingness to access healthcare resources, even though she wants to take proactive steps for her health. She hopes to find a safe space to learn about PrEP without the burden of stigma.",
+  "example_questions_clean": [
+    "What are the steps to start taking PrEP?",
+    "How can I overcome my fear of discussing PrEP with healthcare providers?",
+    "Are there any support groups for people considering PrEP?",
+    "Can PrEP help reduce anxiety related to HIV transmission?",
+    "What should I expect during my first appointment regarding PrEP?"
+  ],
+  "example_questions_noisy": [
+    "wyat are the steps to start 74k1ng PrEP 🙄",
+    "How can I overcome my fear of discussing PrEP with healthcare providers",
+    "are there aaany support groups for people considering PrEP?",
+    "Can PrEP help reduce anxiety related to HIV trabsmission? ✨",
+    "what should i expect during ,y idk first appointment r3g4rd1ng prep?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there any support groups for people considering PrEP?",
+  "starter_noisy": "are there aaany support groups for people considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What are the steps to start taking PrEP?",
+  "followup_noisy": "wyat are the steps to start 74k1ng PrEP 🙄",
+  "style_profile": {
+    "typo_rate": 0.08769458314915377,
+    "swap_rate": 0.03111396015127086,
+    "drop_rate": 0.033548547077892496,
+    "dup_rate": 0.014358553545916836,
+    "leet_rate": 0.0965766782393123,
+    "start_lower_prob": 0.6217657256760101,
+    "all_lower_prob": 0.15666860835320484,
+    "drop_punct_prob": 0.36044349021269234,
+    "double_space_prob": 0.3031156596510747,
+    "ellipsis_prob": 0.30597636445376714,
+    "runon_prob": 0.1748548582874818,
+    "filler_rate": 0.32835422052076424,
+    "emoji_rate": 0.3274292141192571,
+    "stutter_rate": 0.16753592057705502,
+    "repeat_last_rate": 0.09038187219936533
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Brazilian\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower middle class\",\n    \"primary_concern\": \"fear of stigma and judgment from others\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a young woman living in Brazil who struggles with low self-esteem. She worries that seeking PrEP could expose her to judgment from her peers, making her feel more vulnerable. This fear affects her willingness to access healthcare resources, even though she wants to take proactive steps for her health. She hopes to find a safe space to learn about PrEP without the burden of stigma.\",\n  \"example_questions\": [\n    \"What are the steps to start taking PrEP?\",\n    \"How can I overcome my fear of discussing PrEP with healthcare providers?\",\n    \"Are there any support groups for people considering PrEP?\",\n    \"Can PrEP help reduce anxiety related to HIV transmission?\",\n    \"What should I expect during my first appointment regarding PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "223d1e3d41cd3cfc9d9d68ef533123c8a916a13fc1e9acee23e5a7eaeb10ecff",
+  "_starter_hash": "24835cfd66b30ec4a98a06fc4ebbcf4ba720b5d6938bae6fab9c5b3f8ce2eeeb",
+  "_language": "English",
+  "_condition_hint": "struggling with self-esteem",
+  "_model": "gpt-4o-mini"
+}

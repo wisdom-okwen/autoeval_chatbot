@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "concerns about managing chronic pain while on PrEP",
+    "language": "English"
+  },
+  "context": "You are a 35-year-old woman living in Canada, facing the challenges of chronic pain, which often affects your daily life and mental health. You worry about how PrEP may interact with your pain management medications and whether your healthcare provider will understand your unique situation. The stigma around discussing both your pain and sexual health makes you hesitant to seek more information.",
+  "example_questions_clean": [
+    "How can I ensure that taking PrEP won't interfere with my pain management routine?",
+    "What should I discuss with my doctor to feel comfortable about starting PrEP?",
+    "Are there specific resources available for people like me who have chronic pain?",
+    "Is it common for someone with my condition to be on PrEP, or is it seen as unusual?",
+    "What support options exist for individuals taking PrEP who also manage chronic health issues?"
+  ],
+  "example_questions_noisy": [
+    "How can I ensure that taking PrEP won't interfere with my pain management routine?",
+    "What should I discuss with my doctor to feel comfortable about starting PrEP?",
+    "Are there specific resources available for people like me who have chronic pain?",
+    "Is it common for someone with my condition to be on PrEP, or is it seen as unusual?",
+    "What support options exist for individuals taking PrEP who also manage chronic health issues?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there specific resources available for people like me who have chronic pain?",
+  "starter_noisy": "Are there specific resources available for people like me who have chronic pain?",
+  "followup_index": 0,
+  "followup_clean": "How can I ensure that taking PrEP won't interfere with my pain management routine?",
+  "followup_noisy": "How can I ensure that taking PrEP won't interfere with my pain management routine?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"concerns about managing chronic pain while on PrEP\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are a 35-year-old woman living in Canada, facing the challenges of chronic pain, which often affects your daily life and mental health. You worry about how PrEP may interact with your pain management medications and whether your healthcare provider will understand your unique situation. The stigma around discussing both your pain and sexual health makes you hesitant to seek more information.\",\n  \"example_questions\": [\n    \"How can I ensure that taking PrEP won't interfere with my pain management routine?\",\n    \"What should I discuss with my doctor to feel comfortable about starting PrEP?\",\n    \"Are there specific resources available for people like me who have chronic pain?\",\n    \"Is it common for someone with my condition to be on PrEP, or is it seen as unusual?\",\n    \"What support options exist for individuals taking PrEP who also manage chronic health issues?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "85e97210bbb810a02837622a9b23e5cfa6085f01ba28c25556e78879b69f630e",
+  "_starter_hash": "4811f98c5732b9a2178c326c5697c368a5e1ac38117f6b6d893084c21e776ae5",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

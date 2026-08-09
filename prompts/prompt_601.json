@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "lower-middle class",
+    "primary_concern": "fear of stigma from peers",
+    "language": "English"
+  },
+  "context": "The user feels socially isolated due to their personal condition, which makes them anxious about seeking information regarding PrEP. They worry about how their peers might react if they find out about their need for it, leading to feelings of shame and fear of judgment. This isolation also prevents them from accessing support networks that could help ease their concerns.",
+  "example_questions_clean": [
+    "What is PrEP and how does it work for someone in my situation?",
+    "Are there any support groups available for people like me who are considering PrEP?",
+    "What should I do if I feel nervous about discussing PrEP with my healthcare provider?",
+    "Can you explain how to access PrEP confidentially without facing stigma?",
+    "What are some common misconceptions about PrEP that I should be aware of?",
+    "How can I cope with feelings of isolation while considering PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What is PrEP and how does it work for someone in my situation?",
+    "Are there any support groups available for people like me who are considering PrEP?",
+    "What should I do if I feel nervous about discussing PrEP with my healthcare provider?",
+    "Can you explain how to access PrEP confidentially without facing stigma?",
+    "What are some common misconceptions about PrEP that I should be aware of?",
+    "How can I cope with feelings of isolation while considering PrEP?"
+  ],
+  "starter_index": 0,
+  "starter_clean": "What is PrEP and how does it work for someone in my situation?",
+  "starter_noisy": "What is PrEP and how does it work for someone in my situation?",
+  "followup_index": 1,
+  "followup_clean": "Are there any support groups available for people like me who are considering PrEP?",
+  "followup_noisy": "Are there any support groups available for people like me who are considering PrEP?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"lower-middle class\",\n    \"primary_concern\": \"fear of stigma from peers\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user feels socially isolated due to their personal condition, which makes them anxious about seeking information regarding PrEP. They worry about how their peers might react if they find out about their need for it, leading to feelings of shame and fear of judgment. This isolation also prevents them from accessing support networks that could help ease their concerns.\",\n  \"example_questions\": [\n    \"What is PrEP and how does it work for someone in my situation?\",\n    \"Are there any support groups available for people like me who are considering PrEP?\",\n    \"What should I do if I feel nervous about discussing PrEP with my healthcare provider?\",\n    \"Can you explain how to access PrEP confidentially without facing stigma?\",\n    \"What are some common misconceptions about PrEP that I should be aware of?\",\n    \"How can I cope with feelings of isolation while considering PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "42065b63d8339a35a776190fc076f051bcb0d87e27c994462ba23fd25754ee28",
+  "_starter_hash": "d5591c2923b2e95d1386b35af6c091a03c368c34eac69bba73aee3e7e27b2594",
+  "_language": "English",
+  "_condition_hint": "feeling socially isolated",
+  "_model": "gpt-4o-mini"
+}

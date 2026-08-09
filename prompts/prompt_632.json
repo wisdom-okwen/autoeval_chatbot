@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 28,
+    "gender": "female",
+    "socio_economic_status": "low-income",
+    "primary_concern": "fear of stigma and accessing healthcare services",
+    "language": "English"
+  },
+  "context": "The user is experiencing homelessness, which has made it challenging to maintain a consistent healthcare routine. They often feel anxious about seeking medical assistance due to fears of judgment and the complexities of navigating health services without stable housing. This situation creates emotional barriers, as they hope for a way to protect themselves from HIV but worry about the potential stigma associated with PrEP.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its importance for someone in my situation?",
+    "What are the best ways to access PrEP without stable housing?",
+    "How can I overcome the fear of judgment when seeking PrEP services?",
+    "Are there support groups available for people like me considering PrEP?",
+    "What resources can help me understand my options if I face barriers to getting PrEP?",
+    "Is there any assistance for low-income individuals needing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can you explain how PrEP works and its importance for someone in my situation?",
+    "What are the best ways to access PrEP without stable housing?",
+    "How can I overcome the fear of judgment when seeking PrEP services?",
+    "Are there support groups available for people like me considering PrEP?",
+    "What resources can help me understand my options if I face barriers to getting PrEP?",
+    "Is there any assistance for low-income individuals needing PrEP?"
+  ],
+  "starter_index": 4,
+  "starter_clean": "What resources can help me understand my options if I face barriers to getting PrEP?",
+  "starter_noisy": "What resources can help me understand my options if I face barriers to getting PrEP?",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "followup_noisy": "Can you explain how PrEP works and its importance for someone in my situation?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 28,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low-income\",\n    \"primary_concern\": \"fear of stigma and accessing healthcare services\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is experiencing homelessness, which has made it challenging to maintain a consistent healthcare routine. They often feel anxious about seeking medical assistance due to fears of judgment and the complexities of navigating health services without stable housing. This situation creates emotional barriers, as they hope for a way to protect themselves from HIV but worry about the potential stigma associated with PrEP.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its importance for someone in my situation?\",\n    \"What are the best ways to access PrEP without stable housing?\",\n    \"How can I overcome the fear of judgment when seeking PrEP services?\",\n    \"Are there support groups available for people like me considering PrEP?\",\n    \"What resources can help me understand my options if I face barriers to getting PrEP?\",\n    \"Is there any assistance for low-income individuals needing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "aee263822a899f6d6367127033e4b89cd8c4431a4525403ca5fa703a4d07f3a6",
+  "_starter_hash": "b2100c468df3a06c1fde5b8b2575ca3483edfa32afa237da45e6e87102438495",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

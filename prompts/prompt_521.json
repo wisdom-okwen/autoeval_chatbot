@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 35,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "how PrEP may interact with my current health conditions and medications",
+    "language": "English"
+  },
+  "context": "The user is a woman recovering from cancer treatment and is concerned about her health moving forward. She is hopeful about maintaining her well-being but fears that starting PrEP could complicate her recovery or interact negatively with her ongoing medications. This creates a sense of anxiety around accessing PrEP due to potential stigma or misunderstandings about her situation.",
+  "example_questions_clean": [
+    "Can you explain how PrEP works and its benefits for someone like me?",
+    "What should I be aware of regarding drug interactions with my current medications?",
+    "Are there any specific health concerns I should discuss with my doctor before starting PrEP?",
+    "How can I find support for any stigma I might face when considering PrEP?",
+    "What resources are available to help individuals with a cancer history access PrEP?",
+    "Is it common for patients in recovery to use PrEP, and what has their experience been?"
+  ],
+  "example_questions_noisy": [
+    "Can idk you explin how PrEP works and its benefits for someone ike me? ✨",
+    "what should i um be aawre 0f r3g4r1dng drug interactipppns with my current medications?",
+    "a-are there any um specific h34l7h concerns I should discuss with myyy doctor before starting PrEP? PrEP?",
+    "how can I find support for any stigma k mght you know face when consdiering PrEP?",
+    "what r350ucr3s are available to hel individuals with 4 cancer hi5t0ry i mean cacess PrEP?",
+    "is it common f0r patients in recovery to use PrEP and hqat has their experience been"
+  ],
+  "starter_index": 5,
+  "starter_clean": "Is it common for patients in recovery to use PrEP, and what has their experience been?",
+  "starter_noisy": "is it common f0r patients in recovery to use PrEP and hqat has their experience been",
+  "followup_index": 0,
+  "followup_clean": "Can you explain how PrEP works and its benefits for someone like me?",
+  "followup_noisy": "Can idk you explin how PrEP works and its benefits for someone ike me? ✨",
+  "style_profile": {
+    "typo_rate": 0.07433750960488156,
+    "swap_rate": 0.04832451309680187,
+    "drop_rate": 0.045977641559928915,
+    "dup_rate": 0.011470882432122204,
+    "leet_rate": 0.11355462966319947,
+    "start_lower_prob": 0.8958401632762003,
+    "all_lower_prob": 0.2193814454719749,
+    "drop_punct_prob": 0.4624206503518714,
+    "double_space_prob": 0.17181212463461973,
+    "ellipsis_prob": 0.28508490063190406,
+    "runon_prob": 0.2588480367406624,
+    "filler_rate": 0.3192758608199668,
+    "emoji_rate": 0.30093228001800604,
+    "stutter_rate": 0.15536243818696016,
+    "repeat_last_rate": 0.1494971068781341
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 35,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"how PrEP may interact with my current health conditions and medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"The user is a woman recovering from cancer treatment and is concerned about her health moving forward. She is hopeful about maintaining her well-being but fears that starting PrEP could complicate her recovery or interact negatively with her ongoing medications. This creates a sense of anxiety around accessing PrEP due to potential stigma or misunderstandings about her situation.\",\n  \"example_questions\": [\n    \"Can you explain how PrEP works and its benefits for someone like me?\",\n    \"What should I be aware of regarding drug interactions with my current medications?\",\n    \"Are there any specific health concerns I should discuss with my doctor before starting PrEP?\",\n    \"How can I find support for any stigma I might face when considering PrEP?\",\n    \"What resources are available to help individuals with a cancer history access PrEP?\",\n    \"Is it common for patients in recovery to use PrEP, and what has their experience been?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "59e49bc669ec90223cbc0c16f0a3efcc62c746ccce6a5eec034d44516bea1d19",
+  "_starter_hash": "c24f67e1cbd1001b730535949a5660aa2e3eac560500f16352828ac40f587046",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

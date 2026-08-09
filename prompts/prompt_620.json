@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle-class",
+    "primary_concern": "worry about how PrEP may interact with pain management medications",
+    "language": "English"
+  },
+  "context": "You are living with chronic pain, which often affects your emotional well-being and makes it challenging to navigate healthcare options. The fear of potential interactions with your current medication has made you hesitant to explore PrEP, despite understanding its importance for your health. You hope to find a way to prioritize your sexual health without compromising your pain management.",
+  "example_questions_clean": [
+    "What should I know about PrEP if I'm on chronic pain medication?",
+    "Are there any specific considerations for someone with my condition when discussing PrEP with a healthcare provider?",
+    "How do I address my fears regarding the side effects of PrEP in relation to my pain management?",
+    "Can you suggest resources for individuals like me who are considering PrEP?",
+    "What support options are available for people facing stigma when accessing PrEP?",
+    "How can I ensure that my doctor understands my unique challenges when discussing PrEP?"
+  ],
+  "example_questions_noisy": [
+    "What should I know about PrEP if I'm on chronic pain medication?",
+    "Are there any specific considerations for someone with my condition when discussing PrEP with a healthcare provider?",
+    "How do I address my fears regarding the side effects of PrEP in relation to my pain management?",
+    "Can you suggest resources for individuals like me who are considering PrEP?",
+    "What support options are available for people facing stigma when accessing PrEP?",
+    "How can I ensure that my doctor understands my unique challenges when discussing PrEP?"
+  ],
+  "starter_index": 5,
+  "starter_clean": "How can I ensure that my doctor understands my unique challenges when discussing PrEP?",
+  "starter_noisy": "How can I ensure that my doctor understands my unique challenges when discussing PrEP?",
+  "followup_index": 0,
+  "followup_clean": "What should I know about PrEP if I'm on chronic pain medication?",
+  "followup_noisy": "What should I know about PrEP if I'm on chronic pain medication?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle-class\",\n    \"primary_concern\": \"worry about how PrEP may interact with pain management medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are living with chronic pain, which often affects your emotional well-being and makes it challenging to navigate healthcare options. The fear of potential interactions with your current medication has made you hesitant to explore PrEP, despite understanding its importance for your health. You hope to find a way to prioritize your sexual health without compromising your pain management.\",\n  \"example_questions\": [\n    \"What should I know about PrEP if I'm on chronic pain medication?\",\n    \"Are there any specific considerations for someone with my condition when discussing PrEP with a healthcare provider?\",\n    \"How do I address my fears regarding the side effects of PrEP in relation to my pain management?\",\n    \"Can you suggest resources for individuals like me who are considering PrEP?\",\n    \"What support options are available for people facing stigma when accessing PrEP?\",\n    \"How can I ensure that my doctor understands my unique challenges when discussing PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "58d8600d47765720c31bde924396bd78b96e3903e0fa6b3825ecf83e2fb71e85",
+  "_starter_hash": "3e2d6a266849e04d5b5dc08d1b81febd9d0236e78231f166bbff0a0741feab26",
+  "_language": "English",
+  "_condition_hint": "living with chronic pain",
+  "_model": "gpt-4o-mini"
+}

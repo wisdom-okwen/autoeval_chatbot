@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "low income",
+    "primary_concern": "fear of stigma and lack of access to healthcare resources",
+    "language": "English"
+  },
+  "context": "You are currently experiencing homelessness and are concerned about your health and the possibility of HIV. The instability in your living situation makes it difficult to maintain consistent healthcare, and you worry about judgment from healthcare providers when seeking PrEP. You want to know how to access PrEP without facing stigma or barriers due to your circumstances.",
+  "example_questions_clean": [
+    "What options do I have for obtaining PrEP while living in a shelter?",
+    "How can I ensure my privacy when discussing PrEP with healthcare professionals?",
+    "Are there support services available for people like me who want to start PrEP?",
+    "What are the potential side effects of PrEP that I should be aware of?",
+    "Can you help me understand how PrEP can fit into my current lifestyle?",
+    "Is there a way to get PrEP at low or no cost given my situation?"
+  ],
+  "example_questions_noisy": [
+    "what options do I haev for obtaining PrEP uh hile l1v1ng in a shelter?",
+    "how can i ensure my privacy when d15cus51ng prep with healthcare professionals?",
+    "are there support services available for people like me who want to start PrEP? 🙂",
+    "What are the you know potential side effects 0f PrEP that I should be aware of?",
+    "c-can ylu help me undertand how PrEP can fit into my current lifestyle? 😕",
+    "Is there q way to get Pr3P at low or no cost given my situation"
+  ],
+  "starter_index": 2,
+  "starter_clean": "Are there support services available for people like me who want to start PrEP?",
+  "starter_noisy": "are there support services available for people like me who want to start PrEP? 🙂",
+  "followup_index": 0,
+  "followup_clean": "What options do I have for obtaining PrEP while living in a shelter?",
+  "followup_noisy": "what options do I haev for obtaining PrEP uh hile l1v1ng in a shelter?",
+  "style_profile": {
+    "typo_rate": 0.09012054141171802,
+    "swap_rate": 0.026731708582944276,
+    "drop_rate": 0.03191988119466416,
+    "dup_rate": 0.010179350968540165,
+    "leet_rate": 0.06618460296856764,
+    "start_lower_prob": 0.6907926486533621,
+    "all_lower_prob": 0.25235674642562006,
+    "drop_punct_prob": 0.36454231333235915,
+    "double_space_prob": 0.30019816890431494,
+    "ellipsis_prob": 0.16355610945152346,
+    "runon_prob": 0.23171889349388927,
+    "filler_rate": 0.3481548878223249,
+    "emoji_rate": 0.23878047241963068,
+    "stutter_rate": 0.12565060921933607,
+    "repeat_last_rate": 0.15633551245897936
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"low income\",\n    \"primary_concern\": \"fear of stigma and lack of access to healthcare resources\",\n    \"language\": \"English\"\n  },\n  \"context\": \"You are currently experiencing homelessness and are concerned about your health and the possibility of HIV. The instability in your living situation makes it difficult to maintain consistent healthcare, and you worry about judgment from healthcare providers when seeking PrEP. You want to know how to access PrEP without facing stigma or barriers due to your circumstances.\",\n  \"example_questions\": [\n    \"What options do I have for obtaining PrEP while living in a shelter?\",\n    \"How can I ensure my privacy when discussing PrEP with healthcare professionals?\",\n    \"Are there support services available for people like me who want to start PrEP?\",\n    \"What are the potential side effects of PrEP that I should be aware of?\",\n    \"Can you help me understand how PrEP can fit into my current lifestyle?\",\n    \"Is there a way to get PrEP at low or no cost given my situation?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "71fa5ba05cf10ed1d4bf8e4d607cffdc51b0d04bd5ac420a3b5c45311e98b677",
+  "_starter_hash": "326df5dd7b12cbaeb981e2a88da0bfca1c01250594e5d14a7062a37a23e842d9",
+  "_language": "English",
+  "_condition_hint": "experiencing homelessness",
+  "_model": "gpt-4o-mini"
+}

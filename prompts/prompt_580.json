@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 29,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "worrying about the side effects of PrEP and how it might affect my anxiety",
+    "language": "English"
+  },
+  "context": "As a young woman managing an anxiety disorder, I often find myself overwhelmed by health-related decisions. The thought of starting PrEP makes me anxious, and I'm worried about potential side effects. Additionally, I feel uncertain about discussing this with healthcare providers due to the stigma around HIV prevention.",
+  "example_questions_clean": [
+    "How can PrEP affect my anxiety levels or mental health?",
+    "What support is available for someone like me who feels anxious about starting medication?",
+    "Are there common side effects of PrEP that could trigger my anxiety?",
+    "How do I approach my doctor about my concerns regarding PrEP?",
+    "Is it possible to find mental health support while on PrEP?",
+    "What resources exist to help me understand PrEP better without feeling judged?"
+  ],
+  "example_questions_noisy": [
+    "Howww can PrEP affect my anxiety levels or m3n74l health?",
+    "what support is available for someone lie me who feels anxious oaut starting medication ❓",
+    "are ther common side effects of prep that could trigger my anxiety?",
+    "How do I approach mt doctor about my concerns you know regarding PrEP 😬",
+    "is it possible to find mental health support while on PrEP 🙂 🙂",
+    "what resources exist to help me unders74nd PrEP better without feeling judged"
+  ],
+  "starter_index": 1,
+  "starter_clean": "What support is available for someone like me who feels anxious about starting medication?",
+  "starter_noisy": "what support is available for someone lie me who feels anxious oaut starting medication ❓",
+  "followup_index": 0,
+  "followup_clean": "How can PrEP affect my anxiety levels or mental health?",
+  "followup_noisy": "Howww can PrEP affect my anxiety levels or m3n74l health?",
+  "style_profile": {
+    "typo_rate": 0.06089573452444849,
+    "swap_rate": 0.029004364497218924,
+    "drop_rate": 0.046635461961878996,
+    "dup_rate": 0.015106585746189543,
+    "leet_rate": 0.08686532687983049,
+    "start_lower_prob": 0.7933587772707401,
+    "all_lower_prob": 0.3337769144725491,
+    "drop_punct_prob": 0.567450822560909,
+    "double_space_prob": 0.154750039389721,
+    "ellipsis_prob": 0.34658201172117786,
+    "runon_prob": 0.275416369393253,
+    "filler_rate": 0.253770811339593,
+    "emoji_rate": 0.3126697177678567,
+    "stutter_rate": 0.13084010562145212,
+    "repeat_last_rate": 0.12049863196766254
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 29,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"worrying about the side effects of PrEP and how it might affect my anxiety\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a young woman managing an anxiety disorder, I often find myself overwhelmed by health-related decisions. The thought of starting PrEP makes me anxious, and I'm worried about potential side effects. Additionally, I feel uncertain about discussing this with healthcare providers due to the stigma around HIV prevention.\",\n  \"example_questions\": [\n    \"How can PrEP affect my anxiety levels or mental health?\",\n    \"What support is available for someone like me who feels anxious about starting medication?\",\n    \"Are there common side effects of PrEP that could trigger my anxiety?\",\n    \"How do I approach my doctor about my concerns regarding PrEP?\",\n    \"Is it possible to find mental health support while on PrEP?\",\n    \"What resources exist to help me understand PrEP better without feeling judged?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "3be45a41ef35b1a4ec8769b7896be251454e2be139d3a6a101476514c010a75b",
+  "_starter_hash": "49664311783646bef6367b99c8b6b4969b1d652168e55208494b9e9d1f73d728",
+  "_language": "English",
+  "_condition_hint": "coping with anxiety disorder",
+  "_model": "gpt-4o-mini"
+}

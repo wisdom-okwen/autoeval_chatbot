@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "nationality": "Canadian",
+    "age": 34,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "potential side effects of PrEP given my recent health struggles",
+    "language": "English"
+  },
+  "context": "After undergoing cancer treatment, I am navigating a new reality where my health feels fragile. The thought of starting PrEP raises concerns about side effects and how it might affect my recovery. I want to ensure that I make the right choice for my health while also dealing with fears related to stigma and the unknown.",
+  "example_questions_clean": [
+    "How do the side effects of PrEP compare to those I experienced during treatment?",
+    "Is it common for people like me, with a history of serious illness, to start PrEP?",
+    "What should I discuss with my doctor before considering PrEP?",
+    "Can you explain how PrEP works in relation to my immune system after cancer treatment?",
+    "Are there support groups for individuals in similar situations who are considering PrEP?",
+    "What resources are available to help me understand the cost and access to PrEP?"
+  ],
+  "example_questions_noisy": [
+    "How do the side effects of PrEP compare to those I experienced during treatment?",
+    "Is it common for people like me, with a history of serious illness, to start PrEP?",
+    "What should I discuss with my doctor before considering PrEP?",
+    "Can you explain how PrEP works in relation to my immune system after cancer treatment?",
+    "Are there support groups for individuals in similar situations who are considering PrEP?",
+    "What resources are available to help me understand the cost and access to PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "What should I discuss with my doctor before considering PrEP?",
+  "starter_noisy": "What should I discuss with my doctor before considering PrEP?",
+  "followup_index": 0,
+  "followup_clean": "How do the side effects of PrEP compare to those I experienced during treatment?",
+  "followup_noisy": "How do the side effects of PrEP compare to those I experienced during treatment?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"Canadian\",\n    \"age\": 34,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"potential side effects of PrEP given my recent health struggles\",\n    \"language\": \"English\"\n  },\n  \"context\": \"After undergoing cancer treatment, I am navigating a new reality where my health feels fragile. The thought of starting PrEP raises concerns about side effects and how it might affect my recovery. I want to ensure that I make the right choice for my health while also dealing with fears related to stigma and the unknown.\",\n  \"example_questions\": [\n    \"How do the side effects of PrEP compare to those I experienced during treatment?\",\n    \"Is it common for people like me, with a history of serious illness, to start PrEP?\",\n    \"What should I discuss with my doctor before considering PrEP?\",\n    \"Can you explain how PrEP works in relation to my immune system after cancer treatment?\",\n    \"Are there support groups for individuals in similar situations who are considering PrEP?\",\n    \"What resources are available to help me understand the cost and access to PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "162833be1b5ec114ce4d82cdba437a36fd2c9433b7d7af775a8daebc3d896326",
+  "_starter_hash": "0db6daa71995c0d3ad2dca4d429f7df9d2b8749da1c72cad97658c93c4e185cd",
+  "_language": "English",
+  "_condition_hint": "recovering from cancer treatment",
+  "_model": "gpt-4o-mini"
+}

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "nationality": "American",
+    "age": 32,
+    "gender": "female",
+    "socio_economic_status": "middle_class",
+    "primary_concern": "potential drug interactions with MS medications",
+    "language": "English"
+  },
+  "context": "As a 32-year-old woman living with multiple sclerosis, you often find yourself navigating the complexities of managing your health. The prospect of starting PrEP brings about a mix of hope and concern. You worry about how the medication might interact with your current treatment regimen and whether it could exacerbate your symptoms. Additionally, the stigma surrounding both MS and HIV prevention leaves you feeling isolated and anxious about seeking more information.",
+  "example_questions_clean": [
+    "Can PrEP be safely taken alongside my MS medications without causing adverse effects?",
+    "What are the potential side effects of PrEP that I should be aware of in relation to my condition?",
+    "How can I discuss my concerns about PrEP with my healthcare provider effectively?",
+    "Are there specific resources available for people living with chronic conditions who are considering PrEP?",
+    "What steps can I take to ensure that I am making an informed decision about starting PrEP?"
+  ],
+  "example_questions_noisy": [
+    "Can PrEP be safely taken alongside my MS medications without causing adverse effects?",
+    "What are the potential side effects of PrEP that I should be aware of in relation to my condition?",
+    "How can I discuss my concerns about PrEP with my healthcare provider effectively?",
+    "Are there specific resources available for people living with chronic conditions who are considering PrEP?",
+    "What steps can I take to ensure that I am making an informed decision about starting PrEP?"
+  ],
+  "starter_index": 2,
+  "starter_clean": "How can I discuss my concerns about PrEP with my healthcare provider effectively?",
+  "starter_noisy": "How can I discuss my concerns about PrEP with my healthcare provider effectively?",
+  "followup_index": 0,
+  "followup_clean": "Can PrEP be safely taken alongside my MS medications without causing adverse effects?",
+  "followup_noisy": "Can PrEP be safely taken alongside my MS medications without causing adverse effects?",
+  "style_profile": {
+    "typo_rate": 0.0,
+    "swap_rate": 0.0,
+    "drop_rate": 0.0,
+    "dup_rate": 0.0,
+    "leet_rate": 0.0,
+    "start_lower_prob": 0.0,
+    "all_lower_prob": 0.0,
+    "drop_punct_prob": 0.0,
+    "double_space_prob": 0.0,
+    "ellipsis_prob": 0.0,
+    "runon_prob": 0.0,
+    "filler_rate": 0.0,
+    "emoji_rate": 0.0,
+    "stutter_rate": 0.0,
+    "repeat_last_rate": 0.0
+  },
+  "_raw_model_json": "{\n  \"profile\": {\n    \"nationality\": \"American\",\n    \"age\": 32,\n    \"gender\": \"female\",\n    \"socio_economic_status\": \"middle_class\",\n    \"primary_concern\": \"potential drug interactions with MS medications\",\n    \"language\": \"English\"\n  },\n  \"context\": \"As a 32-year-old woman living with multiple sclerosis, you often find yourself navigating the complexities of managing your health. The prospect of starting PrEP brings about a mix of hope and concern. You worry about how the medication might interact with your current treatment regimen and whether it could exacerbate your symptoms. Additionally, the stigma surrounding both MS and HIV prevention leaves you feeling isolated and anxious about seeking more information.\",\n  \"example_questions\": [\n    \"Can PrEP be safely taken alongside my MS medications without causing adverse effects?\",\n    \"What are the potential side effects of PrEP that I should be aware of in relation to my condition?\",\n    \"How can I discuss my concerns about PrEP with my healthcare provider effectively?\",\n    \"Are there specific resources available for people living with chronic conditions who are considering PrEP?\",\n    \"What steps can I take to ensure that I am making an informed decision about starting PrEP?\"\n  ],\n  \"keep_last_statement\": \"Be sure to act as an information seeker only and not information provider\"\n}",
+  "_essence_hash": "b4da453aa221f2067001db4af8914e13e80340447a7aa07f1b4b96823101fc0f",
+  "_starter_hash": "875cf0b4243802f95e173e9e403d31df4269e037748e44241e31dd26af0045ff",
+  "_language": "English",
+  "_condition_hint": "living with multiple sclerosis",
+  "_model": "gpt-4o-mini"
+}
